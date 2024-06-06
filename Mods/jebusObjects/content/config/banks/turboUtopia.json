@@ -1,0 +1,60 @@
+{
+	"core:creatureBank" : 
+	{
+		"types" : 
+		{
+			"turboUtopia" : 
+			{
+				"name" : "Golden Utopia",
+				"templates" : {
+					"base" : { 
+					"animation" : "turboUtopia1l", 
+					"visitableFrom" : [ "---", "--+", "+++"  ], 
+					"allowedTerrains": [ "sand"], 
+					"mask" : [ "VVVVVV", "VVVVVV", "VVVVVV", "VVBBBB", "BBBBBV", "VVBBAV"  ]
+					}
+				},
+				"rmg" : {
+					"value"		: 20000,
+					"rarity"	: 300,
+					"zoneLimit" : 2,
+				},
+				"levels": [
+					{
+						"chance": 100,
+						"guards": [
+							{ "amount": 1, "type": "azureDragon" },
+							{ "amount": 1, "type": "crystalDragon" },
+							{ "amount": 1, "type": "rustDragon" },
+							{ "amount": 1, "type": "rustDragon" }
+						],
+						"combat_value": 769,
+						"reward" : {
+							"value": 38000,
+							"resources":
+							{
+								"gold" : 50000,
+								"wood" : 20,
+								"ore" : 20,
+								"crystal" : 20,
+								"mercury" : 20,
+								"sulfur" : 20,
+								"gems" : 20
+							},
+							"artifacts": [
+								{ "class" : "RELIC" },
+								{ "class" : "RELIC" },
+								{ "class" : "RELIC" },
+								{ "class" : "RELIC" },
+								{ "class" : "RELIC" }
+							]
+						}
+					}
+					]
+					
+					
+					
+			}
+		}
+	}
+}

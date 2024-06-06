@@ -1,0 +1,22 @@
+{
+  "core:heretic": {
+    "primarySkills" :
+	{
+		"attack"     : 1,
+		"defence"    : 1,
+		"spellpower" : 2,
+		"knowledge"  : 2
+	}
+  },
+  
+    "forge2k:cyborg2k": {
+    "primarySkills" :
+	{
+		"attack"     : 3,
+		"defence"    : 1,
+		"spellpower" : 1,
+		"knowledge"  : 1
+	}
+  },
+
+}

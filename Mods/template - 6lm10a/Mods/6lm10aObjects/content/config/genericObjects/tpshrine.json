@@ -1,0 +1,97 @@
+{
+	"core:shrineOfMagicLevel1" : 
+	{
+		"base" : {
+			"sounds" : {
+				"ambient" : ["LOOPSHRIN"],
+				"visit" : ["TEMPLE"]
+			}
+		},
+		"types" : 
+		{
+			"tpShrine" : 
+			{
+				"name" : "TP Shrine",
+				"templates" : {
+					"base" : { 
+					"animation" : "tpshrine", 
+					"visitableFrom" : [ "---", "+++", "+++"  ],
+					"mask" : [ "VV","VA" ]
+					}
+				},
+				"rmg" : {
+					"value"		: 15000,
+					"rarity"	: 9999,
+					"zoneLimit" : 1
+				},
+				
+				"compatibilityIdentifiers" : [ "object" ],
+				
+				"visitMode" : "limiter",
+				"visitedTooltip" : 354,
+				"description" : "Learn Town Portal",
+				"showScoutedPreview" : true,
+
+				"variables" : {
+					"spell" : {
+						"gainedSpell" : "townPortal"
+					}
+				},
+				"visitLimiter" : {
+					"spells" : [
+						"@gainedSpell"
+					]
+				},
+				"rewards" : [
+					{
+						"limiter" : {
+							"canLearnSpells" : [
+								"@gainedSpell"
+							],
+							"resources": {
+								"sulfur" : 5,
+								"crystal" : 5,
+								"mercury" : 5,
+								"gems" : 5	
+							}
+							
+						},
+						"resources": {
+							"sulfur" : -5,
+							"crystal" : -5,
+							"mercury" : -5,
+							"gems" : -5	
+						},
+						"spells" : [
+							"@gainedSpell"
+						],
+						"description" : "@core.genrltxt.355",
+						"message" : [ 127, "%s." ] // You learn new spell
+					}
+				],
+				"onVisitedMessage" : [ 127, "%s.", 174 ], // You already known this spell
+				"onEmpty" : [
+					{
+						"limiter" : {
+							"artifacts" : [
+								{
+									"type" : "spellBook"
+								}
+							]
+						},
+						"message" : [ 127, "%s.", 130 ] // No Wisdom
+					},
+					{
+						"message" : [ 127, "%s.", 131 ] // No spellbook
+					}
+				],
+				"canRefuse": true
+				
+					
+					
+			}	
+					
+						
+		}
+	}
+}

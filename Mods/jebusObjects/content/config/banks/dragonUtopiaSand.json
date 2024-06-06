@@ -1,0 +1,118 @@
+{
+	"core:creatureBank" : 
+	{
+		"types" : 
+		{
+			"dragonUtopiaSand" : 
+			{
+				"name" : "Dragon Utopia",
+				"templates" : {
+					"base" : { 
+					"animation" : "AvXThrn.def", 
+					"visitableFrom" : [ "---", "--+", "+++" ], 
+					"allowedTerrains": [ "sand" ], 
+					"mask" : ["VVVVVVV", "VVVVVVV", "VVVBBBB", "VBBBBBV", "VVVBBAV" ]
+					}
+				},
+				"rmg" : {
+					"value"		: 10000,
+					"rarity"	: 200
+				},
+				"levels": [
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 8, "type": "greenDragon" },
+							{ "amount": 5, "type": "redDragon" },
+							{ "amount": 2, "type": "goldDragon" },
+							{ "amount": 1, "type": "blackDragon" }
+						],
+						"combat_value": 769,
+						"reward" : {
+							"value": 38000,
+							"resources":
+							{
+								"gold" : 20000
+							},
+							"artifacts": [
+								{ "class" : "TREASURE" },
+								{ "class" : "MINOR" },
+								{ "class" : "MAJOR" },
+								{ "class" : "RELIC" }
+							]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 8, "type": "greenDragon" },
+							{ "amount": 6, "type": "redDragon" },
+							{ "amount": 3, "type": "goldDragon" },
+							{ "amount": 2, "type": "blackDragon" }
+						],
+						"combat_value": 209,
+						"reward" : {
+							"value": 57000,
+							"resources":
+							{
+								"gold" : 30000
+							},
+							"artifacts": [
+								{ "class" : "MINOR" },
+								{ "class" : "MAJOR" },
+								{ "class" : "RELIC" },
+								{ "class" : "RELIC" }
+							]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 8, "type": "greenDragon" },
+							{ "amount": 6, "type": "redDragon" },
+							{ "amount": 4, "type": "goldDragon" },
+							{ "amount": 3, "type": "blackDragon" }
+						],
+						"combat_value": 556,
+						"reward" : {
+							"value": 75000,
+							"resources":
+							{
+								"gold" : 40000
+							},
+							"artifacts": [
+								{ "class" : "MAJOR" },
+								{ "class" : "RELIC" },
+								{ "class" : "RELIC" },
+								{ "class" : "RELIC" }
+							]
+						}
+					},
+					{
+						"chance": 10,
+						"guards": [
+							{ "amount": 8, "type": "greenDragon" },
+							{ "amount": 7, "type": "redDragon" },
+							{ "amount": 6, "type": "goldDragon" },
+							{ "amount": 5, "type": "blackDragon" }
+						],
+						"combat_value": 343,
+						"reward" : {
+							"value": 90000,
+							"resources":
+							{
+								"gold" : 50000
+							},
+							"artifacts": [
+								{ "class" : "RELIC" },
+								{ "class" : "RELIC" },
+								{ "class" : "RELIC" },
+								{ "class" : "RELIC" }
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

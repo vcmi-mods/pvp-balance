@@ -1,0 +1,134 @@
+{
+  "core:sorcery": {
+		"basic" : {
+			"description": "{Basic Sorcery}\n\nCauses a hero's spells to inflict an additional 10% damage in combat.",
+			"effects" : {
+				"main" : { "val" : 10}
+			}
+		},
+		"advanced" : {
+			"description": "{Basic Sorcery}\n\nCauses a hero's spells to inflict an additional 20% damage in combat.",
+			"effects" : {
+				"main" : { "val" : 20 }
+			}
+		},
+		"expert" : {
+			"description": "{Basic Sorcery}\n\nCauses a hero's spells to inflict an additional 30% damage in combat.",
+			"effects" : {
+				"main" : { "val" : 30 }
+			}
+		}
+	},
+	
+  "core:learning": {
+		"base": {
+			"effects": {
+				"main" : {
+					"type" : "HERO_EXPERIENCE_GAIN_PERCENT",
+					"valueType" : "PERCENT_TO_BASE"
+				},
+				
+				"extra": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.knowledge"
+				}
+			}
+		},
+		
+		"basic" : {
+			"description": "{Basic Learning}\n\nIncreases hero's earned experience by 10%.",
+			"effects" : {
+				"main" : { "val" : 10}
+			}
+		},
+		"advanced" : {
+			"description": "{Basic Learning}\n\nIncreases hero's earned experience by 20% and increases knowledge skill by 1.",
+			"effects" : {
+				"main" : { "val" : 20 },
+				"extra": {"val": 1}
+			}
+		},
+		"expert" : {
+			"description": "{Basic Learning}\n\nIncreases hero's earned experience by 30% and increases knowledge skill by 2.",
+			"effects" : {
+				"main" : { "val" : 30 },
+				"extra": {"val": 2}
+			}
+		}
+	},
+	
+   "tides-of-war.skills:intimidation": {
+		"name" : "Intimidation",
+		"gainChance" : {
+			"might" : 6,
+			"magic" : 4 
+		},
+		"base" : {
+			"effects" : {
+				"main" : {
+					"type" : "MORALE",
+					"propagator": "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [ "OPPOSITE_SIDE" ],
+					"val":0
+				},
+				
+				"minusLuck" : {
+					"type" : "LUCK",
+					"propagator": "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [ "OPPOSITE_SIDE" ],
+					"val":0
+				},
+				
+				"minusAttack" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack",
+					"propagator": "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [ "OPPOSITE_SIDE" ],
+					"val":0
+				},
+			}
+		},
+		"basic" : {
+			"images" : {
+				"small" : "skills/intimidation/intimidationSmallBasic",
+				"medium" : "skills/intimidation/intimidationMediumBasic",
+				"large" : "skills/intimidation/intimidationLargeBasic"
+			},
+			"description" : "{Basic Intimidation}\n\nReduces opponent's Attack by 2.",
+			"effects" : {
+		
+				"main" : { "val" : 0 },
+				"minusAttack" : { "val" : -2 }
+			}
+		},
+		"advanced" : {
+			"images" : {
+				"small" : "skills/intimidation/intimidationSmallAdvanced",
+				"medium" : "skills/intimidation/intimidationMediumAdvanced",
+				"large" : "skills/intimidation/intimidationLargeAdvanced"
+			},
+			"description" : "{Advanced intimidation}\n\nReduces opponent's Attack by 2 and Luck by 1.",
+			"effects" : {
+				"main" : { "val" : 0 },
+				"minusLuck" : { "val" : -1 },
+				"minusAttack" : { "val" : -2 }
+			}
+		},
+		"expert" : {
+			"images" : {
+				"small" : "skills/intimidation/intimidationSmallExpert",
+				"medium" : "skills/intimidation/intimidationMediumExpert",
+				"large" : "skills/intimidation/intimidationLargeExpert"
+			},
+			"description" : "{Expert Intimidation}\n\nReduces opponent's Attack by 2, Luck by 1 and Morale by 1.",
+			"effects" : {
+				"main" : { "val" : -1 },
+				"minusLuck" : { "val" : -1 },
+				"minusAttack" : { "val" : -2 }
+			}
+		}
+	}
+}

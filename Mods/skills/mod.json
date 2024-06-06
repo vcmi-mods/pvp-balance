@@ -1,0 +1,47 @@
+{
+    "name" : "Skills",
+
+    "description" : "Rebalanced skills for PvP.",
+
+    "author" : "wnukos",
+
+    "licenseName" : "Creative Commons Attribution-ShareAlike",
+
+    "licenseURL" : "https://creativecommons.org/licenses/by-sa/4.0/",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Mechanics",
+    
+    "depends" : 
+	[
+		"hota.cove",
+		"forge2k",
+		"ruins-town",
+		"tides-of-war.skills",
+		"new-pavilion"
+	],
+	
+    "skills" : [
+    "config/modifiedSkills.json"
+  ],
+
+    "heroClasses": [
+    "config/classes.json"
+  ],
+   
+	
+    "version" : "1.0",
+ 
+    "changelog" :
+    {
+        "1.0"   : [ "Initial release."]
+    },
+
+	"compatibility" :
+	{
+		"min" : "1.5.2"
+	},
+	
+    "keepDisabled" : false
+}

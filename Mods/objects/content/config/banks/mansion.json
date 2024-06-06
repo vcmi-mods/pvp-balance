@@ -1,0 +1,111 @@
+{
+	"core:creatureBank" : 
+	{
+		"types" : 
+		{
+			"mansion" : 
+			{
+				
+				"rmg" : {
+					"value"		: 5000,
+					"rarity"	: 50
+				},
+				"levels":
+				[
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 8, "type" : "vampireLord" },
+							{ "amount": 8, "type" : "vampireLord" },
+							{ "amount": 8, "type" : "vampireLord"},
+							{ "amount": 8, "type" : "vampireLord" },
+							{ "amount": 8, "type" : "vampireLord" }
+						],
+						"combat_value": 15000,
+						"reward" : {
+							"value": 10000,
+							"resources": 
+							{
+								"gold" : 2500,
+								"mercury": 2,
+								"sulfur": 2,
+								"gems" : 2,
+								"crystal" : 2		
+							},
+							"artifacts": [ { "class" : "MAJOR" } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 12, "type" : "vampireLord" },
+							{ "amount": 12, "type" : "vampireLord" },
+							{ "amount": 12, "type" : "vampireLord"},
+							{ "amount": 12, "type" : "vampireLord" },
+							{ "amount": 12, "type" : "vampireLord" }
+						],
+						"combat_value": 15000,
+						"reward" : {
+							"value": 10000,
+							"resources": 
+							{
+								"gold" : 5000,
+								"mercury": 3,
+								"sulfur": 3,
+								"gems" : 3,
+								"crystal" : 3		
+							},
+							"artifacts": [ { "class" : "MAJOR" } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 16, "type" : "vampireLord" },
+							{ "amount": 16, "type" : "vampireLord" },
+							{ "amount": 16, "type" : "vampireLord"},
+							{ "amount": 16, "type" : "vampireLord" },
+							{ "amount": 16, "type" : "vampireLord" }
+						],
+						"combat_value": 15000,
+						"reward" : {
+							"value": 10000,
+							"resources": 
+							{
+								"gold" : 7500,
+								"mercury": 4,
+								"sulfur": 4,
+								"gems" : 4,
+								"crystal" : 4		
+							},
+							"artifacts": [ { "class" : "MAJOR" } ]
+						}
+					},
+					{
+						"chance": 10,
+						"guards": [
+							{ "amount": 20, "type" : "vampireLord" },
+							{ "amount": 20, "type" : "vampireLord" },
+							{ "amount": 20, "type" : "vampireLord"},
+							{ "amount": 20, "type" : "vampireLord" },
+							{ "amount": 20, "type" : "vampireLord" }
+						],
+						"combat_value": 15000,
+						"reward" : {
+							"value": 10000,
+							"resources": 
+							{
+								"gold" : 10000,
+								"mercury": 5,
+								"sulfur": 5,
+								"gems" : 5,
+								"crystal" : 5		
+							},
+							"artifacts": [ { "class" : "MAJOR" } ]
+						}
+					}
+				]
+			}
+		}
+	}
+}

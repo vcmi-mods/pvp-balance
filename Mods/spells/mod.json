@@ -1,0 +1,38 @@
+{
+	"name" : "Spells",
+	"description" : "Spell balance for PvP.",
+	"author" : "wnukos",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+
+	"licenseURL" : "https://creativecommons.org/licenses/by-sa/4.0/",
+
+	"contact" : "wnukos on Discord",
+	"version" : "1.0",
+	"modType" : "Spells",	
+
+	"spells" :
+	[
+		"spells.json"
+	],
+	"depends" : 
+	[
+		"forge2k",
+		"ruins-town",
+		"hota.cove",
+		"tides-of-war.spells"
+	],
+	
+	"version" : "1.0",
+	"changelog" :
+	{
+	"1.0"   : [ "Initial release."]
+	},
+
+	"compatibility" :
+	{
+		"min" : "1.5.2"
+	},
+	
+	"keepDisabled" : false
+
+}

@@ -1,0 +1,21 @@
+{
+  "core:adela": {"special":true},
+  "core:cyra": {"special":true},
+  "core:ryland": {"special":true},
+  "core:thorgrim": {"special":true},
+  "core:piquedram": {"special":true},
+  "core:straker": {"special":true},
+  "core:ufretin": {"special":true},
+  "core:sylvia": {"special":true},
+  "core:voy": {"special":true},
+  "core:sirMullich": {"special":true},
+  "ruins-town:15rn_thar":{"special" : true },
+  "hota.cove:04elmore" : { "special" : true },
+  "hota.cove:bidley" : { "special" : true },
+  "hota.cove:tark" : { "special" : true },
+  "new-pavilion:cassandra":{"special" : true },
+  "new-pavilion:keila":{"special" : true },
+  "new-pavilion:seref":{"special" : true },
+  "new-pavilion:zamonth":{"special" : true },
+  "new-pavilion:osir":{"special" : true }
+}

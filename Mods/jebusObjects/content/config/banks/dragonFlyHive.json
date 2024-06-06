@@ -1,0 +1,62 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"dragonFlyHive" : {
+				"resetDuration" : 0,
+				"rmg" : {
+					"value"		: 9000,
+					"rarity"	: 100
+				},
+				"levels": [
+					{
+						"chance": 40,
+						"guards": [
+							{ "amount": 9, "type": "fireDragonFly" },
+							{ "amount": 9, "type": "fireDragonFly" },
+							{ "amount": 9, "type": "fireDragonFly" },
+							{ "amount": 9, "type": "fireDragonFly" },
+							{ "amount": 9, "type": "fireDragonFly" }
+						],
+						"combat_value": 230,
+						"reward" : {
+							"value": 4800,
+							"creatures": [ { "amount": 6, "type": "wyvern" } ]
+						}
+					},
+					{
+						"chance": 40,
+						"guards": [
+							{ "amount": 12, "type": "fireDragonFly" },
+							{ "amount": 12, "type": "fireDragonFly" },
+							{ "amount": 12, "type": "fireDragonFly" },
+							{ "amount": 12, "type": "fireDragonFly" },
+							{ "amount": 12, "type": "fireDragonFly" }
+						],
+						"combat_value": 307,
+						"reward" : {
+							"value": 6400,
+							"creatures": [ { "amount": 8, "type": "wyvern" } ]
+						}
+					},
+					{
+						"chance": 20,
+						"guards": [
+							{ "amount": 18, "type": "fireDragonFly" },
+							{ "amount": 18, "type": "fireDragonFly" },
+							{ "amount": 18, "type": "fireDragonFly" },
+							{ "amount": 18, "type": "fireDragonFly" },
+							{ "amount": 18, "type": "fireDragonFly" }
+						],
+						"combat_value": 461,
+						"reward" : {
+							"value": 9600,
+							"creatures": [ { "amount": 12, "type": "wyvern" } ]
+						}
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,1137 @@
+{
+  
+  "core:gem":
+	{
+		"spellbook": [ "bless" ]
+		
+	},
+	
+  "forge2k:agar2k":
+	{
+		"skills":
+		[
+			{ "level" : "advanced", "skill" : "wisdom"  }
+			
+		],
+		
+		"army" :
+		[
+			{
+				"creature" : "gruntSoldier2k",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "cyberDead2k",
+				"max" : 7,
+				"min" : 5
+			},
+			{
+				"creature" : "pyro2k",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+		
+	},
+	
+  "forge2k:deckard2k":
+	{
+		"texts" :
+		{
+			"name" : "Deckard",
+			"biography" : "Deckard's state-of-the-art heavy armor fully lives up to its expectations. The mere sight of this impregnable cyborg on the battlefield can fill his troops with strength to weather the onslaught of bullets and blows.",
+			"specialty" :
+			{
+				"description" : "{Armorer}\r\n\r\nReceives a 5% per level bonus to Armorer skill percentage.",
+				"tooltip" : "Secondary Skill Bonus: Armorer",
+				"name" : "Armorer"
+			}
+		},
+		
+		"army" :
+		[
+			{
+				"creature" : "gruntSoldier2k",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "cyberDead2k",
+				"max" : 7,
+				"min" : 5
+			},
+			{
+				"creature" : "pyro2k",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+		
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			},
+			{
+				"level" : "basic",
+				"skill" : "interference"
+			}
+		],
+		
+		        "specialty": 
+		{
+			"bonuses" : {
+				"armorer" : {
+					"subtype" : "damageTypeAll",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					"updater" : "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+		
+	},
+  
+    "forge2k:charity2k":
+	{
+		"texts" :
+		{
+			"name" : "Charity",
+			"biography" : "After the Succession Wars, Charity left the continent of Enroth, lusting after more excitement and conflict. Eventually, she was attracted to the roaring call of the Heavenly Forge, like a moth drawn to the flame.",
+			"specialty" :
+			{
+				"description" : "{Sorcery}\r\n\r\nReceives a 5% per level bonus to Sorcery skill percentage.",
+				"tooltip" : "Secondary Skill Bonus: Sorcery",
+				"name" : "Sorcery"
+			}
+		},
+		
+		"army" :
+		[
+			{
+				"creature" : "gruntSoldier2k",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "cyberDead2k",
+				"max" : 7,
+				"min" : 5
+			},
+			{
+				"creature" : "pyro2k",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+		
+		 "specialty": 
+		{
+			"bonuses" : {
+				"sorcery" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "SPELL_DAMAGE",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					"updater" : "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+		
+	},
+	
+    "forge2k:everest2k":
+	{
+		"texts" :
+		{
+			"name" : "Everest",
+			"biography" : "Everest was banished from Bracada for taking over wizads' golems and other animated servants. In the more turbulent circles of Techno Junkies, his impulses stopped sparking controversy, allowing him to perfect the art of controlling magical constructs.",
+			"specialty" :
+			{
+				"description" : "{Mysticism}\r\n\r\nReceives a 5% per level bonus to Mysticism skill percentage.",
+				"tooltip" : "Secondary Skill Bonus: Mysticism",
+				"name" : "Mysticism"
+			}
+		},
+		
+		"army" :
+		[
+			{
+				"creature" : "gruntSoldier2k",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "cyberDead2k",
+				"max" : 7,
+				"min" : 5
+			},
+			{
+				"creature" : "pyro2k",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+		
+		"spellbook" :
+		[
+			"shield",
+			"bloodlust"
+		],
+		
+		
+		
+		
+	},
+	
+	
+    "forge2k:flamius2k":
+	{
+		"army" :
+		[
+			{
+				"creature" : "gruntSoldier2k",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "pyro2k",
+				"max" : 4,
+				"min" : 3
+			},
+			{
+				"creature" : "pyro2k",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+		
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			}
+		]
+		
+	},
+	
+    "forge2k:jules2k":
+	{
+		"army" :
+		[
+			{
+				"creature" : "gruntSoldier2k",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "cyberDead2k",
+				"max" : 7,
+				"min" : 5
+			},
+			{
+				"creature" : "pyro2k",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+		
+	},
+	
+    "forge2k:leanne2k":
+	{
+		"army" :
+		[
+			{
+				"creature" : "gruntSoldier2k",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "cyberDead2k",
+				"max" : 7,
+				"min" : 5
+			},
+			{
+				"creature" : "pyro2k",
+				"max" : 4,
+				"min" : 3
+			}
+		]
+		
+	},
+	
+     "forge2k:sheikleen2k":
+	{
+		"texts" :
+		{
+			"name" : "Sheikleen",
+			"biography" : "Enigmas like Sheikleen are not uncommon in the ranks of the Heavenly Forge. She emerged one day among the chain of command and her directives won battles, so she was universally deemed a useful asset. Still, there's always an ulterior motive with these kind of people.",
+			"specialty" :
+			{
+				"description" : "{Intelligence}\r\n\r\nReceives a 5% per level bonus to Intelligence skill percentage.",
+				"tooltip" : "Secondary Skill Bonus: Intelligence",
+				"name" : "Intelligence"
+			}
+		},
+		
+		"army" :
+		[
+			{
+				"creature" : "gruntSoldier2k",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "cyberDead2k",
+				"max" : 7,
+				"min" : 5
+			},
+			{
+				"creature" : "pyro2k",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+		
+		"specialty": 
+		{
+			"bonuses" : {
+				"intelligence" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "MANA_PER_KNOWLEDGE_PERCENTAGE",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE",
+					"updater" : "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+		
+	},
+	
+      "forge2k:sprinter2k":
+	{
+		"army" :
+		[
+			{
+				"creature" : "gruntSoldier2k",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "gruntSoldier2k",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "gruntSoldier2k",
+				"max" : 25,
+				"min" : 15
+			}
+		],
+
+		
+	},
+	
+       "forge2k:singhell2k":
+	{
+		"army" :
+		[
+			{
+				"creature" : "cyberDead2k",
+				"max" : 7,
+				"min" : 5
+			},
+			{
+				"creature" : "cyberDead2k",
+				"max" : 7,
+				"min" : 5
+			},
+			{
+				"creature" : "cyberDead2k",
+				"max" : 7,
+				"min" : 5
+			}
+		],
+		
+		"skills":
+		[
+			{ "level" : "advanced", "skill" : "tactics"  }
+			
+		]
+		
+	},
+	
+       "forge2k:rengust2k":
+	{
+		"army" :
+		[
+			{
+				"creature" : "gruntSoldier2k",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "cyberDead2k",
+				"max" : 7,
+				"min" : 5
+			},
+			{
+				"creature" : "stringer2k",
+				"max" : 2,
+				"min" : 2
+			}
+		],
+		
+		
+	},
+	
+        "forge2k:sturm2k":
+	{
+		"army" :
+		[
+			{
+				"creature" : "gruntSoldier2k",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "cyberDead2k",
+				"max" : 7,
+				"min" : 5
+			},
+			{
+				"creature" : "pyro2k",
+				"max" : 4,
+				"min" : 3
+			}
+		]
+		
+
+		
+		
+	},
+	
+     "forge2k:sunnith2k":
+	{
+		"army" :
+		[
+			{
+				"creature" : "gruntSoldier2k",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "cyberDead2k",
+				"max" : 7,
+				"min" : 5
+			},
+			{
+				"creature" : "pyro2k",
+				"max" : 4,
+				"min" : 3
+			}
+		]
+		
+		
+	},
+	
+"forge2k:cistrict2k":
+	{
+		"army" :
+		[
+			{
+				"creature" : "gruntSoldier2k",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "cyberDead2k",
+				"max" : 7,
+				"min" : 5
+			},
+			{
+				"creature" : "pyro2k",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+		
+		"texts" :
+		{
+			"name" : "Cistrict",
+			"biography" : "Cistrict's abilities and great ambition brought upon him the wrath of many Nighon Warlocks. When the Heavenly Forge blazed anew, he found himself before its gates, to seek restoration of the body ravaged by magic duels.",
+			"specialty" :
+			{
+				"description" : "{Interference}\r\n\r\nReceives a 5% per level bonus to Interference skill percentage.",
+				"tooltip" : "Secondary Skill Bonus: Interference",
+				"name" : "Interference"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtyLarge" : "specialtyLarge.png",
+			"specialtySmall" : "specialtySmall.png"
+		},
+		
+		"skills" : 
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			
+			{
+				"level" : "basic",
+				"skill" : "interference"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"interference" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.spellpower",
+					"val" : -15,
+					"valueType" : "PERCENT_TO_BASE",
+					"updater" : {
+						"type" : "GROWS_WITH_LEVEL",
+					   "parameters" : [ 10 ]
+					},
+					"propagator": "BATTLE_WIDE",
+					"limiters" : [ "OPPOSITE_SIDE" ]
+				}
+			}
+		}
+	},
+	
+"forge2k:elthas2k":
+	{
+		"army" :
+		[
+			{
+				"creature" : "gruntSoldier2k",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "cyberDead2k",
+				"max" : 7,
+				"min" : 5
+			},
+			{
+				"creature" : "pyro2k",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+		
+		
+		
+		
+	},
+	
+"forge2k:kastore2k":
+	{
+		
+		"army" :
+		[
+			{
+				"creature" : "gruntSoldier2k",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "cyberDead2k",
+				"max" : 7,
+				"min" : 5
+			},
+			{
+				"creature" : "pyro2k",
+				"max" : 4,
+				"min" : 3
+			}
+		]
+		
+	},
+
+"ruins-town:02rn_gobni":
+	{
+		"army": [
+			{
+				"creature": "rn_creature_lvl2",
+				"max": 9,
+				"min": 7
+			},
+			{
+				"creature": "rn_creature_lvl2",
+				"max": 9,
+				"min": 7
+			},
+			{
+				"creature": "rn_creature_lvl2",
+				"max": 9,
+				"min": 7
+			}
+		],
+		
+		
+		
+		
+	},
+	
+"ruins-town:03rn_grimm":
+	{
+		"army": [
+			{
+				"creature": "rn_creature_lvl1",
+				"max": 25,
+				"min": 15
+			},
+			{
+				"creature": "rn_creature_lvl2",
+				"max": 9,
+				"min": 7
+			},
+			{
+				"creature": "rn_creature_lvl3",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+		
+		"skills": [
+			{
+				"level": "basic",
+				"skill": "logistics"
+			},
+			{
+				"level": "basic",
+				"skill": "armorer"
+			}
+		],
+		
+		
+		
+		
+	},
+	
+"ruins-town:05rn_herian":
+	{
+		"army": [
+			{
+				"creature": "rn_creature_lvl1",
+				"max": 25,
+				"min": 15
+			},
+			{
+				"creature": "rn_creature_lvl3",
+				"max": 6,
+				"min": 4
+			},
+			{
+				"creature": "rn_creature_lvl3",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+		
+		"skills": [
+			{
+				"level": "basic",
+				"skill": "archery"
+			},
+			{
+				"level": "basic",
+				"skill": "armorer"
+			}
+		]
+		
+		
+		
+		
+		
+	},
+	
+"ruins-town:09rn_horae":
+	{
+		"army": [
+			{
+				"creature": "rn_creature_lvl1",
+				"max": 25,
+				"min": 15
+			},
+			{
+				"creature": "rn_creature_lvl2",
+				"max": 9,
+				"min": 7
+			},
+			{
+				"creature": "rn_creature_lvl3",
+				"max" : 6,
+				"min" : 4
+			}
+		]
+		
+		
+		
+		
+		
+	},
+	
+"ruins-town:06rn_hughes":
+	{
+		"skills": [
+			{
+				"level": "basic",
+				"skill": "armorer"
+			},
+			{
+				"level": "basic",
+				"skill": "tactics"
+			}
+		]
+		
+		
+		
+		
+	},
+	
+"ruins-town:rn_neit":
+	{
+		"skills": [
+			{
+				"level": "basic",
+				"skill": "offence"
+			},
+			{
+				"level": "basic",
+				"skill": "armorer"
+			}
+		]
+		
+		
+		
+		
+	},
+
+"ruins-town:rn_nodens":
+	{
+		"army": [
+			{
+				"creature": "rn_creature_lvl1",
+				"max": 25,
+				"min": 15
+			},
+			{
+				"creature": "rn_creature_lvl2",
+				"max": 9,
+				"min": 7
+			},
+			{
+				"creature": "rn_creature_lvl3",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+		
+		"skills": [
+			{
+				"level": "advanced",
+				"skill": "armorer"
+			}
+		],
+		
+		
+		
+		
+	},
+	
+"new-pavilion:amanra":
+	{
+		"army" :
+		[
+		{
+			"creature" : "whipper",
+			"max" : 25,
+			"min" : 15
+		},
+		{
+			"creature" : "wadjet",
+			"max" : 9,
+			"min" : 7
+		},
+		{
+			"creature" : "camelRider",
+			"max" : 5,
+			"min" : 3
+			}
+		]
+		
+		
+		
+		
+		
+		
+	},
+
+"new-pavilion:amesh":
+	{
+		"army" :
+		[
+		{
+			"creature" : "whipper",
+			"max" : 25,
+			"min" : 15
+		},
+		{
+			"creature" : "wadjet",
+			"max" : 9,
+			"min" : 7
+		},
+		{
+			"creature" : "camelRider",
+			"max" : 5,
+			"min" : 3
+			}
+		]
+		
+		
+		
+		
+		
+		
+	},
+	
+"new-pavilion:azarias":
+	{
+		"army" :
+		[
+		{
+			"creature" : "wadjet",
+			"max" : 9,
+			"min" : 7
+		},
+		{
+			"creature" : "wadjet",
+			"max" : 9,
+			"min" : 7
+		},
+		{
+			"creature" : "wadjet",
+			"max" : 9,
+			"min" : 7
+			}
+		]
+		
+		
+		
+		
+		
+		
+	},
+	
+"new-pavilion:elspeth":
+	{
+		"army" :
+		[
+		{
+			"creature" : "whipper",
+			"max" : 25,
+			"min" : 15
+		},
+		{
+			"creature" : "wadjet",
+			"max" : 9,
+			"min" : 7
+		},
+		{
+			"creature" : "camelRider",
+			"max" : 5,
+			"min" : 3
+			}
+		]
+		
+		
+		
+		
+		
+		
+	},
+	
+"new-pavilion:gideon":
+	{
+		"army" :
+		[
+		{
+			"creature" : "whipper",
+			"max" : 25,
+			"min" : 15
+		},
+		{
+			"creature" : "wadjet",
+			"max" : 9,
+			"min" : 7
+		},
+		{
+			"creature" : "camelRider",
+			"max" : 5,
+			"min" : 3
+			}
+		]
+		
+		
+		
+		
+		
+		
+	},
+	
+"new-pavilion:jaffa":
+	{
+		"army" :
+		[
+		{
+			"creature" : "whipper",
+			"max" : 25,
+			"min" : 15
+		},
+		{
+			"creature" : "wadjet",
+			"max" : 9,
+			"min" : 7
+		},
+		{
+			"creature" : "camelRider",
+			"max" : 5,
+			"min" : 3
+			}
+		]
+		
+		
+		
+		
+		
+		
+	},
+	
+"new-pavilion:ko-Eset":
+	{
+		"army" :
+		[
+		{
+			"creature" : "whipper",
+			"max" : 25,
+			"min" : 15
+		},
+		{
+			"creature" : "wadjet",
+			"max" : 9,
+			"min" : 7
+		},
+		{
+			"creature" : "camelRider",
+			"max" : 5,
+			"min" : 3
+			}
+		]
+		
+		
+		
+		
+		
+		
+	},
+	
+"new-pavilion:menet":
+	{
+		"army" :
+		[
+		{
+			"creature" : "whipper",
+			"max" : 25,
+			"min" : 15
+		},
+		{
+			"creature" : "wadjet",
+			"max" : 9,
+			"min" : 7
+		},
+		{
+			"creature" : "camelRider",
+			"max" : 5,
+			"min" : 3
+			}
+		]
+		
+		
+		
+		
+		
+		
+	},
+	
+"new-pavilion:osir":
+	{
+		"army" :
+		[
+		{
+			"creature" : "whipper",
+			"max" : 25,
+			"min" : 15
+		},
+		{
+			"creature" : "wadjet",
+			"max" : 9,
+			"min" : 7
+		},
+		{
+			"creature" : "camelRider",
+			"max" : 5,
+			"min" : 3
+			}
+		]
+		
+		
+		
+		
+		
+		
+	},
+	
+"new-pavilion:peth-Shub":
+	{
+		"army" :
+		[
+		{
+			"creature" : "whipper",
+			"max" : 25,
+			"min" : 15
+		},
+		{
+			"creature" : "wadjet",
+			"max" : 9,
+			"min" : 7
+		},
+		{
+			"creature" : "camelRider",
+			"max" : 5,
+			"min" : 3
+			}
+		]
+		
+		
+		
+		
+		
+		
+	},
+	
+"new-pavilion:sekhem":
+	{
+		"army" :
+		[
+		{
+			"creature" : "whipper",
+			"max" : 25,
+			"min" : 15
+		},
+		{
+			"creature" : "wadjet",
+			"max" : 9,
+			"min" : 7
+		},
+		{
+			"creature" : "camelRider",
+			"max" : 5,
+			"min" : 3
+			}
+		]
+		
+		
+		
+		
+		
+		
+	},
+	
+"new-pavilion:varn":
+	{
+		"army" :
+		[
+		{
+			"creature" : "whipper",
+			"max" : 25,
+			"min" : 15
+		},
+		{
+			"creature" : "wadjet",
+			"max" : 9,
+			"min" : 7
+		},
+		{
+			"creature" : "camelRider",
+			"max" : 5,
+			"min" : 3
+			}
+		],
+		
+		"special" : false
+		
+		
+		
+		
+		
+		
+	},
+	
+  "tides-of-war.heroes:eyzeaDemoniac":
+	{
+		"skills" : [
+			{
+				"skill" : "intimidation",
+				"level" : "advanced"
+			}
+		],
+		
+		"army" : [
+			{
+				"creature" : "imp",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "hellHound",
+				"min" : 2,
+				"max" : 3
+			},
+			{
+				"creature" : "mdtSukkub",
+				"min" : 4,
+				"max" : 7
+			}
+		],
+		
+	},
+	
+
+	
+	
+	
+	
+		
+		
+		
+	
+
+  
+}

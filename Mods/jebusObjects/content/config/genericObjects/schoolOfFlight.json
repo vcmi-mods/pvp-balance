@@ -1,0 +1,14 @@
+{
+	"new-pavilion.dunes-terrain:schoolOfFlight" :
+	{
+		"types":
+		{
+			"schoolOfFlight" : {
+				"rmg" : {
+					"value"	: 99999,
+					"rarity" : 1,
+				}
+			}
+		}
+	}
+}

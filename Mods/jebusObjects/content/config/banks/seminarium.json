@@ -1,0 +1,15 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"mdtSeminarium" :
+			{		
+				"rmg" : {
+					"value" : 99999,
+					"rarity" : 1
+				}
+			}
+		}
+	}
+}

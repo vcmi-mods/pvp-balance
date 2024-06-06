@@ -1,0 +1,31 @@
+{
+    "name" : "Template - 6lm10a",
+
+    "description" : "Modified version of 6lm10a template, adjusted to contemporary meta of PvP games. Introduces five variants of 6lm10a with different zone connections.",
+
+    "author" : "wnukos",
+
+    "licenseName" : "Creative Commons Attribution-ShareAlike",
+
+    "licenseURL" : "https://creativecommons.org/licenses/by-sa/4.0/",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Templates",
+	
+	"templates" : [ "6lm10a-ver1.json", "6lm10a-ver2.json", "6lm10a-ver3.json", "6lm10a-ver4.json", "6lm10a-ver5.json" ],
+	
+	"version" : "1.0",
+ 
+    "changelog" :
+    {
+        "1.0"   : [ "initial release" ]
+    },
+
+	"compatibility" :
+	{
+		"min" : "1.5.2"
+	},
+	
+    "keepDisabled" : true
+}

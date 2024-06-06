@@ -1,0 +1,110 @@
+{
+	"seymour2k" :
+	{
+		"class" : "technoJunk2k",
+		"female" : false,
+		"texts" :
+		{
+			"name" : "Seymour",
+			"biography" : "Seymour has been repeatedly mistaken for Kastore because of his appearance and the fact that he has access to a portable replicator. Thanks to the latter, he is able to supply reinforcements outside the armories of the Heavenly Forge.",
+			"specialty" :
+			{
+				"tooltip" : "Bonus: Creature upgrade",
+				"name" : "Forge",
+				"description" : "{Forge}\r\n\r\nCan upgrade goblins, hobgoblins, walking dead, zombies, gogs and magogs to Forge t1 - t3 creatures."
+			}
+		},		
+
+		"images" :
+		{
+			"specialtyLarge" : "forgeLarge.bmp",
+			"specialtySmall" : "forgeSmall.bmp",
+			"large" : "portrait-large",
+			"small" : "portrait-small"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "gruntSoldier2k",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "cyberDead2k",
+				"max" : 7,
+				"min" : 5
+			},
+			{
+				"creature" : "pyro2k",
+				"max" : 5,
+				"min" : 3
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "learning"
+			}
+		],
+		
+		"spellbook": [ "stoneSkin" ],
+
+		"specialty" :
+		{
+			"bonuses" :
+			{
+				"goblin2gruntSoldier" :
+				{
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "creature.goblin",
+					"addInfo" : "creature.gruntSoldier2k"
+				},
+				
+				"hobgoblin2gruntSoldier" :
+				{
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "creature.hobgoblin",
+					"addInfo" : "creature.gruntSoldier2k"
+				},
+				
+				"walkingDead2cyberDead" :
+				{
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "creature.walkingDead",
+					"addInfo" : "creature.cyberDead2k"
+				},
+				
+				"Zombie2cyberDead" :
+				{
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "creature.zombieLord",
+					"addInfo" : "creature.cyberDead2k"
+				},
+				
+				"gog2pyro" :
+				{
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "creature.gog",
+					"addInfo" : "creature.pyro2k"
+				},
+				
+				"magog2pyro" :
+				{
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "creature.magog",
+					"addInfo" : "creature.pyro2k"
+				},
+				
+				
+				
+			}
+		}
+	}
+}

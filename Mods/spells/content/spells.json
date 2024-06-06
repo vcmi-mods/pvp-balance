@@ -1,0 +1,589 @@
+{
+	"core:summonBoat" : {
+		"gainChance":
+		{
+			"castle" : 0,
+			"rampart" : 0,
+			"tower" : 0,
+			"inferno" : 0,
+			"necropolis" : 0,
+			"dungeon" : 0,
+			"conflux" : 0,
+			"cove" : 0,
+			"forge2k" : 0,
+			"ruins" : 0
+		},
+		
+		"flags" : {
+			"special" : true
+		}
+
+	},
+	"core:scuttleBoat" : {
+		"gainChance":
+		{
+			"castle" : 0,
+			"rampart" : 0,
+			"tower" : 0,
+			"inferno" : 0,
+			"necropolis" : 0,
+			"dungeon" : 0,
+			"conflux" : 0,
+			"cove" : 0,
+			"forge2k" : 0,
+			"ruins" : 0
+		},
+		
+		"flags" : {
+			"special" : true
+		}
+	},
+	"core:waterWalk" : {
+		"gainChance":
+		{
+			"castle" : 0,
+			"rampart" : 0,
+			"tower" : 0,
+			"inferno" : 0,
+			"necropolis" : 0,
+			"dungeon" : 0,
+			"conflux" : 0,
+			"cove" : 0,
+			"forge2k" : 0,
+			"ruins" : 0
+		},
+		
+		"flags" : {
+			"special" : true
+		}
+	},
+	"core:fireball" : {
+		"power" : 20
+	},
+	
+	"core:frostRing" : {
+		"power" : 20
+	},
+	
+	"core:inferno" : {
+		"power" : 20
+	},
+	
+	"core:clone" : {
+		"level": 3,
+		"levels" : {
+			"none": {
+				"cost": 24
+			},
+			"base" : {
+				"cost": 20
+			},
+			"advanced" : {
+				"cost": 16
+			},
+			"expert" : {
+				"cost": 12
+			}
+		}
+	},
+	
+	"core:slayer" : {
+		"level": 3,
+		"levels" : {
+			"none":{
+				"description": "Target allied troop's attack rating is increased by 8 against behemoths, dragons and hydras.",
+				"cost": 16,
+				"power" : 8,
+			},
+			
+			"basic":{
+				"description": "Target allied troop's attack rating is increased by 8 against behemoths, dragons and hydras.",
+				"cost": 12,
+				"power" : 8,
+			},
+			"advanced":{
+				"description": "Target allied troop's attack rating is increased by 10 against behemoths, dragons, hydras, angels and devils",
+				"cost": 10,
+				"power" : 10,
+			},
+			"expert":{
+				"description": "Target allied troop's attack rating is increased by 12 against behemoths, dragons, hydras, angels, devils and titans",
+				"cost": 8,
+				"power" : 12,
+			}
+		}
+	},
+	
+	"core:mirth" : {
+		
+		"level": 2
+	},
+	
+	"core:sorrow" : {
+		
+		"level": 3
+	},
+	
+	"core:misfortune" : {
+		
+		"level": 2,
+		"levels" : {
+			"none":{
+				"cost": 7
+			},
+			
+			"basic":{
+				"cost": 5
+			},
+			"advanced":{
+				"cost": 5
+			},
+			"expert":{
+				"cost": 5
+			}
+		}
+	},
+	
+	"core:slow" : {
+		"levels#override" : {
+			"base":{
+				"range" : "0",
+				"targetModifier":{"smart":true},
+				"effects" : {
+					"stacksSpeed" : {
+						"addInfo" : 0,
+						"type" : "STACKS_SPEED",
+						"val" : -25,
+						"valueType" : "PERCENT_TO_ALL",
+						"duration" : "N_TURNS"
+					},
+					
+					"zotaNerf" : {
+						"addInfo" : 0,
+						"type" : "STACKS_SPEED",
+						"valueType" : "ADDITIVE_VALUE",
+						"val" : 0,
+						"duration" : "N_TURNS"
+
+						}
+				}
+			},
+			
+			"none":{
+				"stacksSpeed" : {
+						"val" : -25
+					},
+				"zotaNerf" : {"val" : 0}
+			},
+			
+			"basic":{
+				"stacksSpeed" : {
+						"val" : -25
+					},
+				"zotaNerf" : {"val" : 0}
+			},
+			"advanced":{
+				"effects" : {
+					"stacksSpeed" : {
+						"val" : -50
+					},
+					"zotaNerf" : {"val" : 2}
+				}
+			},
+			"expert":{
+				"range" : "X",
+				"effects" : {
+					"stacksSpeed" : {
+						"val" : -50
+					},
+					"zotaNerf" : {"val" : 2}
+				}
+			}
+		}
+		
+		
+	},
+	
+	
+	
+	"forge2k:cyberBloodlust" : 
+	{
+		"type": "ability",
+		
+		"targetType" : "CREATURE",
+		"name" : "Cyber Bloodlust",
+		"school": {"air":false, "earth":false, "fire":false, "water":false},
+		"level": 1,
+		"power": 3,
+		"defaultGainChance": 0, 		
+		"gainChance":{},
+		"counters": {},		
+		"graphics":
+		{
+			"iconEffect": "forge2k/spells/cyberLust"
+		},		
+		"animation":
+		{
+			"affect":["forge2k/spells/crosshair"]
+		},
+		"sounds": {
+			"cast": "BLOODLUS"
+		},
+		
+		"levels" : 
+			{
+			
+			"base":{
+				"description": "Cybernetic Undead get filled with murderous intent when attacking living creatures.",
+				"cost": 0,
+				"power": 3,
+				"aiValue": 0,
+				"range" : "0",
+				"targetModifier":{"smart":false},
+				"effects" : {
+					"bloodlustAtCyberDeads" : {
+						"val" : 3,
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "attack",
+						"propagator" : "BATTLE_WIDE",
+						"duration": "UNTIL_BEING_ATTACKED",		
+						"limiters": [ {
+						"type":"CREATURE_TYPE_LIMITER",
+						"parameters": [ "cyberZombie2k", true ]
+					} ]
+					}
+				}
+
+					},
+					"none":	{},	"basic":{},	"advanced":	{}, "expert":{}	
+		},
+		"targetCondition" : {
+			"noneOf" : {
+				"core:bonus.UNDEAD":"absolute", "core:bonus.NON_LIVING":"absolute", "core:bonus.GARGOYLE":"absolute", "core:bonus.SIEGE_WEAPON":"absolute"
+		}
+	},		
+		"flags" : {
+			"indifferent": true
+		}
+	},
+	
+	"tides-of-war.spells:mdtAuraOfPower" : {
+		"type" : "combat",
+		"name" : "Aura of Power",
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : true,
+			"water" : false
+		},
+		"targetType" : "NO_TARGET",
+		"level" : 3,
+		"power" : 10,
+		"defaultGainChance" : 5,
+		"gainChance" : {
+			"inferno" : 12,
+			"dungeon" : 8,
+			"tower" : 8,
+			"rampart" :  8,
+			"castle" : 2,
+			"stronghold" : 2
+		},
+		"animation" : {
+			"hit" :[ "spells/auraOfPower/SP_AURA.def" ]
+		},
+		"flags" : {
+			"positive" : true
+		},
+		"sounds" : {
+			"cast" : "spells/auraOfPower/spell-auraofpower.wav"
+		},
+		"graphics" : {
+			"iconBook" : "spells/auraOfPower/aop_iconBook.bmp",
+			"iconScroll" : "spells/auraOfPower/aop_iconScroll.bmp",
+			"iconScenarioBonus" : "spells/auraOfPower/aop_iconScenarioBonus.bmp",
+			"iconEffect" : "spells/auraOfPower/aop_iconEffect.png"
+		},
+		"levels" : {
+			"base" : {
+				"power" : 10,
+				"aiValue" : 20,
+				"range" : "X",
+				"targetModifier" : {"smart" :false},
+				"cost" : 12, 
+				"description" : "{Aura of Power}\r\n\r\nIncreases power of all damage spells by 10% to the end of the battle.",
+				"battleEffects" : {
+					"spellsDamage" : {
+						"type" : "core:timed",
+						"cumulative" : true,
+						"bonus" : {
+							"fireDamage" : {
+								"type" : "SPELL_DAMAGE",
+								"subtype" : "spellSchool.fire",
+								"val" : 10,
+								"valueType" : "BASE_NUMBER",
+								"propagator" : "HERO",
+								"duration" : "ONE_BATTLE"
+							},
+							"airDamage" : {
+								"type" : "SPELL_DAMAGE",
+								"subtype" : "spellSchool.air",
+								"val" : 10,
+								"valueType" : "BASE_NUMBER",
+								"propagator" : "HERO",
+								"duration" : "ONE_BATTLE"
+							},
+							"earthDamage" : {
+								"type" : "SPELL_DAMAGE",
+								"subtype" : "spellSchool.earth",
+								"val" : 10,
+								"valueType" : "BASE_NUMBER",
+								"propagator" : "HERO",
+								"duration" : "ONE_BATTLE"
+							},
+							"waterDamage" : {
+								"type" : "SPELL_DAMAGE",
+								"subtype" : "spellSchool.water",
+								"val" : 10,
+								"valueType" : "BASE_NUMBER",
+								"propagator" : "HERO",
+								"duration" : "ONE_BATTLE"
+							}
+						}
+					}
+				}
+			},
+			"none" : {
+				"cost" : 12
+			},
+			"basic" : {
+				"description" : "{Basic Aura of Power}\r\n\r\nIncreases power of all damage spells by 10% to the end of the battle."
+			},
+			"advanced" : {
+				"description" : "{Advanced Aura of Power}\r\n\r\nIncreases power of all damage spells by 20% to the end of the battle.",
+				"battleEffects" : {
+					"spellsDamage" : {
+						"bonus" : {
+							"fireDamage" : {
+								"val" : 20
+							},
+							"airDamage" : {
+								"val" : 20
+							},
+							"earthDamage" : {
+								"val" : 20
+							},
+							"waterDamage" : {
+								"val" : 20
+							}
+						}
+					}
+				}
+			},
+			"expert#override" : {
+				"description" : "{Expert Aura of Power}\r\n\r\nIncreases power of all damage spells by 30% to the end of the battle.",
+				"battleEffects" : {
+					"spellsDamage" : {
+						"bonus" : {
+							"fireDamage" : {
+								"val" : 30
+							},
+							"airDamage" : {
+								"val" : 30
+							},
+							"earthDamage" : {
+								"val" : 30
+							},
+							"waterDamage" : {
+								"val" : 30
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	
+	"tides-of-war.spells:summonGhost" : {
+		
+		"defaultGainChance" : 0,
+		"gainChance" : {
+			"inferno" : 0,
+			"dungeon" : 0,
+			"necropolis" : 0,
+			"tower" : 0,
+			"rampart" :  0,
+			"castle" : 0,
+			"stronghold" : 0,
+			"conflux" : 0
+		}
+		
+	},
+	
+	"tides-of-war.spells:mdtIntervention" : {
+		
+		"defaultGainChance" : 0,
+		"gainChance" : {
+			"inferno" : 0,
+			"dungeon" : 0,
+			"necropolis" : 0,
+			"tower" : 0,
+			"rampart" :  0,
+			"castle" : 0,
+			"stronghold" : 0,
+			"conflux" : 0
+		}
+		
+	},
+	
+	"tides-of-war.spells:mdtVampirism" : {
+		
+		"defaultGainChance" : 0,
+		"gainChance" : {
+			"inferno" : 0,
+			"dungeon" : 0,
+			"necropolis" : 0,
+			"tower" : 0,
+			"rampart" :  0,
+			"castle" : 0,
+			"stronghold" : 0,
+			"conflux" : 0
+		}
+		
+	},
+	
+	"forge2k:assumeControl2k" : {
+		
+		"defaultGainChance" : 0,
+		"gainChance" : {
+			"inferno" : 0,
+			"dungeon" : 0,
+			"necropolis" : 0,
+			"tower" : 0,
+			"rampart" :  0,
+			"castle" : 0,
+			"stronghold" : 0,
+			"conflux" : 0
+		},
+		"flags" : {
+			"special" : true
+		},
+		
+	},
+	
+	"tides-of-war.spells:mdtFireballWand" : {
+		
+		"levels" : {
+			"base" : {
+				"description" : "{Fireball}\r\n\r\nCauses the selected target to burst info flames, inflicting fire damage to the target and any adjacent units.",	 
+				"cost" : 2,
+				"aiValue" : 15,
+				"range" : "0,1",
+				"targetModifier" : {"smart" :false},
+				"power" : 15,
+				"battleEffects" : {
+					"fireball" : {
+						"type" : "core:damage"
+					}
+				}
+			},
+			"none" : {},
+			"basic" : {},
+			"advanced" : {
+				"power" : 30
+			},
+			"expert" : {
+				"power" : 60
+			}
+		}
+		
+	},
+	
+	"tides-of-war.spells:mdtIceboltWand" : {
+		
+		"levels" : {
+			"base" : {
+				"description" : "{Ice Bolt}\r\n\r\nDrains the body heat from the selected enemy unit.",
+				"cost" : 2,
+				"aiValue" : 15,
+				"range" : "0",
+				"targetModifier" : {"smart" :true},
+				"power" : 10,
+				"battleEffects" : {
+					"icebolt" : {
+						"type" : "core:damage"
+					}
+				}
+			},
+			"none" : {},
+			"basic" : {},
+			"advanced" : {
+				"power" : 20
+			},
+			"expert" : {
+				"power" : 50
+			}
+		}
+		
+	},
+	
+	"tides-of-war.spells:mdtShieldWand" : {
+		
+		"levels" : {
+			"base" : {
+				"description" : "{Shield}\r\n\r\nShields the selected unit, reducing the amount of damage received from hand-to-hand attacks.",	 
+				"cost" : 2,
+				"power" : 10,
+				"aiValue" : 15,
+				"range" : "0",
+				"targetModifier" : {"smart" :true},
+				"battleEffects" : {
+					"shieldEffect" : {
+						"type" : "core:timed",
+						"cumulative" : false,
+						"bonus" : {
+							"generalDamageReduction" : {
+								"type" : "GENERAL_DAMAGE_REDUCTION",
+								"subtype" : "damageTypeMelee",
+								"val" : 15,
+								"valueType" : "PERCENT_TO_BASE",
+								"duration" : "N_TURNS"
+							}
+						}
+					}
+				}
+			},
+			"none" : {},
+			"basic" : {},
+			"advanced" : {
+				"battleEffects" : {
+					"shieldEffect" : {
+						"bonus" : {
+							"generalDamageReduction" : {
+								"val" : 30
+							}
+						}
+					}
+				}
+			},
+			"expert" : {
+				"range" : "X",
+				"battleEffects" : {
+					"shieldEffect" : {
+						"bonus" : {
+							"generalDamageReduction" : {
+								"val" : 30
+							}
+						}
+					}
+				}
+			}
+		}
+		
+	}
+}
+
+	
+	
+	
+	
+	

@@ -1,0 +1,87 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"sorceressCastle" :
+			{
+				"rmg" : {
+					"value" : 4000,
+					"rarity" : 80,
+					"zoneLimit" : 1
+				},
+				"levels" : [
+					{
+						"chance" : 30,
+						"guards" : [
+							{ "amount" : 32, "type" : "pixie", "upgradeChance" : 50 },
+							{ "amount" : 16, "type" : "dwarf", "upgradeChance" : 50 },
+							{ "amount" : 8, "type" : "woodElf", "upgradeChance" : 50 },
+							{ "amount" : 3, "type" : "monk", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "unicorn", "upgradeChance" : 50 }
+						],
+						"combat_value" : 500,
+						"reward" : {
+							"value" : 1000,
+							"resources" : { "gold" : 4000, "wood" : 5, "ore" : 5 },
+							"artifacts" : [ { "class" : "MINOR" } ]
+						}
+					},
+					{
+						"chance" : 30,
+						"guards" : [
+							{ "amount" : 64, "type" : "pixie", "upgradeChance" : 50 },
+							{ "amount" : 32, "type" : "dwarf", "upgradeChance" : 50 },
+							{ "amount" : 16, "type" : "woodElf", "upgradeChance" : 50 },
+							{ "amount" : 6, "type" : "monk", "upgradeChance" : 50 },
+							{ "amount" : 4, "type" : "unicorn", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "phoenix", "upgradeChance" : 50 }
+						],
+						"combat_value" : 500,
+						"reward" : {
+							"value" : 2000,
+							"resources" : { "gold" : 6000, "ore" : 5, "wood" : 5 },
+							"artifacts" : [ { "class" : "MAJOR" } ]
+						}
+					},
+					{
+						"chance" : 30,
+						"guards" : [
+							{ "amount" : 128, "type" : "pixie", "upgradeChance" : 60 },
+							{ "amount" : 64, "type" : "dwarf", "upgradeChance" : 60 },
+							{ "amount" : 32, "type" : "woodElf", "upgradeChance" : 60 },
+							{ "amount" : 12, "type" : "monk", "upgradeChance" : 50 },
+							{ "amount" : 8, "type" : "unicorn", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "phoenix", "upgradeChance" : 50 }
+						],
+						"combat_value" : 1000,
+						"reward" : {
+							"value" : 4000,
+							"resources" : { "gold" : 10000, "ore" : 10, "wood" : 10 },
+							"artifacts" : [ { "class" : "MAJOR" } ]
+						}
+					},
+					{
+						"chance" : 10,
+						"guards" : [
+							{ "amount" : 192, "type" : "pixie", "upgradeChance" : 70 },
+							{ "amount" : 96, "type" : "dwarf", "upgradeChance" : 70 },
+							{ "amount" : 48, "type" : "woodElf", "upgradeChance" : 70 },
+							{ "amount" : 18, "type" : "monk", "upgradeChance" : 60 },
+							{ "amount" : 12, "type" : "unicorn", "upgradeChance" : 60 },
+							{ "amount" : 3, "type" : "phoenix", "upgradeChance" : 60 }
+						],
+						"combat_value" : 4000,
+						"reward" : {
+							"value" : 8000,
+							"resources" : { "gold" : 15000, "ore" : 10, "wood" : 10 },
+							"artifacts" : [ "cornucopia"]
+						}
+					}
+					
+	
+				]
+			}
+		}
+	}
+}

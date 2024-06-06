@@ -1,0 +1,118 @@
+{
+	"core:creatureBank" : 
+	{
+		"handler": "bank",
+		"base" : {
+			"sounds" : {
+				"ambient" : ["LOOPDEAD"],
+				"visit" : ["GRAVEYARD"]
+			}
+		},
+		"types" : 
+		{
+			"newCrypt" : 
+			{
+				"index" : 0,
+				"resetDuration" : 0,
+				"name" : "Crypt",
+				"aiValue" : 1500,
+				"rmg" : {
+					"value"		: 1000,
+					"rarity"	: 100
+				},
+				"templates" : {
+					"lava" : { 
+					"animation" : "cryptLava", 
+					"visitableFrom" : [ "---", "-+-", "+++" ], 
+					"allowedTerrains": [ "lava"], 
+					"mask" : [ "VVV", "BAB"]
+					},
+					"rough" : { 
+					"animation" : "cryptRough", 
+					"visitableFrom" : [ "---", "-+-", "+++" ], 
+					"allowedTerrains": [ "rough"], 
+					"mask" : [ "VVV", "BAB"]
+					}
+					
+				},
+				"levels": [
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 10, "type": "skeleton" },
+							{ "amount": 10, "type": "walkingDead" },
+							{ "amount": 10, "type": "walkingDead" },
+							{ "amount": 10, "type": "skeleton" },
+							{ "amount": 10, "type": "skeleton" }
+						],
+						"combat_value": 75,
+						"reward" : {
+							"value": 1500,
+							"resources":
+							{
+								"gold" : 1500
+							}
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 13, "type": "skeleton" },
+							{ "amount": 10, "type": "walkingDead" },
+							{ "amount": 5, "type": "wight" },
+							{ "amount": 10, "type": "walkingDead" },
+							{ "amount": 12, "type": "skeleton" }
+						],
+						"combat_value": 94,
+						"reward" : {
+							"value": 2000,
+							"resources":
+							{
+								"gold" : 2000
+							}
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 20, "type": "skeleton" },
+							{ "amount": 20, "type": "walkingDead" },
+							{ "amount": 10, "type": "wight" },
+							{ "amount": 5, "type": "vampire" }
+						],
+						"combat_value": 169,
+						"reward" : {
+							"value": 3500,
+							"resources":
+							{
+								"gold" : 2500
+							},
+							"artifacts": [ { "class" : "TREASURE" } ]
+						}
+					},
+					{
+						"chance": 10,
+						"guards": [
+							{ "amount": 20, "type": "skeleton" },
+							{ "amount": 20, "type": "walkingDead" },
+							{ "amount": 10, "type": "wight" },
+							{ "amount": 10, "type": "vampire" }
+						],
+						"combat_value": 225,
+						"reward" : {
+							"value": 6000,
+							"resources":
+							{
+								"gold" : 5000
+							},
+							"artifacts": [ { "class" : "TREASURE" } ]
+						}
+					}
+				]
+					
+					
+					
+			}
+		}
+	}
+}

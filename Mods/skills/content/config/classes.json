@@ -1,0 +1,293 @@
+{
+  "core:knight": {
+    "secondarySkills": {
+      "diplomacy": 0,
+      "eagleEye" : 0,
+      "resistance" : 0,
+      "firstAid" : 0,
+      "hexes" : 0,
+      "evasion" : 0
+      
+    }
+  },
+
+  "core:cleric": {
+    "secondarySkills": {
+      "diplomacy": 0,
+      "eagleEye" : 0,
+      "resistance" : 0,
+      "firstAid" : 0,
+      "hexes" : 0,
+      "evasion" : 0
+    }
+  },
+
+  "core:planeswalker": {
+    "secondarySkills": {
+      "diplomacy": 0,
+      "eagleEye" : 0,
+      "resistance" : 0,
+      "firstAid" : 0,
+      "hexes" : 0,
+      "evasion" : 0
+    }
+  },
+
+  "core:elementalist": {
+    "secondarySkills": {
+      "diplomacy": 0,
+      "eagleEye" : 0,
+      "resistance" : 0,
+      "firstAid" : 0,
+      "hexes" : 0,
+      "evasion" : 0
+    }
+  },
+
+  "core:warlock": {
+    "secondarySkills": {
+      "diplomacy": 0,
+      "eagleEye" : 0,
+      "resistance" : 0,
+      "firstAid" : 0,
+      "hexes" : 0,
+      "evasion" : 0
+    }
+  },
+
+  "core:overlord": {
+    "secondarySkills": {
+      "diplomacy": 0,
+      "eagleEye" : 0,
+      "resistance" : 0,
+      "firstAid" : 0,
+      "hexes" : 0,
+      "evasion" : 0
+    }
+  },
+
+  "core:beastmaster": {
+    "secondarySkills": {
+      "diplomacy": 0,
+      "eagleEye" : 0,
+      "resistance" : 0,
+      "firstAid" : 0,
+      "hexes" : 0,
+      "evasion" : 0
+    }
+  },
+
+  "core:witch": {
+    "secondarySkills": {
+      "diplomacy": 0,
+      "eagleEye" : 0,
+      "resistance" : 0,
+      "firstAid" : 0,
+      "hexes" : 0,
+      "evasion" : 0
+    }
+  },
+
+  "core:demoniac": {
+    "secondarySkills": {
+      "diplomacy": 0,
+      "eagleEye" : 0,
+      "resistance" : 0,
+      "firstAid" : 0,
+      "hexes" : 0,
+      "evasion" : 0
+    }
+  },
+
+  "core:heretic": {
+    "secondarySkills": {
+      "diplomacy": 0,
+      "eagleEye" : 0,
+      "resistance" : 0,
+      "firstAid" : 0,
+      "hexes" : 0,
+      "evasion" : 0
+    }
+  },
+
+  "core:deathknight": {
+    "secondarySkills": {
+      "diplomacy": 0,
+      "eagleEye" : 0,
+      "resistance" : 0,
+      "firstAid" : 0,
+      "hexes" : 0,
+      "evasion" : 0
+    }
+  },
+
+  "core:necromancer": {
+    "secondarySkills": {
+      "diplomacy": 0,
+      "eagleEye" : 0,
+      "resistance" : 0,
+      "firstAid" : 0,
+      "hexes" : 0,
+      "evasion" : 0
+    }
+  },
+
+  "core:ranger": {
+    "secondarySkills": {
+      "diplomacy": 0,
+      "eagleEye" : 0,
+      "resistance" : 0,
+      "firstAid" : 0,
+      "hexes" : 0,
+      "evasion" : 0
+    }
+  },
+
+  "core:druid": {
+    "secondarySkills": {
+      "diplomacy": 0,
+      "eagleEye" : 0,
+      "resistance" : 0,
+      "firstAid" : 0,
+      "hexes" : 0,
+      "evasion" : 0
+    }
+  },
+
+  "core:barbarian": {
+    "secondarySkills": {
+      "diplomacy": 0,
+      "eagleEye" : 0,
+      "resistance" : 0,
+      "firstAid" : 0,
+      "hexes" : 0,
+      "evasion" : 0
+    }
+  },
+
+  "core:battlemage": {
+    "secondarySkills": {
+      "diplomacy": 0,
+      "eagleEye" : 0,
+      "resistance" : 0,
+      "firstAid" : 0,
+      "hexes" : 0,
+      "evasion" : 0
+    }
+  },
+
+  "core:alchemist": {
+    "secondarySkills": {
+      "diplomacy": 0,
+      "eagleEye" : 0,
+      "resistance" : 0,
+      "firstAid" : 0,
+      "hexes" : 0,
+      "evasion" : 0
+    }
+  },
+
+  "core:wizard": {
+    "secondarySkills": {
+      "diplomacy": 0,
+      "eagleEye" : 0,
+      "resistance" : 0,
+      "firstAid" : 0,
+      "hexes" : 0,
+      "evasion" : 0
+    }
+  },
+
+    "hota.cove:captain": {
+    "secondarySkills": {
+      "diplomacy": 0,
+      "eagleEye" : 0,
+      "resistance" : 0,
+      "firstAid" : 0,
+      "hexes" : 0,
+      "evasion" : 0
+    }
+  },
+  
+    "hota.cove:navigator": {
+    "secondarySkills": {
+      "diplomacy": 0,
+      "eagleEye" : 0,
+      "resistance" : 0,
+      "firstAid" : 0,
+      "hexes" : 0,
+      "evasion" : 0
+    }
+  },
+  
+    "forge2k:technoJunk2k": {
+    "secondarySkills": {
+      "diplomacy": 0,
+      "eagleEye" : 0,
+      "resistance" : 0,
+      "firstAid" : 0,
+      "hexes" : 0,
+      "evasion" : 0
+    }
+  },
+  
+  "forge2k:cyborg2k": {
+    "secondarySkills": {
+      "diplomacy": 0,
+      "eagleEye" : 0,
+      "resistance" : 0,
+      "firstAid" : 0,
+      "hexes" : 0,
+      "evasion" : 0
+    }
+  },
+  
+  "ruins-town:rn_might": {
+    "secondarySkills": {
+      "diplomacy": 0,
+      "eagleEye" : 0,
+      "resistance" : 0,
+      "firstAid" : 0,
+      "hexes" : 0,
+      "evasion" : 0
+    }
+  },
+  
+  "ruins-town:rn_magic": {
+    "secondarySkills": {
+      "diplomacy": 0,
+      "eagleEye" : 0,
+      "resistance" : 0,
+      "firstAid" : 0,
+      "hexes" : 0,
+      "evasion" : 0
+    }
+  },
+  
+    "new-pavilion:embalmer": {
+    "secondarySkills": {
+      "diplomacy": 0,
+      "eagleEye" : 0,
+      "resistance" : 0,
+      "firstAid" : 0,
+      "hexes" : 0,
+      "evasion" : 0
+    }
+  },
+  
+  "new-pavilion:vizier": {
+    "secondarySkills": {
+      "diplomacy": 0,
+      "eagleEye" : 0,
+      "resistance" : 0,
+      "firstAid" : 0,
+      "hexes" : 0,
+      "evasion" : 0
+    }
+  }
+   
+  
+ 
+ 
+  
+}

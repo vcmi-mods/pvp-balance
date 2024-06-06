@@ -1,0 +1,323 @@
+{
+	
+  "forge2k:gruntSoldier2k":
+	{
+		"aiValue" : 90,
+		"cost" :
+		{
+			"gold" : 70
+		},
+		"growth" : 12
+		
+	},
+	
+  "forge2k:footSoldier2k":
+	{
+		"aiValue" : 110,
+		"cost" :
+		{
+			"gold" : 100
+		},
+		"growth" : 12
+		
+	},
+	
+    "forge2k:pyro2k":
+	{
+		"aiValue" : 360,
+		"growth" : 5
+		
+	},
+	
+  "forge2k:pyromaniac2k":
+	{
+		"aiValue" : 400,
+		"growth" : 5
+		
+		
+	},
+	
+  "forge2k:stringer2k":
+	{
+		"hitPoints" : 40,
+		"cost" :
+		{
+			"gold" : 500
+		},
+		
+	},
+	
+  "forge2k:bruiser2k":
+	{
+		"hitPoints" : 50,
+		"cost" :
+		{
+			"gold" : 650
+		},
+		"abilities#override" :
+		{
+			"forgeMorale" :
+			{
+				"type" : "MORALE",
+				"val" : -1,
+				"propagator" : 	"HERO",
+				"limiters": [ 
+					"noneOf",
+					{						
+						"type" : "CREATURE_FACTION_LIMITER",
+						"parameters": [ "forge2k" ]
+						 } ],
+						 "stacking" : "Forge creatures"
+					},
+			"canShoot" :
+			{
+				"type" : "SHOOTER"
+			}
+			},
+		
+		
+	},
+	
+    "forge2k:jumpSoldier2k":
+	{
+		"aiValue" : 1300,
+		
+	},
+	
+    "forge2k:jumpTrooper2k":
+	{
+		"hitPoints" : 70,
+		"aiValue" : 1700,
+		
+	},
+	
+    "forge2k:juggernaut2k":
+	{
+		"damage" :
+		{
+			"max" : 60,
+			"min" : 45
+		},
+		
+		"aiValue" : 8000,
+		
+		"abilities#override" :
+		{
+			"forgeMorale" :
+			{
+				"type" : "MORALE",
+				"val" : -1,
+				"propagator" : 	"HERO",
+				"limiters": [ 
+					"noneOf",
+					{						
+						"type" : "CREATURE_FACTION_LIMITER",
+						"parameters": [ "forge2k" ]
+						 } ],
+						 "stacking" : "Forge creatures"
+			},
+
+			"expSlayer" : { 
+				"type" : "KING",
+				"val" : 3,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+
+			"mechanical" :
+			{
+				"type" : "NON_LIVING"
+			},
+
+
+
+		}
+		
+	},
+	
+    "forge2k:dreadnought2k":
+	{
+		"aiValue" : 15000,
+		"fightValue" : 7635,
+		"attack" : 35,
+		"defense" : 35,
+		"hitPoints" : 400,
+		"speed" : 10,
+		"damage" :
+		{
+			"max" : 60,
+			"min" : 45
+		},
+		
+		"abilities#override" :
+		{
+			"forgeMorale" :
+			{
+				"type" : "MORALE",
+				"val" : -1,
+				"propagator" : 	"HERO",
+				"limiters": [ 
+					"noneOf",
+					{						
+						"type" : "CREATURE_FACTION_LIMITER",
+						"parameters": [ "forge2k" ]
+						 } ],
+						 "stacking" : "Forge creatures"
+		},
+
+			"expSlayer" : { 
+				"type" : "KING",
+				"val" : 3,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+
+			"mechanical" :
+			{
+				"type" : "NON_LIVING"
+			},
+			
+			"unlimited" :
+			{
+				"type" : "UNLIMITED_RETALIATIONS"
+			},
+
+		},
+		
+	},
+
+    "ruins-town:rn_creature_lvl4":
+	{
+		"growth": 5
+		
+	},
+
+    "ruins-town:rn_creature_lvl4_up":
+	{
+		"growth": 5
+		
+	},
+	
+    "ruins-town:rn_creature_lvl5_up":
+	{
+		"aiValue": 1300,
+		"speed": 11
+		
+	},
+
+    "ruins-town:rn_creature_lvl1_up":
+	{
+		"attack": 4,
+		"defense": 4,
+		"hitPoints": 6,
+		"damage": {
+			"min": 2,
+			"max": 3
+		},
+		
+	},
+
+    "tides-of-war.alternative-creatures:mdtDrakeGolem":
+	{
+		"cost" : {
+			"gold" : 2500
+		},
+		
+		"aiValue" : 4700,
+		
+		"abilities" : {
+			"nonliving" :
+			{
+				"type" : "NON_LIVING"
+			},
+			"magicResistance" :
+			{
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 30
+			}
+		}
+		
+		
+		
+	},
+
+    "tides-of-war.alternative-creatures:mdtDragonGolem":
+	{
+			
+		"aiValue" : 7600,
+		"abilities" : {
+			"nonliving" :
+			{
+				"type" : "NON_LIVING"
+			},
+			"magicResistance" :
+			{
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 60
+			},
+			"firstStrike" :
+			{
+				"type" : "FIRST_STRIKE"
+			}
+		}
+		
+		
+		
+		
+	},	
+
+    "tides-of-war.alternative-creatures:mdtDireWerewolf":
+	{
+				
+		"aiValue" : 650,
+		
+		
+		
+	},
+	
+    "tides-of-war.alternative-creatures:mdtQuetzalcouatl":
+	{
+				
+		"aiValue" : 2300,
+		
+		
+		
+		
+	},
+	
+    "tides-of-war.alternative-creatures:mdtPaladin":
+	{
+				
+		"aiValue" : 6000,
+		"abilities#override" :
+		{
+			
+			"castsPrayer" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.prayer",
+				"val" : 2
+			},
+			"casts" :
+			{
+				"type" : "CASTS",
+				"val" : 3
+			},
+			"castLength" :
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 5
+			}
+		},
+		
+		
+		
+		
+		
+		
+	},
+		
+		
+		
+	
+
+  
+}

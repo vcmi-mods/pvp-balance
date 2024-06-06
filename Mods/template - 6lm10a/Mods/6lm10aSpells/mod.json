@@ -1,0 +1,36 @@
+{
+	"name" : "6lm10a Spells",
+	"description" : "Spell balance for 6lm10a template. The mod increases probability to obtain control spells (town portal, fly, dimension door) from mage guild.",
+	"author" : "wnukos",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "https://creativecommons.org/licenses/by-sa/4.0/",
+	"contact" : "wnukos on Discord",
+	"version" : "1.0",
+	"modType" : "Spells",	
+
+	"spells" :
+	[
+		"spells.json"
+	],
+	"depends" : 
+	[
+		"forge2k",
+		"tides-of-war.spells",
+		"pvp-balance.spells",
+		"hota.cove",
+		"ruins-town"
+	],
+	"version" : "1.0",
+ 
+	"changelog" :
+	{
+	"1.0"   : [ "Initial release."]
+	},
+
+	"compatibility" :
+	{
+		"min" : "1.5.2"
+	},
+	"keepDisabled" : true
+
+}

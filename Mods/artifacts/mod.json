@@ -1,0 +1,42 @@
+{
+    "name" : "Artifacts",
+
+    "description" : "Rebalanced artifacts for PvP.",
+
+    "author" : "wnukos",
+
+    "licenseName" : "Creative Commons Attribution-ShareAlike",
+
+    "licenseURL" : "https://creativecommons.org/licenses/by-sa/4.0/",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Artifacts",
+
+   
+   "artifacts": [
+   "config/bannedArtifacts.json",
+   "config/modifiedArtifacts.json"
+   ],
+   
+   "depends" : 
+	[
+		"tides-of-war.artifacts",
+		"new-pavilion"
+	],
+   
+	
+    "version" : "1.0",
+ 
+    "changelog" :
+    {
+        "1.0"   : [ "Initial release."]
+    },
+
+	"compatibility" :
+	{
+		"min" : "1.5.2"
+	},
+	
+    "keepDisabled" : false
+}

@@ -1,0 +1,76 @@
+{
+
+"core:bootsOfSpeed": {
+	  "class": "MAJOR"
+	  },
+	  
+"core:sandalsOfTheSaint": {
+	  "class": "MAJOR"
+	  },
+
+"core:endlessSackOfGold": {
+	  "class": "MAJOR"
+	  },
+	  
+"core:dragonScaleArmor": {
+	  "class": "MAJOR"
+	  },
+
+"new-pavilion:goldenScarab": {	
+		"text":
+		{
+			"name": "Golden Scarab",
+			"description": "{Golden Scarab}\r\n\r\nWearing this item increases your Morale by +1, and your income by +350 gold per day.",
+			"event": "Strolling through the camp, you catch a glimpse of a shiny scarab scurrying away. When you catch it, it turns into a lifeless statue. Without thinking long, you hide it in your pocket."
+		},
+		"bonuses":
+		[
+			{
+				"type": "MORALE",
+				"val": 1,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type": "GENERATE_RESOURCE",
+				"subtype": "resource.gold",
+				"val": 350,
+				"valueType" : "BASE_NUMBER"
+			}
+		]
+	  },
+
+  "tides-of-war.artifacts:mdtFireballWand": {
+	  "class" : "MAJOR",
+	  "text" :
+		{
+			"name" : "Fireball Wand",
+			"description" : "{Fireball Wand}\r\n\r\nAdds Fireball Wand spell to spellbook. Use it to cast Fireball at a lowered cost.",
+			"event" : "On your way you stumble upon a small patch of terrain covered in flames. In the middle of this place you see a wand, clearly emanating a magical power, stuck in the ground. You decide to grab the wand from the fire and keep it for yourself."
+		}
+	  
+	  },
+
+  "tides-of-war.artifacts:mdtIceboltWand": {
+	  "class" : "MAJOR",
+	  "text" :
+		{
+			"name" : "Ice Bolt Wand",
+			"description" : "{Ice Bolt}\r\n\r\nAdds Ice Bolt Wand spell to spellbook. Use it to cast Ice Bolt spell at a lowered cost.",
+			"event" : "On your way you stumble upon a small patch of icebound terrain. In the middle of this place you see a wand, clearly emanating a magical power, stuck in the ground. You decide to grab the wand from the ice and keep it for yourself."
+		}
+	  
+	  },
+
+  "tides-of-war.artifacts:mdtShieldWand": {
+	"text" :
+		{
+			"name" : "Shield Wand",
+			"description" : "{Shield Wand}\r\n\r\nAdds Shield Wand spell to spellbook. Use it to cast Shield at lowered cost.",
+			"event" : "On your way you stumble upon a small patch of terrain reminiscent of some hardened crust. In the middle of this place you see a wand, clearly emanating a magical power, stuck in the ground. You decide to grab the wand from the hardened soil and keep it for yourself."
+		}
+	  
+	  }	  
+	  
+  }
+  
+  

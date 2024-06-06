@@ -1,0 +1,86 @@
+{
+	"core:shrineOfMagicLevel1" : 
+	{
+		"base" : {
+			"sounds" : {
+				"ambient" : ["LOOPSHRIN"],
+				"visit" : ["TEMPLE"]
+			}
+		},
+		"types" : 
+		{
+			"controlShrine" : 
+			{
+				"name" : "Control Shrine",
+				"templates" : {
+					"base" : { 
+					"animation" : "controlshrine", 
+					"visitableFrom" : [ "---", "+++", "+++"  ],
+					"mask" : [ "VV","VA" ]
+					}
+				},
+				"rmg" : {
+					"value"		: 25000,
+					"rarity"	: 9999,
+					"zoneLimit" : 1
+				},
+				
+				"compatibilityIdentifiers" : [ "object" ],
+				
+				"visitMode" : "limiter",
+				"visitedTooltip" : 354,
+				"description" : "Learn Dimension Door and Town Portal",
+				"showScoutedPreview" : true,
+
+				"variables" : {
+					"spell" : {
+						"gainedSpell" : "dimensionDoor",
+						"gainedSpellTwo" : "townPortal"
+						
+					}
+				},
+				"visitLimiter" : {
+					"spells" : [
+						"@gainedSpell", "@gainedSpellTwo"
+					]
+				},
+				"rewards" : [
+					{
+						"limiter" : {
+							"canLearnSpells" : [
+								"@gainedSpell", "@gainedSpellTwo"
+							]
+							
+						},
+						"spells" : [
+							"@gainedSpell", "@gainedSpellTwo"
+						],
+						"description" : "@core.genrltxt.355",
+						"message" : [ "You come across a small shrine attended by a group of novice acolytes. In exchange for your protection, they agree to teach you powerful spells - Town Portal and Dimension Door."] // You learn new spell
+					}
+				],
+				"onVisitedMessage" : [ "You come across a small shrine attended by a group of novice acolytes. In exchange for your protection, they agree to teach you powerful spells - Town Portal and Dimension Door.", 174],
+				"onEmpty" : [
+					{
+						"limiter" : {
+							"artifacts" : [
+								{
+									"type" : "spellBook"
+								}
+							]
+						},
+						"message" : [ "You come across a small shrine attended by a group of novice acolytes. In exchange for your protection, they agree to teach you powerful spells - Town Portal and Dimension Door.", 130 ] // No Wisdom
+					},
+					{
+						"message" : [ "You come across a small shrine attended by a group of novice acolytes. In exchange for your protection, they agree to teach you powerful spells - Town Portal and Dimension Door.", 131 ] // No spellbook
+					}
+				]
+				
+					
+					
+			}	
+					
+						
+		}
+	}
+}

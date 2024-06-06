@@ -1,0 +1,76 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"redTower" : {
+				"rmg" : {
+					"value"		: 4000,
+					"rarity"	: 80,
+				},
+				"levels": [	
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 7, "type" : "fireElemental" },
+							{ "amount": 7, "type" : "fireElemental" },
+							{ "amount": 7, "type" : "fireElemental", "upgradeChance": 50 },
+							{ "amount": 7, "type" : "fireElemental" },
+							{ "amount": 7, "type" : "fireElemental" }
+						],
+						"combat_value": 6000,
+						"reward" : {
+							"value": 4000,
+							"creatures": [ { "amount": 1, "type": "firebird" } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 14, "type" : "fireElemental" },
+							{ "amount": 14, "type" : "fireElemental" },
+							{ "amount": 14, "type" : "fireElemental", "upgradeChance": 50 },
+							{ "amount": 14, "type" : "fireElemental" },
+							{ "amount": 14, "type" : "fireElemental" }
+						],
+						"combat_value": 9000,
+						"reward" : {
+							"value": 6000,
+							"creatures": [ { "amount": 2, "type": "firebird" } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 21, "type" : "fireElemental" },
+							{ "amount": 21, "type" : "fireElemental" },
+							{ "amount": 21, "type" : "fireElemental", "upgradeChance": 50 },
+							{ "amount": 21, "type" : "fireElemental" },
+							{ "amount": 21, "type" : "fireElemental" }
+						],
+						"combat_value": 12000,
+						"reward" : {
+							"value": 8000,
+							"creatures": [ { "amount": 3, "type": "firebird" } ]
+						}
+					},
+					{
+						"chance": 10,
+						"guards": [
+							{ "amount": 28, "type" : "fireElemental" },
+							{ "amount": 28, "type" : "fireElemental" },
+							{ "amount": 28, "type" : "fireElemental", "upgradeChance": 50 },
+							{ "amount": 28, "type" : "fireElemental" },
+							{ "amount": 28, "type" : "fireElemental" }
+						],
+						"combat_value": 15000,
+						"reward" : {
+							"value": 10000,
+							"creatures": [ { "amount": 4, "type": "firebird" } ]
+						}
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,69 @@
+{
+    "name" : "Jebus Cross Objects",
+
+    "description" : "Modified objects for Jebus Cross template. The changes include elimination of minimal size of creature banks giving army as reward, rework of some creature banks (f.e. Drake Golems can be obtained in Experimental Shops) and a new object Golden Utopia which can generate only in the central desert zone. Moreover generation of Crypts on Lava and Rough terrains is enabled.",
+
+    "author" : "wnukos",
+
+    "licenseName" : "Creative Commons Attribution-ShareAlike",
+
+    "licenseURL" : "https://creativecommons.org/licenses/by-sa/4.0/",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Objects",
+	
+	"objects" :
+	[
+		"config/banks/griffinConservatory.json",
+		"config/banks/dragonFlyHive.json",
+		"config/banks/bonePillar.json",
+		"config/banks/outpostOfSouls.json",
+		"config/banks/scriptorium.json",
+		"config/banks/seminarium.json",
+		"config/banks/experimentalShop.json",
+		"config/banks/redTower.json",
+		"config/banks/wolfRaiderPicket.json",
+		"config/banks/ziggurat.json",
+		"config/banks/dragonUtopia.json",
+		"config/banks/dragonUtopiaSand.json",
+		"config/banks/dragonUtopiaBiom.json",
+		"config/banks/turboUtopia.json",
+		"config/genericObjects/sanctuary.json",
+		"config/genericObjects/schoolofflight.json",
+		"config/genericObjects/dunesbigmine.json",
+		"config/genericObjects/prison.json",
+		"config/banks/snakeTemple.json",
+		"config/banks/crypt.json"
+	],
+	
+	"version" : "1.0",
+	
+	"depends" : 
+	[
+		"tides-of-war.banks",
+		"tides-of-war.alternative-creatures",
+		"hota.highlandsTerrain",
+		"hota.mapObjects",
+		"hota.mapDecorations",
+		"hota.neutralCreatures",
+		"hota.cove",
+		"new-pavilion.dunes-terrain",
+		"new-pavilion",
+		"asphalt-terrain",
+		"pvp-balance.objects"
+		
+	],
+ 
+    "changelog" :
+    {
+        "1.0"   : [ "Initial release."]
+    },
+
+	"compatibility" :
+	{
+		"min" : "1.5.2"
+	},
+	
+    "keepDisabled" : false
+}

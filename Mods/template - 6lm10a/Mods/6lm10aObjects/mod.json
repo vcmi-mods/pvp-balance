@@ -1,0 +1,42 @@
+{
+    "name" : "6lm10a Objects",
+
+    "description" : "The mod introduces three new Shrine objects that allow to obtain Town Portal, Dimension Door or both spells.",
+
+    "author" : "wnukos",
+
+    "licenseName" : "Creative Commons Attribution-ShareAlike",
+
+    "licenseURL" : "https://creativecommons.org/licenses/by-sa/4.0/",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Objects",
+	
+	"objects" :
+	[
+		"config/genericObjects/tpshrine.json",
+		"config/genericObjects/ddshrine.json",
+		"config/genericObjects/controlshrine.json"
+		
+	],
+	
+	"version" : "1.0",
+	
+	 "conflicts" :
+	[
+	"pvp-balance.jebusObjects"
+	],
+ 
+    "changelog" :
+    {
+        "1.0"   : [ "Initial release."]
+    },
+
+	"compatibility" :
+	{
+		"min" : "1.5.2"
+	},
+	
+    "keepDisabled" : true
+}

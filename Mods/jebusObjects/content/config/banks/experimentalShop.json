@@ -1,0 +1,63 @@
+{
+	"core:creatureBank" : 
+	{
+		"types" : 
+		{
+			"experimentalShop" : 
+			{
+				"rmg" : {
+					"value"		: 3500,
+					"rarity"	: 80
+				},
+				"levels":
+				[
+					{
+						"chance": 40,
+						"guards": [
+							{ "amount": 8, "type" : "goldGolem" },
+							{ "amount": 8, "type" : "goldGolem" },
+							{ "amount": 8, "type" : "goldGolem" },
+							{ "amount": 8, "type" : "goldGolem" },
+							{ "amount": 8, "type" : "diamondGolem" }
+						],
+						"combat_value": 3500,
+						"reward" : {
+							"value": 5000,
+							"creatures": [ { "amount": 2, "type": "mdtDrakeGolem" } ]
+						}
+					},
+					{
+						"chance": 40,
+						"guards": [
+							{ "amount": 12, "type" : "goldGolem" },
+							{ "amount": 12, "type" : "goldGolem" },
+							{ "amount": 12, "type" : "goldGolem" },
+							{ "amount": 12, "type" : "goldGolem" },
+							{ "amount": 12, "type" : "diamondGolem" }
+						],
+						"combat_value": 3500,
+						"reward" : {
+							"value": 5000,
+							"creatures": [ { "amount": 3, "type": "mdtDrakeGolem" } ]
+						}
+					},
+					{
+						"chance": 20,
+						"guards": [
+							{ "amount": 16, "type" : "diamondGolem" },
+							{ "amount": 16, "type" : "diamondGolem" },
+							{ "amount": 16, "type" : "goldGolem" },
+							{ "amount": 16, "type" : "goldGolem" },
+							{ "amount": 16, "type" : "diamondGolem" }
+						],
+						"combat_value": 3500,
+						"reward" : {
+							"value": 5000,
+							"creatures": [ { "amount": 4, "type": "mdtDrakeGolem" } ]
+						}
+					}
+				]
+			}
+		}
+	}
+}

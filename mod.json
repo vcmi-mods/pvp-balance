@@ -1,0 +1,53 @@
+{
+    "name" : "PvP Balance",
+
+    "description" : "The mod provides a series of changes to make PvP games more balanced and interesting. Detailed documentation is available at: https://drive.google.com/file/d/1XC-J8Wd4A5WDpNgcjcUpg4oIlSXehCxU/view?usp=sharing",
+
+    "author" : "wnukos (main author), Andruids (graphical assets and revision), Misiokles (revision), Dydzio (technical support)",
+
+    "licenseName" : "Creative Commons Attribution-ShareAlike",
+
+    "licenseURL" : "https://creativecommons.org/licenses/by-sa/4.0/",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Expansion",
+	
+    "version" : "1.0",
+ 
+    "changelog" :
+    {
+        "1.0"   : [ "initial release" ]
+    },
+
+    "compatibility" :
+    {
+        "min" : "1.5.2"
+    },
+    
+    "depends" : 
+	[
+		"hota",
+		"forge2k",
+		"ruins-town",
+		"new-pavilion",
+		"tides-of-war",
+		"vcmi-extras",
+		"zefix"
+		
+		
+		
+	],
+    	 "conflicts" :
+	[
+	"h3-for-vcmi-englisation"
+	],
+    
+    "settings" : {
+        "spells": {
+            "dimensionDoorTournamentRulesLimit" : true
+        }
+    },
+	
+    "keepDisabled" : false
+}

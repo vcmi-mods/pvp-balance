@@ -1,0 +1,60 @@
+{
+	"core:creatureBank" : {
+		"types" : {
+			"griffinConservatory" : {
+				"resetDuration" : 0,
+				"rmg" : {
+					"value"		: 2000,
+					"rarity"	: 100
+				},
+				"levels": [
+					{
+						"chance": 40,
+						"guards": [
+							{ "amount": 20, "type": "griffin" },
+							{ "amount": 20, "type": "griffin" },
+							{ "amount": 20, "type": "griffin", "upgradeChance": 50 },
+							{ "amount": 20, "type": "griffin" },
+							{ "amount": 20, "type": "griffin" }
+						],
+						"combat_value": 702,
+						"reward" : {
+							"value": 6000,
+							"creatures": [ { "amount": 2, "type": "angel" } ]
+						}
+					},
+					{
+						"chance": 40,
+						"guards": [
+							{ "amount": 30, "type": "griffin" },
+							{ "amount": 30, "type": "griffin" },
+							{ "amount": 30, "type": "griffin", "upgradeChance": 50 },
+							{ "amount": 30, "type": "griffin" },
+							{ "amount": 30, "type": "griffin" }
+						],
+						"combat_value": 1053,
+						"reward" : {
+							"value": 9000,
+							"creatures": [ { "amount": 3, "type": "angel" } ]
+						}
+					},
+					{
+						"chance": 20,
+						"guards": [
+							{ "amount": 40, "type": "griffin" },
+							{ "amount": 40, "type": "griffin" },
+							{ "amount": 40, "type": "griffin", "upgradeChance": 50 },
+							{ "amount": 40, "type": "griffin" },
+							{ "amount": 40, "type": "griffin" }
+						],
+						"combat_value": 1404,
+						"reward" : {
+							"value": 12000,
+							"creatures": [ { "amount": 4, "type": "angel" } ]
+						}
+					}
+				]
+			},
+		}
+	}
+}

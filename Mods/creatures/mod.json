@@ -1,0 +1,41 @@
+{
+    "name" : "Creatures",
+
+    "description" : "Rebalanced creatures for PvP.",
+
+    "author" : "wnukos",
+
+    "licenseName" : "Creative Commons Attribution-ShareAlike",
+
+    "licenseURL" : "https://creativecommons.org/licenses/by-sa/4.0/",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Creatures",
+    
+    "depends" : 
+	[
+		"forge2k",
+		"tides-of-war.alternative-creatures",
+		"ruins-town"
+	],
+
+   "creatures": [
+   "config/creatures/creatures.json"
+   ],
+   
+	
+    "version" : "1.0",
+ 
+    "changelog" :
+    {
+        "1.0"   : [ "Initial release."]
+    },
+
+	"compatibility" :
+	{
+		"min" : "1.5.2"
+	},
+	
+    "keepDisabled" : false
+}

@@ -1,0 +1,11 @@
+{
+    "core:prison"    : {
+	    "types" : {
+	               "prison" : {
+		       "templates" : {
+			   "AVXprsn1" : { "allowedTerrains" : [ ] }
+			}
+		      }
+	               }
+	   }
+}

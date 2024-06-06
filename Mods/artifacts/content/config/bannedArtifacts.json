@@ -1,0 +1,47 @@
+{
+  "core:orbOfInhibition": {
+	  "class" : "SPECIAL"
+	  },
+	  
+  "core:recantersCloak": {
+	  "class" : "SPECIAL"
+	  },
+	  
+  "core:birdOfPerception": {
+	  "class" : "SPECIAL"
+	  },
+	  
+  "core:stoicWatchman": {
+	  "class" : "SPECIAL"
+	  },
+	  
+  "core:emblemOfCognizance": {
+	  "class" : "SPECIAL"
+	  },
+
+  "core:garnitureOfInterference": {
+	  "class" : "SPECIAL"
+	  },
+
+  "core:surcoatOfCounterpoise": {
+	  "class" : "SPECIAL"
+	  },
+	  
+  "core:bootsOfPolarity": {
+	  "class" : "SPECIAL"
+	  },
+	  
+  "tides-of-war.artifacts:mdtThirdEye": {
+	  "class" : "SPECIAL"
+	  },
+	  
+  "new-pavilion:maskOfTheDesertKing": {
+	  "class" : "SPECIAL"
+	  },
+	  
+  "new-pavilion:sunShield": {
+	  "class" : "SPECIAL"
+	  }	  
+  }
+  
+  
