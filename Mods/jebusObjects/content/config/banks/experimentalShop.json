@@ -14,11 +14,11 @@
 					{
 						"chance": 40,
 						"guards": [
-							{ "amount": 8, "type" : "goldGolem" },
-							{ "amount": 8, "type" : "goldGolem" },
-							{ "amount": 8, "type" : "goldGolem" },
-							{ "amount": 8, "type" : "goldGolem" },
-							{ "amount": 8, "type" : "diamondGolem" }
+							{ "amount": 10, "type" : "steelGolem" },
+							{ "amount": 10, "type" : "steelGolem" },
+							{ "amount": 10, "type" : "steelGolem" },
+							{ "amount": 10, "type" : "steelGolem" },
+							{ "amount": 10, "type" : "steelGolem" }
 						],
 						"combat_value": 3500,
 						"reward" : {
@@ -29,11 +29,11 @@
 					{
 						"chance": 40,
 						"guards": [
-							{ "amount": 12, "type" : "goldGolem" },
-							{ "amount": 12, "type" : "goldGolem" },
-							{ "amount": 12, "type" : "goldGolem" },
-							{ "amount": 12, "type" : "goldGolem" },
-							{ "amount": 12, "type" : "diamondGolem" }
+							{ "amount": 15, "type" : "steelGolem" },
+							{ "amount": 15, "type" : "steelGolem" },
+							{ "amount": 15, "type" : "steelGolem" },
+							{ "amount": 15, "type" : "steelGolem" },
+							{ "amount": 15, "type" : "steelGolem" }
 						],
 						"combat_value": 3500,
 						"reward" : {
@@ -44,11 +44,11 @@
 					{
 						"chance": 20,
 						"guards": [
-							{ "amount": 16, "type" : "diamondGolem" },
-							{ "amount": 16, "type" : "diamondGolem" },
-							{ "amount": 16, "type" : "goldGolem" },
-							{ "amount": 16, "type" : "goldGolem" },
-							{ "amount": 16, "type" : "diamondGolem" }
+							{ "amount": 20, "type" : "steelGolem" },
+							{ "amount": 20, "type" : "steelGolem" },
+							{ "amount": 20, "type" : "steelGolem" },
+							{ "amount": 20, "type" : "steelGolem" },
+							{ "amount": 20, "type" : "steelGolem" }
 						],
 						"combat_value": 3500,
 						"reward" : {

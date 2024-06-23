@@ -5,10 +5,6 @@
 
     "author" : "wnukos",
 
-    "licenseName" : "Creative Commons Attribution-ShareAlike",
-
-    "licenseURL" : "https://creativecommons.org/licenses/by-sa/4.0/",
-
     "contact" : "wnukos on Discord",
 
     "modType" : "Objects",
@@ -21,22 +17,17 @@
 		
 	],
 	
-	"version" : "1.0",
-	
 	 "conflicts" :
 	[
 	"pvp-balance.jebusObjects"
 	],
- 
-    "changelog" :
-    {
-        "1.0"   : [ "Initial release."]
-    },
 
 	"compatibility" :
 	{
-		"min" : "1.5.2"
+		"min" : "1.5.3"
 	},
+	
+	    "version" : "1.1",
 	
     "keepDisabled" : true
 }

@@ -1,0 +1,91 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"ruins" :
+			{
+				"name" : "Ruins",
+				"rmg" : {
+					"value" : 1000,
+					"rarity" : 100
+				},
+				"levels":
+				[
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 20, "type" : "skeleton" },
+							{ "amount": 3, "type" : "wraith" },
+							{ "amount": 1, "type" : "powerLich"},
+							{ "amount": 3, "type" : "wight" },
+							{ "amount": 10, "type" : "skeletonWarrior" }
+						],
+						"combat_value": 3000,
+						"reward" : {
+							"value": 4000,
+							"resources":
+							{
+								"gold" : 1500
+							}
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 30, "type" : "skeleton" },
+							{ "amount": 5, "type" : "wraith" },
+							{ "amount": 1, "type" : "powerLich"},
+							{ "amount": 5, "type" : "wight" },
+							{ "amount": 10, "type" : "skeletonWarrior" }
+						],
+						"combat_value": 3000,
+						"reward" : {
+							"value": 4000,
+							"resources":
+							{
+								"gold" : 2500
+							}
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 40, "type" : "skeleton" },
+							{ "amount": 7, "type" : "wraith" },
+							{ "amount": 2, "type" : "powerLich"},
+							{ "amount": 7, "type" : "wight" },
+							{ "amount": 20, "type" : "skeletonWarrior" }
+						],
+						"combat_value": 3000,
+						"reward" : {
+							"value": 4000,
+							"resources":
+							{
+								"gold" : 3500
+							}
+						}
+					},
+					{
+						"chance": 10,
+						"guards": [
+							{ "amount": 50, "type" : "skeleton" },
+							{ "amount": 9, "type" : "wraith" },
+							{ "amount": 3, "type" : "powerLich"},
+							{ "amount": 9, "type" : "wight" },
+							{ "amount": 20, "type" : "skeletonWarrior" }
+						],
+						"combat_value": 3000,
+						"reward" : {
+							"value": 4000,
+							"resources":
+							{
+								"gold" : 5000
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

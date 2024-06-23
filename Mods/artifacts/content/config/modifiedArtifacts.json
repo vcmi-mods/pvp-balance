@@ -15,6 +15,39 @@
 "core:dragonScaleArmor": {
 	  "class": "MAJOR"
 	  },
+	  
+"core:everpouringVialOfMercury": {
+	  "class": "MINOR"
+	  },
+
+"core:ringOfInfiniteGems": {
+	  "class": "MINOR"
+	  },
+
+"core:everflowingCrystalCloak": {
+	  "class": "MINOR"
+	  },
+
+"core:eversmokingRingOfSulfur": {
+	  "class": "MINOR"
+	  },
+
+"core:headOfLegion": {
+	  "class": "MINOR"
+	  },
+
+"core:armsOfLegion": {
+	  "class": "MINOR"
+	  },
+
+"core:pendantOfSecondSight": {
+	  "class": "MINOR"
+	  },
+
+"core:ringOfVitality": {
+	  "class": "MINOR"
+	  },
+
 
 "new-pavilion:goldenScarab": {	
 		"text":
@@ -59,17 +92,9 @@
 			"event" : "On your way you stumble upon a small patch of icebound terrain. In the middle of this place you see a wand, clearly emanating a magical power, stuck in the ground. You decide to grab the wand from the ice and keep it for yourself."
 		}
 	  
-	  },
+	  }
 
-  "tides-of-war.artifacts:mdtShieldWand": {
-	"text" :
-		{
-			"name" : "Shield Wand",
-			"description" : "{Shield Wand}\r\n\r\nAdds Shield Wand spell to spellbook. Use it to cast Shield at lowered cost.",
-			"event" : "On your way you stumble upon a small patch of terrain reminiscent of some hardened crust. In the middle of this place you see a wand, clearly emanating a magical power, stuck in the ground. You decide to grab the wand from the hardened soil and keep it for yourself."
-		}
 	  
-	  }	  
 	  
   }
   

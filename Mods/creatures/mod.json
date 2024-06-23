@@ -5,10 +5,6 @@
 
     "author" : "wnukos",
 
-    "licenseName" : "Creative Commons Attribution-ShareAlike",
-
-    "licenseURL" : "https://creativecommons.org/licenses/by-sa/4.0/",
-
     "contact" : "wnukos on Discord",
 
     "modType" : "Creatures",
@@ -17,25 +13,21 @@
 	[
 		"forge2k",
 		"tides-of-war.alternative-creatures",
-		"ruins-town"
+		"tides-of-war.neutral-creatures",
+		"ruins-town",
+		"new-pavilion"
 	],
 
    "creatures": [
    "config/creatures/creatures.json"
    ],
-   
-	
-    "version" : "1.0",
- 
-    "changelog" :
-    {
-        "1.0"   : [ "Initial release."]
-    },
 
 	"compatibility" :
 	{
-		"min" : "1.5.2"
+		"min" : "1.5.3"
 	},
+	
+    "version" : "1.1",
 	
     "keepDisabled" : false
 }

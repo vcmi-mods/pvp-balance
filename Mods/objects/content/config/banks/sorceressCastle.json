@@ -5,11 +5,28 @@
 		{
 			"sorceressCastle" :
 			{
-				"rmg" : {
-					"value" : 4000,
-					"rarity" : 80,
-					"zoneLimit" : 1
+				"name" : "Sorceress Castle",
+				
+				"templates" : {
+					"base" : { 	"animation" : "sorceressCastle.def",
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"mask" : [ "VVVVV", "VVBBV", "VBBBB", "VBBAB"],
+						"allowedTerrains" :[ "grass", "dirt", "highlands" ]
+					}
 				},
+				
+				"rmg" : {
+					"value" : 5000,
+					"rarity" : 40,
+					"zoneLimit" : 1,
+					"mapLimit" : 4
+				},
+				
+				"sounds" : {
+					"ambient" : ["SORCERESSLOOP"],
+					"visit" : ["SORCENTR"]
+				},
+				
 				"levels" : [
 					{
 						"chance" : 30,
@@ -34,8 +51,8 @@
 							{ "amount" : 32, "type" : "dwarf", "upgradeChance" : 50 },
 							{ "amount" : 16, "type" : "woodElf", "upgradeChance" : 50 },
 							{ "amount" : 6, "type" : "monk", "upgradeChance" : 50 },
-							{ "amount" : 4, "type" : "unicorn", "upgradeChance" : 50 },
-							{ "amount" : 1, "type" : "phoenix", "upgradeChance" : 50 }
+							{ "amount" : 3, "type" : "unicorn", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "firebird" }
 						],
 						"combat_value" : 500,
 						"reward" : {
@@ -51,8 +68,8 @@
 							{ "amount" : 64, "type" : "dwarf", "upgradeChance" : 60 },
 							{ "amount" : 32, "type" : "woodElf", "upgradeChance" : 60 },
 							{ "amount" : 12, "type" : "monk", "upgradeChance" : 50 },
-							{ "amount" : 8, "type" : "unicorn", "upgradeChance" : 50 },
-							{ "amount" : 2, "type" : "phoenix", "upgradeChance" : 50 }
+							{ "amount" : 6, "type" : "unicorn", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "firebird"}
 						],
 						"combat_value" : 1000,
 						"reward" : {
@@ -68,8 +85,8 @@
 							{ "amount" : 96, "type" : "dwarf", "upgradeChance" : 70 },
 							{ "amount" : 48, "type" : "woodElf", "upgradeChance" : 70 },
 							{ "amount" : 18, "type" : "monk", "upgradeChance" : 60 },
-							{ "amount" : 12, "type" : "unicorn", "upgradeChance" : 60 },
-							{ "amount" : 3, "type" : "phoenix", "upgradeChance" : 60 }
+							{ "amount" : 9, "type" : "unicorn", "upgradeChance" : 60 },
+							{ "amount" : 3, "type" : "phoenix" }
 						],
 						"combat_value" : 4000,
 						"reward" : {

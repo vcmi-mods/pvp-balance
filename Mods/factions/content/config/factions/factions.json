@@ -4,18 +4,10 @@
 		"town" :
 		{
 			"buildings" :
-			{
-				"dwellingAlternateLvl5":   { "id" : 48,
-					         "cost" : { "mercury" : 2, "wood" : 3, "gold" : 2500 }					          
-					          },
-					          
+			{	          
 				"dwellingLvl5":   { "id" : 34,
 					"cost" : { "gold" : 2500, "ore" : 5 }					          
-					          },
-					          
-				"dwellingLvl4":   { "id" : 33,
-					"cost" : { "wood" : 5, "gold" : 2000 }					          
-					          },
+					          }
 				
 				
 			}

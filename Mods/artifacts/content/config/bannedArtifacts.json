@@ -41,6 +41,12 @@
 	  
   "new-pavilion:sunShield": {
 	  "class" : "SPECIAL"
+	  },
+  "tides-of-war.artifacts:mdtShieldWand": {
+	  "class" : "SPECIAL"
+	  },
+  "new-pavilion:scrollOfWisdom": {
+	  "class" : "SPECIAL"
 	  }	  
   }
   

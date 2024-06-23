@@ -1123,11 +1123,235 @@
 		
 	},
 	
+  "tides-of-war.heroes:mdtGaluum":
+	{
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "interference",
+				"level" : "basic"
+			}
+		],
+		
+		"army" : [
+			{
+				"creature" : "troglodyte",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "harpy",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "beholder",
+				"min" : 3,
+				"max" : 4
+			}
+		]
+		
+		
+		
+	},
+	
+"tides-of-war.heroes:mdtShroo":
+	{
+		
+	"army" : [
+			{
+				"creature" : "gnoll",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "lizardman",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "serpentFly",
+				"min" : 3,
+				"max" : 4
+			}
+		]	
+		
+		
+	},
+	
+"tides-of-war.heroes:mdtThyroc":
+	{
+		
+	"army" : [
+			{
+				"creature" : "gnoll",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "lizardman",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "serpentFly",
+				"min" : 3,
+				"max" : 4
+			}
+		]	
+		
+		
+	},
+	
+"core:ash" :
+	{
+		"army" : [
+			{
+				"creature" : "imp",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "gog",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "hellHound",
+				"min" : 3,
+				"max" : 4
+			}
+		]
+	},
+	
+"tides-of-war.heroes:kreevionHeretic" :
+	{
+		"army" : [
+			{
+				"creature" : "imp",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "gog",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "hellHound",
+				"min" : 3,
+				"max" : 4
+			}
+		]
+	},
+	
+"tides-of-war.heroes:mdtGhuri" :
+	{
+		"army" : [
+			{
+				"creature" : "centaur",
+				"min" : 12,
+				"max" : 24
+			},
+			{
+				"creature" : "dwarf",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "woodElf",
+				"min" : 2,
+				"max" : 4
+			}
+		]
+	},	
+	
+"tides-of-war.heroes:mdtEurydis" :
+	{
+		"army" : [
+			{
+				"creature" : "centaur",
+				"min" : 12,
+				"max" : 24
+			},
+			{
+				"creature" : "woodElf",
+				"min" : 2,
+				"max" : 4
+			},
+			{
+				"creature" : "mdtDryad",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	},
 
-	
-	
-	
-	
+"tides-of-war.heroes:mdtOdetta" :
+	{
+		"army" : [
+			{
+				"creature" : "apprenticeGremlin",
+				"min" : 30,
+				"max" : 40
+			},
+			{
+				"creature" : "stoneGargoyle",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "ironGolem",
+				"min" : 4,
+				"max" : 5
+			}
+		]
+	},
+
+"tides-of-war.heroes:mdtVerstan" :
+	{
+		"army" : [
+			{
+				"creature" : "apprenticeGremlin",
+				"min" : 30,
+				"max" : 40
+			},
+			{
+				"creature" : "stoneGargoyle",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "ironGolem",
+				"min" : 4,
+				"max" : 5
+			}
+		]
+	},
+
+"tides-of-war.heroes:mdtCollivea" :
+	{
+		"army" : [
+			{
+				"creature" : "troglodyte",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "harpy",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "beholder",
+				"min" : 3,
+				"max" : 4
+			}
+		]
+	}	
 		
 		
 		

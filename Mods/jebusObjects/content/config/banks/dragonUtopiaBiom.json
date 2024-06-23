@@ -12,6 +12,13 @@
 					"visitableFrom" : [ "---", "--+", "+++" ], 
 					"allowedTerrains": [ "dirt", "grass", "snow", "swamp", "rough", "lava", "asphalt", "highlands"], 
 					"mask" : ["VVVVVVV", "VVVVVVV", "VVVBBBB", "VBBBBBV", "VVVBBAV" ]
+					},
+					
+					"dunesUtopia" : { 
+					"animation" : "dragonUtopiaDunes.def", 
+					"visitableFrom" : [ "---", "--+", "+++" ], 
+					"allowedTerrains": ["dunes"], 
+					"mask" : ["VVVVVVV", "VVVVVVV", "VVVBBBB", "VBBBBBV", "VVVBBAV" ]
 					}
 				},
 				"rmg" : {

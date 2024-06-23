@@ -1,0 +1,15 @@
+{
+    
+    "artifact.new-pavilion.goldenScarab.description" : "{Złoty Skarabeusz}\r\n\r\nNoszenie tego przedmiotu zwiększa twoje morale o +1 i twoje dochody o +350 sztuk złota dziennie.",
+    "artifact.tides-of-war.artifacts.mdtFireballWand.description": "{Kostur Kuli Ognia}\r\n\r\nDodaje do księgi zaklęć Różdżke kuli ognia. Użyj go, aby rzucić zaklęcie Kula ognia o obniżonym koszcie.",
+    "artifact.tides-of-war.artifacts.mdtIceboltWand.description": "{Kostur Kuli Lodu}\r\n\r\nDodaje do księgi zaklęć Kostur Kuli Lodu. Użyj go, aby rzucić zaklęcie \"Lodowy pocisk\" o obniżonym koszcie.",
+    "skill.tides-of-war.skills.intimidation.description.advanced": "{Zaawansowane Zastraszanie}\r\n\r\n{Zmniejsza morale przeciwnika o 1 i atak o 1.",
+    "skill.tides-of-war.skills.intimidation.description.basic": "{Podstawowe Zastraszanie}\r\n\r\n{Zmniejsza morale przeciwnika o 1.",
+    "skill.tides-of-war.skills.intimidation.description.expert": "{Mistrzowskie Zastraszanie}\r\n\r\n{Zmniejsza morale przeciwnika o 1 i atak o 2.",
+    "skill.core.sorcery.description.basic": "{Podstawowy Talent magiczny}\r\n\r\n{Zwiększa obrażenia zadawane przez zaklęcia ofensywne o 10%.",
+    "skill.core.sorcery.description.advanced": "{Zaawansowany Talent magiczny}\r\n\r\n{Zwiększa obrażenia zadawane przez zaklęcia ofensywne o 20%.",
+    "skill.core.sorcery.description.expert": "{Mistrzowski Talent magiczny}\r\n\r\n{Zwiększa obrażenia zadawane przez zaklęcia ofensywne o 30%.",
+    "skill.core.learning.description.basic": "{Podstawowa Nauka}\r\n\r\n{Zwiększa liczbę punktów doświadczenia otrzymywanych przez bohatera o 10%.",
+    "skill.core.learning.description.advanced": "{Zaawansowana Nauka}\r\n\r\n{Zwiększa liczbę punktów doświadczenia otrzymywanych przez bohatera o 20%. Wiedza bohatera jest zwiększona o 1.",
+    "skill.core.learning.description.expert": "{Mistrzowska Nauka}\r\n\r\n{Zwiększa liczbę punktów doświadczenia otrzymywanych przez bohatera o 30%. Wiedza bohatera jest zwiększona o 2.",
+}

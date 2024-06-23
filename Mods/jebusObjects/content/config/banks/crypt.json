@@ -12,7 +12,6 @@
 		{
 			"newCrypt" : 
 			{
-				"index" : 0,
 				"resetDuration" : 0,
 				"name" : "Crypt",
 				"aiValue" : 1500,

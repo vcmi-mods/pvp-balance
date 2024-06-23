@@ -1,0 +1,71 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"demonDomain" : {
+				"name" : "Demon Domain",
+				"templates" : {
+					"base" : { 
+					"animation" : "demonDomain", 
+					"visitableFrom" : [ "---", "---", "+++"  ],
+					"mask" : [ "VVVV", "VVVV", "VBBV", "VVAV"]
+					}
+				},
+				"resetDuration" : 0,
+				"rmg" : {
+					"value"		: 4000,
+					"rarity"	: 80,
+					"zoneLimit" : 4
+				},
+				"levels": [
+					{
+						"chance": 40,
+						"guards": [
+							{ "amount": 7, "type" : "pitFiend" },
+							{ "amount": 10, "type" : "hornedDemon" },
+							{ "amount": 10, "type" : "hornedDemon" },
+							{ "amount": 7, "type" : "pitFiend" },
+							{ "amount": 14, "type" : "hellHound" }
+						],
+						"combat_value": 9000,
+						"reward" : {
+							"value": 6000,
+							"creatures": [ { "amount": 6, "type": "efreet" } ]
+						}
+					},
+					{
+						"chance": 40,
+						"guards": [
+							{ "amount": 10, "type" : "pitLord" },
+							{ "amount": 15, "type" : "hornedDemon" },
+							{ "amount": 15, "type" : "hornedDemon" },
+							{ "amount": 10, "type" : "pitLord" },
+							{ "amount": 20, "type" : "cerberus" }
+						],
+						"combat_value": 12000,
+						"reward" : {
+							"value": 8000,
+							"creatures": [ { "amount": 9, "type": "efreet" } ]
+						}
+					},
+					{
+						"chance": 20,
+						"guards": [
+							{ "amount": 14, "type" : "pitLord" },
+							{ "amount": 20, "type" : "hornedDemon" },
+							{ "amount": 20, "type" : "hornedDemon" },
+							{ "amount": 14, "type" : "pitLord" },
+							{ "amount": 28, "type" : "cerberus" }
+						],
+						"combat_value": 15000,
+						"reward" : {
+							"value": 10000,
+							"creatures": [ { "amount": 12, "type": "efreet" } ]
+						}
+					}
+				]
+			}
+		}
+	}
+}

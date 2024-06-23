@@ -58,11 +58,25 @@
 		}
 	},
 	"core:fireball" : {
-		"power" : 20
+		"power" : 15,
+		"levels" : {
+			"none": {
+				"cost": 15
+			},
+			"base" : {
+				"cost": 15
+			},
+			"advanced" : {
+				"cost": 12
+			},
+			"expert" : {
+				"cost": 9
+			}
+		}
 	},
 	
 	"core:frostRing" : {
-		"power" : 20
+		"power" : 15
 	},
 	
 	"core:inferno" : {
@@ -145,7 +159,7 @@
 	},
 	
 	"core:slow" : {
-		"levels#override" : {
+		"levels" : {
 			"base":{
 				"range" : "0",
 				"targetModifier":{"smart":true},
@@ -447,7 +461,14 @@
 			"castle" : 0,
 			"stronghold" : 0,
 			"conflux" : 0
+		},
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : false,
+			"water" : true
 		}
+		
 		
 	},
 	
@@ -524,62 +545,9 @@
 			}
 		}
 		
-	},
-	
-	"tides-of-war.spells:mdtShieldWand" : {
-		
-		"levels" : {
-			"base" : {
-				"description" : "{Shield}\r\n\r\nShields the selected unit, reducing the amount of damage received from hand-to-hand attacks.",	 
-				"cost" : 2,
-				"power" : 10,
-				"aiValue" : 15,
-				"range" : "0",
-				"targetModifier" : {"smart" :true},
-				"battleEffects" : {
-					"shieldEffect" : {
-						"type" : "core:timed",
-						"cumulative" : false,
-						"bonus" : {
-							"generalDamageReduction" : {
-								"type" : "GENERAL_DAMAGE_REDUCTION",
-								"subtype" : "damageTypeMelee",
-								"val" : 15,
-								"valueType" : "PERCENT_TO_BASE",
-								"duration" : "N_TURNS"
-							}
-						}
-					}
-				}
-			},
-			"none" : {},
-			"basic" : {},
-			"advanced" : {
-				"battleEffects" : {
-					"shieldEffect" : {
-						"bonus" : {
-							"generalDamageReduction" : {
-								"val" : 30
-							}
-						}
-					}
-				}
-			},
-			"expert" : {
-				"range" : "X",
-				"battleEffects" : {
-					"shieldEffect" : {
-						"bonus" : {
-							"generalDamageReduction" : {
-								"val" : 30
-							}
-						}
-					}
-				}
-			}
-		}
-		
 	}
+	
+	
 }
 
 	

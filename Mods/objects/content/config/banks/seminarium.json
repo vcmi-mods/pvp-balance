@@ -5,10 +5,23 @@
 		{
 			"mdtSeminarium" :
 			{		
+				"name" : "Seminarium",
+				"templates" :
+				{
+					"base" :
+					{
+						"animation" : "seminarium.def",
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"mask" : [ "VVV", "VBV", "BAB"]
+					}
+				},
+				"sounds" : {
+					"ambient" : ["SEMINARIUMLOOP"]
+				},
 				"rmg" : {
-					"value" : 3500,
-					"rarity" : 80,
-					"zoneLimit" : 2
+					"value" : 3000,
+					"rarity" : 30,
+					"zoneLimit" : 3
 				},
 				"levels" :
 				[

@@ -4,59 +4,12 @@
 		"types" :
 		{
 			"redTower" : {
-				"resetDuration" : 0,
 				"rmg" : {
-					"value"		: 4000,
-					"rarity"	: 80,
-					"zoneLimit" : 4
-				},
-				"levels": [
-					{
-						"chance": 40,
-						"guards": [
-							{ "amount": 7, "type" : "pitLord" },
-							{ "amount": 7, "type" : "pitLord" },
-							{ "amount": 10, "type" : "demon" },
-							{ "amount": 10, "type" : "demon" },
-							{ "amount": 14, "type" : "hellHound" }
-						],
-						"combat_value": 9000,
-						"reward" : {
-							"value": 6000,
-							"creatures": [ { "amount": 6, "type": "efreet" } ]
-						}
-					},
-					{
-						"chance": 40,
-						"guards": [
-							{ "amount": 10, "type" : "pitLord" },
-							{ "amount": 10, "type" : "pitLord" },
-							{ "amount": 15, "type" : "demon" },
-							{ "amount": 15, "type" : "demon" },
-							{ "amount": 20, "type" : "hellHound" }
-						],
-						"combat_value": 12000,
-						"reward" : {
-							"value": 8000,
-							"creatures": [ { "amount": 9, "type": "efreet" } ]
-						}
-					},
-					{
-						"chance": 20,
-						"guards": [
-							{ "amount": 14, "type" : "pitLord" },
-							{ "amount": 14, "type" : "pitLord" },
-							{ "amount": 20, "type" : "demon" },
-							{ "amount": 20, "type" : "demon" },
-							{ "amount": 28, "type" : "cerberus" }
-						],
-						"combat_value": 15000,
-						"reward" : {
-							"value": 10000,
-							"creatures": [ { "amount": 12, "type": "efreet" } ]
-						}
-					}
-				]
+					"value"		: 99999,
+					"rarity"	: 1,
+					"zoneLimit" : 1
+				}
+				
 			}
 		}
 	}

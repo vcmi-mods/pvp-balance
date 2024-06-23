@@ -44,6 +44,7 @@
 		{
 			"gold" : 500
 		},
+		"aiValue" : 800
 		
 	},
 	
@@ -54,6 +55,8 @@
 		{
 			"gold" : 650
 		},
+		
+		"aiValue" : 900,
 		"abilities#override" :
 		{
 			"forgeMorale" :
@@ -73,21 +76,33 @@
 			{
 				"type" : "SHOOTER"
 			}
-			},
+			}
 		
 		
 	},
 	
     "forge2k:jumpSoldier2k":
 	{
-		"aiValue" : 1300,
+		"aiValue" : 1300
+		
+	},
+	
+    "forge2k:heavystringer2k":
+	{
+		"special" : true
+		
+	},
+	
+    "forge2k:nagaHeavy2k":
+	{
+		"aiValue" : 3000
 		
 	},
 	
     "forge2k:jumpTrooper2k":
 	{
 		"hitPoints" : 70,
-		"aiValue" : 1700,
+		"aiValue" : 1600
 		
 	},
 	
@@ -99,7 +114,7 @@
 			"min" : 45
 		},
 		
-		"aiValue" : 8000,
+		"aiValue" : 7500,
 		
 		"abilities#override" :
 		{
@@ -136,7 +151,7 @@
 	
     "forge2k:dreadnought2k":
 	{
-		"aiValue" : 15000,
+		"aiValue" : 14000,
 		"fightValue" : 7635,
 		"attack" : 35,
 		"defense" : 35,
@@ -196,10 +211,93 @@
 		
 	},
 	
+    "ruins-town:rn_creature_lvl5":
+	{
+		"aiValue": 900
+		
+	},
     "ruins-town:rn_creature_lvl5_up":
 	{
-		"aiValue": 1300,
+		"aiValue": 1500,
 		"speed": 11
+		
+	},
+	
+    "ruins-town:rn_creature_lvl6":
+	{
+		"aiValue": 1400,
+		"speed": 8,
+		"damage": {
+			"min": 15,
+			"max": 20
+		}
+		
+	},
+    "ruins-town:rn_creature_lvl6_up":
+	{
+		"aiValue": 1700,
+		"speed": 10
+		
+	},
+	
+    "ruins-town:rn_creature_lvl7":
+	{
+		"aiValue": 4000
+		
+	},
+    "ruins-town:rn_creature_lvl7_up":
+	{
+		"aiValue": 6200
+		
+	},
+	
+	
+    "ruins-town:rn_creature_alternate":
+	{
+		"aiValue": 800,
+		"attack" : 10,
+		"defense" : 12,
+		"abilities#override" : {
+			"shooter": {
+				"type":"SHOOTER"
+			}
+		},
+		
+	},
+	
+    "ruins-town:rn_creature_alternate_up":
+	{
+		"aiValue": 900,
+		"attack" : 11,
+		"defense" : 13,
+		"abilities#override" : {
+			"shooter": {
+				"type":"SHOOTER"
+			},
+			"spellPower" : 
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 6
+			},
+			"spellPoints" : 
+			{
+				"type" : "CASTS",
+				"val" : 2
+			},
+			"spellcaster":
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.forceField",
+				"val" : 2,
+				"valueType" : "INDEPENDENT_MAX"
+			}
+		},
+		
+	},
+
+    "ruins-town:rn_creature_lvl1":
+	{
+		"aiValue": 75
 		
 	},
 
@@ -213,8 +311,42 @@
 			"max": 3
 		},
 		
+		"aiValue": 105
+		
 	},
+	
 
+    "new-pavilion:elderSphinx":
+	{
+		"aiValue": 2000
+		
+	},
+	
+    "new-pavilion:sphinx":
+	{
+		"aiValue": 1800
+		
+	},
+	
+     "new-pavilion:anubisWarrior":
+	{
+		"aiValue": 7200,
+		"abilities" :
+		{
+		"godScalesAttack" : 
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.godScaleAttack",
+				"val" : 5
+			},
+		"spellDuration" : 
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 2
+			}
+		}
+		
+	},
     "tides-of-war.alternative-creatures:mdtDrakeGolem":
 	{
 		"cost" : {
@@ -283,10 +415,22 @@
 		
 	},
 	
+    "tides-of-war.alternative-creatures:mdtTemplar":
+	{
+		
+		"aiValue" : 2700,
+		
+		"growth" : 1
+		
+		
+		
+	},
+	
     "tides-of-war.alternative-creatures:mdtPaladin":
 	{
 				
-		"aiValue" : 6000,
+		"aiValue" : 5500,
+		"growth" : 2,
 		"abilities#override" :
 		{
 			
@@ -306,6 +450,7 @@
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 5
 			}
+			
 		},
 		
 		
@@ -314,6 +459,15 @@
 		
 		
 	},
+	
+    "tides-of-war.neutral-creatures:mdtGhost":
+	{
+		
+		"aiValue" : 1000
+		
+		
+		
+	}
 		
 		
 		

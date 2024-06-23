@@ -26,7 +26,7 @@
 							{ "amount": 1, "type": "azureDragon" },
 							{ "amount": 1, "type": "crystalDragon" },
 							{ "amount": 1, "type": "rustDragon" },
-							{ "amount": 1, "type": "rustDragon" }
+							{ "amount": 1, "type": "crystalDragon" }
 						],
 						"combat_value": 769,
 						"reward" : {

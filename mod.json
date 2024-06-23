@@ -5,24 +5,27 @@
 
     "author" : "wnukos (main author), Andruids (graphical assets and revision), Misiokles (revision), Dydzio (technical support)",
 
-    "licenseName" : "Creative Commons Attribution-ShareAlike",
-
-    "licenseURL" : "https://creativecommons.org/licenses/by-sa/4.0/",
-
     "contact" : "wnukos on Discord",
 
     "modType" : "Expansion",
 	
-    "version" : "1.0",
+    "version" : "1.1",
  
     "changelog" :
     {
-        "1.0"   : [ "initial release" ]
+        "1.0"   : [ "initial release" ],
+        "1.1"   : [ "Spells: slow effect fixed, Vampirism moved to water magic school, damage of Frost Ring and Fireball changed to 15 x SP, Fireball cost decreased at expert level.",
+                    "Skills: Hexes unbanned, Intimidation reworked (-1 morale and 0/-1/-2 attack at basic/adv./expert lvl).",
+                    "Heroes: Zam banned, Osir unbanned, Galuum - starts with Interference instead of Resistance, corrected starting armies for Shroo, Thyroc, Kreevion, Ghuri, Eurydis, Odetta, Verstan and Ash.",
+	"Artifacts: class changed to Minor for artifacts giving rare resources, Head of Legion, Arms of Legion, Ring of Vitality and Pendant of Second Sight. Frog of Sagacity banned, Shield Wand temporarily banned due to incorrect effect of the artifact.",
+	"Objects: Red Tower banned, new bank Demon Domain introduced, Golden Utopia buffed, guards of Experimental Shop changed back to Steel Golems, fixed Dragon Utopia generation on Dunes terrain, fixed generation of Sorceress Castle and re-balanced the object, unbanned Seminarium object, fixed generation of Ancient Lamps (zone limit increased to 20), Imp Cache value decreased to 1500, improved creature arrangement in Ruins object and slightly increased the reward.",
+	"Creatures: Palladin nerfed (it casts Prayer at adv. level instead of mass Prayer), decreased Templar growth from 2 to 1. God Scales specialty of Anubis Warriors nerfed, Priestess and Forest Witch specialties nerfed. AI value of several units from Ruins Town, Heavenly Forge 2k, Pavilion Town and Tides of War adjusted.",
+	"Added polish translation for the descriptions modified by PvP-Balance mod."]
     },
 
     "compatibility" :
     {
-        "min" : "1.5.2"
+        "min" : "1.5.3"
     },
     
     "depends" : 
@@ -42,7 +45,14 @@
 	[
 	"h3-for-vcmi-englisation"
 	],
-    
+    "polish" :
+	{
+		"name" : "PvP Balance",
+		"description" : "Mod zawiera serię zmian, które mają na celu uczynić gry PvP ciekawszymi i bardziej zbalansowanymi.",	
+		"translations" : [
+			"translation/polish.json"
+		]
+	},
     "settings" : {
         "spells": {
             "dimensionDoorTournamentRulesLimit" : true

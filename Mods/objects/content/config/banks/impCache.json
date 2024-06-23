@@ -3,11 +3,10 @@
 	{
 		"types" :
 		{
-			"mdtSeminarium" :
+			"inpCache" :
 			{		
 				"rmg" : {
-					"value" : 99999,
-					"rarity" : 1
+					"value" : 1500
 				}
 			}
 		}

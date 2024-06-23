@@ -5,10 +5,6 @@
 
     "author" : "wnukos",
 
-    "licenseName" : "Creative Commons Attribution-ShareAlike",
-
-    "licenseURL" : "https://creativecommons.org/licenses/by-sa/4.0/",
-
     "contact" : "wnukos on Discord",
 
     "modType" : "Objects",
@@ -17,17 +13,17 @@
 	[
 		"config/genericObjects/sanctuary.json",
 		"config/genericObjects/prison.json",
+		"config/banks/impCache.json",
 		"config/banks/bonePillar.json",
 		"config/banks/outpostOfSouls.json",
 		"config/banks/redTower.json",
 		"config/banks/scriptorium.json",
 		"config/banks/seminarium.json",
+		"config/banks/mansion.json",
 		"config/banks/sorceressCastle.json",
-		"config/banks/mansion.json"
+		"config/banks/ruins.json"
 		
 	],
-	
-	"version" : "1.0",
 	
 	"depends" : 
 	[
@@ -37,20 +33,20 @@
 		"hota.neutralCreatures",
 		"hota.cove",
 		"tides-of-war.banks",
-		"new-pavilion.dunes-terrain"
+		"tides-of-war.alternative-creatures",
+		"new-pavilion.dunes-terrain",
+		"asphalt-terrain"
 		
 		
 	],
- 
-    "changelog" :
-    {
-        "1.0"   : [ "Initial release."]
-    },
+
 
 	"compatibility" :
 	{
-		"min" : "1.5.2"
+		"min" : "1.5.3"
 	},
+	
+    "version" : "1.1",
 	
     "keepDisabled" : false
 }
