@@ -9,7 +9,7 @@
 					"base" : { 
 					"animation" : "demonDomain", 
 					"visitableFrom" : [ "---", "---", "+++"  ],
-					"mask" : [ "VVVV", "VVVV", "VBBV", "VVAV"]
+					"mask" : [ "VVVV", "VVVV", "VBBV", "VBAV"]
 					}
 				},
 				"resetDuration" : 0,
@@ -31,7 +31,7 @@
 						"combat_value": 9000,
 						"reward" : {
 							"value": 6000,
-							"creatures": [ { "amount": 6, "type": "efreet" } ]
+							"creatures": [ { "amount": 5, "type": "efreet" } ]
 						}
 					},
 					{
@@ -46,7 +46,7 @@
 						"combat_value": 12000,
 						"reward" : {
 							"value": 8000,
-							"creatures": [ { "amount": 9, "type": "efreet" } ]
+							"creatures": [ { "amount": 8, "type": "efreet" } ]
 						}
 					},
 					{
@@ -61,7 +61,7 @@
 						"combat_value": 15000,
 						"reward" : {
 							"value": 10000,
-							"creatures": [ { "amount": 12, "type": "efreet" } ]
+							"creatures": [ { "amount": 10, "type": "efreet" } ]
 						}
 					}
 				]

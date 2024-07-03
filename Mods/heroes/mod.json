@@ -1,7 +1,7 @@
 {
     "name" : "Heroes",
 
-    "description" : "Hero bans and rebalanced heroes for PvP. One new hero is added to Heavenly Forge 2000 faction.",
+    "description" : "Hero bans and rebalanced heroes for PvP. One new hero - Seymour - is added to Heavenly Forge 2000 faction.",
 
     "author" : "wnukos",
 
@@ -37,7 +37,7 @@
 		"min" : "1.5.3"
 	},
 	
-    "version" : "1.1",
+    "version" : "1.2",
 	
     "keepDisabled" : false
 }

@@ -1,7 +1,7 @@
 {
     "name" : "Jebus Cross Objects",
 
-    "description" : "Modified objects for Jebus Cross template. The changes include elimination of minimal size of creature banks giving army as reward, rework of some creature banks (f.e. Drake Golems can be obtained in Experimental Shops) and a new object Golden Utopia which can generate only in the central desert zone. Moreover generation of Crypts on Lava and Rough terrains is enabled.",
+    "description" : "Modified objects for Jebus Cross template. The changes include elimination of minimal size of creature banks giving army as reward, enabling generation of Crypts on Lava and Rough terrains and rework of some creature banks (f.e. Drake Golems can be obtained in Experimental Shops). Moreover two new objects are added: Demon Domain and Golden Utopia.",
 
     "author" : "wnukos",
 
@@ -56,7 +56,7 @@
 		"min" : "1.5.3"
 	},
 	
-    "version" : "1.1",
+    "version" : "1.2",
 	
     "keepDisabled" : false
 }

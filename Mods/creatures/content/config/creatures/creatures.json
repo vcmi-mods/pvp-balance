@@ -274,6 +274,12 @@
 			"shooter": {
 				"type":"SHOOTER"
 			},
+			
+			"magic": {
+				"type": "MAGIC_MIRROR",
+				"val": 50
+			},
+			
 			"spellPower" : 
 			{
 				"type" : "CREATURE_ENCHANT_POWER",
@@ -337,7 +343,7 @@
 			{
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.godScaleAttack",
-				"val" : 5
+				"val" : 10
 			},
 		"spellDuration" : 
 			{
@@ -399,7 +405,7 @@
     "tides-of-war.alternative-creatures:mdtDireWerewolf":
 	{
 				
-		"aiValue" : 650,
+		"aiValue" : 700,
 		
 		
 		

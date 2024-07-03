@@ -9,7 +9,7 @@
 
     "modType" : "Expansion",
 	
-    "version" : "1.1",
+    "version" : "1.2",
  
     "changelog" :
     {
@@ -20,7 +20,8 @@
 	"Artifacts: class changed to Minor for artifacts giving rare resources, Head of Legion, Arms of Legion, Ring of Vitality and Pendant of Second Sight. Frog of Sagacity banned, Shield Wand temporarily banned due to incorrect effect of the artifact.",
 	"Objects: Red Tower banned, new bank Demon Domain introduced, Golden Utopia buffed, guards of Experimental Shop changed back to Steel Golems, fixed Dragon Utopia generation on Dunes terrain, fixed generation of Sorceress Castle and re-balanced the object, unbanned Seminarium object, fixed generation of Ancient Lamps (zone limit increased to 20), Imp Cache value decreased to 1500, improved creature arrangement in Ruins object and slightly increased the reward.",
 	"Creatures: Palladin nerfed (it casts Prayer at adv. level instead of mass Prayer), decreased Templar growth from 2 to 1. God Scales specialty of Anubis Warriors nerfed, Priestess and Forest Witch specialties nerfed. AI value of several units from Ruins Town, Heavenly Forge 2k, Pavilion Town and Tides of War adjusted.",
-	"Added polish translation for the descriptions modified by PvP-Balance mod."]
+	"Added polish translation for the descriptions modified by PvP-Balance mod."],
+        "1.2"   : [ "Demon Domain bank: decreased amount of Efreets obtained as reward from 6/9/12 to 5/8/10, corrected object mask.", "Small balancing changes for creatures." ]
     },
 
     "compatibility" :
