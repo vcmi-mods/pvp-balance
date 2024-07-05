@@ -1,0 +1,20 @@
+{
+    "name" : "RMG",
+
+    "description" : "This submod doubles value of t4 and t5 spell scrolls.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Mechanics",
+	
+    "compatibility" :
+	{
+	 "min" : "1.5.3"
+	},
+	
+    "version" : "1.2.1",
+	
+    "keepDisabled" : false
+}

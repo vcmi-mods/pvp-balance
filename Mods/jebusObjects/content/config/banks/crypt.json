@@ -31,6 +31,12 @@
 					"visitableFrom" : [ "---", "-+-", "+++" ], 
 					"allowedTerrains": [ "rough"], 
 					"mask" : [ "VVV", "BAB"]
+					},
+					"asphalt" : { 
+					"animation" : "cryptRough", 
+					"visitableFrom" : [ "---", "-+-", "+++" ], 
+					"allowedTerrains": [ "asphalt"], 
+					"mask" : [ "VVV", "BAB"]
 					}
 					
 				},
