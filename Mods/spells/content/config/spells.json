@@ -158,6 +158,66 @@
 		}
 	},
 	
+	"core:fireElemental" : {
+		
+		"levels" : {
+			"advanced" : {
+			
+				"power" : 2.5
+			},
+		
+			"basic" : {
+				"power" : 2
+			},
+			"expert" : {
+				"power" : 3
+			},
+			"none" : {
+				"power" : 2
+			}
+		},
+	},
+	
+	"core:earthElemental" : {
+		
+		"levels" : {
+			"advanced" : {
+			
+				"power" : 2.5
+			},
+		
+			"basic" : {
+				"power" : 2
+			},
+			"expert" : {
+				"power" : 3
+			},
+			"none" : {
+				"power" : 2
+			}
+		},
+	},
+	
+	"core:viewEarth" : {
+		"graphics" : {
+			"iconBook" : "ve_iconBook.bmp",
+			"iconScroll" : "ve_iconScroll.bmp",
+			"iconScenarioBonus" : "ve_iconScenarioBonus.bmp",
+			"iconEffect" : "ve_iconEffect.bmp"
+		},
+		
+	},
+	
+	"core:viewAir" : {
+		"graphics" : {
+			"iconBook" : "va_iconBook.bmp",
+			"iconScroll" : "va_iconScroll.bmp",
+			"iconScenarioBonus" : "va_iconScenarioBonus.bmp",
+			"iconEffect" : "va_iconEffect.bmp"
+		},
+		
+	},
+	
 	"core:slow" : {
 		"levels" : {
 			"base":{

@@ -14,19 +14,6 @@
 		}
 	},
 	
-	"core:castle" :
-	{
-		"town" :
-		{
-			"buildings" :
-			{
-				"dwellingLvl7":   { "requires#override" : [ "dwellingLvl5" ] }
-				
-				
-			}
-		}
-	}
-	
 	
 	
 	

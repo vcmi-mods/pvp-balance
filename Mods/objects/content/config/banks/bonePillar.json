@@ -5,6 +5,15 @@
 		{
 			"mdtBonePillar" :
 			{		
+				"name" : "Bone Pillar",
+				"templates" : {
+					"base" : {
+						"animation" : "banks/bonePillar",
+						"visitableFrom" : [ "---", "-++", "+++" ],
+						"mask" : [ "VVV", "VVV", "VBA" ],
+						"allowedTerrains" : [ "sand", "subterra", "rough", "lava" ]
+					}
+				},
 				"rmg" : {
 					"value" : 99999,
 					"rarity" : 1

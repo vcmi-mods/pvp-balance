@@ -5,6 +5,15 @@
 		{
 			"mdtOutpostOfSouls" :
 			{		
+				"name" : "Outpost of Souls",
+				"templates" : {
+					"base" : { 
+					"animation" : "banks/outpostOfSouls",
+					"visitableFrom" : [ "---", "-+-", "+++" ],
+					"mask" : [ "VVVV", "VVBV", "VBAB"],
+					"allowedTerrains" : [ "rough", "dirt", "swamp" ]
+					}
+				},
 				"rmg" : {
 					"value" : 99999,
 					"rarity" : 1

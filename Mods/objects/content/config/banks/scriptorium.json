@@ -3,8 +3,19 @@
 	{
 		"types" :
 		{
+			
 			"mdtScriptorium" :
 			{		
+				"name" : "Scriptorium",
+				"templates" :
+				{
+					"base" :
+					{
+						"animation" : "banks/scriptorium.def",
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"mask" : [ "VVV", "VVV", "BAB"]
+					}
+				},
 				"rmg" : {
 					"value" : 99999,
 					"rarity" : 1

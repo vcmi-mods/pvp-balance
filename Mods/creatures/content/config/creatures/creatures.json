@@ -1,5 +1,19 @@
 {
 	
+      "core:lizardman":
+	{
+		"fightValue" : 137,
+		"aiValue" : 151
+		
+	},
+	
+      "core:lizardWarrior":
+	{
+		"fightValue" : 174,
+		"aiValue" : 209
+		
+	},
+	
   "forge2k:gruntSoldier2k":
 	{
 		"aiValue" : 90,
@@ -369,7 +383,7 @@
 			"magicResistance" :
 			{
 				"type" : "MAGIC_RESISTANCE",
-				"val" : 30
+				"val" : 20
 			}
 		}
 		
@@ -389,7 +403,7 @@
 			"magicResistance" :
 			{
 				"type" : "MAGIC_RESISTANCE",
-				"val" : 60
+				"val" : 40
 			},
 			"firstStrike" :
 			{
