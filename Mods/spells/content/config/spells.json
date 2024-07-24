@@ -163,7 +163,7 @@
 		"levels" : {
 			"advanced" : {
 			
-				"power" : 2.5
+				"power" : 3
 			},
 		
 			"basic" : {
@@ -183,7 +183,7 @@
 		"levels" : {
 			"advanced" : {
 			
-				"power" : 2.5
+				"power" : 3
 			},
 		
 			"basic" : {
@@ -342,212 +342,19 @@
 	},
 	
 	"tides-of-war.spells:mdtAuraOfPower" : {
-		"type" : "combat",
-		"name" : "Aura of Power",
-		"school" : {
-			"air" : false,
-			"earth" : false,
-			"fire" : true,
-			"water" : false
-		},
-		"targetType" : "NO_TARGET",
-		"level" : 3,
-		"power" : 10,
-		"defaultGainChance" : 5,
-		"gainChance" : {
-			"inferno" : 12,
-			"dungeon" : 8,
-			"tower" : 8,
-			"rampart" :  8,
-			"castle" : 2,
-			"stronghold" : 2
-		},
-		"animation" : {
-			"hit" :[ "spells/auraOfPower/SP_AURA.def" ]
-		},
 		"flags" : {
-			"positive" : true
-		},
-		"sounds" : {
-			"cast" : "spells/auraOfPower/spell-auraofpower.wav"
-		},
-		"graphics" : {
-			"iconBook" : "spells/auraOfPower/aop_iconBook.bmp",
-			"iconScroll" : "spells/auraOfPower/aop_iconScroll.bmp",
-			"iconScenarioBonus" : "spells/auraOfPower/aop_iconScenarioBonus.bmp",
-			"iconEffect" : "spells/auraOfPower/aop_iconEffect.png"
-		},
-		"levels" : {
-			"base" : {
-				"power" : 10,
-				"aiValue" : 20,
-				"range" : "X",
-				"targetModifier" : {"smart" :false},
-				"cost" : 12, 
-				"description" : "{Aura of Power}\r\n\r\nIncreases power of all damage spells by 10% to the end of the battle.",
-				"battleEffects" : {
-					"spellsDamage" : {
-						"type" : "core:timed",
-						"cumulative" : true,
-						"bonus" : {
-							"fireDamage" : {
-								"type" : "SPELL_DAMAGE",
-								"subtype" : "spellSchool.fire",
-								"val" : 10,
-								"valueType" : "BASE_NUMBER",
-								"propagator" : "HERO",
-								"duration" : "ONE_BATTLE"
-							},
-							"airDamage" : {
-								"type" : "SPELL_DAMAGE",
-								"subtype" : "spellSchool.air",
-								"val" : 10,
-								"valueType" : "BASE_NUMBER",
-								"propagator" : "HERO",
-								"duration" : "ONE_BATTLE"
-							},
-							"earthDamage" : {
-								"type" : "SPELL_DAMAGE",
-								"subtype" : "spellSchool.earth",
-								"val" : 10,
-								"valueType" : "BASE_NUMBER",
-								"propagator" : "HERO",
-								"duration" : "ONE_BATTLE"
-							},
-							"waterDamage" : {
-								"type" : "SPELL_DAMAGE",
-								"subtype" : "spellSchool.water",
-								"val" : 10,
-								"valueType" : "BASE_NUMBER",
-								"propagator" : "HERO",
-								"duration" : "ONE_BATTLE"
-							}
-						}
-					}
-				}
-			},
-			"none" : {
-				"cost" : 12
-			},
-			"basic" : {
-				"description" : "{Basic Aura of Power}\r\n\r\nIncreases power of all damage spells by 10% to the end of the battle."
-			},
-			"advanced" : {
-				"description" : "{Advanced Aura of Power}\r\n\r\nIncreases power of all damage spells by 20% to the end of the battle.",
-				"battleEffects" : {
-					"spellsDamage" : {
-						"bonus" : {
-							"fireDamage" : {
-								"val" : 20
-							},
-							"airDamage" : {
-								"val" : 20
-							},
-							"earthDamage" : {
-								"val" : 20
-							},
-							"waterDamage" : {
-								"val" : 20
-							}
-						}
-					}
-				}
-			},
-			"expert#override" : {
-				"description" : "{Expert Aura of Power}\r\n\r\nIncreases power of all damage spells by 30% to the end of the battle.",
-				"battleEffects" : {
-					"spellsDamage" : {
-						"bonus" : {
-							"fireDamage" : {
-								"val" : 30
-							},
-							"airDamage" : {
-								"val" : 30
-							},
-							"earthDamage" : {
-								"val" : 30
-							},
-							"waterDamage" : {
-								"val" : 30
-							}
-						}
-					}
-				}
-			}
+			"special" : true
 		}
-	},
-	
-	"tides-of-war.spells:summonGhost" : {
 		
-		"defaultGainChance" : 0,
-		"gainChance" : {
-			"inferno" : 0,
-			"dungeon" : 0,
-			"necropolis" : 0,
-			"tower" : 0,
-			"rampart" :  0,
-			"castle" : 0,
-			"stronghold" : 0,
-			"conflux" : 0
-		}
 		
 	},
 	
-	"tides-of-war.spells:mdtIntervention" : {
-		
-		"defaultGainChance" : 0,
-		"gainChance" : {
-			"inferno" : 0,
-			"dungeon" : 0,
-			"necropolis" : 0,
-			"tower" : 0,
-			"rampart" :  0,
-			"castle" : 0,
-			"stronghold" : 0,
-			"conflux" : 0
-		}
-		
-	},
-	
-	"tides-of-war.spells:mdtVampirism" : {
-		
-		"defaultGainChance" : 0,
-		"gainChance" : {
-			"inferno" : 0,
-			"dungeon" : 0,
-			"necropolis" : 0,
-			"tower" : 0,
-			"rampart" :  0,
-			"castle" : 0,
-			"stronghold" : 0,
-			"conflux" : 0
-		},
-		"school" : {
-			"air" : false,
-			"earth" : false,
-			"fire" : false,
-			"water" : true
-		}
-		
-		
-	},
 	
 	"forge2k:assumeControl2k" : {
 		
-		"defaultGainChance" : 0,
-		"gainChance" : {
-			"inferno" : 0,
-			"dungeon" : 0,
-			"necropolis" : 0,
-			"tower" : 0,
-			"rampart" :  0,
-			"castle" : 0,
-			"stronghold" : 0,
-			"conflux" : 0
-		},
 		"flags" : {
 			"special" : true
-		},
+		}
 		
 	},
 	

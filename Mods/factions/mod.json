@@ -19,15 +19,16 @@
 "depends" : 
 	[
 		"ruins-town",
-		"tides-of-war.alternative-creatures"
+		"tides-of-war.alternative-creatures",
+		"hota.gameBalance"
 	],
 
 	"compatibility" :
 	{
-		"min" : "1.5.3"
+		"min" : "1.5.5"
 	},
 	
-"version" : "1.2.2",
+"version" : "1.2.3",
 	
     "keepDisabled" : false
 }

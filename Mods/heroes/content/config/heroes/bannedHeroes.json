@@ -16,6 +16,5 @@
   "new-pavilion:cassandra":{"special" : true },
   "new-pavilion:keila":{"special" : true },
   "new-pavilion:seref":{"special" : true },
-  "new-pavilion:zamonth":{"special" : true },
-  "tides-of-war.heroes:zamNecromancer":{"special" : true }
+  "new-pavilion:zamonth":{"special" : true }
 }

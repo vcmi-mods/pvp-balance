@@ -13,6 +13,7 @@
 	[
 		"config/genericObjects/sanctuary.json",
 		"config/genericObjects/prison.json",
+		"config/genericObjects/gazebo.json",
 		"config/banks/impCache.json",
 		"config/banks/bonePillar.json",
 		"config/banks/outpostOfSouls.json",
@@ -43,10 +44,10 @@
 
 	"compatibility" :
 	{
-		"min" : "1.5.3"
+		"min" : "1.5.5"
 	},
 	
-    "version" : "1.2.2",
+    "version" : "1.2.3",
 	
     "keepDisabled" : false
 }
