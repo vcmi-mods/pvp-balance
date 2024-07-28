@@ -9,7 +9,7 @@
 
     "modType" : "Expansion",
 	
-    "version" : "1.2.3",
+    "version" : "1.2.4",
  
     "changelog" :
     {
@@ -24,7 +24,8 @@
         "1.2"   : [ "Demon Domain bank: decreased amount of Efreets obtained as reward from 6/9/12 to 5/8/10, corrected object mask.", "Small balancing changes for creatures." ],
         "1.2.1"   : [ "Added submod RMG which doubles value of t4 and t5 spell scrolls.", "Allowed crypt generation on Asphalt terrain."],
         "1.2.2"   : [ "Spint starting spell fixed - now he has Bless instead of Ice Bolt.", "Fixed graphics of View Earth and View Air spells.", "Shield Wand unbanned due to fixed mechanics of the artifact.", "AI value of Lizardmen and Lizard Warriors adjusted according to Hota 1.7 update.", "Summon Earth Elemental and Summon Fire Elemental adjusted according to HotA 1.7 update.", "Small corrections of mod structure."],
-        "1.2.3"   : ["Temporarily banned Aura of Power spell due to broken mechanics.", "Unbanned Zam hero", "Fixed amount of summoned Fire and Earth Elementals at advanced level due to VCMI not accepting fractional values.", "Spells Vampirism, Intervention and Summon Ghost unlocked in mage guild.", "Gazebo object fixed.", "Build order in Ruins fixed - no Fort required for Mage Guild.", "Build order in Conflux fixed - upgrade of lvl1 dwelling requires only lvl1 horde building (same as in HotA)."]
+        "1.2.3"   : ["Temporarily banned Aura of Power spell due to broken mechanics.", "Unbanned Zam hero", "Fixed amount of summoned Fire and Earth Elementals at advanced level due to VCMI not accepting fractional values.", "Spells Vampirism, Intervention and Summon Ghost unlocked in mage guild.", "Gazebo object fixed.", "Build order in Ruins fixed - no Fort required for Mage Guild.", "Build order in Conflux fixed - upgrade of lvl1 dwelling requires only lvl1 horde building (same as in HotA)."],
+        "1.2.4"   : [ "Do not spawn empty banks on maps with very high treasure values (100k+)" ]
     },
 
     "compatibility" :

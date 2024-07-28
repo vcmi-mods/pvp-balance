@@ -6,7 +6,7 @@
 			"redTower" : {
 				"rmg" : {
 					"value"		: 4000,
-					"rarity"	: 80,
+					"rarity"	: 80
 				},
 				"levels": [	
 					{
