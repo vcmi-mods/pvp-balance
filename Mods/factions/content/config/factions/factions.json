@@ -1,24 +1,4 @@
 {
-	"ruins-town:ruins" :
-	{
-		"town" :
-		{
-			"buildings" :
-			{	          
-				"dwellingLvl5":   { "id" : 34,
-					"cost" : { "gold" : 2500, "ore" : 5 }					          
-					},
-					
-				"mageGuild1" : {
-					"requires#override" : [ 
-					"allOf", [ "noneOf", [ "mageGuild2" ] ] 
-					]
-				}
-				
-				
-			}
-		}
-	},
 	
 	"core:conflux" :
 	{	

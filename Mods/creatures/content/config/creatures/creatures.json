@@ -454,6 +454,21 @@
 		"abilities#override" :
 		{
 			
+			"castsDestroyUndead" :
+			{
+				"type" : "OPENING_BATTLE_SPELL",
+				"subtype" : "spell.destroyUndead",
+				"val" : 3,
+				"propagator" : "BATTLE_WIDE"
+			},
+			
+			"destroyPower" : 
+			{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.destroyUndead",
+				"val" : 50
+			},
+			
 			"castsPrayer" :
 			{
 				"type" : "SPELLCASTER",
