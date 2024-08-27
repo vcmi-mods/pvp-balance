@@ -59,6 +59,14 @@
 			"translation/polish.json"
 		]
 	},
+	"russian" :
+	{
+		"name" : "PvP Баланс",
+		"description" : "Мод предоставляет ряд изменений, чтобы сделать PvP-игры более сбалансированными и интересными. Подробная документация доступна по адресу: https://drive.google.com/file/d/1XC-J8Wd4A5WDpNgcjcUpg4oIlSXehCxU/view?usp=sharing",	
+		"translations" : [
+			"translation/russian.json"
+		]
+	},
     "settings" : {
         "spells": {
             "dimensionDoorTournamentRulesLimit" : true
