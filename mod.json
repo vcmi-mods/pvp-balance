@@ -9,7 +9,7 @@
 
     "modType" : "Expansion",
 	
-    "version" : "1.2.5",
+    "version" : "1.2.6",
  
     "changelog" :
     {
@@ -26,7 +26,8 @@
         "1.2.2"   : [ "Spint starting spell fixed - now he has Bless instead of Ice Bolt.", "Fixed graphics of View Earth and View Air spells.", "Shield Wand unbanned due to fixed mechanics of the artifact.", "AI value of Lizardmen and Lizard Warriors adjusted according to Hota 1.7 update.", "Summon Earth Elemental and Summon Fire Elemental adjusted according to HotA 1.7 update.", "Small corrections of mod structure."],
         "1.2.3"   : ["Temporarily banned Aura of Power spell due to broken mechanics.", "Unbanned Zam hero", "Fixed amount of summoned Fire and Earth Elementals at advanced level due to VCMI not accepting fractional values.", "Spells Vampirism, Intervention and Summon Ghost unlocked in mage guild.", "Gazebo object fixed.", "Build order in Ruins fixed - no Fort required for Mage Guild.", "Build order in Conflux fixed - upgrade of lvl1 dwelling requires only lvl1 horde building (same as in HotA)."],
         "1.2.4"   : [ "Do not spawn empty banks on maps with very high treasure values (100k+)" ],
-        "1.2.5"   : [ "Temporarily banned Hokori hero due to broken mechanics of Aura of Power spell.", "Withdrew changes regarding Ruins Town build order due to update of the original town mod.", "Golden Utopia buffed - 2 Rust Dragons instead of 1.", "Modified specialty of Palladin creature - it casts now Destroy Undead at the beginning of the battle." ]
+        "1.2.5"   : [ "Temporarily banned Hokori hero due to broken mechanics of Aura of Power spell.", "Withdrew changes regarding Ruins Town build order due to update of the original town mod.", "Golden Utopia buffed - 2 Rust Dragons instead of 1.", "Modified specialty of Palladin creature - it casts now Destroy Undead at the beginning of the battle." ],
+        "1.2.6"   : [ "Russian translation by Anton Sergeew" ]
     },
 
     "compatibility" :
