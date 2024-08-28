@@ -9,7 +9,7 @@
 
     "modType" : "Expansion",
 	
-    "version" : "1.2.6",
+    "version" : "1.2.7",
  
     "changelog" :
     {
@@ -27,7 +27,8 @@
         "1.2.3"   : ["Temporarily banned Aura of Power spell due to broken mechanics.", "Unbanned Zam hero", "Fixed amount of summoned Fire and Earth Elementals at advanced level due to VCMI not accepting fractional values.", "Spells Vampirism, Intervention and Summon Ghost unlocked in mage guild.", "Gazebo object fixed.", "Build order in Ruins fixed - no Fort required for Mage Guild.", "Build order in Conflux fixed - upgrade of lvl1 dwelling requires only lvl1 horde building (same as in HotA)."],
         "1.2.4"   : [ "Do not spawn empty banks on maps with very high treasure values (100k+)" ],
         "1.2.5"   : [ "Temporarily banned Hokori hero due to broken mechanics of Aura of Power spell.", "Withdrew changes regarding Ruins Town build order due to update of the original town mod.", "Golden Utopia buffed - 2 Rust Dragons instead of 1.", "Modified specialty of Palladin creature - it casts now Destroy Undead at the beginning of the battle." ],
-        "1.2.6"   : [ "Russian translation by Anton Sergeew" ]
+        "1.2.6"   : [ "Russian translation by Anton Sergeew" ],
+		"1.2.7"   : [ "Updated polsih translation" ]
     },
 
     "compatibility" :
