@@ -12,7 +12,7 @@
     "skill.core.learning.description.basic": "{Podstawowa Nauka}\r\n\r\n{Zwiększa liczbę punktów doświadczenia otrzymywanych przez bohatera o 10%.",
     "skill.core.learning.description.advanced": "{Zaawansowana Nauka}\r\n\r\n{Zwiększa liczbę punktów doświadczenia otrzymywanych przez bohatera o 20%. Wiedza bohatera jest zwiększona o 1.",
     "skill.core.learning.description.expert": "{Mistrzowska Nauka}\r\n\r\n{Zwiększa liczbę punktów doświadczenia otrzymywanych przez bohatera o 30%. Wiedza bohatera jest zwiększona o 2.",
-    "hero.pvp-balance.heroes.seymour2k.biography" : "Seymour był wielokrotnie mylony z Kastore ze względu na swój wygląd i fakt, że ma dostęp do przenośnego replikatora. Dzięki niemu jest w stanie dostarczać posiłki poza zbrojownie niebiańskiej Kuźni.",
+    "hero.pvp-balance.heroes.seymour2k.biography" : "Seymour był wielokrotnie mylony z Kastorem ze względu na swój wygląd i fakt, że ma dostęp do przenośnego replikatora. Dzięki temu drugiemu jest w stanie wyposażać posiłki poza zbrojowniami Niebiańskiej Kuźni.",
 	"hero.pvp-balance.heroes.seymour2k.name" : "Seymour",
 	"hero.pvp-balance.heroes.seymour2k.specialty.description" : "{Kuźnia}\r\n\r\nMoże ulepszyć gobliny, hobgobliny, żywe trupy, zombie, gogi i magogi do stworzeń kuźni t1 - t3.",
 	"hero.pvp-balance.heroes.seymour2k.specialty.name" : "Kuźnia",
@@ -33,5 +33,14 @@
 	"mapObject.pvp-balance.objects.gazebo.gazebo.onVisited" : "{Altana}\r\n\r\nSłychać głośne chrapanie dochodzące z altany. Najwyraźniej Liga już dobrze wykorzystała twoją darowiznę.",
 	"mapObject.pvp-balance.objects.gazebo.gazebo.rewards.0" : "{Altana}\r\n\r\nI stary Rycerz pojawia się na schodach altany. „Nauczę cię wszystkiego, co wiem, aby pomóc ci w twoich podróżach. Jednak dam ci znać, że wymagana jest mała darowizna na rzecz Ligi Emerytowanych Rycerzy. Tysiąc sztuk złota wystarczy.\"",
 	"object.pvp-balance.jebusobjects.ancientLampNew.name" : "Starożytna Lampa",
-	"object.pvp-balance.objects.gazebo.name" : "Altana"
+	"object.pvp-balance.objects.gazebo.name" : "Altana",
+
+	"hero.forge2k.charity2k.specialty.description" : "{Talent magiczny}\r\n\r\nZaklęcia rzucone przez bohatera zadają wrogom obrażenia większe o 5%",
+	"hero.forge2k.cistrict2k.specialty.description" : "{Zakłócenie}\r\n\r\nPodczas bitwy zmniejsza moc magiczną wrogiego bohatera o dodatkowe 5%.",
+	"hero.forge2k.cistrict2k.specialty.name" : "Zakłócenie",
+	"hero.forge2k.cistrict2k.specialty.tooltip" : "Bonus do umiejętności: Zakłócenie",
+	"hero.forge2k.deckard2k.specialty.description" : "{Płatnerstwo}\r\n\r\nZmniejsza o dodatkowe 5% obrażenia zadawane twoim oddziałom podczas walki.",
+	"hero.forge2k.everest2k.specialty.description" : "{Mistycyzm}\r\n\r\nOtrzymuje za każdy poziom doświadczenia bonus 5% do umiejętności Mistycyzm.",
+	"hero.forge2k.sheikleen2k.specialty.description" : "{Inteligencja}\r\n\r\nOtrzymuje za każdy poziom doświadczenia bonus 5% do umiejętności Inteligencja."
+
 }

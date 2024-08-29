@@ -9,7 +9,7 @@
 
     "modType" : "Expansion",
 	
-    "version" : "1.2.7",
+    "version" : "1.2.71",
  
     "changelog" :
     {
@@ -28,7 +28,8 @@
         "1.2.4"   : [ "Do not spawn empty banks on maps with very high treasure values (100k+)" ],
         "1.2.5"   : [ "Temporarily banned Hokori hero due to broken mechanics of Aura of Power spell.", "Withdrew changes regarding Ruins Town build order due to update of the original town mod.", "Golden Utopia buffed - 2 Rust Dragons instead of 1.", "Modified specialty of Palladin creature - it casts now Destroy Undead at the beginning of the battle." ],
         "1.2.6"   : [ "Russian translation by Anton Sergeew" ],
-		"1.2.7"   : [ "Updated polsih translation" ]
+		"1.2.7"   : [ "Updated polish translation" ],
+		"1.2.71"   : [ "Another updated polish translation" ]
     },
 
     "compatibility" :
