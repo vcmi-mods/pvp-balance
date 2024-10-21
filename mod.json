@@ -9,7 +9,7 @@
 
     "modType" : "Expansion",
 	
-    "version" : "1.2.71",
+    "version" : "1.2.72",
  
     "changelog" :
     {
@@ -29,7 +29,8 @@
         "1.2.5"   : [ "Temporarily banned Hokori hero due to broken mechanics of Aura of Power spell.", "Withdrew changes regarding Ruins Town build order due to update of the original town mod.", "Golden Utopia buffed - 2 Rust Dragons instead of 1.", "Modified specialty of Palladin creature - it casts now Destroy Undead at the beginning of the battle." ],
         "1.2.6"   : [ "Russian translation by Anton Sergeew" ],
 		"1.2.7"   : [ "Updated polish translation" ],
-		"1.2.71"   : [ "Another updated polish translation" ]
+		"1.2.71"   : [ "Another updated polish translation" ],
+		"1.2.72"   : [ "Added Chinese translation by LeoAllenHan" ]
     },
 
     "compatibility" :
@@ -68,6 +69,14 @@
 		"description" : "Мод предоставляет ряд изменений, чтобы сделать PvP-игры более сбалансированными и интересными. Подробная документация доступна по адресу: https://drive.google.com/file/d/1XC-J8Wd4A5WDpNgcjcUpg4oIlSXehCxU/view?usp=sharing",	
 		"translations" : [
 			"translation/russian.json"
+		]
+	},
+    "chinese" :
+	{
+		"name" : "对战平衡",
+		"description" : "该模组包括一系列的变化，旨在使PvP游戏更加有趣和平衡。",	
+		"translations" : [
+			"translation/chinese.json"
 		]
 	},
     "settings" : {
