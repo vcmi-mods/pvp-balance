@@ -9,7 +9,7 @@
 
     "modType" : "Expansion",
 	
-    "version" : "1.2.72",
+    "version" : "1.2.73",
  
     "changelog" :
     {
@@ -30,7 +30,8 @@
         "1.2.6"   : [ "Russian translation by Anton Sergeew" ],
 		"1.2.7"   : [ "Updated polish translation" ],
 		"1.2.71"   : [ "Another updated polish translation" ],
-		"1.2.72"   : [ "Added Chinese translation by LeoAllenHan" ]
+		"1.2.72"   : [ "Added Chinese translation by LeoAllenHan" ],
+		"1.2.73"   : [ "Fixed ImpCache typo" ]
     },
 
     "compatibility" :
