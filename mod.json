@@ -9,7 +9,7 @@
 
     "modType" : "Expansion",
 	
-    "version" : "1.2.73",
+    "version" : "1.2.74",
  
     "changelog" :
     {
@@ -31,7 +31,8 @@
 		"1.2.7"   : [ "Updated polish translation" ],
 		"1.2.71"   : [ "Another updated polish translation" ],
 		"1.2.72"   : [ "Added Chinese translation by LeoAllenHan" ],
-		"1.2.73"   : [ "Fixed ImpCache typo" ]
+		"1.2.73"   : [ "Fixed ImpCache typo" ],
+		"1.2.74"   : [ "Update cove heroes format" ]
     },
 
     "compatibility" :
