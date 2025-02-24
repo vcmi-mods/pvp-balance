@@ -1,0 +1,42 @@
+{
+
+	"tides-of-war.objects:fortressnHomes" : {
+		"biome": {
+			"terrain" : "rock",
+			"faction" : ["castle"],
+			"objectType" : "structure"
+		}
+	},
+
+	"tides-of-war.objects:dungeonHomes" : {
+		"biome": {
+			"terrain" : "rock",
+			"faction" : ["castle"],
+			"objectType" : "structure"
+		}
+	},
+
+	"tides-of-war.objects:sandMountains" : {
+		"biome": {
+			"terrain" : "rock",
+			"faction" : ["castle"],
+			"objectType" : "structure"
+		}
+	},
+
+	"tides-of-war.objects:swampMountains" : {
+		"biome": {
+			"terrain" : "rock",
+			"faction" : ["castle"],
+			"objectType" : "structure"
+		}
+	}
+
+
+
+
+
+
+
+
+}

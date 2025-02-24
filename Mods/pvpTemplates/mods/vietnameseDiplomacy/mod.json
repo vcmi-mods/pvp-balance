@@ -18,7 +18,6 @@
       
     "depends" : 
 	[
-		"pvp-balance",
         "pvp-balance.objects",
         "hota",
         "hota.heroes",

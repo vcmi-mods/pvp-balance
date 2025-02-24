@@ -2,7 +2,7 @@
 	"One Minute Madness" :
 	{
 		"minSize" : "l",
-		"maxSize" : "xl",
+		"maxSize" : "l",
 		"players" : "2",
 		"allowedWaterContent" : ["none"],
 		"zones" :

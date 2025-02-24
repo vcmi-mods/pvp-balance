@@ -39,7 +39,7 @@
 							{ "amount" : 15, "type" : "swordsman" },
 							{ "amount" : 15, "type" : "swordsman", "upgradeChance" : 50 },
 							{ "amount" : 15, "type" : "swordsman" },
-							{ "amount" : 1, "type" : "swordsman" }
+							{ "amount" : 15, "type" : "swordsman" }
 						           ],
 							  "creatures" : [ { "amount" : 3, "type" : "mdtTemplar" } ]
 					},
