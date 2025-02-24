@@ -11,7 +11,7 @@
 
 	"objects" :
 	[
-		"config/horseshoeLake.json"
+		"config/bank.json"
 	],
 
 	"depends" :
@@ -27,7 +27,7 @@
 	["pvp-balance.objects.increasedBankSize",
 	"pvp-balance.pvpTemplates.brawl.brawlBanks.brawlHotaObjects",
 	"pvp-balance.objects.alternativeArmyBanks.horseshoeLakeRuinsForWolfRaiderPicket",
-"pvp-balance.pvpTemplates.brawl.brawlBanks.brawlPvPBalanceObjects.alternativeArmyBanks.horseshoeLakeForWolfRaiderPicket"],
+"pvp-balance.pvpTemplates.brawl.brawlBanks.brawlPvPBalanceObjects.altArmyBanks.horseshoeLakeForPicket"],
 
 	"conflicts":
 	["pvp-balance.objects.newArmyBanks.horseshoeLake",
