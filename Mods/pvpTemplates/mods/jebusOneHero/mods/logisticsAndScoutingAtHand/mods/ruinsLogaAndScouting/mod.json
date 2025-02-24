@@ -1,0 +1,28 @@
+{
+    "name" : "Ruins Logistics and Scouting",
+
+    "description" : "Increased chance for Logistics and Scouting for heroes from Ruins Town.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+	
+    "heroClasses": [
+      "config/heroClasses.json"
+    ],
+
+  "depends" : [
+    "ruins-town"
+  ],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.3",
+	
+    "keepDisabled" : false
+}

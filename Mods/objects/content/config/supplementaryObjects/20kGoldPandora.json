@@ -1,0 +1,50 @@
+{
+	"20kGoldPandora" :{	
+		"name": "Pandora's Box",
+		"handler": "configurable",
+		"types" : {
+			"20kGoldPandora" : 
+			{
+				"blockedVisitable" : true,
+				"removable": true,
+				"name": "Pandora's Box",
+				"rmg" : {
+					"value"		: 999999,
+					"rarity"	: 1,
+					"zoneLimit" : 0
+				},
+				
+				"rewards" :
+				[
+					{
+						"appearChance": 
+						{
+							"min" : 0,
+							"max" : 100
+						},
+						"message" : "You find gold.",
+						"resources": {
+    					"gold" : 20000
+						}, 
+						"removeObject": true
+					}
+					
+					
+					
+				],
+				"canRefuse": true,
+				"visitMode" : "once",
+				"compatibilityIdentifiers" : [ "object" ],
+				"templates" : 
+				{
+					"avtglam" : 
+					{
+						"animation" : "map/pandora", 
+						"visitableFrom" : [ "+++", "+++", "+++" ],
+						"mask" : ["A"]
+					}
+				}
+			}
+		}	
+	}
+}

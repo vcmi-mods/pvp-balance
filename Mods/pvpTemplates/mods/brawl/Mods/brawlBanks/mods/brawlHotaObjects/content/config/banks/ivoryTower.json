@@ -1,0 +1,75 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"ivoryTower" : {
+				"resetParameters" : {
+					"period" : 4,
+					"visitors" : true,
+					"rewards" : true
+				},
+				"rmg" : {
+					"zoneLimit"	: 2,
+					"value"		: 1000,
+					"rarity"	: 100
+				},
+				"onGuardedMessage" : 32,
+				"onVisitedMessage" : 33,
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"guardsLayout" : "creatureBankNarrow",
+				"rewards": [
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 0, "max" : 30 },
+						"guards": [
+							{ "amount": 12, "type": "gremlin", "upgradeChance": 80 },
+							{ "amount": 12, "type": "gremlin", "upgradeChance": 80 },
+							{ "amount": 3, "type": "stoneGargoyle", "upgradeChance": 50 },
+							{ "amount": 3, "type": "stoneGargoyle", "upgradeChance": 50 },
+							{ "amount": 3, "type": "stoneGargoyle", "upgradeChance": 50 }
+						],
+						"creatures": [ { "amount": 3, "type": "stoneGargoyle", "upgradeChance": 50 },  { "amount": 1, "type": "mage", "upgradeChance": 20} ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 30, "max" : 60 },
+						"guards": [
+							{ "amount": 15, "type": "gremlin", "upgradeChance": 80 },
+							{ "amount": 15, "type": "gremlin", "upgradeChance": 80 },
+							{ "amount": 4, "type": "stoneGargoyle", "upgradeChance": 50 },
+							{ "amount": 4, "type": "stoneGargoyle", "upgradeChance": 50 },
+							{ "amount": 4, "type": "stoneGargoyle", "upgradeChance": 50 }
+						],
+						"creatures": [ { "amount": 4, "type": "stoneGargoyle", "upgradeChance": 50 },  { "amount": 1, "type": "mage", "upgradeChance": 30} ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 60, "max" : 90 },
+						"guards": [
+							{ "amount": 18, "type": "gremlin", "upgradeChance": 80 },
+							{ "amount": 18, "type": "gremlin", "upgradeChance": 80 },
+							{ "amount": 5, "type": "stoneGargoyle", "upgradeChance": 50 },
+							{ "amount": 5, "type": "stoneGargoyle", "upgradeChance": 50 },
+							{ "amount": 5, "type": "stoneGargoyle", "upgradeChance": 50 }
+						],
+						"creatures": [ { "amount": 5, "type": "stoneGargoyle", "upgradeChance": 50 },  { "amount": 1, "type": "mage", "upgradeChance": 40} ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 90, "max" : 100 },
+						"guards": [
+							{ "amount": 20, "type": "gremlin", "upgradeChance": 80 },
+							{ "amount": 20, "type": "gremlin", "upgradeChance": 80 },
+							{ "amount": 6, "type": "stoneGargoyle", "upgradeChance": 50 },
+							{ "amount": 6, "type": "stoneGargoyle", "upgradeChance": 50 },
+							{ "amount": 6, "type": "stoneGargoyle", "upgradeChance": 50 }
+						],
+						"creatures": [ { "amount": 6, "type": "stoneGargoyle", "upgradeChance": 50 },  { "amount": 1, "type": "mage", "upgradeChance": 50} ]
+					}
+				]
+			}
+		}
+	}
+}

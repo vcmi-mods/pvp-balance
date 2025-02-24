@@ -1,0 +1,80 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"goldenUtopia" :
+			{
+				"rmg" : {
+					"value"		: 4500,
+					"rarity"	: 40,
+					"zoneLimit" : 1
+				},
+				"resetParameters" :
+				{
+					"period" : 4,
+					"visitors" : true,
+					"rewards" : true
+				},
+				"rewards":
+				[
+					{
+						"message" : 34,
+						"appearChance": { "min" : 0, "max" : 80 },
+						"guards" :
+						[
+							{ "amount": 1, "type": "greenDragon", "upgradeChance": 50 },
+							{ "amount": 1, "type": "redDragon", "upgradeChance": 50 },
+							{ "amount": 1, "type": "boneDragon", "upgradeChance": 50 },
+							{ "amount": 1, "type": "mdtDrakeGolemCopy", "upgradeChance": 50 }
+						],
+						"resources":
+						{
+							"gold" : 4000,
+							"wood" : 6,
+							"ore" : 6,
+							"crystal" : 6,
+							"mercury" : 6,
+							"sulfur" : 6,
+							"gems" : 6
+						},
+						"artifacts":
+						[
+							{ "class" : "TREASURE" },
+							{ "class" : "MINOR" },
+							{ "class" : "MAJOR" },
+							{ "class" : "RELIC" }
+						],
+						"bonuses" : [ { "type" : "SPELL", "subtype" : "dimensionDoor",  "val" : 0, "duration" : "N_DAYS", "turns" : 1} ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 80, "max" : 100 },
+						"guards" :
+						[
+							{ "amount": 1, "type": "fairieDragon", "upgradeChance": 50 }
+						],
+						"resources":
+						{
+							"gold" : 4000,
+							"wood" : 6,
+							"ore" : 6,
+							"crystal" : 6,
+							"mercury" : 6,
+							"sulfur" : 6,
+							"gems" : 6
+						},
+						"artifacts":
+						[
+							{ "class" : "TREASURE" },
+							{ "class" : "MINOR" },
+							{ "class" : "MAJOR" },
+							{ "class" : "RELIC" }
+						],
+						"bonuses" : [ { "type" : "SPELL", "subtype" : "dimensionDoor",  "val" : 0, "duration" : "N_DAYS", "turns" : 1} ]
+					}
+				]
+			}
+		}
+	}
+}

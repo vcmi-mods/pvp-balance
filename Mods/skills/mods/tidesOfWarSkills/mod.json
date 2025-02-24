@@ -1,0 +1,30 @@
+{
+    "name" : "Tides of War Skills",
+
+    "description" : "Intimidation and Hexes skills can be obtained only by heroes with evil alignment (high chance) or neutral alignment (low chance).",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+	
+    "skills" : [
+    "config/skills.json"
+  ],
+
+  "depends" : [
+    "tides-of-war",
+    "tides-of-war.skills"
+
+  ],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.3",
+	
+    "keepDisabled" : false
+}

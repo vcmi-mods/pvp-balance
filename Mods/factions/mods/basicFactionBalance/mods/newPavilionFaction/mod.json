@@ -1,0 +1,30 @@
+{
+    "name" : "New Pavilion Faction Balance",
+
+    "description" : "Rebalanced hero starting armies for New Pavilion town.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+    
+    "depends" : 
+	[
+		"new-pavilion"
+	],
+
+   "heroes": [
+   "config/newPavilionStartingArmies.json"
+   ],
+
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.3",
+	
+    "keepDisabled" : false
+}

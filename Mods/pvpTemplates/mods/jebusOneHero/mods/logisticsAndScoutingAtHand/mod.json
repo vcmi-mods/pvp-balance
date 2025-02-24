@@ -1,0 +1,28 @@
+{
+    "name" : "Logistics and Scouting at hand",
+
+    "description" : "All heroes have significantly increased chance to get logistics and scotuing upon leveling-up.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Mechanics",
+
+    "heroClasses": [
+      "config/heroClasses.json"
+    ],
+
+  "depends" : 
+  [
+      "hota.cove"
+  ],
+  
+    "compatibility" :
+	{
+		"min" : "1.6.0"
+	},
+	
+    "version" : "1.0.0",
+    "keepDisabled" : true
+}

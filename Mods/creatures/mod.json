@@ -1,33 +1,37 @@
 {
     "name" : "Creatures",
 
-    "description" : "Rebalanced creatures for PvP.",
+    "description" : "The mod provides creature and war machine balance for PvP:<br><br>- Minimum map amount of Sharpshooters is increased<br>-AI value of Lizardmen and Lizard Warriors is increased<br>-Ballista cost is decreased from 2500 to 1500, base damage is increased from 2-3 to 3-4.<br>-Cannon cost is decreased from 4000 to 3000.<br><br> The submod includes balance changes for creatures from the following mods, if they are enabled: Tides of War, Heavenly Forge 2000, New Pavilion, Ruins Town.",
 
     "author" : "wnukos",
 
     "contact" : "wnukos on Discord",
 
-    "modType" : "Creatures",
-    
-    "depends" : 
-	[
-		"forge2k",
-		"tides-of-war.alternative-creatures",
-		"tides-of-war.neutral-creatures",
-		"ruins-town",
-		"new-pavilion"
-	],
+    "licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 
-   "creatures": [
-   "config/creatures/creatures.json"
-   ],
+    "modType" : "Creatures",
+
+    "creatures": [
+        "config/creatures.json",
+        "config/warMachines"
+        ],
+
+    "depends": [
+        "hota.cannon",
+        "hota.neutralCreatures"
+    ],
+
+    "conflicts":[
+        "an-expansion.war-machine"
+    ],
 
 	"compatibility" :
 	{
-		"min" : "1.5.5"
+		"min" : "1.6"
 	},
 	
-    "version" : "1.2.5",
+    "version" : "1.3",
 	
     "keepDisabled" : false
 }

@@ -1,43 +1,27 @@
 {
     "name" : "Heroes",
 
-    "description" : "Hero bans and rebalanced heroes for PvP. One new hero - Seymour - is added to Heavenly Forge 2000 faction.",
+    "description" : "Hero bans and rebalanced heroes for PvP.",
 
     "author" : "wnukos",
 
     "contact" : "wnukos on Discord",
 
+    "licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+
     "modType" : "Heroes",
-    
-    "depends" : 
-	[
-		"hota.cove",
-		"hota.interference",
-		"forge2k",
-		"ruins-town",
-		"new-pavilion",
-		"tides-of-war.heroes",
-		"tides-of-war.skills",
-		"tides-of-war.alternative-creatures"
-	],
 
-   "heroes": [
-   "config/heroes/bannedHeroes.json",
-   "config/heroes/modifiedHeroes.json",
-   "config/heroes/newHeroes.json"
-   ],
-   
-   "heroClasses": [
-   "config/heroes/heroClasses.json"
-  ],
-
+    "conflicts":[
+        "an-expansion.heroes"
+    ],
 
 	"compatibility" :
 	{
-		"min" : "1.5.5"
+		"min" : "1.6"
 	},
 	
-    "version" : "1.2.5",
+    "version" : "1.3",
 	
     "keepDisabled" : false
 }

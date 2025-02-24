@@ -1,0 +1,24 @@
+{
+	"refugee-town:rfgcDaeva" :
+	{
+		"level" : 7,
+		"attack" : 22,
+		"defense" : 22,
+		"damage" : { "min" : 7, "max" : 14 },
+		"hitPoints" : 77,
+		"speed" : 10,
+		"growth" : 1,
+		"special" : true,
+		"fightValue" : 3333,
+		"aiValue" : 3333,
+		"cost" : { "gold" : 3333, "gems" : 1, "crystal" : 1, "mercury" : 1 },
+		"abilities" :
+		{
+			"regeneration": { "type" : "HP_REGENERATION", "val" : 7 },
+			"powerImplose":{"type" : "SPECIFIC_SPELL_POWER", "val" : 56, "subtype": "spell.implosion" },
+			"powerLBolt":{ "type" : "SPECIFIC_SPELL_POWER", "val" : 28, "subtype": "spell.lightningBolt" },
+			"powerArrow":{ "type" : "SPECIFIC_SPELL_POWER", "val" : 14, "subtype": "spell.magicArrow" },
+			"casts" :{ "type" : "CASTS", "val" : 6 }
+		}
+	}
+}

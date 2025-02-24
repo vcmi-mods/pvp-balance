@@ -1,0 +1,112 @@
+{
+	"kelpieCopy": {
+		"name": {
+			"singular": "Kelpie",
+			"plural": "Kelpies"
+		},
+		"upgrades": [
+			"eldrichtKelpieCopy"
+		],
+		"level": 4,
+		"special": true,
+		"faction": "neutral",
+		"cost": {
+			"wood": 0,
+			"mercury": 0,
+			"ore": 0,
+			"sulfur": 0,
+			"crystal": 0,
+			"gems": 0,
+			"gold": 242
+		},
+		"fightValue": 342,
+		"aiValue": 350,
+		"growth": 5,
+		"attack": 8,
+		"defense": 8,
+		"hitPoints": 28,
+		"speed": 6,
+		"damage": {
+			"min": 4,
+			"max": 7
+		},
+		"spellPoints": 50,
+		"advMapAmount": {
+			"max": 16,
+			"min": 12
+		},
+		"doubleWide": true,
+		"abilities": {
+			"spirit": {
+				"type": "NON_LIVING"
+			},
+			"immunity": {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "water",
+				"val" : 50
+			}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
+			},	
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			}
+		],
+		"hasDoubleWeek": true,
+		"graphics": {
+			"animation": "battle/lvl4Copy.def",
+			"iconSmall": "iconsSmall/lvl4Copy.bmp",
+			"iconLarge": "iconsBig/lvl4Copy.bmp",
+			"timeBetweenFidgets": 1.00,
+			"animationTime": {
+				"walk": 1,
+				"idle": 10.00,
+				"attack": 1
+			}
+		},
+		"sound": {
+			"attack": "UNICATTK.wav",
+			"defend": "UNICDFND.wav",
+			"killed": "UNICKILL.wav",
+			"move": "UNICMOVE.wav",
+			"wince": "UNICWNCE.wav"
+		}
+	}
+}

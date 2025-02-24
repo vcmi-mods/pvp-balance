@@ -1,0 +1,72 @@
+{
+    "name" : "One minute madness",
+
+    "description" : "PvP templates.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Templates",
+	
+    "templates" : [ "1mm.json"],
+
+    "compatibility" :
+	{
+		"min" : "1.6"
+	},
+
+    "depends" : 
+	[
+		"hota",
+        "hota.mapObjects",
+        "hota.gameBalance",
+        "hota.highlandsTerrain",
+        "hota.mapdecorations",
+        "hota.cove",
+        "hota.interference",
+        "pvp-balance.objects"
+    ],
+
+    "conflicts" : 
+    [
+      "pvp-balance.pvpTemplates.6lm10a",
+      "pvp-balance.pvpTemplates.brawl",
+      "pvp-balance.pvpTemplates.arena",
+      "pvp-balance.pvpTemplates.jebusCrossPlus",
+      "pvp-balance.pvpTemplates.nostalgia",
+      "pvp-balance.pvpTemplates.jebusOneHero",
+      "pvp-balance.pvpTemplates.papichM200",
+      "pvp-balance.pvpTemplates.vietnameseDiplomacy",
+      "pvp-balance.spells.townPortalRework",
+      "pvp-balance.objects.newGenericObjects.controlShrines" 
+    ],
+
+    "softDepends":
+    [
+        "pvp-balance.heroes.basicHeroBalance",
+        "pvp-balance.heroes.extendedHeroBalance",
+        "pvp-balance.artifacts",
+        "pvp-balance.artifacts.basicArtifactBalance",
+        "pvp-balance.artifacts.extendedArtifactBalance",
+        "pvp-balance.spells",
+        "pvp-balance.spells.controlSpells",
+        "pvp-balance.spells.basicSpellBalance",
+        "pvp-balance.spells.extendedSpellBalance"
+	],
+
+    "artifacts": [
+        "config/artifacts.json"
+    ],
+    
+    "spells": [
+        "config/spells.json"
+    ],
+    
+    "heroes": [
+        "config/heroes.json"
+    ],  
+	
+    "version" : "1.3",
+    "keepDisabled" : true
+}

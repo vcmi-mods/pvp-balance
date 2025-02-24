@@ -1,0 +1,229 @@
+{  
+  "core:recantersCloak": {
+	"class" : "SPECIAL"
+	},
+  
+  "core:garnitureOfInterference": {
+	  "class" : "SPECIAL"
+	  },
+
+  "core:surcoatOfCounterpoise": {
+	  "class" : "SPECIAL"
+	  },
+
+  "core:amuletOfTheUndertaker": {
+    "class" : "SPECIAL"
+  },
+
+  "core:vampiresCowl": {
+    "class" : "SPECIAL"
+  },
+
+  "core:deadMansBoots": {
+    "class" : "SPECIAL"
+  },
+
+  "core:bowOfElvenCherrywood": {
+    "class" : "SPECIAL"
+  },
+
+  "core:bowstringOfTheUnicornsMane": {
+    "class" : "SPECIAL"
+  },
+
+  "core:angelFeatherArrows": {
+    "class" : "SPECIAL"
+  },
+
+  "core:birdOfPerception": {
+	  "class" : "SPECIAL"
+	  },
+	  
+  "core:stoicWatchman": {
+	  "class" : "SPECIAL"
+	  },
+	  
+  "core:emblemOfCognizance": {
+	  "class" : "SPECIAL"
+	  },
+
+    "core:ambassadorsSash": {
+      "class" : "SPECIAL"
+    },
+
+
+    "core:diplomatsRing": {
+      "class" : "SPECIAL"
+    },
+
+    "core:statesmansMedal": {
+      "class" : "SPECIAL"
+    },
+
+    "core:charmOfMana": {
+      "class" : "SPECIAL"
+    },
+
+    "core:talismanOfMana": {
+      "class" : "SPECIAL"
+    },
+
+    "core:orbOfDrivingRain": {
+      "class" : "SPECIAL"
+    },
+
+
+    "core:orbOfTheFirmament": {
+      "class" : "SPECIAL"
+    },
+
+    "core:orbOfSilt": {
+      "class" : "SPECIAL"
+    },
+
+
+    "core:orbOfTempestuousFire": {
+      "class" : "SPECIAL"
+    },
+
+    "core:sphereOfPermanence": {
+      "class" : "SPECIAL"
+    },
+
+    "core:ringOfVitality": {
+      "class" : "SPECIAL"
+    },
+
+    "core:necklaceOfSwiftness": {
+      "class" : "SPECIAL"
+    },
+
+    "core:bootsOfSpeed": {
+      "class" : "SPECIAL"
+    },
+
+    "core:capeOfVelocity": {
+      "class" : "SPECIAL"
+    },
+
+    "core:pendantOfDeath": {
+      "class" : "SPECIAL"
+    },
+
+    "core:pendantOfTotalRecall": {
+      "class" : "SPECIAL"
+    },
+
+    "core:pendantOfHoliness": {
+      "class" : "SPECIAL"
+    },
+
+    "core:pendantOfLife": {
+      "class" : "SPECIAL"
+    },
+
+    "core:pendantOfDispassion": {
+      "class" : "SPECIAL"
+    },
+
+    "core:pendantOfSecondSight": {
+      "class" : "SPECIAL"
+    },
+
+    "core:pendantOfNegativity": {
+      "class" : "SPECIAL"
+    },
+
+    "core:pendantOfFreeWill": {
+      "class" : "SPECIAL"
+    },
+
+    "core:everflowingCrystalCloak": {
+      "class" : "SPECIAL"
+    },
+
+    "core:everpouringVialOfMercury": {
+      "class" : "SPECIAL"
+    },
+
+    "core:eversmokingRingOfSulfur": {
+      "class" : "SPECIAL"
+    },
+
+    "core:ringOfInfiniteGems": {
+      "class" : "SPECIAL"
+    },
+
+    "core:inexhaustibleCartOfLumber": {
+      "class" : "SPECIAL"
+    },
+
+    "core:inexhaustibleCartOfOre": {
+      "class" : "SPECIAL"
+    },
+
+    "core:endlessBagOfGold": {
+      "class" : "SPECIAL"
+    },
+
+
+    "core:endlessPurseOfGold": {
+      "class" : "SPECIAL"
+    },
+
+    "core:endlessSackOfGold": {
+      "class" : "SPECIAL"
+    },
+
+    "core:legsOfLegion": {
+      "class" : "SPECIAL"
+    },
+        
+    
+     "core:armsOfLegion": {
+      "class" : "SPECIAL"
+    },
+      
+    "core:headOfLegion": {
+      "class" : "SPECIAL"
+    },
+    
+    "core:torsoOfLegion": {
+      "class" : "SPECIAL"
+    },
+    
+    "core:loinsOfLegion": {
+      "class" : "SPECIAL"
+    },
+
+    "hota.artifacts:wayfarerBoots": {
+      "class" : "SPECIAL"
+    },
+    
+    "hota.artifacts:capeOfSilence": {
+      "class" : "SPECIAL"
+    },
+
+	  "hota.artifacts:charmOfEclipse": {
+	    "class" : "SPECIAL"
+    },
+
+    "hota.artifacts:sealOfSunset": {
+	    "class" : "SPECIAL"
+    },
+
+    "core:ringOfVitality": {
+	    "class" : "SPECIAL"
+    },
+
+    "core:targOfTheRampagingOgre": {
+	    "class" : "SPECIAL"
+    },
+
+    "core:ribCage": {
+	    "class" : "SPECIAL"
+    }
+    
+  }
+  
+  

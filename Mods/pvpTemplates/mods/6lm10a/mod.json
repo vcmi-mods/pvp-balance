@@ -1,0 +1,31 @@
+{
+    "name" : "6lm10a",
+
+    "description" : "PvP templates.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Templates",
+	
+    "templates" : [ "6lm10a-ver1.json", "6lm10a-ver2.json", "6lm10a-ver3.json", "6lm10a-ver4.json", "6lm10a-ver5.json"],
+
+    "compatibility" :
+	{
+		"min" : "1.6"
+	},
+
+    "depends" : 
+	[
+		"hota",
+        "hota.mapObjects",
+        "hota.gameBalance",
+        "hota.highlandsTerrain",
+        "hota.mapdecorations"
+    ],
+
+	
+    "version" : "1.3",
+    "keepDisabled" : true
+}

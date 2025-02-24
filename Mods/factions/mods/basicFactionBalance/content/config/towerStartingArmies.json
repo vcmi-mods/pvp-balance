@@ -1,0 +1,23 @@
+{
+
+	"core:piquedram":
+	{
+		"army": [
+			{
+				"creature": "stoneGargoyle",
+				"min": 7,
+				"max": 9
+			},
+			{
+				"creature": "stoneGargoyle",
+				"min": 7,
+				"max": 9
+			},
+			{
+				"creature": "stoneGargoyle",
+				"min": 7,
+				"max": 9
+			}
+		]
+	}
+}

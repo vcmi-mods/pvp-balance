@@ -1,0 +1,102 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"pirateCavern" : {
+				"resetParameters" : {
+					"period" : 4,
+					"visitors" : true,
+					"rewards" : true
+				},
+				"rmg" : {
+					"zoneLimit"	: 2,
+					"value"		: 1500,
+					"rarity"	: 100
+				},
+				"onGuardedMessage" : 32,
+				"onVisitedMessage" : 33,
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"guardsLayout" : "creatureBankNarrow",
+				"rewards": [
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 0, "max" : 30 },
+						"guards": [
+							{ "amount": 2, "type": "pirate", "upgradeChance": 50 },
+							{ "amount": 2, "type": "corsair", "upgradeChance": 50 },
+							{ "amount": 2, "type": "corsair", "upgradeChance": 50 },
+							{ "amount": 2, "type": "pirate", "upgradeChance": 50 }
+						],
+						"resources":
+						{
+							"gold" : 3
+						},
+							"creatures": [ { "amount": 1, "type": "stormbird", "upgradeChance": 50 }, { "amount": 1, "type": "stormbird", "upgradeChance": 50}, { "amount": 1, "type": "stormbird", "upgradeChance": 50} ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 30, "max" : 60 },
+						"guards": [
+							{ "amount": 3, "type": "pirate", "upgradeChance": 50 },
+							{ "amount": 2, "type": "corsair", "upgradeChance": 50 },
+							{ "amount": 2, "type": "corsair", "upgradeChance": 50 },
+							{ "amount": 3, "type": "pirate", "upgradeChance": 50 }
+						],
+						"resources":
+						{
+							"gold" : 4
+						},
+						"creatures": [ { "amount": 1, "type": "stormbird", "upgradeChance": 50 }, { "amount": 1, "type": "stormbird", "upgradeChance": 50}, { "amount": 1, "type": "stormbird", "upgradeChance": 50}, { "amount": 1, "type": "stormbird", "upgradeChance": 50 } ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 60, "max" : 90 },
+						"guards": [
+							{ "amount": 3, "type": "pirate", "upgradeChance": 50 },
+							{ "amount": 3, "type": "corsair", "upgradeChance": 50 },
+							{ "amount": 3, "type": "corsair", "upgradeChance": 50 },
+							{ "amount": 3, "type": "pirate", "upgradeChance": 50 }
+						],
+						"resources":
+						{
+							"gold" : 5
+						},
+						"creatures": [ { "amount": 1, "type": "stormbird", "upgradeChance": 50 }, { "amount": 1, "type": "stormbird", "upgradeChance": 50}, { "amount": 1, "type": "stormbird", "upgradeChance": 50} , { "amount": 1, "type": "stormbird", "upgradeChance": 50 }, { "amount": 1, "type": "stormbird", "upgradeChance": 50 }]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 90, "max" : 95 },
+						"guards": [
+							{ "amount": 4, "type": "pirate", "upgradeChance": 50 },
+							{ "amount": 3, "type": "corsair", "upgradeChance": 50 },
+							{ "amount": 3, "type": "corsair", "upgradeChance": 50 },
+							{ "amount": 4, "type": "pirate", "upgradeChance": 50 }
+						],
+						"resources":
+						{
+							"gold" : 6
+						},
+						"creatures": [ { "amount": 1, "type": "stormbird", "upgradeChance": 50 }, { "amount": 1, "type": "stormbird", "upgradeChance": 50}, { "amount": 1, "type": "stormbird", "upgradeChance": 50},  { "amount": 1, "type": "stormbird", "upgradeChance": 50 }, { "amount": 1, "type": "stormbird", "upgradeChance": 50}, { "amount": 1, "type": "stormbird", "upgradeChance": 50}  ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 95, "max" : 100 },
+						"guards": [
+							{ "amount": 1, "type": "seaDogCopy" },
+							{ "amount": 1, "type": "seaDogCopy" },
+							{ "amount": 1, "type": "seaDogCopy" },
+							{ "amount": 1, "type": "seaDogCopy" }
+						],
+						"resources":
+						{
+							"gold" : 7
+						},
+						"creatures": [ { "amount": 1, "type": "nix", "upgradeChance": 50 } ]
+					}
+				]
+			}
+		}
+	}
+}

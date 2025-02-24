@@ -1,0 +1,223 @@
+{
+	"pvp-balance.pvptemplates.brawl:Brawl" :
+	{
+		"minSize" : "s",
+		"maxSize" : "m",
+		"players" : "2",
+		"allowedWaterContent" : ["none", "normal", "islands"],
+		"settings" : {
+            
+			"heroes" :
+			{
+	
+				"movementPointsLand" : [ 1200, 1200, 1200, 1200, 1260, 1330, 1400, 1460, 1530, 1600, 1660, 1700 ]
+			},
+	
+			"bonuses" : 
+			{
+				"perHero":
+				{
+					"sightRadius" :
+					{
+						"type" : "SIGHT_RADIUS",
+						"val" : 3,
+						"valueType" : "BASE_NUMBER"
+					},
+					"experienceGain" : 
+					{
+						"type" : "HERO_EXPERIENCE_GAIN_PERCENT",
+						"val" : 150,
+						"valueType" : "BASE_NUMBER"
+					}
+				}
+			}
+		},
+		"zones" :
+		{
+			"1" : // Red 1
+			{
+				"type" : "playerStart",
+				"size" : 8,
+				"owner" : 1,
+				"playerTowns" :
+				{
+				"castles" : 1
+				},
+				"monsters" : "normal",
+				"matchTerrainToTown" : true,
+				"mines" :
+				{
+					"wood" : 1,
+					"mercury" : 1
+				},
+				"treasure" :
+				[
+					{
+						"min" : 800,
+						"max" : 800,
+						"density" : 4
+					},
+					{
+						"min" : 1000,
+						"max" : 2100,
+						"density" : 12
+					},
+					{
+						"min" : 3500,
+						"max" : 4900,
+						"density" : 28
+					}
+				],
+
+				"customObjects" :
+				{
+					"bannedObjects" :["core:object.tavern", "core:object.stables", "core:object.sanctuary", "core:object.redwoodObservatory"],
+					"commonObjects":
+					[
+					
+						{
+							"id" : "core:object.coverOfDarkness",
+							"rmg" : {
+									 "value"     : 750,
+									 "rarity"    : 100,
+									 "zoneLimit" : 1
+									}
+						}
+					]
+				}
+			},
+			"2" : // Red 2
+			{
+				"type" : "playerStart",
+				"size" : 8,
+				"owner" : 1,
+				"playerTowns" :
+				{
+					"castles" : 1
+				},
+				"monsters" : "normal",
+				"matchTerrainToTown" : true,
+				"mines" :
+				{
+					"ore" : 1,
+					"sulfur" : 1
+				},
+				"treasureLikeZone" : 1,
+				"customObjectsLikeZone" : 1
+			},
+			"3" : // Blue 1
+			{
+				"type" : "playerStart",
+				"size" : 8,
+				"owner" : 2,
+				"playerTowns" :
+				{
+					"castles" : 1
+				},
+				"monsters" : "normal",
+				"matchTerrainToTown" : true,
+				"mines" :
+				{
+					"wood" : 1,
+					"crystal" : 1
+				},
+				"treasureLikeZone" : 1,
+				"customObjectsLikeZone" : 1
+			},
+			"4" : // Blue 2
+			{
+				"type" : "playerStart",
+				"size" : 8,
+				"owner" : 2,
+				"playerTowns" :
+				{
+					"castles" : 1
+				},
+				"monsters" : "normal",
+				"matchTerrainToTown" : true,
+				"mines" :
+				{
+					"ore" : 1,
+					"gems" : 1
+				},
+				"treasureLikeZone" : 1,
+				"customObjectsLikeZone" : 1
+			},
+			"5" : // Treasure between Red 1 and Blue 1
+			{
+				"type" : "treasure",
+				"size" : 4,
+				"monsters" : "normal",
+				"treasure" :
+				[
+					{
+						"min" : 100,
+						"max" : 900,
+						"density" : 20
+					},
+					{
+						"min" : 750,
+						"max" : 2000,
+						"density" : 32
+					},
+					{
+						"min" : 2000,
+						"max" : 3500,
+						"density" : 12
+					}
+				],
+				"customObjectsLikeZone" : 1
+				
+			},
+			"6" : // Treasure between Red 1 and Blue 2
+			{
+				"type" : "treasure",
+				"size" : 4,
+				"monsters" : "normal",
+				"treasureLikeZone" : 5,
+				"customObjectsLikeZone" : 1
+			},
+			"7" : // Treasure between Red 2 and Blue 1
+			{
+				"type" : "treasure",
+				"size" : 4,
+				"monsters" : "normal",
+				"treasureLikeZone" : 5,
+				"customObjectsLikeZone" : 1
+			},
+			"8" : // Treasure between Red 2 and Blue 2
+			{
+				"type" : "treasure",
+				"size" : 4,
+				"monsters" : "normal",
+				"treasureLikeZone" : 5,
+				"customObjectsLikeZone" : 1
+			}
+		},
+		"connections" :
+		[
+			{ "a" : "1", "b" : "3", "guard" : 3500, "road" : "false" },
+			{ "a" : "1", "b" : "4", "guard" : 3500, "road" : "false" },
+			{ "a" : "2", "b" : "3", "guard" : 3500, "road" : "false" },
+			{ "a" : "2", "b" : "4", "guard" : 3500, "road" : "false" },
+			{ "a" : "1", "b" : "3", "type": "repulsive" },
+			{ "a" : "1", "b" : "4", "type": "repulsive" },
+			{ "a" : "2", "b" : "3", "type": "repulsive" },
+			{ "a" : "2", "b" : "4", "type": "repulsive" },
+			{ "a" : "1", "b" : "5", "type": "wide", "road" : "false" },
+			{ "a" : "3", "b" : "5", "type": "wide", "road" : "false" },
+			{ "a" : "1", "b" : "6", "type": "wide", "road" : "false" },
+			{ "a" : "4", "b" : "6", "type": "wide", "road" : "false" },
+			{ "a" : "2", "b" : "7", "type": "wide", "road" : "false" },
+			{ "a" : "3", "b" : "7", "type": "wide", "road" : "false" },
+			{ "a" : "2", "b" : "8", "type": "wide", "road" : "false" },
+			{ "a" : "4", "b" : "8", "type": "wide", "road" : "false" },
+			{ "a" : "5", "b" : "6", "type": "fictive"},
+			{ "a" : "5", "b" : "7", "type": "fictive"},
+			{ "a" : "5", "b" : "8", "type": "fictive"},
+			{ "a" : "6", "b" : "7", "type": "fictive"},
+			{ "a" : "6", "b" : "8", "type": "fictive"},
+			{ "a" : "7", "b" : "8", "type": "fictive"}
+		]
+	}
+}

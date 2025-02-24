@@ -1,0 +1,121 @@
+{
+	"arcaneLibrary" : 
+	{
+		"name": "Arcane Library",
+		"handler" : "configurable",
+		"base" : {
+			"sounds" : {
+				"ambient" : ["LOOPSHRIN"],
+				"visit" : ["TEMPLE"]
+			}
+		},
+		"types" : 
+		{
+			"arcaneLibrary" : 
+			{
+				"name" : "Arcane Library",
+				"templates" : {
+					"base" : { 
+					"animation" : "arcaneLibrary", 
+					"visitableFrom" : [ "---", "+++", "+++"  ], 
+					"mask" : [ "VVV", "BBB","BAB" ],
+					"allowedTerrains" :[ "dirt", "grass", "snow", "swamp", "rough", "highlands", "wasteland"]
+					}
+				},
+				"rmg" : {
+					"value"		: 9000,
+					"rarity"	: 30,
+					"zoneLimit" : 1
+				},
+				"selectMode" : "selectPlayer",
+				"compatibilityIdentifiers" : [ "object" ],
+				"visitMode" : "hero",
+				"resetParameters" : {
+    				"period" : 7,
+    				"visitors" : true,
+					"rewards" : true
+				},
+				"variables" : {
+				"spell" : {
+					"gainedSpell" : {
+						"level" : 4
+					},
+					"gainedSpell2" : {
+						"level" : 4
+					}
+				}
+			},
+				"visitedTooltip" : 354,
+				"description" : "\r\nSelect a level 4 spell to learn for 2000 gold.\r\n",
+				"onSelectMessage" : "As you approach the drifting cloud, a quaint little house appears with windows that sparkle like the night sky. Inside, a magician awaits, his fingers tracing arcane symbols in the air, ready to teach you the ancient art of spellcraft... for a mere 2000 gold.",
+				"onVisitedMessage" : "I have already shared my wisdom with you. When the week is complete, return and I will teach you a new spell.",
+				"rewards" : [
+					{
+						"appearChance" : { "min" : 0, "max" : 100 },
+						"limiter" : {
+							"resources": {
+								"gold" : 2000
+							},
+							"canLearnSpells" : [
+								"@gainedSpell"
+							]
+						},
+						"resources": {
+							"gold" : -2000
+						},
+						
+						"spells" : [ 
+								"@gainedSpell"
+						]
+					},
+					{
+						"appearChance" : { "min" : 0, "max" : 100 },
+						"limiter" : {
+							"resources": {
+								"gold" : 2000
+							},
+							"canLearnSpells" : [
+								"@gainedSpell2"
+							]
+						},
+						"resources": {
+							"gold" : -2000
+						},
+						"spells" : [ 
+								"@gainedSpell2"
+						] 
+						
+					}
+				],
+
+				"onEmpty" : [
+					{
+					
+					
+						"limiter" : {
+							"resources": {
+									"gold" : 2000	
+								}
+						},
+						"message" : [
+							"As you approach the drifting cloud, a quaint little house appears with windows that sparkle like the night sky. Inside, a magician awaits, his fingers tracing arcane symbols in the air, ready to teach you the ancient art of spellcraft. Unfortunately, you don't have the necessary wisdom to master a new spell."
+						]
+					},
+					{
+					   "message" : [
+						   "I am willing to teach you a spell but not for free. Return when you have 2000 gold to pay me."
+					   ]
+				   }
+				
+			],
+
+				"canRefuse": true
+				
+					
+					
+			}	
+					
+						
+		}
+	}
+}

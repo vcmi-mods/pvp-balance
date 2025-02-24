@@ -1,0 +1,28 @@
+{
+	"name" : "brawl",
+	"description" : "Small, open template inspired by Elka and Hypercube.<br>Sizes from S to M and everything inbetween (recommended size is 48x48) and 2 players on Brawl,<br>Sizes from S+U to M+U and everything inbetween (recommended size is 52x52 with Underground) and 4 players on Brawl FFA<br>no roads or only slow roads from town to mines,<br>200%,<br>no sim turns,<br>short timer.<br>Trade: Roll a pair of Towns and flip a Coin.<br>The winner of the coinflip chooses either Town or Color and the loser makes the other choice.<br>Disabled Sanctuaries, external  Taverns and Stables,<br>disabled Redwood Observatories, enabled Covers of Darkness in their place.",
+	"author" : "Warzyw647 and Wnukos, Chinese translation by Ziyue",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "https://creativecommons.org/licenses/by-sa/4.0/",
+	"contact" : "warzyw647 on heroes-themed Discords",
+	"modType" : "Templates",
+	"templates" : [ "brawl.json", "brawl-ffa.json" ],
+	"version" : "1.0",
+	"changelog" :
+	{
+		"1.0" : [ "Moved from warzyw-templates mod", "Refactored mod structure" ]
+	},
+	"compatibility" : { "min" : "1.6.3" },
+	"conflicts" :
+	[
+		"pvp-balance.pvpTemplates.oneMinuteMadness",
+		"pvp-balance.pvpTemplates.vietnameseDiplomacy",
+		"pvp-balance.pvpTemplates.jebusOneHero"
+	],
+	"keepDisabled" : false,
+	"chinese" :
+	{
+		"name" : "小型混战地图模板",
+		"description" : "两个小型混战随机地图模板。<br>brawl模板：单层地图，尺寸从S到M（推荐尺寸48x48），2人对战；<br>brawl-ffa模板：双层地图，尺寸从S+U到M+U（推荐尺寸52x52），4人对战。<br>地图上无道路或只有城镇和矿区间的泥路。<br>建议200%难度开局，不设置同步回合，选择时长较短的计时器。<br>对战规则：双方各掷出一个城镇，再掷硬币，胜方先选择城镇或颜色，负方则选择剩下的。<br>（建议开启【决斗模式】）"
+	}
+}

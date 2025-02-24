@@ -1,0 +1,9 @@
+{
+	"core:scuttleBoat" :
+	{
+		"flags" :
+		{
+			"special" : true
+		}
+	}
+}

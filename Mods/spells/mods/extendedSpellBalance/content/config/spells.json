@@ -1,0 +1,195 @@
+{
+	"core:fireball" : {
+		"power" : 15,
+		"levels" : {
+			"none": {
+				"cost": 15,
+				"power": 15
+			},
+			"basic" : {
+				"cost": 15,
+				"power": 30
+			},
+			"advanced" : {
+				"cost": 12,
+				"power": 60
+			},
+			"expert" : {
+				"cost": 9,
+				"power": 90
+			}
+		}
+	},
+	
+	"core:frostRing" : {
+		"power" : 15,
+		"levels" : {
+			"none": {
+				"power": 15
+			},
+			"basic" : {
+				"power": 30
+			},
+			"advanced" : {
+				"power": 60
+			},
+			"expert" : {
+				"power": 90
+			}
+		}
+	},
+	
+	"core:mirth" : {
+		
+		"level": 2
+	},
+	
+	"core:misfortune" : {
+		
+		"level": 2,
+		"levels" : {
+			"none":{
+				"cost": 7
+			},
+			
+			"basic":{
+				"cost": 5
+			},
+			"advanced":{
+				"cost": 5
+			},
+			"expert":{
+				"cost": 5
+			}
+		}
+	},
+
+	"core:inferno" : {
+		"power" : 20,
+		"levels" : {
+			"none": {
+				"power": 20,
+				"range" : "0,1"
+			},
+			"basic" : {
+				"power": 40,
+				"range" : "0,1"
+			},
+			"advanced" : {
+				"power": 80
+			},
+			"expert" : {
+				"power": 100
+			}
+		}
+	},
+	
+	"core:fireShield" : {
+		"level": 3,
+		"defaultGainChance" : 5,
+		"gainChance" : {
+			"castle" : 5,
+			"conflux" : 5,
+			"dungeon" : 5,
+			"fortress" : 5,
+			"inferno" : 5,
+			"necropolis" : 5,
+			"rampart" : 5,
+			"stronghold" : 5,
+			"tower" : 5,
+			"cove" : 5
+		}
+	},
+
+	"core:clone" : {
+		"level": 3,
+		"levels" : {
+			"none": {
+				"cost": 24
+			},
+			"base" : {
+				"cost": 20
+			},
+			"advanced" : {
+				"cost": 16
+			},
+			"expert" : {
+				"cost": 12
+			}
+		},
+		"defaultGainChance" : 5,
+		"gainChance" : {
+			"castle" : 5,
+			"conflux" : 5,
+			"dungeon" : 5,
+			"fortress" : 5,
+			"inferno" : 5,
+			"necropolis" : 5,
+			"rampart" : 5,
+			"stronghold" : 5,
+			"tower" : 5,
+			"cove" : 5
+		}
+	},
+
+	"core:slayer" : {
+		"level": 3,
+		"levels" : {
+			"none":{
+				"description": "Target allied troop's attack rating is increased by 8 against behemoths, dragons and hydras.",
+				"cost": 16,
+				"power" : 8
+			},
+			
+			"basic":{
+				"description": "Target allied troop's attack rating is increased by 8 against behemoths, dragons and hydras.",
+				"cost": 12,
+				"power" : 8
+			},
+			"advanced":{
+				"description": "Target allied troop's attack rating is increased by 10 against behemoths, dragons, hydras, angels and devils",
+				"cost": 10,
+				"power" : 10
+			},
+			"expert":{
+				"description": "Target allied troop's attack rating is increased by 12 against behemoths, dragons, hydras, angels, devils and titans",
+				"cost": 10,
+				"power" : 12
+			}
+		},
+		"defaultGainChance" : 5,
+		"gainChance" : {
+		   "castle" : 5,
+		   "conflux" : 5,
+		   "dungeon" : 5,
+		   "fortress" : 5,
+		   "inferno" : 5,
+		   "necropolis" : 5,
+		   "rampart" : 5,
+		   "stronghold" : 5,
+		   "tower" : 5,
+		   "cove" : 5
+	   }
+	},
+
+	"core:magicMirror" : {
+		"levels" : {
+			
+			"basic" : {
+				"power" : 40
+			},
+			"advanced" : {
+				"power" : 60
+			},
+			"expert" : {
+				"power" : 80
+			}
+		}
+	}
+}
+
+	
+	
+	
+	
+	

@@ -1,0 +1,57 @@
+{
+
+"core:learning": {
+		"special" : true
+	},
+
+"core:resistance": {
+    "special" : true
+},
+
+"core:firstAid": {
+    "special" : true
+},
+
+"core:mysticism": {
+    "special" : true
+},
+
+
+
+"core:luck": {
+    "special" : true
+},
+
+"core:estates": {
+    "special" : true
+},
+
+"core:scholar": {
+    "special" : true
+},
+
+"core:ballistics": {
+    "special" : true
+},
+
+"core:artillery": {
+    "special" : true
+},
+
+"core:intelligence": {
+    "special" : true
+},
+
+"hota.interference:interference": {
+    "special" : true
+},
+
+"core:pathfinding": {
+    "special" : true
+},
+
+"core:eagleEye": {
+    "special" : true
+}
+  
+}

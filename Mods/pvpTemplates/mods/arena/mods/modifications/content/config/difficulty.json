@@ -1,0 +1,138 @@
+{
+	"ai":
+	{
+		"pawn":
+		{
+			"resources": { "wood" : 150, "mercury": 1600, "ore": 150, "sulfur": 1600, "crystal": 1600, "gems": 1600, "gold": 250000, "mithril": 0 },
+			"globalBonuses":
+			[
+				{
+					"type" : "CREATURE_GROWTH_PERCENT",
+					"val" : 400,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+			]
+		},
+		"knight":
+		{
+			"resources": { "wood" : 150, "mercury": 1600, "ore": 150, "sulfur": 1600, "crystal": 1600, "gems": 1600, "gold": 250000, "mithril": 0 },
+			"globalBonuses":
+			[
+				{
+					"type" : "CREATURE_GROWTH_PERCENT",
+					"val" : 400,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+			]
+		},
+		"rook":
+		{
+			"resources": { "wood" : 150, "mercury": 1600, "ore": 150, "sulfur": 1600, "crystal": 1600, "gems": 1600, "gold": 250000, "mithril": 0 },
+			"globalBonuses":
+			[
+				{
+					"type" : "CREATURE_GROWTH_PERCENT",
+					"val" : 400,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+			]
+		},
+		"queen":
+		{
+			"resources": { "wood" : 150, "mercury": 1600, "ore": 150, "sulfur": 1600, "crystal": 1600, "gems": 1600, "gold": 250000, "mithril": 0 },
+			"globalBonuses":
+			[
+				{
+					"type" : "CREATURE_GROWTH_PERCENT",
+					"val" : 400,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+			]
+		},
+		"king":
+		{
+			"resources": { "wood" : 150, "mercury": 1600, "ore": 150, "sulfur": 1600, "crystal": 1600, "gems": 1600, "gold": 250000, "mithril": 0 },
+			"globalBonuses":
+			[
+				{
+					"type" : "CREATURE_GROWTH_PERCENT",
+					"val" : 400,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+			]
+		}
+	},
+	"human":
+	{
+		"pawn":
+		{
+			"resources": { "wood" : 150, "mercury": 1600, "ore": 150, "sulfur": 1600, "crystal": 1600, "gems": 1600, "gold": 250000, "mithril": 0 },
+			"globalBonuses":
+			[
+				{
+					"type" : "CREATURE_GROWTH_PERCENT",
+					"val" : 400,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+			]
+		},
+		"knight":
+		{
+			"resources": { "wood" : 150, "mercury": 1600, "ore": 150, "sulfur": 1600, "crystal": 1600, "gems": 1600, "gold": 250000, "mithril": 0 },
+			"globalBonuses":
+			[
+				{
+					"type" : "CREATURE_GROWTH_PERCENT",
+					"val" : 400,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+			]
+		},
+		"rook":
+		{
+			"resources": { "wood" : 150, "mercury": 1600, "ore": 150, "sulfur": 1600, "crystal": 1600, "gems": 1600, "gold": 250000, "mithril": 0 },
+			"globalBonuses":
+			[
+				{
+					"type" : "CREATURE_GROWTH_PERCENT",
+					"val" : 400,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+			]
+		},
+		"queen":
+		{
+			"resources": { "wood" : 150, "mercury": 1600, "ore": 150, "sulfur": 1600, "crystal": 1600, "gems": 1600, "gold": 250000, "mithril": 0 },
+			"globalBonuses":
+			[
+				{
+					"type" : "CREATURE_GROWTH_PERCENT",
+					"val" : 400,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+			]
+		},
+		"king":
+		{
+			"resources": { "wood" : 150, "mercury": 1600, "ore": 150, "sulfur": 1600, "crystal": 1600, "gems": 1600, "gold": 250000, "mithril": 0 },
+			"globalBonuses":
+			[
+				{
+					"type" : "CREATURE_GROWTH_PERCENT",
+					"val" : 400,
+					"duration" : "PERMANENT",
+					"sourceType" : "OTHER"
+				},
+			]
+		}
+	}
+}

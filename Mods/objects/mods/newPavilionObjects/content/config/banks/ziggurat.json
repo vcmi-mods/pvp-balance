@@ -1,0 +1,17 @@
+{
+	"core:creatureBank" : 
+	{
+		"types" : 
+		{
+			"sphinxZiggurat" : 
+			{
+				
+				"rmg" : {
+					"value"		: 99999,
+					"rarity"	: 1,
+					"zoneLimit" : 0
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,115 @@
+{
+	"core:scholar" :
+	{
+		"types" :
+		{
+			"scholar" :
+			{		
+				"canRefuse" : false,
+				"rewards" : [
+				   {
+					   "appearChance" : {
+						   "max" : 11,
+						   "min" : 0
+					   },
+					   "limiter" : {
+						   "canLearnSpells" : [
+							   "@gainedSpell"
+						   ]
+					   },
+					   "message" : 115,
+					   "removeObject" : true,
+					   "spells" : [
+						   "@gainedSpell"
+					   ]
+				   },
+				   {
+					"appearChance" : {
+						"max" : 22,
+						"min" : 11
+					},
+					"limiter" : {
+						"canLearnSpells" : [
+							"@gainedSpell2"
+						]
+					},
+					"message" : 115,
+					"removeObject" : true,
+					"spells" : [
+						"@gainedSpell2"
+					]
+				},
+				{
+					"appearChance" : {
+						"max" : 33,
+						"min" : 22
+					},
+					"limiter" : {
+						"canLearnSpells" : [
+							"@gainedSpell3"
+						]
+					},
+					"message" : 115,
+					"removeObject" : true,
+					"spells" : [
+						"@gainedSpell3"
+					]
+				},
+				   {
+					   "appearChance" : {
+						   "max" : 66,
+						   "min" : 33
+					   },
+					   "limiter" : {
+						   "anyOf" : [
+							   {
+								   "canLearnSkills" : true
+							   },
+							   {
+								   "secondary" : {
+									   "@gainedSkill" : 1
+								   }
+							   }
+						   ],
+						   "noneOf" : [
+							   {
+								   "secondary" : {
+									   "@gainedSkill" : 3
+								   }
+							   }
+						   ]
+					   },
+					   "message" : 115,
+					   "removeObject" : true,
+					   "secondary" : {
+						   "@gainedSkill" : 1
+					   }
+				   },
+				   {
+					   "message" : 115,
+					   "primary" : {
+						   "@gainedStat" : 1
+					   },
+					   "removeObject" : true
+				   }
+			   ],
+
+			   "variables" : {
+			   "primarySkill" : {
+				   "gainedStat" : {
+				   }
+			   },
+			   "secondarySkill" : {
+				   "gainedSkill" : {
+				   }
+			   },
+			   "spell" : {
+				   "gainedSpell" : {"level":1},
+				   "gainedSpell2" : {"level" : 2},
+				   "gainedSpell3" : {"level" : 3}
+			   }
+		   }
+			}
+		}
+	}
+}

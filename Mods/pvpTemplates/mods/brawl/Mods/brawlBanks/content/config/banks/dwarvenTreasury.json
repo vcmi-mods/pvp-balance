@@ -1,0 +1,112 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"dwarvenTreasury" : {
+				"resetParameters" : {
+					"period" : 4,
+					"visitors" : true,
+					"rewards" : true
+				},
+				"rmg" : {
+					"zoneLimit"	: 2,
+					"value"		: 2500,
+					"rarity"	: 100
+				},
+				"onGuardedMessage" : 32,
+				"onVisitedMessage" : 33,
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"guardsLayout" : "creatureBankNarrow",
+				"rewards": [
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 0, "max" : 30 },
+						"guards": [
+							{ "amount": 3, "type": "dwarf", "upgradeChance": 50 },
+							{ "amount": 3, "type": "dwarf", "upgradeChance": 50 },
+							{ "amount": 3, "type": "dwarf", "upgradeChance": 50 },
+							{ "amount": 3, "type": "dwarf", "upgradeChance": 50 },
+							{ "amount": 1, "type": "pegasus", "upgradeChance": 50 }
+						],
+						"resources": 
+						{
+							"crystal" : 2,
+							"gold" : 1000
+						},
+						"creatures": [ { "amount": 1, "type": "pegasus", "upgradeChance": 50 } ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 30, "max" : 60 },
+						"guards": [
+							{ "amount": 5, "type": "dwarf", "upgradeChance": 50 },
+							{ "amount": 5, "type": "dwarf", "upgradeChance": 50 },
+							{ "amount": 5, "type": "dwarf", "upgradeChance": 50 },
+							{ "amount": 5, "type": "dwarf", "upgradeChance": 50 },
+							{ "amount": 1, "type": "pegasus", "upgradeChance": 50 }
+						],
+						"resources": 
+						{
+							"crystal" : 3,
+							"gold" : 1500
+						},
+						"creatures": [ { "amount": 2, "type": "pegasus", "upgradeChance": 50 } ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 60, "max" : 90 },
+						"guards": [
+							{ "amount": 7, "type": "dwarf", "upgradeChance": 50 },
+							{ "amount": 7, "type": "dwarf", "upgradeChance": 50 },
+							{ "amount": 7, "type": "dwarf", "upgradeChance": 50 },
+							{ "amount": 7, "type": "dwarf", "upgradeChance": 50 },
+							{ "amount": 2, "type": "pegasus", "upgradeChance": 50 }
+						],
+						"resources": 
+						{
+							"crystal" : 4,
+							"gold" : 2000
+						},
+						"creatures": [ { "amount": 1, "type": "dendroidGuard", "upgradeChance": 50 } ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 90, "max" : 95 },
+						"guards": [
+							{ "amount": 9, "type": "dwarf", "upgradeChance": 50 },
+							{ "amount": 9, "type": "dwarf", "upgradeChance": 50 },
+							{ "amount": 9, "type": "dwarf", "upgradeChance": 50 },
+							{ "amount": 9, "type": "dwarf", "upgradeChance": 50 },
+							{ "amount": 2, "type": "pegasus", "upgradeChance": 50 }
+						],
+						"resources": 
+						{
+							"crystal" : 5,
+							"gold" : 2500
+						},
+						"creatures": [ { "amount": 1, "type": "goldGolem" } ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 95, "max" : 100 },
+						"guards": [
+							{ "amount": 9, "type": "dwarf", "upgradeChance": 50 },
+							{ "amount": 9, "type": "dwarf", "upgradeChance": 50 },
+							{ "amount": 9, "type": "dwarf", "upgradeChance": 50 },
+							{ "amount": 9, "type": "dwarf", "upgradeChance": 50 },
+							{ "amount": 2, "type": "pegasus", "upgradeChance": 50 }
+						],
+						"resources": 
+						{
+							"crystal" : 5,
+							"gold" : 2500
+						},
+						"creatures": [ { "amount": 1, "type": "diamondGolem" } ]
+					}
+				]
+			}
+		}
+	}
+}

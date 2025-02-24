@@ -1,0 +1,56 @@
+{
+    "name" : "Basic object balance",
+
+    "description" : "Basic balance of generic objects for PvP. The mod modifies also generation of decorations on biomes in order to increase readability or remove misleading objects.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+
+    "modType" : "Objects",
+	
+	"objects" :
+	[
+		"config/stables.json",
+		"config/prison.json",
+		"config/subterraneanGate.json",
+		"config/redwoodObservatory.json",
+		"config/impCache.json",
+		"config/ancientLamp.json",
+		"config/scholar.json",
+		"config/warriorsTomb.json",
+		"config/swanPond.json",
+		"config/fountainOfFortune.json"
+		
+	],
+
+	"biomes" : [
+		"config/biomes.json"
+	],
+
+	"factions":
+    [
+        "config/factions.json"
+    ],
+
+	"depends" : 
+	[
+		"hota.mapDecorations",
+		"hota.highlandsTerrain",
+		"hota.wastelandTerrain",
+		"hota.mapObjects",
+		"hota.gameBalance"
+	],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.3",
+	
+    "keepDisabled" : false
+}

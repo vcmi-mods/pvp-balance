@@ -1,0 +1,24 @@
+{
+    "name" : "New artifacts",
+
+    "description" : "The mod adds four new combined artifacts: Fire Hat, Water Hat, Earth Hat and Air Hat. In addition to the component effects, they allow to cast fire, water, earth or air spells at expert level.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Artifacts",
+
+    "artifacts": [
+        "config/newArtifacts.json"
+        ],
+
+    "compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.3",
+    
+    "keepDisabled" : true
+}

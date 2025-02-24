@@ -1,0 +1,333 @@
+{
+  "core:tomeOfAirMagic": {
+	  "bonuses" : [
+            {
+                "type" : "SPELLS_OF_SCHOOL",
+                "subtype" : "air",
+                "val" : 0,
+                "valueType" : "BASE_NUMBER"
+            },
+            {
+                "subtype" : "spell.dimensionDoor",
+                "type" : "SPELL"
+            },
+            {
+                "subtype" : "spell.fly",
+                "type" : "SPELL"
+            }
+        ],
+    "type" : ["HERO"]
+	  },
+
+    "core:tomeOfEarthMagic": {
+      "bonuses" : [
+              {
+                  "type" : "SPELLS_OF_SCHOOL",
+                  "subtype" : "earth",
+                  "val" : 0,
+                  "valueType" : "BASE_NUMBER"
+              },
+              {
+                  "subtype" : "spell.townPortal",
+                  "type" : "SPELL"
+              }
+          ],
+      "type" : ["HERO"]
+      },
+
+      "core:spellbindersHat": {
+        "bonuses" : [
+                {
+                  "subtype" : "spellLevel5",
+                  "type" : "SPELLS_OF_LEVEL",
+                  "val" : 3,
+                  "valueType" : "BASE_NUMBER"
+                },
+                {
+                    "subtype" : "spell.dimensionDoor",
+                    "type" : "SPELL"
+                },
+                {
+                    "subtype" : "spell.fly",
+                    "type" : "SPELL"
+                }
+            ],
+        "type" : ["HERO"]
+        },
+	  
+  
+  "core:orbOfInhibition": {
+	  "class" : "SPECIAL"
+	  },
+	  
+  "core:recantersCloak": {
+	"class" : "SPECIAL"
+	},
+
+  "core:garnitureOfInterference": {
+	  "class" : "SPECIAL"
+	  },
+
+  "core:surcoatOfCounterpoise": {
+	  "class" : "SPECIAL"
+	  },
+	  
+  "core:bootsOfPolarity": {
+	  "class" : "SPECIAL"
+	  },
+
+  "core:centaurAxe": {
+    "class" : "SPECIAL"
+  },
+
+
+  "core:shieldOfTheDwarvenLords": {
+    "class" : "SPECIAL"
+  },
+
+
+  "core:helmOfTheAlabasterUnicorn": {
+    "class" : "SPECIAL"
+  },
+
+
+  "core:breastplateOfPetrifiedWood": {
+    "class" : "SPECIAL"
+  },
+
+
+  "core:amuletOfTheUndertaker": {
+    "class" : "SPECIAL"
+  },
+
+  "core:vampiresCowl": {
+    "class" : "SPECIAL"
+  },
+
+  "core:deadMansBoots": {
+    "class" : "SPECIAL"
+  },
+
+  "core:bowOfElvenCherrywood": {
+    "class" : "SPECIAL"
+  },
+
+  "core:bowstringOfTheUnicornsMane": {
+    "class" : "SPECIAL"
+  },
+
+  "core:angelFeatherArrows": {
+    "class" : "SPECIAL"
+  },
+
+  "core:armorOfWonder": {
+	"class" : "SPECIAL"
+	},
+
+  "core:legsOfLegion": {
+  "class" : "SPECIAL"
+  },
+	  
+
+  "core:armsOfLegion": {
+    "class" : "SPECIAL"
+},
+  
+"core:headOfLegion": {
+  "class" : "SPECIAL"
+},
+
+"core:torsoOfLegion": {
+  "class" : "SPECIAL"
+},
+
+"core:loinsOfLegion": {
+  "class" : "SPECIAL"
+},
+
+"core:everflowingCrystalCloak": {
+  "class" : "SPECIAL"
+},
+
+"core:everpouringVialOfMercury": {
+  "class" : "SPECIAL"
+},
+
+"core:eversmokingRingOfSulfur": {
+  "class" : "SPECIAL"
+},
+
+"core:ringOfInfiniteGems": {
+  "class" : "SPECIAL"
+},
+
+"core:endlessBagOfGold": {
+  "class" : "SPECIAL"
+},
+
+
+"core:endlessPurseOfGold": {
+  "class" : "SPECIAL"
+},
+
+"core:endlessSackOfGold": {
+  "class" : "SPECIAL"
+},
+
+"core:pendantOfCourage": {
+  "class" : "SPECIAL"
+},
+
+"core:pendantOfDeath": {
+  "class" : "SPECIAL"
+},
+
+"core:pendantOfTotalRecall": {
+  "class" : "SPECIAL"
+},
+
+"core:pendantOfHoliness": {
+  "class" : "SPECIAL"
+},
+
+"core:pendantOfLife": {
+  "class" : "SPECIAL"
+},
+
+
+"core:orbOfDrivingRain": {
+  "class" : "SPECIAL"
+},
+
+
+"core:orbOfTheFirmament": {
+  "class" : "SPECIAL"
+},
+
+"core:ringOfConjuring": {
+  "class" : "SPECIAL"
+},
+
+"core:collarOfConjuring": {
+  "class" : "SPECIAL"
+},
+
+"core:ambassadorsSash": {
+  "class" : "SPECIAL"
+},
+
+
+"core:diplomatsRing": {
+  "class" : "SPECIAL"
+},
+
+"core:statesmansMedal": {
+  "class" : "SPECIAL"
+},
+
+  
+  "core:birdOfPerception": {
+	  "class" : "SPECIAL"
+	  },
+	  
+  "core:stoicWatchman": {
+	  "class" : "SPECIAL"
+	  },
+	  
+  "core:emblemOfCognizance": {
+	  "class" : "SPECIAL"
+	  },
+
+	"hota.artifacts:sleepkeeper": {
+	  "class" : "SPECIAL"
+  },
+
+	"hota.artifacts:charmOfEclipse": {
+	  "class" : "SPECIAL"
+  },
+
+  "hota.artifacts:sealOfSunset": {
+	  "class" : "SPECIAL"
+  },
+    
+  "core:armageddonsBlade": {
+	  "class" : "RELIC"
+	  },
+
+    "core:vialOfDragonBlood": {
+	  "class" : "RELIC"
+	  },
+
+    "hota.artifacts:goldenGoose": {
+      "components#override" : [],
+      "bonuses" : [
+       {
+         "subtype" : "resource.gold",
+         "type" : "GENERATE_RESOURCE",
+         "val" : 7000,
+         "valueType" : "BASE_NUMBER"
+       }
+     ]
+    },
+
+    "core:bowOfTheSharpshooter": {
+      "components#override" : []
+    },
+
+    "hota.artifacts:diplomatsCloak" : {
+      "components#override" : []
+      },
+
+    "core:cornucopia": {
+      "components#override" : [],
+      "bonuses" : [
+       {
+         "subtype" : "resource.crystal",
+         "type" : "GENERATE_RESOURCE",
+         "val" : 5,
+         "valueType" : "BASE_NUMBER"
+       },
+       {
+         "subtype" : "resource.gems",
+         "type" : "GENERATE_RESOURCE",
+         "val" : 5,
+         "valueType" : "BASE_NUMBER"
+       },
+       {
+         "subtype" : "resource.mercury",
+         "type" : "GENERATE_RESOURCE",
+         "val" : 5,
+         "valueType" : "BASE_NUMBER"
+       },
+       {
+         "subtype" : "resource.sulfur",
+         "type" : "GENERATE_RESOURCE",
+         "val" : 5,
+         "valueType" : "BASE_NUMBER"
+       }
+     ]
+    },
+
+    "core:cloakOfTheUndeadKing" : {
+      "components#override" : []
+      },
+
+    "hota.artifacts:hornOfTheAbyss": {
+      "class" : "RELIC",
+      "bonuses#override" : [
+       {
+         "addInfo" : 0,
+         "subtype" : "creature.fangarm",
+         "type" : "IMPROVED_NECROMANCY"
+       },
+       {
+        "val" : 50,
+        "type" : "UNDEAD_RAISE_PERCENTAGE"
+      }
+      ]
+
+    }
+
+  }
+  
+  

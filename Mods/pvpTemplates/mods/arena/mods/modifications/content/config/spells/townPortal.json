@@ -1,0 +1,9 @@
+{
+	"core:townPortal" :
+	{
+		"flags" :
+		{
+			"special" : true
+		}
+	}
+}

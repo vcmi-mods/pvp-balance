@@ -1,0 +1,35 @@
+{
+    "name" : "New Experimental Shop",
+
+    "description" : "This mod modifies Experimental Shop bank. The guard quantity is increased by 25% and Drake Golems are given as reward instead of Giants.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Objects",
+
+	"objects" :
+	[
+		"config/experimentalShop.json"
+	],
+
+	"depends":
+	[
+		"tides-of-war.alternative-creatures",
+		"hota.mapObjects",
+		"hota.neutralcreatures"
+	],
+
+	"softDepends":
+	["pvp-balance.objects.increasedBankSize"],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.3",
+	
+    "keepDisabled" : true
+}

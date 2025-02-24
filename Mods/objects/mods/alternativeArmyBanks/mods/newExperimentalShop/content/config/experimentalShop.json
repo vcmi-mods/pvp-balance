@@ -1,0 +1,70 @@
+{
+	"core:creatureBank" : 
+	{
+		"types" : 
+		{
+			"experimentalShop" : 
+			{
+				"name" : "Experimental Shop",
+				
+				"blockedVisitable" : false,
+				"onGuardedMessage" : 32,
+				"onVisitedMessage" : 33,
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"guardsLayout" : "creatureBankNarrow",
+				"rewards":
+				[
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 0, "max" : 15 },
+						"guards": [
+							{ "amount": 5, "type" : "steelGolem" },
+							{ "amount": 5, "type" : "steelGolem" },
+							{ "amount": 5, "type" : "steelGolem" },
+							{ "amount": 5, "type" : "steelGolem" },
+							{ "amount": 5, "type" : "steelGolem" }
+						],
+						"creatures": [ { "amount": 1, "type": "mdtDrakeGolem" } ]
+					},
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 15, "max" : 50 },
+						"guards": [
+							{ "amount": 10, "type" : "steelGolem" },
+							{ "amount": 10, "type" : "steelGolem" },
+							{ "amount": 10, "type" : "steelGolem" },
+							{ "amount": 10, "type" : "steelGolem" },
+							{ "amount": 10, "type" : "steelGolem" }
+						],
+						"creatures": [ { "amount": 2, "type": "mdtDrakeGolem" } ]
+					},
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 50, "max" : 85 },
+						"guards": [
+							{ "amount": 15, "type" : "steelGolem" },
+							{ "amount": 15, "type" : "steelGolem" },
+							{ "amount": 15, "type" : "steelGolem" },
+							{ "amount": 15, "type" : "steelGolem" },
+							{ "amount": 15, "type" : "steelGolem" }
+						],
+						"creatures": [ { "amount": 3, "type": "mdtDrakeGolem" } ]
+					},
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 90, "max" : 100 },
+						"guards": [
+							{ "amount": 20, "type" : "steelGolem" },
+							{ "amount": 20, "type" : "steelGolem" },
+							{ "amount": 20, "type" : "steelGolem" },
+							{ "amount": 20, "type" : "steelGolem" },
+							{ "amount": 20, "type" : "steelGolem" }
+						],
+						"creatures": [ { "amount": 4, "type": "mdtDrakeGolem" } ]
+					}
+				]
+			}
+		}
+	}
+}

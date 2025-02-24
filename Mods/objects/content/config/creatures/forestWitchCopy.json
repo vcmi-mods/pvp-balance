@@ -1,0 +1,129 @@
+{
+	"forestWitchCopy": {
+		"name" :
+		{
+			"singular" : "Forest Witch",
+			"plural" : "Forest Witches"
+		},
+		"upgrades": [
+			"priestessCopy"
+		],
+		"level": 5,
+		"special": true,
+		"faction": "neutral",
+		"cost" : 
+		{
+			"wood" : 0,
+			"mercury" : 0,
+			"ore" : 0,
+			"sulfur" : 0,
+			"crystal" : 0,
+			"gems" : 0,
+			"gold" : 540
+		},
+		"fightValue" : 777,
+		"aiValue" : 800,
+		"growth" : 3,
+		"attack" : 10,
+		"defense" : 12,
+		"hitPoints" : 35,
+		"shots" : 12,
+		"speed" : 6,
+		"damage" :
+		{
+			"min" : 12,
+			"max" : 16
+		},
+		"spellPoints" : 0,
+		"advMapAmount" :
+		{
+			"min" : 5,
+			"max" : 12
+		},
+		"doubleWide": false,
+		"abilities" : {
+			"shooter": {
+				"type":"SHOOTER"
+			}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack"
+				},
+				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+			},	
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence"
+				},
+				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
+				},
+				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			}
+		],
+		"hasDoubleWeek": true,
+		"graphics": {
+			"animation": "battle/lvl5altCopy.def",
+			"map": "map/lvl5altCopy.def",
+			"iconSmall": "iconsSmall/lvl5altCopy.bmp",
+			"iconLarge": "iconsBig/lvl5altCopy.bmp",
+			"timeBetweenFidgets": 1.00,
+			"animationTime": {
+				"walk": 1,
+				"idle": 10.00,
+				"attack": 1
+			},
+			"missile" :
+			{
+				"projectile": "projectiles/greenCopy.def",
+				"attackClimaxFrame" : 8,
+				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ],
+				"offset" : {
+					"lowerX" : 28,
+					"lowerY" : 3,
+					"middleX" : 62,
+					"middleY" : -53,
+					"upperX" : 37,
+					"upperY" : -98
+				}
+			}
+		},
+		"sound" :
+		{
+			"attack": "LICHATTK.wav",
+			"defend": "LICHDFND.wav",
+			"killed": "OGREKILL.wav",
+			"move": "OGREMOVE.wav",
+			"shoot": "LICHSHOT.wav",
+			"wince": "OGREWNCE.wav"
+		}
+	}
+}

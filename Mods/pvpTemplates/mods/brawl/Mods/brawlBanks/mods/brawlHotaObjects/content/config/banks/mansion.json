@@ -1,0 +1,107 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"mansion" : {
+				"resetParameters" : {
+					"period" : 4,
+					"visitors" : true,
+					"rewards" : true
+				},
+				"rmg" : {
+					"zoneLimit"	: 2,
+					"value"		: 2500,
+					"rarity"	: 100
+				},
+				"onGuardedMessage" : 32,
+				"onVisitedMessage" : 33,
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"guardsLayout" : "creatureBankNarrow",
+				"rewards": [
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 0, "max" : 30 },
+						"guards": [
+							{ "amount": 1, "type" : "vampireLord" },
+							{ "amount": 1, "type" : "vampireLord" },
+							{ "amount": 1, "type" : "vampireLord"},
+							{ "amount": 1, "type" : "vampireLord" },
+							{ "amount": 1, "type" : "vampireLord" }
+						],
+						"resources": 
+						{
+							"gold" : 1200,
+							"mercury": 2,
+							"sulfur": 2,
+							"gems" : 2,
+							"crystal" : 2		
+						},
+						"artifacts": [ { "class" : "MINOR" } ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 30, "max" : 60 },
+						"guards": [
+							{ "amount": 1, "type" : "vampireLord" },
+							{ "amount": 1, "type" : "vampireLord" },
+							{ "amount": 1, "type" : "vampireLord"},
+							{ "amount": 1, "type" : "vampireLord" },
+							{ "amount": 2, "type" : "vampireLord" }
+						],
+						"resources": 
+						{
+							"gold" : 1400,
+							"mercury": 2,
+							"sulfur": 2,
+							"gems" : 2,
+							"crystal" : 2		
+						},
+						"artifacts": [ { "class" : "MINOR" } ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 60, "max" : 90 },
+						"guards": [
+							{ "amount": 1, "type" : "vampireLord" },
+							{ "amount": 1, "type" : "vampireLord" },
+							{ "amount": 1, "type" : "vampireLord"},
+							{ "amount": 2, "type" : "vampireLord" },
+							{ "amount": 2, "type" : "vampireLord" }
+						],
+						"resources": 
+						{
+							"gold" : 1600,
+							"mercury": 3,
+							"sulfur": 3,
+							"gems" : 3,
+							"crystal" : 3		
+						},
+						"artifacts": [ { "class" : "MINOR" } ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 90, "max" : 100 },
+						"guards": [
+							{ "amount": 1, "type" : "vampireLord" },
+							{ "amount": 1, "type" : "vampireLord" },
+							{ "amount": 2, "type" : "vampireLord"},
+							{ "amount": 2, "type" : "vampireLord" },
+							{ "amount": 2, "type" : "vampireLord" }
+						],
+						"resources": 
+						{
+							"gold" : 1800,
+							"mercury": 3,
+							"sulfur": 3,
+							"gems" : 3,
+							"crystal" : 3		
+						},
+						"artifacts": [ { "class" : "MINOR" } ]
+					}
+				]
+			}
+		}
+	}
+}

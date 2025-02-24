@@ -1,0 +1,671 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"sorceressCastle" :
+			{
+				"resetParameters" : {
+					"period" : 4,
+					"visitors" : true,
+					"rewards" : true
+				},
+				"rmg" :
+				{
+					"zoneLimit" : 1,
+					"mapLimit" : 6,
+					"value" : 2000,
+					"rarity" : 100
+				},
+				"onGuardedMessage" : 32,
+				"onVisitedMessage" : 33,
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"guardsLayout" : "creatureBankNarrow",
+				"rewards": 
+				[
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 0, "max" : 3 },
+						"guards":
+						[
+							{ "amount" : 3, "type" : "mdtTriton", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtMermaid", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtDryad", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtSukkub", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtWerewolf", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtIllithid", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtTrollHag", "upgradeChance" : 50 }
+						],
+						"spells" : [ { "level" : 2 }, { "level" : 3 } ],
+						"artifacts" : [ "legsOfLegion", "everpouringVialOfMercury" ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 3, "max" : 6 },
+						"guards":
+						[
+							{ "amount" : 3, "type" : "mdtTriton", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtMermaid", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtDryad", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtSukkub", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtWerewolf", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtIllithid", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtTrollHag", "upgradeChance" : 50 }
+						],
+						"spells" : [ { "level" : 2 }, { "level" : 3 } ],
+						"artifacts" : [ "legsOfLegion", "eversmokingRingOfSulfur" ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 6, "max" : 9 },
+						"guards":
+						[
+							{ "amount" : 3, "type" : "mdtTriton", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtMermaid", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtDryad", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtSukkub", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtWerewolf", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtIllithid", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtTrollHag", "upgradeChance" : 50 }
+						],
+						"spells" : [ { "level" : 2 }, { "level" : 3 } ],
+						"artifacts" : [ "legsOfLegion", "everflowingCrystalCloak" ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 9, "max" : 12 },
+						"guards":
+						[
+							{ "amount" : 3, "type" : "mdtTriton", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtMermaid", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtDryad", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtSukkub", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtWerewolf", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtIllithid", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtTrollHag", "upgradeChance" : 50 }
+						],
+						"spells" : [ { "level" : 2 }, { "level" : 3 } ],
+						"artifacts" : [ "legsOfLegion", "ringOfInfiniteGems" ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 12, "max" : 15 },
+						"guards":
+						[
+							{ "amount" : 3, "type" : "mdtTriton", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtMermaid", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtDryad", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtSukkub", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtWerewolf", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtIllithid", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtTrollHag", "upgradeChance" : 50 }
+						],
+						"spells" : [ { "level" : 2 }, { "level" : 3 } ],
+						"artifacts" : [ "loinsOfLegion", "everpouringVialOfMercury" ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 15, "max" : 18 },
+						"guards":
+						[
+							{ "amount" : 3, "type" : "mdtTriton", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtMermaid", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtDryad", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtSukkub", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtWerewolf", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtIllithid", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtTrollHag", "upgradeChance" : 50 }
+						],
+						"spells" : [ { "level" : 2 }, { "level" : 3 } ],
+						"artifacts" : [ "loinsOfLegion", "eversmokingRingOfSulfur" ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 18, "max" : 21 },
+						"guards":
+						[
+							{ "amount" : 3, "type" : "mdtTriton", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtMermaid", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtDryad", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtSukkub", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtWerewolf", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtIllithid", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtTrollHag", "upgradeChance" : 50 }
+						],
+						"spells" : [ { "level" : 2 }, { "level" : 3 } ],
+						"artifacts" : [ "loinsOfLegion", "everflowingCrystalCloak" ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 21, "max" : 24 },
+						"guards":
+						[
+							{ "amount" : 3, "type" : "mdtTriton", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtMermaid", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtDryad", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtSukkub", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtWerewolf", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtIllithid", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtTrollHag", "upgradeChance" : 50 }
+						],
+						"spells" : [ { "level" : 2 }, { "level" : 3 } ],
+						"artifacts" : [ "loinsOfLegion", "ringOfInfiniteGems" ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 24, "max" : 27 },
+						"guards":
+						[
+							{ "amount" : 3, "type" : "mdtTriton", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtMermaid", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtDryad", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtSukkub", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtWerewolf", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtIllithid", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtTrollHag", "upgradeChance" : 50 }
+						],
+						"spells" : [ { "level" : 2 }, { "level" : 3 } ],
+						"artifacts" : [ "torsoOfLegion", "everpouringVialOfMercury" ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 27, "max" : 30 },
+						"guards":
+						[
+							{ "amount" : 3, "type" : "mdtTriton", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtMermaid", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtDryad", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtSukkub", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtWerewolf", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtIllithid", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtTrollHag", "upgradeChance" : 50 }
+						],
+						"spells" : [ { "level" : 2 }, { "level" : 3 } ],
+						"artifacts" : [ "torsoOfLegion", "eversmokingRingOfSulfur" ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 30, "max" : 33 },
+						"guards":
+						[
+							{ "amount" : 3, "type" : "mdtTriton", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtMermaid", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtDryad", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtSukkub", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtWerewolf", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtIllithid", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtTrollHag", "upgradeChance" : 50 }
+						],
+						"spells" : [ { "level" : 2 }, { "level" : 3 } ],
+						"artifacts" : [ "torsoOfLegion", "everflowingCrystalCloak" ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 33, "max" : 36 },
+						"guards":
+						[
+							{ "amount" : 3, "type" : "mdtTriton", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtMermaid", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtDryad", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtSukkub", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtWerewolf", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtIllithid", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtTrollHag", "upgradeChance" : 50 }
+						],
+						"spells" : [ { "level" : 2 }, { "level" : 3 } ],
+						"artifacts" : [ "torsoOfLegion", "ringOfInfiniteGems" ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 36, "max" : 39 },
+						"guards":
+						[
+							{ "amount" : 3, "type" : "mdtTriton", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtMermaid", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtDryad", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtSukkub", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtWerewolf", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtIllithid", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtTrollHag", "upgradeChance" : 50 }
+						],
+						"spells" : [ { "level" : 2 }, { "level" : 3 } ],
+						"artifacts" : [ "armsOfLegion", "everpouringVialOfMercury" ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 39, "max" : 42 },
+						"guards":
+						[
+							{ "amount" : 3, "type" : "mdtTriton", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtMermaid", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtDryad", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtSukkub", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtWerewolf", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtIllithid", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtTrollHag", "upgradeChance" : 50 }
+						],
+						"spells" : [ { "level" : 2 }, { "level" : 3 } ],
+						"artifacts" : [ "armsOfLegion", "eversmokingRingOfSulfur" ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 42, "max" : 45 },
+						"guards":
+						[
+							{ "amount" : 3, "type" : "mdtTriton", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtMermaid", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtDryad", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtSukkub", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtWerewolf", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtIllithid", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtTrollHag", "upgradeChance" : 50 }
+						],
+						"spells" : [ { "level" : 2 }, { "level" : 3 } ],
+						"artifacts" : [ "armsOfLegion", "everflowingCrystalCloak" ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 45, "max" : 48 },
+						"guards":
+						[
+							{ "amount" : 3, "type" : "mdtTriton", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtMermaid", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtDryad", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtSukkub", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtWerewolf", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtIllithid", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtTrollHag", "upgradeChance" : 50 }
+						],
+						"spells" : [ { "level" : 2 }, { "level" : 3 } ],
+						"artifacts" : [ "armsOfLegion", "ringOfInfiniteGems" ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 48, "max" : 51 },
+						"guards":
+						[
+							{ "amount" : 3, "type" : "mdtTriton", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtMermaid", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtDryad", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtSukkub", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtWerewolf", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtIllithid", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtTrollHag", "upgradeChance" : 50 }
+						],
+						"spells" : [ { "level" : 2 }, { "level" : 3 } ],
+						"artifacts" : [ "headOfLegion", "everpouringVialOfMercury" ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 51, "max" : 54 },
+						"guards":
+						[
+							{ "amount" : 3, "type" : "mdtTriton", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtMermaid", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtDryad", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtSukkub", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtWerewolf", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtIllithid", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtTrollHag", "upgradeChance" : 50 }
+						],
+						"spells" : [ { "level" : 2 }, { "level" : 3 } ],
+						"artifacts" : [ "headOfLegion", "eversmokingRingOfSulfur" ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 54, "max" : 57 },
+						"guards":
+						[
+							{ "amount" : 3, "type" : "mdtTriton", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtMermaid", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtDryad", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtSukkub", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtWerewolf", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtIllithid", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtTrollHag", "upgradeChance" : 50 }
+						],
+						"spells" : [ { "level" : 2 }, { "level" : 3 } ],
+						"artifacts" : [ "headOfLegion", "everflowingCrystalCloak" ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 57, "max" : 60 },
+						"guards":
+						[
+							{ "amount" : 3, "type" : "mdtTriton", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtMermaid", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtDryad", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtSukkub", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtWerewolf", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtIllithid", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtTrollHag", "upgradeChance" : 50 }
+						],
+						"spells" : [ { "level" : 2 }, { "level" : 3 } ],
+						"artifacts" : [ "headOfLegion", "ringOfInfiniteGems" ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 60, "max" : 62 },
+						"guards":
+						[
+							{ "amount" : 3, "type" : "mdtTriton", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtDryad", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtSukkub", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtWerewolf", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtIllithid", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtTrollHag", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtCouatl", "upgradeChance" : 50 }
+						],
+						"spells" : [ { "level" : 3 }, { "level" : 4 } ],
+						"artifacts" : [ "legsOfLegion", "inexhaustibleCartOfOre", "inexhaustibleCartOfLumber" ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 62, "max" : 64 },
+						"guards":
+						[
+							{ "amount" : 3, "type" : "mdtTriton", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtDryad", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtSukkub", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtWerewolf", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtIllithid", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtTrollHag", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtCouatl", "upgradeChance" : 50 }
+						],
+						"spells" : [ { "level" : 3 }, { "level" : 4 } ],
+						"artifacts" : [ "legsOfLegion", "endlessPurseOfGold" ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 64, "max" : 66 },
+						"guards":
+						[
+							{ "amount" : 3, "type" : "mdtTriton", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtDryad", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtSukkub", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtWerewolf", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtIllithid", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtTrollHag", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtCouatl", "upgradeChance" : 50 }
+						],
+						"spells" : [ { "level" : 3 }, { "level" : 4 } ],
+						"artifacts" : [ "legsOfLegion", "endlessBagOfGold" ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 66, "max" : 68 },
+						"guards":
+						[
+							{ "amount" : 3, "type" : "mdtTriton", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtDryad", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtSukkub", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtWerewolf", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtIllithid", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtTrollHag", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtCouatl", "upgradeChance" : 50 }
+						],
+						"spells" : [ { "level" : 3 }, { "level" : 4 } ],
+						"artifacts" : [ "legsOfLegion", "endlessSackOfGold" ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 68, "max" : 70 },
+						"guards":
+						[
+							{ "amount" : 3, "type" : "mdtTriton", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtDryad", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtSukkub", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtWerewolf", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtIllithid", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtTrollHag", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtCouatl", "upgradeChance" : 50 }
+						],
+						"spells" : [ { "level" : 3 }, { "level" : 4 } ],
+						"artifacts" : [ "loinsOfLegion", "inexhaustibleCartOfOre", "inexhaustibleCartOfLumber" ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 70, "max" : 72 },
+						"guards":
+						[
+							{ "amount" : 3, "type" : "mdtTriton", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtDryad", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtSukkub", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtWerewolf", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtIllithid", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtTrollHag", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtCouatl", "upgradeChance" : 50 }
+						],
+						"spells" : [ { "level" : 3 }, { "level" : 4 } ],
+						"artifacts" : [ "loinsOfLegion", "endlessPurseOfGold" ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 72, "max" : 74 },
+						"guards":
+						[
+							{ "amount" : 3, "type" : "mdtTriton", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtDryad", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtSukkub", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtWerewolf", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtIllithid", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtTrollHag", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtCouatl", "upgradeChance" : 50 }
+						],
+						"spells" : [ { "level" : 3 }, { "level" : 4 } ],
+						"artifacts" : [ "loinsOfLegion", "endlessBagOfGold" ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 74, "max" : 76 },
+						"guards":
+						[
+							{ "amount" : 3, "type" : "mdtTriton", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtDryad", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtSukkub", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtWerewolf", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtIllithid", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtTrollHag", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtCouatl", "upgradeChance" : 50 }
+						],
+						"spells" : [ { "level" : 3 }, { "level" : 4 } ],
+						"artifacts" : [ "loinsOfLegion", "endlessSackOfGold" ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 76, "max" : 78 },
+						"guards":
+						[
+							{ "amount" : 3, "type" : "mdtTriton", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtDryad", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtSukkub", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtWerewolf", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtIllithid", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtTrollHag", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtCouatl", "upgradeChance" : 50 }
+						],
+						"spells" : [ { "level" : 3 }, { "level" : 4 } ],
+						"artifacts" : [ "torsoOfLegion", "inexhaustibleCartOfOre", "inexhaustibleCartOfLumber" ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 78, "max" : 80 },
+						"guards":
+						[
+							{ "amount" : 3, "type" : "mdtTriton", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtDryad", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtSukkub", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtWerewolf", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtIllithid", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtTrollHag", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtCouatl", "upgradeChance" : 50 }
+						],
+						"spells" : [ { "level" : 3 }, { "level" : 4 } ],
+						"artifacts" : [ "torsoOfLegion", "endlessPurseOfGold" ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 80, "max" : 82 },
+						"guards":
+						[
+							{ "amount" : 3, "type" : "mdtTriton", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtDryad", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtSukkub", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtWerewolf", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtIllithid", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtTrollHag", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtCouatl", "upgradeChance" : 50 }
+						],
+						"spells" : [ { "level" : 3 }, { "level" : 4 } ],
+						"artifacts" : [ "torsoOfLegion", "endlessBagOfGold" ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 82, "max" : 84 },
+						"guards":
+						[
+							{ "amount" : 3, "type" : "mdtTriton", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtDryad", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtSukkub", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtWerewolf", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtIllithid", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtTrollHag", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtCouatl", "upgradeChance" : 50 }
+						],
+						"spells" : [ { "level" : 3 }, { "level" : 4 } ],
+						"artifacts" : [ "torsoOfLegion", "endlessSackOfGold" ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 84, "max" : 86 },
+						"guards":
+						[
+							{ "amount" : 3, "type" : "mdtTriton", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtDryad", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtSukkub", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtWerewolf", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtIllithid", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtTrollHag", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtCouatl", "upgradeChance" : 50 }
+						],
+						"spells" : [ { "level" : 3 }, { "level" : 4 } ],
+						"artifacts" : [ "armsOfLegion", "inexhaustibleCartOfOre", "inexhaustibleCartOfLumber" ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 86, "max" : 88 },
+						"guards":
+						[
+							{ "amount" : 3, "type" : "mdtTriton", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtDryad", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtSukkub", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtWerewolf", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtIllithid", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtTrollHag", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtCouatl", "upgradeChance" : 50 }
+						],
+						"spells" : [ { "level" : 3 }, { "level" : 4 } ],
+						"artifacts" : [ "armsOfLegion", "endlessPurseOfGold" ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 88, "max" : 90 },
+						"guards":
+						[
+							{ "amount" : 3, "type" : "mdtTriton", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtDryad", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtSukkub", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtWerewolf", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtIllithid", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtTrollHag", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtCouatl", "upgradeChance" : 50 }
+						],
+						"spells" : [ { "level" : 3 }, { "level" : 4 } ],
+						"artifacts" : [ "armsOfLegion", "endlessBagOfGold" ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 90, "max" : 92 },
+						"guards":
+						[
+							{ "amount" : 3, "type" : "mdtTriton", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtDryad", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtSukkub", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtWerewolf", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtIllithid", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtTrollHag", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtCouatl", "upgradeChance" : 50 }
+						],
+						"spells" : [ { "level" : 3 }, { "level" : 4 } ],
+						"artifacts" : [ "armsOfLegion", "endlessSackOfGold" ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 92, "max" : 94 },
+						"guards":
+						[
+							{ "amount" : 3, "type" : "mdtTriton", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtDryad", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtSukkub", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtWerewolf", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtIllithid", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtTrollHag", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtCouatl", "upgradeChance" : 50 }
+						],
+						"spells" : [ { "level" : 3 }, { "level" : 4 } ],
+						"artifacts" : [ "headOfLegion", "inexhaustibleCartOfOre", "inexhaustibleCartOfLumber" ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 94, "max" : 96 },
+						"guards":
+						[
+							{ "amount" : 3, "type" : "mdtTriton", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtDryad", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtSukkub", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtWerewolf", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtIllithid", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtTrollHag", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtCouatl", "upgradeChance" : 50 }
+						],
+						"spells" : [ { "level" : 3 }, { "level" : 4 } ],
+						"artifacts" : [ "headOfLegion", "endlessPurseOfGold" ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 96, "max" : 98 },
+						"guards":
+						[
+							{ "amount" : 3, "type" : "mdtTriton", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtDryad", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtSukkub", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtWerewolf", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtIllithid", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtTrollHag", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtCouatl", "upgradeChance" : 50 }
+						],
+						"spells" : [ { "level" : 3 }, { "level" : 4 } ],
+						"artifacts" : [ "headOfLegion", "endlessBagOfGold" ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 98, "max" : 100 },
+						"guards":
+						[
+							{ "amount" : 3, "type" : "mdtTriton", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtDryad", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtSukkub", "upgradeChance" : 50 },
+							{ "amount" : 2, "type" : "mdtWerewolf", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtIllithid", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtTrollHag", "upgradeChance" : 50 },
+							{ "amount" : 1, "type" : "mdtCouatl", "upgradeChance" : 50 }
+						],
+						"spells" : [ { "level" : 3 }, { "level" : 4 } ],
+						"artifacts" : [ "headOfLegion", "endlessSackOfGold" ]
+					}
+				]
+			}
+		}
+	}
+}

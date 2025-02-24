@@ -1,0 +1,34 @@
+{
+	"name" : "brawlRefugeeObjects",
+	"description" : "Modified Refugee Town objects used by template Brawl, should be better suited for short games on small maps.<br>Mysterious Lamp:<br>30% chance: 3x1 Genie, 2x1 Efreet, reward: -7 Gold, 2 Genies, level 4 Spell,<br>30% chance: 3x2 Genies, 2x1 Efreet, reward: -77 Gold, 1 Efreet, level 5 Spell,<br>30% chance: 3x1 Genie, 2x2 Efreeti, reward: -777 Gold, 1 Efreet, 2 Genies, level 5 Spell,<br>10% chance: 3x2 Genies, 2x2 Efreeti, reward: -7777 Gold, 1 Daeva, level 5 Spell,<br>always gives 7 Gems, Mercury and Crystals.<br>Daeva creature weakened: Health and Regeneration down 10 times, Damage and Magic Damage down 5 times, Attack, Defense and Speed halved, level down to 7, fight value, ai value and gold cost down 10 times, resource cost down to 1.<br>All creatures that have upgrades, both guards and rewards have a chance of being upgraded.<br>All banks recharge after 4 full days pass.<br>They are not designed to be taken with your whole army but with parts of your army in multiple places at once.",
+	"author" : "Warzyw647, ported by Wnukos, Chinese translation by Ziyue",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "https://creativecommons.org/licenses/by-sa/4.0/",
+	"contact" : "warzyw647 on heroes-themed Discords",
+	"modType" : "Compatibility",
+	"objects" :
+	[
+		"config/banks/daevasBank.json"
+	],
+	"creatures" :
+	[
+		"config/creatures/wtDaeva.json"
+	],
+	"version" : "1.0",
+	"depends" :
+	[
+		"refugee-town",
+		"refugee-town.daeva"
+	],
+	"changelog" :
+	{
+		"1.0" : [ "made banks smaller" ]
+	},
+	"compatibility" : { "min" : "1.6.3" },
+	"keepDisabled" : false,
+	"chinese" :
+	{
+		"name" : "Brawl模板边荒城镇小物件",
+		"description" : "专为Brawl模板定制的改良版边荒城镇物件，适用于小型地图。<br>神灯：<br>30%几率召唤3神怪和2火精灵守卫，奖励2神怪、1个4级魔法，扣除7金币。<br>30%几率召唤3队2神怪和2队1火精灵守卫，奖励1火精灵、1个5级魔法，扣除77金币。<br>30%几率召唤3队1神怪和2队2火精灵守卫，奖励1火精灵、2神怪、1个5级魔法，扣除777金币。<br>10%几率召唤3队2神怪和3队2火精灵守卫，奖励1迪弗、1个5级魔法，扣除7777金币。<br>神灯无论召唤出何种守卫，每次成功击杀都会给予宝石、水银和水晶各7颗。<br>迪弗被大幅削弱：生命值和每回合回复的生命值降低至十分之一，物理和魔法攻击伤害降低至五分之一，攻防速减半，生物等级降至7级生物，战斗值、AI值和招募的金币成本降低至十分之一，招募的资源成本则降至1。<br>所有可升级的生物，无论是守卫还是奖励生物，都可能出现升级后的生物。<br>所有宝屋每4天刷新一次。<br>这些物件不是设计来让你用全部兵力去攻打的，而是让你分散成多支小股部队同时攻打多处地点。"
+	}
+}

@@ -1,0 +1,141 @@
+{
+    "tides-of-war.alternative-creatures:mdtDrakeGolem":
+	{
+		"cost" : {
+			"gold" : 2500
+		},
+		
+		"abilities#override" : {
+			"nonliving" :
+			{
+				"type" : "NON_LIVING"
+			},
+
+			"magicResistance" : {
+				"subtype" : "spellSchool.any",
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"val" : 25
+			}
+		}
+		
+	},
+
+    "tides-of-war.alternative-creatures:mdtDragonGolem":
+	{
+		"abilities#override" : {
+			"nonliving" :
+			{
+				"type" : "NON_LIVING"
+			},
+
+			"magicResistance" : {
+				"subtype" : "spellSchool.any",
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"val" : 50
+			},
+			
+			"firstStrike" :
+			{
+				"type" : "FIRST_STRIKE"
+			}
+		},
+
+		"cost" : {
+			"gold" : 5000,
+			"ore" : 2
+		},
+
+		"speed" : 12
+		
+	},	
+	
+    "tides-of-war.alternative-creatures:mdtQuetzalcouatl":
+	{
+				
+		"aiValue" : 2050,
+		"speed" : 12	
+	},
+	
+    "tides-of-war.alternative-creatures:mdtTemplar":
+	{
+		
+		"growth" : 1,	
+		"abilities#override" :
+		{
+			"castsDestroyUndead" :
+			{
+				"type" : "OPENING_BATTLE_SPELL",
+				"subtype" : "spell.destroyUndead",
+				"val" : 3,
+				"propagator" : "BATTLE_WIDE"
+			},
+			
+			"destroyPower" : 
+			{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.destroyUndead",
+				"val" : 50
+			},
+
+			"raisesMorale" : {
+				"propagator" : "HERO",
+				"stacking" : "Angels",
+				"type" : "MORALE",
+				"val" : 1
+			}
+			
+		}
+	},
+	
+    "tides-of-war.alternative-creatures:mdtPaladin":
+	{
+		"growth" : 1,
+		"abilities#override" :
+		{
+			"castsDestroyUndead" :
+			{
+				"type" : "OPENING_BATTLE_SPELL",
+				"subtype" : "spell.destroyUndead",
+				"val" : 3,
+				"propagator" : "BATTLE_WIDE"
+			},
+			
+			"destroyPower" : 
+			{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.destroyUndead",
+				"val" : 50
+			},
+			
+			"castsPrayer" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.prayer",
+				"val" : 2
+			},
+			"casts" :
+			{
+				"type" : "CASTS",
+				"val" : 2
+			},
+			"castLength" :
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 5
+			},
+
+			"raisesMorale" : {
+				"propagator" : "HERO",
+				"stacking" : "Angels",
+				"type" : "MORALE",
+				"val" : 1
+				}
+			
+		}
+	},
+	
+    "tides-of-war.neutral-creatures:mdtGhost":
+	{
+		"special" : true
+	}
+}

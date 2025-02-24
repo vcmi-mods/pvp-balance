@@ -1,0 +1,145 @@
+{
+	"massHypnosis":{
+		"type" : "combat",
+		"name" : "Mass Hypnosis",
+		"targetType" : "CREATURE",
+		"school" : {
+			"air" : true
+		},
+		"level" : 5,
+		"power" : 25,
+		"defaultGainChance" : 0,
+		"gainChance" : {},
+		"animation" : {
+			"affect" : [
+				"C10SPA0"
+				]
+			},
+		"flags" : {
+			"negative" : true,
+			"special" : false
+			},
+		"targetCondition" : {
+			"allOf" : {
+				"healthValueSpecial" : "absolute"
+			},
+			"noneOf" : {
+				"bonus.MECHANICAL" : "normal",
+				"bonus.MIND_IMMUNITY" : "normal",
+				"bonus.NON_LIVING" : "normal",
+				"bonus.SIEGE_WEAPON" : "absolute",
+				"bonus.UNDEAD" : "normal"
+			}
+		},
+
+		"graphics":
+				{
+					"iconBook" : "spells/massHypnosisBook.png",
+					"iconScroll" : "spells/massHypnosisScroll.png",
+					"iconScenarioBonus" : "spells/massHypnosisScenarioBonus.bmp",
+					"iconEffect" : "spells/massHypnosisEffect.bmp",
+					"iconImmune":"spellimmunity/imm_hypnosisCopy.bmp"
+				},
+		
+		"sounds" : {
+			"cast" : "HYPNOTIZ"
+			},
+
+
+   		"counters" : {
+	    	"spell.berserk" : true
+   			},
+
+   		"levels" : {
+			"base" : {
+		
+				"effects" : {
+					"hypnotized" : {
+						"duration" : "N_TURNS",
+						"type" : "HYPNOTIZED"
+						}
+					},
+
+				"range" : "X",
+				"targetModifier" : {
+					"smart" : true
+					}
+				},
+
+			"none" : {
+				"aiValue" : 25,
+				"cost" : 35,
+				"description" : "{Mass Hypnosis}\n\nHypnotises all enemy stacks.",
+				"effects" : {
+					"hypnotized" : {
+						"duration" : "N_TURNS",
+						"type" : "HYPNOTIZED",
+						"val" : 1
+						}
+					},
+				"power" : 10,
+				"range" : "X",
+				"targetModifier" : {
+					"smart" : true
+					}
+				},
+
+			"basic" : {
+				"aiValue" : 25,
+				"cost" : 30,
+				"description" : "{Mass Hypnosis}\n\nHypnotises all enemy stacks for 1 turn.",
+				"effects" : {
+					"hypnotized" : {
+						"duration" : "N_TURNS",
+						"type" : "HYPNOTIZED",
+						"val" : 1
+						}
+					},
+				"power" : 10,
+				"range" : "X",
+				"targetModifier" : {
+					"smart" : true
+					}
+			},
+
+	   		"advanced" : {
+		   		"aiValue" : 50,
+		   		"cost" : 25,
+		   		"description" : "{Mass Hypnosis}\n\nHypnotises all enemy stacks for 2 turns.",
+		   		"effects" : {
+			   		"hypnotized" : {
+				   		"duration" : "N_TURNS",
+				   		"type" : "HYPNOTIZED",
+				   		"val" : 1
+			  			}
+		   			},
+		   		"power" : 20,
+		   		"range" : "X",
+		   		"targetModifier" : {
+			   		"smart" : true
+		   		}
+	   		},
+
+
+	   		"expert" : {
+		   		"aiValue" : 100,
+		   		"cost" : 20,
+		   		"description" : "{Mass Hypnosis}\n\nHypnotises all enemy stacks for 3 turns.",
+		   		"effects" : {
+			   		"hypnotized" : {
+				   		"duration" : "N_TURNS",
+				   		"type" : "HYPNOTIZED",
+				   		"val" : 1
+			   			}
+		   			},
+		   		"power" : 50,
+		   		"range" : "X",
+		   		"targetModifier" : {
+			   		"smart" : true
+		   			}
+	   			}
+
+   			}
+
+	}
+}

@@ -1,0 +1,25 @@
+{
+    "name" : "Golden Utopia",
+
+    "description" : "Golden Utopia is guarded by t8 dragons and gives 5 relic class artifacts as reward.<br><br>Graphics made by Andruids.",
+
+    "author" : "wnukos, Andruids",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Objects",
+
+	"objects" :
+	[
+		"config/goldenUtopia.json"
+	],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.3",
+	
+    "keepDisabled" : true
+}

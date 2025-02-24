@@ -1,0 +1,16 @@
+{
+    "core:ufretin": {"special":true},
+	"core:piquedram": {"special":true},
+	"core:solmyr": {"special":true},
+	"core:ayden": {"special":true},
+	"core:straker": {"special":true},
+	"core:aislinn": {"special":true},
+	"core:deemer": {"special":true},
+	"core:gird": {"special":true},
+	"hota.interference:giselle": {"special":true},
+	"hota.cove:leena": {"special":true},
+	"hota.cove:corkes": {"special":true},
+	"core:kilgor": {"special":false},
+	"core:mutare": {"special":false},
+	"core:xeron": {"special":false}
+}

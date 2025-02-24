@@ -1,0 +1,34 @@
+{
+    "name" : "ToW compatibility mod for VD - Skills",
+
+    "description" : "Compatibility mod adjusting ToW content to Vietnamese Diplomacy specifics.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+
+    "compatibility" :
+	{
+		"min" : "1.6"
+	},
+
+    "skills": [
+        "config/skills/skills.json"
+        ],   
+
+    "depends" : 
+	[
+        "tides-of-war",
+        "tides-of-war.skills"     
+    ],
+
+    "softDepends" : 
+	[
+        "pvp-balance.skills.tidesOfWarSkills"     
+    ],
+	
+    "version" : "1.3",
+    "keepDisabled" : false
+}

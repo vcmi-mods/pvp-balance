@@ -1,0 +1,82 @@
+{
+    "name" : "Jebus One Hero",
+
+    "description" : "A jebus-type template designed for one-hero games, similar to Jebus Outcast by MKC.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Templates",
+	
+    "templates" : ["jebusOneHero.json" ],
+
+    "artifacts": [
+        "config/artifacts.json"
+    ],
+
+    "spells" :[
+        "config/spells.json"
+    ],
+
+    "heroes" :[
+        "config/heroes.json"
+    ],
+
+    "skills": [
+        "config/skills.json"
+      ],
+
+    "depends" : [
+        "hota.cove",
+        "hota.interference",
+        "hota.highlandsTerrain",
+	    "hota.mapObjects",
+		"hota.mapDecorations",
+		"hota.neutralCreatures",
+        "pvp-balance.objects"
+    ],
+
+    "softDepends":[
+        "pvp-balance.heroes.basicHeroBalance",
+        "pvp-balance.heroes.extendedHeroBalance",
+        "pvp-balance.artifacts",
+        "pvp-balance.artifacts.basicArtifactBalance",
+        "pvp-balance.artifacts.extendedArtifactBalance",
+        "pvp-balance.skills",
+        "pvp-balance.spells",
+        "pvp-balance.spells.basicSpellBalance",
+        "pvp-balance.spells.extendedSpellBalance"
+    ],
+
+    "conflicts" : [
+      "pvp-balance.pvpTemplates.6lm10a",
+      "pvp-balance.pvpTemplates.brawl",
+      "pvp-balance.pvpTemplates.arena",
+      "pvp-balance.pvpTemplates.jebusCrossPlus",
+      "pvp-balance.pvpTemplates.nostalgia",
+      "pvp-balance.pvpTemplates.oneMinuteMadness",
+      "pvp-balance.pvpTemplates.papichM200",
+      "pvp-balance.pvpTemplates.vietnameseDiplomacy",
+      "pvp-balance.spells.townPortalRework",
+      "pvp-balance.spells.controlSpells",
+      "fused-artifacts",
+      "pvp-balance.objects.newGenericObjects" 
+    ],
+
+    "settings" : {
+            
+        "heroes" :{
+            "perPlayerTotalCap"  : 1   	
+        }
+    },
+
+    "compatibility" :
+	{
+		"min" : "1.6.0"
+	},
+	
+    "version" : "1.0.0",
+    
+    "keepDisabled" : true
+}

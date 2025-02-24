@@ -1,0 +1,126 @@
+{
+	"name" : "Nowa Arena - full version, including global gameplay modifications",
+	"description" : "Map Nowa Arena and a bunch of modifications for it.<br>Control Spells banned<br>Strong Relics come with a curse:<br>Heavenly Helm -3 Morale and Luck, SoJ and Lion's Shield -2, Celestial Necklace and Sandals -1<br>Magic Tomes summon Elementals for the opponent once when combat starts<br>Titan Artifacts give opponent Chain Lightning strikes after each hit, 1 damage per creature<br>Machberet's Hat gives the level 3 spells to the opponent<br>Good and Bad Morale and Luck chances increased to 1/10, 1/9, 1/8 etc. up to 100% at +-10<br>Max high attack multiplier increased to 20 (at +380 attack), max damage reduction upped to 100% (at +40 defence)<br>Spell Damage doubled, mana halved<br>Max 100 buildings per turn in each town<br>Black Markets restock every other day<br>Starting Resources changed to fit the map<br>Creature Growth x5 (you get that on day 1 of week 2) and a day 2 event in towns gives you extra 5 level 7, 10 level 6, 20 level 5 etc. to recruit",
+	"author" : "Warzyw647",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "https://creativecommons.org/licenses/by-sa/4.0/",
+	"contact" : "warzyw647 on heroes-themed Discords",
+	"modType" : "Other",
+	"version" : "1.0",
+	"compatibility" : { "min" : "1.6.3" },
+	"keepDisabled" : true,
+	"changelog" :
+	{
+		"1.0" : [ "Moved from mod warzyw-templates", "Separated full version from bare version of Arena", "Moved Sandals and Necklace from Angelic Alliance to Major class", "Enhanced structure and added partial translations" ]
+	},
+	"chinese" :
+	{
+		"name" : "诺瓦竞技场(地图)",
+		"description" : "诺瓦竞技场地图及其一系列修改。<br>全局屏蔽绝大部分探险魔法（只有透视之眼和伪装大法可用），任何方式都无法释放，拥有四系魔法书或是相应的魔法卷轴也没用，学会了也放不出来，即便该魔法特长英雄也一样如此，<br>屏蔽魔法列表：异次元之门、飞行奇术、时空之门、凌波微步、摧毁船只、召唤船只、透视大气、透视大地。<br>被恶毒诅咒沾染的至强圣物：<br>神谕之冠（士气运气-3），先知剑和狮王盾（士气运气-2），天使项链和圣靴（士气运气-1）；<br>四系魔法书在战斗开始时为对手召唤一组对应的元素生物；<br>泰坦之箭组件现在赋予你的对手在每次攻击后施加连锁闪电攻击，每只生物造成1点伤害；<br>魔法师之帽现在同样赋予对手所有可用的5级魔法。<br>幸运和厄运、士气高涨与士气低落的触发几率增加至1/10、1/9、1/8等，直至在±10时达到100%。<br>攻击最大伤害提升至基础伤害的20倍（当进攻生物的攻击力-被攻击生物的防御力≥380时），<br>最大伤害减免提升至100%（当被攻击生物的防御力-进攻生物的攻击力≥40时，最低为1点伤害）。<br>所有攻击性魔法伤害翻倍，但所有英雄的最大魔法值减半（现在只有知识的5倍，原本是10倍）。<br>每个城镇每回合最多建造100座建筑。<br>野外黑市每两天补货一次。<br>玩家起始资源根据地图进行了调整。<br>生物增长速度提升至5倍（在第二周的第一天生效），<br>并且在城镇中的第二天事件会额外提供5只7级、10只6级、20只5级等生物以供招募。",
+		"translations" : [ "config/translations/nowa-arena/chinese.json" ]
+	},
+	"polish" :
+	{
+		"name" : "Nowa Arena - pełna wersja, zawierająca globalne zmiany w mechanice gry",
+		"description" : "Mapa Nowa Arena oraz paczka zmian do niej.<br>Czary Kontrolne zablokowane<br>Silne Relikty mają wbudowaną klątwę:<br>Czajnik -3 Morale i Szczęścia, SoJ i Lwia Tarcza -2, Boski Naszyjnik i Klapki -1<br>Księgi Magii przywołują Żywiołaki dla przeciwnika raz na początku bitwy<br>Artefakty Tytana dodają przeciwnikowi cios Łańcuchem Piorunów po każdym uderzeniu, 1 punkt obrażeń od każdej jednostki<br>Kapelusz Machbereta daje przeciwnikowi Czary 3. poziomu<br>Szanse na Dobre i Złe Morale i Szczęście zwiększone do 1/10, 1/9, 1/8 itd. aż do 100% na +-10<br>Maksymalny mnożnik z wysokiego Ataku zwiększony do 20 (na +380 Ataku), maksymalna redukcja obrażeń zwiększona do 100% (na +40 obrony)<br>Obrażenia od Czarów podwojone, za to Punktów Magii jest 2 razy mniej<br>Można budować maksymalnie 100 budynków na turę w każdym mieście<br>Czarne Rynki odświeżają asortyment co drugi dzień<br>Zasoby startowe zmienione by pasowały do mapy<br>Przyrost stworzeń x5 (dostajesz je w 1. dniu 2. tygodnia) a zdarzenie w 2. dniu w miastach daje do wykupienia dodatkowe 5 stworzeń 7. poziomu, 10 stworzeń 6. poziomu, 20 stworzeń 5. poziomu itd.",
+		"translations" : [ "config/translations/nowa-arena/polish.json" ]
+	},
+	"settings" : {
+		
+		"towns" : {
+			"buildingsPerTurnCap" : 100,
+			"spellResearch": true,
+			"spellResearchCost":
+			[
+				{ "gold": 1000, "wood" : 0, "mercury": 2, "ore": 0, "sulfur": 2, "crystal": 2, "gems": 2 },
+				{ "gold": 1000, "wood" : 0, "mercury": 4, "ore": 0, "sulfur": 4, "crystal": 4, "gems": 4 },
+				{ "gold": 1000, "wood" : 0, "mercury": 6, "ore": 0, "sulfur": 6, "crystal": 6, "gems": 6 },
+				{ "gold": 1000, "wood" : 0, "mercury": 8, "ore": 0, "sulfur": 8, "crystal": 8, "gems": 8 },
+				{ "gold": 1000, "wood" : 0, "mercury": 10, "ore": 0, "sulfur": 10, "crystal": 10, "gems": 10 }
+			],
+			"spellResearchPerDay": [ 2, 2, 2, 2, 2 ]
+		},
+		"markets" :
+		{
+			"blackMarketRestockPeriod" : 2
+		},
+		"combat" : {
+			"goodMoraleDice" : [ 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 ],
+			"badMoraleDice" : [ 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 ],
+			"goodLuckDice" : [ 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 ],
+			"badLuckDice" : [ 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 ],
+			"attackPointDamageFactorCap": 20.0,
+			"defensePointDamageFactorCap": 1.00
+		},
+		"bonuses" :
+		{
+			"global" :
+			{
+				"spellDamage" :
+				{
+					"type" : "SPELL_DAMAGE",
+					"subtype" : "spellSchool.any",
+					"val" : 200,
+					"valueType" : "BASE_NUMBER"
+				}
+			},
+			"perHero" : {
+				"manaPerKnowledge" :
+				{
+					"type" : "MANA_PER_KNOWLEDGE_PERCENTAGE",
+					"val" : 500,
+					"valueType" : "BASE_NUMBER"
+				}
+			}
+		}
+	},
+	"softDepends":
+	[
+		"pvp-balance.spells",
+        "pvp-balance.spells.basicSpellBalance",
+        "pvp-balance.spells.extendedSpellBalance",
+		"pvp-balance.artifacts",
+        "pvp-balance.artifacts.basicArtifactBalance",
+        "pvp-balance.artifacts.extendedArtifactBalance"
+	],
+	"spells" :
+	[
+		"config/spells/townPortal.json",
+		"config/spells/viewEarth.json",
+		"config/spells/viewAir.json",
+		"config/spells/scuttleBoat.json",
+		"config/spells/summonBoat.json",
+		"config/spells/waterWalk.json",
+		"config/spells/fly.json",
+		"config/spells/dimensionDoor.json"
+	],
+	"artifacts" :
+	[
+		"config/artifacts/titansGladius.json", // enemies hit with power 1 chain lightning after attack
+		"config/artifacts/sentinelsShield.json", // enemies hit with power 1 chain lightning after attack
+		"config/artifacts/titansCuirass.json", // enemies hit with power 1 chain lightning after attack
+		"config/artifacts/thunderHelmet.json", // enemies hit with power 1 chain lightning after attack
+		"config/artifacts/helmOfHeavenlyEnlightenment.json", // minus 3 luck and morale to the wearer
+		"config/artifacts/swordOfJudgement.json", // minus 2 luck and morale to the wearer
+		"config/artifacts/lionsShieldOfCourage.json", // minus 2 luck and morale to the wearer
+		"config/artifacts/celestialNecklaceOfBliss.json", // minus 1 luck and morale to the wearer
+		"config/artifacts/sandalsOfTheSaint.json", // minus 1 luck and morale to the wearer
+		"config/artifacts/tomeOfAirMagic.json", // summon Air for opp on turn 1
+		"config/artifacts/tomeOfEarthMagic.json", // summon Earth for opp on turn 1
+		"config/artifacts/tomeOfFireMagic.json", // summon Fire for opp on turn 1
+		"config/artifacts/tomeOfWaterMagic.json", // summon Water for opp on turn 1
+		"config/artifacts/spellbindersHat.json" // also gives level 5 spells to the opponent
+	],
+	"conflicts" :
+	[
+		"pvp-balance.pvpTemplates.oneMinuteMadness",
+		"pvp-balance.pvpTemplates.vietnameseDiplomacy",
+		"pvp-balance.pvpTemplates.jebusOneHero",
+		"pvp-balance.pvpTemplates.6lm10a",
+		"pvp-balance.pvpTemplates.jebusCrossPlus",
+		"pvp-balance.pvpTemplates.nostalgia",
+		"pvp-balance.pvpTemplates.papichM200",
+		"pvp-balance.pvpTemplates.brawl",
+		"pvp-balance.spells.controlSpells"
+	]
+}

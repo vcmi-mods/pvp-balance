@@ -1,0 +1,16 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"mdtOutpostOfSouls" :
+			{		
+				"rmg" : {
+					"value" : 999999,
+					"rarity" : 1,
+					"zoneLimit" : 0
+				}
+			}
+		}
+	}
+}

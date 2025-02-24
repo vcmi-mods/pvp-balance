@@ -1,0 +1,31 @@
+{
+    "name" : "Modified negative morale",
+
+    "description" : "Chances for losing a movement due to negative morale are changed from 8/17/25 % to 1/8/17 % at -1/-2/-3 morale, respectively.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+
+    "modType" : "Mechanics",
+
+    "settings":
+	{
+        "combat":
+		{
+			"badMoraleDice" : [ 100, 12, 6]
+        }
+    },
+	
+    "compatibility" :
+	{
+	 "min" : "1.6"
+	},
+	
+    "version" : "1.3",
+	
+    "keepDisabled" : true
+}

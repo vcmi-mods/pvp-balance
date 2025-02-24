@@ -1,0 +1,23 @@
+{
+	"map.nowa_arena.guards.28.5.0.message" : "Doświadczenie i Czary Ochronne",
+	"map.nowa_arena.guards.29.5.0.message" : "Doświadczenie i Czary Ochronne",
+	"map.nowa_arena.guards.8.6.0.message" : "Doświadczenie i Czary Ochronne",
+	"map.nowa_arena.guards.9.6.0.message" : "Doświadczenie i Czary Ochronne",
+	"map.nowa_arena.header.description" : "Dzień 1 - zbuduj wszystkie siedliska które chcesz.\nPozbieraj tyle Doświadczenia, Czarów i Artefaktów ile chcesz.\nTydzień 2 - zbierz Armię i idź przez Portal na południu bić się z przeciwnikiem na Pustyni.\nOtwórz Strażnika Granicznego na Pustyni przy swoim teleporcie najpóźniej w 1-2-3.\nNie wskakuj Lotem/Wrotami Wymiarów do zamkniętych miejsc!",
+	"map.nowa_arena.town.35.5.0.event.0.description" : "Reszta Twojej Armii przyjdzie w pierwszym dniu drugiego tygodnia.",
+	"map.nowa_arena.town.5.5.0.event.0.description" : "Reszta Twojej Armii przyjdzie w pierwszym dniu drugiego tygodnia.",
+	"artifact.core.tomeOfWaterMagic.description" : "Daje wszystkie Zaklęcia Magii Wody. Tak ogromna potęga ma swoją cenę. Przywołuje przeciwnikowi Żywiołaki Wody na początku bitwy.",
+	"artifact.core.tomeOfFireMagic.description" : "Daje wszystkie Zaklęcia Magii Ognia. Tak ogromna potęga ma swoją cenę. Przywołuje przeciwnikowi Żywiołaki Ognia na początku bitwy.",
+	"artifact.core.tomeOfEarthMagic.description" : "Daje wszystkie Zaklęcia Magii Ziemi. Tak ogromna potęga ma swoją cenę. Przywołuje przeciwnikowi Żywiołaki Ziemi na początku bitwy.",
+	"artifact.core.tomeOfAirMagic.description" : "Daje wszystkie Zaklęcia Magii Powietrza. Tak ogromna potęga ma swoją cenę. Przywołuje przeciwnikowi Żywiołaki Powietrza na początku bitwy.",
+	"artifact.core.titansGladius.description" : "+12 Ataku, -3 Obrony. Tak ogromna potęga ma swoją cenę. Przeciwnik razi prądem przy każdym ciosie.",
+	"artifact.core.sentinelsShield.description" : "+12 Obrony, -3 Ataku. Tak ogromna potęga ma swoją cenę. Przeciwnik razi prądem przy każdym ciosie.",
+	"artifact.core.titansCuirass.description" : "+10 Mocy, -2 Wiedzy. Tak ogromna potęga ma swoją cenę. Przeciwnik razi prądem przy każdym ciosie.",
+	"artifact.core.thunderHelmet.description" : "+10 Wiedzy, -2 Mocy. Tak ogromna potęga ma swoją cenę. Przeciwnik razi prądem przy każdym ciosie.",
+	"artifact.core.spellbindersHat.description" : "Daje wszystkie Zaklęcia Piątego Poziomu. Tak ogromna potęga ma swoją cenę. Przeciwnik dostaje wszystkie Czary Trzeciego Poziomu.",
+	"artifact.core.helmOfHeavenlyEnlightenment.description" : "+6 do wszystkich Umiejętności Podstawowych. Tak ogromna potęga ma swoją cenę. -3 Szczęścia i Morale dla noszącego ten Artefakt.",
+	"artifact.core.swordOfJudgement.description" : "+5 do wszystkich Umiejętności Podstawowych. Tak ogromna potęga ma swoją cenę. -2 Szczęścia i Morale dla noszącego ten Artefakt.",
+	"artifact.core.lionsShieldOfCourage.description" : "+4 do wszystkich Umiejętności Podstawowych. Tak ogromna potęga ma swoją cenę. -2 Szczęścia i Morale dla noszącego ten Artefakt.",
+	"artifact.core.celestialNecklaceOfBliss.description" : "+3 do wszystkich Umiejętności Podstawowych. Tak ogromna potęga ma swoją cenę. -1 Szczęścia i Morale dla noszącego ten Artefakt.",
+	"artifact.core.sandalsOfTheSaint.description" : "+2 do wszystkich Umiejętności Podstawowych. Tak ogromna potęga ma swoją cenę. -1 Szczęścia i Morale dla noszącego ten Artefakt."
+}

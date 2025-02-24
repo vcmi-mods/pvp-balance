@@ -1,0 +1,95 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"medusaStore" : {
+				"resetParameters" : {
+					"period" : 4,
+					"visitors" : true,
+					"rewards" : true
+				},
+				"rmg" : {
+					"zoneLimit"	: 2,
+					"value"		: 1500,
+					"rarity"	: 100
+				},
+				"onGuardedMessage" : 32,
+				"onVisitedMessage" : 33,
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"guardsLayout" : "creatureBankNarrow",
+				"rewards": [
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 0, "max" : 30 },
+						"guards": [
+							{ "amount": 1, "type": "medusa", "upgradeChance": 50 },
+							{ "amount": 1, "type": "medusa", "upgradeChance": 50 },
+							{ "amount": 2, "type": "medusa", "upgradeChance": 50 },
+							{ "amount": 2, "type": "medusa", "upgradeChance": 50 },
+							{ "amount": 3, "type": "medusa", "upgradeChance": 50 }
+						],
+						"resources":
+						{
+							"sulfur" : 3,
+							"gold" : 1000
+						},
+						"creatures": [ { "amount": 2, "type": "beholder", "upgradeChance": 50 } ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 30, "max" : 60 },
+						"guards": [
+							{ "amount": 1, "type": "medusa", "upgradeChance": 50 },
+							{ "amount": 2, "type": "medusa", "upgradeChance": 50 },
+							{ "amount": 2, "type": "medusa", "upgradeChance": 50 },
+							{ "amount": 3, "type": "medusa", "upgradeChance": 50 },
+							{ "amount": 3, "type": "medusa", "upgradeChance": 50 }
+						],
+						"resources":
+						{
+							"sulfur" : 3,
+							"gold" : 1200
+						},
+						"creatures": [ { "amount": 3, "type": "beholder", "upgradeChance": 50 } ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 60, "max" : 90 },
+						"guards": [
+							{ "amount": 2, "type": "medusa", "upgradeChance": 50 },
+							{ "amount": 2, "type": "medusa", "upgradeChance": 50 },
+							{ "amount": 3, "type": "medusa", "upgradeChance": 50 },
+							{ "amount": 3, "type": "medusa", "upgradeChance": 50 },
+							{ "amount": 3, "type": "medusa", "upgradeChance": 50 }
+						],
+						"resources":
+						{
+							"sulfur" : 4,
+							"gold" : 1400
+						},
+						"creatures": [ { "amount": 2, "type": "medusa", "upgradeChance": 50 } ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 90, "max" : 100 },
+						"guards": [
+							{ "amount": 2, "type": "medusa", "upgradeChance": 50 },
+							{ "amount": 2, "type": "medusa", "upgradeChance": 50 },
+							{ "amount": 3, "type": "medusa", "upgradeChance": 50 },
+							{ "amount": 3, "type": "medusa", "upgradeChance": 50 },
+							{ "amount": 4, "type": "medusa", "upgradeChance": 50 }
+						],
+						"resources":
+						{
+							"sulfur" : 4,
+							"gold" : 1600
+						},
+						"creatures": [ { "amount": 3, "type": "medusa", "upgradeChance": 50 } ]
+					}
+				]
+			}
+		}
+	}
+}

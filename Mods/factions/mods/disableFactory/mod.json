@@ -1,0 +1,25 @@
+{
+    "name" : "Disable Factory",
+
+    "description" : "The mod disables Factory submod of HotA. The reason for this is incomplete implementation of creature abilities which might be misleading to some players. If you manually enable Factory submod in HotA, this mod will be automatically disabled.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Other",
+   
+    "conflicts" : 
+	[
+		"hota.factory"
+	],
+	
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.3",
+	
+    "keepDisabled" : false
+}

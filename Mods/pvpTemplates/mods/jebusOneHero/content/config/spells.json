@@ -1,0 +1,123 @@
+{
+	"core:townPortal" : {
+		"flags" : {
+			"special" : true
+		}
+	},
+
+	"core:fly" : {
+		"flags" : {
+			"special" : true
+		}
+	},
+
+	"core:dimensionDoor" : {
+		"flags" : {
+			"special" : true
+		}
+	},
+	
+	"core:summonBoat" : {
+
+		"flags" : {
+			"special" : true
+		}
+
+	},
+	"core:scuttleBoat" : {
+		
+		"flags" : {
+			"special" : true
+		}
+	},
+	"core:waterWalk" : {
+		
+		"flags" : {
+			"special" : true
+		}
+	},
+
+	"core:implosion" : {
+		"flags" : {
+			"special" : true
+		}
+	},
+
+	"core:inferno" : {
+		"flags" : {
+			"special" : true
+		}
+	},
+
+	"core:armageddon" : {
+		"flags" : {
+			"special" : true
+		}
+	},
+
+	"core:protectWater" : {
+		"flags" : {
+			"special" : true
+		}
+	},
+
+	"core:antiMagic" : {
+		"flags" : {
+			"special" : true
+		}
+	},
+
+	"core:cure" : {
+		"flags" : {
+			"special" : true
+		}
+	},
+
+	"core:resurrection" : {
+		"flags" : {
+			"special" : true
+		}
+	},
+
+	"core:haste" : {
+		"flags" : {
+			"special" : true
+		}
+	},
+
+	"core:slow" : {
+		"flags" : {
+			"special" : true
+		}
+	},
+
+	"core:forgetfulness" : {
+		"flags" : {
+			"special" : true
+		}
+	},
+
+	"core:blind" : {
+		"flags" : {
+			"special" : true
+		}
+	},
+
+	"core:earthElemental" : {
+		"flags" : {
+			"special" : true
+		}
+	},
+
+	"core:waterElemental" : {
+		"flags" : {
+			"special" : true
+		}
+	}
+}
+
+	
+	
+	
+	
+	

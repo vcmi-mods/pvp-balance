@@ -1,0 +1,45 @@
+{
+	"core:titansGladius":
+	{
+		"text" :
+		{
+			"description" : "+12 Attack, -3 Defence. Such tramendous power comes with a price. Your opponent will electrocute you after each strike."
+		},
+		"bonuses" :
+		[
+			{
+				"subtype" : "primarySkill.attack",
+				"type" : "PRIMARY_SKILL",
+				"val" : 12,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"subtype" : "primarySkill.defence",
+				"type" : "PRIMARY_SKILL",
+				"val" : -3,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.chainLightning",
+				"val" : 1,
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters": [ 
+					"OPPOSITE_SIDE"
+				]
+			},
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.chainLightning",
+				"val" : 100,
+				"addInfo" : [3, 0],
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters": [ 
+					"OPPOSITE_SIDE"
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"name" : "brawlABBadEndingObjects",
+	"description" : "Modified Antagarich Burning objects used by template Brawl, should be better suited for short games on small maps.<br>Grand Conflux: defended by 1-2 Conflagration Elementals, 1-2 Fulmination Elementals, 1-2 Glaciation Elementals and 1-2 Pollutors, in total 4-5 Elementals in 4 stacks, reward: 3-5 of each Rare Resource, Major Artifact and usually a Treasure Artifact.<br>All creatures that have upgrades, both guards and rewards have a chance of being upgraded.<br>All banks recharge after 4 full days pass.<br>They are not designed to be taken with your whole army but with parts of your army in multiple places at once.",
+	"author" : "Warzyw647, ported by Wnukos, Chinese translation by Ziyue",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "https://creativecommons.org/licenses/by-sa/4.0/",
+	"contact" : "warzyw647 on heroes-themed Discords",
+	"modType" : "Compatibility",
+	
+	"objects" :
+	[
+		"config/banks/grandConflux.json"
+	],
+	"version" : "1.0",
+	"depends" :
+	[
+		"ab-bad-ending-assets"
+	],
+	"changelog" :
+	{
+		"1.0" : [ "made banks smaller" ]
+	},
+	"compatibility" : { "min" : "1.6.3" },
+	"keepDisabled" : false,
+	"chinese" :
+	{
+		"name" : "Brawl模板恩格塔瑞燃烧小物件",
+		"description" : "专为Brawl模板定制的改良版恩格塔瑞燃烧模组物件，适用于小型地图。<br>大汇流点宝屋：由1-2只炽火元素、1-2只雷暴元素、1-2只冰核元素和1-2只腐殖元素守护，总共4-5只元素分为4组。击败它们后，玩家将获得每种稀有资源3-5个，必出一件高级宝物，80%概率再得到一件低级宝物。<br>所有可升级的生物，无论是守卫还是奖励生物，都有50%机会被升级。<br>所有宝屋每4天刷新一次。<br>这些物件不是设计来让你用全部兵力去攻打的，而是让你分散成多支小股部队同时攻打多处地点。"
+	}
+}

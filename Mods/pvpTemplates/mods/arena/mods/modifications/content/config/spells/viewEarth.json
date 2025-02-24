@@ -1,0 +1,9 @@
+{
+	"core:viewEarth" :
+	{
+		"flags" :
+		{
+			"special" : true
+		}
+	}
+}

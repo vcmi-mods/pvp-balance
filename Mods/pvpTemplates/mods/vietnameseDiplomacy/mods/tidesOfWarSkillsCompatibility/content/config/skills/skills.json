@@ -1,0 +1,11 @@
+{
+ "tides-of-war.skills:intimidation": {
+		"special" : true
+	},
+
+	"tides-of-war.skills:hexes": {
+		"special" : true
+	}
+
+  
+}

@@ -1,0 +1,32 @@
+{
+    "name" : "Golden Utopia",
+
+    "description" : "Golden Utopia is guarded by t8 dragons and gives 5 relic class artifacts as reward.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+
+	"objects" :
+	[
+		"config/goldenUtopia.json"
+	],
+
+	"depends" :
+	[
+		"pvp-balance.objects",
+		"pvp-balance.objects.newGoldBanks.goldenUtopia",
+		"pvp-balance.pvpTemplates.brawl.brawlBanks.brawlPvpBalanceObjects"
+	],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.3",
+	
+    "keepDisabled" : false
+}

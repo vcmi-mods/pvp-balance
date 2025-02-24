@@ -1,0 +1,445 @@
+{
+
+	"tides-of-war.objects:fortressnHomes" : {
+		"biome": {
+			"terrain" : "rock",
+			"faction" : ["castle"],
+			"objectType" : "structure"
+		}
+	},
+
+	"tides-of-war.objects:dungeonHomes" : {
+		"biome": {
+			"terrain" : "rock",
+			"faction" : ["castle"],
+			"objectType" : "structure"
+		}
+	},
+
+	"tides-of-war.objects:sandMountains" : {
+		"biome": {
+			"terrain" : "rock",
+			"faction" : ["castle"],
+			"objectType" : "structure"
+		}
+	},
+
+	"tides-of-war.objects:swampMountains" : {
+		"biome": {
+			"terrain" : "rock",
+			"faction" : ["castle"],
+			"objectType" : "structure"
+		}
+	},
+
+
+	"wastelandMountains1" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6"]
+		
+	},
+	"wastelandMountains2" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6"]
+		
+	},
+	"wastelandMountains3" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6"]
+		
+	},
+	"wastelandMountains4" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6"]
+		
+	},
+	"wastelandMountains5" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6"]
+		
+	},
+	"wastelandMountains6" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6"]
+		
+	},
+	"wastelandMountains7" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6"]
+		
+	},
+	"wastelandMountains8" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6"]
+		
+	},
+	"wastelandMountains9" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6"]
+		
+	},
+	"wastelandMountains10" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6"]
+		
+	},
+	"wastelandMountains11" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6"]
+		
+	},
+	"wastelandMountains12" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6"]
+		
+	},
+	"wastelandMountains13" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6"]
+		
+	},
+	"wastelandMountains14" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6"]
+		
+	},
+	"wastelandMountains15" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6"]
+		
+	},
+	"wastelandMountains16" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6"]
+		
+	},
+	"wastelandMountains17" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6"]
+		
+	},
+	"wastelandMountains18" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6"]
+		
+	},
+	"wastelandMountains19" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6"]
+		
+	},
+	"wastelandMountains20" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6"]
+		
+	},
+	"wastelandMountains21" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6"]
+		
+	},
+	"wastelandMountains22" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6"]
+		
+	},
+	"wastelandMountains23" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6"]
+		
+	},
+	"wastelandMountains24" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6"]
+		
+	},
+	"wastelandMountains25" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6"]
+		
+	},
+	"wastelandMountains26" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6"]
+		
+	},
+	"wastelandMountains27" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6"]
+		
+	},
+	"wastelandMountains28" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6"]
+		
+	},
+	"wastelandMountains29" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6"]
+		
+	},
+	"wastelandMountains30" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6"]
+		
+	},
+	"wastelandMountains31" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6"]
+		
+	},
+	"wastelandMountains32" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6"]
+		
+	},
+	"wastelandMountains33" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6"]
+		
+	},
+	"wastelandMountains34" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6"]
+		
+	},
+	"wastelandMountains35" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6"]
+		
+	},
+	"wastelandMountains36" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6"]
+		
+	},
+	"wastelandMountains37" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6"]
+		
+	},
+	"wastelandMountains38" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6"]
+		
+	},
+	"wastelandMountains39" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6"]
+		
+	},
+	"wastelandMountains40" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6"]
+		
+	},
+	"wastelandMountains41" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6"]
+		
+	},
+	"wastelandMountains42" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6"]
+		
+	},
+	"wastelandMountains43" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6"]
+		
+	},
+	"wastelandMountains44" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6"]
+		
+	},
+	"wastelandMountains45" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6"]
+		
+	},
+	"wastelandMountains46" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6"]
+		
+	},
+	"wastelandMountains47" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6"]
+		
+	},
+	"wastelandMountains48" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6"]
+		
+	},
+	"wastelandMountains49" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6"]
+		
+	},
+	"wastelandMountains50" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6"]
+		
+	}
+
+
+
+
+
+
+
+
+
+}

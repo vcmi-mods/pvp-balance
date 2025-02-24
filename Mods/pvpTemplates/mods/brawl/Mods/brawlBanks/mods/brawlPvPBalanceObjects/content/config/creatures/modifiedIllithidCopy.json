@@ -1,0 +1,43 @@
+{
+	"pvp-balance.objects:mdtIllithidCopy" : {
+		
+		"abilities#override" :
+		{
+			
+
+			"massHypnosisCast" :
+			{
+				"type" : "ENCHANTER",
+				"subtype" : "spell.massHypnosis",
+				"val" : 3,
+				"addInfo" : 100
+			},
+
+			"massHypnosisSpellPower" :
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 1
+			},
+			
+			"castsCount" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},
+
+			"hypnoPower" :
+            {
+                "type" : "SPECIFIC_SPELL_POWER",
+                "subtype" : "spell.massHypnosis",
+                "val" : 100
+            }
+
+
+			
+
+			
+			
+			
+		}
+	}
+}

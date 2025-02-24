@@ -1,0 +1,115 @@
+{
+
+
+	"core:waterMagic": {
+		"basic" : {
+			"effects" : {
+				"waterLabelBasic" : {
+					"type" : "HERO_GRANTS_ATTACKS",
+					"subtype" : "creature.suppWater1"
+				}
+			}
+		},
+		"advanced" : {
+			"effects" : {
+				"waterLabelAdvanced" : {
+					"type" : "HERO_GRANTS_ATTACKS",
+					"subtype" : "creature.suppWater2"
+				}
+			}
+		},
+		"expert" : {
+			"effects" : {
+				"waterLabelExpert" : {
+					"type" : "HERO_GRANTS_ATTACKS",
+					"subtype" : "creature.suppWater3"
+				}
+			}
+		}
+	},
+
+	"core:fireMagic": {
+		"basic" : {
+			"effects" : {
+				"fireLabelBasic" : {
+					"type" : "HERO_GRANTS_ATTACKS",
+					"subtype" : "creature.suppFire1"
+				}
+			}
+		},
+		"advanced" : {
+			"effects" : {
+				"fireLabelAdvanced" : {
+					"type" : "HERO_GRANTS_ATTACKS",
+					"subtype" : "creature.suppFire2"
+				}
+			}
+		},
+		"expert" : {
+			"effects" : {
+				"fireLabelExpert" : {
+					"type" : "HERO_GRANTS_ATTACKS",
+					"subtype" : "creature.suppFire3"
+				}
+			}
+		}
+	},
+
+	"core:earthMagic": {
+		"basic" : {
+			"effects" : {
+				"earthLabelBasic" : {
+					"type" : "HERO_GRANTS_ATTACKS",
+					"subtype" : "creature.suppEarth1"
+				}
+			}
+		},
+		"advanced" : {
+			"effects" : {
+				"earthLabelAdvanced" : {
+					"type" : "HERO_GRANTS_ATTACKS",
+					"subtype" : "creature.suppEarth2"
+				}
+			}
+		},
+		"expert" : {
+			"effects" : {
+				"earthLabelExpert" : {
+					"type" : "HERO_GRANTS_ATTACKS",
+					"subtype" : "creature.suppEarth3"
+				}
+			}
+		}
+	},
+
+	"core:airMagic": {
+		"basic" : {
+			"effects" : {
+				"airLabelBasic" : {
+					"type" : "HERO_GRANTS_ATTACKS",
+					"subtype" : "creature.suppAir1"
+				}
+			}
+		},
+		"advanced" : {
+			"effects" : {
+				"airLabelAdvanced" : {
+					"type" : "HERO_GRANTS_ATTACKS",
+					"subtype" : "creature.suppAir2"
+				}
+			}
+		},
+		"expert" : {
+			"effects" : {
+				"airLabelExpert" : {
+					"type" : "HERO_GRANTS_ATTACKS",
+					"subtype" : "creature.suppAir3"
+				}
+			}
+		}
+	}
+
+
+
+
+}

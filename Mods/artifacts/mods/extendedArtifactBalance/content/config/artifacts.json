@@ -1,0 +1,175 @@
+{
+
+	"core:bootsOfSpeed": {
+	  "class": "MAJOR"
+	  },
+
+    "core:endlessSackOfGold": {
+	  "class": "MAJOR"
+	  },
+	  
+    "core:everpouringVialOfMercury": {
+	  "class": "MINOR"
+	  },
+
+    "core:ringOfInfiniteGems": {
+	  "class": "MINOR"
+	  },
+
+    "core:everflowingCrystalCloak": {
+	  "class": "MINOR"
+	  },
+
+    "core:eversmokingRingOfSulfur": {
+	  "class": "MINOR"
+	  },
+
+	  "core:pendantOfSecondSight": {
+	  "class": "MINOR"
+	  },
+
+	  "core:inexhaustibleCartOfOre":
+	  {
+		"bonuses" : [
+		   {
+			   "stacking" : "ALWAYS",
+			   "subtype" : "resource.ore",
+			   "type" : "GENERATE_RESOURCE",
+			   "val" : 2,
+			   "valueType" : "BASE_NUMBER"
+		   }
+	   ],
+	   "text" : {
+	   		"description" : "{Inexhaustible Cart of Ore}\n\nWhen equipped, this cart provides kingdom with an additional +2 ore per day.",
+	   		"event" : "You've found a Goblin weapon smithy making weapons for use against humans. With a tremendous yell you and your army descend upon their camp and drive them away. A search finds a magic cart that never runs out of ore.",
+	   		"name" : "Inexhaustible Cart of Ore"
+   		}
+	  },
+
+	  "core:inexhaustibleCartOfLumber":
+	  {
+		"bonuses" : [
+		   {
+			   "stacking" : "ALWAYS",
+			   "subtype" : "resource.wood",
+			   "type" : "GENERATE_RESOURCE",
+			   "val" : 2,
+			   "valueType" : "BASE_NUMBER"
+		   }
+	   ],
+	   "text" : {
+	   		"description" : "{Inexhaustible Cart of Lumber}\n\nWhen equipped, this cart provides kingdom with an additional +2 wood per day.",
+	   		"event" : "Pausing to rest and light a cook fire, you pull wood out of a nearby lumber cart. As you keep pulling wood from the cart, you notice that its cargo doesn't shrink. You realize to your delight that the cart is enchanted, so you take it along.",
+	   		"name" : "Inexhaustible Cart of Lumber"
+   		}
+	  },
+
+    "core:legsOfLegion": {
+	  "bonuses" : [
+		{
+			"propagator" : "VISITED_TOWN_AND_VISITOR",
+			"subtype" : "creatureLevel2",
+			"type" : "CREATURE_GROWTH",
+			"val" : 8
+		}
+	],
+	"text" : {
+			"description" : "{Legs of Legion}\n\nIncreases your Town's Level 2 creature production by +8. ",
+			"event" : "Searching a ruin, you are amazed to find a piece of the Statue of Legion. You carefully dust it off before placing it in your pack.",
+			"name" : "Legs of Legion"
+		}
+	  },
+
+	  "core:loinsOfLegion": {
+		"bonuses" : [
+		  {
+			  "propagator" : "VISITED_TOWN_AND_VISITOR",
+			  "subtype" : "creatureLevel3",
+			  "type" : "CREATURE_GROWTH",
+			  "val" : 6
+		  }
+	  ],
+	  "text" : {
+			  "description" : "{Loins of Legion}\n\nIncreases your Town's Level 3 creature production by +6. ",
+			  "event" : "Searching a ruin, you are amazed to find a piece of the Statue of Legion. You carefully dust it off before placing it in your pack.",
+			  "name" : "Loins of Legion"
+		  }
+		},
+
+		"core:torsoOfLegion": {
+		"bonuses" : [
+		  {
+			  "propagator" : "VISITED_TOWN_AND_VISITOR",
+			  "subtype" : "creatureLevel4",
+			  "type" : "CREATURE_GROWTH",
+			  "val" : 4
+		  }
+	  ],
+	  "text" : {
+			  "description" : "{Torso of Legion}\n\nIncreases your Town's Level 4 creature production by +4. ",
+			  "event" : "Searching a ruin, you are amazed to find a piece of the Statue of Legion. You carefully dust it off before placing it in your pack.",
+			  "name" : "Torso of Legion"
+		  }
+		},
+
+		
+	
+	  "core:headOfLegion": {
+	  "bonuses" : [
+		{
+			"propagator" : "VISITED_TOWN_AND_VISITOR",
+			"subtype" : "creatureLevel6",
+			"type" : "CREATURE_GROWTH",
+			"val" : 2
+		},
+		{
+			"propagator" : "VISITED_TOWN_AND_VISITOR",
+			"subtype" : "creatureLevel7",
+			"type" : "CREATURE_GROWTH",
+			"val" : 1
+		}
+	],
+	"text" : {
+			"description" : "{Head of Legion}\n\nIncreases your Town's Level 6 creature production by +2 and Level 7 production by +1. ",
+			"event" : "Searching a ruin, you are amazed to find a piece of the Statue of Legion. You carefully dust it off before placing it in your pack.",
+			"name" : "Head of Legion"
+		}
+	  },
+
+    "core:armsOfLegion": {
+	  "bonuses" : [
+		{
+			"propagator" : "VISITED_TOWN_AND_VISITOR",
+			"subtype" : "creatureLevel5",
+			"type" : "CREATURE_GROWTH",
+			"val" : 4
+		}
+		],
+		"text" : {
+				"description" : "{Arms of Legion}\n\nIncreases your Town's Level 5 creature production by +4. ",
+				"event" : "Searching a ruin, you are amazed to find a piece of the Statue of Legion. You carefully dust it off before placing it in your pack.",
+				"name" : "Arms of Legion"
+			}
+	  },
+
+	  "core:statueOfLegion": {
+		"bonuses" : [
+			{
+			   "propagator" : "PLAYER_PROPAGATOR",
+			   "type" : "CREATURE_GROWTH_PERCENT",
+			   "val" : 100
+		   }
+		  ],
+		  "text" : {
+				  "description" : "{Statue of Legion}\n\nIncreases your base creature growth in all towns by +100%. ",
+				  "event" : "You trip over the Statue of Legion, dust it off, and stick it in your pack.",
+				  "name" : "Statue of Legion"
+			  }
+		}
+
+
+	  
+  
+  }
+  
+  

@@ -1,0 +1,45 @@
+{
+	"core:lionsShieldOfCourage":
+	{
+		"text" :
+		{
+			"description" : "+4 to all Primary Skills. Such tramendous power comes with a price. -2 Morale and Luck to the bearer."
+		},
+		"bonuses" : [
+			{
+				"subtype" : "primarySkill.attack",
+				"type" : "PRIMARY_SKILL",
+				"val" : 4,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"subtype" : "primarySkill.defence",
+				"type" : "PRIMARY_SKILL",
+				"val" : 4,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"subtype" : "primarySkill.spellpower",
+				"type" : "PRIMARY_SKILL",
+				"val" : 4,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"subtype" : "primarySkill.knowledge",
+				"type" : "PRIMARY_SKILL",
+				"val" : 4,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "MORALE",
+				"val" : -2,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "LUCK",
+				"val" : -2,
+				"valueType" : "BASE_NUMBER"
+			}
+		]
+	}
+}

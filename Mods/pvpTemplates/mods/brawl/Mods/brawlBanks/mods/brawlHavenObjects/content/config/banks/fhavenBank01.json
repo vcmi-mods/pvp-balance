@@ -1,0 +1,138 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"fhavenBank01" :
+			{
+				"resetParameters" : {
+					"period" : 4,
+					"visitors" : true,
+					"rewards" : true
+				},
+				"rmg" :
+				{
+					"zoneLimit"	: 3,
+					"value"		: 1000,
+					"rarity"	: 200 // not 100 like other banks, because it's limited to 1 terrain, desert
+				},
+				"onGuardedMessage" : 32,
+				"onVisitedMessage" : 33,
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"guardsLayout" : "creatureBankNarrow",
+				"rewards": 
+				[
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 0, "max" : 15 },
+						"guards":
+						[
+							{ "amount": 3, "type": "havC05", "upgradeChance": 50 },
+							{ "amount": 3, "type": "havC05", "upgradeChance": 50 },
+							{ "amount": 3, "type": "havC05", "upgradeChance": 75 },
+							{ "amount": 3, "type": "havC05", "upgradeChance": 50 },
+							{ "amount": 3, "type": "havC05", "upgradeChance": 50 }
+						],
+						"resources":
+						{
+							"wood" : 9,
+							"gold" : 1500
+						},
+						"artifacts": [ { "class" : "TREASURE" }, { "class" : "TREASURE" } ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 15, "max" : 30 },
+						"guards":
+						[
+							{ "amount": 3, "type": "havC05", "upgradeChance": 50 },
+							{ "amount": 3, "type": "havC05", "upgradeChance": 50 },
+							{ "amount": 3, "type": "havC05", "upgradeChance": 75 },
+							{ "amount": 3, "type": "havC05", "upgradeChance": 50 },
+							{ "amount": 3, "type": "havC05", "upgradeChance": 50 }
+						],
+						"resources":
+						{
+							"wood" : -9,
+							"gold" : -1500
+						},
+						"artifacts": [ { "class" : "TREASURE" }, { "class" : "TREASURE" }, { "class" : "TREASURE" }, { "class" : "TREASURE" } ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 30, "max" : 50 },
+						"guards":
+						[
+							{ "amount": 4, "type": "havC05", "upgradeChance": 50 },
+							{ "amount": 4, "type": "havC05", "upgradeChance": 50 },
+							{ "amount": 4, "type": "havC05", "upgradeChance": 75 },
+							{ "amount": 4, "type": "havC05", "upgradeChance": 50 },
+							{ "amount": 4, "type": "havC05", "upgradeChance": 50 }
+						],
+						"resources":
+						{
+							"wood" : 12,
+							"gold" : 2000
+						},
+						"artifacts": [ { "class" : "TREASURE" }, { "class" : "MINOR" } ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 50, "max" : 70 },
+						"guards":
+						[
+							{ "amount": 4, "type": "havC05", "upgradeChance": 50 },
+							{ "amount": 4, "type": "havC05", "upgradeChance": 50 },
+							{ "amount": 4, "type": "havC05", "upgradeChance": 75 },
+							{ "amount": 4, "type": "havC05", "upgradeChance": 50 },
+							{ "amount": 4, "type": "havC05", "upgradeChance": 50 }
+						],
+						"resources":
+						{
+							"wood" : -12,
+							"gold" : -2000
+						},
+						"artifacts": [ { "class" : "TREASURE" }, { "class" : "MINOR" }, { "class" : "TREASURE" }, { "class" : "MINOR" } ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 70, "max" : 85 },
+						"guards":
+						[
+							{ "amount": 5, "type": "havC05", "upgradeChance": 50 },
+							{ "amount": 5, "type": "havC05", "upgradeChance": 50 },
+							{ "amount": 5, "type": "havC05", "upgradeChance": 75 },
+							{ "amount": 5, "type": "havC05", "upgradeChance": 50 },
+							{ "amount": 5, "type": "havC05", "upgradeChance": 50 }
+						],
+						"resources":
+						{
+							"wood" : 15,
+							"gold" : 2500
+						},
+						"artifacts": [ { "class" : "MINOR" }, { "class" : "MINOR" } ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 85, "max" : 100 },
+						"guards":
+						[
+							{ "amount": 5, "type": "havC05", "upgradeChance": 50 },
+							{ "amount": 5, "type": "havC05", "upgradeChance": 50 },
+							{ "amount": 5, "type": "havC05", "upgradeChance": 75 },
+							{ "amount": 5, "type": "havC05", "upgradeChance": 50 },
+							{ "amount": 5, "type": "havC05", "upgradeChance": 50 }
+						],
+						"resources":
+						{
+							"wood" : -15,
+							"gold" : -2500
+						},
+						"artifacts": [ { "class" : "MINOR" }, { "class" : "MINOR" }, { "class" : "MINOR" }, { "class" : "MINOR" } ]
+					}
+				]
+			}
+		}
+	}
+}

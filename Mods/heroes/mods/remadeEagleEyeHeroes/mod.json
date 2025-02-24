@@ -1,0 +1,25 @@
+{
+    "name" : "Buffed heroes with eagle eye",
+
+    "description" : "Heroes originally starting with Eagle Eye skill and/or specialty get new set of starting skills and new specialties.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Heroes",
+    
+
+   "heroes": [
+   "config/heroes.json"
+   ],
+   
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.3",
+	
+    "keepDisabled" : true
+}

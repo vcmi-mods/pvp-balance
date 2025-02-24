@@ -1,0 +1,43 @@
+{
+	"tides-of-war.spells:mdtAuraOfPower" : {
+		"flags" : {
+			"special" : true
+		}
+		
+		
+	},
+
+	"tides-of-war.spells:summonGhost" : {
+		"defaultGainChance" : 0,
+		"gainChance" : {
+			"necropolis" : 0,
+			"dungeon" : 0,
+			"inferno" : 0
+		}
+	},
+
+	"tides-of-war.spells:mdtIntervention" : {
+		"defaultGainChance" : 0, 
+		"gainChance" : {
+			"inferno" : 0,
+			"dungeon" : 0,
+			"conflux" : 0,
+			"necropolis" :  0
+		}
+		
+		
+	},
+
+	"tides-of-war.spells:mdtVampirism" : {
+		"defaultGainChance" : 0,
+		"gainChance" : {
+			"necropolis" : 0
+		}
+	}
+}
+
+	
+	
+	
+	
+	

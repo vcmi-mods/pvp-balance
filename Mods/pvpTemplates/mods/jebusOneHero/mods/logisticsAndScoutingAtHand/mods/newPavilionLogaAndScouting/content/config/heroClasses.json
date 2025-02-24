@@ -1,0 +1,24 @@
+{
+  "new-pavilion:embalmer": {
+    "secondarySkills": {
+      "scouting" : 20,
+      "logistics" : 20
+      
+    }
+  },
+
+  "new-pavilion:vizier": {
+    "secondarySkills": {
+      "scouting" : 20,
+      "logistics" : 20
+      
+    }
+  }
+  
+
+
+
+
+
+  
+}

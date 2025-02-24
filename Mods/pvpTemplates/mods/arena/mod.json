@@ -1,0 +1,36 @@
+{
+	"name" : "Nowa Arena",
+	"description" : "Map Nowa Arena.<br>A bare version with no global game mechanics changes. You can keep it enabled when playing other maps.<br>The full version with all the modifications is in the submod. The submod with the full version should be disabled when playing other maps.<br>Build creature dwellings for a week, buy at start of week 2.<br>A day 8 (day 1 of week 2) event gives you extra 10 level 7 creatures, 20 level 6, 40 level 5 etc. to recruit in the dwellings that you built.<br>Blue attacks Red in the desert on week 2, day 5.",
+	"author" : "Warzyw647",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "https://creativecommons.org/licenses/by-sa/4.0/",
+	"contact" : "warzyw647 on heroes-themed Discords",
+	"modType" : "Other",
+	"version" : "1.0",
+	"compatibility" : { "min" : "1.6.3" },
+	"keepDisabled" : false,
+	"changelog" :
+	{
+		"1.0" : [ "Moved from mod warzyw-templates", "Added bare version of Arena", "Enhanced structure and added partial translations" ]
+	},
+	"chinese" :
+	{
+		"name" : "诺瓦竞技场(地图)",
+		"description" : "TODO",
+		"translations" : [ "config/translations/nowa-arena/chinese.json" ]
+	},
+	"polish" :
+	{
+		"name" : "Nowa Arena",
+		"description" : "Mapa Nowa Arena.<br>Wersja okrojona, bez globalnych zmian w mechanice gry. Można mieć ją włączoną podczas grania innych map.<br>Pełna wersja ze wszystkimi modyfikacjami jest w submodzie. Submod z pełną wersją powinien być wyłączony podczas grania innych map.<br>Buduj siedliska przez tydzień, wykup armię na początku drugiego tygodnia.<br>Zdarzenie w dniu 8 (pierwszy dzień drugiego tygodnia) daje dodajkowe 10 jednostek 7. poziomu, 20 jednostek 6. poziomu, 40 jednostek 5. poziomu itd. do zrekrutowania w zbudowanych siedliskach.<br>Niebieski atakuje Czerwonego na pustyni w 5. dniu 2. tygodnia.",
+		"translations" : [ "config/translations/nowa-arena/polish.json" ]
+	},
+	"conflicts" :
+	[
+		"pvp-balance.pvpTemplates.vietnameseDiplomacy",
+		"pvp-balance.pvpTemplates.jebusOneHero",
+		"pvp-balance.pvpTemplates.oneMinuteMadness",
+		"pvp-balance.spells.controlSpells",
+		"pvp-balance.gameOptions"
+	]
+}

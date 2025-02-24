@@ -1,0 +1,43 @@
+{
+	"magicUniversity" : 
+	{
+		"handler" : "market",
+		"name" : "Magic University",
+		"base" : {
+			"sounds" : {
+				"visit" : ["GAZEBO"]
+			}
+		},
+		"types" : {
+			"magicUniversity" : {
+				"name" : "Magic University",
+				"aiValue" : 2500,
+				"rmg" : {
+					"value"		: 15000,
+					"rarity"	: 25,
+					"zoneLimit" : 1,
+					"mapLimit" : 4
+				},
+				"templates" : {
+					"base" : { 
+					"animation" : "magicUniversity", 
+					"visitableFrom" : [ "---", "+++", "+++"  ], 
+					"mask" : [ "VVVVV","VVVVV","VVVVV", "VVBBB","VVBBA" ],
+					"allowedTerrains" :[ "dirt", "grass", "snow", "sand", "highlands", "wasteland"]
+					}
+				},
+				"compatibilityIdentifiers" : [ "object" ],
+				"description" : "Learn magical skills for gold.",
+				"modes" : ["resource-skill"],
+				"speech" : "@core.genrltxt.603",
+				"offer" : [{"anyOf" : ["airMagic","earthMagic"]},
+						   {"anyOf" : ["waterMagic",  "fireMagic"]},
+						   {"anyOf" : ["sorcery",  "scholar"]}
+					 ]
+			}
+		}
+		
+		
+
+	}
+}

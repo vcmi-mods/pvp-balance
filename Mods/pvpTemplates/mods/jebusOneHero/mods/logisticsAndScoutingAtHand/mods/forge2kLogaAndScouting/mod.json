@@ -1,0 +1,28 @@
+{
+    "name" : "Forge 2k Logistics and Scouting",
+
+    "description" : "Increased chance for Logistics and Scouting for heroes from Heavenly Forge 2000.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+	
+    "heroClasses": [
+      "config/heroClasses.json"
+    ],
+
+  "depends" : [
+    "forge2k"
+  ],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.3",
+	
+    "keepDisabled" : false
+}

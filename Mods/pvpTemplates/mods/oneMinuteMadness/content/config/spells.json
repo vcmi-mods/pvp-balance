@@ -1,0 +1,167 @@
+{
+	"core:townPortal" : {
+		"flags" : {
+			"special" : true
+		}
+	},
+
+	"core:fly" : {
+		"flags" : {
+			"special" : true
+		}
+	},
+
+	"core:dimensionDoor" : {
+		"flags" : {
+			"special" : true
+		}
+	},
+	
+	"core:summonBoat" : {
+
+		"flags" : {
+			"special" : true
+		}
+
+	},
+	"core:scuttleBoat" : {
+		
+		"flags" : {
+			"special" : true
+		}
+	},
+	"core:waterWalk" : {
+		
+		"flags" : {
+			"special" : true
+		}
+	},  
+
+	"core:protectWater" : {
+		"flags" : {
+			"special" : true
+		}
+	},
+
+	"core:protectAir" : {
+		"flags" : {
+			"special" : true
+		}
+	},
+
+	"core:protectEarth" : {
+		"flags" : {
+			"special" : true
+		}
+	},
+
+	"core:protectFire" : {
+		"flags" : {
+			"special" : true
+		}
+	},
+
+	"core:viewAir" : {
+		"flags" : {
+			"special" : true
+		}
+	},
+
+	"core:viewEarth" : {
+		"flags" : {
+			"special" : true
+		}
+	},
+
+	"core:disguise" : {
+		"flags" : {
+			"special" : true
+		}
+	},
+
+	"core:removeObstacle" : {
+		"flags" : {
+			"special" : true
+		}
+	},
+
+	"core:hypnotize" : {
+		"flags" : {
+			"special" : true
+		}
+	},
+
+	
+	"core:landMine" : {
+		"flags" : {
+			"special" : true
+		}
+	},
+
+	"core:destroyUndead" : {
+		"flags" : {
+			"special" : true
+		}
+	},
+
+	"core:mirth" : {
+		"flags" : {
+			"special" : true
+		}
+	},
+
+	"core:misfortune" : {
+		"flags" : {
+			"special" : true
+		}
+	},
+
+	"core:chainLightning" : {
+		"flags" : {
+			"special" : true
+		}
+	},
+
+	"core:slayer" : {
+		"flags" : {
+			"special" : true
+		}
+	},
+
+	"core:fireShield" : {
+		"flags" : {
+			"special" : true
+		}
+	},
+
+	"core:counterstrike" : {
+		"flags" : {
+			"special" : true
+		}
+	},
+
+	"core:sorrow" : {
+		"flags" : {
+			"special" : true
+		}
+	},
+
+	"core:armageddon" : {
+		"flags" : {
+			"special" : true
+		}
+	},
+
+	"core:magicMirror" : {
+		"flags" : {
+			"special" : true
+		}
+	}
+
+}
+
+	
+	
+	
+	
+	

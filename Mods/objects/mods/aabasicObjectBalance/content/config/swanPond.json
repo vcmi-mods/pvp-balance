@@ -1,0 +1,25 @@
+{
+	"core:swanPond" :
+	{
+		"types" :
+		{
+			"swanPond" :
+			{		
+				"rewards" : [
+				   {
+					   "bonuses" : [
+						   {
+							   "description" : 67,
+							   "duration" : "ONE_BATTLE",
+							   "type" : "LUCK",
+							   "val" : 2
+						   }
+					   ],
+					   "message" : 29,
+					   "movePoints": -500
+				   }
+			   ]
+			}
+		}
+	}
+}

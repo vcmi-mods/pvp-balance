@@ -1,0 +1,15 @@
+{
+  "core:ballista": {
+    "damage": {
+      "min": 3,
+      "max": 4
+    },
+
+  "cost": {"gold": 1500}
+  },
+
+  "hota.cannon:cannon":{
+		"cost": {"gold": 3000}
+	}
+  
+}

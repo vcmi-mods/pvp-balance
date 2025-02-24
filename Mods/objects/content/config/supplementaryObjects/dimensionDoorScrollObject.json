@@ -1,0 +1,49 @@
+{
+	"dimensionDoorScrollObject" :{	
+		"name": "Spell Scroll",
+		"handler": "configurable",
+		"types" : {
+			"ddScroll" : 
+			{
+				"blockedVisitable" : true,
+				"removable": true,
+				"name": "Spell Scroll",
+				"rmg" : {
+					"value"		: 99999,
+					"rarity"	: 1000,
+					"zoneLimit" : 10
+				},
+				
+				"rewards" :
+				[
+					{
+						"appearChance": 
+						{
+							"min" : 0,
+							"max" : 100
+						},
+						"message" : "You find something.",
+						"artifacts" : [ "dimensionDoorScroll" ],
+						"removeObject": true
+					}
+					
+					
+					
+				],
+				"canRefuse": false,
+				"visitMode" : "once",
+				"compatibilityIdentifiers" : [ "object" ],
+				"templates" : 
+				{
+					"avtglam" : 
+					{
+						"animation" : "map/scroll", 
+						"visitableFrom" : [ "+++", "+++", "+++" ],
+						"mask" : ["A"],
+						"allowedTerrains": [ "wasteland", "sand", "grass" ]
+					}
+				}
+			}
+		}	
+	}
+}

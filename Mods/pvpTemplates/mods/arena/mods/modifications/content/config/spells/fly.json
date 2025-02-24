@@ -1,0 +1,9 @@
+{
+	"core:fly" :
+	{
+		"flags" :
+		{
+			"special" : true
+		}
+	}
+}

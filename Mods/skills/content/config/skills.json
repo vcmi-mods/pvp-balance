@@ -1,0 +1,322 @@
+{
+
+	"core:eagleEye": {
+		"special" : true
+	},
+
+	"core:resistance": {
+		"special" : true
+	},
+
+
+   "core:leadership": {
+   		"expert" : {
+	   		"description" : "{Expert Leadership}\n\nincreases your hero's troops' morale by 3. Creatures of non-evil alignment can be mixed with no morale penalty.",
+	   		"effects" : {
+		   				"main" : {
+			   					"type" : "MORALE",
+			   					"val" : 3,
+			   					"valueType" : "BASE_NUMBER"
+		   						},
+		   				"noMoralePenalty" : {
+		   								"type" : "NONEVIL_ALIGNMENT_MIX",
+		   								"val" : 0,
+		   								"valueType" : "BASE_NUMBER"
+	   									}
+	   }
+   }
+},
+
+	"core:sorcery": {
+		"basic" : {
+			"description": "{Basic Sorcery}\n\nCauses a hero's spells to inflict an additional 10% damage in combat.",
+			"effects" : {
+				"main" : { "val" : 10}
+			}
+		},
+		"advanced" : {
+			"description": "{Advanced Sorcery}\n\nCauses a hero's spells to inflict an additional 20% damage in combat.",
+			"effects" : {
+				"main" : { "val" : 20 }
+			}
+		},
+		"expert" : {
+			"description": "{Expert Sorcery}\n\nCauses a hero's spells to inflict an additional 30% damage in combat.",
+			"effects" : {
+				"main" : { "val" : 30 }
+			}
+		}
+	},
+
+	"core:mysticism": {
+		"basic" : {
+			"description": "{Basic Mysticism}\n\nAdvanced Mysticism allows your hero to regenerate 5 spell points per day.",
+			"effects" : {
+				"main" : { "val" : 4}
+			}
+		},
+		"advanced" : {
+			"description": "{Advanced Mysticism}\n\nAdvanced Mysticism allows your hero to regenerate 15 spell points per day.",
+			"effects" : {
+				"main" : { "val" : 14 }
+			}
+		},
+		"expert" : {
+			"description": "{Expert Mysticism}\n\nAdvanced Mysticism allows your hero to regenerate 30 spell points per day.",
+			"effects" : {
+				"main" : { "val" : 29 }
+			}
+		}
+	},
+	
+  "core:learning": {
+		"base": {
+			"effects": {
+				"main" : {
+					"type" : "HERO_EXPERIENCE_GAIN_PERCENT",
+					"valueType" : "PERCENT_TO_BASE"
+				},
+				
+				"knowledgeIncrease": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.knowledge"
+				}
+			}
+		},
+		
+		"basic" : {
+			"description": "{Basic Learning}\n\nIncreases hero's earned experience by 25% and increases knowledge by 1.",
+			"effects" : {
+				"main" : { "val" : 10},
+				"knowledgeIncrease": {"val": 1}
+			}
+		},
+		"advanced" : {
+			"description": "{Advanced Learning}\n\nIncreases hero's earned experience by 50% and increases knowledge by 2.",
+			"effects" : {
+				"main" : { "val" : 25 },
+				"knowledgeIncrease": {"val": 2}
+			}
+		},
+		"expert" : {
+			"description": "{Expert Learning}\n\nIncreases hero's earned experience by 70% and increases knowledge by 3.",
+			"effects" : {
+				"main" : { "val" : 50 },
+				"knowledgeIncrease": {"val": 3}
+			}
+		}
+	},
+
+	"core:ballistics": {
+		"base" : {
+			"effects" : {
+				"main" : {
+					"subtype" : "spell.catapultShot",
+					"type" : "CATAPULT_EXTRA_SHOTS",
+					"valueType" : "BASE_NUMBER"
+				},
+				"ctrl" : {
+					"subtype" : "creature.catapult",
+					"type" : "MANUAL_CONTROL",
+					"val" : 100,
+					"valueType" : "BASE_NUMBER"
+				},
+
+				"catapultHealthPointBonus" : 	{ 
+							"type": "STACK_HEALTH", 
+							"val": 250, 
+							"duration": "ONE_BATTLE",	
+							"limiters": [ 
+							{"type" : "CREATURE_TYPE_LIMITER", "parameters" : [ "catapult", true]	} ]
+						}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Ballistics}\n\n Gives the hero control of the Catapult. The Catapult can be aimed and has an increased chance to hit fortifications. Health points of the Catapult are increased by 250.",
+			"effects" : {
+				"main" : { "val" : 1 },
+				"catapultHealthPointBonus" : 	{ "val" : 250}
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Ballistics}\n\n Gives the hero control of the Catapult. The Catapult can be aimed, has an increased chance to hit fortifications, and shoots twice. Health points of the Catapult are increased by 500.",
+			"effects" : {
+				"main" : { "val" : 2 },
+				"catapultHealthPointBonus" : 	{ "val" : 500}
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Ballistics}\n\n Gives the hero control of the Catapult. The Catapult can be aimed, always hits the intended target, and shoots twice.  Health points of the Catapult are increased by 1000.",
+			"effects" : {
+				"main" : { "val" : 3 },
+				"catapultHealthPointBonus" : 	{ "val" : 1000}
+			}
+		}
+		
+		
+		
+	},
+
+	"core:firstAid" : {
+		"base": {
+			"effects": {
+
+				"ctrl" : {
+						"subtype" : "creature.firstAidTent",
+						"type" : "MANUAL_CONTROL",
+						"val" : 100,
+						"valueType" : "BASE_NUMBER"
+						},
+
+				"main" : {
+						"subtype" : "spell.firstAid",
+						"type" : "SPECIFIC_SPELL_POWER",
+						"valueType" : "BASE_NUMBER"
+						},
+
+				"tentHealthPointBonus" : 	{ 
+							"type": "STACK_HEALTH", 
+							"val": 25, 
+							"duration": "ONE_BATTLE",	
+							"limiters": [ 
+							{"type" : "CREATURE_TYPE_LIMITER", "parameters" : [ "firstAidTent", true]	} ]
+						}
+				}
+			},
+
+		"basic" : {
+		   "description" : "{Basic First Aid}\n\n Gives the hero control of the First Aid Tent. The First Aid Tent heals the first unit in a stack for 50 points of damage and removes negative effects. Health points of the First Aid Tent are increased by 25.",
+		   "effects" : {
+			   "ctrl" : {
+				   "subtype" : "creature.firstAidTent",
+				   "type" : "MANUAL_CONTROL",
+				   "val" : 100,
+				   "valueType" : "BASE_NUMBER"
+			   		},
+			   "main" : {
+				   "subtype" : "spell.firstAid",
+				   "type" : "SPECIFIC_SPELL_POWER",
+				   "val" : 50,
+				   "valueType" : "BASE_NUMBER"
+			  		},
+
+				"tentHealthPointBonus" : 	{ 
+					"val": 25
+					}
+		   		}
+	   		},
+
+			"advanced" : {
+			   "description" : "{Advanced First Aid}\n\n Gives the hero control of the First Aid Tent. The First Aid Tent heals the first unit in a stack for 75 points of damage and removes negative effects. Health points of the First Aid Tent are increased by 50.",
+			   "effects" : {
+				   "ctrl" : {
+					   "subtype" : "creature.firstAidTent",
+					   "type" : "MANUAL_CONTROL",
+					   "val" : 100,
+					   "valueType" : "BASE_NUMBER"
+				   		},
+				   "main" : {
+					   "subtype" : "spell.firstAid",
+					   "type" : "SPECIFIC_SPELL_POWER",
+					   "val" : 75,
+					   "valueType" : "BASE_NUMBER"
+				   		},
+					"tentHealthPointBonus" : 	{ 
+							"val": 50
+							}
+			   		}
+		   		},
+			
+			"expert" : {
+				"description" : "{Expert First Aid}\n\n Gives the hero control of the First Aid Tent. The First Aid Tent heals the first unit in a stack for 100 points of damage and removes negative effects. Health points of the First Aid Tent are increased by 75.",
+				"effects" : {
+					   "ctrl" : {
+						   "subtype" : "creature.firstAidTent",
+						   "type" : "MANUAL_CONTROL",
+						   "val" : 100,
+						   "valueType" : "BASE_NUMBER"
+					   		},
+					   "main" : {
+						   "subtype" : "spell.firstAid",
+						   "type" : "SPECIFIC_SPELL_POWER",
+						   "val" : 100,
+						   "valueType" : "BASE_NUMBER"
+					   		},
+						"tentHealthPointBonus" : 	{ 
+							"val": 75
+							}
+
+				   		}
+			   }
+		
+	},
+
+	"core:artillery" : {
+		"base": {
+			"effects": {
+
+				"ballistaHealthPointBonus" : 	{ 
+							"type": "STACK_HEALTH", 
+							"val": 50, 
+							"duration": "ONE_BATTLE",	
+							"limiters": [ 
+							{"type" : "CREATURE_TYPE_LIMITER", "parameters" : [ "ballista", true]	} ]
+						},
+
+				"cannonHealthPointBonus" : 	{ 
+							"type": "STACK_HEALTH", 
+							"val": 50, 
+							"duration": "ONE_BATTLE",	
+							"limiters": [ 
+							{"type" : "CREATURE_TYPE_LIMITER", "parameters" : [ "cannon", true]	} ]
+						}
+				}
+			},
+
+		"basic" : {
+		   "description" : "{Basic Artillery}\n\n Gives the hero control of the Ballista, Arrow Towers, and the Cannon. The Ballista has a 50% chance to inflict 200% base Damage. The Cannon has an increased chance to hit fortifications. Health points of the Ballista and Cannon are increased by 50.",
+			"effects" : {
+			   "ballistaHealthPointBonus" : 	{ 
+							"val": 50
+				},
+
+				"cannonHealthPointBonus" : 	{ 
+							"val": 50
+				}
+		   	}
+	   		},
+
+			"advanced" : {
+			   "description" : "{Advanced Artillery}\n\n Gives the hero control of the Ballista, Arrow Towers, and the Cannon. The Ballista shoots twice and has a 75% chance to inflict 200% base Damage. The Cannon has an increased chance to hit fortifications and inflicts 200% base Damage to creatures. Health points of the Ballista and Cannon are increased by 100.",
+			   "effects" : {
+				   "ballistaHealthPointBonus" : 	{ 
+							"val": 100
+					},
+
+					"cannonHealthPointBonus" : 	{ 
+							"val": 100
+					}
+			   	}
+		   		},
+			
+			"expert" : {
+				"description" : "{Expert Artillery}\n\n Gives the hero control of the Ballista, Arrow Towers, and the Cannon. The Ballista shoots twice and inflicts 200% base Damage. The Cannon precisely hits fortifications at maximum Damage and inflicts 300% base Damage to creatures. Health points of the Ballista and Cannon are increased by 150.",
+			   "effects" : {
+					"ballistaHealthPointBonus" : 	{ 
+						"val": 150
+					},
+
+					"cannonHealthPointBonus" : 	{ 
+						"val": 150
+					}
+				}
+			   }
+		
+	}
+
+
+
+
+
+	
+}

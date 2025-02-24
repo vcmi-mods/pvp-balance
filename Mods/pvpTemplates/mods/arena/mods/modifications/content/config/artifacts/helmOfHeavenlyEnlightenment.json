@@ -1,0 +1,45 @@
+{
+	"core:helmOfHeavenlyEnlightenment":
+	{
+		"text" :
+		{
+			"description" : "+6 to all Primary Skills. Such tramendous power comes with a price. -3 Morale and Luck to the bearer."
+		},
+		"bonuses" : [
+			{
+				"subtype" : "primarySkill.attack",
+				"type" : "PRIMARY_SKILL",
+				"val" : 6,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"subtype" : "primarySkill.defence",
+				"type" : "PRIMARY_SKILL",
+				"val" : 6,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"subtype" : "primarySkill.spellpower",
+				"type" : "PRIMARY_SKILL",
+				"val" : 6,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"subtype" : "primarySkill.knowledge",
+				"type" : "PRIMARY_SKILL",
+				"val" : 6,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "MORALE",
+				"val" : -3,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "LUCK",
+				"val" : -3,
+				"valueType" : "BASE_NUMBER"
+			}
+		]
+	}
+}

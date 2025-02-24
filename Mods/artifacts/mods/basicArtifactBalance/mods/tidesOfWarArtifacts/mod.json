@@ -1,0 +1,33 @@
+{
+    "name" : "Tides of War Artifacts",
+
+    "description" : "Banned artifacts from Tides of War mod.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+
+   
+   "artifacts": [
+   "config/bannedArtifacts.json"
+   ],
+
+   "depends" : 
+   [
+    "tides-of-war",
+    "tides-of-war.artifacts"
+   ],
+
+
+
+"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.3",
+    
+    "keepDisabled" : false
+}

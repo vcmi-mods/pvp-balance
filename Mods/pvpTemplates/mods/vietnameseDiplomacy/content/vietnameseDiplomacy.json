@@ -1,0 +1,1563 @@
+{
+	"Vietnamese Diplomacy" :
+	{
+		"description" : "A template with guaranteed hero development tree. Size G+U, difficulty 160%. You can find many relic artifacts lying on the ground. Combined artifacts are 'fused', i.e. they occupy only one slot when assembled and cannot be disassembled. ",
+		"minSize" : "xl+u", "maxSize" : "g+u",
+		"players" : "2-8",
+		"settings":
+		{
+			"spells": {
+            	"dimensionDoorTournamentRulesLimit" : false
+        	},
+
+			"creatures":
+			{
+				"allowJoiningForFree" : true,
+				"joiningPercentage" : 100
+			},
+
+			"heroes" :{
+				"perPlayerTotalCap"  : 1   	
+			}
+		},
+		"zones" :
+		{
+			"1" :
+			{
+				"type" : "playerStart",
+				"size" : 15,
+				"owner" : 1,
+				"monsters" : "normal",
+				"playerTowns" : { "castles" : 1 },
+				"mines" : { "wood" : 1, "ore" : 1 },
+				"treasure" :
+				[
+					{ "min" : 8000, "max" : 15000, "density" : 1 },
+					{ "min" : 3000, "max" : 6000, "density" : 10 },
+					{ "min" : 500, "max" : 3000, "density" : 10 }
+				],
+				"customObjects" :
+					{
+					"bannedCategories" : ["questArtifact", "seerHut"],
+					"bannedObjects" :["hota.mapobjects:object.ancientLamp.ancientLamp", "core:object.randomArtifactMinor", "core:object.randomArtifactTreasure", "core:object.university", "pvp-balance.objects:object.5kGoldPandora.5kGoldPandora", "core:object.creatureBank.dwarvenTreasury", "core:object.creatureBank.griffinConservatory", "core:object.crypt.crypt", "core:object.libraryOfEnlightenment", "core:object.arena", "hota.mapobjects:object.colosseumOfTheMagi.colosseumOfTheMagi", "core:object.mercenaryCamp", "core:object.marlettoTower", "core:object.schoolOfWar", "core:object.altarOfSacrifice", "core:object.witchHut", "hota.highlandsterrain:object.junkman.junkman", "core:object.hillFort", "hota.mapobjects:object.miniHillFort.miniHillFort", "core:object.freelancersGuild", "pvp-balance.objects:object.flyScrollObject.flyScroll", "pvp-balance.objects:object.dimensionDoorScrollObject.ddScroll", "pvp-balance.objects:object.townPortalScrollObject.tpScroll", "core:object.tavern", "core:object.prison.prison" ],
+					"commonObjects":
+					[
+					
+					{
+							"id" : "hota.mapobjects:object.ancientLamp.ancientLamp",
+							"rmg" : {
+									"value"     : 2000,
+									"rarity"    : 9999,
+									"zoneLimit" : 4
+									}
+					},
+					{
+						"id" : "core:object.randomArtifactMinor",
+						"rmg" : {
+								 
+								 "value"     : 2000,
+								 "rarity"    : 150
+								}
+					},
+					{
+						"id" : "core:object.randomArtifactTreasure",
+						"rmg" : {
+								 
+								 "value"     : 2000,
+								 "rarity"    : 400,
+								 "zoneLimit" : 6
+								}
+					},
+					{
+						"id" : "core:object.university",
+						"rmg" : {
+								 
+								 "value"     : 2500,
+								 "rarity"    : 9999,
+								 "zoneLimit" : 1
+								}
+					},
+					{
+						"id" : "pvp-balance.objects:object.5kGoldPandora.5kGoldPandora",
+						"rmg" : {
+								 "value"     : 5000,
+								 "rarity"    : 5000,
+								 "zoneLimit" : 3
+								}
+					},
+					{
+						"id" : "core:object.creatureBank.dwarvenTreasury",
+						"rmg" : {
+							 
+							 "value"     : 2000,
+							 "rarity"    : 9999,
+							 "zoneLimit" : 2
+							}
+					},
+					{
+						"id" : "core:object.creatureBank.griffinConservatory",
+						"rmg" : {
+							 
+							 "value"     : 2000,
+							 "rarity"    : 9999,
+							 "zoneLimit" : 2
+							}
+					},
+					{
+						"id" : "core:object.crypt.crypt",
+						"rmg" : {
+								 
+								 "value"     : 1000,
+								 "rarity"    : 5000,
+								 "zoneLimit" : 4
+								}
+					},
+					{
+						"id" : "core:object.libraryOfEnlightenment",
+						"rmg" : {
+								 
+								 "value"     : 12000,
+								 "rarity"    : 9000,
+								 "zoneLimit" : 1
+								}
+					},
+					{
+						"id" : "core:object.arena",
+						"rmg" : {
+								 "value"     : 3000,
+								 "rarity"    : 1000,
+								 "zoneLimit" : 1
+								}
+					},
+					{
+						"id" : "hota.mapobjects:object.colosseumOfTheMagi.colosseumOfTheMagi",
+						"rmg" : {
+								 "value"     : 3000,
+								 "rarity"    : 9999,
+								 "zoneLimit" : 3
+								}
+					},
+					{
+						"id" : "core:object.mercenaryCamp",
+						"rmg" : {
+								 "value"     : 1500,
+								 "rarity"    : 1000,
+								 "zoneLimit" : 3
+								}
+					},
+					{
+						"id" : "core:object.marlettoTower",
+						"rmg" : {
+								 "value"     : 1500,
+								 "rarity"    : 1000,
+								 "zoneLimit" : 3
+								}
+					},
+					{
+						"id" : "core:object.schoolOfWar",
+						"rmg" : {
+								 "value"     : 1000,
+								 "rarity"    : 1000,
+								 "zoneLimit" : 3
+								}
+					},
+					{
+						"id" : "core:object.altarOfSacrifice",
+						"rmg" : {
+								 "value"     : 100,
+								 "rarity"    : 9999,
+								 "zoneLimit" : 1
+								}
+					},
+					{
+						"id" : "core:object.witchHut",
+						"rmg" : {
+								 "value"     : 1500,
+								 "rarity"    : 1000,
+								 "zoneLimit" : 2
+								}
+					},
+					{
+						"id" : "hota.highlandsterrain:object.junkman.junkman",
+						"rmg" : {
+								 "value"     : 200,
+								 "rarity"    : 9999,
+								 "zoneLimit" : 1
+								}
+					},
+					{
+						"id" : "core:object.hillFort",
+						"rmg" : {
+								 
+								 "value"     : 1000,
+								 "rarity"    : 1000,
+								 "zoneLimit" : 1
+								}
+					},
+					{
+						"id" : "core:object.freelancersGuild",
+						"rmg" : {
+								 
+								 "value"     : 1000,
+								 "rarity"    : 1000,
+								 "zoneLimit" : 1
+								}
+					},
+					{
+						"id" : "pvp-balance.objects:object.flyScrollObject.flyScroll",
+						"rmg" : {
+								 
+								 "value"     : 20000,
+								 "rarity"    : 9999,
+								 "zoneLimit" : 1
+								}
+					},
+					{
+						"id" : "pvp-balance.objects:object.dimensionDoorScrollObject.ddScroll",
+						"rmg" : {
+								 
+								 "value"     : 20000,
+								 "rarity"    : 9999,
+								 "zoneLimit" : 1
+								}
+					},
+					{
+						"id" : "pvp-balance.objects:object.townPortalScrollObject.tpScroll",
+						"rmg" : {
+								 
+								 "value"     : 20000,
+								 "rarity"    : 9999,
+								 "zoneLimit" : 1
+								}
+					}
+
+
+					]
+					}
+			},
+			"2" :
+			{
+				"type" : "playerStart",
+				"size" : 15,
+				"owner" : 2,
+				"monsters" : "normal",
+				"playerTowns" : { "castles" : 1 },
+				"minesLikeZone" : 1,
+				"treasureLikeZone" : 1,
+				"customObjectsLikeZone" : 1
+			},
+			"3" :
+			{
+				"type" : "playerStart",
+				"size" : 20,
+				"owner" : 3,
+				"monsters" : "normal",
+				"playerTowns" : { "castles" : 1 },
+				"minesLikeZone" : 1,
+				"treasure" :
+				[
+					{ "min" : 6000, "max" : 12000, "density" : 1 },
+					{ "min" : 3000, "max" : 6000, "density" : 10 },
+					{ "min" : 500, "max" : 3000, "density" : 10 }
+				],
+
+				"customObjects" :
+					{
+					"bannedCategories" : ["questArtifact", "seerHut"],
+					"bannedObjects" :["hota.mapobjects:object.ancientLamp.ancientLamp", "core:object.randomArtifactMinor", "core:object.randomArtifactTreasure", "core:object.university",  "core:object.libraryOfEnlightenment", "core:object.arena", "hota.mapobjects:object.colosseumOfTheMagi.colosseumOfTheMagi", "core:object.mercenaryCamp", "core:object.marlettoTower", "core:object.schoolOfWar", "core:object.altarOfSacrifice", "core:object.witchHut", "hota.highlandsterrain:object.junkman.junkman", "core:object.hillFort", "hota.mapobjects:object.miniHillFort.miniHillFort", "core:object.freelancersGuild", "pvp-balance.objects:object.flyScrollObject.flyScroll", "pvp-balance.objects:object.dimensionDoorScrollObject.ddScroll", "pvp-balance.objects:object.townPortalScrollObject.tpScroll", "core:object.tavern", "core:object.prison.prison" ],
+					"commonObjects":
+					[
+
+
+
+
+
+				{
+					"id" : "hota.mapobjects:object.ancientLamp.ancientLamp",
+					"rmg" : {
+							"value"     : 2000,
+							"rarity"    : 9999,
+							"zoneLimit" : 5
+							}
+			},
+			{
+				"id" : "core:object.randomArtifactMinor",
+				"rmg" : {
+						 
+						 "value"     : 5000,
+						 "rarity"    : 1000
+						}
+			},
+			{
+				"id" : "core:object.randomArtifactTreasure",
+				"rmg" : {
+						 
+						 "value"     : 2000,
+						 "rarity"    : 1000,
+						 "zoneLimit" : 6
+						}
+			},
+			{
+				"id" : "core:object.university",
+				"rmg" : {
+						 
+						 "value"     : 2500,
+						 "rarity"    : 9999,
+						 "zoneLimit" : 1
+						}
+			},
+			{
+				"id" : "core:object.libraryOfEnlightenment",
+				"rmg" : {
+						 
+						 "value"     : 12000,
+						 "rarity"    : 9000,
+						 "zoneLimit" : 1
+						}
+			},
+			{
+				"id" : "core:object.arena",
+				"rmg" : {
+						 "value"     : 3000,
+						 "rarity"    : 1000,
+						 "zoneLimit" : 1
+						}
+			},
+			{
+				"id" : "hota.mapobjects:object.colosseumOfTheMagi.colosseumOfTheMagi",
+				"rmg" : {
+						 "value"     : 3000,
+						 "rarity"    : 9999,
+						 "zoneLimit" : 3
+						}
+			},
+			{
+				"id" : "core:object.mercenaryCamp",
+				"rmg" : {
+						 "value"     : 1500,
+						 "rarity"    : 1000,
+						 "zoneLimit" : 3
+						}
+			},
+			{
+				"id" : "core:object.marlettoTower",
+				"rmg" : {
+						 "value"     : 1500,
+						 "rarity"    : 1000,
+						 "zoneLimit" : 3
+						}
+			},
+			{
+				"id" : "core:object.schoolOfWar",
+				"rmg" : {
+						 "value"     : 1000,
+						 "rarity"    : 1000,
+						 "zoneLimit" : 3
+						}
+			},
+			{
+				"id" : "core:object.altarOfSacrifice",
+				"rmg" : {
+						 "value"     : 100,
+						 "rarity"    : 9999,
+						 "zoneLimit" : 1
+						}
+			},
+			{
+				"id" : "core:object.witchHut",
+				"rmg" : {
+						 "value"     : 1500,
+						 "rarity"    : 1000,
+						 "zoneLimit" : 2
+						}
+			},
+			{
+				"id" : "hota.highlandsterrain:object.junkman.junkman",
+				"rmg" : {
+						 "value"     : 200,
+						 "rarity"    : 9999,
+						 "zoneLimit" : 1
+						}
+			},
+			{
+				"id" : "core:object.hillFort",
+				"rmg" : {
+						 
+						 "value"     : 1000,
+						 "rarity"    : 1000,
+						 "zoneLimit" : 1
+						}
+			},
+			{
+				"id" : "core:object.freelancersGuild",
+				"rmg" : {
+						 
+						 "value"     : 1000,
+						 "rarity"    : 1000,
+						 "zoneLimit" : 1
+						}
+			},
+			{
+				"id" : "pvp-balance.objects:object.flyScrollObject.flyScroll",
+				"rmg" : {
+						 
+						 "value"     : 20000,
+						 "rarity"    : 9999,
+						 "zoneLimit" : 1
+						}
+			},
+			{
+				"id" : "pvp-balance.objects:object.dimensionDoorScrollObject.ddScroll",
+				"rmg" : {
+						 
+						 "value"     : 20000,
+						 "rarity"    : 9999,
+						 "zoneLimit" : 1
+						}
+			},
+			{
+				"id" : "pvp-balance.objects:object.townPortalScrollObject.tpScroll",
+				"rmg" : {
+						 
+						 "value"     : 20000,
+						 "rarity"    : 9999,
+						 "zoneLimit" : 1
+						}
+			}
+		]
+	}
+
+			},
+			"4" :
+			{
+				"type" : "playerStart",
+				"size" : 20,
+				"owner" : 4,
+				"monsters" : "normal",
+				"playerTowns" : { "castles" : 1 },
+				"minesLikeZone" : 1,
+				"treasureLikeZone" : 3,
+				"customObjectsLikeZone" : 3
+			},
+			"5" :
+			{
+				"type" : "playerStart",
+				"size" : 20,
+				"owner" : 5,
+				"monsters" : "normal",
+				"playerTowns" : { "castles" : 1 },
+				"minesLikeZone" : 1,
+				"treasureLikeZone" : 3,
+				"customObjectsLikeZone" : 3
+			},
+			"6" :
+			{
+				"type" : "playerStart",
+				"size" : 20,
+				"owner" : 6,
+				"monsters" : "normal",
+				"playerTowns" : { "castles" : 1 },
+				"minesLikeZone" : 1,
+				"treasureLikeZone" : 3,
+				"customObjectsLikeZone" : 3
+			},
+			"7" :
+			{
+				"type" : "playerStart",
+				"size" : 15,
+				"owner" : 7,
+				"monsters" : "normal",
+				"playerTowns" : { "castles" : 1 },
+				"minesLikeZone" : 1,
+				"treasureLikeZone" : 1,
+				"customObjectsLikeZone" : 1
+			},
+			"8" :
+			{
+				"type" : "playerStart",
+				"size" : 15,
+				"owner" : 8,
+				"monsters" : "normal",
+				"playerTowns" : { "castles" : 1 },
+				"minesLikeZone" : 1,
+				"treasureLikeZone" : 1,
+				"customObjectsLikeZone" : 1
+			},
+			"9" :
+			{
+				"type" : "treasure",
+				"size" : 20,
+				"monsters" : "normal",
+				"neutralTowns" : { "towns" : 1 },
+				"mines" : { "wood" : 1, "mercury" : 1, "ore" : 1 },
+				"treasure" :
+				[
+					{ "min" : 6000, "max" : 12000, "density" : 1 },
+					{ "min" : 3000, "max" : 6000, "density" : 6 },
+					{ "min" : 500, "max" : 3000, "density" : 9 }
+				],
+				"customObjects" :
+					{
+					"bannedCategories" : ["questArtifact", "seerHut"],
+					"bannedObjects" :["hota.mapobjects:object.ancientLamp.ancientLamp", "core:object.randomArtifactMinor", "core:object.randomArtifactTreasure", "core:object.university",  "core:object.libraryOfEnlightenment", "core:object.arena", "hota.mapobjects:object.colosseumOfTheMagi.colosseumOfTheMagi", "core:object.mercenaryCamp", "core:object.marlettoTower", "core:object.schoolOfWar", "core:object.altarOfSacrifice", "core:object.witchHut", "hota.highlandsterrain:object.junkman.junkman", "core:object.hillFort", "hota.mapobjects:object.miniHillFort.miniHillFort", "core:object.freelancersGuild", "pvp-balance.objects:object.flyScrollObject.flyScroll", "pvp-balance.objects:object.dimensionDoorScrollObject.ddScroll", "pvp-balance.objects:object.townPortalScrollObject.tpScroll", "core:object.tavern", "core:object.prison.prison"],
+					"commonObjects":
+					[
+
+
+
+
+
+
+			{
+				"id" : "core:object.randomArtifactMinor",
+				"rmg" : {
+						 
+						 "value"     : 5000,
+						 "rarity"    : 1000
+						}
+			},
+			{
+				"id" : "core:object.randomArtifactTreasure",
+				"rmg" : {
+						 
+						 "value"     : 2000,
+						 "rarity"    : 1000,
+						 "zoneLimit" : 6
+						}
+			},
+			{
+				"id" : "core:object.university",
+				"rmg" : {
+						 
+						 "value"     : 2500,
+						 "rarity"    : 9999,
+						 "zoneLimit" : 1
+						}
+			},
+			{
+				"id" : "core:object.libraryOfEnlightenment",
+				"rmg" : {
+						 
+						 "value"     : 12000,
+						 "rarity"    : 9000,
+						 "zoneLimit" : 1
+						}
+			},
+			{
+				"id" : "core:object.arena",
+				"rmg" : {
+						 "value"     : 3000,
+						 "rarity"    : 1000,
+						 "zoneLimit" : 1
+						}
+			},
+			{
+				"id" : "hota.mapobjects:object.colosseumOfTheMagi.colosseumOfTheMagi",
+				"rmg" : {
+						 "value"     : 3000,
+						 "rarity"    : 9999,
+						 "zoneLimit" : 3
+						}
+			},
+			{
+				"id" : "core:object.mercenaryCamp",
+				"rmg" : {
+						 "value"     : 1500,
+						 "rarity"    : 1000,
+						 "zoneLimit" : 3
+						}
+			},
+			{
+				"id" : "core:object.marlettoTower",
+				"rmg" : {
+						 "value"     : 1500,
+						 "rarity"    : 1000,
+						 "zoneLimit" : 3
+						}
+			},
+			{
+				"id" : "core:object.schoolOfWar",
+				"rmg" : {
+						 "value"     : 1000,
+						 "rarity"    : 1000,
+						 "zoneLimit" : 3
+						}
+			},
+			{
+				"id" : "core:object.altarOfSacrifice",
+				"rmg" : {
+						 "value"     : 100,
+						 "rarity"    : 9999,
+						 "zoneLimit" : 1
+						}
+			},
+			{
+				"id" : "core:object.witchHut",
+				"rmg" : {
+						 "value"     : 1500,
+						 "rarity"    : 1000,
+						 "zoneLimit" : 2
+						}
+			},
+			{
+				"id" : "hota.highlandsterrain:object.junkman.junkman",
+				"rmg" : {
+						 "value"     : 200,
+						 "rarity"    : 9999,
+						 "zoneLimit" : 1
+						}
+			},
+			{
+				"id" : "core:object.hillFort",
+				"rmg" : {
+						 
+						 "value"     : 1000,
+						 "rarity"    : 1000,
+						 "zoneLimit" : 1
+						}
+			},
+			{
+				"id" : "core:object.freelancersGuild",
+				"rmg" : {
+						 
+						 "value"     : 1000,
+						 "rarity"    : 1000,
+						 "zoneLimit" : 1
+						}
+			},
+			{
+				"id" : "pvp-balance.objects:object.flyScrollObject.flyScroll",
+				"rmg" : {
+						 
+						 "value"     : 20000,
+						 "rarity"    : 9999,
+						 "zoneLimit" : 1
+						}
+			},
+			{
+				"id" : "pvp-balance.objects:object.dimensionDoorScrollObject.ddScroll",
+				"rmg" : {
+						 
+						 "value"     : 20000,
+						 "rarity"    : 9999,
+						 "zoneLimit" : 1
+						}
+			},
+			{
+				"id" : "pvp-balance.objects:object.townPortalScrollObject.tpScroll",
+				"rmg" : {
+						 
+						 "value"     : 20000,
+						 "rarity"    : 9999,
+						 "zoneLimit" : 1
+						}
+			}
+		]
+	}
+			},
+			"10" :
+			{
+				"type" : "treasure",
+				"size" : 20,
+				"monsters" : "normal",
+				"neutralTowns" : { "towns" : 1 },
+				"mines" : { "wood" : 1, "ore" : 1, "sulfur" : 1 },
+				"treasureLikeZone" : 9,
+				"customObjectsLikeZone" : 9
+			},
+			"11" :
+			{
+				"type" : "treasure",
+				"size" : 20,
+				"monsters" : "normal",
+				"neutralTowns" : { "towns" : 1 },
+				"mines" : { "wood" : 1, "ore" : 1, "crystal" : 1 },
+				"treasureLikeZone" : 9,
+				"customObjectsLikeZone" : 9
+			},
+			"12" :
+			{
+				"type" : "treasure",
+				"size" : 20,
+				"monsters" : "normal",
+				"neutralTowns" : { "towns" : 1 },
+				"mines" : { "wood" : 1, "ore" : 1, "gems" : 1 },
+				"treasureLikeZone" : 9,
+				"customObjectsLikeZone" : 9
+			},
+			"13" :
+			{
+				"type" : "treasure",
+				"size" : 20,
+				"monsters" : "normal",
+				"neutralTowns" : { "towns" : 1 },
+				"minesLikeZone" : 9,
+				"treasureLikeZone" : 9,
+				"customObjectsLikeZone" : 9
+			},
+			"14" :
+			{
+				"type" : "treasure",
+				"size" : 20,
+				"monsters" : "normal",
+				"neutralTowns" : { "towns" : 1 },
+				"minesLikeZone" : 10,
+				"treasureLikeZone" : 9,
+				"customObjectsLikeZone" : 9
+			},
+			"15" :
+			{
+				"type" : "treasure",
+				"size" : 20,
+				"monsters" : "normal",
+				"neutralTowns" : { "towns" : 1 },
+				"minesLikeZone" : 11,
+				"treasureLikeZone" : 9,
+				"customObjectsLikeZone" : 9
+			},
+			"16" :
+			{
+				"type" : "treasure",
+				"size" : 20,
+				"monsters" : "normal",
+				"neutralTowns" : { "towns" : 1 },
+				"minesLikeZone" : 12,
+				"treasureLikeZone" : 9,
+				"customObjectsLikeZone" : 9
+			},
+			"17" :
+			{
+				"type" : "treasure",
+				"size" : 20,
+				"monsters" : "strong",
+				"matchTerrainToTown" : false,
+				"mines" : { "mercury" : 1 },
+				"terrainTypes" : [ "dirt", "grass", "lava", "highlands", "subterra" ], 
+				"treasure" :
+				[
+					{ "min" : 40000, "max" : 60000, "density" : 2 },
+					{ "min" : 20000, "max" : 30000, "density" : 10 },
+					{ "min" : 7500, "max" : 10000, "density" : 10 }
+				],
+
+				"customObjects" :
+					{
+					"bannedCategories" : ["questArtifact", "seerHut"],
+					"bannedObjects" :["hota.mapobjects:object.ancientLamp.ancientLamp",  "core:object.libraryOfEnlightenment", "core:object.arena", "hota.mapobjects:object.colosseumOfTheMagi.colosseumOfTheMagi", "core:object.mercenaryCamp", "core:object.marlettoTower", "core:object.schoolOfWar", "core:object.altarOfSacrifice", "core:object.witchHut", "hota.highlandsterrain:object.junkman.junkman", "core:object.hillFort", "hota.mapobjects:object.miniHillFort.miniHillFort", "core:object.freelancersGuild", "pvp-balance.objects:object.flyScrollObject.flyScroll", "pvp-balance.objects:object.dimensionDoorScrollObject.ddScroll", "pvp-balance.objects:object.townPortalScrollObject.tpScroll", "core:object.tavern", "core:object.prison.prison", "core:object.creatureBank.dragonFlyHive", "core:object.randomArtifactRelic"  ],
+					"commonObjects":
+					[
+
+
+			{
+				"id" : "core:object.libraryOfEnlightenment",
+				"rmg" : {
+						 
+						 "value"     : 12000,
+						 "rarity"    : 9000,
+						 "zoneLimit" : 1
+						}
+			},
+			{
+				"id" : "core:object.arena",
+				"rmg" : {
+						 "value"     : 3000,
+						 "rarity"    : 1000,
+						 "zoneLimit" : 1
+						}
+			},
+			{
+				"id" : "hota.mapobjects:object.colosseumOfTheMagi.colosseumOfTheMagi",
+				"rmg" : {
+						 "value"     : 3000,
+						 "rarity"    : 9999,
+						 "zoneLimit" : 3
+						}
+			},
+			{
+				"id" : "core:object.mercenaryCamp",
+				"rmg" : {
+						 "value"     : 1500,
+						 "rarity"    : 1000,
+						 "zoneLimit" : 3
+						}
+			},
+			{
+				"id" : "core:object.marlettoTower",
+				"rmg" : {
+						 "value"     : 1500,
+						 "rarity"    : 1000,
+						 "zoneLimit" : 3
+						}
+			},
+			{
+				"id" : "core:object.schoolOfWar",
+				"rmg" : {
+						 "value"     : 1000,
+						 "rarity"    : 1000,
+						 "zoneLimit" : 3
+						}
+			},
+			{
+				"id" : "core:object.altarOfSacrifice",
+				"rmg" : {
+						 "value"     : 100,
+						 "rarity"    : 9999,
+						 "zoneLimit" : 1
+						}
+			},
+			{
+				"id" : "core:object.witchHut",
+				"rmg" : {
+						 "value"     : 1500,
+						 "rarity"    : 1000,
+						 "zoneLimit" : 2
+						}
+			},
+			{
+				"id" : "hota.highlandsterrain:object.junkman.junkman",
+				"rmg" : {
+						 "value"     : 200,
+						 "rarity"    : 9999,
+						 "zoneLimit" : 1
+						}
+			},
+			{
+				"id" : "core:object.hillFort",
+				"rmg" : {
+						 
+						 "value"     : 1000,
+						 "rarity"    : 1000,
+						 "zoneLimit" : 1
+						}
+			},
+			{
+				"id" : "core:object.freelancersGuild",
+				"rmg" : {
+						 
+						 "value"     : 1000,
+						 "rarity"    : 1000,
+						 "zoneLimit" : 1
+						}
+			},
+			{
+				"id" : "pvp-balance.objects:object.flyScrollObject.flyScroll",
+				"rmg" : {
+						 
+						 "value"     : 20000,
+						 "rarity"    : 9999,
+						 "zoneLimit" : 1
+						}
+			},
+			{
+				"id" : "pvp-balance.objects:object.dimensionDoorScrollObject.ddScroll",
+				"rmg" : {
+						 
+						 "value"     : 20000,
+						 "rarity"    : 9999,
+						 "zoneLimit" : 1
+						}
+			},
+			{
+				"id" : "pvp-balance.objects:object.townPortalScrollObject.tpScroll",
+				"rmg" : {
+						 
+						 "value"     : 20000,
+						 "rarity"    : 9999,
+						 "zoneLimit" : 1
+						}
+			},
+
+			{
+				"id" : "core:object.creatureBank.dragonFlyHive",
+				"rmg" : {
+						 
+						 "value"     : 9000,
+						 "rarity"    : 5100,
+						 "zoneLimit" : 12
+						}
+				},
+				{
+					"id" : "core:object.randomArtifactRelic",
+					"rmg" : {
+							 "value"     : 20000,
+							 "rarity"    : 5100,
+							 "zoneLimit" : 10
+							}
+				}
+		]
+	}
+
+
+				
+			},
+			"18" :
+			{
+				"type" : "treasure",
+				"size" : 20,
+				"monsters" : "strong",
+				"matchTerrainToTown" : false,
+				"mines" : { "sulfur" : 1 },
+				"treasureLikeZone" : 17,
+				"terrainTypeLikeZone" : 17,
+				"customObjectsLikeZone" : 17
+			},
+			"19" :
+			{
+				"type" : "treasure",
+				"size" : 20,
+				"monsters" : "strong",
+				"matchTerrainToTown" : false,
+				"mines" : { "crystal" : 1 },
+				"treasureLikeZone" : 17,
+				"terrainTypeLikeZone" : 17,
+				"customObjectsLikeZone" : 17
+			},
+			"20" :
+			{
+				"type" : "treasure",
+				"size" : 30,
+				"monsters" : "strong",
+				"terrainTypes" : [ "dirt", "rough" ], 
+				"matchTerrainToTown" : false,
+				"mines" : { "gems" : 1 },
+				"treasure" :
+				[
+					{ "min" : 80000, "max" : 120000, "density" : 10 },
+					{ "min" : 40000, "max" : 80000, "density" : 10 }
+				],
+				"customObjectsLikeZone" : 28
+			},
+			"21" :
+			{
+				"type" : "treasure",
+				"size" : 30,
+				"monsters" : "strong",
+				"terrainTypes" : [ "lava", "subterra"],
+				"matchTerrainToTown" : false,
+				"minesLikeZone" : 20,
+				"treasureLikeZone" : 20,
+				"customObjectsLikeZone" : 28
+			},
+			"22" :
+			{
+				"type" : "treasure",
+				"size" : 20,
+				"monsters" : "strong",
+				"matchTerrainToTown" : false,
+				"minesLikeZone" : 18,
+				"treasureLikeZone" : 17,
+				"terrainTypeLikeZone" : 17,
+				"customObjectsLikeZone" : 17
+			},
+			"23" :
+			{
+				"type" : "treasure",
+				"size" : 20,
+				"monsters" : "strong",
+				"matchTerrainToTown" : false,
+				"minesLikeZone" : 19,
+				"treasureLikeZone" : 17,
+				"terrainTypeLikeZone" : 17,
+				"customObjectsLikeZone" : 17
+			},
+			"24" :
+			{
+				"type" : "treasure",
+				"size" : 20,
+				"monsters" : "strong",
+				"matchTerrainToTown" : false,
+				"mines" : { "gems" : 1 },
+				"treasureLikeZone" : 17,
+				"terrainTypeLikeZone" : 17,
+				"customObjectsLikeZone" : 17
+			},
+			"25" :
+			{
+				"type" : "treasure",
+				"size" : 20,
+				"monsters" : "strong",
+				"matchTerrainToTown" : false,
+				"mines" : { "crystal" : 1 },
+				"treasureLikeZone" : 17,
+				"terrainTypeLikeZone" : 17,
+				"customObjectsLikeZone" : 17
+			},
+			"26" :
+			{
+				"type" : "treasure",
+				"size" : 20,
+				"monsters" : "strong",
+				"matchTerrainToTown" : false,
+				"mines" : { "sulfur" : 1 },
+				"treasure" :
+				[
+					{ "min" : 40000, "max" : 80000, "density" : 5 },
+					{ "min" : 30000, "max" : 50000, "density" : 5 },
+					{ "min" : 7500, "max" : 10000, "density" : 5 }
+				],
+				"customObjects" :
+					{
+					"bannedCategories" : ["questArtifact", "seerHut"],
+					"bannedObjects" :["hota.mapobjects:object.ancientLamp.ancientLamp", "core:object.libraryOfEnlightenment", "core:object.arena", "hota.mapobjects:object.colosseumOfTheMagi.colosseumOfTheMagi", "core:object.mercenaryCamp", "core:object.marlettoTower", "core:object.schoolOfWar", "core:object.altarOfSacrifice", "core:object.witchHut", "hota.highlandsterrain:object.junkman.junkman", "core:object.hillFort", "hota.mapobjects:object.miniHillFort.miniHillFort", "core:object.freelancersGuild", "pvp-balance.objects:object.flyScrollObject.flyScroll", "pvp-balance.objects:object.dimensionDoorScrollObject.ddScroll", "pvp-balance.objects:object.townPortalScrollObject.tpScroll", "core:object.tavern", "core:object.prison.prison"],
+					"commonObjects":
+					[
+
+
+
+
+
+			{
+				"id" : "core:object.libraryOfEnlightenment",
+				"rmg" : {
+						 
+						 "value"     : 12000,
+						 "rarity"    : 9000,
+						 "zoneLimit" : 1
+						}
+			},
+			{
+				"id" : "core:object.arena",
+				"rmg" : {
+						 "value"     : 3000,
+						 "rarity"    : 1000,
+						 "zoneLimit" : 1
+						}
+			},
+			{
+				"id" : "hota.mapobjects:object.colosseumOfTheMagi.colosseumOfTheMagi",
+				"rmg" : {
+						 "value"     : 3000,
+						 "rarity"    : 9999,
+						 "zoneLimit" : 3
+						}
+			},
+			{
+				"id" : "core:object.mercenaryCamp",
+				"rmg" : {
+						 "value"     : 1500,
+						 "rarity"    : 1000,
+						 "zoneLimit" : 3
+						}
+			},
+			{
+				"id" : "core:object.marlettoTower",
+				"rmg" : {
+						 "value"     : 1500,
+						 "rarity"    : 1000,
+						 "zoneLimit" : 3
+						}
+			},
+			{
+				"id" : "core:object.schoolOfWar",
+				"rmg" : {
+						 "value"     : 1000,
+						 "rarity"    : 1000,
+						 "zoneLimit" : 3
+						}
+			},
+			{
+				"id" : "core:object.altarOfSacrifice",
+				"rmg" : {
+						 "value"     : 100,
+						 "rarity"    : 9999,
+						 "zoneLimit" : 1
+						}
+			},
+			{
+				"id" : "core:object.witchHut",
+				"rmg" : {
+						 "value"     : 1500,
+						 "rarity"    : 1000,
+						 "zoneLimit" : 2
+						}
+			},
+			{
+				"id" : "hota.highlandsterrain:object.junkman.junkman",
+				"rmg" : {
+						 "value"     : 200,
+						 "rarity"    : 9999,
+						 "zoneLimit" : 1
+						}
+			},
+			{
+				"id" : "core:object.hillFort",
+				"rmg" : {
+						 
+						 "value"     : 1000,
+						 "rarity"    : 1000,
+						 "zoneLimit" : 1
+						}
+			},
+			{
+				"id" : "core:object.freelancersGuild",
+				"rmg" : {
+						 
+						 "value"     : 1000,
+						 "rarity"    : 1000,
+						 "zoneLimit" : 1
+						}
+			},
+			{
+				"id" : "pvp-balance.objects:object.flyScrollObject.flyScroll",
+				"rmg" : {
+						 
+						 "value"     : 20000,
+						 "rarity"    : 9999,
+						 "zoneLimit" : 1
+						}
+			},
+			{
+				"id" : "pvp-balance.objects:object.dimensionDoorScrollObject.ddScroll",
+				"rmg" : {
+						 
+						 "value"     : 20000,
+						 "rarity"    : 9999,
+						 "zoneLimit" : 1
+						}
+			},
+			{
+				"id" : "pvp-balance.objects:object.townPortalScrollObject.tpScroll",
+				"rmg" : {
+						 
+						 "value"     : 20000,
+						 "rarity"    : 9999,
+						 "zoneLimit" : 1
+						}
+			}
+		]
+	}
+			},
+			
+			"28" :
+			{
+				"type" : "treasure",
+				"size" : 30,
+				"monsters" : "strong",
+				"matchTerrainToTown" : false,
+				"mines" : { "mercury" : 1 },
+				"treasureLikeZone" : 20,
+				"terrainTypes" : [ "lava", "subterra"],
+				"customObjects" :
+					{
+					"bannedCategories" : ["questArtifact", "seerHut"],
+					"bannedObjects" :["hota.mapobjects:object.ancientLamp.ancientLamp", "core:object.libraryOfEnlightenment", "core:object.arena", "hota.mapobjects:object.colosseumOfTheMagi.colosseumOfTheMagi", "core:object.mercenaryCamp", "core:object.marlettoTower", "core:object.schoolOfWar", "core:object.altarOfSacrifice", "core:object.witchHut", "hota.highlandsterrain:object.junkman.junkman", "core:object.hillFort", "hota.mapobjects:object.miniHillFort.miniHillFort", "core:object.freelancersGuild", "pvp-balance.objects:object.flyScrollObject.flyScroll", "pvp-balance.objects:object.dimensionDoorScrollObject.ddScroll", "pvp-balance.objects:object.townPortalScrollObject.tpScroll", "core:object.tavern", "core:object.prison.prison", "pvp-balance.objects:object.azureDragonPandora.azureDragonPandora"],
+					"commonObjects":
+					[
+
+
+
+
+
+
+			
+			{
+				"id" : "core:object.arena",
+				"rmg" : {
+						 "value"     : 3000,
+						 "rarity"    : 1000,
+						 "zoneLimit" : 1
+						}
+			},
+			{
+				"id" : "hota.mapobjects:object.colosseumOfTheMagi.colosseumOfTheMagi",
+				"rmg" : {
+						 "value"     : 3000,
+						 "rarity"    : 9999,
+						 "zoneLimit" : 3
+						}
+			},
+			{
+				"id" : "core:object.mercenaryCamp",
+				"rmg" : {
+						 "value"     : 1500,
+						 "rarity"    : 1000,
+						 "zoneLimit" : 3
+						}
+			},
+			{
+				"id" : "core:object.marlettoTower",
+				"rmg" : {
+						 "value"     : 1500,
+						 "rarity"    : 1000,
+						 "zoneLimit" : 3
+						}
+			},
+			{
+				"id" : "core:object.schoolOfWar",
+				"rmg" : {
+						 "value"     : 1000,
+						 "rarity"    : 1000,
+						 "zoneLimit" : 3
+						}
+			},
+			{
+				"id" : "core:object.altarOfSacrifice",
+				"rmg" : {
+						 "value"     : 100,
+						 "rarity"    : 9999,
+						 "zoneLimit" : 1
+						}
+			},
+			{
+				"id" : "core:object.witchHut",
+				"rmg" : {
+						 "value"     : 1500,
+						 "rarity"    : 1000,
+						 "zoneLimit" : 2
+						}
+			},
+			{
+				"id" : "hota.highlandsterrain:object.junkman.junkman",
+				"rmg" : {
+						 "value"     : 200,
+						 "rarity"    : 9999,
+						 "zoneLimit" : 1
+						}
+			},
+			{
+				"id" : "core:object.hillFort",
+				"rmg" : {
+						 
+						 "value"     : 1000,
+						 "rarity"    : 1000,
+						 "zoneLimit" : 1
+						}
+			},
+			{
+				"id" : "core:object.freelancersGuild",
+				"rmg" : {
+						 
+						 "value"     : 1000,
+						 "rarity"    : 1000,
+						 "zoneLimit" : 1
+						}
+			},
+			{
+				"id" : "pvp-balance.objects:object.flyScrollObject.flyScroll",
+				"rmg" : {
+						 
+						 "value"     : 20000,
+						 "rarity"    : 9999,
+						 "zoneLimit" : 1
+						}
+			},
+			{
+				"id" : "pvp-balance.objects:object.dimensionDoorScrollObject.ddScroll",
+				"rmg" : {
+						 
+						 "value"     : 20000,
+						 "rarity"    : 9999,
+						 "zoneLimit" : 1
+						}
+			},
+			{
+				"id" : "pvp-balance.objects:object.townPortalScrollObject.tpScroll",
+				"rmg" : {
+						 
+						 "value"     : 20000,
+						 "rarity"    : 9999,
+						 "zoneLimit" : 1
+						}
+			},
+			{
+				"id" : "pvp-balance.objects:object.azureDragonPandora.azureDragonPandora",
+				"rmg" : {
+						 
+						 "value"     : 78000,
+						 "rarity"    : 100
+						}
+			}
+		]
+	}
+			},
+			"29" :
+			{
+				"type" : "treasure",
+				"size" : 20,
+				"monsters" : "strong",
+				"matchTerrainToTown" : false,
+				"mines" : { "mercury" : 1 },
+				"treasureLikeZone" : 20,
+				"terrainTypes" : [ "sand"],
+				"customObjectsLikeZone":28
+			},
+		
+			"31" :
+			{
+				"type" : "treasure",
+				"size" : 20,
+				"monsters" : "strong",
+				"matchTerrainToTown" : false,
+				"mines" : { "crystal" : 1 },
+				"treasureLikeZone" : 26,
+				"customObjectsLikeZone":26
+			},
+			"32" :
+			{
+				"type" : "treasure",
+				"size" : 20,
+				"monsters" : "strong",
+				"matchTerrainToTown" : false,
+				"mines" : { "crystal" : 1 },
+				"treasureLikeZone" : 17,
+				"terrainTypeLikeZone" : 17,
+				"customObjectsLikeZone":17
+			},
+			"33" :
+			{
+				"type" : "treasure",
+				"size" : 20,
+				"monsters" : "strong",
+				"matchTerrainToTown" : false,
+				"mines" : { "sulfur" : 1 },
+				"treasureLikeZone" : 17,
+				"terrainTypeLikeZone" : 17,
+				"customObjectsLikeZone":28
+			},
+			"34" :
+			{
+				"type" : "treasure",
+				"size" : 20,
+				"monsters" : "strong",
+				"matchTerrainToTown" : false,
+				"mines" : { "sulfur" : 1 },
+				"treasure" :
+				[
+					{ "min" : 40000, "max" : 100000, "density" : 5 },
+					{ "min" : 20000, "max" : 40000, "density" : 5 },
+					{ "min" : 7500, "max" : 10000, "density" : 5 }
+				],
+				"customObjectsLikeZone":26
+			},
+			
+			"36" :
+			{
+				"type" : "treasure",
+				"size" : 30,
+				"monsters" : "strong",
+				"matchTerrainToTown" : false,
+				"mines" : { "mercury" : 1 },
+				"treasureLikeZone" : 20,
+				"terrainTypes" : [ "lava", "subterra"],
+				"customObjectsLikeZone":28
+			},
+			"37" :
+			{
+				"type" : "treasure",
+				"size" : 30,
+				"monsters" : "strong",
+				"matchTerrainToTown" : false,
+				"mines" : { "mercury" : 1 },
+				"treasureLikeZone" : 20,
+				"terrainTypes" : [ "wasteland"],
+				"customObjectsLikeZone":28
+
+			},
+			
+			"39" :
+			{
+				"type" : "treasure",
+				"size" : 20,
+				"monsters" : "strong",
+				"matchTerrainToTown" : false,
+				"mines" : { "crystal" : 1 },
+				"treasureLikeZone" : 34,
+				"customObjectsLikeZone":26
+			},
+			"40" :
+			{
+				"type" : "treasure",
+				"size" : 20,
+				"monsters" : "strong",
+				"matchTerrainToTown" : false,
+				"mines" : { "sulfur" : 1 },
+				"treasureLikeZone" : 17,
+				"terrainTypeLikeZone" : 17,
+				"customObjectsLikeZone":17
+			},
+			"41" :
+			{
+				"type" : "treasure",
+				"size" : 20,
+				"monsters" : "strong",
+				"matchTerrainToTown" : false,
+				"mines" : { "mercury" : 1 },
+				"treasureLikeZone" : 17,
+				"terrainTypeLikeZone" : 17,
+				"customObjectsLikeZone":17
+			},
+			"42" :
+			{
+				"type" : "treasure",
+				"size" : 20,
+				"monsters" : "strong",
+				"matchTerrainToTown" : false,
+				"mines" : { "sulfur" : 1 },
+				"treasureLikeZone" : 17,
+				"terrainTypeLikeZone" : 17,
+				"customObjectsLikeZone":17
+			},
+			"43" :
+			{
+				"type" : "treasure",
+				"size" : 20,
+				"monsters" : "strong",
+				"matchTerrainToTown" : false,
+				"mines" : { "crystal" : 1 },
+				"treasureLikeZone" : 17,
+				"terrainTypeLikeZone" : 17,
+				"customObjectsLikeZone":17
+			},
+			"44" :
+			{ 
+				"type" : "treasure",
+				"size" : 30,
+				"monsters" : "strong",
+				"matchTerrainToTown" : false,
+				"terrainTypes" : [ "highlands", "grass"],
+				"mines" : { "gems" : 1 },
+				"treasureLikeZone" : 20,
+				"customObjectsLikeZone":28
+			},
+			"45" :
+			{
+				"type" : "treasure",
+				"size" : 30,
+				"monsters" : "strong",
+				"matchTerrainToTown" : false,
+				"terrainTypes" : [ "lava", "subterra"],
+				"mines" : { "gems" : 1 },
+				"treasureLikeZone" : 20,
+				"customObjectsLikeZone":28
+			},
+			"46" :
+			{
+				"type" : "treasure",
+				"size" : 20,
+				"monsters" : "strong",
+				"matchTerrainToTown" : false,
+				"mines" : { "sulfur" : 1 },
+				"treasureLikeZone" : 17,
+				"terrainTypeLikeZone" : 17,
+				"customObjectsLikeZone":17
+			},
+			"47" :
+			{
+				"type" : "treasure",
+				"size" : 20,
+				"monsters" : "strong",
+				"matchTerrainToTown" : false,
+				"mines" : { "crystal" : 1 },
+				"treasureLikeZone" : 17,
+				"terrainTypeLikeZone" : 17,
+				"customObjectsLikeZone":17
+			},
+			"48" :
+			{
+				"type" : "treasure",
+				"size" : 20,
+				"monsters" : "strong",
+				"matchTerrainToTown" : false,
+				"mines" : { "gems" : 1 },
+				"treasureLikeZone" : 17,
+				"terrainTypeLikeZone" : 17,
+				"customObjectsLikeZone":17
+			},
+			"49" :
+			{
+				"type" : "treasure",
+				"size" : 20,
+				"monsters" : "strong",
+				"matchTerrainToTown" : false,
+				"mines" : { "crystal" : 1 },
+				"treasureLikeZone" : 26,
+				"customObjectsLikeZone":26
+			},
+			"50" :
+			{
+				"type" : "treasure",
+				"size" : 20,
+				"monsters" : "strong",
+				"matchTerrainToTown" : false,
+				"mines" : { "sulfur" : 1 },
+				"treasureLikeZone" : 26,
+				"customObjectsLikeZone":26
+			},
+			"51" :
+			{
+				"type" : "treasure",
+				"size" : 20,
+				"monsters" : "strong",
+				"matchTerrainToTown" : false,
+				"mines" : { "crystal" : 1 },
+				"treasureLikeZone" : 26,
+				"customObjectsLikeZone":26
+			},
+			"52" :
+			{
+				"type" : "treasure",
+				"size" : 20,
+				"monsters" : "strong",
+				"matchTerrainToTown" : false,
+				"mines" : { "sulfur" : 1 },
+				"treasureLikeZone" : 26,
+				"customObjectsLikeZone":26
+			}
+		},
+		"connections" :
+		[
+			{ "a" : "1", "b" : "17", "guard" : 3000, "road" : "false"  },
+			{ "a" : "1", "b" : "18", "guard" : 3000 },
+			{ "a" : "2", "b" : "23", "guard" : 3000 },
+			{ "a" : "2", "b" : "24", "guard" : 3000, "road" : "false"  },
+			{ "a" : "3", "b" : "28", "guard" : 6000 },
+			{ "a" : "3", "b" : "49", "guard" : 6000 },
+			{ "a" : "4", "b" : "29", "guard" : 6000 },
+			{ "a" : "4", "b" : "50", "guard" : 6000 },
+			{ "a" : "5", "b" : "36", "guard" : 6000, "road" : "false" },
+			{ "a" : "5", "b" : "51", "guard" : 6000 },
+			{ "a" : "6", "b" : "37", "guard" : 6000, "road" : "false" },
+			{ "a" : "6", "b" : "52", "guard" : 6000 },
+			{ "a" : "7", "b" : "41", "guard" : 6000 },
+			{ "a" : "7", "b" : "42", "guard" : 6000 },
+			{ "a" : "8", "b" : "47", "guard" : 6000 },
+			{ "a" : "8", "b" : "48", "guard" : 6000 },
+            { "a" : "17", "b" : "25", "guard" : 3000 },
+			{ "a" : "11", "b" : "25", "guard" : 6000 },
+			{ "a" : "11", "b" : "26", "guard" : 6000 },
+			{ "a" : "26", "b" : "49", "guard" : 6000 },
+			{ "a" : "20", "b" : "28", "guard" : 3000 },
+			{ "a" : "9", "b" : "20", "guard" : 6000 },
+			{ "a" : "9", "b" : "19", "guard" : 6000 },
+			{ "a" : "18", "b" : "19", "guard" : 3000 },
+			{ "a" : "22", "b" : "23", "guard" : 3000 },
+			{ "a" : "10", "b" : "22", "guard" : 6000 },
+			{ "a" : "10", "b" : "21", "guard" : 6000 },
+			{ "a" : "21", "b" : "29", "guard" : 3000 },
+			{ "a" : "31", "b" : "50", "guard" : 6000 },
+			{ "a" : "12", "b" : "31", "guard" : 6000 },
+			{ "a" : "12", "b" : "32", "guard" : 6000 },
+			{ "a" : "24", "b" : "32", "guard" : 3000 },
+			{ "a" : "34", "b" : "51", "guard" : 6000 },
+			{ "a" : "13", "b" : "34", "guard" : 6000 },
+			{ "a" : "13", "b" : "33", "guard" : 6000 },
+			{ "a" : "33", "b" : "41", "guard" : 3000 },
+			{ "a" : "42", "b" : "43", "guard" : 3000 },
+			{ "a" : "15", "b" : "43", "guard" : 6000 },
+			{ "a" : "15", "b" : "44", "guard" : 6000 },
+			{ "a" : "36", "b" : "44", "guard" : 3000 },
+			{ "a" : "37", "b" : "45", "guard" : 3000 },
+			{ "a" : "16", "b" : "45", "guard" : 6000 },
+			{ "a" : "16", "b" : "46", "guard" : 6000 },
+			{ "a" : "46", "b" : "47", "guard" : 3000 },
+			{ "a" : "40", "b" : "48", "guard" : 3000 },
+			{ "a" : "14", "b" : "40", "guard" : 6000 },
+			{ "a" : "14", "b" : "39", "guard" : 6000 },
+			{ "a" : "39", "b" : "52", "guard" : 6000 },
+			{ "a" : "20", "b" : "21", "guard" : 3000 },
+			{ "a" : "44", "b" : "45", "guard" : 3000 },
+			{ "a" : "26", "b" : "34", "guard" : 3000 },
+			{ "a" : "31", "b" : "39", "guard" : 3000 }
+		]
+	}
+}

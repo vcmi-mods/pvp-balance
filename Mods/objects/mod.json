@@ -1,53 +1,110 @@
 {
     "name" : "Objects",
 
-    "description" : "Modified objects for PvP.",
+    "description" : "Modified, new and alternative objects for PvP.",
 
     "author" : "wnukos",
 
     "contact" : "wnukos on Discord",
 
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+
     "modType" : "Objects",
 	
 	"objects" :
 	[
-		"config/genericObjects/sanctuary.json",
-		"config/genericObjects/prison.json",
-		"config/genericObjects/gazebo.json",
-		"config/banks/impCache.json",
-		"config/banks/bonePillar.json",
-		"config/banks/outpostOfSouls.json",
-		"config/banks/redTower.json",
-		"config/banks/scriptorium.json",
-		"config/banks/seminarium.json",
-		"config/banks/mansion.json",
-		"config/banks/sorceressCastle.json",
-		"config/banks/ruins.json"
-		
-	],
-	
-	"depends" : 
-	[
-		"hota.highlandsTerrain",
-		"hota.mapObjects",
-		"hota.mapDecorations",
-		"hota.neutralCreatures",
-		"hota.cove",
-		"tides-of-war.banks",
-		"tides-of-war.alternative-creatures",
-		"new-pavilion.dunes-terrain",
-		"asphalt-terrain"
-		
+		"config/supplementaryObjects/fivePandora.json",
+		"config/supplementaryObjects/tenPandora.json",
+		"config/supplementaryObjects/flyScrollObject.json",
+		"config/supplementaryObjects/dimensionDoorScrollObject.json",
+		"config/supplementaryObjects/townPortalScrollObject.json",
+		"config/supplementaryObjects/5kGoldPandora.json",
+		"config/supplementaryObjects/10kGoldPandora.json",
+		"config/supplementaryObjects/15kGoldPandora.json",
+		"config/supplementaryObjects/20kGoldPandora.json",
+		"config/supplementaryObjects/azureDragonPandora.json"
 		
 	],
 
+	"artifacts" :
+	[
+		"config/supplementaryObjects/flyScroll.json",
+		"config/supplementaryObjects/dimensionDoorScroll.json",
+		"config/supplementaryObjects/townPortalScroll.json"
+	],
+
+	"spells" :
+	[
+		"config/spells/grappleCopy.json"
+	],
+
+	"creatures": [
+        "config/creatures/alhoonCopy.json",
+		"config/creatures/illithidCopy.json",
+		"config/creatures/kelpieCopy.json",
+		"config/creatures/eldrichtKelpieCopy.json",
+		"config/creatures/grandPerytonCopy.json",
+		"config/creatures/priestessCopy.json",
+		"config/creatures/forestWitchCopy.json",
+		"config/creatures/ogreMageCopy.json"
+
+		
+        ],
+
+	"battlefields": [
+		"config/battlefields/horseshoeLakeBattlefield.json",
+		"config/battlefields/treantThicketBattlefield.json",
+		"config/battlefields/demonDomainBattlefield.json",
+		"config/battlefields/elderbrainBattlefield.json",
+		"config/battlefields/demonCaveBattlefield.json"
+
+		
+
+	],
+
+	"settings" : {
+        "combat":{
+
+		    "layouts" :
+		{
+			
+			"treantThicket" : {
+					"tacticsAllowed" : false,
+					"obstaclesAllowed" : false,
+					"attackerCommander" : 85,
+					"defenderCommander" :99,
+					"attackerUnits": [ 57, 61, 90, 93, 96, 125, 129],
+					"defenderUnits": [ 37, 45, 98, 139, 147 ]
+				},
+
+                "horseshoeLake" : {
+					"tacticsAllowed" : false,
+					"obstaclesAllowed" : true,
+                    "attackerCommander" : 95,
+					"defenderCommander" : 8,
+					"attackerUnits": [ 57, 61, 90, 93, 96, 125, 129 ],
+					"defenderUnits": [ 15, 185, 171, 1, 100, 86, 8 ]
+				}
+			
+		}
+        }
+    },
+
+	"depends" : 
+	[
+		"hota.mapDecorations",
+		"hota.highlandsTerrain",
+		"hota.wastelandTerrain",
+		"hota.gameBalance"
+	],
 
 	"compatibility" :
 	{
-		"min" : "1.5.5"
+		"min" : "1.6"
 	},
 	
-    "version" : "1.2.5",
+    "version" : "1.3",
 	
     "keepDisabled" : false
 }

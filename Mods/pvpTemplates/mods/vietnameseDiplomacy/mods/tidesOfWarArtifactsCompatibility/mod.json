@@ -1,0 +1,35 @@
+{
+    "name" : "ToW compatibility mod for VD - Artifacts",
+
+    "description" : "Compatibility mod adjusting ToW content to Vietnamese Diplomacy specifics.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+
+    "compatibility" :
+	{
+		"min" : "1.6"
+	},
+
+    "artifacts": [
+    "config/artifacts/artifacts.json"
+    ],  
+
+    "depends" : 
+	[
+        "tides-of-war",
+        "tides-of-war.artifacts"   
+    ],
+
+    "softDepends" : 
+	[
+        "pvp-balance.artifacts.tidesOfWarArtifacts"     
+    ],
+
+	
+    "version" : "1.3",
+    "keepDisabled" : false
+}

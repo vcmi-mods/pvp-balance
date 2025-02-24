@@ -1,0 +1,27 @@
+{
+
+	"core:subterraneanGate" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"pavDesertCave" : { 
+						"allowedTerrains" : [ ]
+					},
+					"subterraTunnelUp" : { 
+						"allowedTerrains" : [ ]
+					},
+					"subterraTunnelDown" : { 
+						"allowedTerrains" : [ ]
+					}	
+				}
+			}
+		}
+	}
+
+
+
+
+
+
+
+}

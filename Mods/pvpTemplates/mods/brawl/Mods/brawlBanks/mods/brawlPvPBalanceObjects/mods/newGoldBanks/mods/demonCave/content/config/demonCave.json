@@ -1,0 +1,91 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"demonCave" : 
+			{
+				"name" : "Demon Cave",
+				"templates" : 
+				{
+					"base" : { 
+					"animation" : "demonCaveBig", 
+					"visitableFrom" : [ "---", "---", "+++"  ],
+					"mask" : [ "VVV", "VVV", "VBA"]
+					},
+
+					"alternative" : { 
+					"animation" : "demonCaveBig2", 
+					"visitableFrom" : [ "---", "---", "+++"  ],
+					"mask" : [ "VVV", "VVV", "VAB"]
+					}
+				},
+				"blockedVisitable" : false,
+				"onGuardedMessage" : 32,
+				"onVisitedMessage" : 33,
+				"visitMode" : "once",
+				"selectMode" : "selectPlayer",
+				"guardsLayout" : "creatureBankWide",
+				"rmg" : {
+					"value"		: 1500,
+					"rarity"	: 30
+				},
+				"rewards":
+				[
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 0, "max" : 15 },
+						"guards": [
+							{ "amount": 1, "type" : "demon" },
+							{ "amount": 1, "type" : "earthElemental" },
+							{ "amount": 1, "type" : "earthElemental", "upgradeChance":50 },
+							{ "amount": 1, "type" : "demon", "upgradeChance":50 },
+							{ "amount": 1, "type" : "demon" }
+						],
+						"resources":  { "gold": 1000} 
+					},
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 15, "max" : 50 },
+						"guards": [
+							{ "amount": 2, "type" : "demon" },
+							{ "amount": 2, "type" : "earthElemental" },
+							{ "amount": 2, "type" : "earthElemental", "upgradeChance":50 },
+							{ "amount": 2, "type" : "demon", "upgradeChance":50 },
+							{ "amount": 2, "type" : "demon" }
+						],
+						"resources":  { "gold": 1500, "mercury":2 } 
+					},
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 50, "max" : 85 },
+						"guards": [
+							{ "amount": 3, "type" : "demon" },
+							{ "amount": 3, "type" : "earthElemental" },
+							{ "amount": 3, "type" : "earthElemental", "upgradeChance":50 },
+							{ "amount": 3, "type" : "demon", "upgradeChance":50 },
+							{ "amount": 3, "type" : "demon" }
+						],
+						"resources":  { "gold": 2000, "mercury":3} 
+					},
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 85, "max" : 100 },
+						"guards": [
+							{ "amount": 4, "type" : "demon" },
+							{ "amount": 4, "type" : "earthElemental" },
+							{ "amount": 4, "type" : "earthElemental", "upgradeChance":50 },
+							{ "amount": 4, "type" : "demon", "upgradeChance":50 },
+							{ "amount": 4, "type" : "demon" }
+						],
+						
+						"resources": { "gold": 2500, "mercury":4 } 
+					}
+					
+					
+				]
+				
+			}
+		}
+	}
+}

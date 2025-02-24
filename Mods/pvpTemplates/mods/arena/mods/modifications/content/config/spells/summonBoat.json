@@ -1,0 +1,9 @@
+{
+	"core:summonBoat" :
+	{
+		"flags" :
+		{
+			"special" : true
+		}
+	}
+}

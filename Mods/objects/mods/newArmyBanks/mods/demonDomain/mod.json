@@ -1,0 +1,30 @@
+{
+    "name" : "Demon Domain",
+
+    "description" : "This mod adds a new creature bank - Demon Domain. The bank is guarded by Inferno T3 - T5 creatures and gives Efreets or Devils as reward, chosen by player.<br><br>Graphics made by Andruids. The used battlefield comes from Morn's Battlefields mod.",
+
+    "author" : "wnukos, Andruids",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Objects",
+
+	"objects" :
+	[
+		"config/demonDomain.json"
+	],
+
+	"depends" :
+	[
+		"pvp-balance.objects"
+	],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.3",
+	
+    "keepDisabled" : false
+}

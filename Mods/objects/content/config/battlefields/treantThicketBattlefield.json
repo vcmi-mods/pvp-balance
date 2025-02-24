@@ -1,0 +1,6 @@
+{
+	"treantThicketBattlefield": {
+		"graphics":  "battlefields/TTbattlefield.png",
+		"isSpecial" : true
+		}
+}

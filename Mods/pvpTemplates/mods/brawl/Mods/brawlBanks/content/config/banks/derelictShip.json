@@ -1,0 +1,80 @@
+{
+	"core:derelictShip" :
+	{
+		"types" :
+		{
+			"derelictShip" : {
+				"resetParameters" : {
+					"period" : 4,
+					"visitors" : true,
+					"rewards" : true
+				},
+				"rmg" :
+				{
+					"rarity"	: 100
+				},
+				"onGuardedMessage" : 41,
+				"onVisited" : [
+					{
+						"message" : 42, // Such a despicable act reduces your army's morale.
+						"bonuses" : [ { "type" : "MORALE", "val" : -1, "duration" : "ONE_BATTLE", "description" : 101 } ]
+					}
+				],
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"guardsLayout" : "creatureBankWide",
+				"rewards": [
+					{
+						"message" : 43,
+						"appearChance":  { "min" : 0, "max" : 30 },
+						"guards": [
+							{ "amount": 3, "type": "waterElemental", "upgradeChance": 50 },
+							{ "amount": 3, "type": "waterElemental", "upgradeChance": 50 },
+							{ "amount": 3, "type": "waterElemental", "upgradeChance": 50 },
+							{ "amount": 3, "type": "waterElemental", "upgradeChance": 50 },
+							{ "amount": 3, "type": "waterElemental", "upgradeChance": 50 }
+						],
+						"resources": 
+						{
+							"gold" : 2000
+						}
+					},
+					{
+						"message" : 43,
+						"appearChance":  { "min" : 30, "max" : 70 },
+						"guards": [
+							{ "amount": 4, "type": "waterElemental", "upgradeChance": 50 },
+							{ "amount": 4, "type": "waterElemental", "upgradeChance": 50 },
+							{ "amount": 4, "type": "waterElemental", "upgradeChance": 50 },
+							{ "amount": 4, "type": "waterElemental", "upgradeChance": 50 },
+							{ "amount": 4, "type": "waterElemental", "upgradeChance": 50 }
+						],
+						"resources": 
+						{
+							"gold" : 2500
+						},
+						
+						"artifacts": [ { "class" : "TREASURE" } ]
+					},
+					{
+						"message" : 43,
+						"appearChance":  { "min" : 70, "max" : 100 },
+						"guards": [
+							{ "amount": 5, "type": "waterElemental", "upgradeChance": 50 },
+							{ "amount": 5, "type": "waterElemental", "upgradeChance": 50 },
+							{ "amount": 5, "type": "waterElemental", "upgradeChance": 50 },
+							{ "amount": 5, "type": "waterElemental", "upgradeChance": 50 },
+							{ "amount": 5, "type": "waterElemental", "upgradeChance": 50 }
+						],
+						"resources": 
+						{
+							"gold" : 3000
+						},
+						
+						"artifacts": [ { "class" : "MINOR" } ]
+					}
+				]
+			}
+		}
+	}
+}

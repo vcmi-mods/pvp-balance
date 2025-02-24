@@ -1,0 +1,14 @@
+{
+
+    "tides-of-war.artifacts:mdtRelicPhylactery": {
+      "class" : "RELIC"
+    },
+
+    "tides-of-war.artifacts:mdtBinoculars": {
+      "class" : "RELIC",
+      "components#override" : []
+    }
+
+  }
+  
+  

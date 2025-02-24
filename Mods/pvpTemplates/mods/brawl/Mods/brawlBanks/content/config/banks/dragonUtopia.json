@@ -1,0 +1,49 @@
+{
+	"core:dragonUtopia" :
+	{
+		"types" : 
+		{
+			"dragonUtopia" : 
+			{
+				"resetParameters" : {
+					"period" : 4,
+					"visitors" : true,
+					"rewards" : true
+				},
+				"rmg" :
+				{
+					"value" : 3500,
+					"rarity" : 60,
+					"zoneLimit" : 1
+				},
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"onGuardedMessage" : 47,
+				"onVisitedMessage" : 33,
+				"guardsLayout" : "creatureBankWide",
+				"rewards":
+				[
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 0, "max" : 100 },
+						"guards" :
+						[
+							{ "amount": 1, "type": "greenDragon", "upgradeChance": 30 },
+							{ "amount": 1, "type": "redDragon", "upgradeChance": 30 },
+							{ "amount": 1, "type": "boneDragon", "upgradeChance": 30 }
+						],
+						"resources":
+						{
+							"gold" : 3000
+						},
+						"artifacts": [
+							{ "class" : "TREASURE" },
+							{ "class" : "MINOR" },
+							{ "class" : "MAJOR" }
+						]
+					}
+				]
+			}
+		}
+	}
+}

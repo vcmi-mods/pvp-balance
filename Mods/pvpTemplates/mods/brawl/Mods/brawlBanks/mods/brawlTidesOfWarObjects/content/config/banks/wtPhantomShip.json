@@ -1,0 +1,166 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"mdtDreadSkipperBankWater" :
+			{
+				"resetParameters" : {
+					"period" : 4,
+					"visitors" : true,
+					"rewards" : true
+				},
+				"rmg" :
+				{
+					"zoneLimit" : 3,
+					"value" : 2000,
+					"rarity" : 100
+				},
+				"onGuardedMessage" : 32,
+				"onVisitedMessage" : 33,
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"guardsLayout" : "creatureBankNarrow",
+				"rewards": 
+				[
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 0, "max" : 50 },
+						"guards":
+						[
+							{ "amount" : 1, "type" : "mdtDreadSkipper", "upgradeChance": 50 }, // in case they ever get an upgrade
+							{ "amount" : 1, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 1, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 1, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 1, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 1, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 1, "type" : "mdtDreadSkipper", "upgradeChance": 50 }
+						],
+						"resources" :
+						{
+							"gold" : 1500
+						},
+						"creatures": [ { "amount": 4, "type": "mdtDreadSkipper", "upgradeChance": 50 } ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 50, "max" : 80 },
+						"guards":
+						[
+							{ "amount" : 2, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 2, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 2, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 2, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 2, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 2, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 2, "type" : "mdtDreadSkipper", "upgradeChance": 50 }
+						],
+						"resources" :
+						{
+							"gold" : 2000
+						},
+						"creatures": [ { "amount": 6, "type": "mdtDreadSkipper", "upgradeChance": 50 } ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 80, "max" : 100 },
+						"guards":
+						[
+							{ "amount" : 3, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 3, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 3, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 3, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 3, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 3, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 3, "type" : "mdtDreadSkipper", "upgradeChance": 50 }
+						],
+						"resources" :
+						{
+							"gold" : 2500
+						},
+						"creatures": [ { "amount": 8, "type": "mdtDreadSkipper", "upgradeChance": 50 } ]
+					}
+				]
+			},
+			"mdtDreadSkipperBankLand" :
+			{
+				"resetParameters" : {
+					"period" : 4,
+					"visitors" : true,
+					"rewards" : true
+				},
+				"rmg" :
+				{
+					"zoneLimit" : 3,
+					"value" : 2000,
+					"rarity" : 50
+				},
+				"onGuardedMessage" : 32,
+				"onVisitedMessage" : 33,
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"guardsLayout" : "creatureBankNarrow",
+				"rewards": 
+				[
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 0, "max" : 50 },
+						"guards":
+						[
+							{ "amount" : 1, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 1, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 1, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 1, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 1, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 1, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 1, "type" : "mdtDreadSkipper", "upgradeChance": 50 }
+						],
+						"resources" :
+						{
+							"gold" : 1000
+						},
+							"creatures": [ { "amount": 2, "type": "mdtDreadSkipper", "upgradeChance": 50 } ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 50, "max" : 80 },
+						"guards":
+						[
+							{ "amount" : 2, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 2, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 2, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 2, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 2, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 2, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 2, "type" : "mdtDreadSkipper", "upgradeChance": 50 }
+						],
+						"resources" :
+						{
+							"gold" : 1500
+						},
+						"creatures": [ { "amount": 4, "type": "mdtDreadSkipper", "upgradeChance": 50 } ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 80, "max" : 100 },
+						"guards":
+						[
+							{ "amount" : 3, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 3, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 3, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 3, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 3, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 3, "type" : "mdtDreadSkipper", "upgradeChance": 50 },
+							{ "amount" : 3, "type" : "mdtDreadSkipper", "upgradeChance": 50 }
+						],
+						"resources" :
+						{
+							"gold" : 2000
+						},
+						"creatures": [ { "amount": 6, "type": "mdtDreadSkipper", "upgradeChance": 50 } ]
+					}
+				]
+			}
+		}
+	}
+}

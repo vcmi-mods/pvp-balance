@@ -1,0 +1,88 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"mdtBonePillar" :
+			{
+				"resetParameters" : {
+					"period" : 4,
+					"visitors" : true,
+					"rewards" : true
+				},
+				"rmg" :
+				{
+					"zoneLimit" : 1,
+					"mapLimit" : 4,
+					"value" : 2500,
+					"rarity" : 100
+				},
+				"onGuardedMessage" : 32,
+				"onVisitedMessage" : 33,
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"guardsLayout" : "creatureBankNarrow",
+				"rewards": 
+				[
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 0, "max" : 50 },
+						"guards":
+						[
+							{ "amount" : 1, "type" : "mdtGhost", "upgradeChance": 50 }, // in case they ever get an upgrade
+							{ "amount" : 1, "type" : "mdtGhost", "upgradeChance": 50 },
+							{ "amount" : 1, "type" : "mdtGhost", "upgradeChance": 50 },
+							{ "amount" : 1, "type" : "mdtGhost", "upgradeChance": 50 },
+							{ "amount" : 1, "type" : "mdtGhost", "upgradeChance": 50 },
+							{ "amount" : 1, "type" : "mdtGhost", "upgradeChance": 50 },
+							{ "amount" : 1, "type" : "mdtGhost", "upgradeChance": 50 }
+						],
+						"resources":
+						{
+							"gold" : 1000
+						},
+						"creatures": [ { "amount": 2, "type": "mdtGhost", "upgradeChance": 50 } ] // in case they ever get an upgrade
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 50, "max" : 80 },
+						"guards":
+						[
+							{ "amount" : 2, "type" : "mdtGhost", "upgradeChance": 50 },
+							{ "amount" : 2, "type" : "mdtGhost", "upgradeChance": 50 },
+							{ "amount" : 2, "type" : "mdtGhost", "upgradeChance": 50 },
+							{ "amount" : 2, "type" : "mdtGhost", "upgradeChance": 50 },
+							{ "amount" : 2, "type" : "mdtGhost", "upgradeChance": 50 },
+							{ "amount" : 2, "type" : "mdtGhost", "upgradeChance": 50 },
+							{ "amount" : 2, "type" : "mdtGhost", "upgradeChance": 50 }
+						],
+						"resources":
+						{
+							"gold" : 1500
+						},
+						"creatures": [ { "amount": 3, "type": "mdtGhost", "upgradeChance": 50 } ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 80, "max" : 100 },
+						"guards":
+						[
+							{ "amount" : 3, "type" : "mdtGhost", "upgradeChance": 50 },
+							{ "amount" : 3, "type" : "mdtGhost", "upgradeChance": 50 },
+							{ "amount" : 3, "type" : "mdtGhost", "upgradeChance": 50 },
+							{ "amount" : 3, "type" : "mdtGhost", "upgradeChance": 50 },
+							{ "amount" : 3, "type" : "mdtGhost", "upgradeChance": 50 },
+							{ "amount" : 3, "type" : "mdtGhost", "upgradeChance": 50 },
+							{ "amount" : 3, "type" : "mdtGhost", "upgradeChance": 50 }
+						],
+						"resources":
+						{
+							"gold" : 2000
+						},
+						"creatures": [ { "amount": 4, "type": "mdtGhost", "upgradeChance": 50 } ]
+					}
+				]
+			}
+		}
+	}
+}

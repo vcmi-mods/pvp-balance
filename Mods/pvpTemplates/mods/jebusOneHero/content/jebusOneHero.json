@@ -1,0 +1,861 @@
+{
+	"Jebus One Hero":
+	{
+		"minSize" : "xl", "maxSize" : "xl",
+		"players" : "2-4",
+		"allowedWaterContent" : ["none"],
+
+		"zones":
+		{
+			"1" :
+			{
+				"type" : "treasure", "size" : 25,
+				"neutralTowns" : { "castles" : 1 },
+				"terrainTypes" : [ "sand" ], 
+				"matchTerrainToTown" : false,
+				"monsters" : "strong",
+				"mines" : {"gold" : 4},
+				"treasure" : [
+					{"min" : 45000, "max": 60000, "density" : 3},
+					{"min" : 30000, "max": 45000, "density" : 3},
+					{"min" : 15000, "max": 30000, "density" : 1},
+					{"min" : 7000, "max": 15000, "density" : 1},
+					{"min" : 2000, "max": 6000, "density" : 3}
+				],
+				"customObjects" :
+							{
+								"bannedCategories" : ["creatureBank", "spellScroll", "questArtifact", "seerHut", "resource", "resourceGenerator", "randomArtifact"],
+								"bannedObjects" :["hota.mapobjects:object.townGate.townGate", "core:object.scholar", "core:object.obelisk.object", "core:object.pyramid.pyramid", "core:object.blackMarket.object", "hota.mapobjects:object.colosseumOfTheMagi.colosseumOfTheMagi", 
+							"core:object.arena", "core:object.libraryOfEnlightenment.libraryOfEnlightenment", "core:object.dragonUtopia.dragonUtopia", "core:object.refugeeCamp", "core:object.shrineOfMagicLevel1", "core:object.shrineOfMagicLevel2", "core:object.shrineOfMagicLevel3",
+							"hota.mapobjects:object.shrineOfMagicLevel1.shrineOfMagicMystery", "core:object.warMachineFactory.object", "core:object.learningStone", "core:object.witchHut.witchHut"],
+
+								
+								"commonObjects":
+								[
+					
+						{
+							"id" : "core:object.eyeOfTheMagi",
+							"rmg" : {
+									"value"     : 4000,
+									"rarity"    : 9999,
+									"zoneLimit" : 1
+									}
+						},
+						{
+							"id" : "pvp-balance.objects:object.dimensionDoorScrollObject.ddScroll",
+							"rmg" : {
+									 "value"     : 10000,
+									 "rarity"    : 9999,
+									 "zoneLimit" : 9
+									}
+					    },
+						{
+							"id" : "pvp-balance.objects:object.flyScrollObject.flyScroll",
+							"rmg" : {
+									 "value"     : 10000,
+									 "rarity"    : 9999,
+									 "zoneLimit" : 9
+									}
+					    },
+						{
+							"id" : "pvp-balance.objects:object.townPortalScrollObject.tpScroll",
+							"rmg" : {
+									 "value"     : 10000,
+									 "rarity"    : 9999,
+									 "zoneLimit" : 9
+									}
+					    },
+						{
+							"id" : "core:object.randomArtifactTreasure",
+							"rmg" : {
+									 "value"     : 2000,
+									 "rarity"    : 1000,
+									 "zoneLimit" : 35
+									}
+						},
+						{
+							"id" : "core:object.randomArtifactMinor",
+							"rmg" : {
+									 "value"     : 5000,
+									 "rarity"    : 1000,
+									 "zoneLimit" : 40
+									}
+						},
+						{
+							"id" : "core:object.randomArtifactMajor",
+							"rmg" : {
+									 "value"     : 10000,
+									 "rarity"    : 1000,
+									 "zoneLimit" : 45
+									}
+						},
+						{
+							"id" : "core:object.randomArtifactRelic",
+							"rmg" : {
+									 "value"     : 20000,
+									 "rarity"    : 9999,
+									 "zoneLimit" : 45
+									}
+						},
+						{
+							"id" : "core:object.creatureBank.cyclopsStockpile",
+							"rmg" : {
+									 
+									 "value"     : 3000,
+									 "rarity"    : 9999,
+									 "zoneLimit" : 15
+									}
+						},
+						{
+							"id" : "core:object.libraryOfEnlightenment.libraryOfEnlightenment",
+							"rmg" : {
+									 
+									 "value"     : 12000,
+									 "rarity"    : 9999,
+									 "zoneLimit" : 5
+									}
+						},
+						{
+							"id" : "core:object.arena",
+							"rmg" : {
+									 "value"     : 3000,
+									 "rarity"    : 1000,
+									 "zoneLimit" : 6
+									}
+						},
+						{
+							"id" : "hota.mapobjects:object.colosseumOfTheMagi.colosseumOfTheMagi",
+							"rmg" : {
+									 "value"     : 3000,
+									 "rarity"    : 9999,
+									 "zoneLimit" : 6
+									}
+						},
+						{
+							"id" : "hota.mapobjects:object.creatureBank.mansion",
+							"rmg" : {
+									 "value"     : 3000,
+									 "rarity"    : 9999,
+									 "zoneLimit" : 9
+									}
+						},
+						{
+							"id" : "core:object.blackMarket.object",
+							"rmg" : {
+									 "value"     : 8000,
+									 "rarity"    : 1000,
+									 "zoneLimit" : 9
+									}
+						},
+						{
+							"id" : "core:object.pyramid.pyramid",
+							"rmg" : {
+									 "value"     : 5000,
+									 "rarity"    : 1000,
+									 "zoneLimit" : 4
+									}
+						},
+						{
+							"id" : "core:object.obelisk.object",
+							"rmg" : {
+									 "value"     : 3000,
+									 "rarity"    : 9999,
+									 "zoneLimit" : 1
+									}
+						},
+						{
+							"id" : "core:object.scholar",
+							"rmg" : {
+									 "value"     : 1500,
+									 "rarity"    : 1000,
+									 "zoneLimit" : 6
+									}
+						},
+						{
+							"id" : "hota.mapobjects:object.townGate.townGate",
+							"rmg" : {
+									 "value"     : 5000,
+									 "rarity"    : 9999,
+									 "zoneLimit" : 4
+									}
+						},
+						{
+							"id" : "core:object.dragonUtopia.dragonUtopia",
+							"rmg" : {
+									 "value"     : 10000,
+									 "rarity"    : 9999,
+									 "zoneLimit" : 9
+									}
+						}
+				    ]
+							}
+			},
+
+			"2":
+			{
+				"type" : "playerStart", "size" : 15, "owner" : 1,
+				"playerTowns" : { "castles" : 2 },
+				"neutralTowns" : { "castles" : 2 },
+				"monsters" : "weak",
+				"matchTerrainToTown" : true,
+				"townsAreSameType" : true,
+				"mines" : {"wood" : 4, "ore" : 4, "gems" : 1, "crystal" : 1, "sulfur" : 1, "mercury" : 1, "gold" : 2},
+				"treasure" : [		
+											
+								{"min" : 12000, "max": 16000, "density": 4},
+								{"min" : 7200, "max": 12000, "density": 2},
+								{"min" : 2500, "max": 7200, "density": 8},
+								{"min" : 800, "max": 2500, "density": 3},
+								{"min" : 100, "max": 700, "density": 6}
+							],
+				"customObjects" :
+	{
+		"bannedCategories" : ["creatureBank", "spellScroll", "questArtifact", "seerHut", "resource", "resourceGenerator", "randomArtifact"],
+		"bannedObjects" :["core:object.warriorTomb", "core:object.refugeeCamp", "core:object.blackMarket", "core:object.tavern", "core:object.obelisk",
+		"hota.mapobjects:object.townGate.townGate", "core:object.campfire", "core:object.libraryOfEnlightenment.libraryOfEnlightenment", "core:object.arena", 
+		"hota.mapobjects:object.colosseumOfTheMagi.colosseumOfTheMagi", "hota.mapobjects:object.skeletonTransformer.skeletonTransformer", "hota.mapobjects:object.wateringPlace.wateringPlace","core:object.scholar", "core:object.witchHut.witchHut", "core:object.denOfThieves.object",
+		"core:object.learningStone", "core:object.shrineOfMagicLevel1", "core:object.shrineOfMagicLevel2", "core:object.shrineOfMagicLevel3", "hota.mapobjects:object.shrineOfMagicLevel1.shrineOfMagicMystery",
+		"core:object.tradingPost", "core:object.tradingPostDUPLICATE", "core:object.dragonUtopia.dragonUtopia", "hota.mapobjects:object.ancientLamp.ancientLamp",
+		"core:object.schoolOfMagic", "core:object.schoolOfWar", "core:object.marlettoTower", "core:object.mercenaryCamp", "core:object.gardenOfRevelation", "core:object.starAxis", "pvp-balance:object.magicUniversityFull.magicUniversityFull", "core:object.stables"  ],
+		"commonObjects":
+					[
+					
+					{
+							"id" : "core:object.eyeOfTheMagi",
+							"rmg" : {
+									 "value"     : 1000,
+									 "rarity"    : 9999,
+									 "zoneLimit" : 1
+									}
+					},
+					{
+						"id" : "core:object.hutOfTheMagi",
+						"rmg" : {
+								 "value"     : 1000,
+								 "rarity"    : 9999,
+								 "zoneLimit" : 1
+								}
+					},
+					{
+						"id" : "hota.mapobjects:object.townGate.townGate",
+						"rmg" : {
+								 "value"     : 5000,
+								 "rarity"    : 9999,
+								 "zoneLimit" : 3
+								}
+					},
+					{
+						"id" : "pvp-balance:object.magicUniversityFull.magicUniversityFull",
+						"rmg" : {
+								 "value"     : 5000,
+								 "rarity"    : 9999,
+								 "zoneLimit" : 2
+								}
+					},
+					{
+						"id" : "core:object.resource.gold",
+						"rmg" : {
+					         "value"     : 500,
+					         "rarity"    : 1000,
+							 "zoneLimit" : 50
+					        }
+					},
+					{
+						"id" : "core:object.treasureChest",
+						"rmg" : {
+					         "value"     : 500,
+					         "rarity"    : 1000,
+							 "zoneLimit" : 15
+					        }
+					},
+					{
+						"id" : "core:object.resource.wood",
+						"rmg" : {
+					         "value"     : 500,
+					         "rarity"    : 1000,
+							 "zoneLimit" : 15
+					        }
+					},
+					{
+						"id" : "core:object.resource.ore",
+						"rmg" : {
+					         "value"     : 500,
+					         "rarity"    : 1000,
+							 "zoneLimit" : 15
+					        }
+					},
+					{
+						"id" : "core:object.resource.gems",
+						"rmg" : {
+					         "value"     : 1500,
+					         "rarity"    : 1000,
+							 "zoneLimit" : 8
+					        }
+					},
+					{
+						"id" : "core:object.resource.sulfur",
+						"rmg" : {
+					         "value"     : 1500,
+					         "rarity"    : 1000,
+							 "zoneLimit" : 8
+					        }
+					},
+					{
+						"id" : "core:object.resource.crystal",
+						"rmg" : {
+					         "value"     : 1500,
+					         "rarity"    : 1000,
+							 "zoneLimit" : 8
+					        }
+					},
+					{
+						"id" : "core:object.resource.mercury",
+						"rmg" : {
+					         "value"     : 1500,
+					         "rarity"    : 1000,
+							 "zoneLimit" : 8
+					        }
+					},
+					{
+						"id" : "core:object.campfire",
+						"rmg" : {
+					         "value"     : 500,
+					         "rarity"    : 1000,
+							 "zoneLimit" : 8
+					        }
+					},
+					{
+						"id" : "core:object.randomArtifactTreasure",
+						"rmg" : {
+								 "value"     : 2000,
+								 "rarity"    : 1000,
+								 "zoneLimit" : 5
+								}
+					},
+					{
+						"id" : "core:object.randomArtifactMinor",
+						"rmg" : {
+								 "value"     : 5000,
+								 "rarity"    : 1000,
+								 "zoneLimit" : 5
+								}
+					},
+					{
+						"id" : "core:object.randomArtifactMajor",
+						"rmg" : {
+								 "value"     : 10000,
+								 "rarity"    : 1000,
+								 "zoneLimit" : 5
+								}
+					},
+					{
+						"id" : "core:object.waterWheel",
+						"rmg" : {
+								 "value"     : 750,
+								 "rarity"    : 1000,
+								 "zoneLimit" : 3
+								}
+					},
+					{
+						"id" : "core:object.windmill",
+						"rmg" : {
+								 "value"     : 500,
+								 "rarity"    : 1000,
+								 "zoneLimit" : 1
+								}
+					},
+					{
+						"id" : "core:object.creatureBank.dwarvenTreasury",
+						"rmg" : {
+								 
+								 "value"     : 2000,
+								 "rarity"    : 1000,
+								 "zoneLimit" : 7
+								}
+					},
+					{
+						"id" : "core:object.creatureBank.medusaStore",
+						"rmg" : {
+								 
+								 "value"     : 1500,
+								 "rarity"    : 1000,
+								 "zoneLimit" : 5
+								}
+					},
+					{
+						"id" : "core:object.creatureBank.nagaBank",
+						"rmg" : {
+								 
+								 "value"     : 3000,
+								 "rarity"    : 1000,
+								 "zoneLimit" : 3
+								}
+					},
+					{
+						"id" : "core:object.creatureBank.cyclopsStockpile",
+						"rmg" : {
+								 
+								 "value"     : 3000,
+								 "rarity"    : 9999,
+								 "zoneLimit" : 5
+								}
+					},
+					{
+						"id" : "core:object.libraryOfEnlightenment.libraryOfEnlightenment",
+						"rmg" : {
+								 
+								 "value"     : 8000,
+								 "rarity"    : 9999,
+								 "zoneLimit" : 1
+								}
+					},
+					{
+						"id" : "core:object.arena",
+						"rmg" : {
+								 "value"     : 3000,
+								 "rarity"    : 1000,
+								 "zoneLimit" : 2
+								}
+					},
+					{
+						"id" : "hota.mapobjects:object.colosseumOfTheMagi.colosseumOfTheMagi",
+						"rmg" : {
+								 "value"     : 3000,
+								 "rarity"    : 200,
+								 "zoneLimit" : 1
+								}
+					},
+					{
+						"id" : "hota.mapobjects:object.creatureBank.mansion",
+						"rmg" : {
+								 "value"     : 3000,
+								 "rarity"    : 1000,
+								 "zoneLimit" : 2
+								}
+						},
+						{
+						"id" : "hota.highlandsterrain:object.creatureBank.churchyard",
+						"rmg" : {
+								 "value"     : 1500,
+								 "rarity"    : 1000,
+								 "zoneLimit" : 2
+								}
+						},
+						{
+							"id" : "core:object.scholar",
+							"rmg" : {
+									 "value"     : 1500,
+									 "rarity"    : 1000,
+									 "zoneLimit" : 6
+									}
+						},
+						{
+							"id" : "core:object.witchHut.witchHut",
+							"rmg" : {
+									 "value"     : 1500,
+									 "rarity"    : 1000,
+									 "zoneLimit" : 3
+									}
+						},
+						{
+							"id" : "core:object.denOfThieves.object",
+							"rmg" : {
+									 "value"     : 100,
+									 "rarity"    : 1000,
+									 "zoneLimit" : 1
+									}
+						},
+						{
+							"id" : "core:object.learningStone",
+							"rmg" : {
+									 "value"     : 1500,
+									 "rarity"    : 1000,
+									 "zoneLimit" : 4
+									}
+						},
+						{
+							"id" : "core:object.shrineOfMagicLevel1",
+							"rmg" : {
+									 "value"     : 500,
+									 "rarity"    : 1000,
+									 "zoneLimit" : 4
+									}
+						},
+						{
+							"id" : "core:object.shrineOfMagicLevel2",
+							"rmg" : {
+									 "value"     : 2000,
+									 "rarity"    : 1000,
+									 "zoneLimit" : 3
+									}
+						},
+						{
+							"id" : "core:object.shrineOfMagicLevel3",
+							"rmg" : {
+									 "value"     : 3000,
+									 "rarity"    : 1000,
+									 "zoneLimit" : 2
+									}
+						},
+						{
+							"id" : "hota.mapobjects:object.shrineOfMagicLevel1.shrineOfMagicMystery",
+							"rmg" : {
+									 "value"     : 3000,
+									 "rarity"    : 1000,
+									 "zoneLimit" : 3
+									}
+						},
+						{
+							"id" : "core:object.dragonUtopia.dragonUtopia",
+							"rmg" : {
+									 "value"     : 5000,
+									 "rarity"    : 9999,
+									 "zoneLimit" : 2
+									}
+						},
+						{
+							"id" : "hota.mapobjects:object.ancientLamp.ancientLamp",
+							"rmg" : {
+									"value"     : 5000,
+									"rarity"    : 1000,
+									"zoneLimit" : 7
+									}
+						},
+						{
+							"id" : "core:object.starAxis",
+							"rmg" : {
+									 "value"     : 1500,
+									 "rarity"    : 100,
+									 "zoneLimit" : 3
+									}
+						},
+						{
+							"id" : "core:object.gardenOfRevelation",
+							"rmg" : {
+									 "value"     : 1500,
+									 "rarity"    : 100,
+									 "zoneLimit" : 3
+									}
+						},
+						{
+							"id" : "core:object.mercenaryCamp",
+							"rmg" : {
+									 "value"     : 1500,
+									 "rarity"    : 100,
+									 "zoneLimit" : 3
+									}
+						},
+						{
+							"id" : "core:object.marlettoTower",
+							"rmg" : {
+									 "value"     : 1500,
+									 "rarity"    : 100,
+									 "zoneLimit" : 3
+									}
+						},
+						{
+							"id" : "core:object.schoolOfWar",
+							"rmg" : {
+									 "value"     : 1000,
+									 "rarity"    : 50,
+									 "zoneLimit" : 2
+									}
+						},
+						{
+							"id" : "core:object.schoolOfMagic",
+							"rmg" : {
+									 "value"     : 1000,
+									 "rarity"    : 50,
+									 "zoneLimit" : 2
+									}
+						}
+						
+
+
+					
+					
+
+
+
+
+					
+				]
+	}
+			},
+			"3":
+			{
+				"type" : "playerStart", "size" : 15, "owner" : 2,
+				"playerTowns" : { "castles" : 2 },
+				"neutralTowns" : { "castles" : 2 },
+				"monsters" : "weak",
+				"townsAreSameType" : true,
+				"matchTerrainToTown" : true,
+				"minesLikeZone" : 2,
+				"treasureLikeZone" : 2,
+				"customObjectsLikeZone" : 2
+			},
+			"4":
+			{
+				"type" : "playerStart", "size" : 15, "owner" : 3,
+				"neutralTowns" : { "castles" : 4},
+				"monsters" : "weak",
+				"matchTerrainToTown" : true,
+				"townsAreSameType" : true,
+				"minesLikeZone" : 2,
+				"treasureLikeZone" : 2,
+				"customObjectsLikeZone" : 2
+			},
+			"5":
+			{
+				"type" : "playerStart", "size" : 15, "owner" : 4,
+				"neutralTowns" : { "castles" : 4 },
+				"monsters" : "weak",
+				"matchTerrainToTown" : true,
+				"townsAreSameType" : true,
+				"minesLikeZone" : 2,
+				"treasureLikeZone" : 2,
+				"customObjectsLikeZone" : 2
+			},
+			"6":
+			{
+				"type" : "treasure", "size" : 3,
+				"neutralTowns" : { "castles" : 1 },
+				"monsters" : "strong",
+				"terrainTypes" : [ "sand" ], "matchTerrainToTown" : false,
+				"mines" : {"gold" : 3},
+				"treasure" : [		
+								{"min" : 15000, "max": 25000, "density": 4},
+								{"min" : 2500, "max": 12000, "density": 4},
+								{"min" : 500, "max": 4000, "density": 4}
+							],
+				"allowedTowns" : ["conflux"], 
+				"customObjects" :
+				{
+					"bannedCategories" : ["all"],
+					"commonObjects":
+								[
+									{
+										"id" : "core:object.creatureBank.cyclopsStockpile",
+										"rmg" : {
+												 
+												 "value"     : 3000,
+												 "rarity"    : 9999,
+												 "zoneLimit" : 2
+												}
+									},
+									{
+										"id" : "hota.mapobjects:object.creatureBank.mansion",
+										"rmg" : {
+												 "value"     : 3000,
+												 "rarity"    : 9999,
+												 "zoneLimit" : 1
+												}
+									},
+									{
+										"id" : "core:object.starAxis",
+										"rmg" : {
+												 "value"     : 1500,
+												 "rarity"    : 9999,
+												 "zoneLimit" : 2
+												}
+									},
+									{
+										"id" : "core:object.mercenaryCamp",
+										"rmg" : {
+												 "value"     : 1500,
+												 "rarity"    : 9999,
+												 "zoneLimit" : 2
+												}
+									},
+									{
+										"id" : "core:object.marlettoTower",
+										"rmg" : {
+												 "value"     : 1500,
+												 "rarity"    : 9999,
+												 "zoneLimit" : 2
+												}
+									},
+									{
+										"id" : "core:object.pyramid.pyramid",
+										"rmg" : {
+												 "value"     : 5000,
+												 "rarity"    : 9999,
+												 "zoneLimit" : 2
+												}
+									},
+									{
+										"id" : "core:object.randomArtifactTreasure",
+										"rmg" : {
+												 "value"     : 2000,
+												 "rarity"    : 9999,
+												 "zoneLimit" : 4
+												}
+									},
+									{
+										"id" : "core:object.randomArtifactMinor",
+										"rmg" : {
+												 "value"     : 5000,
+												 "rarity"    : 9999,
+												 "zoneLimit" : 4
+												}
+									},
+									{
+										"id" : "core:object.randomArtifactMajor",
+										"rmg" : {
+												 "value"     : 10000,
+												 "rarity"    : 9999,
+												 "zoneLimit" : 2
+												}
+									},
+									{
+										"id" : "core:object.scholar",
+										"rmg" : {
+												 "value"     : 1500,
+												 "rarity"    : 1000,
+												 "zoneLimit" : 4
+												}
+									},
+									{
+										"id" : "core:object.witchHut.witchHut",
+										"rmg" : {
+												 "value"     : 1500,
+												 "rarity"    : 1200,
+												 "zoneLimit" : 2
+												}
+									},
+									
+									{
+										"id" : "core:object.creatureBank.nagaBank",
+										"rmg" : {
+												 
+												 "value"     : 3000,
+												 "rarity"    : 1000,
+												 "zoneLimit" : 2
+												}
+									},
+									{
+										"id" : "core:object.warMachineFactory.object",
+										"rmg" : {
+												 "value"     : 1500,
+												 "rarity"    : 9999,
+												 "zoneLimit" : 1
+												}
+									},
+									{
+										"id" : "core:object.hutOfTheMagi",
+										"rmg" : {
+												 "value"     : 1000,
+												 "rarity"    : 9999,
+												 "zoneLimit" : 1
+												}
+									},
+									{
+										"id" : "core:object.randomArtifactRelic",
+										"rmg" : {
+												 "value"     : 20000,
+												 "rarity"    : 9999,
+												 "zoneLimit" : 2
+												}
+									},
+									{
+										"id" : "core:object.oasis.oasis",
+										"rmg" : {
+												 "value"     : 750,
+												 "rarity"    : 9999,
+												 "zoneLimit" : 1
+												}
+									},
+									{
+										"id" : "hota.mapobjects:object.shrineOfMagicLevel1.shrineOfMagicMystery",
+										"rmg" : {
+												 "value"     : 7000,
+												 "rarity"    : 9999,
+												 "zoneLimit" : 2
+												}
+									},
+									{
+										"id" : "hota.mapobjects:object.colosseumOfTheMagi.colosseumOfTheMagi",
+										"rmg" : {
+												 "value"     : 3000,
+												 "rarity"    : 9999,
+												 "zoneLimit" : 1
+												}
+									}
+
+								]					
+				}
+			},
+			"7":
+			{
+				"type" : "treasure", "size" : 3,
+				"neutralTowns" : { "castles" : 1 },
+				"monsters" : "strong",
+				"terrainTypes" : [ "sand" ], "matchTerrainToTown" : false,
+				"treasureLikeZone" : 6,
+				"minesLikeZone" : 6,
+				"allowedTowns" : ["conflux"], 
+				"customObjectsLikeZone" : 6
+			},
+			"8":
+			{
+				"type" : "treasure", "size" : 3,
+				"neutralTowns" : { "castles" : 1 },
+				"monsters" : "strong",
+				"terrainTypes" : [ "sand" ], "matchTerrainToTown" : false,
+				"treasureLikeZone" : 6,
+				"minesLikeZone" : 6,
+				"allowedTowns" : ["conflux"], 
+				"customObjectsLikeZone" : 6
+			},
+			"9":
+			{
+				"type" : "treasure", "size" : 3,
+				"neutralTowns" : { "castles" : 1 },
+				"monsters" : "strong",
+				"terrainTypes" : [ "sand" ], "matchTerrainToTown" : false,
+				"treasureLikeZone" : 6,
+				"minesLikeZone" : 6,
+				"allowedTowns" : ["conflux"], 
+				"customObjectsLikeZone" : 6
+			}
+
+
+		},
+		"connections" :
+		[
+			{ "a" : "2", "b" : "6", "guard" : 45000 }, //biom1-malaPustynia1
+			{ "a" : "3", "b" : "7", "guard" : 45000 }, //biom2-malaPustynia2
+			{ "a" : "4", "b" : "8", "guard" : 45000}, //biom2-malaPustynia2
+			{ "a" : "5", "b" : "9", "guard" : 45000}, //biom2-malaPustynia2
+
+			
+			{ "a" : "6", "b" : "1", "guard" : 0, "road" : "true"}, //malaPustynia1-duzaPustynia
+			{ "a" : "7", "b" : "1", "guard" : 0, "road" : "true"}, //malaPustynia2-duzaPustynia
+			{ "a" : "8", "b" : "1", "guard" : 0, "road" : "true"}, //malaPustynia3-duzaPustynia
+			{ "a" : "9", "b" : "1", "guard" : 0, "road" : "true"}, //malaPustynia4-duzaPustynia
+			
+			//{ "a" : "1", "b" : "2", "type" : "fictive"  }, //duzaPustynia-biom1
+			//{ "a" : "1", "b" : "3", "type" : "fictive"  }, //duzaPustynia-biom2
+			///{ "a" : "1", "b" : "4", "type" : "fictive"  }, //duzaPustynia-biom3
+			//{ "a" : "1", "b" : "5", "type" : "fictive"  }, //duzaPustynia-biom4
+
+
+			{ "a" : "2", "b" : "9", "type" : "fictive"  }, //biom1-malaPustynia3
+			{ "a" : "3", "b" : "8", "type" : "fictive"  }, //biom2-malaPustynia4
+			{ "a" : "4", "b" : "6", "type" : "fictive"  }, //biom3-malaPustynia2
+			{ "a" : "5", "b" : "7", "type" : "fictive"  }, //biom4-malaPustynia1
+			
+
+			{ "a" : "2", "b" : "3", "type" : "repulsive"  }, //biom1-biom2
+			{ "a" : "4", "b" : "5", "type" : "repulsive"  }, //biom3-biom4
+			{ "a" : "6", "b" : "7", "type" : "repulsive"  }, //malaPustynia1-malaPustynia2
+			{ "a" : "8", "b" : "9", "type" : "repulsive"  } //malaPustynia3-malaPustynia4
+
+
+
+
+			
+		
+		]
+	}
+}

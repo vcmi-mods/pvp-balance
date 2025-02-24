@@ -1,0 +1,26 @@
+{
+    "name" : "New Generic Objects",
+
+    "description" : "This mod adds several new objects related to spells and magic skills.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Objects",
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "depends" : 
+	[
+        "hota.highlandsTerrain",
+        "hota.wastelandTerrain"
+    ],
+
+    "version" : "1.3",
+	
+    "keepDisabled" : false
+}

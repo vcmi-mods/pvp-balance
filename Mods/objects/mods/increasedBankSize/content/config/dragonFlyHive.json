@@ -1,0 +1,70 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"dragonFlyHive" : {
+				"blockedVisitable" : false,
+				"onGuardedMessage" : 32,
+				"onVisitedMessage" : 33,
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"guardsLayout" : "creatureBankNarrow",
+				"rmg" : {
+					"value"		: 9000,
+					"rarity"	: 100
+				},
+				"rewards": [
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 0, "max" : 15 },
+						"guards": [
+							{ "amount": 6, "type": "fireDragonFly" },
+							{ "amount": 6, "type": "fireDragonFly" },
+							{ "amount": 6, "type": "fireDragonFly" },
+							{ "amount": 6, "type": "fireDragonFly" },
+							{ "amount": 6, "type": "fireDragonFly" }
+						],
+						"creatures": [ { "amount": 4, "type": "wyvern" } ]
+					},
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 15, "max" : 50 },
+						"guards": [
+							{ "amount": 9, "type": "fireDragonFly" },
+							{ "amount": 9, "type": "fireDragonFly" },
+							{ "amount": 9, "type": "fireDragonFly" },
+							{ "amount": 9, "type": "fireDragonFly" },
+							{ "amount": 9, "type": "fireDragonFly" }
+						],
+						"creatures": [ { "amount": 6, "type": "wyvern" } ]
+					},
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 50, "max" : 85 },
+						"guards": [
+							{ "amount": 12, "type": "fireDragonFly" },
+							{ "amount": 12, "type": "fireDragonFly" },
+							{ "amount": 12, "type": "fireDragonFly" },
+							{ "amount": 12, "type": "fireDragonFly" },
+							{ "amount": 12, "type": "fireDragonFly" }
+						],
+						"creatures": [ { "amount": 8, "type": "wyvern" } ]
+					},
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 85, "max" : 100 },
+						"guards": [
+							{ "amount": 18, "type": "fireDragonFly" },
+							{ "amount": 18, "type": "fireDragonFly" },
+							{ "amount": 18, "type": "fireDragonFly" },
+							{ "amount": 18, "type": "fireDragonFly" },
+							{ "amount": 18, "type": "fireDragonFly" }
+						],
+						"creatures": [ { "amount": 12, "type": "wyvern" } ]
+					}
+					]
+			}
+		}
+	}
+}

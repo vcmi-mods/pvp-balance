@@ -1,0 +1,26 @@
+{
+	"name" : "Basic spell balance",
+	"description" : "Spell balance changes commonly accepted in the H3 PvP community. Includes balance changes of Slow, Fire Elemental and Earth elemental, as well as ban of Summon Boat, Scuttle Boat and Waterwalk.",
+	"author" : "wnukos",
+
+	"contact" : "wnukos on Discord",
+
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	
+	"modType" : "Spells",	
+
+	"spells":[
+		"config/spells.json"
+	],
+	
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+	"version" : "1.3",
+	
+	"keepDisabled" : false
+
+}

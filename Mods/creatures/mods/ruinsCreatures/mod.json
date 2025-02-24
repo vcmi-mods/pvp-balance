@@ -1,0 +1,29 @@
+{
+    "name" : "Ruins Creatures",
+
+    "description" : "Rebalanced creatures from Ruins Town mod.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+    
+    "depends" : 
+	[
+		"ruins-town"
+	],
+
+   "creatures": [
+   "config/creatures/creatures.json"
+   ],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.3",
+	
+    "keepDisabled" : false
+}

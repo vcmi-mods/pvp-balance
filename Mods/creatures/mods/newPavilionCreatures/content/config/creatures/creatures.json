@@ -1,0 +1,40 @@
+{
+
+    "new-pavilion:scarab":
+	{
+		"special" : true,
+		"aiValue" : 999999
+	},
+
+	"new-pavilion:elderSphinx":
+	{
+		"aiValue": 2000
+		
+	},
+	
+    "new-pavilion:sphinx":
+	{
+		"aiValue": 1800
+		
+	},
+	
+     "new-pavilion:anubisWarrior":
+	{
+		"aiValue": 7200,
+		"abilities" :
+		{
+		"godScalesAttack" : 
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.godScaleAttack",
+				"val" : 10
+			},
+		"spellDuration" : 
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 2
+			}
+		}
+		
+	}
+}

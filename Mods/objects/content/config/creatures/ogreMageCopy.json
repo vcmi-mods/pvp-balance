@@ -1,0 +1,60 @@
+{
+	"ogreMageCopy" : {
+		"name" : {
+			"singular" : "Ogre Archmage",
+			"plural" : "Ogre Archmages"
+		},
+		"special" : true,
+		"faction" : "stronghold",
+		"speed" : 5,
+		"hitPoints" : 60,
+		"attack" : 13,
+		"defense" : 7,
+		"damage" : {
+			"min" : 6,
+			"max" : 12
+		},
+		"abilities" :
+		{
+			"bloodlustCast" :
+			{
+				"type" : "ENCHANTER",
+				"subtype" : "spell.bloodlust",
+				"val" : 3,
+				"addInfo" : 100
+			},
+
+			"bloodlustSpellPower" :
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 50
+			},
+			
+			"castsCount" :
+			{
+				"type" : "CASTS",
+				"val" : 5
+			}
+		},
+
+		"graphics" : {
+			"iconLarge" : "iconsBig/ogreMageBigCopy",
+			"iconSmall" : "iconsSmall/ogreMageSmallCopy",
+			"animation" : "battle/COGMAGCopy.def",
+			"animationTime" : {
+				"attack" : 10,
+				"idle" : 10,
+				"walk" : 1.28
+			},
+			"timeBetweenFidgets" : 1
+		},
+		"sound" : {
+			"attack" : "OGRMATTK.wav",
+			"defend" : "OGRMDFND.wav",
+			"killed" : "OGRMKILL.wav",
+			"move" : "OGRMMOVE.wav",
+			"wince" : "OGRMWNCE.wav"
+		}
+	}
+}
+

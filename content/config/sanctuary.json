@@ -1,0 +1,15 @@
+{
+	"core:sanctuary" :
+	{
+		"types" : {
+			"object" : {
+				"rmg" : {
+				"rarity" : 1,
+				"value" : 999999,
+				"zoneLimit" : 0
+			}
+			}
+
+		}
+	}
+}

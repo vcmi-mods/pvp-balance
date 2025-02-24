@@ -1,0 +1,25 @@
+{
+    "name" : "Crypt on Rough and Lava",
+
+    "description" : "This mod allows the Crypt object to generate on Rough and Lava terrains.<br><br>Graphics made by Andruids.",
+
+    "author" : "wnukos, Andruids",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Objects",
+
+	"objects" :
+	[
+		"config/crypt.json"
+	],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.3",
+	
+    "keepDisabled" : false
+}

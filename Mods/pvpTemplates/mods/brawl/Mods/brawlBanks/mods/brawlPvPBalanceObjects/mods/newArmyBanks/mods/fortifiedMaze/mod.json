@@ -1,0 +1,33 @@
+{
+    "name" : "Fortified Maze",
+
+    "description" : "This mod adds a new creature bank - Fortified Maze. The bank is guarded by minotaurs and gives red dragons as reward.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+
+	"objects" :
+	[
+		"config/fortifiedMaze.json"
+	],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+
+	
+    "depends" : 
+	[
+        "pvp-balance.objects",
+        "pvp-balance.objects.newArmyBanks.fortifiedMaze",
+        "pvp-balance.pvpTemplates.brawl.brawlBanks.brawlPvpBalanceObjects"
+    ],
+
+    "version" : "1.3",
+	
+    "keepDisabled" : false
+}

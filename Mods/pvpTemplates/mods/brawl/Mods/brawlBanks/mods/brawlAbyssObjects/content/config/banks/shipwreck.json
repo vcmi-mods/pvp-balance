@@ -1,0 +1,121 @@
+{
+	"core:shipwreck" :
+	{
+		"types" :
+		{
+			"shipwreck" : {
+				"resetParameters" : {
+					"period" : 4,
+					"visitors" : true,
+					"rewards" : true
+				},
+				"onGuardedMessage" : 32,
+				"onVisitedMessage" : 33,
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"guardsLayout" : "creatureBankNarrow",
+				"rewards": 
+				[
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 0, "max" : 25 },
+						"guards":
+						[
+							{ "amount": 6, "type": "tbirdvulgaris", "upgradeChance": 50 },
+							{ "amount": 4, "type": "abyssSandCrab", "upgradeChance": 50 },
+							{ "amount": 5, "type": "tbirdvulgaris", "upgradeChance": 50 },
+							{ "amount": 4, "type": "abyssSandCrab", "upgradeChance": 50 },
+							{ "amount": 6, "type": "tbirdvulgaris", "upgradeChance": 50 }
+						],
+						"artifacts": [ { "class" : "TREASURE" } ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 25, "max" : 50 },
+						"guards":
+						[
+							{ "amount": 5, "type": "abyssSandCrab", "upgradeChance": 50 },
+							{ "amount": 6, "type": "tbirdvulgaris", "upgradeChance": 50 },
+							{ "amount": 4, "type": "abyssAbyssalCrab", "upgradeChance": 50 },
+							{ "amount": 5, "type": "tbirdelectric", "upgradeChance": 50 },
+							{ "amount": 5, "type": "abyssSandCrab", "upgradeChance": 50 }
+						],
+						"resources":
+						{
+							"gold" : 1000
+						},
+						"artifacts": [ { "class" : "TREASURE" } ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 50, "max" : 75 },
+						"guards":
+						[
+							{ "amount": 6, "type": "abyssSandCrab", "upgradeChance": 50 },
+							{ "amount": 7, "type": "tbirdelectric", "upgradeChance": 50 },
+							{ "amount": 3, "type": "abyssSeahorse", "upgradeChance": 50 },
+							{ "amount": 7, "type": "tbirdelectric", "upgradeChance": 50 },
+							{ "amount": 6, "type": "abyssAbyssalCrab", "upgradeChance": 50 }
+						],
+						"resources":
+						{
+							"gold" : 1200
+						},
+						"artifacts": [ { "class" : "TREASURE" } ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 75, "max" : 85 },
+						"guards":
+						[
+							{ "amount": 4, "type": "abyssSeahorse", "upgradeChance": 50 },
+							{ "amount": 6, "type": "abyssAbyssalCrab", "upgradeChance": 50 },
+							{ "amount": 4, "type": "darkOne", "upgradeChance": 50 },
+							{ "amount": 6, "type": "abyssAbyssalCrab", "upgradeChance": 50 },
+							{ "amount": 4, "type": "abyssHyppocamph", "upgradeChance": 50 }
+						],
+						"resources":
+						{
+							"gold" : 1500
+						},
+						"artifacts": [ { "class" : "TREASURE" }, { "class" : "TREASURE" } ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 85, "max" : 95 },
+						"guards":
+						[
+							{ "amount": 4, "type": "abyssSeahorse", "upgradeChance": 50 },
+							{ "amount": 4, "type": "darkOne", "upgradeChance": 50 },
+							{ "amount": 4, "type": "abyssHyppocamph", "upgradeChance": 50 },
+							{ "amount": 4, "type": "darkOne", "upgradeChance": 50 },
+							{ "amount": 4, "type": "abyssSeahorse", "upgradeChance": 50 }
+						],
+						"resources":
+						{
+							"gold" : 1500
+						},
+						"creatures": [ { "amount": 3, "type": "deepOne", "upgradeChance": 50 } ] // in case they get another upgrade at some point in the Abyss Town mod or in any other mod
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 95, "max" : 100 },
+						"guards":
+						[
+							{ "amount": 4, "type": "darkOne", "upgradeChance": 50 },
+							{ "amount": 4, "type": "abyssHyppocamph", "upgradeChance": 50 },
+							{ "amount": 4, "type": "deepOne", "upgradeChance": 50 },
+							{ "amount": 4, "type": "abyssHyppocamph", "upgradeChance": 50 },
+							{ "amount": 4, "type": "darkOne", "upgradeChance": 50 }
+						],
+						"resources":
+						{
+							"gold" : 1500
+						},
+						"creatures": [ { "amount": 3, "type": "goldenHyppocamph", "upgradeChance": 50 } ] // the original Water Temple bank suggests that they may get an upgrade at some point
+					}
+				]
+			}
+		}
+	}
+}

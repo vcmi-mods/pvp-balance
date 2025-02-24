@@ -1,0 +1,6 @@
+{
+	"demonDomainBattlefield": {
+		"graphics":  "battlefields/demonDomainBattlefield.bmp",
+		"isSpecial" : true
+		}
+}

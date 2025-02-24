@@ -1,0 +1,25 @@
+{
+	"core:spellbindersHat":
+	{
+		"text" :
+		{
+			"description" : "Gives the hero all level 5 spells. Such tramendous power comes with a price. Your opponent gets all level 3 spells."
+		},
+		"bonuses" :
+		[
+			{
+				"subtype" : "spellLevel5",
+				"type" : "SPELLS_OF_LEVEL"
+			},
+			{
+				"type" : "SPELLS_OF_LEVEL",
+				"subtype" : "spellLevel3",
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters": [ 
+					"OPPOSITE_SIDE"
+				]
+			}
+		]
+	}
+}

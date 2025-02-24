@@ -1,0 +1,17 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"mdtBonePillar" :
+			{		
+				
+				"rmg" : {
+					"value" : 999999,
+					"rarity" : 1,
+					"zoneLimit" : 0
+				}
+			}
+		}
+	}
+}

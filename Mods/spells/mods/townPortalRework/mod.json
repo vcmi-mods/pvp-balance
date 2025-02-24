@@ -1,0 +1,46 @@
+{
+	"name" : "Town Portal Rework",
+	"description" : "Town Portal spell is nerfed - you need to know more than one magic school to use it at advanced or expert level. The exact spell mechanics are:<br><br>- With expert Earth Magic and Basic Fire or Water Magic Town Portal is cast at advanced level.<br>- With expert Earth Magic and expert Fire or Water Magic Town Portal is cast at expert level.<br>- With expert Fire Magic and expert Water magic Town Portal is cast at advanced level.<br><br>As a side effect of this implementation, players need to cast Town Portal Invocation spell for 0 mana in order to get Town Portal in their spellbook. The invocation spell needs to be cast for each hero only once per game.",
+	"author" : "wnukos",
+
+	"contact" : "wnukos on Discord",
+
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	
+	"modType" : "Spells",	
+
+	"spells" :
+	[
+		"config/spells.json"
+	],
+
+	"skills" :
+	[
+		"config/skills.json"
+	],
+
+	"creatures":
+	[
+		"config/supplementaryCreatures.json"
+	],
+
+	"softDepends":
+	[
+		"pvp-balance.spells.controlSpells"
+	],
+
+	"depends":	[
+		"hota.cove"
+	],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+	"version" : "1.3",
+	
+	"keepDisabled" : true
+
+}

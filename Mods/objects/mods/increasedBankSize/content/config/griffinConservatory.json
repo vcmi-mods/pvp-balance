@@ -1,0 +1,70 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"griffinConservatory" : {
+				"blockedVisitable" : false,
+				"onGuardedMessage" : 32,
+				"onVisitedMessage" : 33,
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"guardsLayout" : "creatureBankWide",
+				"rmg" : {
+					"value"		: 2000,
+					"rarity"	: 100
+				},
+				"rewards": [
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 0, "max" : 15 },
+						"guards": [
+							{ "amount": 10, "type": "griffin" },
+							{ "amount": 10, "type": "griffin" },
+							{ "amount": 10, "type": "griffin", "upgradeChance": 50 },
+							{ "amount": 10, "type": "griffin" },
+							{ "amount": 10, "type": "griffin" }
+						],
+						"creatures": [ { "amount": 1, "type": "angel" } ]
+					},
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 15, "max" : 50 },
+						"guards": [
+							{ "amount": 20, "type": "griffin" },
+							{ "amount": 20, "type": "griffin" },
+							{ "amount": 20, "type": "griffin", "upgradeChance": 50 },
+							{ "amount": 20, "type": "griffin" },
+							{ "amount": 20, "type": "griffin" }
+						],
+						"creatures": [ { "amount": 2, "type": "angel" } ]
+					},
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 50, "max" : 85 },
+						"guards": [
+							{ "amount": 30, "type": "griffin" },
+							{ "amount": 30, "type": "griffin" },
+							{ "amount": 30, "type": "griffin", "upgradeChance": 50 },
+							{ "amount": 30, "type": "griffin" },
+							{ "amount": 30, "type": "griffin" }
+						],
+						"creatures": [ { "amount": 3, "type": "angel" } ]
+					},
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 85, "max" : 100 },
+						"guards": [
+							{ "amount": 40, "type": "griffin" },
+							{ "amount": 40, "type": "griffin" },
+							{ "amount": 40, "type": "griffin", "upgradeChance": 50 },
+							{ "amount": 40, "type": "griffin" },
+							{ "amount": 40, "type": "griffin" }
+						],
+						"creatures": [ { "amount": 4, "type": "angel" } ]
+					}
+					]
+			}
+		}
+	}
+}

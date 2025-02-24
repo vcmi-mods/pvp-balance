@@ -1,0 +1,98 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"demonDomain" : 
+			{
+				"name" : "Demon Domain",
+				"templates" : 
+				{
+					"base" : { 
+					"animation" : "demonDomain", 
+					"visitableFrom" : [ "---", "---", "+++"  ],
+					"mask" : [ "VVVV", "VVVV", "VBBV", "VBAV"]
+					}
+				},
+				"blockedVisitable" : false,
+				"onGuardedMessage" : 32,
+				"onVisitedMessage" : 33,
+				"visitMode" : "once",
+				"selectMode" : "selectPlayer",
+				"guardsLayout" : "creatureBankWide",
+				"battleground": "demonDomainBattlefield",
+				"onSelectMessage" : "The last of the demonic guards falls before you, dissipating into the shadows. With the battle won, you approach the glowing altar in the center of the domain, where two figures materialize from the darkened air - a devil and an efreet. Choose your prize wisely.",
+				"rmg" : {
+					"value"		: 4000,
+					"rarity"	: 50,
+					"zoneLimit" : 1
+				},
+				"rewards":
+				[
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 0, "max" : 40 },
+						"guards": [
+							{ "amount": 4, "type" : "pitFiend" },
+							{ "amount": 6, "type" : "hornedDemon" },
+							{ "amount": 6, "type" : "hornedDemon" },
+							{ "amount": 4, "type" : "pitFiend" },
+							{ "amount": 8, "type" : "hellHound" }
+						],
+						"creatures": [ { "amount": 3, "type": "efreet" } ]
+					},
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 0, "max" : 40 },
+						"creatures": [ { "amount": 1, "type": "devil" } ]
+					},
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 40, "max" : 80 },
+						"guards": [
+							{ "amount": 8, "type" : "pitLord" },
+							{ "amount": 12, "type" : "hornedDemon" },
+							{ "amount": 12, "type" : "hornedDemon" },
+							{ "amount": 8, "type" : "pitLord" },
+							{ "amount": 16, "type" : "hellHound" }
+						],
+						"creatures": [ { "amount": 6, "type": "efreet" } ]
+					},
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 40, "max" : 80 },
+						"creatures": [ { "amount": 2, "type": "devil" } ]
+					},
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 80, "max" : 100 },
+						"guards": [
+							{ "amount": 12, "type" : "pitLord" },
+							{ "amount": 18, "type" : "hornedDemon" },
+							{ "amount": 18, "type" : "hornedDemon" },
+							{ "amount": 12, "type" : "pitLord" },
+							{ "amount": 24, "type" : "cerberus" }
+						],
+						"creatures": [ { "amount": 9, "type": "efreet" } ]
+					},
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 80, "max" : 100 },
+						"creatures": [ { "amount": 3, "type": "devil" } ]
+					}
+				]
+				
+			},
+
+			"redTower" : {
+				
+				"rmg" : {
+					"value"		: 999999,
+					"rarity"	: 1,
+					"zoneLimit" : 0
+				}
+				
+			}
+		}
+	}
+}

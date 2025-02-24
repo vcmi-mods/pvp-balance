@@ -1,0 +1,105 @@
+{
+	"sekhmetCopy":
+	{
+		"name" :
+		{
+			"plural" : "Priestesses",
+			"singular" : "Priestess"
+		},
+		"advMapAmount" :
+		{
+			"max" : 20,
+			"min" : 10
+		},
+		"faction" : "neutral",
+		"special" : true,
+		"aiValue" : 520,
+		"attack" : 10,
+		"cost" :
+		{
+			"gold" : 330
+		},
+		"damage" :
+		{
+			"max" : 9,
+			"min" : 7
+		},
+		"defense" : 7,
+		"fightValue" : 480,
+		"graphics" :
+		{
+			"animation" : "battle/SekhmetCopy.def",
+			"map" : "map/SekhmetMapCopy.def",
+			"iconSmall" : "iconsSmall/SekhmetSmallCopy.bmp",
+			"iconLarge" : "iconsBig/SekhmetCopy.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			},
+            "missile" :
+			{
+				"projectile" : "projectile/shot283Copy.def",
+				"attackClimaxFrame" : 7,
+				"offset" :
+				{
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}	
+		},
+		"growth" : 4,
+		"hitPoints" : 25,
+		"level" : 4,
+        "upgrades":
+		[
+			"sekhmetPriestessCopy"
+		],
+		"sound" :
+		{
+			"attack" : "sekhAttCopy.wav",
+			"defend": "sekhDefCopy.wav",
+			"killed": "sekhDieCopy.wav",
+			"move": "sekhWalkCopy.wav",
+			"wince": "sekhHitCopy.wav",
+            "shoot" : "sekhShootCopy.wav"
+ 		},
+		"speed" : 5,
+        "shots" : 12,
+		"abilities" :
+		{
+			"canShoot" :
+			{
+				"type" : "SHOOTER"
+			},
+			"healPower" : 
+			{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.cure",
+				"val" : 25
+			},
+			"spellPoints" : 
+			{
+				"type" : "CASTS",
+				"val" : 3
+			},
+			"healLife":
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.cure",
+				"val" : 2
+			}
+		},
+		"stackExperience" :
+		[
+			
+		]	
+	}
+}

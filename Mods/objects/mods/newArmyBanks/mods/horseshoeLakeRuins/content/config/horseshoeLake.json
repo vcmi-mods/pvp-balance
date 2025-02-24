@@ -1,0 +1,98 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"horseshoeLake" : 
+			{
+				"name" : "Horseshoe Lake",
+				"templates" : 
+				{
+					"base" : { 
+					"animation" : "horseshoeLake", 
+					"visitableFrom" : [ "---", "---", "+++"  ],
+					"mask" : [ "VVVV", "VVVV", "VBBB", "VBAV"],
+					"allowedTerrains" :[ "dirt", "grass", "swamp", "rough", "highlands", "wasteland"]
+					}
+				},
+				"blockedVisitable" : false,
+				"onGuardedMessage" : 32,
+				"onVisitedMessage" : 33,
+				"onSelectMessage" : "Having vanquished the mystical Kelpies that guarded the lake’s shores, you now stand before a choice, a reward for your triumph. Will you claim the sacred Priestesses or the fierce Perytons?",
+				"visitMode" : "once",
+				"selectMode" : "selectPlayer",
+				"guardsLayout" : "horseshoeLake",
+				"battleground": "horseshoeLakeBattlefield",
+				"rmg" : {
+					"value"		: 9000,
+					"rarity"	:100
+				},
+				"rewards":
+				[
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 0, "max" : 40 },
+						"guards": [
+							{ "amount": 6, "type" : "rn_creature_lvl4" },
+							{ "amount": 6, "type" : "rn_creature_lvl4" },
+							{ "amount": 6, "type" : "rn_creature_lvl4_up"},
+							{ "amount": 6, "type" : "rn_creature_lvl4_up" },
+							{ "amount": 6, "type" : "rn_creature_alternate_up" }
+						],
+						"creatures": [ { "amount": 6, "type": "rn_creature_alternate_up" }  ]
+					},
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 0, "max" : 40 },
+						"creatures": [ { "amount": 4, "type": "rn_creature_lvl5_up"  }   ]
+					},
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 40, "max" : 80 },
+						"guards": [
+							{ "amount": 12, "type" : "rn_creature_lvl4" },
+							{ "amount": 12, "type" : "rn_creature_lvl4" },
+							{ "amount": 12, "type" : "rn_creature_lvl4_up", "upgradeChance":50  },
+							{ "amount": 12, "type" : "rn_creature_lvl4_up" },
+							{ "amount": 12, "type" : "rn_creature_alternate_up" }
+						],
+						"creatures": [ { "amount": 12, "type": "rn_creature_alternate_up" } ]
+					},
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 40, "max" : 80 },
+						"creatures": [ { "amount": 8, "type": "rn_creature_lvl5_up"  }   ]
+					},
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 80, "max" : 100 },
+						"guards": [
+							{ "amount": 18, "type" : "rn_creature_lvl4" },
+							{ "amount": 18, "type" : "rn_creature_lvl4" },
+							{ "amount": 18, "type" : "rn_creature_lvl4_up", "upgradeChance":50  },
+							{ "amount": 18, "type" : "rn_creature_lvl4_up" },
+							{ "amount": 18, "type" : "rn_creature_alternate_up" }
+						],
+						"creatures": [ { "amount": 18, "type": "rn_creature_alternate_up"  }  ]
+					},
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 80, "max" : 100 },
+						"creatures": [ { "amount": 12, "type": "rn_creature_lvl5_up"  }  ]
+					}
+				]
+				
+			},
+
+
+				"horseshoeLakeNeutral" : 
+				{
+					"rmg" : {
+						"value"		: 999999,
+						"rarity"	:1,
+						"zoneLimit" :0
+					}
+				}
+		}
+	}
+}

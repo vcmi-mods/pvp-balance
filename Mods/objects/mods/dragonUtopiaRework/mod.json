@@ -1,0 +1,25 @@
+{
+    "name" : "Dragon Utopia Rework",
+
+    "description" : "With this submod Tome of Air Magic and Spellbinder’s Hat can be obtained only from size 3 and 4 Dragon Utopia. Moreover, chances for respective Utopia sizes are changed – 15% for minimum size, 35% for size 2 and, 35% for size 3 and 15% for maximum size.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Objects",
+
+	"objects" :
+	[
+		"config/reworkedDragonUtopia.json"
+	],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.3",
+	
+    "keepDisabled" : true
+}

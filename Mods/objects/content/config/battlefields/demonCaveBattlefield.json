@@ -1,0 +1,6 @@
+{
+	"demonCaveBattlefield": {
+		"graphics":  "battlefields/demonCaveBattlefield.png",
+		"isSpecial" : true
+		}
+}

@@ -1,0 +1,31 @@
+{
+    "name" : "Extended hero balance",
+
+    "description" : "Creature and spell specialists are buffed. Synca starts with advanced Leadership instead of Leadership and Scholar.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Heroes",
+    
+
+   "heroes": [
+   "config/heroes.json"
+   ],
+
+   "depends": [
+    "hota.gameBalance",
+    "hota.cove",
+    "pvp-balance.heroes.basicHeroBalance"
+   ],
+   
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.3",
+	
+    "keepDisabled" : true
+}

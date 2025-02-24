@@ -1,0 +1,37 @@
+{
+  	
+"tides-of-war.heroes:mdtHokori" : { "special" : true },
+
+"tides-of-war.heroes:mdtVerstan" : { 
+    "specialty#override" : {
+        "bonuses" : {
+            "resistance" : {
+                "type" : "SPELL_DAMAGE_REDUCTION",
+                "subtype" : "spellSchool.any",
+                "val" : 10,
+                "valueType" : "ADDITIVE_VALUE",
+                "limiters" : [
+                    {
+                        "type" : "CREATURE_TYPE_LIMITER",
+                        "parameters" : ["mdtDrakeGolem", true]
+                    }
+                ]
+            }
+        }
+    },
+
+    "texts" :
+    {
+        "name" : "Verstan",
+        "biography" : "Verstan has been fascinated by constructing Golems since childhood. His inquisitiveness and challenging questions often perplexed even the best constructors. Not much time has past before Gavin Magnus himself noticed Verstan's potential and ordered him constructing new kinds of Golems, based on the accomplishments of the Red Dwarves.",
+        "specialty" :
+        {
+            "name" : "Drake Golems",
+            "description" : "All Drake Golems and Dragon Golems gain additional 10% damage reduction from spells.",
+            "tooltip" : "Creature Bonus: Drake Golems"
+        }
+    }
+}
+
+
+}

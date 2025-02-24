@@ -1,0 +1,23 @@
+{
+	"new-pavilion:1_keila":{"special" : true },
+	"new-pavilion:1_seref":{"special" : true },
+	"new-pavilion:1_zamonth":{"special" : true },
+
+    "new-pavilion:0_cassandra":{
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "interference"
+			},
+			{
+				"level" : "basic",
+				"skill" : "diplomacy"
+			}
+		]
+	},
+	
+	"new-pavilion:0_varn":{
+		"special" : false
+	}
+}

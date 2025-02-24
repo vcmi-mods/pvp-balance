@@ -1,0 +1,206 @@
+{
+	"suppWater1" : {
+		"name" : {
+			"singular" : "Supp1",
+			"plural" : "Supp1"
+		},
+		"special" : true,
+		"faction" : "neutral",
+		"speed" : 5,
+		"hitPoints" : 60,
+		"attack" : 13,
+		"defense" : 7,
+		"damage" : {
+			"min" : 6,
+			"max" : 12
+		}
+	},
+
+	"suppWater2" : {
+		"name" : {
+			"singular" : "Supp2",
+			"plural" : "Supp2"
+		},
+		"special" : true,
+		"faction" : "neutral",
+		"speed" : 5,
+		"hitPoints" : 60,
+		"attack" : 13,
+		"defense" : 7,
+		"damage" : {
+			"min" : 6,
+			"max" : 12
+		}
+	},
+
+	"suppWater3" : {
+		"name" : {
+			"singular" : "Supp3",
+			"plural" : "Supp3"
+		},
+		"special" : true,
+		"faction" : "neutral",
+		"speed" : 5,
+		"hitPoints" : 60,
+		"attack" : 13,
+		"defense" : 7,
+		"damage" : {
+			"min" : 6,
+			"max" : 12
+		}
+	},
+
+	"suppFire1" : {
+		"name" : {
+			"singular" : "Supp4",
+			"plural" : "Supp4"
+		},
+		"special" : true,
+		"faction" : "neutral",
+		"speed" : 5,
+		"hitPoints" : 60,
+		"attack" : 13,
+		"defense" : 7,
+		"damage" : {
+			"min" : 6,
+			"max" : 12
+		}
+	},
+
+	"suppFire2" : {
+		"name" : {
+			"singular" : "Supp5",
+			"plural" : "Supp5"
+		},
+		"special" : true,
+		"faction" : "neutral",
+		"speed" : 5,
+		"hitPoints" : 60,
+		"attack" : 13,
+		"defense" : 7,
+		"damage" : {
+			"min" : 6,
+			"max" : 12
+		}
+	},
+
+	"suppFire3" : {
+		"name" : {
+			"singular" : "Supp6",
+			"plural" : "Supp6"
+		},
+		"special" : true,
+		"faction" : "neutral",
+		"speed" : 5,
+		"hitPoints" : 60,
+		"attack" : 13,
+		"defense" : 7,
+		"damage" : {
+			"min" : 6,
+			"max" : 12
+		}
+	},
+
+	"suppAir1" : {
+		"name" : {
+			"singular" : "Supp7",
+			"plural" : "Supp7"
+		},
+		"special" : true,
+		"faction" : "neutral",
+		"speed" : 5,
+		"hitPoints" : 60,
+		"attack" : 13,
+		"defense" : 7,
+		"damage" : {
+			"min" : 6,
+			"max" : 12
+		}
+	},
+
+	"suppAir2" : {
+		"name" : {
+			"singular" : "Supp8",
+			"plural" : "Supp8"
+		},
+		"special" : true,
+		"faction" : "neutral",
+		"speed" : 5,
+		"hitPoints" : 60,
+		"attack" : 13,
+		"defense" : 7,
+		"damage" : {
+			"min" : 6,
+			"max" : 12
+		}
+	},
+
+	"suppAir3" : {
+		"name" : {
+			"singular" : "Supp9",
+			"plural" : "Supp9"
+		},
+		"special" : true,
+		"faction" : "neutral",
+		"speed" : 5,
+		"hitPoints" : 60,
+		"attack" : 13,
+		"defense" : 7,
+		"damage" : {
+			"min" : 6,
+			"max" : 12
+		}
+	},
+
+	"suppEarth1" : {
+		"name" : {
+			"singular" : "Supp10",
+			"plural" : "Supp10"
+		},
+		"special" : true,
+		"faction" : "neutral",
+		"speed" : 5,
+		"hitPoints" : 60,
+		"attack" : 13,
+		"defense" : 7,
+		"damage" : {
+			"min" : 6,
+			"max" : 12
+		}
+	},
+
+	"suppEarth2" : {
+		"name" : {
+			"singular" : "Supp11",
+			"plural" : "Supp11"
+		},
+		"special" : true,
+		"faction" : "neutral",
+		"speed" : 5,
+		"hitPoints" : 60,
+		"attack" : 13,
+		"defense" : 7,
+		"damage" : {
+			"min" : 6,
+			"max" : 12
+		}
+	},
+
+	"suppEarth3" : {
+		"name" : {
+			"singular" : "Supp12",
+			"plural" : "Supp12"
+		},
+		"special" : true,
+		"faction" : "neutral",
+		"speed" : 5,
+		"hitPoints" : 60,
+		"attack" : 13,
+		"defense" : 7,
+		"damage" : {
+			"min" : 6,
+			"max" : 12
+		}
+	}
+}
+

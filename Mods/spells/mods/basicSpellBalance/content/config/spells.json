@@ -1,0 +1,115 @@
+{
+	"core:summonBoat" : {
+		
+		"flags" : {
+			"special" : true
+		}
+
+	},
+	"core:scuttleBoat" : {
+		
+		"flags" : {
+			"special" : true
+		}
+	},
+	"core:waterWalk" : {
+		
+		"flags" : {
+			"special" : true
+		}
+	},
+
+	"core:fireElemental" : {
+		
+		"levels" : {
+			"advanced" : {
+			
+				"power" : 3
+			},
+		
+			"basic" : {
+				"power" : 2
+			},
+			"expert" : {
+				"power" : 3
+			},
+			"none" : {
+				"power" : 2
+			}
+		}
+	},
+	
+	"core:earthElemental" : {
+		
+		"levels" : {
+			"advanced" : {
+			
+				"power" : 3
+			},
+		
+			"basic" : {
+				"power" : 2
+			},
+			"expert" : {
+				"power" : 3
+			},
+			"none" : {
+				"power" : 2
+			}
+		}
+	},
+
+	"core:slow" : {
+		"levels" : {
+			"base#override":{
+				"range" : "0",
+				"targetModifier":{"smart":true},
+				"effects" : {
+					"stacksSpeed" : {
+						"addInfo" : 0,
+						"type" : "STACKS_SPEED",
+						"val" : -25,
+						"valueType" : "PERCENT_TO_ALL",
+						"duration" : "N_TURNS"
+					},
+
+					"hotaNerf" : {
+						"addInfo" : 0,
+						"type" : "STACKS_SPEED",
+						"valueType" : "ADDITIVE_VALUE",
+						"val" : 0,
+						"duration" : "N_TURNS"
+						}
+				}
+			},
+
+			"advanced":{
+				"effects" : {
+					"stacksSpeed" : {
+						"val" : -50
+					},
+					"hotaNerf" : {"val":2}
+				}
+			},
+
+			"expert":{
+				"range" : "X",
+				"effects" : {
+					"stacksSpeed" : {
+						"val" : -50
+					},
+					"hotaNerf" : {"val":2}
+				}
+			}
+	}
+}
+}
+
+
+
+
+	
+	
+	
+	
+	

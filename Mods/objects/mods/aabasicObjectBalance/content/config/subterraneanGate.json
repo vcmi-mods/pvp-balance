@@ -1,0 +1,21 @@
+{
+
+	"core:subterraneanGate" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"HAExit01" : {
+						"allowedTerrains" : [ ]
+					}
+				}
+			}
+		}
+	}
+
+
+
+
+
+
+
+}

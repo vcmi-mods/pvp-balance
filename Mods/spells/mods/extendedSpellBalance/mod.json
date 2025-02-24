@@ -1,0 +1,34 @@
+{
+	"name" : "Extended spell balance",
+	"description" : "Rebalanced spells with a focus on enhancing spells from Fire and Water Magic School.",
+	"author" : "wnukos",
+
+	"contact" : "wnukos on Discord",
+	
+	"modType" : "Spells",	
+
+	"spells" :
+	[
+		"config/spells.json"
+	],
+
+	"depends" : 
+	[
+		"hota.cove"
+	],	
+
+	"softDepends" : 
+	[
+		"pvp-balance.spells.controlSpells"
+	],	
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+	"version" : "1.3",
+	
+	"keepDisabled" : true
+
+}

@@ -1,0 +1,39 @@
+{
+    "name" : "Horseshoe Lake",
+
+    "description" : "This mod adds Horseshoe Lake bank in place of Wolf Raider Picket.<br><br>Graphics made by Kurek.The used battlefield comes from the Morn's Battlefields mod.",
+
+    "author" : "wnukos, Kurek",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Objects",
+
+	"objects" :
+	[
+		"config/horseshoeLakeNeutral.json"
+	],
+
+	"depends" :
+	[
+		"hota.highlandsTerrain",
+		"hota.wastelandTerrain",
+		"pvp-balance.objects",
+		"hota.mapObjects"
+	],
+
+	"softDepends":
+	["pvp-balance.objects.increasedBankSize"],
+
+	"conflicts":
+	["pvp-balance.objects.newArmyBanks.horseshoeLake"],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.3",
+	
+    "keepDisabled" : true
+}

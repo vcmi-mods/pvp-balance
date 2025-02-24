@@ -1,0 +1,24 @@
+{
+  "ruins-town:rn_magic": {
+    "secondarySkills": {
+      "scouting" : 20,
+      "logistics" : 20
+      
+    }
+  },
+
+  "ruins-town:rn_might": {
+    "secondarySkills": {
+      "scouting" : 20,
+      "logistics" : 20
+      
+    }
+  }
+  
+
+
+
+
+
+  
+}

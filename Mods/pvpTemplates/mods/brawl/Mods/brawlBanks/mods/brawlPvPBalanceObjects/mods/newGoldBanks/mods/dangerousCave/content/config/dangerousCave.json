@@ -1,0 +1,53 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"dangerousCave" :
+			{
+				"rmg" :
+				{
+					"value" : 2500,
+					"rarity" : 50,
+					"zoneLimit" : 1
+				},
+				"resetParameters" :
+				{
+					"period" : 4,
+					"visitors" : true,
+					"rewards" : true
+				},
+				"rewards":
+				[
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 0, "max" : 100 },
+						"guards": [
+							{ "amount": 1, "type" : "troll", "upgradeChance": 50 },
+							{ "amount": 1, "type" : "troll", "upgradeChance": 50 },
+							{ "amount": 1, "type" : "troll", "upgradeChance": 50 },
+							{ "amount": 1, "type" : "troll", "upgradeChance": 50 },
+							{ "amount": 1, "type" : "cyclop", "upgradeChance": 50 }
+						],
+						"resources":
+						{
+							"gold" : 1000,
+							"crystal" : 2
+						},
+						"creatures": [ { "amount": 2, "type": "ogreMageCopy" } ]
+					},
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 0, "max" : 100 },
+						"resources":
+						{
+							"gold" : 1000,
+							"crystal" : 2
+						},
+						"artifacts" : [ "ogresClubOfHavoc" ]
+					}
+				]
+			}
+		}
+	}
+}

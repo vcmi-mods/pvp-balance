@@ -1,0 +1,61 @@
+{
+"new-pavilion:goldenScarab": {	
+		"text":
+		{
+			"name": "Golden Scarab",
+			"description": "{Golden Scarab}\r\n\r\nWearing this item increases your Morale by +1, and your income by +350 gold per day.",
+			"event": "Strolling through the camp, you catch a glimpse of a shiny scarab scurrying away. When you catch it, it turns into a lifeless statue. Without thinking long, you hide it in your pocket."
+		},
+		"bonuses":
+		[
+			{
+				"type": "MORALE",
+				"val": 1,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type": "GENERATE_RESOURCE",
+				"subtype": "resource.gold",
+				"val": 350,
+				"valueType" : "BASE_NUMBER"
+			}
+		]
+	  },
+
+"new-pavilion:sunShield":{
+
+		"text":
+		{
+			"name": "Sun Shield",
+			"description": "{Sun Shield}\r\n\r\nThis left handed item increases your Defense skill by +5, and decreases opponent's Spell Power by 2.",
+			"event": "During a journey, you encounter Wadjets sleeping nearby, with a source of incredible radiance in their nest. You quietly sneak up and take the object. In safety, you marvel at the glistening beauty of the Sun Shield."
+					
+		},
+
+		"bonuses#override":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "defence",
+				"val": 5,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "spellpower",
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [ "OPPOSITE_SIDE" ],
+				"val":-2
+			}
+		]
+	},
+
+"new-pavilion:scrollOfWisdom":{
+
+		"class" : "MAJOR"
+	}
+			
+  }
+  
+  

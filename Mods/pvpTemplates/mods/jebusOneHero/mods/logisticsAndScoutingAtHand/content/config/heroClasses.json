@@ -1,0 +1,158 @@
+{
+  "core:knight": {
+    "secondarySkills": {
+      "scouting" : 20,
+      "logistics" : 20
+      
+    }
+  },
+  
+  "core:cleric": {
+    "secondarySkills": {
+      "scouting" : 20,
+      "logistics" : 20
+      
+    }
+  },
+
+  "core:planeswalker": {
+    "secondarySkills": {
+      "scouting" : 20,
+      "logistics" : 20
+      
+    }
+  },
+
+  "core:elementalist": {
+    "secondarySkills": {
+      "scouting" : 20,
+      "logistics" : 20
+      
+    }
+  },
+
+  "core:warlock": {
+    "secondarySkills": {
+      "scouting" : 20,
+      "logistics" : 20
+      
+    }
+  },
+
+  "core:overlord": {
+    "secondarySkills": {
+      "scouting" : 20,
+      "logistics" : 20
+      
+    }
+  },
+
+  "core:beastmaster": {
+    "secondarySkills": {
+      "scouting" : 20,
+      "logistics" : 20
+      
+    }
+  },
+
+  "core:witch": {
+    "secondarySkills": {
+      "scouting" : 20,
+      "logistics" : 20
+      
+    }
+  },
+
+  "core:demoniac": {
+    "secondarySkills": {
+      "scouting" : 20,
+      "logistics" : 20
+      
+    }
+  },
+
+  "core:heretic": {
+    "secondarySkills": {
+      "scouting" : 20,
+      "logistics" : 20
+      
+    }
+  },
+
+  "core:deathknight": {
+    "secondarySkills": {
+      "scouting" : 20,
+      "logistics" : 20
+      
+    }
+  },
+
+  "core:necromancer": {
+    "secondarySkills": {
+      "scouting" : 20,
+      "logistics" : 20
+      
+    }
+  },
+
+  "core:ranger": {
+    "secondarySkills": {
+      "scouting" : 20,
+      "logistics" : 20
+      
+    }
+  },
+
+  "core:druid": {
+    "secondarySkills": {
+      "scouting" : 20,
+      "logistics" : 20
+      
+    }
+  },
+
+  "core:barbarian": {
+    "secondarySkills": {
+      "scouting" : 20,
+      "logistics" : 20
+      
+    }
+  },
+
+  "core:battlemage": {
+    "secondarySkills": {
+      "scouting" : 20,
+      "logistics" : 20
+    }
+  },
+
+  "core:alchemist": {
+    "secondarySkills": {
+      "scouting" : 20,
+      "logistics" : 20
+    }
+  },
+
+  "core:wizard": {
+    "secondarySkills": {
+      "scouting" : 20,
+      "logistics" : 20
+    }
+  },
+
+    "hota.cove:captain": {
+    "secondarySkills": {
+      "scouting" : 20,
+      "logistics" : 20
+    }
+  },
+  
+    "hota.cove:navigator": {
+    "secondarySkills": {
+      "scouting" : 20,
+      "logistics" : 20
+    }
+  }
+
+  
+}

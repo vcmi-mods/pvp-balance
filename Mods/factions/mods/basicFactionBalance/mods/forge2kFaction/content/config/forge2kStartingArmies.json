@@ -1,0 +1,406 @@
+{
+    
+	"forge2k:tp_agar2k":
+	{
+		"army" :
+		[
+			{
+				"creature" : "gruntSoldier2k",
+				"max" : 22,
+				"min" : 16
+			},
+			{
+				"creature" : "cyberDead2k",
+				"max" : 6,
+				"min" : 4
+			},
+			{
+				"creature" : "pyro2k",
+				"max" : 3,
+				"min" : 2
+			}
+		]
+		
+	},
+	
+  "forge2k:cyb_deckard2k":
+	{
+		"army" :
+		[
+			{
+				"creature" : "gruntSoldier2k",
+				"max" : 22,
+				"min" : 16
+			},
+			{
+				"creature" : "cyberDead2k",
+				"max" : 6,
+				"min" : 4
+			},
+			{
+				"creature" : "pyro2k",
+				"max" : 3,
+				"min" : 2
+			}
+		]
+		
+	},
+  
+    "forge2k:tp_charity2k":
+	{
+		
+		"army" :
+		[
+			{
+				"creature" : "gruntSoldier2k",
+				"max" : 22,
+				"min" : 16
+			},
+			{
+				"creature" : "cyberDead2k",
+				"max" : 6,
+				"min" : 4
+			},
+			{
+				"creature" : "pyro2k",
+				"max" : 3,
+				"min" : 2
+			}
+		]
+
+		
+	},
+	
+    "forge2k:tp_everest2k":
+	{
+		"army" :
+		[
+			{
+				"creature" : "gruntSoldier2k",
+				"max" : 22,
+				"min" : 16
+			},
+			{
+				"creature" : "cyberDead2k",
+				"max" : 6,
+				"min" : 4
+			},
+			{
+				"creature" : "pyro2k",
+				"max" : 3,
+				"min" : 2
+			}
+		]
+		
+		
+		
+		
+	},
+	
+    "forge2k:cyb_flamius2k":
+	{
+		"army" :
+		[
+			{
+				"creature" : "gruntSoldier2k",
+				"max" : 22,
+				"min" : 16
+			},
+			{
+				"creature" : "pyro2k",
+				"max" : 4,
+				"min" : 3
+			},
+			{
+				"creature" : "pyro2k",
+				"max" : 3,
+				"min" : 2
+			}
+		]
+		
+	},
+	
+    "forge2k:cyb_jules2k":
+	{
+		"army" :
+		[
+			{
+				"creature" : "gruntSoldier2k",
+				"max" : 22,
+				"min" : 16
+			},
+			{
+				"creature" : "cyberDead2k",
+				"max" : 6,
+				"min" : 4
+			},
+			{
+				"creature" : "pyro2k",
+				"max" : 3,
+				"min" : 2
+			}
+		]
+		
+	},
+	
+    "forge2k:tp_leanne2k":
+	{
+		"army" :
+		[
+			{
+				"creature" : "gruntSoldier2k",
+				"max" : 22,
+				"min" : 16
+			},
+			{
+				"creature" : "cyberDead2k",
+				"max" : 6,
+				"min" : 4
+			},
+			{
+				"creature" : "pyro2k",
+				"max" : 3,
+				"min" : 2
+			}
+		]
+		
+	},
+	
+     "forge2k:tp_sheikleen2k":
+	{
+
+		
+		"army" :
+		[
+			{
+				"creature" : "gruntSoldier2k",
+				"max" : 22,
+				"min" : 16
+			},
+			{
+				"creature" : "cyberDead2k",
+				"max" : 6,
+				"min" : 4
+			},
+			{
+				"creature" : "pyro2k",
+				"max" : 3,
+				"min" : 2
+			}
+		]
+		
+	},
+	
+      "forge2k:cyb_sprinter2k":
+	{
+		"army" :
+		[
+			{
+				"creature" : "gruntSoldier2k",
+				"max" : 22,
+				"min" : 16
+			},
+			{
+				"creature" : "gruntSoldier2k",
+				"max" : 22,
+				"min" : 16
+			},
+			{
+				"creature" : "gruntSoldier2k",
+				"max" : 22,
+				"min" : 16
+			}
+		]
+
+		
+	},
+	
+       "forge2k:cyb_singhell2k":
+	{
+		"army" :
+		[
+			{
+				"creature" : "cyberDead2k",
+				"max" : 6,
+				"min" : 4
+			},
+			{
+				"creature" : "cyberDead2k",
+				"max" : 6,
+				"min" : 4
+			},
+			{
+				"creature" : "cyberDead2k",
+				"max" : 6,
+				"min" : 4
+			}
+		]
+		
+	},
+	
+       "forge2k:cyb_rengust2k":
+	{
+		"army" :
+		[
+			{
+				"creature" : "gruntSoldier2k",
+				"max" : 22,
+				"min" : 16
+			},
+			{
+				"creature" : "cyberDead2k",
+				"max" : 6,
+				"min" : 4
+			},
+			{
+				"creature" : "stringer2k",
+				"max" : 2,
+				"min" : 2
+			}
+		]
+		
+		
+	},
+	
+        "forge2k:cyb_sturm2k":
+	{
+		"army" :
+		[
+			{
+				"creature" : "gruntSoldier2k",
+				"max" : 22,
+				"min" : 16
+			},
+			{
+				"creature" : "cyberDead2k",
+				"max" : 6,
+				"min" : 4
+			},
+			{
+				"creature" : "pyro2k",
+				"max" : 3,
+				"min" : 2
+			}
+		]
+	},
+	
+     "forge2k:cyb_sunnith2k":
+	{
+		"army" :
+		[
+			{
+				"creature" : "gruntSoldier2k",
+				"max" : 22,
+				"min" : 16
+			},
+			{
+				"creature" : "cyberDead2k",
+				"max" : 6,
+				"min" : 4
+			},
+			{
+				"creature" : "pyro2k",
+				"max" : 3,
+				"min" : 2
+			}
+		]
+		
+		
+	},
+	
+"forge2k:tp_cistrict2k":
+	{
+		"army" :
+		[
+			{
+				"creature" : "gruntSoldier2k",
+				"max" : 22,
+				"min" : 16
+			},
+			{
+				"creature" : "cyberDead2k",
+				"max" : 6,
+				"min" : 4
+			},
+			{
+				"creature" : "pyro2k",
+				"max" : 3,
+				"min" : 2
+			}
+		]
+	},
+	
+"forge2k:tp_elthas2k":
+	{
+		"army" :
+		[
+			{
+				"creature" : "gruntSoldier2k",
+				"max" : 22,
+				"min" : 16
+			},
+			{
+				"creature" : "cyberDead2k",
+				"max" : 6,
+				"min" : 4
+			},
+			{
+				"creature" : "pyro2k",
+				"max" : 3,
+				"min" : 2
+			}
+		]
+		
+		
+	},
+	
+"forge2k:tp_kastore2k":
+	{
+		
+		"army" :
+		[
+			{
+				"creature" : "gruntSoldier2k",
+				"max" : 22,
+				"min" : 16
+			},
+			{
+				"creature" : "cyberDead2k",
+				"max" : 6,
+				"min" : 4
+			},
+			{
+				"creature" : "pyro2k",
+				"max" : 3,
+				"min" : 2
+			}
+		]
+		
+	},
+
+"forge2k:cyb_null2k":
+	{
+		
+		"army" :
+		[
+			{
+				"creature" : "gruntSoldier2k",
+				"max" : 22,
+				"min" : 16
+			},
+			{
+				"creature" : "cyberDead2k",
+				"max" : 6,
+				"min" : 4
+			},
+			{
+				"creature" : "pyro2k",
+				"max" : 3,
+				"min" : 2
+			}
+		]
+		
+	}
+
+	
+}

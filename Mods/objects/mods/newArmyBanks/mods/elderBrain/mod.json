@@ -1,0 +1,31 @@
+{
+    "name" : "Elderbrain",
+
+    "description" : "This mod adds a new creature bank - Elderbrain. The bank is guarded by Alhoons and gives Red Dragons as reward. Mass weakness is being cast by guards in their first move.<br><br>Graphics made by Kurek. The used battlefield comes from the Morn's Battlefields mod.",
+
+    "author" : "wnukos, Kurek",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Objects",
+
+	"objects" :
+	[
+		"config/elderBrain.json"
+	],
+
+	"depends" :
+	[
+		"tides-of-war.alternative-creatures",
+		"pvp-balance.objects"
+	],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.3",
+	
+    "keepDisabled" : true
+}

@@ -1,0 +1,46 @@
+{
+    "name" : "Horseshoe Lake",
+
+    "description" : "This mod adds Horseshoe Lake in place of Wolf Raider Picket.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+	"modType" : "Compatibility",
+
+	"objects" :
+	[
+		"config/horseshoeLake.json"
+	],
+
+	"depends" :
+	[
+		"ruins-town",
+		"hota.highlandsTerrain",
+		"pvp-balance.objects",
+		"pvp-balance.objects.alternativeArmyBanks.horseshoeLakeForWolfRaiderPicket",
+		"hota.mapObjects"
+	],
+
+	"softDepends":
+	["pvp-balance.objects.increasedBankSize",
+	"pvp-balance.pvpTemplates.brawl.brawlBanks.brawlHotaObjects",
+	"pvp-balance.objects.alternativeArmyBanks.horseshoeLakeRuinsForWolfRaiderPicket",
+"pvp-balance.pvpTemplates.brawl.brawlBanks.brawlPvPBalanceObjects.alternativeArmyBanks.horseshoeLakeForWolfRaiderPicket"],
+
+	"conflicts":
+	["pvp-balance.objects.newArmyBanks.horseshoeLake",
+	"pvp-balance.objects.newArmyBanks.horseshoeLakeRuins"
+	
+],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.3",
+	
+    "keepDisabled" : false
+}

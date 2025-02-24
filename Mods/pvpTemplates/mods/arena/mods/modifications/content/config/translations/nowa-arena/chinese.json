@@ -1,0 +1,10 @@
+{
+	"map.nowa_arena.guards.28.5.0.message" : "经验与防御魔法",
+	"map.nowa_arena.guards.29.5.0.message" : "经验与防御魔法",
+	"map.nowa_arena.guards.8.6.0.message" : "经验与防御魔法",
+	"map.nowa_arena.guards.9.6.0.message" : "经验与防御魔法",
+	"map.nowa_arena.header.description" : "第一天——建造你想要的所有建筑。\n然后获取你想要的所有经验值、宝物、属性点和魔法。\n带上你所有的军队，从南方的单向传送门进入，与你的对手决战！\n特别注意：绝对禁止飞入或使用异次元之门进入决战封闭区域！\n",
+	"map.nowa_arena.header.name" : "诺瓦竞技场",
+	"map.nowa_arena.town.35.5.0.event.0.description" : "你的援军将在第二周的第一天到来",
+	"map.nowa_arena.town.5.5.0.event.0.description" : "你的援军将在第二周的第一天到来"
+}

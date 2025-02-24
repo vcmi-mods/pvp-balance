@@ -1,0 +1,33 @@
+{
+
+		"horseshoeLakeBattlefield": {
+			"graphics": "battlefields/horseshoeLakeBattlefield.bmp",
+			"isSpecial" : true,
+			"bonuses": [
+				{
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"subtype" : "spellSchool.water",
+					"val" : 3,
+					"valueType" : "BASE_NUMBER"
+				},
+				{
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"subtype" : "spellSchool.fire",
+					"val" : -3,
+					"valueType" : "BASE_NUMBER"
+				},
+				{
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"subtype" : "spellSchool.earth",
+					"val" : -3,
+					"valueType" : "BASE_NUMBER"
+				},
+				{
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"subtype" : "spellSchool.air",
+					"val" : -3,
+					"valueType" : "BASE_NUMBER"
+				}
+			]
+		}
+}

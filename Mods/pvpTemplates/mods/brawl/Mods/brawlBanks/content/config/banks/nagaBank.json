@@ -1,0 +1,95 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"nagaBank" : {
+				"resetParameters" : {
+					"period" : 4,
+					"visitors" : true,
+					"rewards" : true
+				},
+				"rmg" : {
+					"zoneLimit"	: 2,
+					"value"		: 2000,
+					"rarity"	: 100
+				},
+				"onGuardedMessage" : 32,
+				"onVisitedMessage" : 33,
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"guardsLayout" : "creatureBankNarrow",
+				"rewards": [
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 0, "max" : 30 },
+						"guards": [
+							{ "amount": 3, "type": "stoneGargoyle", "upgradeChance": 50 },
+							{ "amount": 3, "type": "stoneGargoyle", "upgradeChance": 50 },
+							{ "amount": 3, "type": "stoneGargoyle", "upgradeChance": 50 },
+							{ "amount": 3, "type": "stoneGargoyle", "upgradeChance": 50 },
+							{ "amount": 1, "type": "naga", "upgradeChance": 50 }
+						],
+						"resources":
+						{
+							"gems" : 2,
+							"gold" : 600
+						},
+						"creatures": [ { "amount": 5, "type": "dwarf", "upgradeChance": 50 } ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 30, "max" : 60 },
+						"guards": [
+							{ "amount": 4, "type": "stoneGargoyle", "upgradeChance": 50 },
+							{ "amount": 4, "type": "stoneGargoyle", "upgradeChance": 50 },
+							{ "amount": 4, "type": "stoneGargoyle", "upgradeChance": 50 },
+							{ "amount": 4, "type": "stoneGargoyle", "upgradeChance": 50 },
+							{ "amount": 1, "type": "naga", "upgradeChance": 50 }
+						],
+						"resources":
+						{
+							"gems" : 3,
+							"gold" : 800
+						},
+						"creatures": [ { "amount": 5, "type": "stoneGargoyle", "upgradeChance": 50 } ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 60, "max" : 90 },
+						"guards": [
+							{ "amount": 5, "type": "stoneGargoyle", "upgradeChance": 50 },
+							{ "amount": 5, "type": "stoneGargoyle", "upgradeChance": 50 },
+							{ "amount": 5, "type": "stoneGargoyle", "upgradeChance": 50 },
+							{ "amount": 5, "type": "stoneGargoyle", "upgradeChance": 50 },
+							{ "amount": 1, "type": "naga", "upgradeChance": 50 }
+						],
+						"resources":
+						{
+							"gems" : 3,
+							"gold" : 1000
+						},
+						"creatures": [ { "amount": 2, "type": "medusa", "upgradeChance": 50 } ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 90, "max" : 100 },
+						"guards": [
+							{ "amount": 6, "type": "stoneGargoyle", "upgradeChance": 50 },
+							{ "amount": 6, "type": "stoneGargoyle", "upgradeChance": 50 },
+							{ "amount": 6, "type": "stoneGargoyle", "upgradeChance": 50 },
+							{ "amount": 6, "type": "stoneGargoyle", "upgradeChance": 50 },
+							{ "amount": 1, "type": "naga", "upgradeChance": 50 }
+						],
+						"resources":
+						{
+							"gems" : 4,
+							"gold" : 1200
+						},
+						"creatures": [ { "amount": 1, "type": "naga", "upgradeChance": 50 } ]
+					}
+				]
+			}
+		}
+	}
+}

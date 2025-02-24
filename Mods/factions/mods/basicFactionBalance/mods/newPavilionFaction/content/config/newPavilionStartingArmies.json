@@ -1,0 +1,311 @@
+{
+
+    "new-pavilion:0_cassandra":{
+		
+		"army" :
+		[
+		{
+			"creature" : "whipper",
+			"max" : 24,
+			"min" : 18
+		},
+		{
+			"creature" : "wadjet",
+			"max" : 9,
+			"min" : 7
+		},
+		{
+			"creature" : "camelRider",
+			"max" : 5,
+			"min" : 4
+			}
+		]
+	},
+
+    "new-pavilion:1_amanra":
+	{
+		"army" :
+		[
+		{
+			"creature" : "whipper",
+			"max" : 24,
+			"min" : 18
+		},
+		{
+			"creature" : "wadjet",
+			"max" : 9,
+			"min" : 7
+		},
+		{
+			"creature" : "camelRider",
+			"max" : 5,
+			"min" : 4
+			}
+		]
+	},
+
+"new-pavilion:0_amesh":
+	{
+		"army" :
+		[
+		{
+			"creature" : "whipper",
+			"max" : 24,
+			"min" : 18
+		},
+		{
+			"creature" : "wadjet",
+			"max" : 9,
+			"min" : 7
+		},
+		{
+			"creature" : "camelRider",
+			"max" : 5,
+			"min" : 4
+			}
+		]
+	},
+	
+"new-pavilion:0_azarias":
+	{
+		"army" :
+		[
+		{
+			"creature" : "wadjet",
+			"max" : 9,
+			"min" : 7
+		},
+		{
+			"creature" : "wadjet",
+			"max" : 9,
+			"min" : 7
+		},
+		{
+			"creature" : "wadjet",
+			"max" : 9,
+			"min" : 7
+			}
+		]
+	},
+	
+"new-pavilion:0_elspeth":
+	{
+		"army" :
+		[
+		{
+			"creature" : "whipper",
+			"max" : 24,
+			"min" : 18
+		},
+		{
+			"creature" : "wadjet",
+			"max" : 9,
+			"min" : 7
+		},
+		{
+			"creature" : "camelRider",
+			"max" : 5,
+			"min" : 4
+			}
+		]
+	},
+	
+"new-pavilion:0_gideon":
+	{
+		"army" :
+		[
+		{
+			"creature" : "whipper",
+			"max" : 24,
+			"min" : 18
+		},
+		{
+			"creature" : "wadjet",
+			"max" : 9,
+			"min" : 7
+		},
+		{
+			"creature" : "camelRider",
+			"max" : 5,
+			"min" : 4
+			}
+		]
+	},
+	
+"new-pavilion:1_jaffa":
+	{
+		"army" :
+		[
+		{
+			"creature" : "whipper",
+			"max" : 24,
+			"min" : 18
+		},
+		{
+			"creature" : "wadjet",
+			"max" : 9,
+			"min" : 7
+		},
+		{
+			"creature" : "camelRider",
+			"max" : 5,
+			"min" : 4
+			}
+		]
+	},
+	
+"new-pavilion:0_ko-Eset":
+	{
+		"army" :
+		[
+		{
+			"creature" : "whipper",
+			"max" : 24,
+			"min" : 18
+		},
+		{
+			"creature" : "wadjet",
+			"max" : 9,
+			"min" : 7
+		},
+		{
+			"creature" : "camelRider",
+			"max" : 5,
+			"min" : 4
+			}
+		]
+	},
+	
+"new-pavilion:1_menet":
+	{
+		"army" :
+		[
+		{
+			"creature" : "whipper",
+			"max" : 24,
+			"min" : 18
+		},
+		{
+			"creature" : "wadjet",
+			"max" : 9,
+			"min" : 7
+		},
+		{
+			"creature" : "camelRider",
+			"max" : 5,
+			"min" : 4
+			}
+		]
+	},
+	
+"new-pavilion:1_osir":
+	{
+		"army" :
+		[
+		{
+			"creature" : "whipper",
+			"max" : 24,
+			"min" : 18
+		},
+		{
+			"creature" : "wadjet",
+			"max" : 9,
+			"min" : 7
+		},
+		{
+			"creature" : "camelRider",
+			"max" : 5,
+			"min" : 4
+			}
+		]
+	},
+	
+"new-pavilion:1_peth-Shub":
+	{
+		"army" :
+		[
+		{
+			"creature" : "whipper",
+			"max" : 24,
+			"min" : 18
+		},
+		{
+			"creature" : "wadjet",
+			"max" : 9,
+			"min" : 7
+		},
+		{
+			"creature" : "camelRider",
+			"max" : 5,
+			"min" : 4
+			}
+		]
+
+	},
+	
+"new-pavilion:0_sekhem":
+	{
+		"army" :
+		[
+		{
+			"creature" : "whipper",
+			"max" : 24,
+			"min" : 18
+		},
+		{
+			"creature" : "wadjet",
+			"max" : 9,
+			"min" : 7
+		},
+		{
+			"creature" : "camelRider",
+			"max" : 5,
+			"min" : 4
+			}
+		]		
+	},
+	
+"new-pavilion:0_varn":
+	{
+		"army" :
+		[
+		{
+			"creature" : "whipper",
+			"max" : 24,
+			"min" : 18
+		},
+		{
+			"creature" : "wadjet",
+			"max" : 9,
+			"min" : 7
+		},
+		{
+			"creature" : "camelRider",
+			"max" : 5,
+			"min" : 4
+			}
+		]
+	},
+
+"new-pavilion:0_marzum":
+	{
+		"army" :
+		[
+		{
+			"creature" : "whipper",
+			"max" : 24,
+			"min" : 18
+		},
+		{
+			"creature" : "whipper",
+			"max" : 24,
+			"min" : 18
+		},
+		{
+			"creature" : "whipper",
+			"max" : 24,
+			"min" : 18
+		}
+		]
+	}
+}

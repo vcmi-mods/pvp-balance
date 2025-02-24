@@ -1,0 +1,70 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"beholderSanctuary" : {
+				"resetParameters" : {
+					"period" : 4,
+					"visitors" : true,
+					"rewards" : true
+				}, // leave value and density alone because there are no guards on water
+				"onGuardedMessage" : 32,
+				"onVisitedMessage" : 33,
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"guardsLayout" : "creatureBankNarrow",
+				"rewards": [
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 0, "max" : 30 },
+						"guards": [
+							{ "amount": 3, "type" : "beholder", "upgradeChance": 50 },
+							{ "amount": 3, "type" : "beholder", "upgradeChance": 50 },
+							{ "amount": 3, "type" : "beholder", "upgradeChance": 50 },
+							{ "amount": 3, "type" : "beholder", "upgradeChance": 50 },
+							{ "amount": 3, "type" : "beholder", "upgradeChance": 50 }
+						],
+						"resources": 
+						{
+							"gold" : 1500
+						},
+						"artifacts": [ { "class" : "MINOR" } ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 30, "max" : 70 },
+						"guards": [
+							{ "amount": 5, "type" : "beholder", "upgradeChance": 50 },
+							{ "amount": 5, "type" : "beholder", "upgradeChance": 50 },
+							{ "amount": 5, "type" : "beholder", "upgradeChance": 50 },
+							{ "amount": 5, "type" : "beholder", "upgradeChance": 50 },
+							{ "amount": 5, "type" : "beholder", "upgradeChance": 50 }
+						],
+						"resources": 
+						{
+							"gold" : 2500
+						},
+						"artifacts": [ { "class" : "MINOR" } ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 70, "max" : 100 },
+						"guards": [
+							{ "amount": 7, "type" : "beholder", "upgradeChance": 50 },
+							{ "amount": 7, "type" : "beholder", "upgradeChance": 50 },
+							{ "amount": 7, "type" : "beholder", "upgradeChance": 50 },
+							{ "amount": 7, "type" : "beholder", "upgradeChance": 50 },
+							{ "amount": 7, "type" : "beholder", "upgradeChance": 50 }
+						],
+						"resources": 
+						{
+							"gold" : 3500
+						},
+						"artifacts": [ { "class" : "MINOR" } ]
+					}
+				]
+			}
+		}
+	}
+}

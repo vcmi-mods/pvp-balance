@@ -1,0 +1,23 @@
+{
+
+	"core:straker" :
+	{
+		"army" : [
+			{
+				"creature" : "walkingDead",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "walkingDead",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "walkingDead",
+				"min" : 6,
+				"max" : 8
+			}
+		]
+	}
+}

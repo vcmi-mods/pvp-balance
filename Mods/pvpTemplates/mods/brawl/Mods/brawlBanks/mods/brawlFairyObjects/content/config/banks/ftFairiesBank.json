@@ -1,0 +1,102 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"ftFairiesBank" :
+			{
+				"resetParameters" : {
+					"period" : 4,
+					"visitors" : true,
+					"rewards" : true
+				},
+				"rmg" :
+				{
+					"zoneLimit"	: 3,
+					"value"		: 800,
+					"rarity"	: 100
+				},
+				"onGuardedMessage" : 32,
+				"onVisitedMessage" : 33,
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"guardsLayout" : "creatureBankNarrow",
+				"rewards": 
+				[
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 0, "max" : 25 },
+						"guards":
+						[
+							{ "amount": 10, "type": "ftFae1", "upgradeChance": 50 },
+							{ "amount": 10, "type": "ftFae1", "upgradeChance": 50 },
+							{ "amount": 10, "type": "ftFae1", "upgradeChance": 75 },
+							{ "amount": 10, "type": "ftFae1", "upgradeChance": 50 },
+							{ "amount": 10, "type": "ftFae1", "upgradeChance": 50 }
+						],
+						"resources":
+						{
+							"crystal" : 5,
+							"gems" : 5,
+							"gold" : -2500
+						}
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 25, "max" : 50 },
+						"guards":
+						[
+							{ "amount": 15, "type": "ftFae1", "upgradeChance": 50 },
+							{ "amount": 15, "type": "ftFae1", "upgradeChance": 50 },
+							{ "amount": 15, "type": "ftFae1", "upgradeChance": 75 },
+							{ "amount": 15, "type": "ftFae1", "upgradeChance": 50 },
+							{ "amount": 15, "type": "ftFae1", "upgradeChance": 50 }
+						],
+						"resources":
+						{
+							"crystal" : 7,
+							"gems" : 7,
+							"gold" : -2500
+						}
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 50, "max" : 75 },
+						"guards":
+						[
+							{ "amount": 20, "type": "ftFae1", "upgradeChance": 50 },
+							{ "amount": 20, "type": "ftFae1", "upgradeChance": 50 },
+							{ "amount": 20, "type": "ftFae1", "upgradeChance": 75 },
+							{ "amount": 20, "type": "ftFae1", "upgradeChance": 50 },
+							{ "amount": 20, "type": "ftFae1", "upgradeChance": 50 }
+						],
+						"resources":
+						{
+							"crystal" : 10,
+							"gems" : 10,
+							"gold" : -2500
+						}
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 75, "max" : 100 },
+						"guards":
+						[
+							{ "amount": 25, "type": "ftFae1", "upgradeChance": 50 },
+							{ "amount": 25, "type": "ftFae1", "upgradeChance": 50 },
+							{ "amount": 25, "type": "ftFae1", "upgradeChance": 75 },
+							{ "amount": 25, "type": "ftFae1", "upgradeChance": 50 },
+							{ "amount": 25, "type": "ftFae1", "upgradeChance": 50 }
+						],
+						"resources":
+						{
+							"crystal" : 12,
+							"gems" : 12,
+							"gold" : -2500
+						}
+					}
+				]
+			}
+		}
+	}
+}

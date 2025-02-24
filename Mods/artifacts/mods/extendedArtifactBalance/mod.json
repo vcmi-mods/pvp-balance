@@ -1,0 +1,24 @@
+{
+    "name" : "Extended artifact balance",
+
+    "description" : "The submod introduces balance changes for some artifacts. Class of Boots of Speed and Endless Sack of Gold is changed to major. Class of artifacts giving rare resources and Pendant of Second Sight is changed to minor. Bonus from Inexhaustible Cart of Lumber/Ore is doubled. Artifacts increasing creature growth are buffed.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Artifacts",
+
+    "artifacts": [
+        "config/artifacts.json"
+        ],
+
+"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.3",
+    
+    "keepDisabled" : true
+}

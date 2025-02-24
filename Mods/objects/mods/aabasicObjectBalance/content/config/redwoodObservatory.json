@@ -1,0 +1,53 @@
+{
+	"core:redwoodObservatory" :
+	{
+		"types":
+		{
+			"redwoodObservatory" : {
+				
+ 				"templates" : {
+	 				"base" : {
+		 				"allowedTerrains" : [
+			 				"grass",
+			 				"swamp",
+			 				"dirt",
+			 				"sand",
+			 				"lava",
+			 				"rough",
+			 				"highlands",
+			 				"wasteland"
+		 				],
+		 				"animation" : "avxredw.def",
+		 				"mask" : [
+			 				"VV",
+			 				"VV",
+			 				"VA"
+		 				],
+		 				"visitableFrom" : [
+			 				"---",
+			 				"+++",
+			 				"+++"
+		 				]
+	 				},
+					
+	 				"snow" : {
+		 				"allowedTerrains" : [
+			 				"snow"
+		 				],
+		 				"animation" : "avxreds0.def",
+		 				"mask" : [
+			 				"VV",
+			 				"VV",
+			 				"VA"
+		 				],
+		 				"visitableFrom" : [
+			 				"---",
+			 				"+++",
+			 				"+++"
+		 				]
+	 				}
+ 				}
+			}
+		}
+	}
+}

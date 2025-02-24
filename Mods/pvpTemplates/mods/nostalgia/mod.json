@@ -1,0 +1,30 @@
+{
+    "name" : "Nostalgia",
+
+    "description" : "PvP templates.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Templates",
+	
+    "templates" : [ "nostalgia.json"],
+
+    "compatibility" :
+	{
+		"min" : "1.6"
+	},
+
+    "depends" : 
+	[
+		"hota",
+        "hota.mapObjects",
+        "hota.gameBalance",
+        "hota.highlandsTerrain",
+        "hota.mapdecorations"
+    ],
+
+    "version" : "1.3",
+    "keepDisabled" : true
+}

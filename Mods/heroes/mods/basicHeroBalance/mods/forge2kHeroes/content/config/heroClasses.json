@@ -1,0 +1,12 @@
+{
+  "forge2k:cyborg2k": {
+    "primarySkills" :
+	{
+		"attack"     : 3,
+		"defence"    : 1,
+		"spellpower" : 1,
+		"knowledge"  : 1
+	}
+  }
+
+}

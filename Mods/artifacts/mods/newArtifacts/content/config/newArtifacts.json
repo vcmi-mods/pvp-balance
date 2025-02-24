@@ -1,0 +1,127 @@
+{
+	"fireHat" : {
+		"type" : [ "HERO" ],
+		"slot" : "HEAD",
+		"class" : "RELIC",
+		"value" : 6500,
+		"components" :
+		[
+			"orbOfTempestuousFire",
+			"tomeOfFireMagic"
+		],
+		"bonuses" :
+		[
+			{
+				"type" : "MAGIC_SCHOOL_SKILL",
+				"subtype" : "fire",
+				"val" : 3
+			}
+		],
+		"graphics" :
+		{ 
+			"image" : "iconsSmall/redHatS",
+			"large" : "iconsBig/redHatL",
+			"map" : "map/redHat"
+		},
+		"text" : {
+			"name" : "Fire Hat",
+			"description" : "{Fire Hat}\r\n\r\nIn addition to its component effects the artifact allows you to cast Fire Magic spells at expert level.",
+			"event" : "You manage to obtain a powerful magical hat."
+		}
+	},
+
+	"waterHat" : {
+		"type" : [ "HERO" ],
+		"slot" : "HEAD",
+		"class" : "RELIC",
+		"value" : 6500,
+		"components" :
+		[
+			"orbOfDrivingRain",
+			"tomeOfWaterMagic"
+		],
+		"bonuses" :
+		[
+			{
+				"type" : "MAGIC_SCHOOL_SKILL",
+				"subtype" : "water",
+				"val" : 3
+			}
+		],
+		"graphics" :
+		{ 
+			"image" : "iconsSmall/blueHatS",
+			"large" : "iconsBig/blueHatL",
+			"map" : "map/blueHat"
+		},
+		"text" : {
+			"name" : "Water Hat",
+			"description" : "{Water Hat}\r\n\r\nIn addition to its component effects the artifact allows you to cast Water Magic spells at expert level.",
+			"event" : "You manage to obtain a powerful magical hat."
+		}
+	},
+
+	"earthHat" : {
+		"type" : [ "HERO" ],
+		"slot" : "HEAD",
+		"class" : "RELIC",
+		"value" : 6500,
+		"components" :
+		[
+			"orbOfSilt",
+			"tomeOfEarthMagic"
+		],
+		"bonuses" :
+		[
+			{
+				"type" : "MAGIC_SCHOOL_SKILL",
+				"subtype" : "earth",
+				"val" : 3
+			}
+		],
+		"graphics" :
+		{ 
+			"image" : "iconsSmall/greenHatS",
+			"large" : "iconsBig/greenHatL",
+			"map" : "map/greenHat"
+		},
+		"text" : {
+			"name" : "Earth Hat",
+			"description" : "{Earth Hat}\r\n\r\nIn addition to its component effects the artifact allows you to cast Earth Magic spells at expert level.",
+			"event" : "You manage to obtain a powerful magical hat."
+		}
+	},
+
+	"airHat" : {
+		"type" : [ "HERO" ],
+		"slot" : "HEAD",
+		"class" : "RELIC",
+		"value" : 6500,
+		"components" :
+		[
+			"orbOfTheFirmament",
+			"tomeOfAirMagic"
+		],
+		"bonuses" :
+		[
+			{
+				"type" : "MAGIC_SCHOOL_SKILL",
+				"subtype" : "air",
+				"val" : 3
+			}
+		],
+		"graphics" :
+		{ 
+			"image" : "iconsSmall/grayHatS",
+			"large" : "iconsBig/grayHatL",
+			"map" : "map/grayHat"
+		},
+		"text" : {
+			"name" : "Air Hat",
+			"description" : "{Air Hat}\r\n\r\nIn addition to its component effects the artifact allows you to cast Air Magic spells at expert level.",
+			"event" : "You manage to obtain a powerful magical hat."
+		}
+	}
+
+
+}

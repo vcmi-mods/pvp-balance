@@ -1,0 +1,61 @@
+{
+	"core:fountainOfFortune" :
+	{
+		"types" :
+		{
+			"fountainOfFortune" :
+			{		
+				
+			"rewards" : [
+
+			   {
+				   "appearChance" : {
+					   "max" : 33,
+					   "min" : 0
+				   },
+				   "bonuses" : [
+					   {
+						   "description" : 69,
+						   "duration" : "ONE_BATTLE",
+						   "type" : "LUCK",
+						   "val" : 1
+					   }
+				   ],
+				   "message" : 55
+			   },
+			   {
+				   "appearChance" : {
+					   "max" : 66,
+					   "min" : 33
+				   },
+				   "bonuses" : [
+					   {
+						   "description" : 69,
+						   "duration" : "ONE_BATTLE",
+						   "type" : "LUCK",
+						   "val" : 2
+					   }
+				   ],
+				   "message" : 55
+			   },
+			   {
+				   "appearChance" : {
+					   "max" : 100,
+					   "min" : 66
+				   },
+				   "bonuses" : [
+					   {
+						   "description" : 69,
+						   "duration" : "ONE_BATTLE",
+						   "type" : "LUCK",
+						   "val" : 3
+					   }
+				   ],
+				   "message" : 55
+			   }
+		   ]
+		   
+			}
+		}
+	}
+}

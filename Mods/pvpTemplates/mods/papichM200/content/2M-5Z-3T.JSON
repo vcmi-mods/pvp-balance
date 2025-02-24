@@ -1,0 +1,147 @@
+{
+   "M200 variant C" :
+	{
+		"minSize" : "m", "maxSize" : "l",
+		"players" : "2",
+		"zones" :
+		{
+			"1" :
+			{
+				"type" : "playerStart",
+				"size" : 10,
+				"owner" : 1,
+				"monsters" : "weak",
+				"playerTowns" : { "castles" : 1 },
+				"mines" : { "wood" : 1, "ore" : 1, "crystal" : 1, "gems" : 1 },
+				"treasure" :
+				[
+					{ "min" : 1500, "max" : 9500, "density" : 7 },
+					{ "min" : 500, "max" : 2500, "density" : 10 }
+				],
+				"customObjects" :
+					{
+					"bannedObjects" :["core:object.tradingPost", "core:object.tradingPostDUPLICATE", "core:object.obelisk"],
+					"commonObjects":
+					[
+					{
+					"id" : "core:object.creatureBank.griffinConservatory",
+					"rmg" : {
+					         
+					         "value"     : 4500,
+					         "rarity"    : 80
+					        }
+					},
+					{
+					"id" : "hota.mapobjects:object.creatureBank.redTower",
+					"rmg" : {
+					         "value"     : 4000,
+					         "rarity"    : 40
+					        }
+					},
+					{
+						"id" : "hota.mapobjects:object.creatureBank.spit",
+						"rmg" : {
+								 "value"     : 1500,
+								 "rarity"    : 50,
+								 "zoneLimit" : 3
+								}
+					}
+					]
+					}
+			},
+			"2" :
+			{
+				"type" : "playerStart",
+				"size" : 10,
+				"owner" : 2,
+				"monsters" : "weak",
+				"playerTowns" : { "castles" : 1 },
+				"minesLikeZone" : 1,
+				"treasureLikeZone" : 1,
+				"customObjectsLikeZone" : 1
+			},
+			"3" :
+			{
+				"type" : "treasure",
+				"size" : 10,
+				"monsters" : "normal",
+				"neutralTowns" : {"towns" : 1},
+				"mines" : { "wood" : 1, "ore" : 1, "sulfur" : 1, "mercury" : 1 },
+				"treasure" :
+				[
+					{ "min" : 9000, "max" : 15000, "density" : 1 },
+					{ "min" : 3000, "max" : 9500, "density" : 4 },
+					{ "min" : 1500, "max" : 5000, "density" : 9 }
+				],
+				"customObjects" :
+					{
+					"bannedObjects" :["core:object.obelisk"],
+					"commonObjects":
+					[
+					{
+					"id" : "core:object.creatureBank.griffinConservatory",
+					"rmg" : {
+					         
+					         "value"     : 4500,
+					         "rarity"    : 80
+					        }
+					},
+					{
+					"id" : "hota.mapobjects:object.creatureBank.redTower",
+					"rmg" : {
+					         "value"     : 4000,
+					         "rarity"    : 40
+					        }
+					},
+					{
+						"id" : "hota.mapobjects:object.creatureBank.spit",
+						"rmg" : {
+								 "value"     : 1500,
+								 "rarity"    : 50,
+								 "zoneLimit" : 3
+								}
+					}
+					]
+					}
+			},
+			"4" :
+			{
+				"type" : "treasure",
+				"size" : 10,
+				"monsters" : "normal",
+				"neutralTowns" : {"towns" : 1},
+				"minesLikeZone" : 3,
+				"treasureLikeZone" : 3,
+				"customObjectsLikeZone" : 3
+			},
+			"5" :
+			{
+				"type" : "treasure",
+				"size" : 10,
+				"monsters" : "strong",
+				"neutralTowns" : {"castles" : 1},
+				"mines" : { "wood" : 1, "ore" : 1, "gold" : 1 },
+				"treasure" :
+				[
+					{ "min" : 9000, "max" : 20000, "density" : 2 },
+					{ "min" : 3000, "max" : 10000, "density" : 7 },
+					{ "min" : 1500, "max" : 5000, "density" : 10 }
+				],
+				"customObjectsLikeZone" : 3
+			}
+			
+		},
+		"connections" :
+		[
+			{ "a" : "1", "b" : "3", "guard" : 7500 },
+			{ "a" : "3", "b" : "4", "guard" : 15000, "road" : "false"  },
+			{ "a" : "2", "b" : "4", "guard" : 7500 },
+			{ "a" : "3", "b" : "5", "guard" : 11200 },
+			{ "a" : "4", "b" : "5", "guard" : 11200 }
+
+			
+
+			
+		]
+	}	
+}

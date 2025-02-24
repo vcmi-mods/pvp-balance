@@ -1,0 +1,61 @@
+{
+	"mdtAlhoonCopy" : {
+		"name" : {
+			"singular" : "Alhoon",
+			"plural" : "Alhoons"
+		},
+		"special" : true,
+		"faction" : "dungeon",
+		"speed" : 6,
+		"hitPoints" : 30,
+		"attack" : 14,
+		"defense" : 9,
+		"damage" : {
+			"min" : 13,
+			"max" : 16
+		},
+		"abilities" :
+		{
+			"weaknessCast" :
+			{
+				"type" : "ENCHANTER",
+				"subtype" : "spell.weakness",
+				"val" : 3,
+				"addInfo" : 100
+			},
+
+			"weaknessSpellPower" :
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 50
+			},
+			
+			"castsCount" :
+			{
+				"type" : "CASTS",
+				"val" : 5
+			}
+		},
+
+		"graphics" : {
+			"iconLarge" : "iconsBig/alhoonBigCopy.png",
+			"iconSmall" : "iconsSmall/alhoonSmallCopy.png",
+			"map" : "map/mapAlhoonCopy.def",
+			"animation" : "battle/CAlhoonCopy.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1
+		},
+		"sound" : {
+			"attack" : "ILLIATTACKCopy.wav",
+			"defend" : "ILLIDFNDCopy.wav",
+			"killed" : "ILLIDEADCopy.wav",
+			"move" : "ILLIMOVECopy.wav",
+			"wince" : "ILLIHITCopy.wav"
+		}
+	}
+}
+

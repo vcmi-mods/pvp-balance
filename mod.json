@@ -1,16 +1,13 @@
 {
     "name" : "PvP Balance",
-
-    "description" : "The mod provides a series of changes to make PvP games more balanced and interesting. Detailed documentation is available at: https://drive.google.com/file/d/1XC-J8Wd4A5WDpNgcjcUpg4oIlSXehCxU/view?usp=sharing",
-
-    "author" : "wnukos (main author), Andruids (graphical assets and revision), Misiokles (revision), Dydzio (technical support)",
-
+    "description" : "<p style='font-size:14px; color:#333333;'><b>PvP Balance</b> provides a series of changes with the aim of making multiplayer games more balanced and interesting. <p style='font-size:14px; color:#333333;'>The main mod file includes the following general changes:</p> <ul><li><p style='font-size:12px; color:#333333;'>Dimension Door limit - 2x per turn with Expert Air Magic on big maps</p></li><li><p style='font-size:12px; color:#333333;'>Enabled Spell Research option with optimized research cost</p></li><li><p style='font-size:12px; color:#333333;'>Customized diplomacy - monsters can join only for gold, 50% of the guard is joined at a cost of 100% creatures</p></li><li><p style='font-size:12px; color:#333333;'>Ban of artifacts Orb of Inhibition and Recanter's Cloak</p></li><li><p style='font-size:12px; color:#333333;'>Value of t4 and t5 scrolls increased from 4k to 8k and from 5k to 10k, respectively. T5 Scrolls cannot contain Fly or Dimension Door.</p></li><li><p style='font-size:12px; color:#333333;'>Ban of Cartographer object.</p></li></ul> <p style='font-size:14px; color:#333333;'>Some of these settings can be overwritten by <i>PvP Templates</i> submod depending on template specifics.</p><p style='font-size:14px; color:#333333;'>Detailed documentation of the mod is available at: https://drive.google.com/file/d/1XC-J8Wd4A5WDpNgcjcUpg4oIlSXehCxU/view?usp=sharing .</p>", 
+    "author" : "wnukos (main author), Kurek and Andruids (graphical assets), Warzyw (Brawl and Nowa Arena templates), Misiokles and Dydzio (revision and technical support)",
     "contact" : "wnukos on Discord",
+    "licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 
     "modType" : "Expansion",
-	
-    "version" : "1.2.74",
- 
+    "version" : "1.3",
     "changelog" :
     {
         "1.0"   : [ "initial release" ],
@@ -32,60 +29,70 @@
 		"1.2.71"   : [ "Another updated polish translation" ],
 		"1.2.72"   : [ "Added Chinese translation by LeoAllenHan" ],
 		"1.2.73"   : [ "Fixed ImpCache typo" ],
-		"1.2.74"   : [ "Update cove heroes format" ]
+		"1.2.74"   : [ "Update cove heroes format" ],
+        "1.3"   : [ "Fundamental reorganisation of mod structure and a lot of new content added." ]
+    },
+
+    "depends" : 
+	[
+		"hota",
+        "hota.gameBalance",
+        "hota.spellResearch",
+		"vcmi-extras",
+		"zefix"
+	],
+
+    "conflicts":[
+        "h3evo"
+    ],
+
+    "artifacts":
+    [
+        "config/artifacts.json",
+        "config/airElementalScroll.json",
+        "config/waterElementalScroll.json",
+        "config/earthElementalScroll.json",
+        "config/fireElementalScroll.json",
+		"config/sacrificeScroll.json",
+		"config/magicMirrorScroll.json",
+		"config/implosionScroll.json"
+    ],
+
+    "objects":
+    [
+        "config/cartographer.json",
+        "config/sanctuary.json",
+        "config/level5ScrollObject.json",
+        "config/magicUniversityWithAllMagicSchools.json"
+    ],
+
+    "settings" : {
+        "spells": {
+            "dimensionDoorTournamentRulesLimit" : true
+        },
+		
+		"towns": {
+				"spellResearch": true,
+				"spellResearchCost": [
+                { "gold": 1000, "wood" : 0, "mercury": 2, "ore": 0, "sulfur": 2, "crystal": 2, "gems": 2 },
+                { "gold": 1000, "wood" : 0, "mercury": 4, "ore": 0, "sulfur": 4, "crystal": 4, "gems": 4 },
+                { "gold": 1000, "wood" : 0, "mercury": 6, "ore": 0, "sulfur": 6, "crystal": 6, "gems": 6 },
+                { "gold": 1000, "wood" : 0, "mercury": 8, "ore": 0, "sulfur": 8, "crystal": 8, "gems": 8 },
+                { "gold": 1000, "wood" : 0, "mercury": 10, "ore": 0, "sulfur": 10, "crystal": 10, "gems": 10 }
+            	],
+				"spellResearchPerDay": [ 2, 2, 2, 2, 1 ]
+		},
+
+        "creatures":{
+            "allowJoiningForFree" : false,
+			"joiningPercentage" : 50
+        }
     },
 
     "compatibility" :
     {
-        "min" : "1.5.5"
+        "min" : "1.6"
     },
-    
-    "depends" : 
-	[
-		"hota",
-		"forge2k",
-		"ruins-town",
-		"new-pavilion",
-		"tides-of-war",
-		"vcmi-extras",
-		"zefix"
-		
-		
-		
-	],
-    	 "conflicts" :
-	[
-	"h3-for-vcmi-englisation"
-	],
-    "polish" :
-	{
-		"name" : "PvP Balance",
-		"description" : "Mod zawiera serię zmian, które mają na celu uczynić gry PvP ciekawszymi i bardziej zbalansowanymi.",	
-		"translations" : [
-			"translation/polish.json"
-		]
-	},
-	"russian" :
-	{
-		"name" : "PvP Баланс",
-		"description" : "Мод предоставляет ряд изменений, чтобы сделать PvP-игры более сбалансированными и интересными. Подробная документация доступна по адресу: https://drive.google.com/file/d/1XC-J8Wd4A5WDpNgcjcUpg4oIlSXehCxU/view?usp=sharing",	
-		"translations" : [
-			"translation/russian.json"
-		]
-	},
-    "chinese" :
-	{
-		"name" : "对战平衡",
-		"description" : "该模组包括一系列的变化，旨在使PvP游戏更加有趣和平衡。",	
-		"translations" : [
-			"translation/chinese.json"
-		]
-	},
-    "settings" : {
-        "spells": {
-            "dimensionDoorTournamentRulesLimit" : true
-        }
-    },
-	
+
     "keepDisabled" : false
 }

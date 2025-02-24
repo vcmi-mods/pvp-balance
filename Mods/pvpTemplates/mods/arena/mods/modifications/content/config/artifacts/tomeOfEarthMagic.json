@@ -1,0 +1,28 @@
+{
+	"core:tomeOfEarthMagic":
+	{
+		"text" :
+		{
+			"description" : "Gives all Earth Spells. Such tramendous power comes with a price. Summons Earth Elementals for your opponent on turn 1."
+		},
+		"bonuses" :
+		[
+			{
+				"type" : "SPELLS_OF_SCHOOL",
+				"subtype" : "earth",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "OPENING_BATTLE_SPELL",
+				"subtype" : "spell.earthElemental",
+				"val" : 25,
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters": [ 
+					"OPPOSITE_SIDE"
+				]
+			}
+		]
+	}
+}

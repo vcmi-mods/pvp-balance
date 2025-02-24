@@ -1,0 +1,76 @@
+{
+    
+"ruins-town:15rn_thar":{"special" : true },
+	
+"ruins-town:03rn_grimm":
+	{
+		"skills": [
+			{
+				"level": "basic",
+				"skill": "logistics"
+			},
+			{
+				"level": "basic",
+				"skill": "armorer"
+			}
+		]	
+	},
+	
+"ruins-town:05rn_herian":
+	{
+		
+		"skills": [
+			{
+				"level": "basic",
+				"skill": "archery"
+			},
+			{
+				"level": "basic",
+				"skill": "armorer"
+			}
+		]
+		
+		
+		
+		
+		
+	},
+	
+"ruins-town:06rn_hughes":
+	{
+		"skills": [
+			{
+				"level": "basic",
+				"skill": "armorer"
+			},
+			{
+				"level": "basic",
+				"skill": "tactics"
+			}
+		]
+	},
+	
+"ruins-town:rn_neit":
+	{
+		"skills": [
+			{
+				"level": "basic",
+				"skill": "offence"
+			},
+			{
+				"level": "basic",
+				"skill": "armorer"
+			}
+		]
+	},
+
+"ruins-town:rn_nodens":
+	{
+		"skills": [
+			{
+				"level": "advanced",
+				"skill": "armorer"
+			}
+		]	
+	}
+}

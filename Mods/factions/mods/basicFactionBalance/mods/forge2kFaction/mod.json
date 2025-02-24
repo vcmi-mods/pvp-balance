@@ -1,0 +1,31 @@
+{
+    "name" : "Heavenly Forge 2000 Faction Balance",
+
+    "description" : "Rebalanced hero starting armies for Heavenly Forge 2000.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+    
+    "depends" : 
+	[
+		"hota.interference",
+		"forge2k"
+	],
+
+   "heroes": [
+   "config/forge2kStartingArmies.json"
+   ],
+
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.3",
+	
+    "keepDisabled" : false
+}

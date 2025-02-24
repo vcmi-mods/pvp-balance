@@ -1,30 +1,28 @@
 {
 	"name" : "Spells",
-	"description" : "Spell balance for PvP.",
+	"description" : "Modified spells for PvP.",
 	"author" : "wnukos",
 
 	"contact" : "wnukos on Discord",
-	
-	"modType" : "Spells",	
 
-	"spells" :
-	[
-		"config/spells.json"
-	],
-	"depends" : 
-	[
-		"forge2k",
-		"ruins-town",
-		"hota.cove",
-		"tides-of-war.spells"
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	
+	"modType" : "Spells",
+	
+	"conflicts":[
+		"ultimate-balance.spells-balance",
+		"andruids-spell-balance.Level2Slow",
+		"andruids-spell-balance.SpellsRange",
+		"andruids-spell-balance.MassSpells"
 	],
 
 	"compatibility" :
 	{
-		"min" : "1.5.5"
+		"min" : "1.6"
 	},
 	
-	    "version" : "1.2.5",
+	"version" : "1.3",
 	
 	"keepDisabled" : false
 

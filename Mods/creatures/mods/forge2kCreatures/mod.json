@@ -1,0 +1,33 @@
+{
+    "name" : "Heavenly Forge 2000 Creatures",
+
+    "description" : "Rebalanced creatures from Heavenly Forge 2000 mod.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+    
+    "depends" : 
+	[
+		"forge2k"
+	],
+
+   "creatures": [
+   "config/creatures.json"
+   ],
+
+   "spells": [
+    "config/spells.json"
+    ],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.3",
+	
+    "keepDisabled" : false
+}

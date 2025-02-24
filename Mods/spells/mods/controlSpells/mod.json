@@ -1,0 +1,29 @@
+{
+	"name" : "Control Spells",
+	"description" : "Probabilities of appearing Town Portal, Fly and Dimension Door in mage guilds are increased. Moreover, several T4 and T5 spells are banned.",
+	"author" : "wnukos",
+
+	"contact" : "wnukos on Discord",
+	
+	"modType" : "Spells",	
+
+	"spells" :
+	[
+		"config/spells.json"
+	],
+
+	"depends" : 
+	[
+		"hota.cove"
+	],	
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+	    "version" : "1.3",
+	
+	"keepDisabled" : false
+
+}

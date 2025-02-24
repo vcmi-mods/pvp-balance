@@ -1,0 +1,208 @@
+{
+	"core:dragonUtopia" : 
+	{
+		"types" : 
+		{
+			"dragonUtopia" : 
+			{
+				"variables" :
+				{
+					"artifact" :
+					{
+						"relicArt" :
+						{
+							"class" : "RELIC",
+							"noneOf" : [ "tomeOfAirMagic", "spellbindersHat"]
+						},
+
+						"relicArt2" :
+						{
+							"class" : "RELIC",
+							"noneOf" : [ "tomeOfAirMagic", "spellbindersHat"]
+						},
+
+						"relicArt3" :
+						{
+							"class" : "RELIC",
+							"noneOf" : [ "tomeOfAirMagic", "spellbindersHat"]
+						}
+					}
+				},
+				
+				"rewards" : [
+				   {
+					   "appearChance" : {
+						   "max" : 15,
+						   "min" : 0
+					   },
+					   "artifacts" : [
+						   {
+							   "class" : "TREASURE"
+						   },
+						   {
+							   "class" : "MINOR"
+						   },
+						   {
+							   "class" : "MAJOR"
+						   },
+						   "@relicArt"
+					   ],
+					   "guards" : [
+						   {
+							   "amount" : 8,
+							   "type" : "greenDragon"
+						   },
+						   {
+							   "amount" : 5,
+							   "type" : "redDragon"
+						   },
+						   {
+							   "amount" : 2,
+							   "type" : "goldDragon"
+						   },
+						   {
+							   "amount" : 1,
+							   "type" : "blackDragon"
+						   }
+					   ],
+					   "message" : 34,
+					   "resources" : {
+						   "gold" : 20000
+					   }
+				   },
+				   {
+					   "appearChance" : {
+						   "max" : 50,
+						   "min" : 15
+					   },
+					   "artifacts" : [
+						   {
+							   "class" : "MINOR"
+						   },
+						   {
+							   "class" : "MAJOR"
+						   },
+						   "@relicArt2",
+						   "@relicArt3"
+					   ],
+					   "guards" : [
+						   {
+							   "amount" : 8,
+							   "type" : "greenDragon"
+						   },
+						   {
+							   "amount" : 6,
+							   "type" : "redDragon"
+						   },
+						   {
+							   "amount" : 3,
+							   "type" : "goldDragon"
+						   },
+						   {
+							   "amount" : 2,
+							   "type" : "blackDragon"
+						   }
+					   ],
+					   "message" : 34,
+					   "resources" : {
+						   "gold" : 30000
+					   }
+				   },
+				   {
+					   "appearChance" : {
+						   "max" : 85,
+						   "min" : 50
+					   },
+					   "artifacts" : [
+						   {
+							   "class" : "MAJOR"
+						   },
+						   {
+							   "class" : "RELIC"
+						   },
+						   {
+							   "class" : "RELIC"
+						   },
+						   {
+							   "class" : "RELIC"
+						   }
+					   ],
+					   "guards" : [
+						   {
+							   "amount" : 8,
+							   "type" : "greenDragon"
+						   },
+						   {
+							   "amount" : 6,
+							   "type" : "redDragon"
+						   },
+						   {
+							   "amount" : 4,
+							   "type" : "goldDragon"
+						   },
+						   {
+							   "amount" : 3,
+							   "type" : "blackDragon"
+						   }
+					   ],
+					   "message" : 34,
+					   "resources" : {
+						   "gold" : 40000
+					   }
+				   },
+				   {
+					   "appearChance" : {
+						   "max" : 100,
+						   "min" : 85
+					   },
+					   "artifacts" : [
+						   {
+							   "class" : "RELIC"
+						   },
+						   {
+							   "class" : "RELIC"
+						   },
+						   {
+							   "class" : "RELIC"
+						   },
+						   {
+							   "class" : "RELIC"
+						   }
+					   ],
+					   "guards" : [
+							// core
+						   {
+								// core
+							   "amount" : 8,
+								// core
+							   "type" : "greenDragon"
+						   },
+							// core
+						   {
+							   "amount" : 7,
+							   "type" : "redDragon"
+						   },
+						   {
+							   "amount" : 6,
+							   "type" : "goldDragon"
+						   },
+						   {
+							   "amount" : 5,
+							   "type" : "blackDragon"
+						   }
+					   ],
+					   "message" : 34,
+					   "resources" : {
+						   "gold" : 50000
+					   }
+				   }
+			   ]
+
+				
+					
+					
+					
+			}
+		}
+	}
+}

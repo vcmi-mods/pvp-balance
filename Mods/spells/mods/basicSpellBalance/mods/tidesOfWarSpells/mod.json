@@ -1,0 +1,29 @@
+{
+	"name" : "Tides of War Spells",
+	"description" : "Summon Ghost, Vampirism and Intervention cannot appear in mage guild.",
+	"author" : "wnukos",
+
+	"contact" : "wnukos on Discord",
+	
+	"modType" : "Compatibility",	
+
+	"spells" :
+	[
+		"config/spells.json"
+	],
+
+	"depends" : 
+	[
+		"tides-of-war.spells"
+	],	
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+	    "version" : "1.3",
+	
+	"keepDisabled" : false
+
+}
