@@ -27,6 +27,17 @@
 		"pvp-balance.objects.increasedBankSize",
 		"pvp-balance.objects.dragonUtopiaRework"
 	],
+	"conflicts" : 
+    [
+      "pvp-balance.pvpTemplates.6lm10a",
+      "pvp-balance.pvpTemplates.oneMinuteMadness",
+      "pvp-balance.pvpTemplates.arena",
+      "pvp-balance.pvpTemplates.jebusCrossPlus",
+      "pvp-balance.pvpTemplates.nostalgia",
+      "pvp-balance.pvpTemplates.jebusOneHero",
+      "pvp-balance.pvpTemplates.papichM200",
+      "pvp-balance.pvpTemplates.vietnameseDiplomacy"
+    ],
 	"version" : "1.0",
 	"changelog" :
 	{

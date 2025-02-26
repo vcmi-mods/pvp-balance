@@ -23,6 +23,18 @@
         
     },
 
+    "conflicts" : 
+    [
+      "pvp-balance.pvpTemplates.6lm10a",
+      "pvp-balance.pvpTemplates.oneMinuteMadness",
+      "pvp-balance.pvpTemplates.arena",
+      "pvp-balance.pvpTemplates.jebusCrossPlus",
+      "pvp-balance.pvpTemplates.nostalgia",
+      "pvp-balance.pvpTemplates.jebusOneHero",
+      "pvp-balance.pvpTemplates.papichM200",
+      "pvp-balance.pvpTemplates.vietnameseDiplomacy"
+    ],
+
 	"compatibility" :
 	{
 		"min" : "1.4.0"

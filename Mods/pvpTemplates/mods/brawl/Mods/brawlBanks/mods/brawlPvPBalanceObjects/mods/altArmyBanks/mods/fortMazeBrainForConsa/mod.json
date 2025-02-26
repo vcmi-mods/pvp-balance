@@ -11,7 +11,7 @@
 
 	"objects" :
 	[
-		"config/bank.json"
+		"config/fmBank.json"
 	],
 
 	"compatibility" :

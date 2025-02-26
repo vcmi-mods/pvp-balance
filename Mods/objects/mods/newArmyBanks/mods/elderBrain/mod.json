@@ -16,7 +16,6 @@
 
 	"depends" :
 	[
-		"tides-of-war.alternative-creatures",
 		"pvp-balance.objects"
 	],
 

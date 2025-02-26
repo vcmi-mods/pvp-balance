@@ -25,9 +25,9 @@
 	{
 		"army" : [
 			{
-				"creature" : "pikeman",
-				"min" : 14,
-				"max" : 20
+				"creature" : "archer",
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "archer",
@@ -35,9 +35,9 @@
 				"max" : 7
 			},
 			{
-				"creature" : "griffin",
-				"min" : 4,
-				"max" : 5
+				"creature" : "archer",
+				"min" : 5,
+				"max" : 7
 			}
 		]
 	},
@@ -51,9 +51,9 @@
 				"max" : 20
 			},
 			{
-				"creature" : "archer",
-				"min" : 5,
-				"max" : 7
+				"creature" : "griffin",
+				"min" : 4,
+				"max" : 5
 			},
 			{
 				"creature" : "griffin",

@@ -1,0 +1,32 @@
+{
+	"core:summonBoat" : {
+		
+		"flags" : {
+			"special" : false
+		}
+
+	},
+	"core:scuttleBoat" : {
+		
+		"flags" : {
+			"special" : false
+		}
+	},
+	"core:waterWalk" : {
+		
+		"flags" : {
+			"special" : false
+		}
+	}
+
+
+}
+
+
+
+
+	
+	
+	
+	
+	

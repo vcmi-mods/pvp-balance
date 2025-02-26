@@ -3,26 +3,26 @@
 	"core:townPortal" : {
 		"gainChance":
 		{
-			"castle" : 35,
-			"rampart" : 35,
-			"tower" : 35,
-			"inferno" : 35,
-			"necropolis" : 35,
-			"dungeon" : 35,
-			"conflux" : 35,
-			"cove" : 35
+			"castle" : 30,
+			"rampart" : 30,
+			"tower" : 30,
+			"inferno" : 30,
+			"necropolis" : 30,
+			"dungeon" : 30,
+			"conflux" : 30,
+			"cove" : 30
 		}
 		
 	},
 	"core:dimensionDoor" : {
 		"gainChance":
 		{
-			"rampart" : 40,
-			"tower" : 40,
-			"inferno" : 40,
-			"necropolis" : 40,
-			"dungeon" : 40,
-			"conflux" : 40
+			"rampart" : 35,
+			"tower" : 35,
+			"inferno" : 35,
+			"necropolis" : 35,
+			"dungeon" : 35,
+			"conflux" : 35
 		}
 	},
 	"core:fly" : {

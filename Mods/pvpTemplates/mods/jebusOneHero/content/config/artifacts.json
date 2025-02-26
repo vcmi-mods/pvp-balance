@@ -139,10 +139,6 @@
       "core:hourglassOfTheEvilHour": {
         "class" : "SPECIAL"
       },
-
-      "core:bootsOfSpeed": {
-        "class" : "SPECIAL"
-      },
   
       "core:capeOfVelocity": {
         "class" : "SPECIAL"

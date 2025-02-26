@@ -43,7 +43,7 @@
 				],
 				"customObjects" :
 				{
-					"bannedObjects" :["core:object.tavern", "core:object.stables", "core:object.sanctuary", "core:object.redwoodObservatory"],
+					"bannedObjects" :["core:object.tavern", "core:object.stables", "core:object.sanctuary", "core:object.redwoodObservatory", "hota.mapobjects:object.wateringPlace.wateringPlace", "pvp-balance.pvptemplates.brawl:object.wateringPlaceCopy.wateringPlaceCopy"],
 					"commonObjects":
 					[
 					
@@ -52,6 +52,14 @@
 							"rmg" : {
 									 "value"     : 750,
 									 "rarity"    : 100,
+									 "zoneLimit" : 1
+									}
+						},
+						{
+							"id" : "pvp-balance.pvptemplates.brawl:object.wateringPlaceCopy.wateringPlaceCopy",
+							"rmg" : {
+									 "value"     : 500,
+									 "rarity"    : 50,
 									 "zoneLimit" : 1
 									}
 						}

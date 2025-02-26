@@ -19,6 +19,22 @@
 		"pvp-balance.pvpTemplates.vietnameseDiplomacy",
 		"pvp-balance.pvpTemplates.jebusOneHero"
 	],
+
+	"softDepends":[
+        "pvp-balance.spells",
+        "pvp-balance.spells.basicSpellBalance"
+    ],
+
+	"spells":[
+		"config/spells.json"
+	],
+
+	"objects":[
+		"config/wateringPlaceCopy.json"
+	],
+
+	
+
 	"keepDisabled" : false,
 	"chinese" :
 	{

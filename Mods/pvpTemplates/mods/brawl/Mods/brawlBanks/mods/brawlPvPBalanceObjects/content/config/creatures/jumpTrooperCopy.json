@@ -7,6 +7,10 @@
 			"min" : 6
 		},
 		"faction" : "neutral",
+		"name" : {
+			"singular" : "Jump Trooper",
+			"plural" : "Jump Troopers"
+		},
 		"special" : true,
 		"aiValue" : 1262,
 		"fightValue" : 1134,

@@ -1,0 +1,89 @@
+{
+	
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"demonDomain" :
+			{
+				"rmg" :
+				{
+					"value"		: 1500,
+					"rarity"	: 100,
+					"zoneLimit"	: 2
+				},
+				"resetParameters" :
+				{
+					"period" : 4,
+					"visitors" : true,
+					"rewards" : true
+				},
+				"rewards":
+				[
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 0, "max" : 25 },
+						"guards":
+						[
+							{ "amount": 1, "type" : "pitLord", "upgradeChance": 50 }, // In case some mod gives them an upgrade
+							{ "amount": 9, "type" : "imp", "upgradeChance": 50 },
+							{ "amount": 9, "type" : "imp", "upgradeChance": 50 },
+							{  "amount": 1, "type" : "pitLord", "upgradeChance": 50 },
+							{ "amount": 9, "type" : "imp", "upgradeChance": 50 }
+						],
+						"creatures": [ { "amount": 1, "type": "fireElemental", "upgradeChance": 50 }, { "amount": 1, "type": "fireElemental", "upgradeChance": 50 } ]
+					},
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 25, "max" : 50 },
+						"guards":
+						[
+							{ "amount": 1, "type" : "pitLord", "upgradeChance": 50 },
+							{ "amount": 3, "type" : "gog", "upgradeChance": 50 },
+							{ "amount": 3, "type" : "gog", "upgradeChance": 50 },
+							{  "amount": 1, "type" : "pitLord", "upgradeChance": 50 },
+							{ "amount": 3, "type" : "gog", "upgradeChance": 50 }
+						],
+						"creatures": [ { "amount": 1, "type": "fireElemental", "upgradeChance": 50 }, { "amount": 1, "type": "fireElemental", "upgradeChance": 50 }, { "amount": 1, "type": "fireElemental", "upgradeChance": 50 } ]
+					},
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 50, "max" : 75 },
+						"guards":
+						[
+							{ "amount": 1, "type" : "pitLord", "upgradeChance": 50 },
+							{ "amount": 2, "type" : "hellHound", "upgradeChance": 50 },
+							{ "amount": 2, "type" : "hellHound", "upgradeChance": 50 },
+							{  "amount": 1, "type" : "pitLord", "upgradeChance": 50 },
+							{ "amount": 2, "type" : "hellHound", "upgradeChance": 50 }
+						],
+						"creatures": [ { "amount": 1, "type": "energyElemental", "upgradeChance": 50 }, { "amount": 1, "type": "energyElemental", "upgradeChance": 50 }  ]
+					},
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 75, "max" : 100 },
+						"guards":
+						[
+							{ "amount": 1, "type" : "pitLord", "upgradeChance": 50 },
+							{ "amount": 1, "type" : "demon", "upgradeChance": 50 },
+							{ "amount": 1, "type" : "demon", "upgradeChance": 50 },
+							{  "amount": 1, "type" : "pitLord", "upgradeChance": 50 },
+							{ "amount": 1, "type" : "demon", "upgradeChance": 50 }
+						],
+						"creatures": [ { "amount": 1, "type": "energyElemental", "upgradeChance": 50 }, { "amount": 1, "type": "energyElemental", "upgradeChance": 50 }, { "amount": 1, "type": "energyElemental", "upgradeChance": 50 } ]
+					}
+				]
+			},
+
+			"redTower" : {
+				
+				"rmg" : {
+					"value"		: 999999,
+					"rarity"	: 1,
+					"zoneLimit" : 0
+				}
+				
+			}
+		}
+	}
+}

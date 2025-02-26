@@ -6,6 +6,10 @@
 			"max" : 14,
 			"min" : 6
 		},
+		"name" : {
+			"singular" : "Jump Soldier",
+			"plural" : "Jump Soldiers"
+		},
 		"faction" : "neutral",
 		"special" : true,
 		"aiValue" : 1168,

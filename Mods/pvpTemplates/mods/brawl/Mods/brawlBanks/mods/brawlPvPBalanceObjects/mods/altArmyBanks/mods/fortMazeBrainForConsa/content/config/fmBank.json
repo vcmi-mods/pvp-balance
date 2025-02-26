@@ -1,0 +1,196 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"fortifiedMaze" :
+			{
+				"rmg" :
+				{
+					"value" : 1500,
+					"rarity" : 100,
+					"zoneLimit" : 2
+				},
+				"resetParameters" :
+				{
+					"period" : 4,
+					"visitors" : true,
+					"rewards" : true
+				},
+				"rewards":
+				[
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 0, "max" : 40 },
+						"guards":
+						[
+							{ "amount": 1, "type" : "minotaur", "upgradeChance" : 50 },
+							{ "amount": 1, "type" : "minotaur", "upgradeChance" : 50 },
+							{ "amount": 1, "type" : "minotaur", "upgradeChance" : 50 },
+							{ "amount": 1, "type" : "minotaur", "upgradeChance" : 50 },
+							{ "amount": 1, "type" : "jumpSoldier2kCopy", "upgradeChance" : 50 }
+						],
+						"creatures": [ { "amount": 1, "type": "sekhmetCopy", "upgradeChance" : 50 }, { "amount": 1, "type": "sekhmetCopy", "upgradeChance" : 50 }, { "amount": 1, "type": "sekhmetCopy", "upgradeChance" : 50 } ]
+					},
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 40, "max" : 80 },
+						"guards":
+						[
+							{ "amount": 1, "type" : "minotaur", "upgradeChance" : 50 },
+							{ "amount": 1, "type" : "minotaur", "upgradeChance" : 50 },
+							{ "amount": 2, "type" : "minotaur", "upgradeChance" : 50 },
+							{ "amount": 2, "type" : "minotaur", "upgradeChance" : 50 },
+							{ "amount": 2, "type" : "jumpSoldier2kCopy", "upgradeChance" : 50 }
+						],
+						"creatures": [ { "amount": 1, "type": "forestWitchCopy", "upgradeChance" : 50 }, { "amount": 1, "type": "forestWitchCopy", "upgradeChance" : 50 } ]
+					},
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 80, "max" : 100 },
+						"guards":
+						[
+							{ "amount": 2, "type" : "minotaur", "upgradeChance" : 50 },
+							{ "amount": 2, "type" : "minotaur", "upgradeChance" : 50 },
+							{ "amount": 2, "type" : "jumpSoldier2kCopy", "upgradeChance" : 50 },
+							{ "amount": 2, "type" : "jumpSoldier2kCopy", "upgradeChance" : 50 },
+							{ "amount": 2, "type" : "jumpSoldier2kCopy", "upgradeChance" : 50 }
+						],
+						"creatures": [ { "amount": 1, "type": "mdtCouatlCopy", "upgradeChance" : 50 }]
+					}
+				]
+			},
+			"fortifiedMazeOtherTerrains" :
+			{
+				
+				"rmg" :
+				{
+					"value" : 1000,
+					"rarity" : 100,
+					"zoneLimit" : 1
+				},
+				"resetParameters" :
+				{
+					"period" : 4,
+					"visitors" : true,
+					"rewards" : true
+				},
+				"rewards" :
+				[
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 0, "max" : 40 },
+						"guards":
+						[
+							{ "amount": 1, "type" : "minotaur", "upgradeChance" : 50 },
+							{ "amount": 1, "type" : "minotaur", "upgradeChance" : 50 },
+							{ "amount": 1, "type" : "minotaur", "upgradeChance" : 50 },
+							{ "amount": 1, "type" : "minotaur", "upgradeChance" : 50 },
+							{ "amount": 1, "type" : "jumpSoldier2kCopy", "upgradeChance" : 50 }
+						],
+						"creatures": [ { "amount": 1, "type": "sekhmetCopy", "upgradeChance" : 50 }, { "amount": 1, "type": "sekhmetCopy", "upgradeChance" : 50 }, { "amount": 1, "type": "sekhmetCopy", "upgradeChance" : 50 } ]
+					},
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 40, "max" : 80 },
+						"guards":
+						[
+							{ "amount": 1, "type" : "minotaur", "upgradeChance" : 50 },
+							{ "amount": 1, "type" : "minotaur", "upgradeChance" : 50 },
+							{ "amount": 2, "type" : "minotaur", "upgradeChance" : 50 },
+							{ "amount": 2, "type" : "minotaur", "upgradeChance" : 50 },
+							{ "amount": 2, "type" : "jumpSoldier2kCopy", "upgradeChance" : 50 }
+						],
+						"creatures": [ { "amount": 1, "type": "forestWitchCopy", "upgradeChance" : 50 }, { "amount": 1, "type": "forestWitchCopy", "upgradeChance" : 50 }, { "amount": 1, "type": "forestWitchCopy", "upgradeChance" : 50 } ]
+					},
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 80, "max" : 100 },
+						"guards":
+						[
+							{ "amount": 2, "type" : "minotaur", "upgradeChance" : 50 },
+							{ "amount": 2, "type" : "minotaur", "upgradeChance" : 50 },
+							{ "amount": 2, "type" : "jumpSoldier2kCopy", "upgradeChance" : 50 },
+							{ "amount": 2, "type" : "jumpSoldier2kCopy", "upgradeChance" : 50 },
+							{ "amount": 2, "type" : "jumpSoldier2kCopy", "upgradeChance" : 50 }
+						],
+						"creatures": [ { "amount": 1, "type": "mdtCouatlCopy", "upgradeChance" : 50 } ]
+					}
+				]
+			},
+
+			"elderBrain" :
+			{
+				"rmg" :
+				{
+					"value" : 3000,
+					"rarity" : 70,
+					"zoneLimit" : 1
+				},
+				"resetParameters" : {
+					"period" : 4,
+					"visitors" : true,
+					"rewards" : true
+				},
+				"rewards":
+				[
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 0, "max" : 70 },
+						"guards":
+						[
+							{ "amount": 1, "type" : "mdtIllithidCopy", "upgradeChance" : 10 },
+							{ "amount": 1, "type" : "mdtIllithidCopy", "upgradeChance" : 10 },
+							{ "amount": 1, "type" : "mdtIllithidCopy", "upgradeChance" : 10 },
+							{ "amount": 1, "type" : "mdtIllithidCopy", "upgradeChance" : 10 },
+							{ "amount": 1, "type" : "mdtIllithidCopy", "upgradeChance" : 10 },
+							{ "amount": 1, "type" : "mdtIllithidCopy", "upgradeChance" : 10 }
+						],
+						"creatures":
+						[
+							{ "amount": 1, "type": "beholder", "upgradeChance" : 50 },
+							{ "amount": 1, "type": "beholder", "upgradeChance" : 50 },
+							{ "amount": 1, "type": "beholder", "upgradeChance" : 50 },
+							{ "amount": 1, "type": "beholder", "upgradeChance" : 50 }
+						],
+						"spells": ["hypnotize"]
+					},
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 70, "max" : 100 },
+						"guards":
+						[
+							{ "amount": 2, "type" : "mdtIllithidCopy", "upgradeChance" : 30 },
+							{ "amount": 2, "type" : "mdtIllithidCopy", "upgradeChance" : 30 },
+							{ "amount": 2, "type" : "mdtIllithidCopy", "upgradeChance" : 30 },
+							{ "amount": 2, "type" : "mdtIllithidCopy", "upgradeChance" : 30 },
+							{ "amount": 2, "type" : "mdtIllithidCopy", "upgradeChance" : 30 },
+							{ "amount": 2, "type" : "mdtIllithidCopy", "upgradeChance" : 30 }
+						],
+						"creatures":
+						[
+							{ "amount": 1, "type": "beholder", "upgradeChance" : 50 },
+							{ "amount": 1, "type": "beholder", "upgradeChance" : 50 },
+							{ "amount": 1, "type": "beholder", "upgradeChance" : 50 },
+							{ "amount": 1, "type": "beholder", "upgradeChance" : 50},
+							{ "amount": 1, "type": "beholder", "upgradeChance" : 50 }
+						],
+						"spells": ["massHypnosis"]
+					}
+				]
+			},
+
+			"griffinConservatory" : {
+				
+				"rmg" : {
+					"value"		: 999999,
+					"rarity"	: 1,
+					"zoneLimit" : 0
+				}
+				
+			}
+		}
+	}
+
+
+}

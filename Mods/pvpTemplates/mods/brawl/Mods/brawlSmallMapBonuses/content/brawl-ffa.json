@@ -10,7 +10,8 @@
 			"heroes" :
 			{
 	
-				"movementPointsLand" : [ 1300, 1300, 1300, 1300, 1360, 1430, 1500, 1560, 1630, 1700, 1760, 1800 ]
+				"movementPointsLand" : [ 1300, 1300, 1300, 1300, 1360, 1430, 1500, 1560, 1630, 1700, 1760, 1800 ],
+				"movementPointsSea" : [ 1200 ]
 			},
 	
 			"bonuses" : 
@@ -70,7 +71,7 @@
 				],
 				"customObjects" :
 				{
-					"bannedObjects" :["core:object.tavern", "core:object.stables", "core:object.sanctuary", "core:object.redwoodObservatory"],
+					"bannedObjects" :["core:object.tavern", "core:object.stables", "core:object.sanctuary", "core:object.redwoodObservatory", "hota.mapobjects:object.wateringPlace.wateringPlace", "pvp-balance.pvptemplates.brawl:object.wateringPlaceCopy.wateringPlaceCopy"],
 					"commonObjects":
 					[
 					
@@ -79,6 +80,14 @@
 							"rmg" : {
 									 "value"     : 750,
 									 "rarity"    : 100,
+									 "zoneLimit" : 1
+									}
+						},
+						{
+							"id" : "pvp-balance.pvptemplates.brawl:object.wateringPlaceCopy.wateringPlaceCopy",
+							"rmg" : {
+									 "value"     : 500,
+									 "rarity"    : 50,
 									 "zoneLimit" : 1
 									}
 						}
