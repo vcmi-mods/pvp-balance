@@ -78,12 +78,18 @@
 						],
 						"resources":
 							{
-								"gold" : 12000,
+								"gold" : 15000,
 								"wood" : 10,
 								"ore" : 10,
 								"crystal" : 10
 							},
-						"artifacts": [{"anyOf" : ["targOfTheRampagingOgre", "ogresClubOfHavoc", "crownOfTheSupremeMagi", "tunicOfTheCyclopsKing"]}, { "class" : "RELIC" }]
+						"artifacts": [{"anyOf" : ["targOfTheRampagingOgre", "ogresClubOfHavoc", "crownOfTheSupremeMagi", "tunicOfTheCyclopsKing"]}],
+						"primary": [
+    						{
+						        "type" : "attack",
+        						"amount" : 2
+    						}
+						]
 					}
 				]
 				

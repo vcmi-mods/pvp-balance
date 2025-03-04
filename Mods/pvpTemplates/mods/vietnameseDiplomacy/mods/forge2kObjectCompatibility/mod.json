@@ -1,0 +1,29 @@
+{
+    "name" : "Forge 2k compatibility mod for VD - Objects",
+
+    "description" : "Compatibility mod adding Hill Fort on Asphalt Terrain.",
+
+    "author" : "wnukos, Transformation Altar made by Olegmods Inc.",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+
+    "compatibility" :
+	{
+		"min" : "1.6"
+	},
+
+    "objects": [
+    "config/hillFortAsphalt.json"
+    ],  
+
+    "depends" : 
+	[
+        "forge2k",
+        "asphalt-terrain"
+    ],
+	
+    "version" : "1.3",
+    "keepDisabled" : false
+}

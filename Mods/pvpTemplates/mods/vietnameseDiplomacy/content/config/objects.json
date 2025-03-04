@@ -1,0 +1,15 @@
+{
+	"core:hillFort" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"hillFortLackingTerrains" : { "animation" : "hillFort",
+						"mask" : [ "VVV", "VVV", "VBA" ], 
+						"visitableFrom" : [ "---", "-++", "+++" ],
+						"allowedTerrains":[ "rough", "subterra", "lava", "swamp", "wasteland", "highlands", "sand" ] 
+					}
+				}
+			}
+		}
+	}	
+}

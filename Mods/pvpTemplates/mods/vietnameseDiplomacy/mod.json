@@ -1,7 +1,7 @@
 {
     "name" : "Vietnamese Diplomacy",
 
-    "description" : "The mod introduces a variation of Vietnamese Diplomacy template with small differences compared to its HotA version.",
+    "description" : "The mod introduces a variation of Vietnamese Diplomacy template with small differences compared to its HotA version. If Tides of War mod is enabled, then artifacts Binoculars and Phylacterium are available, along with Transformation Altar object (made by Olegmods Inc).",
 
     "author" : "wnukos",
 
@@ -25,10 +25,11 @@
         "hota.mapObjects",
         "hota.gameBalance",
         "hota.highlandsTerrain",
+        "hota.wastelandTerrain",
         "hota.mapdecorations",
         "hota.interference",
         "hota.neutralcreatures",
-        "hota.cove"  
+        "hota.cove"
     ],
 
     "softDepends" : 
@@ -66,6 +67,11 @@
     "artifacts": [
         "config/artifacts.json"
     ],
+
+    "objects": [
+        "config/objects.json"
+    ],
+
     
     "spells": [
         "config/spells.json"

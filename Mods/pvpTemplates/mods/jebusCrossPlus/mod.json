@@ -9,7 +9,7 @@
 
     "modType" : "Templates",
 	
-    "templates" : [ "jebusCross.json"],
+    "templates" : [ "jebusCrossPlus.json"],
 
     "compatibility" :
 	{

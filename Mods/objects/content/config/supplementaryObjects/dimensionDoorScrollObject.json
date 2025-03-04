@@ -9,9 +9,9 @@
 				"removable": true,
 				"name": "Spell Scroll",
 				"rmg" : {
-					"value"		: 99999,
-					"rarity"	: 1000,
-					"zoneLimit" : 10
+					"value"		: 999999,
+					"rarity"	: 1,
+					"zoneLimit" : 0
 				},
 				
 				"rewards" :
@@ -35,12 +35,11 @@
 				"compatibilityIdentifiers" : [ "object" ],
 				"templates" : 
 				{
-					"avtglam" : 
+					"scrollObject" : 
 					{
 						"animation" : "map/scroll", 
 						"visitableFrom" : [ "+++", "+++", "+++" ],
-						"mask" : ["A"],
-						"allowedTerrains": [ "wasteland", "sand", "grass" ]
+						"mask" : ["A"]
 					}
 				}
 			}

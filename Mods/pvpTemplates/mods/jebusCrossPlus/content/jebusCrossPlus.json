@@ -15,7 +15,7 @@
 				"treasure" : [
 								{"min" : 12000, "max": 22000, "density": 1},
 								{"min" : 5000, "max": 16000, "density": 6},
-								{"min" : 300, "max": 3000, "density": 15}
+								{"min" : 300, "max": 3000, "density": 16}
 							],
 							"customObjects" :
 							{
@@ -36,7 +36,7 @@
 												"id" : "hota.mapobjects:object.ancientLamp.ancientLamp",
 												"rmg" : {
 														"value"     : 5000,
-														"rarity"    : 120,
+														"rarity"    : 140,
 														"zoneLimit" : 20
 														}
 											}
@@ -82,15 +82,14 @@
 				"monsters" : "strong",
 				"mines" : {"gold" : 4},
 				"treasure" : [
-								{"min" : 35000, "max": 55000, "density" : 3},
-								{"min" : 25000, "max": 35000, "density" : 10},
+								{"min" : 35000, "max": 55000, "density" : 1},
+								{"min" : 25000, "max": 35000, "density" : 8},
 								{"min" : 10000, "max": 25000, "density" : 10}
 							],
 							"customObjects" :
 							{
 								"bannedObjects" :["hota.mapobjects:object.ancientLamp.ancientLamp"]
 							}
-					
 							
 			}
 		},

@@ -11,7 +11,7 @@
 
    
    "artifacts": [
-   "config/bannedArtifacts.json"
+   "config/ToWArtifacts.json"
    ],
 
    "depends" : 

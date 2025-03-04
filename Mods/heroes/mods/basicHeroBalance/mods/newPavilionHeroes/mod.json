@@ -19,6 +19,9 @@
    "config/heroes.json"
    ],
 
+   "heroClasses": [
+    "config/heroClasses.json"
+    ],
 
 	"compatibility" :
 	{

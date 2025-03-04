@@ -1,0 +1,15 @@
+{
+	"new-pavilion:embalmer": {
+		"secondarySkills" :
+		{
+			"airMagic"     : 3
+		}
+	  },
+
+	  "new-pavilion:vizier": {
+		"secondarySkills" :
+		{
+			"airMagic"     : 3
+		}
+	  }
+}

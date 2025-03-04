@@ -51,30 +51,28 @@
 		},
 		"level" : 4,
 		"power" : 0,
-		"defaultGainChance" : 35, 
+		"defaultGainChance" : 30, 
 		"gainChance":
 		{
-			"castle" : 35,
-			"rampart" : 35,
-			"tower" : 35,
-			"inferno" : 35,
-			"necropolis" : 35,
-			"dungeon" : 35,
-			"conflux" : 35,
-			"cove" : 35
+			"castle" : 30,
+			"rampart" : 30,
+			"tower" : 30,
+			"inferno" : 30,
+			"necropolis" : 30,
+			"dungeon" : 30,
+			"conflux" : 30,
+			"cove" : 30
 		},
 		"flags" : {"indifferent": true,"positive":true},
-		"targetCondition" : {
-			"allOf" : {
-				"bonus.SHOOTER" : "absolute"
-			}
-		},
+		
 		"graphics":
 		{
 			"iconBook" : "townPortalInvocationBook",
 			"iconScroll" : "townPortalInvocationScroll"
 		},
+
 		"targetType" : "NO_TARGET",
+		
 		"levels":
 		{
 			"base":
@@ -155,74 +153,11 @@
 								"duration" : "N_DAYS", 
 								"turns" : 100
 							},
-					"townPortalExpertEarthAndBasicFire": { "limiters" : ["allOf",
+					"townPortalExpertEarth": { "limiters" : [
 									{"type" : "HAS_ANOTHER_BONUS_LIMITER",
 									"parameters" : [
 										"HERO_GRANTS_ATTACKS",
 										"creature.suppEarth3"
-									]
-									}, {"type" : "HAS_ANOTHER_BONUS_LIMITER",
-									"parameters" : [
-										"HERO_GRANTS_ATTACKS",
-										"creature.suppFire1"
-									]
-									}
-								   ],
-								   "type" : "SPELL", 
-								"subtype" : "townPortal",  
-								"val" : 2, 
-								"duration" : "N_DAYS", 
-								"turns" : 100
-							},
-					"townPortalExpertEarthAndBasicWater": { "limiters" : ["allOf",
-									{"type" : "HAS_ANOTHER_BONUS_LIMITER",
-									"parameters" : [
-										"HERO_GRANTS_ATTACKS",
-										"creature.suppEarth3"
-									]
-									}, {"type" : "HAS_ANOTHER_BONUS_LIMITER",
-									"parameters" : [
-										"HERO_GRANTS_ATTACKS",
-										"creature.suppWater1"
-									]
-									}
-								   ],
-								   "type" : "SPELL", 
-								"subtype" : "townPortal",  
-								"val" : 2, 
-								"duration" : "N_DAYS", 
-								"turns" : 100
-							},
-
-					"townPortalExpertEarthAndAdvancedFire": { "limiters" : ["allOf",
-									{"type" : "HAS_ANOTHER_BONUS_LIMITER",
-									"parameters" : [
-										"HERO_GRANTS_ATTACKS",
-										"creature.suppEarth3"
-									]
-									}, {"type" : "HAS_ANOTHER_BONUS_LIMITER",
-									"parameters" : [
-										"HERO_GRANTS_ATTACKS",
-										"creature.suppFire2"
-									]
-									}
-								   ],
-								   "type" : "SPELL", 
-								"subtype" : "townPortal",  
-								"val" : 2, 
-								"duration" : "N_DAYS", 
-								"turns" : 100
-							},
-					"townPortalExpertEarthAndAdvancedWater": { "limiters" : ["allOf",
-									{"type" : "HAS_ANOTHER_BONUS_LIMITER",
-									"parameters" : [
-										"HERO_GRANTS_ATTACKS",
-										"creature.suppEarth3"
-									]
-									}, {"type" : "HAS_ANOTHER_BONUS_LIMITER",
-									"parameters" : [
-										"HERO_GRANTS_ATTACKS",
-										"creature.suppWater2"
 									]
 									}
 								   ],

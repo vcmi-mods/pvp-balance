@@ -1,0 +1,15 @@
+{
+	"core:hillFort" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"hillFortDunes" : { "animation" : "hillFort",
+						"mask" : [ "VVV", "VVV", "VBA" ], 
+						"visitableFrom" : [ "---", "-++", "+++" ],
+						"allowedTerrains":[ "dunes" ] 
+					}
+				}
+			}
+		}
+	}	
+}

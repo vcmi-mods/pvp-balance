@@ -1,0 +1,198 @@
+{
+
+"pvp-balance.artifacts.newartifacts:airHat" : {
+
+		"bonuses" :
+		[
+			{
+				"type" : "SPELL",
+				"subtype" : "dimensionDoor",
+				"val" : 0
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "fly",
+				"val" : 0
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "haste",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "magicArrow",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "disruptingRay",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "lightningBolt",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "fortune",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "precision",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "protectAir",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "airShield",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "destroyUndead",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "hypnotize",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "counterstrike",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "chainLightning",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "airElemental",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "magicMirror",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "forge2k:assumeControl2k",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "tides-of-war.spells:mdtDivineArrows",
+				"val" : 3
+			}
+		]
+		
+	},
+	"pvp-balance.artifacts.newartifacts:earthHat" : {
+
+		"bonuses" :
+		[
+			{
+				"type" : "SPELL",
+				"subtype" : "townPortal",
+				"val" : 0
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "slow",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "magicArrow",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "shield",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "stoneSkin",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "deathRipple",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "quicksand",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "protectEarth",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "antiMagic",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "animateDead",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "forceField",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "earthquake",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "meteorShower",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "sorrow",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "resurrection",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "implosion",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "earthElemental",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "tides-of-war.spells:summonGhost",
+				"val" : 3
+			}
+		]
+		
+	}
+
+}

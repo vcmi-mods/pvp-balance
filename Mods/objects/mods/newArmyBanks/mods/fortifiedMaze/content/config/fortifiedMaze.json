@@ -12,7 +12,7 @@
 					"animation" : "fortifiedMaze", 
 					"visitableFrom" : [ "---", "---", "+++"  ],
 					"mask" : [ "VVVV", "VVVV", "VVBV", "VABB"],
-					"allowedTerrains" :[ "dirt", "grass", "snow", "swamp", "rough", "highlands", "wasteland"]
+					"allowedTerrains" :[ "dirt", "grass", "snow", "swamp", "rough", "highlands", "wasteland", "sand"]
 					}
 				},
 				"blockedVisitable" : false,
@@ -23,8 +23,7 @@
 				"guardsLayout" : "creatureBankNarrow",
 				"rmg" : {
 					"value"		: 2000,
-					"rarity"	: 100,
-					"zoneLimit"	: 2
+					"rarity"	: 120
 				},
 				"rewards":
 				[
@@ -99,8 +98,8 @@
 				"guardsLayout" : "creatureBankNarrow",
 				"rmg" : {
 					"value"		: 2000,
-					"rarity"	: 100,
-					"zoneLimit"	: 1
+					"rarity"	: 120,
+					"zoneLimit"	: 2
 				},
 				"rewards":
 

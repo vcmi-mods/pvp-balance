@@ -61,36 +61,6 @@
 		}
 	},
 
-	"earthHat" : {
-		"type" : [ "HERO" ],
-		"slot" : "HEAD",
-		"class" : "RELIC",
-		"value" : 6500,
-		"components" :
-		[
-			"orbOfSilt",
-			"tomeOfEarthMagic"
-		],
-		"bonuses" :
-		[
-			{
-				"type" : "MAGIC_SCHOOL_SKILL",
-				"subtype" : "earth",
-				"val" : 3
-			}
-		],
-		"graphics" :
-		{ 
-			"image" : "iconsSmall/greenHatS",
-			"large" : "iconsBig/greenHatL",
-			"map" : "map/greenHat"
-		},
-		"text" : {
-			"name" : "Earth Hat",
-			"description" : "{Earth Hat}\r\n\r\nIn addition to its component effects the artifact allows you to cast Earth Magic spells at expert level.",
-			"event" : "You manage to obtain a powerful magical hat."
-		}
-	},
 
 	"airHat" : {
 		"type" : [ "HERO" ],
@@ -104,9 +74,85 @@
 		],
 		"bonuses" :
 		[
+			
 			{
-				"type" : "MAGIC_SCHOOL_SKILL",
-				"subtype" : "air",
+				"type" : "SPELL",
+				"subtype" : "dimensionDoor",
+				"val" : 0
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "fly",
+				"val" : 0
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "haste",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "magicArrow",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "disruptingRay",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "lightningBolt",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "fortune",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "precision",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "protectAir",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "airShield",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "destroyUndead",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "hypnotize",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "counterstrike",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "chainLightning",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "airElemental",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "magicMirror",
 				"val" : 3
 			}
 		],
@@ -118,10 +164,122 @@
 		},
 		"text" : {
 			"name" : "Air Hat",
-			"description" : "{Air Hat}\r\n\r\nIn addition to its component effects the artifact allows you to cast Air Magic spells at expert level.",
+			"description" : "{Air Hat}\r\n\r\nIn addition to its component effects the artifact allows you to cast Air Magic spells at expert level, except for Fly and Dimension Door.",
+			"event" : "You manage to obtain a powerful magical hat."
+		}
+	},
+
+	"earthHat" : {
+		"type" : [ "HERO" ],
+		"slot" : "HEAD",
+		"class" : "RELIC",
+		"value" : 6500,
+		"components" :
+		[
+			"orbOfSilt",
+			"tomeOfEarthMagic"
+		],
+		"bonuses" :
+		[
+			{
+				"type" : "SPELL",
+				"subtype" : "townPortal",
+				"val" : 0
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "slow",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "magicArrow",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "shield",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "stoneSkin",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "deathRipple",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "quicksand",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "protectEarth",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "antiMagic",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "animateDead",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "forceField",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "earthquake",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "meteorShower",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "sorrow",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "resurrection",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "implosion",
+				"val" : 3
+			},
+			{
+				"type" : "SPELL",
+				"subtype" : "earthElemental",
+				"val" : 3
+			}
+		],
+		"graphics" :
+		{ 
+			"image" : "iconsSmall/greenHatS",
+			"large" : "iconsBig/greenHatL",
+			"map" : "map/greenHat"
+		},
+		"text" : {
+			"name" : "Earth Hat",
+			"description" : "{Earth Hat}\r\n\r\nIn addition to its component effects the artifact allows you to cast Earth Magic spells at expert level, except for Town Portal.",
 			"event" : "You manage to obtain a powerful magical hat."
 		}
 	}
+
 
 
 }

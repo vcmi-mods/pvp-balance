@@ -1,0 +1,31 @@
+{
+	"tides-of-war.spells:mdtFireballWand" : {
+		"power" : 15,
+		"levels" : {
+			"base" : {
+				"cost" : 4,
+				"power" : 15
+			},
+			"none" : {},
+			"basic" : {
+				"power" : 30
+			},
+			"advanced" : {
+				"power" : 60
+			},
+			"expert" : {
+				"power" : 90
+			}
+		}
+		
+	}
+
+
+
+}
+
+	
+	
+	
+	
+	

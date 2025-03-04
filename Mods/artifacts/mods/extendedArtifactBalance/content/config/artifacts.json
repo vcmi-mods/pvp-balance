@@ -158,7 +158,43 @@
 			   "propagator" : "PLAYER_PROPAGATOR",
 			   "type" : "CREATURE_GROWTH_PERCENT",
 			   "val" : 100
-		   }
+		    },
+			{
+				"propagator" : "VISITED_TOWN_AND_VISITOR",
+				"subtype" : "creatureLevel2",
+				"type" : "CREATURE_GROWTH",
+				"val" : 8
+			},
+			{
+				"propagator" : "VISITED_TOWN_AND_VISITOR",
+				"subtype" : "creatureLevel3",
+				"type" : "CREATURE_GROWTH",
+				"val" : 6
+			},
+			{
+				"propagator" : "VISITED_TOWN_AND_VISITOR",
+				"subtype" : "creatureLevel4",
+				"type" : "CREATURE_GROWTH",
+				"val" : 4
+			},
+			{
+				"propagator" : "VISITED_TOWN_AND_VISITOR",
+				"subtype" : "creatureLevel5",
+				"type" : "CREATURE_GROWTH",
+				"val" : 4
+			},
+			{
+				"propagator" : "VISITED_TOWN_AND_VISITOR",
+				"subtype" : "creatureLevel6",
+				"type" : "CREATURE_GROWTH",
+				"val" : 2
+			},
+			{
+				"propagator" : "VISITED_TOWN_AND_VISITOR",
+				"subtype" : "creatureLevel7",
+				"type" : "CREATURE_GROWTH",
+				"val" : 1
+			}
 		  ],
 		  "text" : {
 				  "description" : "{Statue of Legion}\n\nIncreases your base creature growth in all towns by +100%. ",

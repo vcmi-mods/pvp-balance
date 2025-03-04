@@ -1,0 +1,70 @@
+{
+
+    "tides-of-war.artifacts:mdtThirdEye": {
+		"class" : "SPECIAL"
+		},
+
+    "tides-of-war.artifacts:mdtBinoculars": {
+      "bonuses" :
+      [
+        {
+          "type" : "VISIONS",
+          "subtype" : "visionsMonsters",
+          "val" : 3,
+          "valueType" : "INDEPENDENT_MAX",
+          "propagator" : "HERO"
+        },
+        {
+          "type" : "VISIONS",
+          "subtype" : "visionsHeroes",
+          "val" : 3,
+          "valueType" : "INDEPENDENT_MAX",
+          "propagator" : "HERO"
+        },
+        {
+          "type" : "VISIONS",
+          "subtype" : "visionsTowns",
+          "val" : 3,
+          "valueType" : "INDEPENDENT_MAX",
+          "propagator" : "HERO"
+        },
+        {
+          "type" : "SIGHT_RADIUS",
+          "val" : 2,
+          "valueType" : "ADDITIVE_VALUE"
+        }
+      ]
+		},
+
+    "tides-of-war.artifacts:mdtShieldWand" :
+    {
+      "text" :
+      {
+        "name" : "Shield Wand",
+        "description" : "{Shield Wand}\r\n\r\nAdds Shield Wand spell to spellbook. Use it to cast Shield spell at lowered mana cost.",
+        "event" : "On your way you stumble upon a small patch of terrain reminiscent of some hardened crust. In the middle of this place you see a wand, clearly emanating a magical power, stuck in the ground. You decide to grab the wand from the hardened soil and keep it for yourself."
+      }
+    },
+
+    "tides-of-war.artifacts:mdtIceboltWand" :
+    {
+     "text" :
+		  {
+			  "name" : "Ice Bolt Wand",
+			  "description" : "{Ice Bolt}\r\n\r\nAdds Ice Bolt Wand spell to spellbook. Use it to cast Ice Bolt spell at lowered mana cost.",
+			  "event" : "On your way you stumble upon a small patch of icebound terrain. In the middle of this place you see a wand, clearly emanating a magical power, stuck in the ground. You decide to grab the wand from the ice and keep it for yourself."
+		  }
+    },
+
+    "tides-of-war.artifacts:mdtFireballWand" :
+    {
+      "text" :
+        {
+          "name" : "Fireball Wand",
+          "description" : "{Fireball Wand}\r\n\r\nAdds Fireball Wand spell to spellbook. Use it to cast Fireball spell at lowered mana cost.",
+          "event" : "On your way you stumble upon a small patch of terrain covered in flames. In the middle of this place you see a wand, clearly emanating a magical power, stuck in the ground. You decide to grab the wand from the fire and keep it for yourself."
+        }
+    }
+  }
+  
+  

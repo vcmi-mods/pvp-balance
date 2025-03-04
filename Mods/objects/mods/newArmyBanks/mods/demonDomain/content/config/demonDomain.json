@@ -11,8 +11,7 @@
 					"base" : { 
 					"animation" : "demonDomain", 
 					"visitableFrom" : [ "---", "---", "+++"  ],
-					"mask" : [ "VVVV", "VVVV", "VBBV", "VBAV"],
-					"allowedTerrains" :["subterra", "lava", "sand"]
+					"mask" : [ "VVVV", "VVVV", "VBBV", "VBAV"]
 					}
 				},
 				"blockedVisitable" : false,
@@ -25,8 +24,7 @@
 				"onSelectMessage" : "The last of the demonic guards falls before you, dissipating into the shadows. With the battle won, you approach the glowing altar in the center of the domain, where two figures materialize from the darkened air - a devil and an efreet. Choose your prize wisely.",
 				"rmg" : {
 					"value"		: 4000,
-					"rarity"	: 50,
-					"zoneLimit" : 1
+					"rarity"	: 50
 				},
 				"rewards":
 				[

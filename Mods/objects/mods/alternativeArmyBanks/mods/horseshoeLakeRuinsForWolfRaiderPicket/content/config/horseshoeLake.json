@@ -12,7 +12,7 @@
 					"animation" : "horseshoeLake", 
 					"visitableFrom" : [ "---", "---", "+++"  ],
 					"mask" : [ "VVVV", "VVVV", "VBBB", "VBAV"],
-					"allowedTerrains" :[ "dirt", "grass", "swamp", "rough", "highlands", "wasteland"]
+					"allowedTerrains" :[ "dirt", "grass", "swamp", "rough", "highlands", "wasteland", "sand"]
 					}
 				},
 				"blockedVisitable" : false,

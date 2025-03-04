@@ -15,6 +15,7 @@
 		"graphics" :
 		{
 			"image" : "iconsSmall/tpScroll",
+			"large": "iconsbig/tpScroll.png",
 			"map" : "map/scroll"
 		},
 		"text" :

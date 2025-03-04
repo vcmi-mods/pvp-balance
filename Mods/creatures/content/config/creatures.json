@@ -17,15 +17,51 @@
 	"core:sharpshooter":
 	{
 		"advMapAmount" : {
-		"max" : 25,
-		"min" : 15
-	}
+			"max" : 25,
+			"min" : 15
+			}
 		
-	}
-		
-		
-		
-	
+	},
 
+	"core:naga":
+	{
+		"fightValue" : 2016,
+		"aiValue" : 1814
+		
+	},
+
+	"core:scorpicore":
+	{
+		"fightValue" : 1248,
+		"aiValue" : 1685
+		
+	},
+
+	"core:ghostDragon":
+	{
+		"fightValue" : 3228,
+		"aiValue" : 4919
+		
+	},
+
+	"core:redDragon":
+	{
+		"fightValue" : 3762,
+		"aiValue" : 5003
+		
+	},
+
+	"core:cyclopKing":
+	{
+		"fightValue" : 1110,
+		"aiValue" : 1544
+		
+	},
+
+	"hota.neutralcreatures:leprechaun":
+	{
+		"fightValue" : 190,
+		"aiValue" : 190		
+	}
   
 }

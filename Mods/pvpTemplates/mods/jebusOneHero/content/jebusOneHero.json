@@ -206,7 +206,7 @@
 								{"min" : 7200, "max": 12000, "density": 2},
 								{"min" : 2500, "max": 7200, "density": 8},
 								{"min" : 800, "max": 2500, "density": 3},
-								{"min" : 100, "max": 700, "density": 6}
+								{"min" : 100, "max": 700, "density": 7}
 							],
 				"customObjects" :
 	{

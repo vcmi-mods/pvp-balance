@@ -24,8 +24,8 @@
 				"battleground": "elderbrainBattlefield",
 				"rmg" : {
 					"value"		: 2000,
-					"rarity"	: 100,
-					"zoneLimit"	: 1
+					"rarity"	: 120,
+					"zoneLimit"	: 2
 				},
 				"rewards":
 				[

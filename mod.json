@@ -7,7 +7,7 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 
     "modType" : "Expansion",
-    "version" : "1.3.3",
+    "version" : "1.3.4",
     "changelog" :
     {
         "1.0"   : [ "initial release" ],
@@ -33,7 +33,8 @@
         "1.3"   : [ "Fundamental reorganisation of mod structure and a lot of new content added." ],
         "1.3.1"   : [ "Small bugfixes." ],
         "1.3.2"   : [ "Shortened submod paths to avoid exceeding max path length on Windows." ],
-        "1.3.3"   : [ "More small bugfixes." ]
+        "1.3.3"   : [ "More small bugfixes." ],
+        "1.3.4"   : [ "Modified Town Portal Rework submod - expert Earth Magic gives advanced Town Portal, expert Fire and Water give advanced Town Portal, expert Earth and expert Fire/Water give expert Town Portal.", "Air Hat and Earth Hat do not allow to cast Town Portal, Fly and Dimension Door without expert magic.", "Firebal Wand - cost of Fireball increased to 4 mana, compatibility with Basic and Extended Spell Balance submods. Icebolt Wand - cost of Icebolt increased to 3 mana.", "Added component effects for Statue of Legion.", "Horseshoe Lake, Demon Domain, Fortified Maze and Elderbrain - small modification extending the possible terrains / zone limit.", "Dangerous Cave - maximum size gives +2 attack instead of Relic Artifact.", "Dangerous Cabe - new graphics for Ogre Archmage by Exx and Kurek.", "Allowed terrains for Control Spell Scrolls fixed.",  "Fixed the sprite of Pandora's Box.", "Corrected AI values of Leprechauns, Nagas, Ghost Dragons, Red Dragons and Scorpicors in compliance with HotA 1.7.2.", "New Pavilion - Vizier and Embalmer can now learn Air Magic.", "Special weeks disabled.", "Jebus One Hero - added Pavilion, Forge2k and Ruins compatibility for Logistics and Scouting at Hand submod", "Vietnamese Diplomacy - fixed Hill Fort generation, optimized zone treasure layout with aim of more frequent creature dwellings in the starting zones and more single-guarded Dragon FLy Hives in transition zones, Binoculars and Phylacterium slightly nerfed, Transformation Altar added when Tides of War mod is enabled, Pandora's Boxes with Azure Dragon are limited to 10 per zone now.", "Filled in some missing descriptions." ]
     },
 
     "depends" : 
@@ -90,7 +91,9 @@
 
         "creatures":{
             "allowJoiningForFree" : false,
-			"joiningPercentage" : 50
+			"joiningPercentage" : 50,
+            "allowRandomSpecialWeeks" : false,
+			"allowAllForDoubleMonth" : false
         }
     },
 

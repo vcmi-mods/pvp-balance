@@ -1,0 +1,32 @@
+{
+    "name" : "Tides of War New Artifacts",
+
+    "description" : "Include spells from ToW in Air and Earth Hat effect.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+
+   "depends" : 
+   [
+    "tides-of-war",
+    "tides-of-war.spells",
+    "pvp-balance.artifacts.newArtifacts"
+   ],
+
+   "artifacts" : 
+   [
+    "config/newArtifactsToW.json"
+   ],
+
+"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.3",
+    
+    "keepDisabled" : false
+}
