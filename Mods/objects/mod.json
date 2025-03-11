@@ -11,6 +11,8 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 
     "modType" : "Objects",
+
+	
 	
 	"objects" :
 	[
@@ -24,7 +26,6 @@
 		"config/supplementaryObjects/15kGoldPandora.json",
 		"config/supplementaryObjects/20kGoldPandora.json",
 		"config/supplementaryObjects/azureDragonPandora.json"
-		
 	],
 
 	"artifacts" :

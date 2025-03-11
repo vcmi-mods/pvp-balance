@@ -36,7 +36,7 @@
     "valueMultiplierSpells" : 2500,
     "valueSpellSchool" : 15000,
     "valueSpell60" : 30000,
-    "creaturesValue" : [5000, 7000, 9000, 12000, 16000, 21000, 27000]
+    "creaturesValue" : [999999, 999999, 999999, 999999, 16000, 21000, 27000]
   },
   "quests" : 
   {

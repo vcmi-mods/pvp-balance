@@ -1,0 +1,54 @@
+{
+	
+	"hota.factory:armadillo": {
+		"special" : true
+	},
+	"hota.factory:bellwetherArmadillo": {
+		"special" : true
+	},
+	"hota.factory:bountyHunter": {
+		"special" : true
+	},
+	"hota.factory:gunslinger": {
+		"special" : true
+	},
+	"hota.factory:crimsonCouatl": {
+		"special" : true
+	},
+	"hota.factory:hotaCouatl": {
+		"special" : true
+	},
+
+	"hota.factory:hotaDreadnought": {
+		"special" : true
+	},
+	"hota.factory:hotaJuggernaut": {
+		"special" : true
+	},
+	"hota.factory:automaton": {
+		"special" : true
+	},
+	"hota.factory:sentinelAutomaton": {
+		"special" : true
+	},
+	"hota.factory:sandworm": {
+		"special" : true
+	},
+	"hota.factory:olgoiKhorkhoi": {
+		"special" : true
+	},
+	"hota.factory:hotaMechanic": {
+		"special" : true
+	},
+	"hota.factory:hotaEngineer": {
+		"special" : true
+	},
+	"hota.factory:halflingGrenadier": {
+		"special" : true
+	},
+	"core:halfling": {
+		"special" : true
+	}
+}
+
+

@@ -1,5 +1,118 @@
+
+
 {
-    "tides-of-war.alternative-creatures:mdtDrakeGolem":
+    "tides-of-war.alternative-creatures:mdtAlhoon":
+	{
+	
+	
+		"abilities#override" : {
+			"castsHypnotize" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.hypnotize",
+				"val" : 1,
+				"addInfo" : 100,
+				"turns" : 3
+			},
+			"castsCount" :
+			{
+				"type" : "CASTS",
+				"val" : 2
+			},
+			"spellpower" : 
+			{ 
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 50
+			}
+		}
+	
+	},
+
+	"tides-of-war.alternative-creatures:mdtIllithid":
+	{
+	
+	
+		"abilities#override" : {
+			"castsHypnotize" :
+			{
+					"type" : "SPELLCASTER",
+					"subtype" : "spell.hypnotize",
+					"val" : 1,
+					"addInfo" : 100,
+					"turns" : 3
+			},
+			"castsCount" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"spellpower" :
+			{ 
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 25
+			}
+		}
+	
+	},
+
+	
+	"tides-of-war.alternative-creatures:mdtTriton":
+	{
+		"cost" :
+		{
+			"gold" : 250
+		},
+		
+		"damage" :
+		{
+			 "min" : 3,
+			 "max" : 6
+		}
+
+		
+	},
+
+	"tides-of-war.alternative-creatures:mdtAbyssalTriton":
+	{
+		"cost" :
+		{
+			"gold" : 350
+		},
+
+		"damage" :
+		{
+			 "min" : 3,
+			 "max" : 7
+		},
+		
+		"abilities#override" : {
+			"castsBloodlust" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.mdtTrawl",
+				"val" : 2
+			},
+			"castsCount" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"castLength" :
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 1
+			},
+			"immuneToWater" :
+			{
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "spellSchool.water",
+				"val" : 100
+			}
+		}
+		
+	},
+
+	"tides-of-war.alternative-creatures:mdtDrakeGolem":
 	{
 		"cost" : {
 			"gold" : 2500

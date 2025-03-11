@@ -18,9 +18,9 @@
 				"treasure" : [
 					{"min" : 45000, "max": 60000, "density" : 3},
 					{"min" : 30000, "max": 45000, "density" : 3},
-					{"min" : 15000, "max": 30000, "density" : 1},
+					{"min" : 15000, "max": 30000, "density" : 3},
 					{"min" : 7000, "max": 15000, "density" : 1},
-					{"min" : 2000, "max": 6000, "density" : 3}
+					{"min" : 4000, "max": 7000, "density" : 1}
 				],
 				"customObjects" :
 							{
@@ -202,11 +202,12 @@
 				"mines" : {"wood" : 4, "ore" : 4, "gems" : 1, "crystal" : 1, "sulfur" : 1, "mercury" : 1, "gold" : 2},
 				"treasure" : [		
 											
-								{"min" : 12000, "max": 16000, "density": 4},
+								{"min" : 16000, "max": 20000, "density": 2},
+								{"min" : 12000, "max": 16000, "density": 2},
 								{"min" : 7200, "max": 12000, "density": 2},
-								{"min" : 2500, "max": 7200, "density": 8},
-								{"min" : 800, "max": 2500, "density": 3},
-								{"min" : 100, "max": 700, "density": 7}
+								{"min" : 3000, "max": 7200, "density": 5},
+								{"min" : 700, "max": 3000, "density": 3},
+								{"min" : 100, "max": 700, "density": 9}
 							],
 				"customObjects" :
 	{
@@ -249,7 +250,7 @@
 						"rmg" : {
 								 "value"     : 5000,
 								 "rarity"    : 9999,
-								 "zoneLimit" : 2
+								 "zoneLimit" : 1
 								}
 					},
 					{
@@ -628,7 +629,7 @@
 								{"min" : 2500, "max": 12000, "density": 4},
 								{"min" : 500, "max": 4000, "density": 4}
 							],
-				"allowedTowns" : ["conflux"], 
+				"allowedTowns" : ["confluxCopy"], 
 				"customObjects" :
 				{
 					"bannedCategories" : ["all"],
@@ -793,7 +794,7 @@
 				"terrainTypes" : [ "sand" ], "matchTerrainToTown" : false,
 				"treasureLikeZone" : 6,
 				"minesLikeZone" : 6,
-				"allowedTowns" : ["conflux"], 
+				"allowedTowns" : ["confluxCopy"], 
 				"customObjectsLikeZone" : 6
 			},
 			"8":
@@ -804,7 +805,7 @@
 				"terrainTypes" : [ "sand" ], "matchTerrainToTown" : false,
 				"treasureLikeZone" : 6,
 				"minesLikeZone" : 6,
-				"allowedTowns" : ["conflux"], 
+				"allowedTowns" : ["confluxCopy"], 
 				"customObjectsLikeZone" : 6
 			},
 			"9":
@@ -815,7 +816,7 @@
 				"terrainTypes" : [ "sand" ], "matchTerrainToTown" : false,
 				"treasureLikeZone" : 6,
 				"minesLikeZone" : 6,
-				"allowedTowns" : ["conflux"], 
+				"allowedTowns" : ["confluxCopy"], 
 				"customObjectsLikeZone" : 6
 			}
 

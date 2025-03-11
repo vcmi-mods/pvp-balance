@@ -8,12 +8,26 @@
     "contact" : "wnukos on Discord",
 
     "modType" : "Other",
-   
-    "conflicts" : 
-	[
-		"hota.factory"
-	],
 	
+    "depends":
+    [
+        "hota.factory"
+    ],
+
+    "softDepends":
+    [
+        "hota.factory.factorycampaignHeroesInMaps"
+    ],
+
+    "factions":
+    ["config/factions.json"],
+
+    "creatures":
+    ["config/creatures.json"],
+
+    "heroes":
+    ["config/heroes.json"],
+
 	"compatibility" :
 	{
 		"min" : "1.6"

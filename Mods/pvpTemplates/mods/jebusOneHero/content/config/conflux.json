@@ -1,0 +1,2972 @@
+{
+	"confluxCopy":
+	{
+	"special":true,
+	"alignment" : "neutral",
+	"boat" : "boatConflux",
+	"creatureBackground" : {
+		"120px" : "TPCASELE",
+		"130px" : "CRBKGELE"
+	},
+	"name" : "Conflux Copy",
+	"nativeTerrain" : "highlands",
+	"puzzleMap" : {
+		 // core
+		"pieces" : [
+			 // core
+			{
+				 // core
+				"index" : 1,
+				 // core
+				"x" : 7,
+				 // core
+				"y" : 8
+			},
+			 // core
+			{
+				 // core
+				"index" : 6,
+				 // core
+				"x" : 7,
+				 // core
+				"y" : 54
+			},
+			 // core
+			{
+				 // core
+				"index" : 16,
+				 // core
+				"x" : 7,
+				 // core
+				"y" : 227
+			},
+			 // core
+			{
+				 // core
+				"index" : 9,
+				 // core
+				"x" : 7,
+				 // core
+				"y" : 426
+			},
+			 // core
+			{
+				 // core
+				"index" : 22,
+				 // core
+				"x" : 15,
+				 // core
+				"y" : 48
+			},
+			 // core
+			{
+				 // core
+				"index" : 32,
+				 // core
+				"x" : 45,
+				 // core
+				"y" : 375
+			},
+			 // core
+			{
+				 // core
+				"index" : 28,
+				 // core
+				"x" : 48,
+				 // core
+				"y" : 249
+			},
+			 // core
+			{
+				 // core
+				"index" : 15,
+				 // core
+				"x" : 86,
+				 // core
+				"y" : 500
+			},
+			 // core
+			{
+				 // core
+				"index" : 37,
+				 // core
+				"x" : 93,
+				 // core
+				"y" : 55
+			},
+			 // core
+			{
+				 // core
+				"index" : 7,
+				 // core
+				"x" : 99,
+				 // core
+				"y" : 245
+			},
+			 // core
+			{
+				 // core
+				"index" : 27,
+				 // core
+				"x" : 101,
+				 // core
+				"y" : 354
+			},
+			 // core
+			{
+				 // core
+				"index" : 35,
+				 // core
+				"x" : 104,
+				 // core
+				"y" : 175
+			},
+			 // core
+			{
+				 // core
+				"index" : 21,
+				 // core
+				"x" : 107,
+				 // core
+				"y" : 14
+			},
+			 // core
+			{
+				 // core
+				"index" : 38,
+				 // core
+				"x" : 124,
+				 // core
+				"y" : 296
+			},
+			 // core
+			{
+				 // core
+				"index" : 4,
+				 // core
+				"x" : 134,
+				 // core
+				"y" : 8
+			},
+			 // core
+			{
+				 // core
+				"index" : 26,
+				 // core
+				"x" : 181,
+				 // core
+				"y" : 466
+			},
+			 // core
+			{
+				 // core
+				"index" : 40,
+				 // core
+				"x" : 182,
+				 // core
+				"y" : 200
+			},
+			 // core
+			{
+				 // core
+				"index" : 33,
+				 // core
+				"x" : 189,
+				 // core
+				"y" : 381
+			},
+			 // core
+			{
+				 // core
+				"index" : 8,
+				 // core
+				"x" : 192,
+				 // core
+				"y" : 40
+			},
+			 // core
+			{
+				 // core
+				"index" : 11,
+				 // core
+				"x" : 192,
+				 // core
+				"y" : 364
+			},
+			 // core
+			{
+				 // core
+				"index" : 48,
+				 // core
+				"x" : 201,
+				 // core
+				"y" : 124
+			},
+			 // core
+			{
+				 // core
+				"index" : 42,
+				 // core
+				"x" : 203,
+				 // core
+				"y" : 330
+			},
+			 // core
+			{
+				 // core
+				"index" : 45,
+				 // core
+				"x" : 228,
+				 // core
+				"y" : 293
+			},
+			 // core
+			{
+				 // core
+				"index" : 25,
+				 // core
+				"x" : 235,
+				 // core
+				"y" : 39
+			},
+			 // core
+			{
+				 // core
+				"index" : 44,
+				 // core
+				"x" : 242,
+				 // core
+				"y" : 335
+			},
+			 // core
+			{
+				 // core
+				"index" : 5,
+				 // core
+				"x" : 275,
+				 // core
+				"y" : 488
+			},
+			 // core
+			{
+				 // core
+				"index" : 46,
+				 // core
+				"x" : 278,
+				 // core
+				"y" : 202
+			},
+			 // core
+			{
+				 // core
+				"index" : 13,
+				 // core
+				"x" : 290,
+				 // core
+				"y" : 80
+			},
+			 // core
+			{
+				 // core
+				"index" : 20,
+				 // core
+				"x" : 291,
+				 // core
+				"y" : 115
+			},
+			 // core
+			{
+				 // core
+				"index" : 43,
+				 // core
+				"x" : 308,
+				 // core
+				"y" : 225
+			},
+			 // core
+			{
+				 // core
+				"index" : 39,
+				 // core
+				"x" : 310,
+				 // core
+				"y" : 158
+			},
+			 // core
+			{
+				 // core
+				"index" : 12,
+				 // core
+				"x" : 312,
+				 // core
+				"y" : 24
+			},
+			 // core
+			{
+				 // core
+				"index" : 2,
+				 // core
+				"x" : 317,
+				 // core
+				"y" : 8
+			},
+			 // core
+			{
+				 // core
+				"index" : 10,
+				 // core
+				"x" : 323,
+				 // core
+				"y" : 443
+			},
+			 // core
+			{
+				 // core
+				"index" : 41,
+				 // core
+				"x" : 327,
+				 // core
+				"y" : 253
+			},
+			 // core
+			{
+				 // core
+				"index" : 36,
+				 // core
+				"x" : 330,
+				 // core
+				"y" : 36
+			},
+			 // core
+			{
+				 // core
+				"index" : 34,
+				 // core
+				"x" : 349,
+				 // core
+				"y" : 330
+			},
+			 // core
+			{
+				 // core
+				"index" : 17,
+				 // core
+				"x" : 349,
+				 // core
+				"y" : 426
+			},
+			 // core
+			{
+				 // core
+				"index" : 47,
+				 // core
+				"x" : 407,
+				 // core
+				"y" : 191
+			},
+			 // core
+			{
+				 // core
+				"index" : 31,
+				 // core
+				"x" : 421,
+				 // core
+				"y" : 430
+			},
+			 // core
+			{
+				 // core
+				"index" : 23,
+				 // core
+				"x" : 428,
+				 // core
+				"y" : 246
+			},
+			 // core
+			{
+				 // core
+				"index" : 29,
+				 // core
+				"x" : 467,
+				 // core
+				"y" : 90
+			},
+			 // core
+			{
+				 // core
+				"index" : 30,
+				 // core
+				"x" : 481,
+				 // core
+				"y" : 13
+			},
+			 // core
+			{
+				 // core
+				"index" : 18,
+				 // core
+				"x" : 489,
+				 // core
+				"y" : 346
+			},
+			 // core
+			{
+				 // core
+				"index" : 19,
+				 // core
+				"x" : 504,
+				 // core
+				"y" : 113
+			},
+			 // core
+			{
+				 // core
+				"index" : 24,
+				 // core
+				"x" : 504,
+				 // core
+				"y" : 190
+			},
+			 // core
+			{
+				 // core
+				"index" : 14,
+				 // core
+				"x" : 507,
+				 // core
+				"y" : 8
+			},
+			 // core
+			{
+				 // core
+				"index" : 3,
+				 // core
+				"x" : 542,
+				 // core
+				"y" : 436
+			}
+		],
+		 // core
+		"prefix" : "PUZELE"
+	},
+	"town" : {
+		 // core
+		"buildings" : {
+			 // core
+			"blacksmith" : {
+				 // core
+				"cost" : {
+					 // core
+					"crystal" : 0,
+					 // core
+					"gems" : 0,
+					 // core
+					"gold" : 1000,
+					 // core
+					"mercury" : 0,
+					 // core
+					"ore" : 0,
+					 // core
+					"sulfur" : 0,
+					 // core
+					"wood" : 5
+				},
+				 // core
+				"description" : "W kuźni produkuje się balisty.",
+				 // core
+				"id" : 16,
+				 // core
+				"name" : "Kuźnia",
+				 // core
+				"warMachine" : "ballista"
+			},
+			 // core
+			"capitol" : {
+				 // core
+				"cost" : {
+					 // core
+					"crystal" : 0,
+					 // core
+					"gems" : 0,
+					 // core
+					"gold" : 10000,
+					 // core
+					"mercury" : 0,
+					 // core
+					"ore" : 0,
+					 // core
+					"sulfur" : 0,
+					 // core
+					"wood" : 0
+				},
+				 // core
+				"description" : "Kapitol dostarcza codziennie 4000 sztuk złota.",
+				 // core
+				"id" : 13,
+				 // core
+				"name" : "Kapitol",
+				 // core
+				"produce" : {
+					 // core
+					"gold" : 4000
+				},
+				 // core
+				"requires" : [
+					 // core
+					"castle"
+				],
+				 // core
+				"upgrades" : "cityHall"
+			},
+			 // core
+			"castle" : {
+				 // core
+				"cost" : {
+					 // core
+					"crystal" : 0,
+					 // core
+					"gems" : 0,
+					 // core
+					"gold" : 5000,
+					 // core
+					"mercury" : 0,
+					 // core
+					"ore" : 10,
+					 // core
+					"sulfur" : 0,
+					 // core
+					"wood" : 10
+				},
+				 // core
+				"description" : "Zamek dodaje 2 wieże łucznicze, umacnia mury miasta oraz podwaja bazową ilość produkowanych jednostek.",
+				 // core
+				"fortifications" : {
+					 // core
+					"lowerTowerHealth" : 2,
+					 // core
+					"upperTowerHealth" : 2,
+					 // core
+					"wallsHealth" : 3
+				},
+				 // core
+				"id" : 9,
+				 // core
+				"name" : "Zamek",
+				 // core
+				"upgrades" : "citadel"
+			},
+			 // core
+			"citadel" : {
+				 // core
+				"cost" : {
+					 // core
+					"crystal" : 0,
+					 // core
+					"gems" : 0,
+					 // core
+					"gold" : 2500,
+					 // core
+					"mercury" : 0,
+					 // core
+					"ore" : 5,
+					 // core
+					"sulfur" : 0,
+					 // core
+					"wood" : 0
+				},
+				 // core
+				"description" : "Cytadela dodaje wieżę do fortu oraz zwiększa o 50% bazową ilość produkowanych jednostek.",
+				 // core
+				"fortifications" : {
+					 // core
+					"citadelHealth" : 2,
+					 // core
+					"hasMoat" : true
+				},
+				 // core
+				"id" : 8,
+				 // core
+				"name" : "Cytadela",
+				 // core
+				"upgrades" : "fort"
+			},
+			 // core
+			"cityHall" : {
+				 // core
+				"cost" : {
+					 // core
+					"crystal" : 0,
+					 // core
+					"gems" : 0,
+					 // core
+					"gold" : 5000,
+					 // core
+					"mercury" : 0,
+					 // core
+					"ore" : 0,
+					 // core
+					"sulfur" : 0,
+					 // core
+					"wood" : 0
+				},
+				 // core
+				"description" : "Ratusz umożliwia rozbudowę miasta oraz dostarcza ci 2000 sztuk złota dziennie.",
+				 // core
+				"id" : 12,
+				 // core
+				"name" : "Ratusz",
+				 // core
+				"produce" : {
+					 // core
+					"gold" : 2000
+				},
+				 // core
+				"requires" : [
+					 // core
+					"allOf",
+					 // core
+					[
+						 // core
+						"mageGuild1"
+					],
+					 // core
+					[
+						 // core
+						"marketplace"
+					],
+					 // core
+					[
+						 // core
+						"blacksmith"
+					]
+				],
+				 // core
+				"upgrades" : "townHall"
+			},
+			 // core
+			"dwellingLvl1" : {
+				 // core
+				"cost" : {
+					 // core
+					"crystal" : 0,
+					 // core
+					"gems" : 0,
+					 // core
+					"gold" : 300,
+					 // core
+					"mercury" : 0,
+					 // core
+					"ore" : 5,
+					 // core
+					"sulfur" : 0,
+					 // core
+					"wood" : 5
+				},
+				 // core
+				"description" : "Magiczna latarnia pozwala rekrutować nimfy.",
+				 // core
+				"id" : 30,
+				 // core
+				"name" : "Magiczna latarnia",
+				 // core
+				"requires" : [
+					 // core
+					"fort"
+				]
+			},
+			 // core
+			"dwellingLvl2" : {
+				 // core
+				"cost" : {
+					 // core
+					"crystal" : 0,
+					 // core
+					"gems" : 0,
+					 // core
+					"gold" : 1500,
+					 // core
+					"mercury" : 0,
+					 // core
+					"ore" : 5,
+					 // core
+					"sulfur" : 0,
+					 // core
+					"wood" : 0
+				},
+				 // core
+				"description" : "Ołtarz powietrza pozwala rekrutować żywiołaki powietrza.",
+				 // core
+				"id" : 31,
+				 // core
+				"name" : "Ołtarz powietrza",
+				 // core
+				"requires" : [
+					 // core
+					"allOf",
+					 // core
+					[
+						 // core
+						"dwellingLvl1"
+					],
+					 // core
+					[
+						 // core
+						"mageGuild1"
+					]
+				]
+			},
+			 // core
+			"dwellingLvl3" : {
+				 // core
+				"cost" : {
+					 // core
+					"crystal" : 0,
+					 // core
+					"gems" : 0,
+					 // core
+					"gold" : 1500,
+					 // core
+					"mercury" : 0,
+					 // core
+					"ore" : 5,
+					 // core
+					"sulfur" : 0,
+					 // core
+					"wood" : 0
+				},
+				 // core
+				"description" : "Ołtarz wody pozwala rekrutować żywiołaki wody.",
+				 // core
+				"id" : 32,
+				 // core
+				"name" : "Ołtarz wody",
+				 // core
+				"requires" : [
+					 // core
+					"allOf",
+					 // core
+					[
+						 // core
+						"dwellingLvl1"
+					],
+					 // core
+					[
+						 // core
+						"mageGuild1"
+					]
+				]
+			},
+			 // core
+			"dwellingLvl4" : {
+				 // core
+				"cost" : {
+					 // core
+					"crystal" : 0,
+					 // core
+					"gems" : 0,
+					 // core
+					"gold" : 2000,
+					 // core
+					"mercury" : 0,
+					 // core
+					"ore" : 5,
+					 // core
+					"sulfur" : 0,
+					 // core
+					"wood" : 5
+				},
+				 // core
+				"description" : "Ołtarz ognia pozwala rekrutować żywiołaki ognia.",
+				 // core
+				"id" : 33,
+				 // core
+				"name" : "Ołtarz ognia",
+				 // core
+				"requires" : [
+					 // core
+					"dwellingLvl2"
+				]
+			},
+			 // core
+			"dwellingLvl5" : {
+				 // core
+				"cost" : {
+					 // core
+					"crystal" : 0,
+					 // core
+					"gems" : 0,
+					 // core
+					"gold" : 2000,
+					 // core
+					"mercury" : 0,
+					 // core
+					"ore" : 10,
+					 // core
+					"sulfur" : 0,
+					 // core
+					"wood" : 0
+				},
+				 // core
+				"description" : "Ołtarz ziemi pozwala rekrutować żywiołaki ziemi.",
+				 // core
+				"id" : 34,
+				 // core
+				"name" : "Ołtarz ziemi",
+				 // core
+				"requires" : [
+					 // core
+					"dwellingLvl3"
+				]
+			},
+			 // core
+			"dwellingLvl6" : {
+				 // core
+				"cost" : {
+					 // core
+					"crystal" : 2,
+					 // core
+					"gems" : 2,
+					 // core
+					"gold" : 3000,
+					 // core
+					"mercury" : 2,
+					 // core
+					"ore" : 5,
+					 // core
+					"sulfur" : 2,
+					 // core
+					"wood" : 5
+				},
+				 // core
+				"description" : "Ołtarz myśli pozwala rekrutować żywiołaki umysłu.",
+				 // core
+				"id" : 35,
+				 // core
+				"name" : "Ołtarz magii",
+				 // core
+				"requires" : [
+					 // core
+					"allOf",
+					 // core
+					[
+						 // core
+						"dwellingLvl4"
+					],
+					 // core
+					[
+						 // core
+						"dwellingLvl5"
+					]
+				]
+			},
+			 // core
+			"dwellingLvl7" : {
+				 // core
+				"cost" : {
+					 // core
+					"crystal" : 0,
+					 // core
+					"gems" : 0,
+					 // hota.gamebalance
+					"gold" : 15000,
+					 // hota.gamebalance
+					"mercury" : 20,
+					 // core
+					"ore" : 10,
+					 // core
+					"sulfur" : 0,
+					 // core
+					"wood" : 10
+				},
+				 // core
+				"description" : "Wir ognia pozwala rekrutować ogniste ptaki.",
+				 // core
+				"id" : 36,
+				 // core
+				"name" : "Wir ognia",
+				 // core
+				"requires" : [
+					 // core
+					"dwellingLvl6"
+				]
+			},
+			 // core
+			"dwellingUpLvl1" : {
+				 // core
+				"cost" : {
+					 // core
+					"crystal" : 0,
+					 // core
+					"gems" : 0,
+					 // core
+					"gold" : 1000,
+					 // core
+					"mercury" : 0,
+					 // core
+					"ore" : 0,
+					 // core
+					"sulfur" : 0,
+					 // core
+					"wood" : 0
+				},
+				 // core
+				"description" : "Ulepszona magiczna latarnia pozwala rekrutować rusałki.",
+				 // core
+				"id" : 37,
+				 // core
+				"name" : "Ul. magiczna latarnia",
+				 // hota.gamebalance
+				"requires" : [
+					 // hota.gamebalance
+					"allOf",
+					 // hota.gamebalance
+					[
+						 // hota.gamebalance
+						"mageGuild1"
+					],
+					 // hota.gamebalance
+					[
+						 // hota.gamebalance
+						"special2"
+					]
+				],
+				 // core
+				"upgrades" : "dwellingLvl1"
+			},
+			 // core
+			"dwellingUpLvl2" : {
+				 // core
+				"cost" : {
+					 // core
+					"crystal" : 0,
+					 // core
+					"gems" : 2,
+					 // core
+					"gold" : 1500,
+					 // core
+					"mercury" : 2,
+					 // core
+					"ore" : 0,
+					 // core
+					"sulfur" : 0,
+					 // core
+					"wood" : 2
+				},
+				 // core
+				"description" : "Ulepszony ołtarz powietrza pozwala rekrutować żywiołaki burzy.",
+				 // core
+				"id" : 38,
+				 // core
+				"name" : "Ul. ołtarz powietrza",
+				 // core
+				"upgrades" : "dwellingLvl2"
+			},
+			 // core
+			"dwellingUpLvl3" : {
+				 // core
+				"cost" : {
+					 // core
+					"crystal" : 0,
+					 // core
+					"gems" : 0,
+					 // core
+					"gold" : 2000,
+					 // core
+					"mercury" : 5,
+					 // core
+					"ore" : 5,
+					 // core
+					"sulfur" : 0,
+					 // core
+					"wood" : 0
+				},
+				 // core
+				"description" : "Ulepszony ołtarz lodu pozwala rekrutować żywiołaki lodu.",
+				 // core
+				"id" : 39,
+				 // core
+				"name" : "Ul. ołtarz wody",
+				 // core
+				"upgrades" : "dwellingLvl3"
+			},
+			 // core
+			"dwellingUpLvl4" : {
+				 // core
+				"cost" : {
+					 // core
+					"crystal" : 0,
+					 // core
+					"gems" : 0,
+					 // core
+					"gold" : 2000,
+					 // core
+					"mercury" : 5,
+					 // core
+					"ore" : 5,
+					 // core
+					"sulfur" : 0,
+					 // core
+					"wood" : 0
+				},
+				 // core
+				"description" : "Ulepszony ołtarz energii pozwala rekrutować żywiołaki energii.",
+				 // core
+				"id" : 40,
+				 // core
+				"name" : "Ul. ołtarz ognia",
+				 // core
+				"requires" : [
+					 // core
+					"dwellingLvl2"
+				],
+				 // core
+				"upgrades" : "dwellingLvl4"
+			},
+			 // core
+			"dwellingUpLvl5" : {
+				 // core
+				"cost" : {
+					 // core
+					"crystal" : 0,
+					 // core
+					"gems" : 0,
+					 // core
+					"gold" : 1000,
+					 // core
+					"mercury" : 0,
+					 // core
+					"ore" : 0,
+					 // core
+					"sulfur" : 5,
+					 // core
+					"wood" : 0
+				},
+				 // core
+				"description" : "Ulepszony ołtarz magmy pozwala rekrutować żywiołaki magmy.",
+				 // core
+				"id" : 41,
+				 // core
+				"name" : "Ul. ołtarz ziemi",
+				 // core
+				"upgrades" : "dwellingLvl5"
+			},
+			 // core
+			"dwellingUpLvl6" : {
+				 // core
+				"cost" : {
+					 // core
+					"crystal" : 3,
+					 // core
+					"gems" : 3,
+					 // core
+					"gold" : 3000,
+					 // core
+					"mercury" : 3,
+					 // core
+					"ore" : 0,
+					 // core
+					"sulfur" : 3,
+					 // core
+					"wood" : 0
+				},
+				 // core
+				"description" : "Ulepszony ołtarz magii pozwala rekrutować żywiołaki magii.",
+				 // core
+				"id" : 42,
+				 // core
+				"name" : "Ul. ołtarz magii",
+				 // core
+				"requires" : [
+					 // core
+					"mageGuild2"
+				],
+				 // core
+				"upgrades" : "dwellingLvl6"
+			},
+			 // core
+			"dwellingUpLvl7" : {
+				 // core
+				"cost" : {
+					 // core
+					"crystal" : 0,
+					 // core
+					"gems" : 0,
+					 // core
+					"gold" : 15000,
+					 // core
+					"mercury" : 20,
+					 // core
+					"ore" : 10,
+					 // core
+					"sulfur" : 0,
+					 // core
+					"wood" : 10
+				},
+				 // core
+				"description" : "Ulepszony wir ognia pozwala rekrutować feniksy.",
+				 // core
+				"id" : 43,
+				 // core
+				"name" : "Ul. wir ognia",
+				 // core
+				"upgrades" : "dwellingLvl7"
+			},
+			 // core
+			"extraCapitol" : {
+				 // core
+				"id" : 29,
+				 // core
+				"mode" : "auto",
+				 // core
+				"requires" : [
+					 // core
+					"capitol"
+				]
+			},
+			 // core
+			"extraCityHall" : {
+				 // core
+				"id" : 28,
+				 // core
+				"mode" : "auto",
+				 // core
+				"requires" : [
+					 // core
+					"cityHall"
+				]
+			},
+			 // core
+			"extraTownHall" : {
+				 // core
+				"id" : 27,
+				 // core
+				"mode" : "auto",
+				 // core
+				"requires" : [
+					 // core
+					"townHall"
+				]
+			},
+			 // core
+			"fort" : {
+				 // core
+				"cost" : {
+					 // core
+					"crystal" : 0,
+					 // core
+					"gems" : 0,
+					 // core
+					"gold" : 5000,
+					 // core
+					"mercury" : 0,
+					 // core
+					"ore" : 20,
+					 // core
+					"sulfur" : 0,
+					 // core
+					"wood" : 20
+				},
+				 // core
+				"description" : "Fort wzmacnia mury zamku.",
+				 // core
+				"fortifications" : {
+					 // core
+					"wallsHealth" : 2
+				},
+				 // core
+				"id" : 7,
+				 // core
+				"name" : "Fort"
+			},
+			 // core
+			"grail" : {
+				 // core
+				"description" : "Cudowna tęcza zwiększa cotygodniowy przyrost podstawowej populacji wszystkich stworzeń o 50%, generuje codziennie 5000 sztuk złota oraz udostępnia wszystkie zaklęcia w twojej gildii magów.",
+				 // core
+				"id" : 26,
+				 // core
+				"mode" : "grail",
+				 // core
+				"name" : "Cudowna tęcza",
+				 // core
+				"produce" : {
+					 // core
+					"gold" : 5000
+				}
+			},
+			 // core
+			"horde1" : {
+				 // core
+				"cost" : {
+					 // core
+					"crystal" : 0,
+					 // core
+					"gems" : 0,
+					 // core
+					"gold" : 1000,
+					 // core
+					"mercury" : 0,
+					 // core
+					"ore" : 0,
+					 // core
+					"sulfur" : 0,
+					 // core
+					"wood" : 0
+				},
+				 // core
+				"description" : "Ten budynek zwiększa cotygodniową produkcję nimf o 10 tygodniowo.",
+				 // core
+				"id" : 18,
+				 // core
+				"name" : "Ogród życia",
+				 // core
+				"upgrades" : "dwellingLvl1"
+			},
+			 // core
+			"horde1Upgr" : {
+				 // core
+				"cost" : {
+					 // core
+					"crystal" : 0,
+					 // core
+					"gems" : 0,
+					 // core
+					"gold" : 1000,
+					 // core
+					"mercury" : 0,
+					 // core
+					"ore" : 0,
+					 // core
+					"sulfur" : 0,
+					 // core
+					"wood" : 0
+				},
+				 // core
+				"description" : "Ten budynek zwiększa cotygodniową produkcję rusałek o 10 tygodniowo.",
+				 // core
+				"id" : 19,
+				 // core
+				"mode" : "auto",
+				 // core
+				"name" : "Ogród życia",
+				 // core
+				"requires" : [
+					 // core
+					"horde1"
+				],
+				 // core
+				"upgrades" : "dwellingUpLvl1"
+			},
+			 // core
+			"horde2" : null,
+			 // core
+			"horde2Upgr" : null,
+			 // hota.confluxvaultofashes
+			"hordePhoenix" : {
+				 // hota.confluxvaultofashes
+				"cost" : {
+					 // hota.confluxvaultofashes
+					"gold" : 5000,
+					 // hota.confluxvaultofashes
+					"mercury" : 5
+				},
+				 // hota.confluxvaultofashes
+				"description" : "The Vault of Ashes increases Firebirds production by 1 per week.",
+				 // hota.confluxvaultofashes
+				"id" : 24,
+				 // hota.confluxvaultofashes
+				"name" : "Vault of Ashes",
+				 // hota.confluxvaultofashes
+				"requires" : [
+					 // hota.confluxvaultofashes
+					"dwellingLvl7"
+				]
+			},
+			 // hota.confluxvaultofashes
+			"hordePhoenixUpgr" : {
+				 // hota.confluxvaultofashes
+				"cost" : {
+					 // hota.confluxvaultofashes
+					"gold" : 5000,
+					 // hota.confluxvaultofashes
+					"mercury" : 5
+				},
+				 // hota.confluxvaultofashes
+				"description" : "The Vault of Ashes increases Phoenixes production by 1 per week.",
+				 // hota.confluxvaultofashes
+				"id" : 25,
+				 // hota.confluxvaultofashes
+				"mode" : "auto",
+				 // hota.confluxvaultofashes
+				"name" : "Vault of Ashes",
+				 // hota.confluxvaultofashes
+				"requires" : [
+					 // hota.confluxvaultofashes
+					"dwellingUpLvl7"
+				],
+				 // hota.confluxvaultofashes
+				"upgrades" : "hordePhoenix"
+			},
+			 // core
+			"mageGuild1" : {
+				 // core
+				"cost" : {
+					 // core
+					"crystal" : 0,
+					 // core
+					"gems" : 0,
+					 // core
+					"gold" : 2000,
+					 // core
+					"mercury" : 0,
+					 // core
+					"ore" : 5,
+					 // core
+					"sulfur" : 0,
+					 // core
+					"wood" : 5
+				},
+				 // core
+				"description" : "Odwiedzenie gildii magów pozwala bohaterowi na poznanie znajdujących się w niej zaklęć.",
+				 // core
+				"id" : 0,
+				 // core
+				"name" : "Gildia magów poziom 1"
+			},
+			 // core
+			"mageGuild2" : {
+				 // core
+				"cost" : {
+					 // core
+					"crystal" : 4,
+					 // core
+					"gems" : 4,
+					 // core
+					"gold" : 1000,
+					 // core
+					"mercury" : 4,
+					 // core
+					"ore" : 5,
+					 // core
+					"sulfur" : 4,
+					 // core
+					"wood" : 5
+				},
+				 // core
+				"description" : "Odwiedzenie gildii magów pozwala bohaterowi na poznanie znajdujących się w niej zaklęć.",
+				 // core
+				"id" : 1,
+				 // core
+				"name" : "Gildia magów poziom 2",
+				 // core
+				"upgrades" : "mageGuild1"
+			},
+			 // core
+			"mageGuild3" : {
+				 // core
+				"cost" : {
+					 // core
+					"crystal" : 6,
+					 // core
+					"gems" : 6,
+					 // core
+					"gold" : 1000,
+					 // core
+					"mercury" : 6,
+					 // core
+					"ore" : 5,
+					 // core
+					"sulfur" : 6,
+					 // core
+					"wood" : 5
+				},
+				 // core
+				"description" : "Odwiedzenie gildii magów pozwala bohaterowi na poznanie znajdujących się w niej zaklęć.",
+				 // core
+				"id" : 2,
+				 // core
+				"name" : "Gildia magów poziom 3",
+				 // core
+				"upgrades" : "mageGuild2"
+			},
+			 // core
+			"mageGuild4" : {
+				 // core
+				"cost" : {
+					 // core
+					"crystal" : 8,
+					 // core
+					"gems" : 8,
+					 // core
+					"gold" : 1000,
+					 // core
+					"mercury" : 8,
+					 // core
+					"ore" : 5,
+					 // core
+					"sulfur" : 8,
+					 // core
+					"wood" : 5
+				},
+				 // core
+				"description" : "Odwiedzenie gildii magów pozwala bohaterowi na poznanie znajdujących się w niej zaklęć.",
+				 // core
+				"id" : 3,
+				 // core
+				"name" : "Gildia magów poziom 4",
+				 // core
+				"upgrades" : "mageGuild3"
+			},
+			 // core
+			"mageGuild5" : {
+				 // core
+				"cost" : {
+					 // core
+					"crystal" : 10,
+					 // core
+					"gems" : 10,
+					 // core
+					"gold" : 1000,
+					 // core
+					"mercury" : 10,
+					 // core
+					"ore" : 5,
+					 // core
+					"sulfur" : 10,
+					 // core
+					"wood" : 5
+				},
+				 // core
+				"description" : "Odwiedzenie gildii magów pozwala bohaterowi na poznanie znajdujących się w niej zaklęć.",
+				 // core
+				"id" : 4,
+				 // core
+				"name" : "Gildia magów poziom 5",
+				 // core
+				"upgrades" : "mageGuild4"
+			},
+			 // core
+			"marketplace" : {
+				 // core
+				"cost" : {
+					 // core
+					"crystal" : 0,
+					 // core
+					"gems" : 0,
+					 // core
+					"gold" : 500,
+					 // core
+					"mercury" : 0,
+					 // core
+					"ore" : 0,
+					 // core
+					"sulfur" : 0,
+					 // core
+					"wood" : 5
+				},
+				 // core
+				"description" : "Na targowisku można sprzedawać oraz wymieniać zasoby (kurs wymiany zależy od liczby posiadanych targowisk).",
+				 // core
+				"id" : 14,
+				 // core
+				"marketModes" : [
+					 // core
+					"resource-resource",
+					 // core
+					"resource-player"
+				],
+				 // core
+				"name" : "Targowisko"
+			},
+			 // core
+			"resourceSilo" : {
+				 // core
+				"cost" : {
+					 // core
+					"crystal" : 0,
+					 // core
+					"gems" : 0,
+					 // core
+					"gold" : 5000,
+					 // core
+					"mercury" : 0,
+					 // core
+					"ore" : 5,
+					 // core
+					"sulfur" : 0,
+					 // core
+					"wood" : 0
+				},
+				 // core
+				"description" : "Magazyn zasobów dostarcza codziennie 1 uncję rtęci.",
+				 // core
+				"id" : 15,
+				 // core
+				"name" : "Magazyn zasobów",
+				 // core
+				"produce" : {
+					 // core
+					"mercury" : 1
+				},
+				 // core
+				"requires" : [
+					 // core
+					"marketplace"
+				]
+			},
+			 // core
+			"ship" : {
+				 // core
+				"cost" : {
+					 // core
+					"crystal" : 0,
+					 // core
+					"gems" : 0,
+					 // core
+					"gold" : 0,
+					 // core
+					"mercury" : 0,
+					 // core
+					"ore" : 0,
+					 // core
+					"sulfur" : 0,
+					 // core
+					"wood" : 0
+				},
+				 // core
+				"description" : "Stocznia pozwala na zakup okrętów.",
+				 // core
+				"id" : 20,
+				 // core
+				"name" : "Stocznia",
+				 // core
+				"upgrades" : "shipyard"
+			},
+			 // core
+			"shipyard" : {
+				 // core
+				"cost" : {
+					 // core
+					"crystal" : 0,
+					 // core
+					"gems" : 0,
+					 // core
+					"gold" : 2000,
+					 // core
+					"mercury" : 0,
+					 // core
+					"ore" : 0,
+					 // core
+					"sulfur" : 0,
+					 // core
+					"wood" : 20
+				},
+				 // core
+				"description" : "Stocznia pozwala na produkcję oraz zakup okrętów.",
+				 // core
+				"id" : 6,
+				 // core
+				"name" : "Stocznia"
+			},
+			 // core
+			"special1" : {
+				 // core
+				"cost" : {
+					 // core
+					"crystal" : 0,
+					 // core
+					"gems" : 0,
+					 // core
+					"gold" : 10000,
+					 // core
+					"mercury" : 0,
+					 // core
+					"ore" : 0,
+					 // core
+					"sulfur" : 0,
+					 // core
+					"wood" : 0
+				},
+				 // core
+				"description" : "Za skromną opłatą możesz od tego sprzedawcy artefaktów zakupić artefakt.",
+				 // core
+				"marketModes" : [
+					 // core
+					"resource-artifact",
+					 // core
+					"artifact-resource"
+				],
+				 // core
+				"name" : "Sprzedawca artefaktów",
+				 // core
+				"requires" : [
+					 // core
+					"marketplace"
+				]
+			},
+			 // core
+			"special2" : {
+				 // core
+				"cost" : {
+					 // core
+					"crystal" : 0,
+					 // core
+					"gems" : 0,
+					 // core
+					"gold" : 5000,
+					 // core
+					"mercury" : 0,
+					 // core
+					"ore" : 10,
+					 // core
+					"sulfur" : 0,
+					 // core
+					"wood" : 10
+				},
+				 // core
+				"description" : "Za odpowiednią oplatą możesz tu pobierać naukę w dowolnej dziedzinie magii.",
+				 // core
+				"marketModes" : [
+					 // core
+					"resource-skill"
+				],
+				 // core
+				"name" : "Magiczna uczelnia",
+				 // core
+				"requires" : [
+					 // core
+					"mageGuild1"
+				]
+			},
+			 // core
+			"special3" : null,
+			 // core
+			"special4" : null,
+			 // core
+			"tavern" : {
+				 // core
+				"bonuses" : [
+					 // core
+					{
+						 // core
+						"type" : "MORALE",
+						 // core
+						"val" : 1
+					},
+					 // core
+					{
+						 // core
+						"propagator" : "PLAYER_PROPAGATOR",
+						 // core
+						"type" : "THIEVES_GUILD_ACCESS",
+						 // core
+						"val" : 1
+					}
+				],
+				 // core
+				"cost" : {
+					 // core
+					"crystal" : 0,
+					 // core
+					"gems" : 0,
+					 // core
+					"gold" : 500,
+					 // core
+					"mercury" : 0,
+					 // core
+					"ore" : 0,
+					 // core
+					"sulfur" : 0,
+					 // core
+					"wood" : 5
+				},
+				 // core
+				"description" : "Karczma zwiększa morale garnizonu broniącego miasta.",
+				 // core
+				"id" : 5,
+				 // core
+				"name" : "Karczma"
+			},
+			 // core
+			"townHall" : {
+				 // core
+				"cost" : {
+					 // core
+					"crystal" : 0,
+					 // core
+					"gems" : 0,
+					 // core
+					"gold" : 2500,
+					 // core
+					"mercury" : 0,
+					 // core
+					"ore" : 0,
+					 // core
+					"sulfur" : 0,
+					 // core
+					"wood" : 0
+				},
+				 // core
+				"description" : "Rada miasta umożliwia jego rozbudowę oraz dostarcza ci 1000 sztuk złota dziennie.",
+				 // core
+				"id" : 11,
+				 // core
+				"name" : "Rada miasta",
+				 // core
+				"produce" : {
+					 // core
+					"gold" : 1000
+				},
+				 // core
+				"requires" : [
+					 // core
+					"tavern"
+				],
+				 // core
+				"upgrades" : "villageHall"
+			},
+			 // core
+			"villageHall" : {
+				 // core
+				"cost" : {
+					 // core
+					"crystal" : 0,
+					 // core
+					"gems" : 0,
+					 // core
+					"gold" : 1,
+					 // core
+					"mercury" : 0,
+					 // core
+					"ore" : 0,
+					 // core
+					"sulfur" : 0,
+					 // core
+					"wood" : 0
+				},
+				 // core
+				"description" : "Rada osady pozwala na dalszą rozbudowę oraz dostarcza ci 500 sztuk złota dziennie.",
+				 // core
+				"id" : 10,
+				 // core
+				"mode" : "auto",
+				 // core
+				"name" : "Rada osady",
+				 // core
+				"produce" : {
+					 // core
+					"gold" : 500
+				}
+			}
+		},
+		 // core
+		"buildingsIcons" : "HALLELEM.DEF",
+		 // core
+		"creatures" : [
+			 // core
+			[
+				 // core
+				"pixie",
+				 // core
+				"sprite"
+			],
+			 // core
+			[
+				 // core
+				"airElemental",
+				 // core
+				"stormElemental"
+			],
+			 // core
+			[
+				 // core
+				"waterElemental",
+				 // core
+				"iceElemental"
+			],
+			 // core
+			[
+				 // core
+				"fireElemental",
+				 // core
+				"energyElemental"
+			],
+			 // core
+			[
+				 // core
+				"earthElemental",
+				 // core
+				"magmaElemental"
+			],
+			 // core
+			[
+				 // core
+				"psychicElemental",
+				 // core
+				"magicElemental"
+			],
+			 // core
+			[
+				 // core
+				"firebird",
+				 // core
+				"phoenix"
+			]
+		],
+		 // core
+		"defaultTavern" : 5,
+		 // core
+		"guildBackground" : "TPMAGE.bmp",
+		 // core
+		"guildWindow" : "TPMAGEEL.bmp",
+		 // hota.confluxvaultofashes
+		"hallBackground" : "TPTHBKNC.pcx",
+		 // hota.confluxvaultofashes
+		"hallSlots" : [
+			 // hota.confluxvaultofashes
+			[
+				 // hota.confluxvaultofashes
+				[
+					 // hota.confluxvaultofashes
+					"villageHall",
+					 // hota.confluxvaultofashes
+					"townHall",
+					 // hota.confluxvaultofashes
+					"cityHall",
+					 // hota.confluxvaultofashes
+					"capitol"
+				],
+				 // hota.confluxvaultofashes
+				[
+					 // hota.confluxvaultofashes
+					"fort",
+					 // hota.confluxvaultofashes
+					"citadel",
+					 // hota.confluxvaultofashes
+					"castle"
+				],
+				 // hota.confluxvaultofashes
+				[
+					 // hota.confluxvaultofashes
+					"tavern"
+				],
+				 // hota.confluxvaultofashes
+				[
+					 // hota.confluxvaultofashes
+					"blacksmith"
+				]
+			],
+			 // hota.confluxvaultofashes
+			[
+				 // hota.confluxvaultofashes
+				[
+					 // hota.confluxvaultofashes
+					"marketplace",
+					 // hota.confluxvaultofashes
+					"resourceSilo"
+				],
+				 // hota.confluxvaultofashes
+				[
+					 // hota.confluxvaultofashes
+					"mageGuild1",
+					 // hota.confluxvaultofashes
+					"mageGuild2",
+					 // hota.confluxvaultofashes
+					"mageGuild3",
+					 // hota.confluxvaultofashes
+					"mageGuild4",
+					 // hota.confluxvaultofashes
+					"mageGuild5"
+				],
+				 // hota.confluxvaultofashes
+				[
+					 // hota.confluxvaultofashes
+					"special2"
+				],
+				 // hota.confluxvaultofashes
+				[
+					 // hota.confluxvaultofashes
+					"shipyard"
+				]
+			],
+			 // hota.confluxvaultofashes
+			[
+				 // hota.confluxvaultofashes
+				[
+					 // hota.confluxvaultofashes
+					"special1"
+				],
+				 // hota.confluxvaultofashes
+				[
+					 // hota.confluxvaultofashes
+					"hordePhoenix",
+					 // hota.confluxvaultofashes
+					"hordePhoenixUpgr"
+				],
+				 // hota.confluxvaultofashes
+				[
+					 // hota.confluxvaultofashes
+					"horde1",
+					 // hota.confluxvaultofashes
+					"horde1Upgr"
+				]
+			],
+			 // hota.confluxvaultofashes
+			[
+				 // hota.confluxvaultofashes
+				[
+					 // hota.confluxvaultofashes
+					"dwellingLvl1",
+					 // hota.confluxvaultofashes
+					"dwellingUpLvl1"
+				],
+				 // hota.confluxvaultofashes
+				[
+					 // hota.confluxvaultofashes
+					"dwellingLvl2",
+					 // hota.confluxvaultofashes
+					"dwellingUpLvl2"
+				],
+				 // hota.confluxvaultofashes
+				[
+					 // hota.confluxvaultofashes
+					"dwellingLvl3",
+					 // hota.confluxvaultofashes
+					"dwellingUpLvl3"
+				],
+				 // hota.confluxvaultofashes
+				[
+					 // hota.confluxvaultofashes
+					"dwellingLvl4",
+					 // hota.confluxvaultofashes
+					"dwellingUpLvl4"
+				]
+			],
+			 // hota.confluxvaultofashes
+			[
+				 // hota.confluxvaultofashes
+				[
+					 // hota.confluxvaultofashes
+					"dwellingLvl5",
+					 // hota.confluxvaultofashes
+					"dwellingUpLvl5"
+				],
+				 // hota.confluxvaultofashes
+				[
+					 // hota.confluxvaultofashes
+					"dwellingLvl6",
+					 // hota.confluxvaultofashes
+					"dwellingUpLvl6"
+				],
+				 // hota.confluxvaultofashes
+				[
+					 // hota.confluxvaultofashes
+					"dwellingLvl7",
+					 // hota.confluxvaultofashes
+					"dwellingUpLvl7"
+				]
+			]
+		],
+		 // hota.confluxvaultofashes
+		"horde" : [
+			 // hota.confluxvaultofashes
+			0,
+			 // hota.confluxvaultofashes
+			6
+		],
+
+		"icons": {
+			"fort": {
+			  "built": {
+				"large": "icons/fortbuildedlarge.bmp",
+				"small": "icons/fortbuildedsmall.bmp"
+			  },
+			  "normal": {
+				"large": "icons/fortlarge.bmp",
+				"small": "icons/fortsmall.bmp"
+			  }
+			},
+			"village": {
+			  "built": {
+				"large": "icons/hallbuildedlarge.bmp",
+				"small": "icons/hallbuildedsmall.bmp"
+			  },
+			  "normal": {
+				"large": "icons/halllarge.bmp",
+				"small": "icons/hallsmall.bmp"
+			  }
+			}
+		  },
+		 // core
+		"mageGuild" : 5,
+		 // core
+		"mapObject" : {
+			 // hota.newgraphics
+			"filters" : {
+				 // hota.newgraphics
+				"castle" : [
+					 // hota.newgraphics
+					"allOf",
+					 // hota.newgraphics
+					[
+						 // hota.newgraphics
+						"castle"
+					],
+					 // hota.newgraphics
+					[
+						 // hota.newgraphics
+						"noneOf",
+						 // hota.newgraphics
+						[
+							 // hota.newgraphics
+							"capitol"
+						]
+					]
+				],
+				 // hota.newgraphics
+				"citadel" : [
+					 // hota.newgraphics
+					"allOf",
+					 // hota.newgraphics
+					[
+						 // hota.newgraphics
+						"citadel"
+					],
+					 // hota.newgraphics
+					[
+						 // hota.newgraphics
+						"noneOf",
+						 // hota.newgraphics
+						[
+							 // hota.newgraphics
+							"castle"
+						]
+					]
+				],
+				 // hota.newgraphics
+				"fort" : [
+					 // hota.newgraphics
+					"allOf",
+					 // hota.newgraphics
+					[
+						 // hota.newgraphics
+						"fort"
+					],
+					 // hota.newgraphics
+					[
+						 // hota.newgraphics
+						"noneOf",
+						 // hota.newgraphics
+						[
+							 // hota.newgraphics
+							"citadel"
+						]
+					]
+				]
+			},
+			 // core
+			"templates" : {
+				 // core
+				"capitol" : {
+					 // hota.newgraphics
+					"animation" : "conflux/adventureMap/town/capitol.def"
+				},
+				 // core
+				"castle" : {
+					 // hota.newgraphics
+					"animation" : "conflux/adventureMap/town/castle.def"
+				},
+				 // core
+				"citadel" : {
+					 // hota.newgraphics
+					"animation" : "conflux/adventureMap/town/citadel.def"
+				},
+				 // core
+				"fort" : {
+					 // hota.newgraphics
+					"animation" : "conflux/adventureMap/town/fort.def"
+				},
+				 // core
+				"village" : {
+					 // core
+					"animation" : "AVCHFOR0.DEF"
+				}
+			}
+		},
+		 // core
+		"moatAbility" : "castleMoat",
+		 // core
+		"musicTheme" : [
+			 // core
+			"music/ElemTown"
+		],
+		 // core
+		"names" : [
+			 // core
+			"Elementon",
+			 // core
+			"Styriam",
+			 // core
+			"Fenderen",
+			 // core
+			"Lagumoor",
+			 // core
+			"Wazzar",
+			 // core
+			"Lanting",
+			 // core
+			"Vluchton",
+			 // core
+			"Solium",
+			 // core
+			"Massein",
+			 // core
+			"Magmetin",
+			 // core
+			"Ventu",
+			 // core
+			"Fleogan Mills",
+			 // core
+			"Electrising",
+			 // core
+			"Ceald",
+			 // core
+			"Igne",
+			 // core
+			"Froisan"
+		],
+		 // core
+		"primaryResource" : "mercury",
+		 // core
+		"siege" : {
+			 // core
+			"gate" : {
+				 // core
+				"arch" : {
+					 // core
+					"x" : 486,
+					 // core
+					"y" : 232
+				},
+				 // core
+				"gate" : {
+					 // core
+					"x" : 408,
+					 // core
+					"y" : 254
+				}
+			},
+			 // core
+			"imagePrefix" : "SGEL",
+			 // core
+			"moat" : {
+				 // core
+				"bank" : {
+					 // core
+					"x" : 407,
+					 // core
+					"y" : 80
+				},
+				 // core
+				"moat" : {
+					 // core
+					"x" : 407,
+					 // core
+					"y" : 80
+				}
+			},
+			 // core
+			"shooter" : "stormElemental",
+			 // core
+			"static" : {
+				 // core
+				"background" : {
+					 // core
+					"x" : 600,
+					 // core
+					"y" : 50
+				},
+				 // core
+				"bottom" : {
+					 // core
+					"x" : 509,
+					 // core
+					"y" : 346
+				},
+				 // core
+				"top" : {
+					 // core
+					"x" : 490,
+					 // core
+					"y" : 97
+				}
+			},
+			 // vcmi-extras.arrowtowericons
+			"towerIconLarge" : "iconsBig/towerBig.png",
+			 // vcmi-extras.arrowtowericons
+			"towerIconSmall" : "iconsSmall/towerSmall.png",
+			 // core
+			"towers" : {
+				 // core
+				"bottom" : {
+					 // core
+					"battlement" : {
+						 // core
+						"x" : 608,
+						 // core
+						"y" : 505
+					},
+					 // core
+					"creature" : {
+						 // core
+						"x" : 382,
+						 // core
+						"y" : 308
+					},
+					 // core
+					"tower" : {
+						 // core
+						"x" : 608,
+						 // core
+						"y" : 505
+					}
+				},
+				 // core
+				"keep" : {
+					 // core
+					"battlement" : {
+						 // core
+						"x" : 736,
+						 // core
+						"y" : 159
+					},
+					 // core
+					"creature" : {
+						 // core
+						"x" : 529,
+						 // core
+						"y" : -42
+					},
+					 // core
+					"tower" : {
+						 // core
+						"x" : 736,
+						 // core
+						"y" : 159
+					}
+				},
+				 // core
+				"top" : {
+					 // core
+					"battlement" : {
+						 // core
+						"x" : 576,
+						 // core
+						"y" : 28
+					},
+					 // core
+					"creature" : {
+						 // core
+						"x" : 341,
+						 // core
+						"y" : -162
+					},
+					 // core
+					"tower" : {
+						 // core
+						"x" : 576,
+						 // core
+						"y" : 28
+					}
+				}
+			},
+			 // core
+			"walls" : {
+				 // core
+				"bottom" : {
+					 // core
+					"x" : 509,
+					 // core
+					"y" : 346
+				},
+				 // core
+				"bottomMid" : {
+					 // core
+					"x" : 468,
+					 // core
+					"y" : 299
+				},
+				 // core
+				"upper" : {
+					 // core
+					"x" : 521,
+					 // core
+					"y" : 41
+				},
+				 // core
+				"upperMid" : {
+					 // core
+					"x" : 471,
+					 // core
+					"y" : 147
+				}
+			}
+		},
+		 // core
+		"structures" : {
+			 // core
+			"blacksmith" : {
+				 // core
+				"animation" : "TBELBLAK.def",
+				 // core
+				"area" : "TZELBLAK.bmp",
+				 // core
+				"border" : "TOELBLAK.bmp",
+				 // core
+				"x" : 449,
+				 // core
+				"y" : 151,
+				 // core
+				"z" : 5
+			},
+			 // core
+			"capitol" : {
+				 // core
+				"animation" : "TBELHAL4.def",
+				 // core
+				"area" : "TZELHAL4.bmp",
+				 // core
+				"border" : "TOELHAL4.bmp",
+				 // core
+				"x" : 0,
+				 // core
+				"y" : 164,
+				 // core
+				"z" : 8
+			},
+			 // core
+			"castle" : {
+				 // core
+				"animation" : "TBELCAS3.def",
+				 // core
+				"area" : "TZELCAS3.bmp",
+				 // core
+				"border" : "TOELCAS3.bmp",
+				 // core
+				"x" : 349,
+				 // core
+				"y" : 101,
+				 // core
+				"z" : 1
+			},
+			 // core
+			"citadel" : {
+				 // core
+				"animation" : "TBELCAS2.def",
+				 // core
+				"area" : "TZELCAS2.bmp",
+				 // core
+				"border" : "TOELCAS2.bmp",
+				 // core
+				"x" : 349,
+				 // core
+				"y" : 101,
+				 // core
+				"z" : 1
+			},
+			 // core
+			"cityHall" : {
+				 // core
+				"animation" : "TBELHAL3.def",
+				 // core
+				"area" : "TZELHAL3.bmp",
+				 // core
+				"border" : "TOELHAL3.bmp",
+				 // core
+				"x" : 0,
+				 // core
+				"y" : 165,
+				 // core
+				"z" : 8
+			},
+			 // core
+			"dwellingLvl1" : {
+				 // core
+				"animation" : "TBELDW_0.def",
+				 // core
+				"area" : "TZELDW_0.bmp",
+				 // core
+				"border" : "TOELDW_0.bmp",
+				 // core
+				"x" : 689,
+				 // core
+				"y" : 250,
+				 // core
+				"z" : 9
+			},
+			 // core
+			"dwellingLvl2" : {
+				 // core
+				"animation" : "TBELDW_1.def",
+				 // core
+				"area" : "TZELDW_1.bmp",
+				 // core
+				"border" : "TOELDW_1.bmp",
+				 // core
+				"x" : 630,
+				 // core
+				"y" : 50,
+				 // core
+				"z" : 0
+			},
+			 // core
+			"dwellingLvl3" : {
+				 // core
+				"animation" : "TBELDW_2.def",
+				 // core
+				"area" : "TZELDW_2.bmp",
+				 // core
+				"border" : "TOELDW_2.bmp",
+				 // core
+				"x" : 709,
+				 // core
+				"y" : 210,
+				 // core
+				"z" : 5
+			},
+			 // core
+			"dwellingLvl4" : {
+				 // core
+				"animation" : "TBELDW_3.def",
+				 // core
+				"area" : "TZELDW_3.bmp",
+				 // core
+				"border" : "TOELDW_3.bmp",
+				 // core
+				"x" : 108,
+				 // core
+				"y" : 131,
+				 // core
+				"z" : 1
+			},
+			 // core
+			"dwellingLvl5" : {
+				 // core
+				"animation" : "TBELDW_4.def",
+				 // core
+				"area" : "TZELDW_4.bmp",
+				 // core
+				"border" : "TOELDW_4.bmp",
+				 // core
+				"x" : 264,
+				 // core
+				"y" : 168,
+				 // core
+				"z" : 0
+			},
+			 // core
+			"dwellingLvl6" : {
+				 // core
+				"animation" : "TBELDW_5.def",
+				 // core
+				"area" : "TZELDW_5.bmp",
+				 // core
+				"border" : "TOELDW_5.bmp",
+				 // core
+				"x" : 394,
+				 // core
+				"y" : 283,
+				 // core
+				"z" : 9
+			},
+			 // core
+			"dwellingLvl7" : {
+				 // core
+				"animation" : "TBELDW_6.def",
+				 // core
+				"area" : "TZELDW_6.bmp",
+				 // core
+				"border" : "TOELDW_6.bmp",
+				 // core
+				"x" : 34,
+				 // core
+				"y" : 16,
+				 // core
+				"z" : 0
+			},
+			 // core
+			"dwellingUpLvl1" : {
+				 // core
+				"animation" : "TBELUP_0.def",
+				 // core
+				"area" : "TZELUP_0.bmp",
+				 // core
+				"border" : "TOELUP_0.bmp",
+				 // core
+				"x" : 689,
+				 // core
+				"y" : 250,
+				 // core
+				"z" : 9
+			},
+			 // core
+			"dwellingUpLvl2" : {
+				 // core
+				"animation" : "TBELUP_1.def",
+				 // core
+				"area" : "TZELUP_1.bmp",
+				 // core
+				"border" : "TOELUP_1.bmp",
+				 // core
+				"x" : 630,
+				 // core
+				"y" : 50,
+				 // core
+				"z" : 0
+			},
+			 // core
+			"dwellingUpLvl3" : {
+				 // core
+				"animation" : "TBELUP_2.def",
+				 // core
+				"area" : "TZELUP_2.bmp",
+				 // core
+				"border" : "TOELUP_2.bmp",
+				 // core
+				"x" : 709,
+				 // core
+				"y" : 210,
+				 // core
+				"z" : 5
+			},
+			 // core
+			"dwellingUpLvl4" : {
+				 // core
+				"animation" : "TBELUP_3.def",
+				 // core
+				"area" : "TZELUP_3.bmp",
+				 // core
+				"border" : "TOELUP_3.bmp",
+				 // core
+				"x" : 108,
+				 // core
+				"y" : 131,
+				 // core
+				"z" : 1
+			},
+			 // core
+			"dwellingUpLvl5" : {
+				 // core
+				"animation" : "TBELUP_4.def",
+				 // core
+				"area" : "TZELUP_4.bmp",
+				 // core
+				"border" : "TOELUP_4.bmp",
+				 // core
+				"x" : 264,
+				 // core
+				"y" : 168,
+				 // core
+				"z" : 0
+			},
+			 // core
+			"dwellingUpLvl6" : {
+				 // core
+				"animation" : "TBELUP_5.def",
+				 // core
+				"area" : "TZELUP_5.bmp",
+				 // core
+				"border" : "TOELUP_5.bmp",
+				 // core
+				"x" : 394,
+				 // core
+				"y" : 283,
+				 // core
+				"z" : 9
+			},
+			 // core
+			"dwellingUpLvl7" : {
+				 // core
+				"animation" : "TBELUP_6.def",
+				 // core
+				"area" : "TZELUP_6.bmp",
+				 // core
+				"border" : "TOELUP_6.bmp",
+				 // core
+				"x" : 34,
+				 // core
+				"y" : 0,
+				 // core
+				"z" : 0
+			},
+			 // core
+			"extraAnimation" : {
+				 // core
+				"animation" : "TBELEXT1.def",
+				 // core
+				"x" : 23,
+				 // core
+				"y" : 218,
+				 // core
+				"z" : 3
+			},
+			 // core
+			"extraAnimation2" : {
+				 // core
+				"animation" : "TBELEXT5.def",
+				 // core
+				"x" : 682,
+				 // core
+				"y" : 183,
+				 // core
+				"z" : 2
+			},
+			 // core
+			"extraCapitol" : {
+				 // core
+				"animation" : "TBELEXT4.def",
+				 // core
+				"x" : 0,
+				 // core
+				"y" : 252,
+				 // core
+				"z" : 9
+			},
+			 // core
+			"extraCityHall" : {
+				 // core
+				"animation" : "TBELEXT3.def",
+				 // hota.heroes3datapatch
+				"x" : 486,
+				 // hota.heroes3datapatch
+				"y" : 203,
+				 // core
+				"z" : 6
+			},
+			 // core
+			"extraTownHall" : {
+				 // core
+				"animation" : "TBELEXT2.def",
+				 // hota.heroes3datapatch
+				"x" : 132,
+				 // hota.heroes3datapatch
+				"y" : 205,
+				 // core
+				"z" : 4
+			},
+			 // core
+			"fort" : {
+				 // core
+				"animation" : "TBELCSTL.def",
+				 // core
+				"area" : "TZELCSTL.bmp",
+				 // core
+				"border" : "TOELCSTL.bmp",
+				 // core
+				"x" : 349,
+				 // core
+				"y" : 101,
+				 // core
+				"z" : 1
+			},
+			 // core
+			"grail" : {
+				 // core
+				"animation" : "TBELHOLY.def",
+				 // core
+				"area" : "TZELHOLY.bmp",
+				 // core
+				"border" : "TOELHOLY.bmp",
+				 // core
+				"x" : 307,
+				 // core
+				"y" : 2,
+				 // core
+				"z" : 0
+			},
+			 // core
+			"horde1" : {
+				 // core
+				"animation" : "TBELHRD1.def",
+				 // core
+				"area" : "TZELHRD1.bmp",
+				 // core
+				"border" : "TOELHRD1.bmp",
+				 // core
+				"hidden" : true,
+				 // core
+				"x" : 689,
+				 // core
+				"y" : 250,
+				 // core
+				"z" : 9
+			},
+			 // core
+			"horde1Upgr" : {
+				 // core
+				"animation" : "TBELHRD2.def",
+				 // core
+				"area" : "TZELHRD2.bmp",
+				 // core
+				"border" : "TOELHRD2.bmp",
+				 // core
+				"builds" : "horde1",
+				 // core
+				"hidden" : true,
+				 // core
+				"x" : 689,
+				 // core
+				"y" : 250,
+				 // core
+				"z" : 9
+			},
+			 // hota.confluxvaultofashes
+			"hordePhoenix" : {
+				 // hota.confluxvaultofashes
+				"animation" : "conflux/phoenixHorde.def",
+				 // hota.confluxvaultofashes
+				"area" : "phoenixHordeArea.png",
+				 // hota.confluxvaultofashes
+				"border" : "phoenixHordeBorder.png",
+				 // hota.confluxvaultofashes
+				"x" : 685,
+				 // hota.confluxvaultofashes
+				"y" : 105,
+				 // hota.confluxvaultofashes
+				"z" : 1
+			},
+			 // hota.confluxvaultofashes
+			"hordePhoenixUpgr" : {
+				 // hota.confluxvaultofashes
+				"animation" : "conflux/phoenixHordeUpgraded.def",
+				 // hota.confluxvaultofashes
+				"area" : "phoenixHordeUpgradedArea.png",
+				 // hota.confluxvaultofashes
+				"border" : "phoenixHordeUpgradedBorder.png",
+				 // hota.confluxvaultofashes
+				"x" : 685,
+				 // hota.confluxvaultofashes
+				"y" : 105,
+				 // hota.confluxvaultofashes
+				"z" : 1
+			},
+			 // core
+			"mageGuild1" : {
+				 // core
+				"animation" : "TBELMAGE.def",
+				 // core
+				"area" : "TZELMAGE.bmp",
+				 // core
+				"border" : "TOELMAGE.bmp",
+				 // core
+				"x" : 206,
+				 // core
+				"y" : 58,
+				 // core
+				"z" : 7
+			},
+			 // core
+			"mageGuild2" : {
+				 // core
+				"animation" : "TBELMAG2.def",
+				 // core
+				"area" : "TZELMAG2.bmp",
+				 // core
+				"border" : "TOELMAG2.bmp",
+				 // core
+				"x" : 206,
+				 // core
+				"y" : 58,
+				 // core
+				"z" : 7
+			},
+			 // core
+			"mageGuild3" : {
+				 // core
+				"animation" : "TBELMAG3.def",
+				 // core
+				"area" : "TZELMAG3.bmp",
+				 // core
+				"border" : "TOELMAG3.bmp",
+				 // core
+				"x" : 206,
+				 // core
+				"y" : 58,
+				 // core
+				"z" : 7
+			},
+			 // core
+			"mageGuild4" : {
+				 // core
+				"animation" : "TBELMAG4.def",
+				 // core
+				"area" : "TZELMAG4.bmp",
+				 // core
+				"border" : "TOELMAG4.bmp",
+				 // core
+				"x" : 206,
+				 // core
+				"y" : 58,
+				 // core
+				"z" : 7
+			},
+			 // core
+			"mageGuild5" : {
+				 // core
+				"animation" : "TBELMAG5.def",
+				 // core
+				"area" : "TZELMAG5.bmp",
+				 // core
+				"border" : "TOELMAG5.bmp",
+				 // core
+				"x" : 206,
+				 // core
+				"y" : 58,
+				 // core
+				"z" : 7
+			},
+			 // core
+			"marketplace" : {
+				 // core
+				"animation" : "TBELMARK.def",
+				 // core
+				"area" : "TZELMARK.bmp",
+				 // core
+				"border" : "TOELMARK.bmp",
+				 // core
+				"x" : 347,
+				 // core
+				"y" : 216,
+				 // core
+				"z" : 8
+			},
+			 // core
+			"resourceSilo" : {
+				 // core
+				"animation" : "TBELSILO.def",
+				 // core
+				"area" : "TZELSILO.bmp",
+				 // core
+				"border" : "TOELSILO.bmp",
+				 // core
+				"x" : 372,
+				 // core
+				"y" : 171,
+				 // core
+				"z" : 7
+			},
+			 // core
+			"ship" : {
+				 // core
+				"animation" : "TBELBOAT.def",
+				 // core
+				"area" : "TZELBOAT.bmp",
+				 // core
+				"border" : "TOELBOAT.bmp",
+				 // core
+				"hidden" : true,
+				 // core
+				"x" : 239,
+				 // core
+				"y" : 215,
+				 // core
+				"z" : 5
+			},
+			 // core
+			"shipyard" : {
+				 // core
+				"animation" : "TBELDOCK.def",
+				 // core
+				"area" : "TZELDOCK.bmp",
+				 // core
+				"border" : "TOELDOCK.bmp",
+				 // core
+				"x" : 239,
+				 // core
+				"y" : 215,
+				 // core
+				"z" : 5
+			},
+			 // core
+			"special1" : {
+				 // core
+				"animation" : "TBELSPEC.def",
+				 // core
+				"area" : "TZELSPEC.bmp",
+				 // core
+				"border" : "TOELSPEC.bmp",
+				 // core
+				"x" : 284,
+				 // core
+				"y" : 246,
+				 // core
+				"z" : 9
+			},
+			 // core
+			"special2" : {
+				 // core
+				"animation" : "TBELEXT6.def",
+				 // core
+				"area" : "TZELEXT6.bmp",
+				 // core
+				"border" : "TOELEXT6.bmp",
+				 // core
+				"x" : 104,
+				 // core
+				"y" : 170,
+				 // core
+				"z" : 6
+			},
+			 // core
+			"tavern" : {
+				 // core
+				"animation" : "TBELTVRN.def",
+				 // core
+				"area" : "TZELTVRN.bmp",
+				 // core
+				"border" : "TOELTVRN.bmp",
+				 // core
+				"x" : 553,
+				 // core
+				"y" : 203,
+				 // core
+				"z" : 7
+			},
+			 // core
+			"townHall" : {
+				 // core
+				"animation" : "TBELHAL2.def",
+				 // core
+				"area" : "TZELHAL2.bmp",
+				 // core
+				"border" : "TOELHAL2.bmp",
+				 // core
+				"x" : 0,
+				 // core
+				"y" : 165,
+				 // core
+				"z" : 8
+			},
+			 // core
+			"villageHall" : {
+				 // core
+				"animation" : "TBELHALL.def",
+				 // core
+				"area" : "TZELHALL.bmp",
+				 // core
+				"border" : "TOELHALL.bmp",
+				 // core
+				"x" : -1,
+				 // core
+				"y" : 164,
+				 // core
+				"z" : 8
+			}
+		},
+		 // core
+		"tavernVideo" : "TAVERN.BIK",
+		 // core
+		"townBackground" : "TBELBACK.bmp"
+	}
+	}
+}

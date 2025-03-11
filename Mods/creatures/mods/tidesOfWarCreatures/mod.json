@@ -18,8 +18,12 @@
 	],
 
    "creatures": [
-   "config/creatures/creatures.json"
+   "config/creatures.json"
    ],
+
+   "spells": [
+    "config/spells.json"
+    ],
 
 	"compatibility" :
 	{

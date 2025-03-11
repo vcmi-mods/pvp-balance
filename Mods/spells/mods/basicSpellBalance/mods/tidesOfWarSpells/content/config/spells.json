@@ -56,7 +56,7 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"description" : "{Vampirism}\r\n\r\nFriendly unit becomes undead and drains 10% of damage dealt to the enemy.",	 
+				"description" : "{Vampirism}\r\n\r\nFriendly unit becomes undead and drains 15% of damage dealt to the enemy.",	 
 				"cost" : 30,
 				"battleEffects" : {
 					"vampirismEffect" : {
@@ -69,7 +69,7 @@
 							},
 							"lifeDrain" : {
 								"type" : "LIFE_DRAIN",
-								"val" : 10,
+								"val" : 15,
 								"duration" : "N_TURNS"
 							}
 						}
@@ -80,23 +80,8 @@
 				"cost" : 30
 			},
 			"basic" : {
-				"description" : "{Basic Vampirism}\r\n\r\nFriendly unit becomes undead and drains 15% of damage dealt to the enemy.",
+				"description" : "{Basic Vampirism}\r\n\r\nFriendly unit becomes undead and drains 20% of damage dealt to the enemy.",
 				"cost" : 25,
-				"battleEffects" : {
-					"vampirismEffect" : {
-						"type" : "core:timed",
-						"cumulative" : false,
-						"bonus" : {
-							"lifeDrain" : {
-								"val" : 15
-							}
-						}
-					}
-				}
-			},
-			"advanced" : {
-				"description" : "{Advanced Vampirism}\r\n\r\nFriendly unit becomes undead and drains 20% of damage dealt to the enemy.",
-				"cost" : 20,
 				"battleEffects" : {
 					"vampirismEffect" : {
 						"type" : "core:timed",
@@ -109,9 +94,9 @@
 					}
 				}
 			},
-			"expert" : {
-				"description" : "{Expert Vampirism}\r\n\r\nFriendly unit becomes undead and drains 25% of damage dealt to the enemy.",
-				"cost" : 18,
+			"advanced" : {
+				"description" : "{Advanced Vampirism}\r\n\r\nFriendly unit becomes undead and drains 25% of damage dealt to the enemy.",
+				"cost" : 20,
 				"battleEffects" : {
 					"vampirismEffect" : {
 						"type" : "core:timed",
@@ -119,6 +104,21 @@
 						"bonus" : {
 							"lifeDrain" : {
 								"val" : 25
+							}
+						}
+					}
+				}
+			},
+			"expert" : {
+				"description" : "{Expert Vampirism}\r\n\r\nFriendly unit becomes undead and drains 30% of damage dealt to the enemy.",
+				"cost" : 18,
+				"battleEffects" : {
+					"vampirismEffect" : {
+						"type" : "core:timed",
+						"cumulative" : false,
+						"bonus" : {
+							"lifeDrain" : {
+								"val" : 30
 							}
 						}
 					}

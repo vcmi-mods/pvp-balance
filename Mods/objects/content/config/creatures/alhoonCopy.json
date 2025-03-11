@@ -34,7 +34,21 @@
 			{
 				"type" : "CASTS",
 				"val" : 5
-			}
+			},
+
+			"hypnotizeAfterAttack" : 
+			{
+			   "addInfo" : [2, 2],
+			   "subtype" : "spell.hypnotize",
+			   "type" : "SPELL_AFTER_ATTACK",
+			   "val" : 100
+		    },
+
+			"hypnoSpellPower" : 
+			{
+			   "type" : "CREATURE_SPELL_POWER",
+			   "val" : 100
+		    }
 		},
 
 		"graphics" : {

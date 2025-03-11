@@ -19,6 +19,9 @@
    "config/forge2kStartingArmies.json"
    ],
 
+   "factions": [
+    "config/forge2kFaction.json"
+    ],
 
 	"compatibility" :
 	{

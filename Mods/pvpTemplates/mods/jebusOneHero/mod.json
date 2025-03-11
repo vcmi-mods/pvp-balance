@@ -9,7 +9,7 @@
 
     "modType" : "Templates",
 	
-    "templates" : ["jebusOneHero.json" ],
+    "templates" : ["jebusOneHero.json"],
 
     "artifacts": [
         "config/artifacts.json"
@@ -26,6 +26,10 @@
     "skills": [
         "config/skills.json"
       ],
+
+    "factions": [
+        "config/conflux.json"
+    ],
 
     "depends" : [
         "hota.cove",
