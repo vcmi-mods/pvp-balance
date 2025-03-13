@@ -51,7 +51,13 @@
         "h3evo",
         "vcmi-extras.emoji"
     ],
-
+	"ukrainian" : {
+     	"name" : "Баланс PvP",
+		"description" : "Нове місто від New fairy Team та Turbanellos",
+		"translations" : [
+			"translation/pvp/ukrainian.json"
+		]
+	},
     "artifacts":
     [
         "config/artifacts.json",
