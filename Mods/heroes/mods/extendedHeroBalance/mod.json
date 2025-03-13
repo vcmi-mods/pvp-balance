@@ -19,6 +19,13 @@
     "hota.cove",
     "pvp-balance.heroes.basicHeroBalance"
    ],
+	"ukrainian" : {
+			"name" : "Розширений баланс героїв",
+		"description" : "Покращує спеціалістів заклинань та істот. Сінка починає гру з Лідерством 2-го рівня.",
+		"translations" : [
+			"translation/pvp/ukrainian.json"
+		]
+	},
    
 	"compatibility" :
 	{

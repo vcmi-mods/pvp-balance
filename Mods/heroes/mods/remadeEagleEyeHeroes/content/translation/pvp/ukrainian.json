@@ -1,0 +1,23 @@
+{
+	"hero.core.geon.specialty.description" : "Збільшує тривалість закляття \"Сліпота\" на 3 ходи.",
+	"hero.core.geon.specialty.name" : "Сліпота",
+	"hero.core.geon.specialty.tooltip" : "No description",
+	"hero.core.malcom.specialty.description" : "Додатково зменшує мораль армії супротивника на 1 при використанні закляття \"Смуток\".",
+	"hero.core.malcom.specialty.name" : "Смуток",
+	"hero.core.malcom.specialty.tooltip" : "No description",
+	"hero.core.nimbus.specialty.description" : "Може покращувати Примар до Привидів.",
+	"hero.core.nimbus.specialty.name" : "Привиди",
+	"hero.core.nimbus.specialty.tooltip" : "No description",
+	"hero.core.oris.specialty.description" : "Збільшує дальність дії навички \"Тактика\" на 2 клітинки.",
+	"hero.core.oris.specialty.name" : "Тактика",
+	"hero.core.oris.specialty.tooltip" : "No description",
+	"hero.core.sanya.specialty.description" : "Збільшує ефективність закляття \"Знищити нежить\" залежно від рівня героя.",
+	"hero.core.sanya.specialty.name" : "Знищити нежить",
+	"hero.core.sanya.specialty.tooltip" : "No description",
+	"hero.core.serena.specialty.description" : "Дає додаткову атаку у відповідь при використанні закляття \"Контрудар\".",
+	"hero.core.serena.specialty.name" : "Контрудар",
+	"hero.core.serena.specialty.tooltip" : "No description",
+	"hero.core.tiva.specialty.description" : "Збільшує тривалість закляття \"Антимагія\" на 3 ходи.",
+	"hero.core.tiva.specialty.name" : "Антимагія",
+	"hero.core.tiva.specialty.tooltip" : "No description"
+}

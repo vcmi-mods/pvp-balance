@@ -24,6 +24,13 @@
             "hota.cannon",
             "hota.gameBalance"
             ],
+	"ukrainian" : {
+		"name" : "Навички",
+		"description" : "Збалансовує навички. Орлине око та Опір заблоковані. Також збалансовує навички з модів Руїни та Хвилі Війни якщо вони активовані.",
+		"translations" : [
+			"translation/pvp/ukrainian.json"
+		]
+	},
 
     "conflicts" : [
         "ultimate-balance.skills-balance",

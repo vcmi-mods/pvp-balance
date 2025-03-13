@@ -15,7 +15,14 @@
 	"depends" : 
 	[
 		"hota.cove"
-	],	
+	],
+	"ukrainian" : {
+			"name" : "Розширений баланс заклинань",
+		"description" : "Збалансовує заклинання з увагою на покращення заклинань магії Вогню та Води.",
+		"translations" : [
+			"translation/pvp/ukrainian.json"
+		]
+	},
 
 	"softDepends" : 
 	[
