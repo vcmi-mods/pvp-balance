@@ -13,6 +13,13 @@
    "heroes": [
    "config/heroes.json"
    ],
+	"ukrainian" : {
+		"name" : "Покращення героїв з Орлиним оком",
+		"description" : "Всі герої що спеціалізуються і/або починають гру з навичкою \"Орлине око\" отримають нові навички та спеціальності.",
+		"translations" : [
+			"translation/pvp/ukrainian.json"
+		]
+	},
    
 	"compatibility" :
 	{
