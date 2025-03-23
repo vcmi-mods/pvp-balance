@@ -1,0 +1,21 @@
+{
+	"name" : "Refugee Faction Balance",
+	"description" : "Rebalanced buildings for Refugee.",
+	"author" : "Warzyw647",
+	"contact" : "Warzyw647 on Discord",
+	"modType" : "Compatibility",
+	"depends" :
+	[
+		"refugee-town"
+	],
+	"factions" :
+	[
+		"config/refugeeFaction.json"
+	],
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	"version" : "1.0",
+	"keepDisabled" : false
+}

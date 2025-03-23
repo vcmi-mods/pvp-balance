@@ -1,0 +1,21 @@
+{
+	"name" : "Preserve Faction Balance",
+	"description" : "Rebalanced buildings for Preserve.",
+	"author" : "Warzyw647",
+	"contact" : "Warzyw647 on Discord",
+	"modType" : "Compatibility",
+	"depends" :
+	[
+		"preserve-town"
+	],
+	"factions" :
+	[
+		"config/preserveFaction.json"
+	],
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	"version" : "1.0",
+	"keepDisabled" : false
+}

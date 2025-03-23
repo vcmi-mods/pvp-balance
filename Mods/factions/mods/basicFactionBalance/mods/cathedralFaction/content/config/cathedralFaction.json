@@ -1,0 +1,16 @@
+{
+	"cathedral-town:cathedral" :
+	{
+		"town" :
+		{
+			"buildings" :
+			{
+				"resourceSilo":
+				{
+					"produce": { "sulfur": 3 },
+					"description": "The Resource Silo provides you with an additional +3 sulfur each day."
+			 	}
+			}
+		}
+	}
+}

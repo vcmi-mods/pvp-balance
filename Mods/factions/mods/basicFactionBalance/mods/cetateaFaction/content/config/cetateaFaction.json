@@ -1,0 +1,16 @@
+{
+	"cetatea-town:cetatea" :
+	{
+		"town" :
+		{
+			"buildings" :
+			{
+				"resourceSilo":
+				{
+					"produce": { "gems": 3 },
+					"description": "The Resource Silo provides you with an additional +3 gems each day."
+			 	}
+			}
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"tartarus-town:tartarus" :
+	{
+		"town" :
+		{
+			"buildings" :
+			{
+				"resourceSilo":
+				{
+					"produce": { "crystal": 3 },
+					"description": "The Resource Silo provides you with an additional +3 crystals each day."
+			 	}
+			}
+		}
+	}
+}

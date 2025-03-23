@@ -1,0 +1,21 @@
+{
+	"name" : "Greenhouse Faction Balance",
+	"description" : "Rebalanced buildings for Greenhouse.",
+	"author" : "Warzyw647",
+	"contact" : "Warzyw647 on Discord",
+	"modType" : "Compatibility",
+	"depends" :
+	[
+		"greenhouse-town"
+	],
+	"factions" :
+	[
+		"config/greenhouseFaction.json"
+	],
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	"version" : "1.0",
+	"keepDisabled" : false
+}

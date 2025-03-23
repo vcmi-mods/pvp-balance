@@ -1,0 +1,21 @@
+{
+	"name" : "Death Valley Faction Balance",
+	"description" : "Rebalanced buildings for Death Valley.",
+	"author" : "Warzyw647",
+	"contact" : "Warzyw647 on Discord",
+	"modType" : "Compatibility",
+	"depends" :
+	[
+		"death-valley-town"
+	],
+	"factions" :
+	[
+		"config/deathValleyFaction.json"
+	],
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	"version" : "1.0",
+	"keepDisabled" : false
+}

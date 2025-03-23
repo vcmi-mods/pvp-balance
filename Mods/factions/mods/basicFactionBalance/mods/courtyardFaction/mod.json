@@ -1,0 +1,21 @@
+{
+	"name" : "Courtyard Faction Balance",
+	"description" : "Rebalanced buildings for Courtyard.",
+	"author" : "Warzyw647",
+	"contact" : "Warzyw647 on Discord",
+	"modType" : "Compatibility",
+	"depends" :
+	[
+		"courtyard"
+	],
+	"factions" :
+	[
+		"config/courtyardFaction.json"
+	],
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	"version" : "1.0",
+	"keepDisabled" : false
+}
