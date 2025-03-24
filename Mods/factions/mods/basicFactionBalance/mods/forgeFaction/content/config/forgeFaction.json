@@ -1,0 +1,16 @@
+{
+	"forge:forge" :
+	{
+		"town" :
+		{
+			"buildings" :
+			{
+				"resourceSilo":
+				{
+					"produce": { "ore": 3, "wood": 3 },
+					"description": "The Resource Silo provides you with an additional +3 wood and ore each day."
+			 	}
+			}
+		}
+	}
+}

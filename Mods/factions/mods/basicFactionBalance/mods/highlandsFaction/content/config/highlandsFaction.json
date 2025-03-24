@@ -1,0 +1,16 @@
+{
+	"highlands-town:highlands" :
+	{
+		"town" :
+		{
+			"buildings" :
+			{
+				"resourceSilo":
+				{
+					"produce": { "wood": 3, "ore": 3 },
+					"description": "The Resource Silo provides you with an additional +3 wood and ore each day."
+			 	}
+			}
+		}
+	}
+}

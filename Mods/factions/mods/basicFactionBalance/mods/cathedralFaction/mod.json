@@ -1,0 +1,21 @@
+{
+	"name" : "Cathedral Faction Balance",
+	"description" : "Rebalanced buildings for Cathedral.",
+	"author" : "Warzyw647",
+	"contact" : "Warzyw647 on Discord",
+	"modType" : "Compatibility",
+	"depends" :
+	[
+		"cathedral-town"
+	],
+	"factions" :
+	[
+		"config/cathedralFaction.json"
+	],
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	"version" : "1.0",
+	"keepDisabled" : false
+}

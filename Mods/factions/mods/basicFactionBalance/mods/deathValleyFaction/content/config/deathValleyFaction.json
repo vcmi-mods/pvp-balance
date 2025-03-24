@@ -1,0 +1,16 @@
+{
+	"death-valley-town:deathvalley" :
+	{
+		"town" :
+		{
+			"buildings" :
+			{
+				"resourceSilo":
+				{
+					"produce": { "mercury": 3 },
+					"description": "The Resource Silo provides you with an additional +3 mercury each day."
+			 	}
+			}
+		}
+	}
+}

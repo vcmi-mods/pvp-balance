@@ -1,0 +1,21 @@
+{
+	"name" : "Farriery Faction Balance",
+	"description" : "Rebalanced buildings for Farriery.",
+	"author" : "Warzyw647",
+	"contact" : "Warzyw647 on Discord",
+	"modType" : "Compatibility",
+	"depends" :
+	[
+		"farriery-town"
+	],
+	"factions" :
+	[
+		"config/farrieryFaction.json"
+	],
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	"version" : "1.0",
+	"keepDisabled" : false
+}

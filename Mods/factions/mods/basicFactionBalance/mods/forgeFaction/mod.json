@@ -1,0 +1,21 @@
+{
+	"name" : "Forge Faction Balance",
+	"description" : "Rebalanced buildings for Forge.",
+	"author" : "Warzyw647",
+	"contact" : "Warzyw647 on Discord",
+	"modType" : "Compatibility",
+	"depends" :
+	[
+		"forge"
+	],
+	"factions" :
+	[
+		"config/forgeFaction.json"
+	],
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	"version" : "1.0",
+	"keepDisabled" : false
+}

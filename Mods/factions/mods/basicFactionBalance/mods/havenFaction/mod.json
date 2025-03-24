@@ -1,0 +1,21 @@
+{
+	"name" : "Haven Faction Balance",
+	"description" : "Rebalanced buildings for Haven.",
+	"author" : "Warzyw647",
+	"contact" : "Warzyw647 on Discord",
+	"modType" : "Compatibility",
+	"depends" :
+	[
+		"haven-town"
+	],
+	"factions" :
+	[
+		"config/havenFaction.json"
+	],
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	"version" : "1.0",
+	"keepDisabled" : false
+}

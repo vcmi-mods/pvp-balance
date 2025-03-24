@@ -1,0 +1,21 @@
+{
+	"name" : "Retreat Faction Balance",
+	"description" : "Rebalanced buildings for Retreat.",
+	"author" : "Warzyw647",
+	"contact" : "Warzyw647 on Discord",
+	"modType" : "Compatibility",
+	"depends" :
+	[
+		"retreat-town"
+	],
+	"factions" :
+	[
+		"config/retreatFaction.json"
+	],
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	"version" : "1.0",
+	"keepDisabled" : false
+}

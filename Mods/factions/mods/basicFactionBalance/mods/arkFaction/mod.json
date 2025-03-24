@@ -1,0 +1,21 @@
+{
+	"name" : "Ark Faction Balance",
+	"description" : "Rebalanced buildings for Ark.",
+	"author" : "Warzyw647",
+	"contact" : "Warzyw647 on Discord",
+	"modType" : "Compatibility",
+	"depends" :
+	[
+		"ark-town"
+	],
+	"factions" :
+	[
+		"config/arkFaction.json"
+	],
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	"version" : "1.0",
+	"keepDisabled" : false
+}

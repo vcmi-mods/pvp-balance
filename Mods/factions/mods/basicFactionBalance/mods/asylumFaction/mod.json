@@ -1,0 +1,21 @@
+{
+	"name" : "Asylum Faction Balance",
+	"description" : "Rebalanced buildings for Asylum.",
+	"author" : "Warzyw647",
+	"contact" : "Warzyw647 on Discord",
+	"modType" : "Compatibility",
+	"depends" :
+	[
+		"asylum-town"
+	],
+	"factions" :
+	[
+		"config/asylumFaction.json"
+	],
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	"version" : "1.0",
+	"keepDisabled" : false
+}
