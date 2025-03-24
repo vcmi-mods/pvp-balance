@@ -1,6 +1,6 @@
 {
 	"demonCaveBattlefield": {
-		"graphics":  "battlefields/demonCaveBattlefield.png",
+		"graphics":  "battlefields/demonCaveBattlefield",
 		"isSpecial" : true
 		}
 }

@@ -9,6 +9,11 @@
 
     "modType" : "Artifacts",
 
+    "polish" : {
+		"name" : "Basic artifact balance",
+		"description" : "Ten submod banuje artefakty: Stoic Watchman,  Bird of Perception, Emblem of Cognizance, Boots of Polarity, Garniture of Interference, Surcoat of Counterpoise, Sleepkeeper."
+	},
+
     "artifacts": [
         "config/artifacts.json"
         ],

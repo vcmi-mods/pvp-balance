@@ -12,6 +12,11 @@
 
     "modType" : "Templates",
 
+    "polish" : {
+        "name" : "PvP Templates",
+        "description" : "Szablony do gry PvP."
+        },
+
     "compatibility" :
 	{
 		"min" : "1.6"

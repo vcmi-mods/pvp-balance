@@ -19,6 +19,10 @@
    "config/ruinsTownstartingArmies.json"
    ],
 
+   "factions": [
+    "config/ruinsFaction.json"
+    ],
+
 
 	"compatibility" :
 	{

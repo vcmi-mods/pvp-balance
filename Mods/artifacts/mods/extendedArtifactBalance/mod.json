@@ -20,6 +20,11 @@
 		]
 	},
 
+    "polish" : {
+        "name" : "Extended artifact balance",
+    "description" : "Ten submod wprowadza zmiany balansowe dla niektórych artefaktów. Klasa artefaktów Boots of Speed i Endless Sack of Gold jest zmieniona na major. Klasa artefaktów dających rzadkie surowce oraz Pendant of Second Sight jest zmieniona na minor. Bonus z artefaktów Inexhaustible Cart of Lumber/Ore jest podwojony. Artefakt zwiększające przyrost stworzeń są wzmocnione."
+},
+
 "compatibility" :
 	{
 		"min" : "1.6"

@@ -1,0 +1,21 @@
+{
+	
+	"ruins-town:ruins" :
+	{	
+		"town" :
+		{
+			"buildings" :
+			{	
+
+				"resourceSilo" :
+				{
+					"description": "The Resource Silo provides you with an additional +6 ore each day.",
+					"produce": { "ore": 6 }
+				}
+			}
+		}
+	}
+
+}
+
+

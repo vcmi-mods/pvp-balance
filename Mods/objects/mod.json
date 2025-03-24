@@ -12,6 +12,11 @@
 
     "modType" : "Objects",
 
+	"polish" : {
+        "name" : "Objects",
+        "description" : "Zmodyfikowane, nowe i alternatywne obiekty dla PvP."
+        },
+
 	
 	
 	"objects" :
@@ -57,10 +62,10 @@
 		"config/battlefields/horseshoeLakeBattlefield.json",
 		"config/battlefields/treantThicketBattlefield.json",
 		"config/battlefields/demonDomainBattlefield.json",
+		"config/battlefields/fortifiedMazeBattlefield.json",
 		"config/battlefields/elderbrainBattlefield.json",
-		"config/battlefields/demonCaveBattlefield.json"
-
-		
+		"config/battlefields/demonCaveBattlefield.json",
+		"config/battlefields/dangerousCaveBattlefield.json"
 
 	],
 

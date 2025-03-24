@@ -9,6 +9,10 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	
 	"modType" : "Spells",
+
+	"polish" : {
+		"description" : "Zmodyfikowane zaklęcia dla PvP."
+	},
 	
 	"conflicts":[
 		"ultimate-balance.spells-balance",

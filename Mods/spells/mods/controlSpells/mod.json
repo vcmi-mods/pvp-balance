@@ -7,6 +7,10 @@
 	
 	"modType" : "Spells",	
 
+	"polish" : {
+		"description" : "Prawdopodobieństwo wystąpienia zaklęć Portal Miejski, Lot i Wrota Wymiarów w gildii magów są zwiększone. Ponadto zbanowano kilka zaklęć poziomu 4. i 5."
+	},
+
 	"spells" :
 	[
 		"config/spells.json"

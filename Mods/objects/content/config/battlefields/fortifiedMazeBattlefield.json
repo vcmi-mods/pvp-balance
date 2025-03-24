@@ -1,0 +1,6 @@
+{
+	"fortifiedMazeBattlefield": {
+		"graphics":  "battlefields/FMBattlefield",
+		"isSpecial" : true
+		}
+}

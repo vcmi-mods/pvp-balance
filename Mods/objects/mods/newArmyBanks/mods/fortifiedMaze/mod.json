@@ -23,7 +23,8 @@
     "depends" : 
 	[
         "hota.highlandsTerrain",
-        "hota.wastelandTerrain"
+        "hota.wastelandTerrain",
+        "pvp-balance.objects"
     ],
 	
     "version" : "1.3",

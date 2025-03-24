@@ -9,6 +9,11 @@
 
     "modType" : "Artifacts",
 
+    "polish" : {
+        "name" : "New artifacts",
+    "description" : "Mod dodaje cztery nowe artefakty składane: Fire Hat, Water Hat, Earth Hat i Air Hat. Oprócz efektów artefaktów składowych pozwalją one rzucać czary ze szkół magii ognia, wody, ziemi i powietrza na poziomie eksperckim."
+},
+
     "artifacts": [
         "config/newArtifacts.json"
         ],

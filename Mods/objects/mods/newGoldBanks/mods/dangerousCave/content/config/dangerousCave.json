@@ -21,6 +21,7 @@
 				"visitMode" : "once",
 				"selectMode" : "selectPlayer",
 				"guardsLayout" : "creatureBankWide",
+				"battleground": "dangerousCaveBattlefield",
 				"rmg" : {
 					"value"		: 10000,
 					"rarity"	: 100,

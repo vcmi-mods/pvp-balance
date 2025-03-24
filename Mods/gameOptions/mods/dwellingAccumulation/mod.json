@@ -1,5 +1,5 @@
 {
-    "name" : "Neutral Dwelling Accumulation",
+    "name" : "Neutral dwelling accumulation",
 
     "description" : "This submod causes neutral dwellings to accumulate creature growth even when they are not flagged.",
 
@@ -11,6 +11,11 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 
     "modType" : "Mechanics",
+
+    "polish" : {
+        "name" : "Neutral dwelling accumulation",
+        "description" : "Submod powoduje, że jednostki w neutralnych siedliskach akumulują się."
+        },
 
     "settings":
 	{
