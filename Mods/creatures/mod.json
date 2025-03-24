@@ -12,6 +12,11 @@
 
     "modType" : "Creatures",
 
+    "polish" : {
+        "name" : "Creatures",
+        "description" : "Mod zapewnia balans jednostek i maszyn wojennych."
+        },
+
     "creatures": [
         "config/creatures.json",
         "config/warMachines"

@@ -1,6 +1,6 @@
 {
 	"elderbrainBattlefield": {
-		"graphics":  "battlefields/elderbrainBattlefield.bmp",
+		"graphics":  "battlefields/EBBattlefield",
 		"isSpecial" : true
 		}
 }

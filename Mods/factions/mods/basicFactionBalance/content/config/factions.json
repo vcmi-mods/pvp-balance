@@ -1,5 +1,20 @@
 {
 	
+	"hota.cove:cove" :
+	{	
+		"town" :
+		{
+			"buildings" :
+			{	
+
+				"resourceSilo": { 
+					"description" : "The Resource Silo provides you with an additional +3 sulfur each day.",
+					"produce": { "sulfur": 3 }
+			 	}
+			}
+		}
+	},
+
 	"core:conflux" :
 	{	
 		"town" :

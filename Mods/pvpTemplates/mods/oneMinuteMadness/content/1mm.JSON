@@ -10,7 +10,7 @@
 			"1" : // Desert 1
 			{
 				"type" : "treasure",
-				"size" :9,
+				"size" :8,
 				"neutralTowns" :
 				{"towns" : 2},
 				"monsters" : "weak",
@@ -310,7 +310,7 @@
 			"2" : // Desert 2
 			{
 				"type" : "treasure",
-				"size" : 9,
+				"size" : 8,
 				"neutralTowns" :
 				{"towns" : 2},
 				"monsters" : "weak",
@@ -322,7 +322,7 @@
 			"7" : // Wasteland 1
 			{
 				"type" : "treasure",
-				"size" : 5,
+				"size" : 4,
 				"monsters" : "weak",
 				"matchTerrainToTown" : false, 
 				"terrainTypes" : [ "wasteland" ], 
@@ -634,7 +634,7 @@
 			"8" : // Wasteland 2
 			{
 				"type" : "treasure",
-				"size" : 5,
+				"size" : 4,
 				"monsters" : "weak",
 				"matchTerrainToTown" : false, 
 				"terrainTypes" : [ "wasteland" ], 
@@ -1058,7 +1058,7 @@
 			"6" : // Grass 2
 			{
 				"type" : "treasure",
-				"size" : 6,
+				"size" : 5,
 				"monsters" : "weak",
 				"matchTerrainToTown" : false, 
 				"terrainTypes" : [ "grass" ], 
@@ -1069,7 +1069,7 @@
 			"3" : // Biom 1
 			{
 				"type" : "playerStart",
-				"size" : 6,
+				"size" : 5,
 				"owner" : 1, 
 				"monsters" : "none",
 				"playerTowns" : {"castles" : 1},
@@ -1217,7 +1217,7 @@
 			"4" : // Biom 2
 			{
 				"type" : "playerStart",
-				"size" : 6,
+				"size" : 5,
 				"owner" : 2, 
 				"monsters" : "none",
 				"playerTowns" : {"castles" : 1},
@@ -1244,7 +1244,7 @@
 			"11" : // Empty 3
 			{
 				"type" : "treasure",
-				"size" : 3,
+				"size" : 2,
 				"monsters" : "none",
 				"matchTerrainToTown" : false, 
 				"terrainTypes" : [ "snow" ]
@@ -1252,7 +1252,7 @@
 			"12" : // Empty 4
 			{
 				"type" : "treasure",
-				"size" : 3,
+				"size" : 2,
 				"monsters" : "none",
 				"matchTerrainToTown" : false, 
 				"terrainTypes" : [ "lava" ]	
@@ -1260,7 +1260,7 @@
 			"13" : // Empty 5
 			{
 				"type" : "treasure",
-				"size" : 3,
+				"size" : 2,
 				"monsters" : "none",
 				"matchTerrainToTown" : false, 
 				"terrainTypes" : [ "snow" ]	
@@ -1268,7 +1268,7 @@
 			"14" : // Empty 6
 			{
 				"type" : "treasure",
-				"size" :3,
+				"size" :2,
 				"monsters" : "none",
 				"matchTerrainToTown" : false, 
 				"terrainTypes" : [ "lava" ]	
@@ -1301,12 +1301,35 @@
 			{ "a" : "3", "b" : "7",  "type" : "fictive" },
 			{ "a" : "5", "b" : "7",  "type" : "fictive" },
 			{ "a" : "4", "b" : "8",  "type" : "fictive" },
+			{ "a" : "4", "b" : "8",  "type" : "fictive" },
+			{ "a" : "4", "b" : "8",  "type" : "fictive" },
+			{ "a" : "4", "b" : "8",  "type" : "fictive" },
+			{ "a" : "4", "b" : "8",  "type" : "fictive" },
 			{ "a" : "6", "b" : "8",  "type" : "fictive" },
+			{ "a" : "6", "b" : "8",  "type" : "fictive" },
+			{ "a" : "6", "b" : "8",  "type" : "fictive" },
+			{ "a" : "6", "b" : "8",  "type" : "fictive" },
+			{ "a" : "4", "b" : "6",  "type" : "fictive" },
+			{ "a" : "4", "b" : "6",  "type" : "fictive" },
+			{ "a" : "4", "b" : "6",  "type" : "fictive" },
+			{ "a" : "4", "b" : "6",  "type" : "fictive" },
 			{ "a" : "4", "b" : "6",  "type" : "fictive" },
 			{ "a" : "7", "b" : "8",  "type" : "repulsive" },
 			{ "a" : "3", "b" : "4",  "type" : "repulsive" },
+			{ "a" : "3", "b" : "4",  "type" : "repulsive" },
+			{ "a" : "3", "b" : "4",  "type" : "repulsive" },
+			{ "a" : "3", "b" : "4",  "type" : "repulsive" },
 			{ "a" : "5", "b" : "6",  "type" : "repulsive" },
 
+			{ "a" : "9", "b" : "10",  "type" : "repulsive" },
+			{ "a" : "11", "b" : "12",  "type" : "repulsive" },
+			{ "a" : "13", "b" : "14",  "type" : "repulsive" },
+			{ "a" : "9", "b" : "10",  "type" : "repulsive" },
+			{ "a" : "11", "b" : "12",  "type" : "repulsive" },
+			{ "a" : "13", "b" : "14",  "type" : "repulsive" },
+			{ "a" : "9", "b" : "10",  "type" : "repulsive" },
+			{ "a" : "11", "b" : "12",  "type" : "repulsive" },
+			{ "a" : "13", "b" : "14",  "type" : "repulsive" },
 			{ "a" : "9", "b" : "10",  "type" : "repulsive" },
 			{ "a" : "11", "b" : "12",  "type" : "repulsive" },
 			{ "a" : "13", "b" : "14",  "type" : "repulsive" },
@@ -1325,6 +1348,10 @@
 			{ "a" : "14", "b" : "2",  "type" : "fictive" },
 			
 
+			{ "a" : "9", "b" : "11",  "type" : "fictive" },
+			{ "a" : "10", "b" : "12",  "type" : "fictive" },
+			{ "a" : "9", "b" : "13",  "type" : "fictive" },
+			{ "a" : "10", "b" : "14",  "type" : "fictive" },
 			{ "a" : "9", "b" : "11",  "type" : "fictive" },
 			{ "a" : "10", "b" : "12",  "type" : "fictive" },
 			{ "a" : "9", "b" : "13",  "type" : "fictive" },

@@ -1,13 +1,18 @@
 {
     "name" : "Basic hero balance",
 
-    "description" : "Ban of heroes with navigation or resistance, ban of special heroes. Heretic heroes have increased base knowledge from 1 to 2. Balance for heroess from the mods Ruins Town, New Pavilion, Heavenly Forge 2000, Tides of War is provided if these mods are enabled.",
+    "description" : "Ban of heroes with Navigation or Resistance, ban of special heroes. Heretic heroes have increased base knowledge from 1 to 2. Balance for heroess from the mods Ruins Town, New Pavilion, Heavenly Forge 2000, Tides of War is provided if these mods are enabled.",
 
     "author" : "wnukos",
 
     "contact" : "wnukos on Discord",
 
     "modType" : "Heroes",
+
+    "polish" : {
+        "name" : "Basic hero balance",
+        "description" : "Ban bohaterów z Nawigacją i Odpornością, ban specjalnych bohaterów. Bohaterowie klasy Heretyk otrzymują +1 wiedzy na start."
+        },
     
     "depends" : 
 	[

@@ -11,7 +11,7 @@
 					"base" : { 
 					"animation" : "elderBrain", 
 					"visitableFrom" : [ "---", "---", "+++"  ],
-					"mask" : [ "VVVV", "VVVV", "VBBV", "VBAB"],
+					"mask" : [  "VVV", "VVV", "BAB"],
 					"allowedTerrains" :["subterra", "lava", "sand"]
 					}
 				},

@@ -12,6 +12,11 @@
 
     "modType" : "Heroes",
 
+    "polish" : {
+        "name" : "Heroes",
+        "description" : "Bany bohaterów i zrebalansowani bohaterowie dla PvP."
+        },
+
     "conflicts":[
         "an-expansion.heroes"
     ],

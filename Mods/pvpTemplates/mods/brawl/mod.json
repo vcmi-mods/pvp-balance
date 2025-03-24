@@ -17,7 +17,8 @@
 	[
 		"pvp-balance.pvpTemplates.oneMinuteMadness",
 		"pvp-balance.pvpTemplates.vietnameseDiplomacy",
-		"pvp-balance.pvpTemplates.jebusOneHero"
+		"pvp-balance.pvpTemplates.jebusOneHero",
+		"warzyw-templates.brawl"
 	],
 
 	"softDepends":[

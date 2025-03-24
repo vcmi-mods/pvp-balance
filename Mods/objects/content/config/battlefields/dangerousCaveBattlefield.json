@@ -1,0 +1,6 @@
+{
+	"dangerousCaveBattlefield": {
+		"graphics":  "battlefields/dangerousCaveBattlefield",
+		"isSpecial" : true
+		}
+}

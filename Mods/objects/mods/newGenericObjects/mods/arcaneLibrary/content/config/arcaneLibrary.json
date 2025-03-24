@@ -18,8 +18,7 @@
 					"base" : { 
 					"animation" : "arcaneLibrary", 
 					"visitableFrom" : [ "---", "+++", "+++"  ], 
-					"mask" : [ "VVV", "BBB","BAB" ],
-					"allowedTerrains" :[ "dirt", "grass", "snow", "swamp", "rough", "highlands", "wasteland"]
+					"mask" : [ "VVV", "VVV","BAB" ]
 					}
 				},
 				"rmg" : {

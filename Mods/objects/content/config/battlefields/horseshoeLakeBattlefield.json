@@ -1,7 +1,7 @@
 {
 
 		"horseshoeLakeBattlefield": {
-			"graphics": "battlefields/horseshoeLakeBattlefield.bmp",
+			"graphics": "battlefields/horseshoeLakeBattlefield",
 			"isSpecial" : true,
 			"bonuses": [
 				{

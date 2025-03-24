@@ -8,6 +8,11 @@
     "contact" : "wnukos on Discord",
 
     "modType" : "Heroes",
+
+        "polish" : {
+        "name" : "Extended hero balance",
+        "description" : "Specjaliści od jednostek i czarów są wzmocnieni. Synca zaczyna z zaawansowanym Dowodzeniem zamiast Dowodzenia i Nauki Czarów."
+        },
     
 
    "heroes": [

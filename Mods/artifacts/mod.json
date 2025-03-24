@@ -11,6 +11,11 @@
 
     "modType" : "Artifacts",
 
+    "polish" : {
+		"name" : "Artifacts",
+		"description" : "Zbalansowane artefakty dla PvP."
+	},
+
     "compatibility" :
 	{
 		"min" : "1.6"

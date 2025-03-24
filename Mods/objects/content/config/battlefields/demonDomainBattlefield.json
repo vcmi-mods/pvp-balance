@@ -1,6 +1,6 @@
 {
 	"demonDomainBattlefield": {
-		"graphics":  "battlefields/demonDomainBattlefield.bmp",
+		"graphics":  "battlefields/demonDomainBattlefield",
 		"isSpecial" : true
 		}
 }
