@@ -57,7 +57,7 @@
 	"creatures.pvp-balance.objects.ogreMageCopy.name.singular" : "Огр-архімаг",
 	"creatures.pvp-balance.objects.priestessCopy.name.plural" : "Жриць",
 	"creatures.pvp-balance.objects.priestessCopy.name.singular" : "Жриця",
-	"mapObject.hota.mapobjects.ancientLamp.ancientLamp.description" : "Дає можливість одноразово найняти 4-7 Майстрів-джинів.",
+	"mapObject.hota.mapobjects.ancientLamp.ancientLamp.description" : "Дає можливість одноразово найняти 4-6 Майстрів-джинів.",
 	"mapObject.hota.mapobjects.ancientLamp.ancientLamp.onEmpty" : "{Стародавня лампа}\r\n\r\nПошарпаний тюрбан виходить із лампи, що сидить на голові його власника-джина. \"О, чи це часом не роботодавці? . Знову. Маєш гроші? Ми не працюватимемо знову за чарівні боби. І ми НЕ виконуватимемо жодних бажань. Щодо всього іншого, можеш покластися на нас.",
 	"mapObject.hota.mapobjects.ancientLamp.ancientLamp.rewards.0" : "{Стародавня лампа}\r\n\r\nПошарпаний тюрбан виходить із лампи, що сидить на голові його власника-джина. \"О, чи це часом не роботодавці? . Знову. Маєш гроші? Ми не працюватимемо знову за чарівні боби. І ми НЕ виконуватимемо жодних бажань. Щодо всього іншого, можеш покластися на нас.\"",
 	"mapObject.hota.mapobjects.ancientLamp.ancientLamp.rewards.1" : "{Стародавня лампа}\r\n\r\nПошарпаний тюрбан виходить із лампи, що сидить на голові його власника-джина. \"О, чи це часом не роботодавці? . Знову. Маєш гроші? Ми не працюватимемо знову за чарівні боби. І ми НЕ виконуватимемо жодних бажань. Щодо всього іншого, можеш покластися на нас.\"",

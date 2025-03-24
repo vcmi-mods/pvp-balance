@@ -1,7 +1,7 @@
 {
-    "name" : "New Pavilion Faction Balance",
+    "name" : "Factory Faction Balance",
 
-    "description" : "Rebalanced hero starting armies for New Pavilion town.",
+    "description" : "Rebalanced hero starting armies for Factory town.",
 
     "author" : "wnukos",
 
@@ -11,15 +11,14 @@
     
     "depends" : 
 	[
-		"new-pavilion"
+		"hota",
+		"hota.factory"
 	],
 
-   "heroes": [
-   "config/newPavilionStartingArmies.json"
-   ],
+
 
    "factions": [
-    "config/pavilionFaction.json"
+    "config/factoryFaction.json"
     ],
 
 

@@ -8,10 +8,16 @@
     "contact" : "wnukos on Discord",
 
     "modType" : "Mechanics",
+
+	"polish" : {
+        "name" : "Basic faction balance",
+        "description" : "Mod balansuje startowe armie bohaterów oraz koszt i wymagania budynków dla poszczególnych frakcji. Zapewniony jest również balans dla modów Ruins Town, Pavilion Town, Heavenly Forge 2000 i Tides of War, jeśli te mody są włączone."
+        },
    
     "depends" : 
 	[
-		"hota.gameBalance"
+		"hota.gameBalance",
+		"hota.cove"
 	],
         "ukrainian" :{
 		"name" : "Базовий баланс фракцій",

@@ -11,6 +11,11 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 
     "modType" : "Mechanics",
+
+    "polish" : {
+        "name" : "Game options",
+        "description" : "Mod oferuje kilka opcji zmieniających mechaniki gry."
+        },
 	
     "compatibility" :
 	{

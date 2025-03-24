@@ -11,7 +11,7 @@
 					"base" : { 
 					"animation" : "fortifiedMaze", 
 					"visitableFrom" : [ "---", "---", "+++"  ],
-					"mask" : [ "VVVV", "VVVV", "VVBV", "VABB"],
+					"mask" : [ "VVV", "VVV", "ABV"],
 					"allowedTerrains" :[ "dirt", "grass", "snow", "swamp", "rough", "highlands", "wasteland", "sand"]
 					}
 				},
@@ -21,6 +21,7 @@
 				"visitMode" : "once",
 				"selectMode" : "selectFirst",
 				"guardsLayout" : "creatureBankNarrow",
+				"battleground": "fortifiedMazeBattlefield",
 				"rmg" : {
 					"value"		: 2000,
 					"rarity"	: 120
@@ -96,6 +97,7 @@
 				"visitMode" : "once",
 				"selectMode" : "selectFirst",
 				"guardsLayout" : "creatureBankNarrow",
+				"battleground": "fortifiedMazeBattlefield",
 				"rmg" : {
 					"value"		: 2000,
 					"rarity"	: 120,

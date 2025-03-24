@@ -1,0 +1,19 @@
+{
+	
+	"new-pavilion:pavilion" :
+	{	
+		"town" :
+		{
+			"buildings" :
+			{	
+
+				"resourceSilo" :
+				{
+					"description" : "The Resource Silo provides you with an additional +3 mercury each day.",
+					"produce": { "mercury": 3 }
+				}
+			}
+		}
+	}
+
+}

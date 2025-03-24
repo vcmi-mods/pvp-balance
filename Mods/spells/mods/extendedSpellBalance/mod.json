@@ -7,6 +7,10 @@
 	
 	"modType" : "Spells",	
 
+	"polish" : {
+		"description" : "Zbalansowane zaklęcia z naciskiem na zwiększenie mocy zaklęć szkoły ognia i wody."
+	},
+
 	"spells" :
 	[
 		"config/spells.json"

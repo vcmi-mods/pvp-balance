@@ -1,5 +1,5 @@
 {
-    "name" : "Buffed heroes with eagle eye",
+    "name" : "Buffed heroes with Eagle Eye",
 
     "description" : "Heroes originally starting with Eagle Eye skill and/or specialty get new set of starting skills and new specialties.",
 
@@ -8,6 +8,11 @@
     "contact" : "wnukos on Discord",
 
     "modType" : "Heroes",
+
+	"polish" : {
+        "name" : "Buffed heroes with Eagle Eye",
+        "description" : "Bohaterowie oryginalnie rozpoczynający grę z Sokolim Wzrokiem otrzymują nowe umiejętności i specjalności."
+        },
     
 
    "heroes": [

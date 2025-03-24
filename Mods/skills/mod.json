@@ -12,6 +12,11 @@
 
     "modType" : "Mechanics",
 
+    "polish" : {
+		"name" : "Skills",
+		"description" : "Zrebalansowane umiejętności dla PvP. Sokoli Wzrok i Odporność są zbanowane. Mod uwzględnia też zmiany balansowe dla umiejętności pochodzących z modów Tides of War i Ruins Town jeśli te mody są włączone."
+	},
+
     "skills" : [
         "config/skills.json"
         ],

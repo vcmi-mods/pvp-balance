@@ -1,6 +1,6 @@
 {
 	"name" : "Town Portal Rework",
-	"description" : "Town Portal spell is nerfed - you need to know more than one magic school to use it at advanced or expert level. The exact spell mechanics are:<br><br>- With expert Earth Magic and Basic Fire or Water Magic Town Portal is cast at advanced level.<br>- With expert Earth Magic and expert Fire or Water Magic Town Portal is cast at expert level.<br>- With expert Fire Magic and expert Water magic Town Portal is cast at advanced level.<br><br>As a side effect of this implementation, players need to cast Town Portal Invocation spell for 0 mana in order to get Town Portal in their spellbook. The invocation spell needs to be cast for each hero only once per game.",
+	"description" : "Town Portal spell is nerfed - you need to know more than one magic school to use it at expert level. The exact spell mechanics are:<br><br>- With expert Earth Magic Town Portal is cast at advanced level.<br>- With expert Earth Magic and expert Fire or Water Magic Town Portal is cast at expert level.<br>- With expert Fire Magic and expert Water magic Town Portal is cast at advanced level.<br><br>As a side effect of this implementation, players need to cast Town Portal Invocation spell for 0 mana in order to get Town Portal in their spellbook. The invocation spell needs to be cast for each hero only once per game.",
 	"author" : "wnukos",
 
 	"contact" : "wnukos on Discord",
@@ -9,6 +9,10 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	
 	"modType" : "Spells",	
+
+	"polish" : {
+		"description" : "Zaklęcie Portal Miejski jest osłabione. Rzucenie tego czaru na poziomie eksperckim wymaga teraz znajomości więcej niż jednej szkoły magii na poziomie eksperckim."
+	},
 
 	"spells" :
 	[

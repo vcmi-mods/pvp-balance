@@ -12,6 +12,11 @@
 
     "modType" : "Mechanics",
 
+    "polish" : {
+        "name" : "Buildings limit",
+        "description" : "Submod pozwala budować dwa budynki dziennie."
+        },
+
     "settings":
 	{
         "towns":

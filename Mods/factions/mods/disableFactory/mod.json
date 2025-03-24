@@ -8,6 +8,11 @@
     "contact" : "wnukos on Discord",
 
     "modType" : "Other",
+
+    "polish" : {
+        "name" : "Disable Factory",
+        "description" : "Mod dezaktywuje submod Factory z moda HotA."
+        },
 	
     "depends":
     [

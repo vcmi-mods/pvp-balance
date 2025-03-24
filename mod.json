@@ -7,7 +7,7 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 
     "modType" : "Expansion",
-    "version" : "1.3.7",
+    "version" : "1.3.8",
     "changelog" :
     {
         "1.0"   : [ "initial release" ],
@@ -37,7 +37,8 @@
         "1.3.4"   : [ "Modified Town Portal Rework submod - expert Earth Magic gives advanced Town Portal, expert Fire and Water give advanced Town Portal, expert Earth and expert Fire/Water give expert Town Portal.", "Air Hat and Earth Hat do not allow to cast Town Portal, Fly and Dimension Door without expert magic.", "Firebal Wand - cost of Fireball increased to 4 mana, compatibility with Basic and Extended Spell Balance submods. Icebolt Wand - cost of Icebolt increased to 3 mana.", "Added component effects for Statue of Legion.", "Horseshoe Lake, Demon Domain, Fortified Maze and Elderbrain - small modification extending the possible terrains / zone limit.", "Dangerous Cave - maximum size gives +2 attack instead of Relic Artifact.", "Dangerous Cabe - new graphics for Ogre Archmage by Exx and Kurek.", "Allowed terrains for Control Spell Scrolls fixed.",  "Fixed the sprite of Pandora's Box.", "Corrected AI values of Leprechauns, Nagas, Ghost Dragons, Red Dragons and Scorpicors in compliance with HotA 1.7.2.", "New Pavilion - Vizier and Embalmer can now learn Air Magic.", "Special weeks disabled.", "Jebus One Hero - added Pavilion, Forge2k and Ruins compatibility for Logistics and Scouting at Hand submod", "Vietnamese Diplomacy - fixed Hill Fort generation, optimized zone treasure layout with aim of more frequent creature dwellings in the starting zones and more single-guarded Dragon FLy Hives in transition zones, Binoculars and Phylacterium slightly nerfed, Transformation Altar added when Tides of War mod is enabled, Pandora's Boxes with Azure Dragon are limited to 10 per zone now.", "Filled in some missing descriptions." ],
         "1.3.5"   : [ "Limit of heroes per player increased from 16 to 100", "Elderbrain object: Alhoons now additionally cast Hypnotize after attack with the same power as Fangarms", "Sorceress Castle object: monks removed from the guard composition to increase guard morale from -1 to 0. Rewards slightly nerfed.", "Nanomedic building in Forge2k: hp regeneration bonus changed from 7xtier to 3xtier", "Vampirism spell - effect slightly increased giving 15/20/25/30 percent of drained health on corresponding levels", "Alhoons and Illithids - Hypnotize spell power and number of casts decreased (25HP per Illithid with one cast, 50HP per Alhoon with two casts)", "Trytons and Abyssal Trythons: damage and cost increased, Trawl effect duration decreased from 3 to 1 turns", "Disable Factory submod reworked - now it is correctly enabled by default", "Jebus One Hero template: Conflux towns in the Desert Zone now do not influence value of Pandora's Boxes and Dwellings in other zones, treasure value ranges adjusted", "Vietnamese Diplomacy template: Dungeon, Inferno and Necropolis cannot generate in the underground, cost of Transformation Altar use adjusted, T1-T4 creature Pandora's Boxes banned on the whole map, treasure density in the starting zones adjusted"],
 	    "1.3.6"  : [ "Ukrainian translation by MyroSlave" ],
-		"1.3.7"   : [ "In submod Basic Faction Balance added triple Resource Silo income for all remaining factions except for unofficial Factory (may be added later), Cove, Factory, Pavilion, Forge2k and Ruins. Will be added in next update." ]
+        "1.3.7"  : [ "Sprites of Horseshoe Lake, Fortified Maze and Elderbrain reduced in size", "Custom battlefields added for Fortified Maze and Dangerous Cave objects, battlefield updated for Elderbrain and Horseshoe Lake", "Polish translation added (to be completed in the next update)", "Added conflict of Brawl template from PvPTemplates submod with Brawl template from Warzyw Templates mod."],
+		"1.3.8"   : [ "In submod Basic Faction Balance added triple Resource Silo income for all remaining factions except for unofficial Factory (may be added later)." ]
     },
 
     "depends" : 
@@ -60,6 +61,15 @@
 			"translation/pvp/ukrainian.json"
 		]
 	},
+
+    "polish" : {
+        "name" : "PvP Balance",
+       "description" : "Modyfikacja mająca na celu uczynienie gier PvP bardziej zbalansowanymi i ciekawymi. Pełną dokumentację można przeczytać pod linkiem: https://drive.google.com/file/d/1XC-J8Wd4A5WDpNgcjcUpg4oIlSXehCxU/view?usp=sharing",
+       "translations" : [
+           "translation/pvp/polish.json"
+       ]
+   },
+
     "artifacts":
     [
         "config/artifacts.json",

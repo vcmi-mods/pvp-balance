@@ -19,8 +19,8 @@
 		},
 		"text" :
 		{
-			"name" : "Air Elemental",
-			"description" : "{Spell Scroll}\r\n\r\nThis scroll contains the Air Elemental spell which is added into your spell book for as long as you carry the scroll.",
+			"name" : "Summon Air Elemental",
+			"description" : "{Spell Scroll}\r\n\r\nThis scroll contains the Summon Air Elemental spell which is added into your spell book for as long as you carry the scroll.",
 			"event" : "You find a spell scroll inscribed with the Air Elemental spell. You toss it into your backpack."
 		}
 	}

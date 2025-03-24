@@ -12,6 +12,11 @@
 
     "modType" : "Mechanics",
 
+    "polish" : {
+        "name" : "Modified negative morale",
+        "description" : "Szanse na utratę ruchu na skutek negatywnych morali są zmienione z 8/17/25 % na 1/8/17 % przy odpowiednio -1/-2/-3 morale."
+        },
+
     "settings":
 	{
         "combat":

@@ -1,6 +1,6 @@
 {
 	"name" : "Basic spell balance",
-	"description" : "Spell balance changes commonly accepted in the H3 PvP community. Includes balance changes of Slow, Fire Elemental and Earth elemental, as well as ban of Summon Boat, Scuttle Boat and Waterwalk.",
+	"description" : "Spell balance changes commonly accepted in the H3 PvP community.",
 	"author" : "wnukos",
 
 	"contact" : "wnukos on Discord",
@@ -9,6 +9,10 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	
 	"modType" : "Spells",	
+
+	"polish" : {
+		"description" : "Prawdopodobieństwo wystąpienia zaklęć Portal Miejski, Lot i Wrota Wymiarów w gildii magów są zwiększone. Ponadto zbanowano kilka zaklęć poziomu 4. i 5."
+	},
 
 	"spells":[
 		"config/spells.json"

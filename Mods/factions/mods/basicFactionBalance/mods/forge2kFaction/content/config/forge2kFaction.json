@@ -28,6 +28,11 @@
 						]
 					}
 					
+				},
+				"resourceSilo" :
+				{
+					"description" : "The Resource Silo provides you with an additional +3 crystal each day.",
+					"produce": { "crystal": 3 }
 				}
 			}
 		}
