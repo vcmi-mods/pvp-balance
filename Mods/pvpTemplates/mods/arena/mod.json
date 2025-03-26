@@ -31,7 +31,8 @@
 		"pvp-balance.pvpTemplates.jebusOneHero",
 		"pvp-balance.pvpTemplates.oneMinuteMadness",
 		"pvp-balance.spells.controlSpells",
-		"pvp-balance.gameOptions"
+		"pvp-balance.gameOptions",
+		"warzyw-templates.arena"
 	]
 
 }

@@ -11,6 +11,7 @@
 	"modType" : "Spells",	
 
 	"polish" : {
+		"name" : "Town Poral Rework",
 		"description" : "Zaklęcie Portal Miejski jest osłabione. Rzucenie tego czaru na poziomie eksperckim wymaga teraz znajomości więcej niż jednej szkoły magii na poziomie eksperckim."
 	},
 

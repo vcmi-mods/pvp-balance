@@ -81,7 +81,7 @@
 					"attackerCommander" : 85,
 					"defenderCommander" :99,
 					"attackerUnits": [ 57, 61, 90, 93, 96, 125, 129],
-					"defenderUnits": [ 37, 45, 98, 139, 147 ]
+					"defenderUnits": [37, 25, 46, 139, 161, 148 ]
 				},
 
                 "horseshoeLake" : {

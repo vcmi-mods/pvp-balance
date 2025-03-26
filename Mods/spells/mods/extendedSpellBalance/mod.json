@@ -8,6 +8,7 @@
 	"modType" : "Spells",	
 
 	"polish" : {
+		"name" : "Extended spell balance",
 		"description" : "Zbalansowane zaklęcia z naciskiem na zwiększenie mocy zaklęć szkoły ognia i wody."
 	},
 

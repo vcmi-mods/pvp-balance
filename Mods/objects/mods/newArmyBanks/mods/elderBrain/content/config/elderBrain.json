@@ -24,7 +24,7 @@
 				"battleground": "elderbrainBattlefield",
 				"rmg" : {
 					"value"		: 2000,
-					"rarity"	: 120,
+					"rarity"	: 70,
 					"zoneLimit"	: 2
 				},
 				"rewards":
@@ -33,12 +33,10 @@
 						"message" : 34,
 						"appearChance" : { "min" : 0, "max" : 15 },
 						"guards": [
-							{ "amount": 3, "type" : "mdtAlhoonCopy" },
-							{ "amount": 3, "type" : "mdtAlhoonCopy" },
-							{ "amount": 3, "type" : "mdtAlhoonCopy" },
-							{ "amount": 3, "type" : "mdtAlhoonCopy" },
-							{ "amount": 3, "type" : "mdtAlhoonCopy" },
-							{ "amount": 3, "type" : "mdtAlhoonCopy" }
+							{ "amount": 4, "type" : "mdtAlhoonCopy" },
+							{ "amount": 4, "type" : "mdtAlhoonCopy" },
+							{ "amount": 4, "type" : "mdtAlhoonCopy" },
+							{ "amount": 4, "type" : "mdtAlhoonCopy" }
 						],
 						"creatures": [ { "amount": 1, "type": "redDragon" } ]
 					},
@@ -46,12 +44,10 @@
 						"message" : 34,
 						"appearChance" : { "min" : 15, "max" : 50 },
 						"guards": [
-							{ "amount": 6, "type" : "mdtAlhoonCopy" },
-							{ "amount": 6, "type" : "mdtAlhoonCopy" },
-							{ "amount": 6, "type" : "mdtAlhoonCopy" },
-							{ "amount": 6, "type" : "mdtAlhoonCopy" },
-							{ "amount": 6, "type" : "mdtAlhoonCopy" },
-							{ "amount": 6, "type" : "mdtAlhoonCopy" }
+							{ "amount": 8, "type" : "mdtAlhoonCopy" },
+							{ "amount": 8, "type" : "mdtAlhoonCopy" },
+							{ "amount": 8, "type" : "mdtAlhoonCopy" },
+							{ "amount": 8, "type" : "mdtAlhoonCopy" }
 						],
 						"creatures": [ { "amount": 2, "type": "redDragon" }]
 					},
@@ -59,12 +55,10 @@
 						"message" : 34,
 						"appearChance" : { "min" : 50, "max" : 85 },
 						"guards": [
-							{ "amount": 9, "type" : "mdtAlhoonCopy" },
-							{ "amount": 9, "type" : "mdtAlhoonCopy" },
-							{ "amount": 9, "type" : "mdtAlhoonCopy" },
-							{ "amount": 9, "type" : "mdtAlhoonCopy" },
-							{ "amount": 9, "type" : "mdtAlhoonCopy" },
-							{ "amount": 9, "type" : "mdtAlhoonCopy" }
+							{ "amount": 12, "type" : "mdtAlhoonCopy" },
+							{ "amount": 12, "type" : "mdtAlhoonCopy" },
+							{ "amount": 12, "type" : "mdtAlhoonCopy" },
+							{ "amount": 12, "type" : "mdtAlhoonCopy" }
 						],
 						"creatures": [ { "amount": 3, "type": "redDragon" } ]
 					},
@@ -72,12 +66,10 @@
 						"message" : 34,
 						"appearChance" : { "min" : 85, "max" : 100 },
 						"guards": [
-							{ "amount": 12, "type" : "mdtAlhoonCopy" },
-							{ "amount": 12, "type" : "mdtAlhoonCopy" },
-							{ "amount": 12, "type" : "mdtAlhoonCopy" },
-							{ "amount": 12, "type" : "mdtAlhoonCopy" },
-							{ "amount": 12, "type" : "mdtAlhoonCopy" },
-							{ "amount": 12, "type" : "mdtAlhoonCopy" }
+							{ "amount": 16, "type" : "mdtAlhoonCopy" },
+							{ "amount": 16, "type" : "mdtAlhoonCopy" },
+							{ "amount": 16, "type" : "mdtAlhoonCopy" },
+							{ "amount": 16, "type" : "mdtAlhoonCopy" }
 						],
 						"creatures": [ { "amount": 4, "type": "redDragon" } ]
 					}

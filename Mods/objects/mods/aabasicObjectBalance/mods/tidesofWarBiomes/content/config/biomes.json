@@ -14,14 +14,15 @@
 		}
 	},
 
-	"tides-of-war.objects:sandMountains" : {
+
+	"tides-of-war.objects:mdtSandMountains" : {
 		"biome": {
 			"terrain" : "rock",
 			"objectType" : "structure"
 		}
 	},
 
-	"tides-of-war.objects:swampMountains" : {
+    "tides-of-war.objects:mdtSwampMountains" : {
 		"biome": {
 			"terrain" : "rock",
 			"objectType" : "structure"

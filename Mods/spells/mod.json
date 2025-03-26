@@ -11,6 +11,7 @@
 	"modType" : "Spells",
 
 	"polish" : {
+		"name" : "Spells",
 		"description" : "Zmodyfikowane zaklęcia dla PvP."
 	},
 	
