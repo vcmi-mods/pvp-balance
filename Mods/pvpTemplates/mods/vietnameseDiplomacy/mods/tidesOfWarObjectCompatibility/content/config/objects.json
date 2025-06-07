@@ -1,5 +1,5 @@
 {
-    "mdtTransformAltar" : {
+    "tides-of-war.transformationaltar:mdtTransformAltar" : {
         "name" : "Transformation Altar",
         "handler": "configurable",
         "types" : {
@@ -528,15 +528,7 @@
 				"selectMode" : "selectPlayer",
 				"visitMode" : "unlimited",
 				"canRefuse" : true,
-                "templates" :
-                {
-                    "default" :
-                    {
-                        "animation" : "transformationAltar", 
-                        "mask" : [ "VVV","VVV", "VBA" ], 
-                        "visitableFrom" : [ "---", "+++", "+++" ]
-                    }
-                }
+                
             }
         }
     }
