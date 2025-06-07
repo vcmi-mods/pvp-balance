@@ -7,7 +7,7 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 
     "modType" : "Expansion",
-    "version" : "1.3.9",
+    "version" : "1.4.0",
     "changelog" :
     {
         "1.0"   : [ "initial release" ],
@@ -39,7 +39,8 @@
 	    "1.3.6"  : [ "Ukrainian translation by MyroSlave" ],
         "1.3.7"  : [ "Sprites of Horseshoe Lake, Fortified Maze, Elderbrain and Arcane Library reduced in size", "Arcane Library can generate now on any terrain", "Custom battlefields added for Fortified Maze and Dangerous Cave objects, battlefield updated for Elderbrain and Horseshoe Lake", "Polish translation added (to be completed in the next update)", "Added conflict of Brawl template from PvPTemplates submod with Brawl template from Warzyw Templates mod."],
 		"1.3.8"   : [ "In submod Basic Faction Balance added triple Resource Silo income for all remaining factions except for unofficial Factory (may be added later)." ],
-        "1.3.9"  : [ "Added conflict of Nowa Arena template from PvPTemplates submod with Nowa Arena template from Warzyw Templates mod.", "Number of guards, guard layout and allowedTerrains optimized for banks Fortified Maze, Elderbrain and Treant Thicket.", "Seminarium bank now gives Paladins instead of Templars as reward", "Minor fixes"]
+        "1.3.9"  : [ "Added conflict of Nowa Arena template from PvPTemplates submod with Nowa Arena template from Warzyw Templates mod.", "Number of guards, guard layout and allowedTerrains optimized for banks Fortified Maze, Elderbrain and Treant Thicket.", "Seminarium bank now gives Paladins instead of Templars as reward", "Minor fixes"],
+	    "1.4.0" : [ "Changed config for the Transformation altar to use version from Tides of War", "Added Unofficial Factory basic balance submod (both Storage and Resource Silo provide x3 of resources)" ]
     },
 
     "depends" : 
