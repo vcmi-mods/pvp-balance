@@ -21,7 +21,8 @@
     "depends" : 
 	[
         "tides-of-war",
-        "tides-of-war.alternative-creatures"
+        "tides-of-war.alternative-creatures",
+	"tides-of-war.transformationaltar"
     ],
 	
     "version" : "1.3",
