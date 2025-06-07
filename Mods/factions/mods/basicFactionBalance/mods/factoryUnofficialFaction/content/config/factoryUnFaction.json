@@ -11,7 +11,12 @@
 			{
 				"description" : "The Resource Silo provides you with an additional +3 mercury each day.",	
 				"produce": { "mercury": 3 }
-			}
+			},
+			"special3" : 
+			{
+			        "description" : "The Storage provides you with an additional +3 crystals each day.",
+                    		"produce": { "crystal": 3 }, 
+				}
 			}
 		}
 	}
