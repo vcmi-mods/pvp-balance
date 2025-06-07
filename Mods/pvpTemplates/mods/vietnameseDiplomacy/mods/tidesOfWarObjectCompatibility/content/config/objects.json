@@ -532,7 +532,7 @@
                 {
                     "default" :
                     {
-                        "animation" : "objects/altar_upd", 
+                        "animation" : "altar_upd", 
                         "mask" : [ "VVVV","VBBV", "VBAB" ], 
                         "visitableFrom" : [ "---", "+++", "+++" ]
                     }
