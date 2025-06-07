@@ -532,11 +532,11 @@
                 {
                     "default" :
                     {
-                        "animation" : "transformationAltar", 
-                        "mask" : [ "VVV","VVV", "VBA" ], 
+                        "animation" : "objects/altar_upd", 
+                        "mask" : [ "VVVV","VBBV", "VBAB" ], 
                         "visitableFrom" : [ "---", "+++", "+++" ]
                     }
-                }
+		}
             }
         }
     }
