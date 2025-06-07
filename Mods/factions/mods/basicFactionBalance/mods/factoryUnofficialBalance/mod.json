@@ -1,0 +1,33 @@
+{
+    "name" : "Unofficial Factory Faction Balance",
+
+    "description" : "Rebalanced buildings in Factory (unofficial) town.",
+
+    "author" : "Olegmods.INC",
+
+    "contact" : "Olegmods.INC on Discord",
+
+    "modType" : "Compatibility",
+    
+    "depends" : 
+	[
+		"factory-creatures",
+		"factory-creatures.factory"
+	],
+
+
+
+   "factions": [
+    "config/factoryUnFaction.json"
+    ],
+
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.3",
+	
+    "keepDisabled" : false
+}
