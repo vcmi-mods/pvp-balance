@@ -60,8 +60,22 @@
 					   "ore" : 5
 				   }
 
-			   }
+			   },
+				
+				"dwellingLvl7" : {
+					"requires#override" : [
+					   "allOf",
+					   [
+						   "dwellingLvl6"
+					   ],
+					   [
+							 "anyOf", [ "dwellingLvl5" ], [ "dwellingLvl5B"] 
+					   ]
+					]
+				   
+				}
 			}
+			
 		}
 	} 
 }
