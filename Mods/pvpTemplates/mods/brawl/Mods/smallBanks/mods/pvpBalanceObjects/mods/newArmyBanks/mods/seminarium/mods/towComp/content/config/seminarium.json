@@ -1,0 +1,20 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"seminarium" :
+			{
+				"rmg" : {
+					"zoneLimit" : 0
+				}
+			}
+		}
+	}
+}
+
+
+			
+
+		
+	

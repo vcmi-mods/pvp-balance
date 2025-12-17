@@ -1,0 +1,31 @@
+{
+    "name" : "Seminarium",
+
+    "description" : "This mod adds a new creature bank - Seminarium.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+
+	"objects" :
+	[
+		"config/seminarium.json"
+	],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+
+	"depends" : 
+	[
+        "pvp-balance.objects",
+		"pvp-balance.objects.newArmyBanks.seminarium"
+    ],
+	
+    "version" : "1.4",
+	
+    "keepDisabled" : false
+}

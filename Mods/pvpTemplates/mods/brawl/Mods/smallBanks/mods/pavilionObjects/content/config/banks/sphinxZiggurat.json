@@ -1,0 +1,223 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"sphinxZiggurat" :
+			{
+				"resetParameters" : {
+					"period" : 4,
+					"visitors" : true,
+					"rewards" : true
+				},
+				"rmg" :
+				{
+					"zoneLimit"	: 2,
+					"value"		: 2000,
+					"rarity"	: 100
+				},
+				"onGuardedMessage" : 32,
+				"onVisitedMessage" : 33,
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"guardsLayout" : "creatureBankNarrow",
+				"rewards": 
+				[
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 0, "max" : 5 },
+						"guards":
+						[
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 }
+						],
+						"resources":
+						{
+							"crystal" : 4,
+							"gems" : 4,
+							"gold" : 1500
+						},
+						"spells": [ { "school" : "air" }, { "school" : "water" } ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 5, "max" : 10 },
+						"guards":
+						[
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 }
+						],
+						"resources":
+						{
+							"crystal" : 4,
+							"gems" : 4,
+							"gold" : 1500
+						},
+						"spells": [ { "school" : "air" }, { "school" : "fire" } ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 10, "max" : 15 },
+						"guards":
+						[
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 }
+						],
+						"resources":
+						{
+							"crystal" : 4,
+							"gems" : 4,
+							"gold" : 1500
+						},
+						"spells": [ { "school" : "air" }, { "school" : "earth" } ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 15, "max" : 20 },
+						"guards":
+						[
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 }
+						],
+						"resources":
+						{
+							"crystal" : 4,
+							"gems" : 4,
+							"gold" : 1500
+						},
+					"spells": [ { "school" : "water" }, { "school" : "fire" } ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 20, "max" : 25 },
+						"guards":
+						[
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 }
+						],
+						"resources":
+						{
+							"crystal" : 4,
+							"gems" : 4,
+							"gold" : 1500
+						},
+						"spells": [ { "school" : "water" }, { "school" : "earth" } ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 25, "max" : 30 },
+						"guards":
+						[
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 }
+						],
+						"resources":
+						{
+							"crystal" : 4,
+							"gems" : 4,
+							"gold" : 1500
+						},
+						"spells": [ { "school" : "fire" }, { "school" : "earth" } ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 30, "max" : 40 },
+						"guards":
+						[
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 }
+						],
+						"resources":
+						{
+							"crystal" : 6,
+							"gems" : 6,
+							"gold" : 2000
+						},
+					"spells": [ { "school" : "water" }, { "school" : "fire" }, { "school" : "earth" } ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 40, "max" : 50 },
+						"guards":
+						[
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 }
+						],
+						"resources":
+						{
+							"crystal" : 6,
+							"gems" : 6,
+							"gold" : 2000
+						},
+						"spells": [ { "school" : "air" }, { "school" : "fire" }, { "school" : "earth" } ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 50, "max" : 60 },
+						"guards":
+						[
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 }
+						],
+						"resources":
+						{
+							"crystal" : 6,
+							"gems" : 6,
+							"gold" : 2000
+						},
+						"spells": [ { "school" : "air" }, { "school" : "water" }, { "school" : "earth" } ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 60, "max" : 70 },
+						"guards":
+						[
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 }
+						],
+						"resources":
+						{
+							"crystal" : 6,
+							"gems" : 6,
+							"gold" : 2000
+						},
+						"spells": [ { "school" : "air" }, { "school" : "water" }, { "school" : "fire" } ]
+					},
+					{
+						"message" : 34,
+						"appearChance":  { "min" : 70, "max" : 100 },
+						"guards":
+						[
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 },
+							{ "amount": 1, "type": "sphinx", "upgradeChance": 50 }
+						],
+						"resources":
+						{
+							"crystal" : 8,
+							"gems" : 8,
+							"gold" : 2500
+						},
+						"spells": [ { "school" : "air" }, { "school" : "water" }, { "school" : "fire" }, { "school" : "earth" } ]
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,34 @@
+{
+    "name" : "ToW Artifacts - Compatibility",
+
+    "description" : "This mod adds Phylactery and Binoculars artifacts from Tides of War mod.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+
+    "compatibility" :
+	{
+		"min" : "1.6"
+	},
+
+    "artifacts": [
+    "config/towArtifacts.json"
+    ],  
+
+    "depends" : 
+	[
+        "tides-of-war.artifacts"   
+    ],
+
+    "softDepends" : 
+	[
+        "pvp-balance.artifacts.towArtifacts"     
+    ],
+
+	
+    "version" : "1.4",
+    "keepDisabled" : false
+}

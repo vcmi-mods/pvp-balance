@@ -1,0 +1,106 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			
+			"mdtScriptorium" :
+			{		
+				
+				"rmg" : {
+					"value" : 5000,
+					"rarity" : 50,
+					"zoneLimit" : 1
+				},
+				"guardsLayout" : "creatureBankNarrow",
+				"onGuardedMessage" : 32,
+				"onVisitedMessage" : 33,
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"rewards" :
+				[
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 0, "max" : 15 },
+						"guards" : [
+							{ "amount" : 5, "type" : "monk" },
+							{ "amount" : 5, "type" : "monk" },
+							{ "amount" : 5, "type" : "monk", "upgradeChance" : 50 },
+							{ "amount" : 5, "type" : "monk" },
+							{ "amount" : 5, "type" : "monk" }
+						],
+						"resources" :
+						{
+							"gold" : 1500,
+							"gems" : 2,
+							"crystal" : 2,
+							"sulfur" : 2,
+							"mercury" : 2
+						},
+						"spells" : [ { "level" : 2 } ]
+					},
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 15, "max" : 50 },
+						"guards" : [
+							{ "amount" : 10, "type" : "monk" },
+							{ "amount" : 10, "type" : "monk" },
+							{ "amount" : 10, "type" : "monk", "upgradeChance" : 50 },
+							{ "amount" : 10, "type" : "monk" },
+							{ "amount" : 10, "type" : "monk" }
+						],
+						"resources" : 
+						{
+							"gold" : 3000,
+							"gems" : 4,
+							"crystal" : 4,
+							"sulfur" : 4,
+							"mercury" : 4
+						},
+						"spells" : [ { "level" : 3 } ]
+					},
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 50, "max" : 85 },
+						"guards" : [
+							{ "amount" : 15, "type" : "monk" },
+							{ "amount" : 15, "type" : "monk" },
+							{ "amount" : 15, "type" : "monk", "upgradeChance" : 50 },
+							{ "amount" : 15, "type" : "monk" },
+							{ "amount" : 15, "type" : "monk" }
+						],
+						"resources" :
+						{
+							"gold" : 4500,
+							"gems" : 6,
+							"crystal" : 6,
+							"sulfur" : 6,
+							"mercury" : 6
+						},
+						"spells" : [ { "level" : 4 } ]
+					},
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 85, "max" : 100 },
+						"guards" : [
+							{ "amount" : 20, "type" : "monk" },
+							{ "amount" : 20, "type" : "monk" },
+							{ "amount" : 20, "type" : "monk", "upgradeChance" : 50 },
+							{ "amount" : 20, "type" : "monk" },
+							{ "amount" : 20, "type" : "monk" }
+						],
+						"resources" :
+						{
+							"gold" : 6000,
+							"gems" : 8,
+							"crystal" : 8,
+							"sulfur" : 8,
+							"mercury" : 8
+						},
+						"spells" : [ { "level" : 4 } ]
+					}
+				]
+			}
+		}
+	}
+}

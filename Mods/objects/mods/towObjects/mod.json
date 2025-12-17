@@ -1,0 +1,35 @@
+{
+    "name" : "ToW Banks - Compatibility.",
+
+    "description" : "Rebalanced banks from Tides of War mod.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+	
+	"objects" :
+	[
+		"config/bonePillar.json",
+		"config/outpostOfSouls.json",
+		"config/scriptorium.json",
+		"config/seminarium.json",
+		"config/sorceressCastle.json"
+	],
+	
+	"depends" : 
+	[
+		"tides-of-war.banks",
+		"tides-of-war.alternative-creatures"
+	],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.4",
+	
+    "keepDisabled" : false
+}

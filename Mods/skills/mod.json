@@ -1,7 +1,7 @@
 {
     "name" : "Skills",
 
-    "description" : "Rebalanced skills for PvP. Eagle Eye and Resistance are banned. The mod includes also balance changes for skills from Tides of War and Ruins Town if these mods are enabled.",
+    "description" : "<p style='font-size:12px; color:#333333;'><u>Rebalanced skills:</u></p>1) <b>Resistance</b> - reduces 15/30/40% damage from spells<br>2) <b>Logistics</b> - increases hero's movement points over land by 5/10/20%<br>3) <b>Scouting</b> - increases sight radius by 1/3/5<br>4) <b>Estates</b> - increases income by 250/500/1000<br>5) <b>Necromancy</b> - 5/10/15% creatures killed in combat can be brought back from the dead as skeletons<br>6) <b>Intelligence</b> - increases hero's maximum spell points by 20/40/60%<br>7) <b>Sorcery</b> - increases damage inflicted by hero's spells by 10/20/30%<br>8) <b>Mysticism</b> - allows to regenerate 5/15/30 mana points per day<br>9) <b>Learning</b> - increases earned experience by 25/50/75% and knowledge/magic skills/all skills by 1. Additionaly increases random primary skill by 1 upon visiting Library of Enlightenment.<br>10) <b>Ballistics</b> - increases effectiveness of Catapult and increases its health points by 250/500/1000<br>11) <b>Artillery</b> - increases effectiveness of Balista and increases its health points by 50/100/250<br>12) <b>First Aid</b> - increases effectiveness of First Aid Tent, increases its health points by 25/50/75 and reduces damage it obtains from spells by 50/75/100%. The tent can remove negative effects from creatures.<br><br>Eagle Eye is banned.",
 
     "author" : "wnukos",
 
@@ -12,30 +12,32 @@
 
     "modType" : "Mechanics",
 
-    "polish" : {
-		"name" : "Skills",
-		"description" : "Zrebalansowane umiejętności dla PvP. Sokoli Wzrok i Odporność są zbanowane. Mod uwzględnia też zmiany balansowe dla umiejętności pochodzących z modów Tides of War i Ruins Town jeśli te mody są włączone."
-	},
-
     "skills" : [
         "config/skills.json"
         ],
 
     "spells" : [
-        "config/spells.json"
+        "config/warMachineSpells.json"
         ],
 
-    "depends" : [
-            "hota.cannon",
-            "hota.gameBalance"
-            ],
-	"ukrainian" : {
-		"name" : "Навички",
-		"description" : "Збалансовує навички. Орлине око та Опір заблоковані. Також збалансовує навички з модів Руїни та Хвилі Війни якщо вони активовані.",
-		"translations" : [
-			"translation/pvp/ukrainian.json"
-		]
-	},
+    "artifacts" : [
+        "config/resistanceArtifacts.json"
+        ],
+
+    "objects" : [
+        "config/libraryOfEnlightenment.json"
+    ],
+
+    "settings" : {
+        "creatures":{
+            "allowJoiningForFree" : false,
+			"joiningPercentage" : 50
+            }
+    },
+
+    "softDepends" : [
+        "hota.gameBalance"
+        ],
 
     "conflicts" : [
         "ultimate-balance.skills-balance",
@@ -50,7 +52,7 @@
 		"min" : "1.6"
 	},
 	
-    "version" : "1.3",
+    "version" : "1.4",
 	
     "keepDisabled" : false
 }

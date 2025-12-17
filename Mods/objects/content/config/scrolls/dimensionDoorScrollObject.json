@@ -1,0 +1,46 @@
+{
+	"dimensionDoorScrollObject" :{	
+		"name": "Spell Scroll",
+		"handler": "configurable",
+		"types" : {
+			"dimensionDoorScroll" : 
+			{
+				"blockedVisitable" : true,
+				"removable": true,
+				"rmg" : {
+					"value"		: 999999,
+					"rarity"	: 1,
+					"zoneLimit" : 0
+				},
+				
+		
+				
+				"rewards" :
+				[
+					{
+						"appearChance": 
+						{
+							"min" : 0,
+							"max" : 100
+						},
+						"message":"You find a spell scroll inscribed with a powerful spell - Dimension Door. You toss it into your backpack.",
+						"artifacts": ["dimensionDoorScroll"],
+						"removeObject": true
+					}
+					
+				],
+				"canRefuse": false,
+				"visitMode" : "unlimited",
+				"templates" : 
+				{
+					"scrollObject" : 
+					{
+						"animation" : "AVA0001", 
+						"visitableFrom" : [ "+++", "+++", "+++" ],
+						"mask" : ["VV", "VA"]
+					}
+				}
+			}
+		}	
+	}
+}

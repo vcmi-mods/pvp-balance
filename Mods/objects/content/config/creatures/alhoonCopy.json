@@ -16,25 +16,6 @@
 		},
 		"abilities" :
 		{
-			"weaknessCast" :
-			{
-				"type" : "ENCHANTER",
-				"subtype" : "spell.weakness",
-				"val" : 3,
-				"addInfo" : 100
-			},
-
-			"weaknessSpellPower" :
-			{
-				"type" : "CREATURE_ENCHANT_POWER",
-				"val" : 50
-			},
-			
-			"castsCount" :
-			{
-				"type" : "CASTS",
-				"val" : 5
-			},
 
 			"hypnotizeAfterAttack" : 
 			{

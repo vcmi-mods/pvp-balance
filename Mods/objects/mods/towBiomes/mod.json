@@ -1,0 +1,33 @@
+{
+    "name" : "Biomes - Tides of War Compatibility",
+
+    "description" : "The mod bans some graphical assets introduced by Tides of War mod.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+
+    "modType" : "Compatibility",
+	
+	"biomes" : [
+		"config/towBiomes.json"
+	],
+
+	"depends" : 
+	[
+		"tides-of-war",
+		"tides-of-war.objects"
+	],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.4",
+	
+    "keepDisabled" : false
+}

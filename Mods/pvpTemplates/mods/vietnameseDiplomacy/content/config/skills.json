@@ -3,11 +3,11 @@
 		"special" : true
 	},
 
-    "core:sorcery": {
+"core:sorcery": {
 		"special" : true
 	},
 
-    "core:tactics": {
+"core:tactics": {
 		"special" : true
 	},
 
@@ -19,7 +19,7 @@
 		"special" : true
 	},
 
-    "core:learning": {
+"core:learning": {
 		"special" : true
 	},
 
@@ -56,10 +56,6 @@
 },
 
 "core:intelligence": {
-    "special" : true
-},
-
-"hota.interference:interference": {
     "special" : true
 },
 

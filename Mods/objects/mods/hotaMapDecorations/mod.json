@@ -1,0 +1,31 @@
+{
+    "name" : "Map Decorations - HotA compatibility.",
+
+    "description" : "This mod bans some graphical assetw from Horn of the Abyss mod.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+	
+	"objects" :
+	[
+		"config/prison.json",
+		"config/subterraneanGate.json"
+	],
+	
+	"depends" : 
+	[
+		"hota.mapDecorations"
+	],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.4",
+	
+    "keepDisabled" : false
+}

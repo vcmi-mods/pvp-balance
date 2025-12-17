@@ -1,0 +1,105 @@
+{
+	"core:libraryOfEnlightenment" :
+	{
+		"types" :
+		{
+			"libraryOfEnlightenment" :
+			{		
+							"rewards" : [
+
+				{
+					"limiter" : {
+
+						"anyOf" : [
+							{
+								"heroLevel" : 10
+							},
+
+							{
+
+								"heroLevel" : 8,
+								"secondary" : {
+									"diplomacy" : 1
+								}
+							},
+
+							{
+								"heroLevel" : 6,
+								"secondary" : {
+									"diplomacy" : 2
+								}
+							},
+
+							{
+								"heroLevel" : 4,
+								"secondary" : {
+									"diplomacy" : 3
+								}
+							}
+						]
+					},
+					"message" : 66,
+
+					"primary" : {
+						"attack" : 2,
+						"defence" : 2,
+						"knowledge" : 2,
+						"spellpower" : 2
+					}
+				},
+
+				{
+					"limiter" : {
+
+						"anyOf" : [
+
+							{
+								"heroLevel" : 10,
+								"secondary" : {
+									"learning" : 3
+								}
+							},
+							{
+								"heroLevel" : 8,
+								"secondary" : {
+									"diplomacy" : 1,
+									"learning" : 3
+								}
+							},
+							{
+								"heroLevel" : 6,
+								"secondary" : {
+									"diplomacy" : 2,
+									"learning" : 3
+								}
+							},
+							{
+								"heroLevel" : 4,
+								"secondary" : {
+									"diplomacy" : 3,
+									"learning" : 3
+								}
+							}
+						]
+					},
+					"message" : "Thanks to Expert Learning you learn more useful skills.",
+
+					"primary" : {
+						"@gainedStat" : 1
+					}
+				}
+			],
+
+			"selectMode" : "selectAll",
+
+			"variables" : {
+			   "primarySkill" : {
+				   "gainedStat" : {
+				   		}
+			   		}
+			   
+		   		}
+			}
+		}
+	}
+}

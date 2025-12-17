@@ -1,0 +1,24 @@
+{
+  "name" : "Jebus Cross",
+
+  "description" : "Jebus Cross Plus - a modified version of Jebus Cross template with following changes:<br><br>1) Optimized treasure density in all zones.<br>2) Limit of Dragon Utopias in the starting zone set to 3.<br>3) Gremlinhold and Bog Hermit objects added on Snow and Swamp terrains, respectively, in order to buff factions with strong terrain penalties.<br><br>Gremlinhold - guarded by 80/160/240 Master Gremlins. Gives 4/8/12 Archmagi as reward.<br><br>Bog Hermit - visiting hero is granted no terrain penalty on Swamp until the end of the week.<br><br><u>Recommended settings:</u><br><br>Size: XL<br>Players: 2<br>Monsters: strong<br>Roads: fast<br>Water: none<br>Difficulty: 160%<br>Simultaneous turns: 116<br>Timer: 12-6-2<br>Restarts: 2x111/1x112",
+
+  "author" : "wnukos, Grossmaster (graphics), MDT (graphics)",
+
+  "contact" : "wnukos on Discord",
+
+  "modType" : "Templates",
+	
+  "templates" : [ "jebusCross.json"],
+
+  "compatibility" : {
+		"min" : "1.6"
+	},
+
+  "depends": [
+    "pvp-balance.objects"
+  ],
+
+  "version" : "1.4",
+  "keepDisabled" : false
+}

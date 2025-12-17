@@ -1,0 +1,6 @@
+{
+	"goldenUtopiaBattlefield": {
+		"graphics":  "battlefields/goldenUtopiaBattlefield",
+		"isSpecial" : true
+		}
+}

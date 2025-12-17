@@ -176,8 +176,8 @@
 				"minesLikeZone" : 7,
 				"treasure" :
 				[
-					{ "min" : 20000, "max" : 30000, "density" : 3 },
-					{ "min" : 15000, "max" : 20000, "density" : 6 },
+					{ "min" : 20000, "max" : 32000, "density" : 3 },
+					{ "min" : 15000, "max" : 20000, "density" : 8 },
 					{ "min" : 8000, "max" : 15000, "density" : 12 }
 				]
 			},

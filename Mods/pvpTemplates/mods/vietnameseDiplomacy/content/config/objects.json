@@ -6,10 +6,48 @@
 					"hillFortLackingTerrains" : { "animation" : "hillFort",
 						"mask" : [ "VVV", "VVV", "VBA" ], 
 						"visitableFrom" : [ "---", "-++", "+++" ],
-						"allowedTerrains":[ "rough", "subterra", "lava", "swamp", "wasteland", "highlands", "sand" ] 
+						"allowedTerrains":[ "rough", "subterra", "lava", "swamp", "sand" ] 
 					}
 				}
 			}
 		}
-	}	
+	},
+	
+	"pvp-balance.objects:dimensionDoorScrollObject" : {
+			"types" : {
+				"dimensionDoorScroll" : 
+				{
+					"rmg" : {
+						"value"		: 20000,
+						"rarity"	: 9999,
+						"zoneLimit" : 1
+					}
+				}
+			}
+	},
+	"pvp-balance.objects:flyScrollObject" : {
+			"types" : {
+				"flyScroll" : 
+				{
+					"rmg" : {
+						"value"		: 20000,
+						"rarity"	: 9999,
+						"zoneLimit" : 1
+					}
+				}
+			}
+	},
+	"pvp-balance.objects:townPortalScrollObject" : {
+			"types" : {
+				"townPortalScroll" : 
+				{
+					"rmg" : {
+						"value"		: 20000,
+						"rarity"	: 9999,
+						"zoneLimit" : 1
+					}
+				}
+			}
+	}
+		
 }

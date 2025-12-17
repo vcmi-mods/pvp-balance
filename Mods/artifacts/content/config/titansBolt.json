@@ -1,0 +1,82 @@
+{
+	"core:titanBolt" : {
+		"levels" : {
+		"base" : {
+			"battleEffects" : {
+				"directDamage" : {
+					"type" : "core:damage"
+				}
+			},
+			"range" : "0",
+			"targetModifier" : {
+				"smart" : true
+			}
+		},
+
+		"none" : {
+			"aiValue" : 75,
+			"battleEffects" : {
+				"directDamage" : {
+					"type" : "core:damage"
+				}
+			},
+			"cost" : 0,
+			"description" : "{Titan's Lightning Bolt}\n\nDoes 800 points of damage at no spell cost to the spellcaster.",
+			"power" : 800,
+			"range" : "0",
+			"targetModifier" : {
+				"smart" : true
+			}
+		},
+
+		"basic" : {
+			"aiValue" : 75,
+			"battleEffects" : {
+				"directDamage" : {
+					"type" : "core:damage"
+				}
+			},
+			"cost" : 0,
+			"description" : "{Titan's Lightning Bolt}\n\nDoes 800 points of damage at no spell cost to the spellcaster.",
+			"power" : 800,
+			"range" : "0",
+			"targetModifier" : {
+				"smart" : true
+			}
+		},
+
+		"advanced" : {
+			"aiValue" : 75,
+			"battleEffects" : {
+				"directDamage" : {
+					"type" : "core:damage"
+				}
+			},
+			"cost" : 0,
+			"description" : "{Titan's Lightning Bolt}\n\nDoes 800 points of damage at no spell cost to the spellcaster.",
+			"power" : 800,
+			"range" : "0",
+			"targetModifier" : {
+				"smart" : true
+			}
+		},
+
+		"expert" : {
+			"aiValue" : 75,
+			"battleEffects" : {
+				"directDamage" : {
+					"type" : "core:damage"
+				}
+			},
+			"cost" : 0,
+			"description" : "{Titan's Lightning Bolt}\n\nDoes 800 points of damage at no spell cost to the spellcaster.",
+			"power" : 800,
+			"range" : "0",
+			"targetModifier" : {
+				"smart" : true
+			}
+		}
+
+		}
+	}
+}

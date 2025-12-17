@@ -1,17 +1,169 @@
 {
-	
-      "core:lizardman":
+	"core:zealot" :
 	{
-		"fightValue" : 137,
-		"aiValue" : 151
-		
+		"abilities#override" :
+		{
+			"shooter" : {
+				"type" : "SHOOTER"
+			},
+			"noMeleePenalty" : {
+				"type" : "NO_MELEE_PENALTY"
+			},
+
+			"castsBless" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.bless",
+				"val" : 2
+			},
+			"casts" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"castLength" :
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 3
+			}
+		},
+		"graphics" : {
+			"animationTime" : {
+				"attack" : 3,
+				"idle" : 10,
+				"walk" : 1.00
+			},
+			"timeBetweenFidgets" : 1
+		}
 	},
 	
-      "core:lizardWarrior":
+	"core:orcChieftain" :
 	{
-		"fightValue" : 174,
-		"aiValue" : 209
-		
+		"damage" : {
+			"min" : 3,
+			"max" : 6	
+		}
+
+	},
+
+	"core:iceElemental":{
+			"abilities#override" : {
+				"armageddonVulnerablity" : {
+					"subtype" : "spell.armageddon",
+					"type" : "MORE_DAMAGE_FROM_SPELL",
+					"val" : 100
+			},
+			"fireShieldVulnerablity" : {
+				"subtype" : "spell.fireShield",
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"val" : 100
+			},
+			"fireWallVulnerablity" : {
+				"subtype" : "spell.fireWallTrigger",
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"val" : 100
+			},
+			"fireballVulnerablity" : {
+				"subtype" : "spell.fireball",
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"val" : 100
+			},
+			"immuneToFrostRing" : {
+				"subtype" : "spell.frostRing",
+				"type" : "SPELL_IMMUNITY"
+			},
+			"immuneToIceBolt" : {
+				"subtype" : "spell.iceBolt",
+				"type" : "SPELL_IMMUNITY"
+			},
+			"immuneToMind" : {
+				"type" : "MIND_IMMUNITY"
+			},
+			"infernoVulnerablity" : {
+				"subtype" : "spell.inferno",
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"val" : 100
+			},
+			"nonLiving" : {
+				"type" : "NON_LIVING"
+			},
+			"oppositeEnergy" : {
+				"subtype" : "creature.energyElemental",
+				"type" : "HATE",
+				"val" : 100
+			},
+			"oppositeFire" : {
+				"subtype" : "creature.fireElemental",
+				"type" : "HATE",
+				"val" : 100
+			},
+			"shooter" : {
+				"type" : "SHOOTER"
+			},
+			"noMeleePenalty" : {
+				"type" : "NO_MELEE_PENALTY"
+			},
+			"spellPoints" : {
+				"type" : "CASTS",
+				"val" : 3
+			},
+			"spellPower" : {
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 6
+			},
+			"spellcaster" : {
+				"subtype" : "spell.protectWater",
+				"type" : "SPELLCASTER",
+				"val" : 2
+			}
+		},
+		"aiValue" : 450
+	},
+
+	"core:fireElemental" :
+	{
+		"damage" : {
+			"min" : 6,
+			"max" : 8	
+		},
+		"aiValue" : 440
+	},
+
+	"core:energyElemental" :
+	{
+		"damage" : {
+			"min" : 6,
+			"max" : 8	
+		},
+		"aiValue" : 520
+	},
+
+	"core:earthElemental" :
+	{
+		"hitPoints" : 50,
+		"attack" : 11,
+		"defense" : 11,
+		"damage" : {
+			"min" : 6,
+			"max" : 10	
+		},
+		"aiValue" : 440
+	},
+
+	"core:magmaElemental" :
+	{
+		"hitPoints" : 50,
+		"attack" : 12,
+		"defense" : 12,
+		"damage" : {
+			"min" : 8,
+			"max" : 12	
+		},
+		"aiValue" : 640,
+		"cost" :
+		{
+			"gold" : 450
+		}
 	},
 
 	"core:sharpshooter":
@@ -20,48 +172,97 @@
 			"max" : 25,
 			"min" : 15
 			}
-		
+	},
+	
+	"core:monk" :
+	{
+		"aiValue" : 582
 	},
 
+
+	
 	"core:naga":
 	{
-		"fightValue" : 2016,
 		"aiValue" : 1814
-		
-	},
-
-	"core:scorpicore":
-	{
-		"fightValue" : 1248,
-		"aiValue" : 1685
-		
-	},
-
-	"core:ghostDragon":
-	{
-		"fightValue" : 3228,
-		"aiValue" : 4919
 		
 	},
 
 	"core:redDragon":
 	{
-		"fightValue" : 3762,
 		"aiValue" : 5003
+		
+	},
+
+	"core:scorpicore":
+	{
+		"aiValue" : 1685
+		
+	},
+
+	"core:efreetSultan" :
+	{
+		"aiValue" : 2343
+	},
+
+	"core:ghostDragon":
+	{
+		"aiValue" : 4919
+	},
+
+	"core:lizardman":
+	{
+		"aiValue" : 151
+		
+	},
+	
+      "core:lizardWarrior":
+	{
+		"aiValue" : 209
 		
 	},
 
 	"core:cyclopKing":
 	{
-		"fightValue" : 1110,
 		"aiValue" : 1544
 		
 	},
 
-	"hota.neutralcreatures:leprechaun":
+	"core:firebird" :
 	{
-		"fightValue" : 190,
-		"aiValue" : 190		
+		"aiValue" :4336,
+		"cost" :
+		{
+			"gold" : 2000
+		},	
+		"abilities":
+		{
+			"magicResistance" :
+			{
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "spellSchool.fire",
+				"val" : 50
+			},
+			"immuneToFire" : null
+		}
+	},
+
+	"core:phoenix" :
+	{
+		"cost" :
+		{
+			"gold" : 3000
+		}
+	},
+
+	"core:fairieDragon" :
+	{
+		"aiValue" :30501
+	},
+
+	"core:hellHound":{
+		"growth":6
 	}
+
+
   
 }

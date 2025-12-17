@@ -1,0 +1,25 @@
+{
+	"tides-of-war.spells:mdtFireballWand" : {
+		"levels" : {
+			"base" : {
+				"cost" : 4
+			}
+		}
+		
+	},
+
+	"tides-of-war.spells:mdtIceboltWand" : {
+		"levels" : {
+			"base" : {
+				"cost" : 3
+			}
+		}
+	}
+	
+}
+
+	
+	
+	
+	
+	

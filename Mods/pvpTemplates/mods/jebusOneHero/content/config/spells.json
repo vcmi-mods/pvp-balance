@@ -1,21 +1,4 @@
 {
-	"core:townPortal" : {
-		"flags" : {
-			"special" : true
-		}
-	},
-
-	"core:fly" : {
-		"flags" : {
-			"special" : true
-		}
-	},
-
-	"core:dimensionDoor" : {
-		"flags" : {
-			"special" : true
-		}
-	},
 	
 	"core:summonBoat" : {
 

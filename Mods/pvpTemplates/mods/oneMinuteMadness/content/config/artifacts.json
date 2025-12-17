@@ -1,4 +1,16 @@
 {  
+  "core:ringOfVitality": {
+	    "class" : "SPECIAL"
+  },
+
+  "core:targOfTheRampagingOgre": {
+	    "class" : "SPECIAL"
+  },
+
+  "core:ribCage": {
+	    "class" : "SPECIAL"
+  },
+
   "core:recantersCloak": {
 	"class" : "SPECIAL"
 	},
@@ -207,20 +219,8 @@
 
     "hota.artifacts:sealOfSunset": {
 	    "class" : "SPECIAL"
-    },
-
-    "core:ringOfVitality": {
-	    "class" : "SPECIAL"
-    },
-
-    "core:targOfTheRampagingOgre": {
-	    "class" : "SPECIAL"
-    },
-
-    "core:ribCage": {
-	    "class" : "SPECIAL"
     }
-    
+
   }
   
   

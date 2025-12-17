@@ -12,7 +12,7 @@
 					"animation" : "dangerousCaveBig", 
 					"visitableFrom" : [ "---", "---", "+++"  ],
 					"mask" : [ "VVVV", "VVVV", "VBBV", "VABV"],
-					"allowedTerrains" :[ "dirt", "rough", "subterra"]
+					"allowedTerrains" :["dirt", "rough", "subterra"]
 					}
 				},
 				"blockedVisitable" : false,
@@ -25,66 +25,89 @@
 				"rmg" : {
 					"value"		: 10000,
 					"rarity"	: 100,
-					"zoneLimit" : 1
+					"zoneLimit" : 2
 				},
 				"rewards":
 				[
 					{
 						"message" : 34,
-						"appearChance" : { "min" : 0, "max" : 40 },
+						"appearChance" : { "min" : 0, "max" : 25 },
+						"guards": [
+							{ "amount": 1, "type" : "behemoth" },
+							{ "amount": 1, "type" : "behemoth" },
+							{ "amount": 1, "type" : "behemoth" },
+							{ "amount": 1, "type" : "behemoth" },
+							{ "amount": 3, "type" : "cyclop" },
+							{ "amount": 3, "type" : "cyclop" }
+						],
+						"resources":
+							{
+								"gold" : 4000,
+								"wood" : 4,
+								"ore" : 4,
+								"crystal" : 4
+							},
+						"artifacts": [{ "class" : "MAJOR" }]
+					},
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 25, "max" : 60 },
 						"guards": [
 							{ "amount": 2, "type" : "behemoth" },
-							{ "amount": 1, "type" : "behemoth" },
 							{ "amount": 2, "type" : "behemoth" },
-							{ "amount": 1, "type" : "behemoth" },
-							{ "amount": 4, "type" : "cyclop" }
+							{ "amount": 2, "type" : "behemoth" },
+							{ "amount": 2, "type" : "behemoth" },
+							{ "amount": 6, "type" : "cyclop" },
+							{ "amount": 6, "type" : "cyclop" }
 						],
 						"resources":
 							{
 								"gold" : 8000,
-								"wood" : 6,
-								"ore" : 6,
-								"crystal" : 6
-							}
-					},
-					{
-						"message" : 34,
-						"appearChance" : { "min" : 40, "max" : 80 },
-						"guards": [
-							{ "amount": 3, "type" : "behemoth" },
-							{ "amount": 1, "type" : "ancientBehemoth" },
-							{ "amount": 3, "type" : "behemoth" },
-							{ "amount": 1, "type" : "ancientBehemoth" },
-							{ "amount": 8, "type" : "cyclop" }
-						],
-						"resources":
-							{
-								"gold" : 10000,
 								"wood" : 8,
 								"ore" : 8,
 								"crystal" : 8
 							},
-						"artifacts": [{"anyOf" : ["targOfTheRampagingOgre", "ogresClubOfHavoc", "crownOfTheSupremeMagi", "tunicOfTheCyclopsKing"]}]
+						"artifacts": [{ "class" : "MAJOR" }]
 					},
 					{
 						"message" : 34,
-						"appearChance" : { "min" : 80, "max" : 100 },
+						"appearChance" : { "min" : 60, "max" : 95 },
 						"guards": [
 							{ "amount": 3, "type" : "behemoth" },
-							{ "amount": 2, "type" : "ancientBehemoth" },
 							{ "amount": 3, "type" : "behemoth" },
-							{ "amount": 2, "type" : "ancientBehemoth" },
-							{ "amount": 30, "type" : "ogreMageCopy" },
+							{ "amount": 3, "type" : "behemoth" },
+							{ "amount": 3, "type" : "behemoth" },
+							{ "amount": 9, "type" : "cyclop" },
+							{ "amount": 9, "type" : "cyclop" }
+						],
+						"resources":
+							{
+								"gold" : 12000,
+								"wood" : 12,
+								"ore" : 12,
+								"crystal" : 12
+							},
+						"artifacts": [{ "class" : "MAJOR" }]
+					},
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 95, "max" : 100 },
+						"guards": [
+							{ "amount": 3, "type" : "ancientBehemoth" },
+							{ "amount": 3, "type" : "behemoth" },
+							{ "amount": 3, "type" : "ancientBehemoth" },
+							{ "amount": 3, "type" : "behemoth" },
+							{ "amount": 20, "type" : "ogreMageCopy" },
 							{ "amount": 12, "type" : "cyclopKing" }
 						],
 						"resources":
 							{
-								"gold" : 15000,
-								"wood" : 10,
-								"ore" : 10,
-								"crystal" : 10
+								"gold" : 16000,
+								"wood" : 16,
+								"ore" : 16,
+								"crystal" : 16
 							},
-						"artifacts": [{"anyOf" : ["targOfTheRampagingOgre", "ogresClubOfHavoc", "crownOfTheSupremeMagi", "tunicOfTheCyclopsKing"]}],
+						"artifacts": [{ "class" : "RELIC" }],
 						"primary": [
     						{
 						        "type" : "attack",

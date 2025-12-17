@@ -1,0 +1,308 @@
+{
+  	
+  "hota.cove:04elmore" : { "special" : true },
+  "hota.cove:16manfred" :{
+		"specialty" : {
+			"bonuses" : {
+				"fireball" : {
+					"val" : 10
+				}
+			}
+		}
+	},	
+"hota.cove:08cassiopeia":{
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [200],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["nymph", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [200],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["nymph", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["nymph", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied Nymphs and Oceanids by 1 and their Attack and Defense skills by 10% for every level (rounded up).",
+		   "name" : "Nymphs",
+		   "tooltip" : "Special unit: Nymph"
+	   }
+   }
+},
+
+"hota.cove:05derek":{
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [200],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["crewmate", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [200],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["crewmate", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["crewmate", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied Crew Mates and Seamen by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up).",
+		   "name" : "Crew Mates",
+		   "tooltip" : "Special unit: Crew Mate"
+	   }
+   }
+},
+
+"hota.cove:07anabel":{
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [400, 3],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["pirate", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [400, 3],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["pirate", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["pirate", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied Pirates, Corsairs and Sea Dogs by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up).",
+		   "name" : "Pirates",
+		   "tooltip" : "Special unit: Pirate"
+	   }
+   }
+},
+
+"hota.cove:03illor":{
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [100],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["stormbird", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [100],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["stormbird", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["stormbird", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied Stormbirds and Ayssids by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up).",
+		   "name" : "Stormbirds",
+		   "tooltip" : "Special unit: Stormbird"
+	   }
+   }
+},
+
+"hota.cove:12casmetra":{
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [80],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["seaWitch", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [80],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["seaWitch", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["seaWitch", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied Sea Witches and Sorceresses by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up).",
+		   "name" : "Sea Witches",
+		   "tooltip" : "Special unit: Sea Witch"
+	   }
+   }
+}
+
+}

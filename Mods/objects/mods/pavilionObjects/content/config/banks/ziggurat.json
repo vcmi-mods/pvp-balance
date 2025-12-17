@@ -1,0 +1,102 @@
+{
+	"core:creatureBank" : 
+	{
+		"types" : 
+		{
+			"sphinxZiggurat" : 
+			{
+				"templates" : {
+							"base" : { 
+									"allowedTerrains":["dunes", "sand"] 
+								}
+					},
+				
+
+				"rmg" : {
+					"value"		: 4000,
+					"rarity"	: 80,
+					"zoneLimit" : 2
+				},
+
+				"rewards": [
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 0, "max" : 30 },
+						"guards": [
+							{ "amount": 3, "type" : "sphinx" },
+							{ "amount": 3, "type" : "sphinx" },
+							{ "amount": 3, "type" : "sphinx", "upgradeChance": 50 },
+							{ "amount": 3, "type" : "sphinx" },
+							{ "amount": 3, "type" : "sphinx" }
+						],
+						"resources": 
+						{
+						
+							"crystal" : 6,
+							"gems" : 6,
+							"gold" : 6000
+						}
+					},
+										
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 30, "max" : 60 },
+						"guards": [
+							{ "amount": 4, "type" : "sphinx" },
+							{ "amount": 4, "type" : "sphinx" },
+							{ "amount": 4, "type" : "sphinx", "upgradeChance": 50 },
+							{ "amount": 4, "type" : "sphinx" },
+							{ "amount": 4, "type" : "sphinx" }
+						],
+						"resources": 
+						{
+						
+							"crystal" : 8,
+							"gems" : 8,
+							"gold" : 8000
+						}
+					},
+					
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 60, "max" : 90 },
+						"guards": [
+							{ "amount": 6, "type" : "sphinx" },
+							{ "amount": 6, "type" : "sphinx" },
+							{ "amount": 6, "type" : "sphinx", "upgradeChance": 50},
+							{ "amount": 6, "type" : "sphinx" },
+							{ "amount": 6, "type" : "sphinx" }
+						],
+						"resources": 
+						{
+						
+							"crystal" : 12,
+							"gems" : 12,
+							"gold" : 12000
+						}
+					},
+					
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 95, "max" : 100 },
+						"guards": [
+							{ "amount": 8, "type" : "sphinx" },
+							{ "amount": 8, "type" : "sphinx" },
+							{ "amount": 8, "type" : "sphinx", "upgradeChance": 50 },
+							{ "amount": 8, "type" : "sphinx" },
+							{ "amount": 8, "type" : "sphinx" }
+						],
+						"resources": 
+						{
+						
+							"crystal" : 16,
+							"gems" : 16,
+							"gold" : 16000
+						}
+					}
+
+			]
+			}
+		}
+	}
+}

@@ -1,23 +1,20 @@
 {
-	
-
-
 	"core:inferno" :
 	{	
-		"preferUndergroundPlacement" : false
+		"preferUndergroundPlacement" : true
 	},
 
 	
 
 	"core:necropolis" :
 	{	
-		"preferUndergroundPlacement" : false
+		"preferUndergroundPlacement" : true
 	},
 
 	
 	"core:dungeon":
 	{	
-		"preferUndergroundPlacement" : false
+		"preferUndergroundPlacement" : true
 	} 
 }
 

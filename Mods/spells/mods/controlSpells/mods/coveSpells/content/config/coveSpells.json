@@ -1,0 +1,64 @@
+{
+	
+	"core:townPortal" : {
+		"gainChance":
+		{
+			"hota.cove:cove" : 30
+		}
+	},
+	
+	"core:fireShield" : {
+		"gainChance":
+		{
+			"hota.cove:cove" : 0
+		}
+	},
+
+	"core:counterstrike" : {
+		"gainChance":
+		{
+			"hota.cove:cove" : 0
+		}
+	},
+	
+	"core:inferno" : {
+		"gainChance":
+		{
+			"hota.cove:cove" : 0
+		}
+	},
+	
+	"core:clone" : {
+		"gainChance":
+		{
+			"hota.cove:cove" : 0
+		}
+	},
+	
+	"core:slayer" : {
+		"gainChance":
+		{
+			"hota.cove:cove" : 0
+		}
+	},
+
+	"core:sorrow" : {
+		"gainChance":
+		{
+			"hota.cove:cove" : 0
+		}
+	},
+
+	"core:frenzy" : {
+		"gainChance":
+		{
+			"hota.cove:cove" : 0
+		}
+	}
+}
+
+	
+	
+	
+	
+	

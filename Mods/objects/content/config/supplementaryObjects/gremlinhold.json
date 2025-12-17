@@ -1,0 +1,69 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"gremlinhold" :
+			{		
+				"name" : "Gremlinhold",
+				"templates" :
+				{
+					"base" :
+					{
+						"animation" : "map/gremlinhold",
+						"mask" : [ "VVV", "VVV", "VVV", "VVV", "VVV", "VBA" ],
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"allowedTerrains" :[ "snow"]
+					}
+				},
+				"rmg" : {
+					"value" : 5000,
+					"rarity" : 30,
+					"zoneLimit" : 0
+				},
+				"guardsLayout" : "creatureBankNarrow",
+				"onGuardedMessage" : 32,
+				"onVisitedMessage" : 33,
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",	
+				"blockedVisitable" : false,
+				"rewards" :
+				[
+					{
+						"message" : "Grateful for their liberation, the Archmagi now pledge their formidable powers to your cause.",
+						"appearChance" : { "min" : 0, "max" : 40 },
+						"guards" : [
+							{ "amount": 20, "type" : "masterGremlin" },
+							{ "amount": 20, "type" : "masterGremlin" },
+							{ "amount": 20, "type" : "masterGremlin"},
+							{ "amount": 20, "type" : "masterGremlin" }
+						    ],
+							"creatures" : [ { "amount" : 4, "type" : "archMage" } ]
+					},					
+					{
+						"message" : "Grateful for their liberation, the Archmagi now pledge their formidable powers to your cause.",
+						"appearChance" : { "min" : 40, "max" : 80 },
+						"guards" : [
+							{ "amount": 40, "type" : "masterGremlin" },
+							{ "amount": 40, "type" : "masterGremlin" },
+							{ "amount": 40, "type" : "masterGremlin"},
+							{ "amount": 40, "type" : "masterGremlin" }
+						    ],
+							"creatures" : [ { "amount" : 8, "type" : "archMage" } ]
+					},
+					{
+						"message" : "Grateful for their liberation, the Archmagi now pledge their formidable powers to your cause.",
+						"appearChance" : { "min" : 80, "max" : 100 },
+						"guards" : [
+							{ "amount": 60, "type" : "masterGremlin" },
+							{ "amount": 60, "type" : "masterGremlin" },
+							{ "amount": 60, "type" : "masterGremlin"},
+							{ "amount": 60, "type" : "masterGremlin" }
+						    ],
+							"creatures" : [ { "amount" : 12, "type" : "archMage" } ]
+					}
+				]
+			}
+		}
+	}
+}

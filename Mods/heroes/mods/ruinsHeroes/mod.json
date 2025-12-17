@@ -1,0 +1,30 @@
+{
+    "name" : "Ruins Heroes - Compatibility",
+
+    "description" : "This mod bans Thar hero from Ruins town.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+    
+    "depends" : 
+	[
+		"ruins-town"
+	],
+
+   "heroes": [
+   "config/ruinsHeroes.json"
+   ],
+
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.4",
+	
+    "keepDisabled" : false
+}

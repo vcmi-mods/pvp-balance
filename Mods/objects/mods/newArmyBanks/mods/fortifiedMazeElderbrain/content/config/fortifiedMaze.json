@@ -1,0 +1,86 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"fortifiedMaze" : 
+			{
+				"name" : "Fortified Maze",
+				"templates" : 
+				{
+					"base" : { 
+					"animation" : "fortifiedMaze", 
+					"visitableFrom" : [ "---", "---", "+++"  ],
+					"mask" : [ "VVVV", "VVVV", "VVBV", "VABB"]
+					}
+				},
+				"blockedVisitable" : false,
+				"onGuardedMessage" : 32,
+				"onVisitedMessage" : 33,
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"guardsLayout" : "creatureBankNarrow",
+				"battleground": "fortifiedMazeBattlefield",
+				"rmg" : {
+					"value"		: 2000,
+					"rarity"	: 90
+				},
+				"rewards":
+				[
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 0, "max" : 15 },
+						"guards": [
+							{ "amount": 3, "type" : "minotaur" },
+							{ "amount": 3, "type" : "minotaur" },
+							{ "amount": 3, "type" : "minotaur", "upgradeChance":50 },
+							{ "amount": 3, "type" : "minotaur" },
+							{ "amount": 3, "type" : "minotaur" }
+						],
+						"creatures": [ { "amount": 1, "type": "redDragon" } ]
+					},
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 15, "max" : 50 },
+						"guards": [
+							{ "amount": 6, "type" : "minotaur" },
+							{ "amount": 6, "type" : "minotaur" },
+							{ "amount": 6, "type" : "minotaur", "upgradeChance":50 },
+							{ "amount": 6, "type" : "minotaur" },
+							{ "amount": 6, "type" : "minotaur" }
+						],
+						"creatures": [ { "amount": 2, "type": "redDragon" } ]
+					},
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 50, "max" : 85 },
+						"guards": [
+							{ "amount": 9, "type" : "minotaur" },
+							{ "amount": 9, "type" : "minotaur" },
+							{ "amount": 9, "type" : "minotaur", "upgradeChance":50 },
+							{ "amount": 9, "type" : "minotaur" },
+							{ "amount": 9, "type" : "minotaur" }
+						],
+						"creatures": [ { "amount": 3, "type": "redDragon" } ]
+					},
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 85, "max" : 100 },
+						"guards": [
+							{ "amount": 12, "type" : "minotaur" },
+							{ "amount": 12, "type" : "minotaur" },
+							{ "amount": 12, "type" : "minotaur", "upgradeChance":50 },
+							{ "amount": 12, "type" : "minotaur" },
+							{ "amount": 12, "type" : "minotaur" }
+						],
+						"creatures": [ { "amount": 4, "type": "redDragon" } ]
+					}
+				]
+				
+			}
+
+		}
+	}
+
+
+}

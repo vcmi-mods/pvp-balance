@@ -1,0 +1,34 @@
+{
+    "name" : "ToW Skills - Compatibility",
+
+    "description" : "Intimidation and Hexes skills can be obtained only by heroes with evil alignment (high chance) or neutral alignment (low chance).",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+	
+    "skills" : [
+    "config/towSkills.json"
+  ],
+
+    "heroClasses" : [
+    "config/heroClasses.json"
+  ],
+
+  
+
+  "depends" : [
+    "tides-of-war.skills"
+  ],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.4",
+	
+    "keepDisabled" : false
+}

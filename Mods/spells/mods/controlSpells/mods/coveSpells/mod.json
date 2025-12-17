@@ -1,0 +1,28 @@
+{
+	"name" : "Control Spells - Cove Town Compatibility",
+	"description" : "Probability of appearing Town Portal in mage guild of Cove Town from Horn of the Abyss mod is increased.",
+	"author" : "wnukos",
+
+	"contact" : "wnukos on Discord",
+	
+	"modType" : "Compatibility",	
+
+	"spells" :
+	[
+		"config/coveSpells.json"
+	],
+
+	"depends": [
+		"hota.cove"
+	],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+	    "version" : "1.4",
+	
+	"keepDisabled" : false
+
+}

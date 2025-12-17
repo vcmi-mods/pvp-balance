@@ -1,6 +1,6 @@
 {
-	"name" : "brawl",
-	"description" : "Small, open template inspired by Elka and Hypercube.<br>Sizes from S to M and everything inbetween (recommended size is 48x48) and 2 players on Brawl,<br>Sizes from S+U to M+U and everything inbetween (recommended size is 52x52 with Underground) and 4 players on Brawl FFA<br>no roads or only slow roads from town to mines,<br>200%,<br>no sim turns,<br>short timer.<br>Trade: Roll a pair of Towns and flip a Coin.<br>The winner of the coinflip chooses either Town or Color and the loser makes the other choice.<br>Disabled Sanctuaries, external  Taverns and Stables,<br>disabled Redwood Observatories, enabled Covers of Darkness in their place.",
+	"name" : "Brawl",
+	"description" : "Small, open template inspired by Elka and Hypercube.<br><br>Sizes from S to M and everything inbetween (recommended size is 48x48) and 2 players on Brawl.<br><br>Sizes from S+U to M+U and everything inbetween (recommended size is 52x52 with Underground) and 4 players on Brawl FFA<br><br>Trade: Roll a pair of Towns and flip a Coin. The winner of the coinflip chooses either Town or Color and the loser makes the other choice.<br><br>Banned objects: Sanctuary, Tavern, Stables, Redwood Observatories. Enabled objects: Cover of Darkness.<br><br><u>Recommended settings for Brawl (1 vs 1):</u><br><br>Size: S or M<br>Players: 2<br>Monsters: strong<br>Roads: no<br>Water: none (S size) or normal (M size)<br>Difficulty: 160 or 200%<br>Simultaneous turns: None<br>Timer: 8-4-1:30<br>Restarts: None",
 	"author" : "Warzyw647 and Wnukos, Chinese translation by Ziyue",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "https://creativecommons.org/licenses/by-sa/4.0/",
@@ -15,26 +15,8 @@
 	"compatibility" : { "min" : "1.6.3" },
 	"conflicts" :
 	[
-		"pvp-balance.pvpTemplates.oneMinuteMadness",
-		"pvp-balance.pvpTemplates.vietnameseDiplomacy",
-		"pvp-balance.pvpTemplates.jebusOneHero",
 		"warzyw-templates.brawl"
 	],
-
-	"softDepends":[
-        "pvp-balance.spells",
-        "pvp-balance.spells.basicSpellBalance"
-    ],
-
-	"spells":[
-		"config/spells.json"
-	],
-
-	"objects":[
-		"config/wateringPlaceCopy.json"
-	],
-
-	
 
 	"keepDisabled" : false,
 	"chinese" :

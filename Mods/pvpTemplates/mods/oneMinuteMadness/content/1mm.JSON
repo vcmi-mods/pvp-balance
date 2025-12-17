@@ -41,7 +41,7 @@
 					[
 					
 						{
-							"id" : "pvp-balance.objects:object.tenPandora.tenPandora",
+							"id" : "pvp-balance.objects:object.10kExpPandora.10kExpPandora",
 							"rmg" : {
 									 "value"     : 12000,
 									 "rarity"    : 9999,
@@ -145,12 +145,7 @@
 								 "rarity"    : 100,
 								 "zoneLimit" : 1
 								}
-					},
-
-					
-
-					
-					
+					},			
 					{
 						"id" : "core:object.randomArtifactMinor",
 						"rmg" : {
@@ -350,7 +345,7 @@
 					"commonObjects":
 					[
 						{
-							"id" : "pvp-balance.objects:object.fivePandora.fivePandora",
+							"id" : "pvp-balance.objects:object.5kExpPandora.5kExpPandora",
 							"rmg" : {
 									 "value"     : 6000,
 									 "rarity"    : 9999,
@@ -674,7 +669,7 @@
 					"commonObjects":
 					[
 						{
-							"id" : "pvp-balance.objects:object.fivePandora.fivePandora",
+							"id" : "pvp-balance.objects:object.5kExpPandora.5kExpPandora",
 							"rmg" : {
 									 "value"     : 6000,
 									 "rarity"    : 9999,
@@ -1335,9 +1330,6 @@
 			//{ "a" : "6", "b" : "12",  "type" : "fictive" },
 			//{ "a" : "7", "b" : "14",  "type" : "fictive" },
 			//{ "a" : "8", "b" : "13",  "type" : "fictive" }
-			
-
-
 		]
 	}
 }

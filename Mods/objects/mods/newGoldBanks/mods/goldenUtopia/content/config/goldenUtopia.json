@@ -20,21 +20,21 @@
 				"visitMode" : "once",
 				"selectMode" : "selectFirst",
 				"guardsLayout" : "creatureBankWide",
+				"battleground": "goldenUtopiaBattlefield",
 				"rmg" : {
 					"value"		: 30000,
-					"rarity"	: 500,
-					"zoneLimit" : 2
+					"rarity"	: 150,
+					"zoneLimit" : 1
 				},
 				"rewards": [
 					{
 						"message" : 34,
-						"appearChance" : { "min" : 0, "max" : 100 },
+						"appearChance" : { "min" : 0, "max" : 11 },
 						"guards": [
 							{ "amount": 1, "type": "azureDragon" },
-							{ "amount": 1, "type": "crystalDragon" },
-							{ "amount": 2, "type": "rustDragon" },
-							{ "amount": 2, "type": "rustDragon" },
-							{ "amount": 3, "type": "fairieDragon" }
+							{ "amount": 2, "type": "crystalDragon" },
+							{ "amount": 3, "type": "rustDragon" },
+							{ "amount": 4, "type": "fairieDragon" }
 						],
 							"resources":
 							{
@@ -47,19 +47,277 @@
 								"gems" : 20
 							},
 							"artifacts": [
-								{ "class" : "RELIC" },
-								{ "class" : "RELIC" },
+								"armorOfTheDamned",
 								{ "class" : "RELIC" },
 								{ "class" : "RELIC" },
 								{ "class" : "RELIC" }
 							]
+
+							
+						
+					},
+										{
+						"message" : 34,
+						"appearChance" : { "min" : 0, "max" : 11 },
+						"guards": [
+							{ "amount": 1, "type": "azureDragon" },
+							{ "amount": 2, "type": "crystalDragon" },
+							{ "amount": 3, "type": "rustDragon" },
+							{ "amount": 4, "type": "fairieDragon" }
+						],
+							"resources":
+							{
+								"gold" : 50000,
+								"wood" : 20,
+								"ore" : 20,
+								"crystal" : 20,
+								"mercury" : 20,
+								"sulfur" : 20,
+								"gems" : 20
+							},
+							"artifacts": [
+								"armorOfTheDamned",
+								{ "class" : "RELIC" },
+								{ "class" : "RELIC" },
+								{ "class" : "RELIC" }
+							]
+
+					},
+										{
+						"message" : 34,
+						"appearChance" : { "min" :11, "max" : 22 },
+						"guards": [
+							{ "amount": 1, "type": "azureDragon" },
+							{ "amount": 2, "type": "crystalDragon" },
+							{ "amount": 3, "type": "rustDragon" },
+							{ "amount": 4, "type": "fairieDragon" }
+						],
+							"resources":
+							{
+								"gold" : 50000,
+								"wood" : 20,
+								"ore" : 20,
+								"crystal" : 20,
+								"mercury" : 20,
+								"sulfur" : 20,
+								"gems" : 20
+							},
+							"artifacts": [
+								"bowOfTheSharpshooter",
+								{ "class" : "RELIC" },
+								{ "class" : "RELIC" },
+								{ "class" : "RELIC" }
+							]
+
+							
+						
+					},
+										{
+						"message" : 34,
+						"appearChance" : { "min" : 22, "max" : 33 },
+						"guards": [
+							{ "amount": 1, "type": "azureDragon" },
+							{ "amount": 2, "type": "crystalDragon" },
+							{ "amount": 3, "type": "rustDragon" },
+							{ "amount": 4, "type": "fairieDragon" }
+						],
+							"resources":
+							{
+								"gold" : 50000,
+								"wood" : 20,
+								"ore" : 20,
+								"crystal" : 20,
+								"mercury" : 20,
+								"sulfur" : 20,
+								"gems" : 20
+							},
+							"artifacts": [
+								"cloakOfTheUndeadKing",
+								{ "class" : "RELIC" },
+								{ "class" : "RELIC" },
+								{ "class" : "RELIC" }
+							]
+
+							
+						
+					},
+										{
+						"message" : 34,
+						"appearChance" : { "min" : 33, "max" : 44 },
+						"guards": [
+							{ "amount": 1, "type": "azureDragon" },
+							{ "amount": 2, "type": "crystalDragon" },
+							{ "amount": 3, "type": "rustDragon" },
+							{ "amount": 4, "type": "fairieDragon" }
+						],
+							"resources":
+							{
+								"gold" : 50000,
+								"wood" : 20,
+								"ore" : 20,
+								"crystal" : 20,
+								"mercury" : 20,
+								"sulfur" : 20,
+								"gems" : 20
+							},
+							"artifacts": [
+								"cornucopia",
+								{ "class" : "RELIC" },
+								{ "class" : "RELIC" },
+								{ "class" : "RELIC" }
+							]
+
+							
+						
+					},
+										{
+						"message" : 34,
+						"appearChance" : { "min" : 44, "max" : 55 },
+						"guards": [
+							{ "amount": 1, "type": "azureDragon" },
+							{ "amount": 2, "type": "crystalDragon" },
+							{ "amount": 3, "type": "rustDragon" },
+							{ "amount": 4, "type": "fairieDragon" }
+						],
+							"resources":
+							{
+								"gold" : 50000,
+								"wood" : 20,
+								"ore" : 20,
+								"crystal" : 20,
+								"mercury" : 20,
+								"sulfur" : 20,
+								"gems" : 20
+							},
+							"artifacts": [
+								"elixirOfLife",
+								{ "class" : "RELIC" },
+								{ "class" : "RELIC" },
+								{ "class" : "RELIC" }
+							]
+
+							
+						
+					},
+										{
+						"message" : 34,
+						"appearChance" : { "min" : 55, "max" : 66 },
+						"guards": [
+							{ "amount": 1, "type": "azureDragon" },
+							{ "amount": 2, "type": "crystalDragon" },
+							{ "amount": 3, "type": "rustDragon" },
+							{ "amount": 4, "type": "fairieDragon" }
+						],
+							"resources":
+							{
+								"gold" : 50000,
+								"wood" : 20,
+								"ore" : 20,
+								"crystal" : 20,
+								"mercury" : 20,
+								"sulfur" : 20,
+								"gems" : 20
+							},
+							"artifacts": [
+								"ringOfTheMagi",
+								{ "class" : "RELIC" },
+								{ "class" : "RELIC" },
+								{ "class" : "RELIC" }
+							]
+
+							
+						
+					},
+										{
+						"message" : 34,
+						"appearChance" : { "min" : 66, "max" : 77 },
+						"guards": [
+							{ "amount": 1, "type": "azureDragon" },
+							{ "amount": 2, "type": "crystalDragon" },
+							{ "amount": 3, "type": "rustDragon" },
+							{ "amount": 4, "type": "fairieDragon" }
+						],
+							"resources":
+							{
+								"gold" : 50000,
+								"wood" : 20,
+								"ore" : 20,
+								"crystal" : 20,
+								"mercury" : 20,
+								"sulfur" : 20,
+								"gems" : 20
+							},
+							"artifacts": [
+								"statueOfLegion",
+								{ "class" : "RELIC" },
+								{ "class" : "RELIC" },
+								{ "class" : "RELIC" }
+							]
+
+							
+						
+					},
+										{
+						"message" : 34,
+						"appearChance" : { "min" : 77, "max" : 88 },
+						"guards": [
+							{ "amount": 1, "type": "azureDragon" },
+							{ "amount": 2, "type": "crystalDragon" },
+							{ "amount": 3, "type": "rustDragon" },
+							{ "amount": 4, "type": "fairieDragon" }
+						],
+							"resources":
+							{
+								"gold" : 50000,
+								"wood" : 20,
+								"ore" : 20,
+								"crystal" : 20,
+								"mercury" : 20,
+								"sulfur" : 20,
+								"gems" : 20
+							},
+							"artifacts": [
+								"titansThunder",
+								{ "class" : "RELIC" },
+								{ "class" : "RELIC" },
+								{ "class" : "RELIC" }
+							]
+
+							
+						
+					},
+										{
+						"message" : 34,
+						"appearChance" : { "min" : 88, "max" : 100 },
+						"guards": [
+							{ "amount": 1, "type": "azureDragon" },
+							{ "amount": 2, "type": "crystalDragon" },
+							{ "amount": 3, "type": "rustDragon" },
+							{ "amount": 4, "type": "fairieDragon" }
+						],
+							"resources":
+							{
+								"gold" : 50000,
+								"wood" : 20,
+								"ore" : 20,
+								"crystal" : 20,
+								"mercury" : 20,
+								"sulfur" : 20,
+								"gems" : 20
+							},
+							"artifacts": [
+								"wizardsWell",
+								{ "class" : "RELIC" },
+								{ "class" : "RELIC" },
+								{ "class" : "RELIC" }
+							]
+
+							
 						
 					}
 					]
-					
-					
-					
 			}
 		}
 	}
+
 }

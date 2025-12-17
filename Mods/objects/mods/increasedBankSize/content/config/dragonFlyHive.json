@@ -4,16 +4,6 @@
 		"types" :
 		{
 			"dragonFlyHive" : {
-				"blockedVisitable" : false,
-				"onGuardedMessage" : 32,
-				"onVisitedMessage" : 33,
-				"visitMode" : "once",
-				"selectMode" : "selectFirst",
-				"guardsLayout" : "creatureBankNarrow",
-				"rmg" : {
-					"value"		: 9000,
-					"rarity"	: 100
-				},
 				"rewards": [
 					{
 						"message" : 34,

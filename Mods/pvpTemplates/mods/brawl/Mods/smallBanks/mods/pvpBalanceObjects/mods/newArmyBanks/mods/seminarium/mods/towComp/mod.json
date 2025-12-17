@@ -1,0 +1,37 @@
+{
+    "name" : "Seminarium - Tides of War Compatibility",
+
+    "description" :" Seminarium.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+
+	"objects" :
+	[
+		"config/Seminarium.json"
+	],
+
+	"depends":
+	[
+	"tides-of-war.banks",
+	"tides-of-war.alternative-creatures",
+	"pvp-balance.objects.newArmyBanks.seminarium"
+	],
+
+	"softDepends":
+	[
+		"pvp-balance.objects.newArmyBanks.seminarium.towComp"
+	],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.4",
+	
+    "keepDisabled" : false
+}

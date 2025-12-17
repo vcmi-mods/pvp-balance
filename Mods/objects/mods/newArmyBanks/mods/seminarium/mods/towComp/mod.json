@@ -1,0 +1,32 @@
+{
+    "name" : "Seminarium - Tides of War Compatibility",
+
+    "description" :"Compatibility with Tides of War mod assuring that there are no duplicates of Seminarium object.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+
+	"objects" :
+	[
+		"config/Seminarium.json"
+	],
+
+	"depends":
+	[
+	"tides-of-war.banks",
+	"tides-of-war.alternative-creatures",
+	"pvp-balance.objects.newArmyBanks.seminarium"
+	],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.4",
+	
+    "keepDisabled" : false
+}

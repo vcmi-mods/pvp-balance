@@ -1,9 +1,9 @@
 {
     "name" : "Demon Cave",
 
-    "description" : "This mod adds a new creature bank - Demon Cave. The bank is guarded by earth/magma elementals and (horned) demons. It gives gold and mercury as reward.<br><br>Graphics made by Kurek. Battlefield used comes from Asphalt Terrain mod.",
+    "description" : "<p style='font-size:12px; color:#333333;'><u>Demon Cave</u></p>Value: 2000<br>Rarity: 30<br><br>Size 1: guarded by 3x4 Demons and 2x3 Earth Elementals, gives 2500 gold and 2 mercury (15%)<br>Size 2: guarded by 3x6 Demons and 2x4 Earth Elementals, gives 4000 gold and 3 mercury (35%)<br>Size 3: guarded by 3x8 Demons and 2x6 Earth Elementals, gives 5000 gold and 5 mercury (35%)<br>Size 4: guarded by 3x12 Demons and 2x9 Earth Elementals, gives 7500 gold and 10 mercury. (15%)<br><br>Upper-right stack of Demons and lower-left stack of Earth Elementals have 50% chance to be upgraded.",
 
-    "author" : "wnukos, Kurek",
+    "author" : "wnukos, Kurek (graphics)",
 
     "contact" : "wnukos on Discord",
 
@@ -24,7 +24,7 @@
 		"min" : "1.6"
 	},
 	
-    "version" : "1.3",
+    "version" : "1.4",
 	
     "keepDisabled" : false
 }

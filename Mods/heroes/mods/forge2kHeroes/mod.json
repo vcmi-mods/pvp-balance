@@ -1,0 +1,33 @@
+{
+    "name" : "Heavenly Forge 2000 Heroes - Compatibility",
+
+    "description" : "Rebalanced heroes from Heavenly Forge 2000 mod. One new hero is added.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+    
+    "depends" : 
+	[
+		"forge2k"
+	],
+
+   "heroes": [
+   "config/forge2kHeroes.json"
+   ],
+
+   "heroClasses": [
+    "config/forge2kHeroClasses.json"
+   ],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.4",
+	
+    "keepDisabled" : false
+}

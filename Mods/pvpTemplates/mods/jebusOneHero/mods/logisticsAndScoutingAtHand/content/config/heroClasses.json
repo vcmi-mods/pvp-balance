@@ -138,20 +138,6 @@
       "scouting" : 20,
       "logistics" : 20
     }
-  },
-
-    "hota.cove:captain": {
-    "secondarySkills": {
-      "scouting" : 20,
-      "logistics" : 20
-    }
-  },
-  
-    "hota.cove:navigator": {
-    "secondarySkills": {
-      "scouting" : 20,
-      "logistics" : 20
-    }
   }
 
   

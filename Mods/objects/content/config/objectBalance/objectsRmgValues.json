@@ -1,0 +1,64 @@
+{
+	"core:creatureBank" :{
+		"types" :
+		{
+			"impCache" :
+			{		
+				"rmg" : {
+					"value" : 1500
+				}
+			}
+		}
+	},
+	
+	"core:tradingPost": {
+		"types" : {
+			"object" : {
+				"rmg" : {
+					"value"		: 3000
+				}
+			}
+		}
+	},
+	"core:obelisk" : {
+		"types" : {
+			"object" : {
+				"rmg" : {
+					"zoneLimit"	: 1,
+					"value"		: 350
+				}
+			}
+		}
+	},
+	"core:shrineOfMagicLevel1" : {
+		"types" : {
+			"shrineOfMagicLevel1" : {
+				"rmg" : {
+					"rarity"	: 50
+				}
+			}
+		}
+	},
+	"core:shrineOfMagicLevel3" : {
+		"types" : {
+			"shrineOfMagicLevel3" : {
+				"rmg" : {
+					"rarity"	: 50
+				}
+			}
+		}
+	},
+	"core:freelancersGuild" : {
+		"types" : {
+			"object" : {
+				"rmg" : {
+					"rarity"	: 50,
+					"value"		: 100,
+					"zoneLimit"	: 1
+				}
+			}
+		}
+	}
+
+
+}

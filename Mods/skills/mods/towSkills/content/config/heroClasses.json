@@ -1,0 +1,94 @@
+{
+  "core:heretic": {
+
+	"secondarySkills" :
+	{
+		"tides-of-war.skills:intimidation"  : 5,
+		"tides-of-war.skills:hexes"  : 5
+	}
+  },
+
+  "core:demoniac": {
+
+	"secondarySkills" :
+	{
+		"tides-of-war.skills:intimidation"  : 5,
+		"tides-of-war.skills:hexes"  : 5
+	}
+  },
+
+    "core:warlock": {
+
+	"secondarySkills" :
+	{
+		"tides-of-war.skills:intimidation"  : 5,
+		"tides-of-war.skills:hexes"  : 5
+	}
+  },
+
+    "core:overlord": {
+
+	"secondarySkills" :
+	{
+		"tides-of-war.skills:intimidation"  : 5,
+		"tides-of-war.skills:hexes"  : 5
+	}
+  },
+
+    "core:necromancer": {
+
+	"secondarySkills" :
+	{
+		"tides-of-war.skills:intimidation"  : 5,
+		"tides-of-war.skills:hexes"  : 5
+	}
+  },
+
+    "core:deathknight": {
+
+	"secondarySkills" :
+	{
+		"tides-of-war.skills:intimidation"  : 5,
+		"tides-of-war.skills:hexes"  : 5
+	}
+  },
+
+    "core:barbarian": {
+
+	"secondarySkills" :
+	{
+		"tides-of-war.skills:intimidation"  : 3,
+		"tides-of-war.skills:hexes"  : 3
+	}
+  },
+
+    "core:battlemage": {
+
+	"secondarySkills" :
+	{
+		"tides-of-war.skills:intimidation"  : 3,
+		"tides-of-war.skills:hexes"  : 3
+	}
+  },
+
+
+    "core:beastmaster": {
+
+	"secondarySkills" :
+	{
+		"tides-of-war.skills:intimidation"  : 3,
+		"tides-of-war.skills:hexes"  : 3
+	}
+  },
+  
+  
+    "core:witch": {
+
+	"secondarySkills" :
+	{
+		"tides-of-war.skills:intimidation"  : 3,
+		"tides-of-war.skills:hexes"  : 3
+	}
+  }
+
+}

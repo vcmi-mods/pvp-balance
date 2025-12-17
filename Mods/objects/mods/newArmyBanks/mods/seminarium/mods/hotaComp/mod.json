@@ -1,0 +1,30 @@
+{
+    "name" : "Seminarium - Hota Compatibility",
+
+    "description" : "This mod bans Experimental Shop. Seminarium bank is introduced in its place.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+
+	"objects" :
+	[
+		"config/experimentalShop.json"
+	],
+
+	"depends":
+	[
+	"hota.mapObjects"
+	],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.4",
+	
+    "keepDisabled" : false
+}

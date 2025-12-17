@@ -1,7 +1,7 @@
 {
     "name" : "Jebus One Hero",
 
-    "description" : "A jebus-type template designed for one-hero games, similar to Jebus Outcast by MKC.",
+    "description" : "A jebus-type template designed for one-hero games, similar to Jebus Outcast by MKC.<br><br><u>Recommended settings:</u><br><br>Size: XL<br>Players: 2<br>Monsters: strong<br>Roads: fast<br>Water: none<br>Difficulty: 160%<br>Simultaneous turns: 131<br>Timer: 2-1:15-0:30<br>Restarts: 1x111",
 
     "author" : "wnukos",
 
@@ -11,61 +11,51 @@
 	
     "templates" : ["jebusOneHero.json"],
 
-    "artifacts": [
-        "config/artifacts.json"
-    ],
+   "artifacts": [
+       "config/artifacts.json"
+   ],
 
-    "spells" :[
-        "config/spells.json"
-    ],
+   "spells" :[
+     "config/spells.json"
+   ],
 
-    "heroes" :[
-        "config/heroes.json"
-    ],
+   "heroes" :[
+     "config/heroes.json"
+   ],
 
-    "skills": [
-        "config/skills.json"
-      ],
+   "skills": [
+     "config/skills.json"
+   ],
 
-    "factions": [
-        "config/conflux.json"
-    ],
+   "factions": [
+     "config/confluxCopy.json"
+   ],
 
     "depends" : [
-        "hota.cove",
-        "hota.interference",
-        "hota.highlandsTerrain",
-	    "hota.mapObjects",
-		"hota.mapDecorations",
-		"hota.neutralCreatures",
         "pvp-balance.objects"
     ],
 
     "softDepends":[
-        "pvp-balance.heroes.basicHeroBalance",
-        "pvp-balance.heroes.extendedHeroBalance",
+        "pvp-balance.heroes",
         "pvp-balance.artifacts",
-        "pvp-balance.artifacts.basicArtifactBalance",
-        "pvp-balance.artifacts.extendedArtifactBalance",
         "pvp-balance.skills",
-        "pvp-balance.spells",
-        "pvp-balance.spells.basicSpellBalance",
-        "pvp-balance.spells.extendedSpellBalance"
+        "pvp-balance.spells"
     ],
 
     "conflicts" : [
+      "pvp-balance.objects.newGenericObjects.controlShrines",
+      "pvp-balance.objects.newGenericObjects.magicUniversity",
       "pvp-balance.pvpTemplates.6lm10a",
       "pvp-balance.pvpTemplates.brawl",
       "pvp-balance.pvpTemplates.arena",
-      "pvp-balance.pvpTemplates.jebusCrossPlus",
+      "pvp-balance.pvpTemplates.jebusCross",
       "pvp-balance.pvpTemplates.nostalgia",
       "pvp-balance.pvpTemplates.oneMinuteMadness",
       "pvp-balance.pvpTemplates.papichM200",
       "pvp-balance.pvpTemplates.vietnameseDiplomacy",
       "pvp-balance.spells.townPortalRework",
       "pvp-balance.spells.controlSpells",
-      "fused-artifacts",
-      "pvp-balance.objects.newGenericObjects" 
+      "fused-artifacts"
     ],
 
     "settings" : {
@@ -80,7 +70,7 @@
 		"min" : "1.6.0"
 	},
 	
-    "version" : "1.0.0",
+    "version" : "1.4",
     
     "keepDisabled" : true
 }

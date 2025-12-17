@@ -1,34 +1,24 @@
 {
 	"name" : "Control Spells",
-	"description" : "Probabilities of appearing Town Portal, Fly and Dimension Door in mage guilds are increased. Moreover, several T4 and T5 spells are banned.",
+	"description" : "Probabilities of appearing Town Portal, Fly and Dimension Door in mage guilds are increased. Several T4 and T5 spells are banned in mage guild in order to reduce the maximum number of turns needed to obtain control spells using spell research mechanic. List of banned spells: Magic Mirror, Fire Shield, Counterstrike, Inferno, Clone, Slayer, Sorrow, Frenzy.",
 	"author" : "wnukos",
 
 	"contact" : "wnukos on Discord",
 	
 	"modType" : "Spells",	
 
-	"polish" : {
-		"name" : "Control Spells",
-		"description" : "Prawdopodobieństwo wystąpienia zaklęć Portal Miejski, Lot i Wrota Wymiarów w gildii magów są zwiększone. Ponadto zbanowano kilka zaklęć poziomu 4. i 5."
-	},
-
 	"spells" :
 	[
-		"config/spells.json"
+		"config/controlSpells.json"
 	],
-
-	"depends" : 
-	[
-		"hota.cove"
-	],	
 
 	"compatibility" :
 	{
 		"min" : "1.6"
 	},
 	
-	    "version" : "1.3",
+	    "version" : "1.4",
 	
-	"keepDisabled" : true
+	"keepDisabled" : false
 
 }

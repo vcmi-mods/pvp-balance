@@ -1,0 +1,16 @@
+{
+	"core:scouting": {
+		"gainChance" : {
+			"might" : 20,
+			"magic" : 20
+		}
+	},
+
+	"core:logistics": {
+		"gainChance" : {
+			"might" : 20,
+			"magic" : 20
+		}
+	}
+	
+}

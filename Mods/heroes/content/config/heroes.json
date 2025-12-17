@@ -1,0 +1,3211 @@
+{
+  "core:sirMullich" :{
+		"special" : true
+	},
+
+  "core:sylvia" :{
+		"special" : true
+	},
+
+  "core:voy" :{
+		"special" : true
+	},
+
+   "core:lordHaart" :{
+		"special" : false
+	},
+
+	"core:uland":
+	{
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "ballistics",
+				"level" : "basic"
+			}
+		]
+	},
+	
+  	"core:deemer" :{
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "scouting",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"meteorShower" : {
+					"val" : 5
+				}
+			}
+		}
+	},
+
+	"core:gem":
+	{
+		"spellbook": [ "bless" ]
+		
+	},
+
+	"core:aislinn" :{
+		"specialty" : {
+			"bonuses" : {
+				"meteorShower" : {
+					"val" : 5
+				}
+			}
+		}
+	},
+
+	
+	"core:solmyr" :{
+		"specialty" : {
+			"bonuses" : {
+				"chainLightning" : {
+					"val" : 5
+				}
+			}
+		}
+	},
+
+	"core:jeddite" :{
+		"specialty" : {
+			"bonuses" : {
+				"resurrection" : {
+					"val" : 5
+				}
+			}
+		}
+	},
+
+	"core:alamar" :{
+		"specialty" : {
+			"bonuses" : {
+				"resurrection" : {
+					"val" : 5
+				}
+			}
+		}
+	},
+
+	"core:thant" :{
+		"specialty" : {
+			"bonuses" : {
+				"animateDead" : {
+					"val" : 5
+				}
+			}
+		}
+	},
+
+	"core:alagar" :{
+		"specialty" : {
+			"bonuses" : {
+				"iceBolt" : {
+					"val" : 10
+				}
+			}
+		}
+	},
+
+	"core:adelaide" :{
+		"specialty" : {
+			"bonuses" : {
+				"frostRing" : {
+					"val" : 10
+				}
+			}
+		}
+	},
+
+	"core:septienna" :{
+		"specialty" : {
+			"bonuses" : {
+				"deathRipple" : {
+					"val" : 10
+				}
+			}
+		}
+	},
+
+	"core:xarfax" :{
+		"specialty" : {
+			"bonuses" : {
+				"fireball" : {
+					"val" : 10
+				}
+			}
+		}
+	},
+
+	"core:xyron" :{
+		"specialty" : {
+			"bonuses" : {
+				"inferno" : {
+					"val" : 10
+				}
+			}
+		}
+	},
+
+	"core:astral" :{
+		"specialty" : {
+			"bonuses" : {
+				"hypnotize" : {
+					"val" : 10
+				}
+			}
+		}
+	},
+
+	"core:adela" :{
+		"specialty" : {
+			"bonuses" : {
+				"bless" : {
+					"val" : 10
+				}
+			}
+		}
+	},
+
+	"core:fiur" :{
+		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [
+							"fireElemental",
+							true
+						],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+		},
+		"bonuses" : {
+			"attack" : {
+				"limiters" : [
+					{
+						"parameters" : [
+							"fireElemental",
+							true
+						],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				],
+				"subtype" : "primarySkill.attack",
+				"type" : "PRIMARY_SKILL",
+				"val" : 2
+			},
+			"damage" : {
+				"limiters" : [
+					{
+						"parameters" : [
+							"fireElemental",
+							true
+						],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				],
+				"subtype" : "creatureDamageBoth",
+				"type" : "CREATURE_DAMAGE",
+				"val" : 2
+			},
+			"defence" : {
+				"limiters" : [
+					{
+						"parameters" : [
+							"fireElemental",
+							true
+						],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				],
+				"subtype" : "primarySkill.defence",
+				"type" : "PRIMARY_SKILL",
+				"val" : 2
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Fire and Energy elementals receive +2 attack, +2 defence and +2 damage points.",
+		   "name" : "Fire Elemental",
+		   "tooltip" : "Special unit: fire elemental"
+	   }
+   }
+
+},
+
+"core:ignissa" :
+	{
+	"specialty" : {
+		"base" : {
+			"limiters" : [
+				{
+					"parameters" : [
+						"fireElemental",
+						true
+					],
+					"type" : "CREATURE_TYPE_LIMITER"
+				}
+			]
+		},
+		"bonuses" : {
+			"attack" : {
+				"limiters" : [
+					{
+						"parameters" : [
+							"fireElemental",
+							true
+						],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				],
+				"subtype" : "primarySkill.attack",
+				"type" : "PRIMARY_SKILL",
+				"val" : 2
+			},
+			"damage" : {
+				"limiters" : [
+					{
+						"parameters" : [
+							"fireElemental",
+							true
+						],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				],
+				"subtype" : "creatureDamageBoth",
+				"type" : "CREATURE_DAMAGE",
+				"val" : 2
+			},
+			"defence" : {
+				"limiters" : [
+					{
+						"parameters" : [
+							"fireElemental",
+							true
+						],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				],
+				"subtype" : "primarySkill.defence",
+				"type" : "PRIMARY_SKILL",
+				"val" : 2
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Fire and Energy elementals receive +2 attack, +2 defence and +2 damage.",
+		   "name" : "Fire Elemental",
+		   "tooltip" : "Special unit: fire elemental"
+	   }
+   }
+
+},
+
+	"core:lacus" :
+	{
+
+	"specialty" : {
+		"base" : {
+			"limiters" : [
+				{
+					"parameters" : [
+						"waterElemental",
+						true
+					],
+					"type" : "CREATURE_TYPE_LIMITER"
+				}
+			]
+		},
+		"bonuses" : {
+			"attack" : {
+				"limiters" : [
+					{
+						"parameters" : [
+							"waterElemental",
+							true
+						],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				],
+				"subtype" : "primarySkill.attack",
+				"type" : "PRIMARY_SKILL",
+				"val" : 2
+					},
+			"defence" : {
+				"limiters" : [
+					{
+						"parameters" : [
+							"waterElemental",
+							true
+						],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				],
+				"subtype" : "primarySkill.defence",
+				"type" : "PRIMARY_SKILL",
+				"val" : 2
+			},
+
+			
+
+			"damage" : {
+				"limiters" : [
+					{
+						"parameters" : [
+							"waterElemental",
+							true
+						],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				],
+				"subtype" : "creatureDamageBoth",
+				"type" : "CREATURE_DAMAGE",
+				"val" : 1
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Water and Ice elementals receive +2 attack, +2 defence and +1 damage.",
+		   "name" : "Water Elemental",
+		   "tooltip" : "Special unit: water elemental"
+	   }
+   }
+},
+
+"core:kalt" :
+	{
+
+	"specialty" : {
+		"base" : {
+			"limiters" : [
+				{
+					"parameters" : [
+						"waterElemental",
+						true
+					],
+					"type" : "CREATURE_TYPE_LIMITER"
+				}
+			]
+		},
+
+		"bonuses" : {
+			"attack" : {
+				"limiters" : [
+					{
+						"parameters" : [
+							"waterElemental",
+							true
+						],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				],
+				"subtype" : "primarySkill.attack",
+				"type" : "PRIMARY_SKILL",
+				"val" : 2
+					},
+			"defence" : {
+				"limiters" : [
+					{
+						"parameters" : [
+							"waterElemental",
+							true
+						],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				],
+				"subtype" : "primarySkill.defence",
+				"type" : "PRIMARY_SKILL",
+				"val" : 2
+			},
+
+			
+
+			"damage" : {
+				"limiters" : [
+					{
+						"parameters" : [
+							"waterElemental",
+							true
+						],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				],
+				"subtype" : "creatureDamageBoth",
+				"type" : "CREATURE_DAMAGE",
+				"val" : 1
+			}
+		}
+		
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Water and Ice elementals receive +2 attack, +2 defence and +1 damage.",
+		   "name" : "Water Elemental",
+		   "tooltip" : "Special unit: water elemental"
+	   }
+   }
+},
+
+
+
+"core:valeska":{
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [200],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["archer", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [200],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["archer", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["archer", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied Archers and Marksmen by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up).",
+		   "name" : "Archers",
+		   "tooltip" : "Special unit: Archers"
+	   }
+   }
+},
+
+"core:edric":{
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [400, 3],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["griffin", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [400, 3],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["griffin", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["griffin", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied Griffins and Royal Griffins by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up).",
+		   "name" : "Griffins",
+		   "tooltip" : "Special unit: Griffin"
+	   }
+   }
+},
+
+"core:sorsha":{
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [100],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["swordsman", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [100],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["swordsman", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["swordsman", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied Swordsmen and Crusaders by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up).",
+		   "name" : "Swordsmen",
+		   "tooltip" : "Special unit: Swordsman"
+	   }
+   }
+},
+
+"core:roland":{
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [100],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["swordsman", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [100],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["swordsman", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["swordsman", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied Swordsmen and Crusaders by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up).",
+		   "name" : "Swordsmen",
+		   "tooltip" : "Special unit: Swordsman"
+	   }
+   }
+},
+
+"core:catherine":{
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [100],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["swordsman", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [100],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["swordsman", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["swordsman", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied Swordsmen and Crusaders by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up).",
+		   "name" : "Swordsmen",
+		   "tooltip" : "Special unit: Swordsman"
+	   }
+   }
+},
+
+"core:ingham":{
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [80],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["monk", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [80],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["monk", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["monk", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied Monks and Zealots by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up).",
+		   "name" : "Monks",
+		   "tooltip" : "Special unit: Monk"
+	   }
+   }
+},
+
+"core:tyris":{
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [200,3],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["cavalier", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [200,3],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["cavalier", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["cavalier", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied Cavaliers and Champions by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up).",
+		   "name" : "Cavaliers",
+		   "tooltip" : "Special unit: Cavalier"
+	   }
+   }
+},
+
+"core:ufretin":{
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [200],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["dwarf", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [200],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["dwarf", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["dwarf", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied Dwarves and Battle Dwarves by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up).",
+		   "name" : "Dwarves",
+		   "tooltip" : "Special unit: Dwarf"
+	   }
+   }
+},
+
+"core:ivor":{
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [400, 3],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["woodElf", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [400, 3],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["woodElf", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["woodElf", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied Wood Elves and Grand Elves by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up).",
+		   "name" : "Wood Elves",
+		   "tooltip" : "Special unit: Wood Elf"
+	   }
+   }
+},
+
+"core:aeris":{
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [100],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["pegasus", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [100],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["pegasus", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["pegasus", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied Pegasi and Silver Pegasi by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up).",
+		   "name" : "Pegasi",
+		   "tooltip" : "Special unit: Pegasus"
+	   }
+   }
+},
+
+"core:ryland":{
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [80],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["dendroidGuard", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [80],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["dendroidGuard", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["dendroidGuard", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied Dendroid Guards and Dendroid Soldiers by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up).",
+		   "name" : "Dendrioid Guards",
+		   "tooltip" : "Special unit: Dendroid Guard"
+	   }
+   }
+},
+
+"core:clancy":{
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [200,3],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["unicorn", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [200,3],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["unicorn", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["unicorn", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied Unicorns and War Unicorns by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up).",
+		   "name" : "Unicorns",
+		   "tooltip" : "Special unit: Unicorn"
+	   }
+   }
+},
+
+"core:piquedram":{
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [200],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["stoneGargoyle", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [200],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["stoneGargoyle", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["stoneGargoyle", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied Stone Gargoyle by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up).",
+		   "name" : "Stone Gargoyles",
+		   "tooltip" : "Special unit: Stone Gargoyle"
+	   }
+   }
+},
+
+"core:josephine":{
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [400, 3],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["stoneGolem", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [400, 3],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["stoneGolem", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["stoneGolem", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied Stone Golems and Iron Golems by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up).",
+		   "name" : "Stone Golems",
+		   "tooltip" : "Special unit: Stone Golem"
+	   }
+   }
+},
+
+"core:theodorus":{
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [100],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["mage", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [100],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["mage", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["mage", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied Mages and Archmages by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up).",
+		   "name" : "Mages",
+		   "tooltip" : "Special unit: Mage"
+	   }
+   }
+},
+
+"core:thane":{
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [80],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["genie", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [80],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["genie", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["genie", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied Genies and Master Genies by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up).",
+		   "name" : "Genies",
+		   "tooltip" : "Special unit: Genie"
+	   }
+   }
+},
+
+"core:fafner":{
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [200,3],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["naga", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [200,3],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["naga", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["naga", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied Nagas and Naga Queens by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up).",
+		   "name" : "Nagas",
+		   "tooltip" : "Special unit: Naga"
+	   }
+   }
+},
+
+"core:ignatius":{
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [200],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["imp", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [200],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["imp", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["imp", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied Imps and Familiars by 1 and their Attack and Defense skills by 10% for every level (rounded up).",
+		   "name" : "Imps",
+		   "tooltip" : "Special unit: Imp"
+	   }
+   }
+},
+
+"core:calh":{
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [200],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["gog", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [200],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["gog", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["gog", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied Gogs and Magogs by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up).",
+		   "name" : "Gogs",
+		   "tooltip" : "Special unit: Gog"
+	   }
+   }
+},
+
+"core:fiona":{
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [400, 3],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["hellHound", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [400, 3],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["hellHound", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["hellHound", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied Hell Hounds and Cerberi by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up).",
+		   "name" : "Hell Hounds",
+		   "tooltip" : "Special unit: Hell Hound"
+	   }
+   }
+},
+
+"core:marius":{
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [100],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["demon", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [100],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["demon", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["demon", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied Demons and Horned Demons by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up).",
+		   "name" : "Demons",
+		   "tooltip" : "Special unit: Demon"
+	   }
+   }
+},
+
+"core:nymus":{
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [80],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["pitFiend", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [80],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["pitFiend", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["pitFiend", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied Pit Fiends and Pit Lords by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up).",
+		   "name" : "Pit Fiends",
+		   "tooltip" : "Special unit: Pit Fiend"
+	   }
+   }
+},
+
+"core:octavia":{
+	"skills" : [
+		{
+			"level" : "basic",
+			"skill" : "offence"
+		},
+		{
+			"level" : "basic",
+			"skill" : "luck"
+		}
+	]
+	},
+
+"core:rashka":{
+	"skills" : [
+		    {
+			   "level" : "basic",
+			   "skill" : "armorer"
+		    },
+			{
+			   "level" : "basic",
+			   "skill" : "leadership"
+		    }
+	   ],
+
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [200,3],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["efreet", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [200,3],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["efreet", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["efreet", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied Efreets or Efreet Sultans by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up).",
+		   "name" : "Efreets",
+		   "tooltip" : "Special unit: Efreet"
+	   }
+   }
+},
+
+"core:galthran":{
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [200],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["skeleton", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [200],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["skeleton", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["skeleton", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied Skeletons and Skeleton Warriors by 1 and their Attack and Defense skills by 10% for every level (rounded up).",
+		   "name" : "Skeletons",
+		   "tooltip" : "Special unit: Skeleton"
+	   }
+   }
+},
+
+"core:straker":{
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [200],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["walkingDead", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [200],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["walkingDead", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["walkingDead", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied Walking Dead and Zombies by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up).",
+		   "name" : "Walking Dead",
+		   "tooltip" : "Special unit: Walking Dead"
+	   }
+   }
+},
+
+"core:charna":{
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [400, 3],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["wight", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [400, 3],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["wight", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["wight", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied Wights and Wraiths by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up).",
+		   "name" : "Wights",
+		   "tooltip" : "Special unit: Wight"
+	   }
+   }
+},
+
+"core:vokial":{
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [100],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["vampire", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [100],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["vampire", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["vampire", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied Vampires and Vampire Lords by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up).",
+		   "name" : "Vampires",
+		   "tooltip" : "Special unit: Vampire"
+	   }
+   }
+},
+
+"core:moandor":{
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [80],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["lich", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [80],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["lich", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["lich", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied Liches and Power Liches by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up).",
+		   "name" : "Liches",
+		   "tooltip" : "Special unit: Lich"
+	   }
+   }
+},
+
+"core:tamika":{
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [200,3],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["blackKnight", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [200,3],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["blackKnight", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["blackKnight", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied Black Knights and Dread Knights by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up).",
+		   "name" : "Black Knights",
+		   "tooltip" : "Special unit: Black Knight"
+	   }
+   }
+},
+
+"core:shakti":{
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [200],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["troglodyte", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [200],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["troglodyte", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["troglodyte", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied Troglodytes and Infernal Troglodytes by 1 and their Attack and Defense skills by 10% for every level (rounded up).",
+		   "name" : "Troglodytes",
+		   "tooltip" : "Special unit: Troglodyte"
+	   }
+   }
+},
+
+"core:lorelei":{
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [200],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["harpy", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [200],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["harpy", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["harpy", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied Harpies and Harpy Hags by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up).",
+		   "name" : "Harpies",
+		   "tooltip" : "Special unit: Harpy"
+	   }
+   }
+},
+
+"core:ajit":{
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [400, 3],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["beholder", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [400, 3],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["beholder", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["beholder", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied Beholders and Evil Eyes by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up).",
+		   "name" : "Beholders",
+		   "tooltip" : "Special unit: Beholder"
+	   }
+   }
+},
+
+"core:dace":{
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [80],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["minotaur", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [80],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["minotaur", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["minotaur", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied Minotaurs and Minotaur Kings by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up).",
+		   "name" : "Minotaurs",
+		   "tooltip" : "Special unit: Minotaur"
+	   }
+   }
+},
+
+"core:synca":{
+	"skills" : [
+		   {
+			   "level" : "advanced",
+			   "skill" : "leadership"
+		   }
+	   ],
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [200,3],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["manticore", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [200,3],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["manticore", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["manticore", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied Manticores and Scropicores by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up).",
+		   "name" : "Manticores",
+		   "tooltip" : "Special unit: Manticore"
+	   }
+   }
+},
+
+"core:gretchin":{
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [200],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["goblin", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [200],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["goblin", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["goblin", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied Goblins and Hobgoblins by 1 and their Attack and Defense skills by 10% for every level (rounded up).",
+		   "name" : "Goblins",
+		   "tooltip" : "Special unit: Goblin"
+	   }
+   }
+},
+
+"core:tyraxor":{
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [200],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["goblinWolfRider", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [200],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["goblinWolfRider", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["goblinWolfRider", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied Wolf Riders and Wolf Raiders by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up).",
+		   "name" : "Wolf Riders",
+		   "tooltip" : "Special unit: Wolf Rider"
+	   }
+   }
+},
+
+"core:jabarkas":{
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [400, 3],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["orc", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [400, 3],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["orc", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["orc", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied Orcs and Orc Chieftains by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up).",
+		   "name" : "Orcs",
+		   "tooltip" : "Special unit: Orc"
+	   }
+   }
+},
+
+"core:boragus":{
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [100],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["ogre", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [100],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["ogre", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["ogre", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied Ogres and Ogre Mages by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up).",
+		   "name" : "Ogres",
+		   "tooltip" : "Special unit: Ogre"
+	   }
+   }
+},
+
+"core:shiva":{
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [80],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["roc", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [80],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["roc", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["roc", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied Rocs and Thunderbirds by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up).",
+		   "name" : "Rocs",
+		   "tooltip" : "Special unit: Roc"
+	   }
+   }
+},
+
+"core:yog":{
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [200,3],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["cyclop", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [200,3],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["cyclop", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["cyclop", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied Cyclopes and Cyclop Kings by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up).",
+		   "name" : "Cyclopes",
+		   "tooltip" : "Special unit: Cyclop"
+	   }
+   }
+},
+
+"core:drakon":{
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [200],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["gnoll", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [200],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["gnoll", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["gnoll", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied Gnolls and Gnoll Marauders by 1 and their Attack and Defense skills by 10% for every level (rounded up).",
+		   "name" : "Gnolls",
+		   "tooltip" : "Special unit: Gnoll"
+	   }
+   }
+},
+
+"core:wystan":{
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [200],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["lizardman", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [200],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["lizardman", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["lizardman", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied Lizardmen and Lizard Warriors by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up).",
+		   "name" : "Lizardmen",
+		   "tooltip" : "Special unit: Lizardman"
+	   }
+   }
+},
+
+"core:korbac":{
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [400, 3],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["serpentFly", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [400, 3],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["serpentFly", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["serpentFly", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied Serpent Flies and Dragon Flies by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up).",
+		   "name" : "Serpent Flies",
+		   "tooltip" : "Special unit: Serpent Fly"
+	   }
+   }
+},
+
+"core:bron":{
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [100],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["basilisk", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [100],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["basilisk", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["basilisk", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied Basilisks and Greater Basilisks by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up).",
+		   "name" : "Basilisks",
+		   "tooltip" : "Special unit: Basilisk"
+	   }
+   }
+},
+
+"core:alkin":{
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [80],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["gorgon", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [80],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["gorgon", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["gorgon", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied  Gorgons and Mighty Gorgons by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up).",
+		   "name" : "Gorgons",
+		   "tooltip" : "Special unit: Gorgon"
+	   }
+   }
+},
+
+"core:broghild":{
+	"specialty": {
+		"creature": null,
+		"bonuses": {
+			"attack": {
+				"subtype": "primarySkill.attack",
+				"type": "PRIMARY_SKILL",
+				
+				"targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [200,3],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["wyvern", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"defence": {
+				"subtype": "primarySkill.defence",
+				"type": "PRIMARY_SKILL",
+			   "targetSourceType" : "CREATURE_ABILITY",
+				"valueType": "PERCENT_TO_TARGET_TYPE",
+				"updater": {
+					"parameters": [200,3],
+					"type": "GROWS_WITH_LEVEL"
+				},
+				"limiters": [
+					{
+						"parameters": ["wyvern", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"speed": {
+				"type": "STACKS_SPEED",
+				"val": 1,
+				"limiters": [
+					{
+						"parameters": ["wyvern", true],
+						"type": "CREATURE_TYPE_LIMITER"
+					}
+				]
+			}
+		}
+	},
+
+	"texts" : {
+	   "specialty" : {
+		   "description" : "Increases the Speed of allied Wyverns and Wyvern Monarchs by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up).",
+		   "name" : "Wyverns",
+		   "tooltip" : "Special unit: Wyvern"
+	   }
+   }
+}	
+}

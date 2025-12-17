@@ -1,0 +1,28 @@
+{
+    "name" : "HotA Wasteland Terrain - Compatibility",
+
+    "description" : "With this mod Hill Fort can generate on Wasteland Terrain from Horn of the Abyss mod.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+
+    "compatibility" :
+	{
+		"min" : "1.6"
+	},
+
+    "objects": [
+    "config/hillFortWasteland.json"
+    ],  
+
+    "depends" : 
+	[
+        "hota.wastelandTerrain"
+    ],
+	
+    "version" : "1.4",
+    "keepDisabled" : false
+}

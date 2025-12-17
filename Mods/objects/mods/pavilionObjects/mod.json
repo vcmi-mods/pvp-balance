@@ -1,0 +1,35 @@
+{
+    "name" : "Pavilion objects",
+
+    "description" : "Modified objects from Pavilion Town mod.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+	
+	"objects" :
+	[
+		
+		"config/banks/ziggurat.json",
+		"config/genericObjects/vase.json",
+		"config/genericObjects/subterraneanGate.json"		
+	],
+	
+	"depends" : 
+	[
+		"new-pavilion.dunes-terrain",
+		"new-pavilion.Desert Objects",
+		"new-pavilion"
+	],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.4",
+	
+    "keepDisabled" : false
+}

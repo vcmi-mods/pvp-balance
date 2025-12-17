@@ -1,0 +1,74 @@
+{
+	
+
+    "ruins-town:rn_creature_lvl6_up":
+	{
+		"aiValue": 2000
+		
+	},
+	
+    "ruins-town:rn_creature_lvl7_up":
+	{
+		"aiValue": 6500,
+		"abilities#override": {
+			"immunity": {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "spellSchool.earth",
+				"val" : 100
+			},
+			"nonliving": {
+				"type": "NON_LIVING"
+			},
+			"resistance": {
+				"type": "GENERAL_DAMAGE_REDUCTION",
+				"subtype": "damageTypeRanged",
+				"val": 20
+			},
+			"earthquake":{
+				"subtype" : "spell.earthquake",
+				"type" : "OPENING_BATTLE_SPELL",
+				"val" : 3
+			},
+			"paralize" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.earthquake",
+				"val" : 100
+			}
+		}
+		
+	},
+	    "ruins-town:rn_creature_alternate_up":
+	{
+		"shots":24,
+		"abilities#override": {
+			"shooter": {
+				"type":"SHOOTER"
+			},
+			"magicResistance" : {
+				"subtype" : "spellSchool.any",
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"val" : 50
+			},
+			"spellPower" : 
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 2
+			},
+			"spellPoints" : 
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"spellcaster":
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.forceField",
+				"val" : 1,
+				"valueType" : "INDEPENDENT_MAX"
+			}
+		}
+	}
+
+  
+}

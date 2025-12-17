@@ -1,0 +1,30 @@
+{
+    "name" : "Hota Interference - Compatibility",
+
+    "description" : "Corrected starting army rolls for Giselle from Horn of the Abyss mod.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+    
+    "depends" : 
+	[
+        "hota.interference"
+	],
+
+   	"heroes" :
+	[
+		"config/hotaGiselle.json"
+    ],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.4",
+	
+    "keepDisabled" : false
+}

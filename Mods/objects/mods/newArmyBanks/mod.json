@@ -1,7 +1,7 @@
 {
     "name" : "New Army Banks",
 
-    "description" : "This mod adds several new creature banks offering army as reward.",
+    "description" : "This mod adds several new creature banks offering army as reward. The new banks substitute banks from the base game and from HotA mod (if it is enabled), in order to keep the total number of banks in reasonable limits.<ol style='list-style-type:circle; margin: 1px;'><li style='margin-left: -20px'>Griffin Conservatory → Fortified Maze/Elderbrain</li><li style='margin-left: -20px'>Dragon Fly Hive → Treant Thicket</li><li style='margin-left: -20px'>Experimental Shop → Seminarium</li><li style='margin-left: -20px'>Red Tower → Demon Domain</li><li style='margin-left: -20px'>Wolf Raider Picket → Horseshoe Lake</li></ol>",
 
     "author" : "wnukos",
 
@@ -14,13 +14,7 @@
 		"min" : "1.6"
 	},
 
-    "depends" : 
-	[
-        "hota.highlandsTerrain",
-        "hota.wastelandTerrain"
-    ],
-	
-    "version" : "1.3",
+    "version" : "1.4",
 	
     "keepDisabled" : false
 }

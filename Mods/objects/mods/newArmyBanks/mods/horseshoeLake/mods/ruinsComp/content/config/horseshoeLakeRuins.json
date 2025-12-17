@@ -1,0 +1,72 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"horseshoeLake" : 
+			{
+				"blockedVisitable" : false,
+				"onGuardedMessage" : 32,
+				"onVisitedMessage" : 33,
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"guardsLayout" : "horseshoeLake",
+				"battleground": "horseshoeLakeBattlefield",
+				"rmg" : {
+					"value"		: 9500,
+					"rarity"	:80
+				},
+				"rewards":
+				[
+					{
+						"message" : "Having vanquished the mystical Kelpies that guarded the lake’s shores, you become a reward for your triumph. The Priestesses join your army.",
+						"appearChance" : { "min" : 0, "max" : 15 },
+						"guards": [
+							{ "amount": 6, "type" : "eldrichtKelpieCopy" },
+							{ "amount": 6, "type" : "eldrichtKelpieCopy" },
+							{ "amount": 6, "type" : "eldrichtKelpieCopy" },
+							{ "amount": 6, "type" : "eldrichtKelpieCopy" }
+						],
+						"creatures": [ { "amount": 6, "type": "rn_creature_alternate_up" }  ]
+					},
+					{
+						"message" : "Having vanquished the mystical Kelpies that guarded the lake’s shores, you become a reward for your triumph. The Priestesses join your army.",
+						"appearChance" : { "min" : 15, "max" : 50 },
+						"guards": [
+							{ "amount": 9, "type" : "eldrichtKelpieCopy" },
+							{ "amount": 9, "type" : "eldrichtKelpieCopy" },
+							{ "amount": 9, "type" : "eldrichtKelpieCopy" },
+							{ "amount": 9, "type" : "eldrichtKelpieCopy" }
+						],
+						"creatures": [ { "amount": 9, "type": "rn_creature_alternate_up" }  ]
+					},
+					{
+						"message" : "Having vanquished the mystical Kelpies that guarded the lake’s shores, you become a reward for your triumph. The Priestesses join your army.",
+						"appearChance" : { "min" : 50, "max" : 85 },
+						"guards": [
+							{ "amount": 12, "type" : "eldrichtKelpieCopy" },
+							{ "amount": 12, "type" : "eldrichtKelpieCopy" },
+							{ "amount": 12, "type" : "eldrichtKelpieCopy" },
+							{ "amount": 12, "type" : "eldrichtKelpieCopy" }
+						],
+						"creatures": [ { "amount": 12, "type": "rn_creature_alternate_up" } ]
+					},
+					{
+						"message" : "Having vanquished the mystical Kelpies that guarded the lake’s shores, you become a reward for your triumph. The Priestesses join your army.",
+						"appearChance" : { "min" : 85, "max" : 100 },
+						"guards": [
+							{ "amount": 18, "type" : "eldrichtKelpieCopy" },
+							{ "amount": 18, "type" : "eldrichtKelpieCopy" },
+							{ "amount": 18, "type" : "eldrichtKelpieCopy" },
+							{ "amount": 18, "type" : "eldrichtKelpieCopy" }
+						],
+						"creatures": [ { "amount": 18, "type": "rn_creature_alternate_up" }  ]
+					}
+				]
+				
+			}
+				
+			
+		}
+	}
+}

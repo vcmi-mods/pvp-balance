@@ -1,0 +1,31 @@
+{
+    "name" : "Skills - HotA compatibility",
+
+    "description" : "Artillery skill influences also properties of Cannon.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+
+    "modType" : "Compatibility",
+
+    "skills" : [
+        "config/hotaSkills.json"
+        ],
+
+    "depends" : [
+            "hota.cannon"
+            ],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.4",
+	
+    "keepDisabled" : false
+}

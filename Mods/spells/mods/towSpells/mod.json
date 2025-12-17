@@ -1,0 +1,29 @@
+{
+	"name" : "ToW Spells - Compatibility",
+	"description" : "Balanced spells from Tides of War mod.",
+	"author" : "wnukos",
+
+	"contact" : "wnukos on Discord",
+	
+	"modType" : "Compatibility",	
+
+	"spells" :
+	[
+		"config/towSpells.json"
+	],
+
+	"depends" : 
+	[
+		"tides-of-war.spells"
+	],	
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+	    "version" : "1.4",
+	
+	"keepDisabled" : false
+
+}

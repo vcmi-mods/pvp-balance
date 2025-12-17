@@ -1,0 +1,407 @@
+{ 
+  "core:orbOfInhibition": {
+	  "class" : "SPECIAL"
+	  },
+	  
+  "core:recantersCloak": {
+	  "class" : "SPECIAL"
+	  },  
+
+"core:birdOfPerception": {
+	  "class" : "SPECIAL"
+	  },
+	  
+  "core:stoicWatchman": {
+	  "class" : "SPECIAL"
+	  },
+	  
+  "core:emblemOfCognizance": {
+	  "class" : "SPECIAL"
+	  },
+
+	"core:badgeOfCourage":
+	{
+		"bonuses" : [
+			{
+				"type" : "MORALE",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			}
+		]
+	},
+
+	"core:pendantOfCourage":
+	{
+		"bonuses" : [
+			{
+				"type" : "MORALE",
+				"val" : 2,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "LUCK",
+				"val" : 2,
+				"valueType" : "BASE_NUMBER"
+			}
+		],
+		"text" : {
+	   		"description" : "{Pendant of Courage}\n\nWhen worn, this item bestows +2 Luck and Morale to your hero's troops."
+   		}
+	},
+
+	"core:equestriansGloves":
+	{
+		"bonuses" : [
+			{
+				"type" : "MOVEMENT",
+				"subtype" : "heroMovementLand",
+				"val" : 200,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		],
+		"text" : {
+	   		"description" : "{Equestrian Gloves}\n\nWorn on the hands, these gloves increase your hero's movement rate over land by 200."
+   		}
+	},
+
+   "core:bootsOfSpeed": {
+	  "class": "MAJOR",
+	"bonuses" : [
+				{
+					"type" : "MOVEMENT",
+					"subtype" : "heroMovementLand",
+					"val" : 400,
+					"valueType" : "ADDITIVE_VALUE"
+				}
+			],
+		"text" : {
+	   		"description" : "{Boots of Speed}\n\nWorn on the feet, these boots increase your hero's movement rate over land by 400."
+   		}
+	  },
+
+    "core:endlessSackOfGold": {
+	  "class": "MAJOR"
+	  },
+	  
+    "core:everpouringVialOfMercury": {
+	  "class": "MINOR"
+	  },
+
+    "core:ringOfInfiniteGems": {
+	  "class": "MINOR"
+	  },
+
+    "core:everflowingCrystalCloak": {
+	  "class": "MINOR"
+	  },
+
+    "core:eversmokingRingOfSulfur": {
+	  "class": "MINOR"
+	  },
+
+	  "core:pendantOfSecondSight": {
+	  "class": "MINOR"
+	  },
+
+	  "core:inexhaustibleCartOfOre":
+	  {
+		"bonuses" : [
+		   {
+			   "stacking" : "ALWAYS",
+			   "subtype" : "resource.ore",
+			   "type" : "GENERATE_RESOURCE",
+			   "val" : 2,
+			   "valueType" : "BASE_NUMBER"
+		   }
+	   ],
+	   "text" : {
+	   		"description" : "{Inexhaustible Cart of Ore}\n\nWhen equipped, this cart provides kingdom with an additional +2 ore per day."
+   		}
+	  },
+
+	  "core:inexhaustibleCartOfLumber":
+	  {
+		"bonuses" : [
+		   {
+			   "stacking" : "ALWAYS",
+			   "subtype" : "resource.wood",
+			   "type" : "GENERATE_RESOURCE",
+			   "val" : 2,
+			   "valueType" : "BASE_NUMBER"
+		   }
+	   ],
+	   "text" : {
+	   		"description" : "{Inexhaustible Cart of Lumber}\n\nWhen equipped, this cart provides kingdom with an additional +2 wood per day."
+   		}
+	  },
+
+    	"core:legsOfLegion": {
+	  		"bonuses" : [
+			{
+			"propagator" : "VISITED_TOWN_AND_VISITOR",
+			"subtype" : "creatureLevel2",
+			"type" : "CREATURE_GROWTH",
+			"val" : 8
+			}
+			],
+			"text" : {
+			"description" : "{Legs of Legion}\n\nIncreases your Town's Level 2 creature production by +8. "
+			}
+	  	},
+
+	  "core:loinsOfLegion": {
+		"bonuses" : [
+		  {
+			  "propagator" : "VISITED_TOWN_AND_VISITOR",
+			  "subtype" : "creatureLevel3",
+			  "type" : "CREATURE_GROWTH",
+			  "val" : 6
+		  }
+	  ],
+	  "text" : {
+			  "description" : "{Loins of Legion}\n\nIncreases your Town's Level 3 creature production by +6. "
+		  }
+		},
+
+		"core:torsoOfLegion": {
+		"bonuses" : [
+		  {
+			  "propagator" : "VISITED_TOWN_AND_VISITOR",
+			  "subtype" : "creatureLevel4",
+			  "type" : "CREATURE_GROWTH",
+			  "val" : 4
+		  }
+	  ],
+	  "text" : {
+			  "description" : "{Torso of Legion}\n\nIncreases your Town's Level 4 creature production by +4. "
+		  }
+		},
+
+	  "core:headOfLegion": {
+	  "bonuses" : [
+		{
+			"propagator" : "VISITED_TOWN_AND_VISITOR",
+			"subtype" : "creatureLevel6",
+			"type" : "CREATURE_GROWTH",
+			"val" : 2
+		},
+		{
+			"propagator" : "VISITED_TOWN_AND_VISITOR",
+			"subtype" : "creatureLevel7",
+			"type" : "CREATURE_GROWTH",
+			"val" : 1
+		}
+	],
+	"text" : {
+			"description" : "{Head of Legion}\n\nIncreases your Town's Level 6 creature production by +2 and Level 7 production by +1. "
+		}
+	  },
+
+    "core:armsOfLegion": {
+	  "bonuses" : [
+		{
+			"propagator" : "VISITED_TOWN_AND_VISITOR",
+			"subtype" : "creatureLevel5",
+			"type" : "CREATURE_GROWTH",
+			"val" : 4
+		}
+		],
+		"text" : {
+				"description" : "{Arms of Legion}\n\nIncreases your Town's Level 5 creature production by +4. "
+			}
+	  },
+
+	  "core:statueOfLegion": {
+		"bonuses" : [
+			{
+			   "propagator" : "PLAYER_PROPAGATOR",
+			   "type" : "CREATURE_GROWTH_PERCENT",
+			   "val" : 100
+		    },
+			{
+				"propagator" : "VISITED_TOWN_AND_VISITOR",
+				"subtype" : "creatureLevel2",
+				"type" : "CREATURE_GROWTH",
+				"val" : 8
+			},
+			{
+				"propagator" : "VISITED_TOWN_AND_VISITOR",
+				"subtype" : "creatureLevel3",
+				"type" : "CREATURE_GROWTH",
+				"val" : 6
+			},
+			{
+				"propagator" : "VISITED_TOWN_AND_VISITOR",
+				"subtype" : "creatureLevel4",
+				"type" : "CREATURE_GROWTH",
+				"val" : 4
+			},
+			{
+				"propagator" : "VISITED_TOWN_AND_VISITOR",
+				"subtype" : "creatureLevel5",
+				"type" : "CREATURE_GROWTH",
+				"val" : 4
+			},
+			{
+				"propagator" : "VISITED_TOWN_AND_VISITOR",
+				"subtype" : "creatureLevel6",
+				"type" : "CREATURE_GROWTH",
+				"val" : 2
+			},
+			{
+				"propagator" : "VISITED_TOWN_AND_VISITOR",
+				"subtype" : "creatureLevel7",
+				"type" : "CREATURE_GROWTH",
+				"val" : 1
+			}
+		  ],
+		  "text" : {
+				  "description" : "{Statue of Legion}\n\nIncreases your base creature growth in all towns by +100%. "
+			  }
+		},
+
+	"core:amuletOfTheUndertaker":
+	{
+		"text" : {
+			"description" : "{Amulet of the Undertaker}\n\nWorn about the neck, this amulet increases your Necromancy skill by 3%."
+		},
+		"bonuses" : [
+			{
+				"type" : "UNDEAD_RAISE_PERCENTAGE",
+				"val" : 3, 
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		]
+	},
+	"core:vampiresCowl":
+	{
+		"text" : {
+			"description" : "{Vampire's Cowl}\n\nWorn about the shoulders, this cowl increases your Necromancy skill by 5%."
+		},
+		"bonuses" : [
+			{
+				"type" : "UNDEAD_RAISE_PERCENTAGE",
+				"val" : 5,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		]
+	},
+	"core:deadMansBoots":
+	{
+		"text" : {
+			"description" : "{Dead Man's Boots}\n\nWorn on the feet, these boots increase your Necromancy skill by 7%."
+		},
+		"bonuses" : [
+			{
+				"type" : "UNDEAD_RAISE_PERCENTAGE",
+				"val" : 7, 
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		]
+	},
+
+	"core:cloakOfTheUndeadKing":
+	{
+		"text" : {
+			"description" : "{Cloak of the Undead King}\n\n30% of battlefield dead are resurrected as Skeletons. If hero already has the Necromancy skill then the percentages are added to the skill."
+		},
+		"bonuses" : [
+			{
+				"type" : "IMPROVED_NECROMANCY",
+				"subtype" : "creature.skeleton",
+				"addInfo" : 0
+			},
+			{
+				"type" : "UNDEAD_RAISE_PERCENTAGE",
+				"val" : 15,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		]
+	},
+
+	"core:angelicAlliance":
+	{
+		"bonuses" : [
+			{
+				"type" : "MORALE",
+				"val" : -1,
+				"valueType" : "BASE_NUMBER",
+				"limiters": [ {
+					"type":"CREATURE_ALIGNMENT_LIMITER",
+					"parameters": [ "evil" ]
+				} ]
+			}
+		],
+		"text" : {
+			"description" : "{Angelic Alliance}\n\nAllows creatures of good and neutral alignment to be mixed without a morale penalty. Casts Expert Prayer for 10 rounds at the start of combat. If there is any evil unit in hero's army, morale is reduced by 1."
+		}
+	},
+
+	"core:titansThunder":
+	{
+
+	"bonuses" : [
+		{
+			"subtype" : "spell.titanBolt",
+			"type" : "SPELL",
+			"val" : 3,
+			"valueType" : "BASE_NUMBER"
+		},
+		{
+			"subtype" : "primarySkill.attack",
+			"type" : "PRIMARY_SKILL",
+			"val" : 3,
+			"valueType" : "BASE_NUMBER"
+		},
+		{
+			"subtype" : "primarySkill.defence",
+			"type" : "PRIMARY_SKILL",
+			"val" : 3,
+			"valueType" : "BASE_NUMBER"
+		},
+		{
+			"subtype" : "primarySkill.spellpower",
+			"type" : "PRIMARY_SKILL",
+			"val" : 2,
+			"valueType" : "BASE_NUMBER"
+		},
+		{
+			"subtype" : "primarySkill.knowledge",
+			"type" : "PRIMARY_SKILL",
+			"val" : 2,
+			"valueType" : "BASE_NUMBER"
+		}
+	],
+
+		"text" : {
+			"description" : "{Titan's Thunder}\n\nHero gains the ability to cast Lightning Bolt for 800 points of damage, does not cost any spell points, adds a spell book into their inventory (permanently). The negative effects of component artifacts are canceled."
+		}
+
+	},
+
+		"core:ringOfTheMagi":
+	{
+
+	"bonuses" : [
+		{
+			"type" : "SPELL_DURATION",
+			"valueType" : "BASE_NUMBER",
+			"val" : 50
+			
+		},
+		{
+			"type" : "SPELL_DAMAGE",
+			"subtype" : "spellSchool.any",
+			"valueType" : "BASE_NUMBER",
+			"val" : 30
+		}
+	],
+
+		"text" : {
+			"description" : "{Ring of the Magi}\n\nAdds 50 rounds to spell duration. Causes hero's spells to inflict an additional 30% damage in combat."
+		}
+
+	}
+  }
+  
+  

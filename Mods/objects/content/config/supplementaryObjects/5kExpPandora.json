@@ -1,0 +1,48 @@
+{
+	"5kExpPandora" :{	
+		"name": "Pandora's Box",
+		"handler": "configurable",
+		"types" : {
+			"5kExpPandora" : 
+			{
+				"blockedVisitable" : true,
+				"removable": true,
+				"rmg" : {
+					"value"		: 999999,
+					"rarity"	: 1,
+					"zoneLimit" : 0
+				},
+
+				
+				
+				"rewards" :
+				[
+					{
+						"appearChance": 
+						{
+							"min" : 0,
+							"max" : 100
+						},
+						"message" : "You learn something.",
+						"heroExperience" : 5000,
+						"removeObject": true
+					}
+					
+					
+					
+				],
+				"canRefuse": true,
+				"visitMode" : "unlimited",
+				"templates" : 
+				{
+					"pandoraBox" : 
+					{
+						"animation" : "ava0128", 
+						"visitableFrom" : [ "+++", "+++", "+++" ],
+						"mask" : ["VV", "VA"]
+					}
+				}
+			}
+		}	
+	}
+}

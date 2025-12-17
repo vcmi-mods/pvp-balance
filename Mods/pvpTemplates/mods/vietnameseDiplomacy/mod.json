@@ -1,7 +1,7 @@
 {
     "name" : "Vietnamese Diplomacy",
 
-    "description" : "The mod introduces a variation of Vietnamese Diplomacy template with small differences compared to its HotA version. If Tides of War mod is enabled, then artifacts Binoculars and Phylacterium are available, along with Transformation Altar object (made by Olegmods Inc).",
+    "description" : "A one-hero template based on collecting enormous armies with Diplomacy skill. If Tides of War mod is enabled, then artifacts Binoculars and Phylacterium are available, along with Transformation Altar object (made by Olegmods Inc).<br><br><u>Recommended settings:</u><br><br>Size: G+U<br>Players: 8<br>Monsters: strong<br>Roads: fast<br>Water: none<br>Difficulty: 160%<br>Simultaneous turns: 141<br>Timer: 3-1:30-0:30<br>Restarts: 1x113",
 
     "author" : "wnukos",
 
@@ -18,38 +18,25 @@
       
     "depends" : 
 	[
-        "pvp-balance.objects",
-        "hota",
-        "hota.heroes",
-        "hota.artifacts",
-        "hota.mapObjects",
-        "hota.gameBalance",
-        "hota.highlandsTerrain",
-        "hota.wastelandTerrain",
-        "hota.mapdecorations",
-        "hota.interference",
-        "hota.neutralcreatures",
-        "hota.cove"
+        "pvp-balance.objects"
     ],
 
     "softDepends" : 
 	[
-        "pvp-balance.heroes.basicHeroBalance",
-        "pvp-balance.heroes.extendedHeroBalance",
+        "pvp-balance.heroes",
         "pvp-balance.artifacts",
-        "pvp-balance.artifacts.basicArtifactBalance",
-        "pvp-balance.artifacts.extendedArtifactBalance",
         "pvp-balance.skills",
         "pvp-balance.spells",
-        "pvp-balance.spells.basicSpellBalance",
-        "pvp-balance.spells.extendedSpellBalance"
+        "hota.heroes",
+        "pvp-balance.skills.hotaInterference"
     ],
 
     "conflicts" : 
     [
+        "fused-artifacts",
         "pvp-balance.pvpTemplates.6lm10a",
         "pvp-balance.pvpTemplates.brawl",
-        "pvp-balance.pvpTemplates.jebusCrossPlus",
+        "pvp-balance.pvpTemplates.jebusCross",
         "pvp-balance.pvpTemplates.nostalgia",
         "pvp-balance.pvpTemplates.jebusOneHero",
         "pvp-balance.pvpTemplates.papichM200",
@@ -57,9 +44,8 @@
         "pvp-balance.pvpTemplates.arena",
         "pvp-balance.spells.townPortalRework",
         "pvp-balance.spells.controlSpells",
-        "pvp-balance.objects.alternativeArmyBanks.treantThicketForDragonFlyHive",
-        "pvp-balance.objects.alternativeArmyBanks.fortifiedMazeElderBrainForGriffinConservatory",
-        "fused-artifacts",
+        "pvp-balance.objects.newArmyBanks.treantThicket",
+        "pvp-balance.objects.newArmyBanks.fortifiedMazeElderbrain",
         "pvp-balance.objects.newGenericObjects.controlShrines",
         "pvp-balance.objects.newGenericObjects.magicUniversity"
     ],
@@ -88,9 +74,7 @@
     "factions": [
         "config/factions.json"
     ],
-
-
-	
-    "version" : "1.3",
+    
+    "version" : "1.4",
     "keepDisabled" : true
 }

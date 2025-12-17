@@ -1,0 +1,30 @@
+{
+	"name" : "Brawl - Haven Objects",
+	"description" : "Modified Haven Town objects used by template Brawl, should be better suited for short games on small maps.<br>Pirate Keep:<br>30% chance, 5x 3 Arbalists, reward: 1500 Gold, 9 Wood, 2 Treasure Artifacts<br>40% chance, 5x 4 Arbalists, reward: 2000 Gold, 12 Wood, Treasure Artifact, Minor Artifact<br>30% chance, 5x 5 Arbalists, reward: 2500 Gold, 15 Wood, 2 Minor Artifacts<br>50% chance to get twice more Artifacts but lose Gold and Wood instead of gaining it<br>All creatures that have upgrades, both guards and rewards have a chance of being upgraded.<br>All banks recharge after 4 full days pass.<br>They are not designed to be taken with your whole army but with parts of your army in multiple places at once.",
+	"author" : "Warzyw647, ported by Wnukos, Chinese translation by Ziyue",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "https://creativecommons.org/licenses/by-sa/4.0/",
+	"contact" : "warzyw647 on heroes-themed Discords",
+	"modType" : "Compatibility",
+	"objects" :
+	[
+		"config/banks/fhavenBank01.json",
+		"config/banks/fhavenBank02.json"
+	],
+	"version" : "1.4",
+	"depends" :
+	[
+		"haven-town"
+	],
+	"changelog" :
+	{
+		"1.0" : [ "made banks smaller" ]
+	},
+	"compatibility" : { "min" : "1.6.3" },
+	"keepDisabled" : false,
+	"chinese" :
+	{
+		"name" : "Brawl模板峡湾城镇小物件",
+		"description" : "专为Brawl模板定制的改良版峡湾城镇物件，适用于小型地图。<br>海盗要塞：<br>30%的几率，出现5队每队3名赏金猎人，奖励：1500金币，9单位木材，2件低级宝物；<br>40%的几率，出现5队每队4名赏金猎人，奖励：2000金币，12单位木材，低级和中级宝物各1件；<br>30%的几率，出现5队每队5名赏金猎人，奖励：2500金币，15单位木材，2件中级宝物；<br>无论是何种守卫，该宝屋均有50%的几率获得双倍宝物，但会倒扣相应的金币和木材。<br>所有可升级的生物，无论是守卫还是奖励生物，都可能出现升级后的生物。<br>所有宝屋每4天刷新一次。<br>这些物件不是设计来让你用全部兵力去攻打的，而是让你分散成多支小股部队同时攻打多处地点。"
+	}
+}

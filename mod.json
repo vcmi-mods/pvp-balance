@@ -1,13 +1,12 @@
 {
     "name" : "PvP Balance",
-    "description" : "<p style='font-size:14px; color:#333333;'><b>PvP Balance</b> provides a series of changes with the aim of making multiplayer games more balanced and interesting. <p style='font-size:14px; color:#333333;'>The main mod file includes the following general changes:</p> <ul><li><p style='font-size:12px; color:#333333;'>Dimension Door limit - 2x per turn with Expert Air Magic on big maps</p></li><li><p style='font-size:12px; color:#333333;'>Enabled Spell Research option with optimized research cost</p></li><li><p style='font-size:12px; color:#333333;'>Customized diplomacy - monsters can join only for gold, 50% of the guard is joined at a cost of 100% creatures</p></li><li><p style='font-size:12px; color:#333333;'>Ban of artifacts Orb of Inhibition and Recanter's Cloak</p></li><li><p style='font-size:12px; color:#333333;'>Value of t4 and t5 scrolls increased from 4k to 8k and from 5k to 10k, respectively. T5 Scrolls cannot contain Fly or Dimension Door.</p></li><li><p style='font-size:12px; color:#333333;'>Ban of Cartographer object.</p></li></ul> <p style='font-size:14px; color:#333333;'>Some of these settings can be overwritten by <i>PvP Templates</i> submod depending on template specifics.</p><p style='font-size:14px; color:#333333;'>Detailed documentation of the mod is available at: https://drive.google.com/file/d/1XC-J8Wd4A5WDpNgcjcUpg4oIlSXehCxU/view?usp=sharing .</p>", 
-    "author" : "wnukos (main author), Kurek and Andruids (graphical assets), Warzyw (Brawl and Nowa Arena templates), Misiokles and Dydzio (revision and technical support)",
-    "contact" : "wnukos on Discord",
+    "description" : "<b>PvP Balance</b> provides a series of changes with the aim of making multiplayer games more balanced and interesting. It also adds or modifies several random map templates. PvP Balance is compatible with the following mods: Tides of War, Horn of the Abyss, Pavilion Town, Ruins Town, Heavenly Forge 2000. If any of these mods is enabled, additional balance changes are applied.<br><br>Detailed documentation is available at:<br><br>https://drive.google.com/file/d/1XC-J8Wd4A5WDpNgcjcUpg4oIlSXehCxU/view?usp=sharing", 
+    "author" : "Wnuki (main author), Kurek and Andruids (graphical assets), Warzyw (Brawl and Nowa Arena templates), Misiokles and Dydzio (revision and technical support)",
+    "contact" : "Wnuki on Discord",
     "licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-
     "modType" : "Expansion",
-    "version" : "1.3.9",
+    "version" : "1.4",
     "changelog" :
     {
         "1.0"   : [ "initial release" ],
@@ -39,88 +38,21 @@
 	    "1.3.6"  : [ "Ukrainian translation by MyroSlave" ],
         "1.3.7"  : [ "Sprites of Horseshoe Lake, Fortified Maze, Elderbrain and Arcane Library reduced in size", "Arcane Library can generate now on any terrain", "Custom battlefields added for Fortified Maze and Dangerous Cave objects, battlefield updated for Elderbrain and Horseshoe Lake", "Polish translation added (to be completed in the next update)", "Added conflict of Brawl template from PvPTemplates submod with Brawl template from Warzyw Templates mod."],
 		"1.3.8"   : [ "In submod Basic Faction Balance added triple Resource Silo income for all remaining factions except for unofficial Factory (may be added later)." ],
-        "1.3.9"  : [ "Added conflict of Nowa Arena template from PvPTemplates submod with Nowa Arena template from Warzyw Templates mod.", "Number of guards, guard layout and allowedTerrains optimized for banks Fortified Maze, Elderbrain and Treant Thicket.", "Seminarium bank now gives Paladins instead of Templars as reward", "Minor fixes"]
+        "1.3.9"  : [ "Added conflict of Nowa Arena template from PvPTemplates submod with Nowa Arena template from Warzyw Templates mod.", "Number of guards, guard layout and allowedTerrains optimized for banks Fortified Maze, Elderbrain and Treant Thicket.", "Seminarium bank now gives Paladins instead of Templars as reward", "Minor fixes"],
+        "1.4"  : [ "Fundamental rework. PvP Balance now has simpler structure with less submods and customization on player's side. Only the most controversial balance changes are disabled by default. The mod does not longer require Horn of the Abyss mod."]
     },
 
     "depends" : 
 	[
-		"hota",
-        "hota.gameBalance",
-        "hota.spellResearch",
 		"vcmi-extras",
 		"zefix"
 	],
 
-    "conflicts":[
+    "conflicts":
+    [
         "h3evo",
         "vcmi-extras.emoji"
     ],
-	"ukrainian" : {
-     	"name" : "Баланс PvP",
-		"description" : "Модифікація, що містить велику кількість змін з метою зробити мультиплеєрні ігри більш збалансованими та цікавими. Повну документацію можна побачити тут: https://drive.google.com/file/d/1XC-J8Wd4A5WDpNgcjcUpg4oIlSXehCxU/view?usp=sharing",
-		"translations" : [
-			"translation/pvp/ukrainian.json"
-		]
-	},
-
-    "polish" : {
-        "name" : "PvP Balance",
-       "description" : "Modyfikacja mająca na celu uczynienie gier PvP bardziej zbalansowanymi i ciekawymi. Pełną dokumentację można przeczytać pod linkiem: https://drive.google.com/file/d/1XC-J8Wd4A5WDpNgcjcUpg4oIlSXehCxU/view?usp=sharing",
-       "translations" : [
-           "translation/pvp/polish.json"
-       ]
-   },
-
-    "artifacts":
-    [
-        "config/artifacts.json",
-        "config/airElementalScroll.json",
-        "config/waterElementalScroll.json",
-        "config/earthElementalScroll.json",
-        "config/fireElementalScroll.json",
-		"config/sacrificeScroll.json",
-		"config/magicMirrorScroll.json",
-		"config/implosionScroll.json"
-    ],
-
-    "objects":
-    [
-        "config/cartographer.json",
-        "config/sanctuary.json",
-        "config/level5ScrollObject.json",
-        "config/magicUniversityWithAllMagicSchools.json"
-    ],
-
-    "settings" : {
-        "spells": {
-            "dimensionDoorTournamentRulesLimit" : true
-        },
-		
-		"towns": {
-				"spellResearch": true,
-				"spellResearchCost": [
-                { "gold": 1000, "wood" : 0, "mercury": 2, "ore": 0, "sulfur": 2, "crystal": 2, "gems": 2 },
-                { "gold": 1000, "wood" : 0, "mercury": 4, "ore": 0, "sulfur": 4, "crystal": 4, "gems": 4 },
-                { "gold": 1000, "wood" : 0, "mercury": 6, "ore": 0, "sulfur": 6, "crystal": 6, "gems": 6 },
-                { "gold": 1000, "wood" : 0, "mercury": 8, "ore": 0, "sulfur": 8, "crystal": 8, "gems": 8 },
-                { "gold": 1000, "wood" : 0, "mercury": 10, "ore": 0, "sulfur": 10, "crystal": 10, "gems": 10 }
-            	],
-				"spellResearchPerDay": [ 2, 2, 2, 2, 1 ],
-                "spellResearchCostExponentPerResearch": [ 0, 0, 0, 0, 0 ]
-		},
-
-        "creatures":{
-            "allowJoiningForFree" : false,
-			"joiningPercentage" : 50,
-            "allowRandomSpecialWeeks" : false,
-			"allowAllForDoubleMonth" : false
-        },
-
-        "heroes" :
-		{
-			"perPlayerTotalCap" : 100
-		}
-    },
 
     "compatibility" :
     {

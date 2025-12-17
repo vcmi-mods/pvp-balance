@@ -1,0 +1,32 @@
+{
+	"name" : "Brawl - Abyss Objects",
+	"description" : "Modified Abyss Town objects used by template Brawl, should be better suited for short games on small maps.<br>Water Temple: defended by 5x 2-3 Seahorses or one of their upgrades, reward: 700-1300 Gold, 2-3 Crystals and Gems, a few level 1-5 creatures from Abyss<br>Shipwreck: defended by 5 stacks, sometimes some of them several level 1/2, sometimes some stacks of up to 4 level 3s, reward: 0-1500 Gold, 0-2 Treasure Artifacts, sometimes 3 level 3s<br>Derelict Ship: defended by 5 stacks, about 3-4 level 3s from Abyss or Ice Elemetals, sometimes a few level 4s or 5s, reward: 1200-2000 Gold, Treasure or Minor, 2 Spells from level 1-3.<br>All creatures that have upgrades, both guards and rewards have a chance of being upgraded.<br>All banks recharge after 4 full days pass.<br>They are not designed to be taken with your whole army but with parts of your army in multiple places at once.<br>Precise guards and rewards:<br>Water Temple:<br>20% chance, 5x 2 Seahorses, reward: 700 Gold, 2 Crystals, 2 Gems, 5 Bloody Ornias, 4 Sand Crabs<br>30% chance, 5x 2 Magic Seahorses, reward: 900 Gold, 2 Crystals, 2 Gems, 3 Sand Crabs, 2 Magic Seahorses<br>30% chance, 5x 3 Magic Seahorses, reward: 1100 Gold, 3 Crystals, 3 Gems, 2 Golden Seahorses, 1 Aurelia<br>20% chance, 5x 3 Golden Seahorses, reward: 1300 Gold, 3 Crystals, 3 Gems, 1 Aurelia, 1 Octopus<br>Shipwreck<br>25% chance, 2x 6 and 1x 5 Ornias, 2x 4 Sand Crabs, reward: Treasure Artifact<br>25% chance, 6 Ornias, 5 Electric Ornias, 2x 5 Sand Crabs, 6 Abyssal Crabs, reward: 1500 Gold, Treasure Artifact<br>25% chance, 2x 7 Electric Ornias, 6 Sand Crabs, 6 Abyssal Crabs, 3 Seahorses, reward: 1200 Gold, Treasure Artifact<br>10% chance, 2x 6 Abyssal Crabs, 4 Seahorses, 4 Magic Seahorses, 4 Dark Ones, reward: 1500 Gold, 2 Treasure Artifacts<br>10% chance, 2x 4 Seahorses, 4 Magic Seahorses, 2x 4 Dark Ones, reward: 1500 Gold, 3 Deep Ones<br>5% chance, 2x 4 Magic Seahorses, 2x 4 Dark Ones, 4 Deep Ones, reward: 1500 Gold, 3 Golden Seahorses<br>Derelict Ship:<br>25% chance, 2x 3 Dark Ones, 2x 2 Aurelias, 3 Seahorses, reward: 1200 Gold, Treasure Artifact, 2 level 1 Spells<br>25% chance, 2x 3 Deep Ones, 2x 2 Aurelias, 3 Seahorses, reward: 1400 Gold, Treasure Artifact, level 1 Spell, level 2 Spell<br>25% chance, 4 Seahorses, 4 Magic Seahorses, 3 Deep Ones, 2x 2 Stormy Aurelias, reward: 1600 Gold, Treasure Artifact, 2 level 2 Spells<br>15% chance, 2x 5 Magic Seahorses, 2x 4 Ice Elementals, 3 Golden Seahorses, reward: 1800 Gold, Minor Artifact, level 2 Spell, level 3 Spell<br>10% chance, 2x 6 Golden Seahorses, 2x 5 Ice Elementals, 4 Octopuses, reward: 2000 Gold, Minor Artifact, 2 level 3 Spells",
+	"author" : "Warzyw647, ported by Wnukos, Chinese translation by Ziyue",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "https://creativecommons.org/licenses/by-sa/4.0/",
+	"contact" : "warzyw647 on heroes-themed Discords",
+	"modType" : "Compatibility",
+	"objects" :
+	[
+		"config/banks/waterTemple.json",
+		"config/banks/shipwreck.json",
+		"config/banks/derelictShip.json"
+	],
+	"version" : "1.4",
+	"depends" :
+	[
+		"abyss-town",
+		"abyss-town.Changed banks"
+	],
+	"changelog" :
+	{
+		"1.0" : [ "made banks smaller" ]
+	},
+	"compatibility" : { "min" : "1.6.3" },
+	"keepDisabled" : false,
+	"chinese" :
+	{
+		"name" : "Brawl模板深渊城镇小物件",
+		"description" : "专为Brawl模板定制的改良版深渊城镇物件，适用于小型地图。<br>水神庙：由5队2-3只海马或它们的升级形态守护，奖励：700-1300金币，2-3颗水晶和宝石，几只1-5级的深渊城镇生物。<br>沉船：由5队生物守护，有时其中一些是1、2级的，有时一队4只3级生物，奖励：0-1500金币，0-2件低级宝物，有概率获得3只3级生物。<br>废弃船只：由5队生物守护，大约3-4只3级的深渊生物或冰元素，有时几只4级或5级生物，奖励：1200-2000金币，低级或中级宝物，2个1-3级魔法。<br>所有可升级的生物，无论是守卫还是奖励生物，都可能出现升级后的生物。<br>所有宝屋每4天刷新一次。<br>这些物件不是设计来让你用全部兵力去攻打的，而是让你分散成多支小股部队同时攻打多处地点。<br>精确的守卫和奖励：<br>水神庙：<br>20%几率由5队2只海马守护，奖励：700金币，2颗水晶，2颗宝石，5只血翼鳗，4只沙蟹。<br>30%几率由5队2只魔法海马守护，奖励：900金币，2颗水晶，2颗宝石，3只沙蟹，2只魔法海马。<br>30%几率由5队3只魔法海马守护，奖励：1100金币，3颗水晶，3颗宝石，2只黄金海马，1只水母。<br>20%几率由5队3只黄金海马守护，奖励：1300金币，3颗水晶，3颗宝石，1只水母，1只章鱼。<br>沉船：<br>25%几率由2队6只和1队5只触须鳗、2队4只沙蟹守护，奖励：低级宝物。<br>25%几率由6只触须鳗、5只电须鳗、2队5只沙蟹、6只渊蟹守护，奖励：1500金币，低级宝物。<br>25%几率由2队7只电须鳗、6只沙蟹、6只渊蟹、3只海马守护，奖励：1200金币，低级宝物。<br>10%几率由2队6只渊蟹、4只海马、4只魔法海马、4只暗黑者守护，奖励：1500金币，2件低级宝物。<br>10%几率由2队4只海马、4只魔法海马、2队4只暗黑者守护，奖励：1500金币，3只深潜者。<br>5%几率由2队4只魔法海马、2队4只暗黑者、4只深潜者守护，奖励：1500金币，3只黄金海马。<br>废弃船只：<br>25%几率由2队3只暗黑者、2队2只水母、3只海马守护，奖励：1200金币，低级宝物，2个1级魔法。<br>25%几率由2队3只深潜者、2队2只水母、3只海马守护，奖励：1400金币，低级宝物，1个1级魔法，1个2级魔法。<br>25%几率由4只海马、4只魔法海马、3只深潜者、2队2只风暴水母守护，奖励：1600金币，低级宝物，2个2级魔法。<br>15%几率由2队5只魔法海马、2队4只冰元素、3只黄金海马守护，奖励：1800金币，中级宝物，1个2级魔法，1个3级魔法。<br>10%几率由2队6只黄金海马、2队5只冰元素、4只章鱼守护，奖励：2000金币，中级宝物，2个3级魔法。"
+	}
+}

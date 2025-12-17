@@ -11,7 +11,7 @@
 					"val" : 400,
 					"duration" : "PERMANENT",
 					"sourceType" : "OTHER"
-				},
+				}
 			]
 		},
 		"knight":
@@ -24,7 +24,7 @@
 					"val" : 400,
 					"duration" : "PERMANENT",
 					"sourceType" : "OTHER"
-				},
+				}
 			]
 		},
 		"rook":
@@ -37,7 +37,7 @@
 					"val" : 400,
 					"duration" : "PERMANENT",
 					"sourceType" : "OTHER"
-				},
+				}
 			]
 		},
 		"queen":
@@ -50,7 +50,7 @@
 					"val" : 400,
 					"duration" : "PERMANENT",
 					"sourceType" : "OTHER"
-				},
+				}
 			]
 		},
 		"king":
@@ -63,7 +63,7 @@
 					"val" : 400,
 					"duration" : "PERMANENT",
 					"sourceType" : "OTHER"
-				},
+				}
 			]
 		}
 	},
@@ -79,7 +79,7 @@
 					"val" : 400,
 					"duration" : "PERMANENT",
 					"sourceType" : "OTHER"
-				},
+				}
 			]
 		},
 		"knight":
@@ -92,7 +92,7 @@
 					"val" : 400,
 					"duration" : "PERMANENT",
 					"sourceType" : "OTHER"
-				},
+				}
 			]
 		},
 		"rook":
@@ -105,7 +105,7 @@
 					"val" : 400,
 					"duration" : "PERMANENT",
 					"sourceType" : "OTHER"
-				},
+				}
 			]
 		},
 		"queen":
@@ -118,7 +118,7 @@
 					"val" : 400,
 					"duration" : "PERMANENT",
 					"sourceType" : "OTHER"
-				},
+				}
 			]
 		},
 		"king":
@@ -131,7 +131,7 @@
 					"val" : 400,
 					"duration" : "PERMANENT",
 					"sourceType" : "OTHER"
-				},
+				}
 			]
 		}
 	}

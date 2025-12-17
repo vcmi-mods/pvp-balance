@@ -1,0 +1,29 @@
+{
+    "name" : "Heavenly Forge 2000 Objects - Compatibility",
+
+    "description" : "With this mod Hill Fort can generate on Asphalt Terrain.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+
+    "compatibility" :
+	{
+		"min" : "1.6"
+	},
+
+    "objects": [
+    "config/hillFortAsphalt.json"
+    ],  
+
+    "depends" : 
+	[
+        "forge2k",
+        "asphalt-terrain"
+    ],
+	
+    "version" : "1.4",
+    "keepDisabled" : false
+}

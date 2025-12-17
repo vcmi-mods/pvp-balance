@@ -1,0 +1,15 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"mdtBonePillar" :
+			{		
+				
+				"rmg" : {
+					"zoneLimit" : 0
+				}
+			}
+		}
+	}
+}

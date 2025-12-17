@@ -1,7 +1,7 @@
 {
     "name" : "Creatures",
 
-    "description" : "The mod provides creature and war machine balance for PvP:<br><br>- Minimum map amount of Sharpshooters is increased<br>-AI value of Lizardmen and Lizard Warriors is increased<br>-Ballista cost is decreased from 2500 to 1500, base damage is increased from 2-3 to 3-4.<br>-Cannon cost is decreased from 4000 to 3000.<br><br> The submod includes balance changes for creatures from the following mods, if they are enabled: Tides of War, Heavenly Forge 2000, New Pavilion, Ruins Town.",
+    "description" : "<p style='font-size:12px; color:#333333;'><u>Rebalanced creatures:</u></p>1) <b>Orc Chieftain</b> - damage range increased to 3 - 6.<br>2) <b>Ice Elemental</b> - no melee penalty<br>3) <b>Fire and Energy Elemental</b> - damage range increased to 6 - 8<br>4) <b>Earth and Magma Elemental</b> - HP, attack, defense and damage range increased<br>5) <b>Zealot</b> - can cast advanced Bless<br>6) <b>Firebird and Phoenix</b> - increased cost. Firebirds have 50% reduction of damage from Fire Magic spells.<br>7) <b>Ballista</b> - increased damage and cost decreased to 1500.<p style='font-size:12px; color:#333333;'><u>Creatures with changed AI value:</u></p>Monk, Naga, Scorpicore, Red Dragon, Efreet Sultan, Ghost Dragon, Lizardman, Lizard Warrior, Cyclop King, Firebird, Faerie Dragon, Ice/Fire/Energy/Earth/Magma Elemental.",
 
     "author" : "wnukos",
 
@@ -12,19 +12,13 @@
 
     "modType" : "Creatures",
 
-    "polish" : {
-        "name" : "Creatures",
-        "description" : "Mod zapewnia balans jednostek i maszyn wojennych."
-        },
-
     "creatures": [
         "config/creatures.json",
         "config/warMachines"
         ],
 
-    "depends": [
-        "hota.cannon",
-        "hota.neutralCreatures"
+    "softDepends": [
+        "hota.gameBalance"
     ],
 
     "conflicts":[
@@ -36,7 +30,7 @@
 		"min" : "1.6"
 	},
 	
-    "version" : "1.3",
+    "version" : "1.4",
 	
     "keepDisabled" : false
 }

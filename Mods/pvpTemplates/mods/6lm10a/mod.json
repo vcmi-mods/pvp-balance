@@ -1,7 +1,7 @@
 {
     "name" : "6lm10a",
 
-    "description" : "PvP templates.",
+    "description" : "Modified version of 6lm10a template with following changes:<br><br>1) Optimized zone size.<br>2) Several connection variants are introduced, marked as A, B etc. on the template list in the game.<br><br><u>Recommended settings:</u><br><br>Size: XL+U<br>Players: 8<br>Monsters: strong<br>Roads: medium<br>Water: none<br>Difficulty: 160%<br>Simultaneous turns: 122<br>Timer: 18-7-1:30<br>Restarts: 2x111/1x112",
 
     "author" : "wnukos",
 
@@ -15,17 +15,8 @@
 	{
 		"min" : "1.6"
 	},
-
-    "depends" : 
-	[
-		"hota",
-        "hota.mapObjects",
-        "hota.gameBalance",
-        "hota.highlandsTerrain",
-        "hota.mapdecorations"
-    ],
-
 	
-    "version" : "1.3",
+    "version" : "1.4",
+    
     "keepDisabled" : false
 }

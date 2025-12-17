@@ -1,0 +1,15 @@
+{
+    "new-pavilion:0_cassandra":{
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "interference"
+			},
+			{
+				"level" : "basic",
+				"skill" : "diplomacy"
+			}
+		]
+		 }
+}

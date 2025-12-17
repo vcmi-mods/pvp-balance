@@ -1,0 +1,56 @@
+{
+	"name" : "Brawl - HotA objects",
+	"description" : "Modified HotA objects used by template Brawl, should be better suited for short games on small maps.<br>Churchyard: defended by 3x 8-15 Halflings and 3x 80-150 Peasants, reward: 800-1500 gold, minor artifact, 4-8 walking deads/zombies,<br>Mansion: 5-8 Vampire Lords, reward: minor art, 2-3 resources, 1200-1800 gold,<br>Red Tower: 5x 2-5 water elementals, reward 3-6 air elementals,<br>Experimental Workshop: 5x 2 Stone-Gold Golems, reward: 3 Golems,<br>Wolf Rider Picket: 4x 6-12 Goblins and 6-12 Wolf Riders, reward: 2-3 Wood and Ore and 3-6 Orcs,<br>Pirate Cavern: 2x 2-4 Pirates, 2x 2-3 Corsairs, or 4x 1 special Sea Dog (better get him before he moves!) reward: 3-6 Stormbirds or 1 Nix, 3-7 Gold,<br>Ivory Tower: 2x 12-20 Gremlins, 3x 3-6 Gargoyles, reward: 3-6 Gargoyles and 1 Mage,<br>Spit: 2x 2-3 Basilisks, 2x 1 Gorgon, reward: 1000-2000 Gold, 1 Basilisk, 1 Basilisk or Gorgon.<br>Ruins: value up to 3000, rarity down to 50, zone limit down to 1, revisitable like the rest, guards and rewards untouched.<br>All creatures that have upgrades, both guards and rewards have a chance of being upgraded.<br>All banks recharge after 4 full days pass.<br>They are not designed to be taken with your whole army but with parts of your army in multiple places at once.",
+	"author" : "Warzyw647, ported by Wnukos, Chinese translation by Ziyue",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "https://creativecommons.org/licenses/by-sa/4.0/",
+	"contact" : "warzyw647 on heroes-themed Discords",
+	"modType" : "Compatibility",
+	"creatures" :
+	[
+		"config/creatures/seaDogCopy.json"
+	],
+	"objects" :
+	[
+		"config/banks/churchyard.json",
+		"config/banks/experimentalShop.json",
+		"config/banks/ivoryTower.json",
+		"config/banks/mansion.json",
+		"config/banks/pirateCavern.json",
+		"config/banks/redTower.json",
+		"config/banks/spit.json",
+		"config/banks/wolfRaiderPicket.json",
+		"config/banks/ruins.json",
+		"config/banks/beholderSanctuary.json",
+		"config/banks/templeOfTheSea.json",
+		"config/banks/nagaBank.json"
+	],
+	"version" : "1.4",
+	"depends" :
+	[
+		"hota.cove",
+		"hota.neutralcreatures",
+		"hota.mapobjects", 
+		"hota.gameBalance",
+		"hota.highlandsterrain"
+	],
+"softDepends" :
+	[
+		"pvp-balance.objects.increasedBankSize",
+		"pvp-balance.objects.increasedBankSize.hotaComp",
+		"pvp-balance.objects.newArmyBanks.demonDomain.hotaComp",
+		"pvp-balance.objects.newArmyBanks.horseshoeLake.hotaComp",
+		"pvp-balance.objects.newArmyBanks.seminarium.hotaComp"
+	],
+	"changelog" :
+	{
+		"1.0" : [ "Moved from warzyw-templates mod", "Refactored mod structure" ]
+	},
+	"compatibility" : { "min" : "1.6.3" },
+	"keepDisabled" : false,
+	"chinese" :
+	{
+		"name" : "Brawl模板深渊号角平衡修改小物件",
+		"description" : "专为Brawl模板定制的物件，主要是平衡修改某些深渊号角宝屋守卫和奖励，适用于小型地图。<br>墓地：由3队每队8-15个半身人和3队每队80-150个农民防守，奖励：800-1500金币、一件中级宝物、4-8个行尸。<br>庄园：5队共5-8个吸血鬼王防守，奖励：一件中级宝物、每种稀有资源各2-3份、1200-1800金币。<br>红塔：5队每队2-5个水元素防守，奖励：3-6个气元素。<br>实验工坊：5队每队2个石人/铁人/钢人/金人防守，奖励：3个石人/铁人/钢人/金人（奖励生物类型与守卫一致）。<br>狼骑哨站：4队每队6-12个大耳怪和6-12个恶狼骑士防守，奖励：2-3单位木材和矿石、3-6个半兽人。<br>海盗洞穴：2队2-4个海贼、2队2-3个海盗，或者4队1个皇家海盗防守，奖励：3-6只暴风鸟或1只鱼人、3-7金币。<br>象牙塔：2队12-20个小妖精、3队3-6个石像鬼防守，奖励：3-6个石像鬼和1名法师。<br>吐火兽穴：2队2-3只蜥蜴、2队1只野牛防守，奖励：1000-2000金币、90%概率2只蜥蜴，10%概率1只蜥蜴1只野牛）。<br>废墟：价值高达3000，稀有度降至50，区域限制降至1，可以像其他宝屋一样重复访问，守卫和奖励保持不变。<br>所有可升级的生物，无论是守卫还是奖励生物，都可能出现升级后的生物。<br>所有宝屋每4天刷新一次。<br>这些物件不是设计来让你用全部兵力去攻打的，而是让你分散成多支小股部队同时攻打多处地点。"
+	}
+}

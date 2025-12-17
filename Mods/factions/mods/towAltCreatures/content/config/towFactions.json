@@ -1,0 +1,94 @@
+{
+	"core:castle" :
+	{	
+		"town" :
+		{
+			"buildings" :
+			{	
+				
+				"dwellingLvl7B" : {
+					"requires#override" : ["allOf", ["dwellingLvl4"], ["dwellingLvl5"]]
+				},
+
+				"dwellingUpLvl7B" : {
+				   "cost" : {
+					   "gems" : 10,
+					   "gold" : 10000,
+					   "ore" : 5,
+					   "wood" : 5
+				   }
+			   }
+			}
+		}
+	},
+   
+
+	"core:tower" :
+	{	
+		"town" :
+		{
+			"buildings" :
+			{	
+				"dwellingLvl7B" : {
+				   "requires#override" : [
+					   "allOf",
+					   [
+						"dwellingLvl3"
+					   ],
+					   [
+						"dwellingLvl4"
+					   ],
+					   [
+						"blacksmith"
+					   ],
+					   [
+						"noneOf",
+						[
+							   "dwellingLvl7"
+						]
+					   ]
+				   ]
+			   }
+			}
+		}  
+	},
+	
+	"core:dungeon":
+	{	
+		"town" :
+		{
+			"buildings" :
+			{	
+				"dwellingLvl5B" : {
+				   "cost" : {
+					   "gold" : 3000,
+					   "ore" : 5
+				   }
+
+			   },
+
+			   	"dwellingLvl7" : {
+					"requires#override" : [
+						"allOf",
+						[
+						   		"dwellingLvl6"
+						],
+						[
+							"anyOf",
+					   		[
+						   		"dwellingLvl5"
+					   		],
+					   		[
+								"dwellingLvl5B"
+					   		]
+						]
+
+					]
+				   
+				}
+			}
+		}
+	} 
+}
+
+

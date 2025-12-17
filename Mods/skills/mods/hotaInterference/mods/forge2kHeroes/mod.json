@@ -1,0 +1,35 @@
+{
+    "name" : "Heavenly Forge 2000 Heroes - HotA compatibility",
+
+    "description" : "Heroes from Forge 2k starting with Resitstance get Interference skill instead.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+    
+    "depends" : 
+	[
+        "hota.interference",
+		"forge2k"
+	],
+
+    "softDepends" : 
+	[
+        "pvp-balance.heroes.forge2kheroes"
+	],
+
+   "heroes": [
+   "config/forge2kHeroes.json"
+   ],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.4",
+	
+    "keepDisabled" : false
+}

@@ -1,60 +1,4 @@
 {  
-  "core:tomeOfAirMagic": {
-		"bonuses" : [
-			  {
-				  "type" : "SPELLS_OF_SCHOOL",
-				  "subtype" : "air",
-				  "val" : 0,
-				  "valueType" : "BASE_NUMBER"
-			  },
-			  {
-				  "subtype" : "spell.dimensionDoor",
-				  "type" : "SPELL"
-			  },
-			  {
-				  "subtype" : "spell.fly",
-				  "type" : "SPELL"
-			  }
-		  ],
-	  "type" : ["HERO"]
-		},
-		
-	  "core:tomeOfEarthMagic": {
-			"bonuses" : [
-					{
-						"type" : "SPELLS_OF_SCHOOL",
-						"subtype" : "earth",
-						"val" : 0,
-						"valueType" : "BASE_NUMBER"
-					},
-					{
-						"subtype" : "spell.townPortal",
-						"type" : "SPELL"
-					}
-				],
-			"type" : ["HERO"]
-		},
-
-    "core:spellbindersHat": {
-      "bonuses" : [
-              {
-                "subtype" : "spellLevel5",
-                "type" : "SPELLS_OF_LEVEL",
-                "val" : 3,
-                "valueType" : "BASE_NUMBER"
-              },
-              {
-                  "subtype" : "spell.dimensionDoor",
-                  "type" : "SPELL"
-              },
-              {
-                  "subtype" : "spell.fly",
-                  "type" : "SPELL"
-              }
-          ],
-      "type" : ["HERO"]
-      },
-
     "core:recantersCloak": {
       "class" : "SPECIAL"
     },
@@ -62,22 +6,6 @@
     "core:orbOfInhibition": {
       "class" : "SPECIAL"
     },
-      
-    "core:garnitureOfInterference": {
-        "class" : "SPECIAL"
-        },
-    
-    "core:surcoatOfCounterpoise": {
-        "class" : "SPECIAL"
-        },
-
-    "core:bootsOfPolarity": {
-      "class" : "SPECIAL"
-    },
-      
-    "hota.artifacts:sleepkeeper": {
-      "class" : "SPECIAL"
-     },
     
     "core:helmOfTheAlabasterUnicorn": {
       "class" : "SPECIAL"
@@ -105,8 +33,7 @@
   
       "core:ambassadorsSash": {
         "class" : "SPECIAL"
-      },
-  
+      },  
   
       "core:diplomatsRing": {
         "class" : "SPECIAL"
@@ -117,14 +44,6 @@
       },
 
       "core:equestriansGloves": {
-        "class" : "SPECIAL"
-      },
-
-      "core:ringOfConjuring": {
-        "class" : "SPECIAL"
-      },
-
-      "core:collarOfConjuring": {
         "class" : "SPECIAL"
       },
 
@@ -205,22 +124,33 @@
       },
   
       "core:endlessBagOfGold": {
-        "class" : "SPECIAL"
+        "bonuses" : [
+		  		{
+						"stacking" : "ALWAYS",
+						"subtype" : "resource.gold",
+						"type" : "GENERATE_RESOURCE",
+            "val" : 3000,
+						"valueType" : "BASE_NUMBER"
+		      }
+	      ]
       },
-  
-  
-      "core:endlessPurseOfGold": {
-        "class" : "SPECIAL"
-      },
-  
+    
       "core:endlessSackOfGold": {
-        "class" : "SPECIAL"
+        "class" : "RELIC",
+       	"bonuses" : [
+		  		{
+						"stacking" : "ALWAYS",
+						"subtype" : "resource.gold",
+						"type" : "GENERATE_RESOURCE",
+            "val" : 5000,
+						"valueType" : "BASE_NUMBER"
+		      }
+	      ]
       },
   
       "core:legsOfLegion": {
         "class" : "SPECIAL"
-      },
-          
+      },  
       
        "core:armsOfLegion": {
         "class" : "SPECIAL"
@@ -235,20 +165,6 @@
       },
       
       "core:loinsOfLegion": {
-        "class" : "SPECIAL"
-      },
-
-
-
-      "hota.artifacts:capeOfSilence": {
-        "class" : "SPECIAL"
-      },
-  
-      "hota.artifacts:charmOfEclipse": {
-        "class" : "SPECIAL"
-      },
-
-      "hota.artifacts:plateOfDyingLight": {
         "class" : "SPECIAL"
       },
 
@@ -284,22 +200,7 @@
 
       "core:statueOfLegion": {
         "components#override" : []
-      },
-
-      "hota.artifacts:goldenGoose": {
-        "components#override" : [],
-        "bonuses" : [
-         {
-           "subtype" : "resource.gold",
-           "type" : "GENERATE_RESOURCE",
-           "val" : 7000,
-           "valueType" : "BASE_NUMBER"
-         }
-       ]
-      }
-
-
-    
+      }    
   }
   
   

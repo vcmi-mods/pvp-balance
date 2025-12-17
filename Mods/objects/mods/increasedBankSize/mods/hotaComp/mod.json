@@ -1,0 +1,33 @@
+{
+    "name" : "Increased Bank Size - HotA compatibility",
+
+    "description" : "This mod increases average size of the following creature banks: Experimental Shop, Red Tower, Wolf Raider Picket.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+
+	"objects" :
+	[
+		"config/experimentalShop.json",
+		"config/redTower.json",
+		"config/wolfRaiderPicket.json"
+	],
+
+	"depends" :
+	[
+		"hota.mapObjects",
+		"hota.neutralcreatures"
+	],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.3",
+	
+    "keepDisabled" : false
+}

@@ -1,0 +1,99 @@
+{
+	"core:warriorTomb" :
+	{
+		"types" :
+		{
+			"warriorTomb" :
+			{		
+				"rewards" : [
+				   {
+					   "appearChance" : {
+						   "max" : 30
+					   },
+					   "artifacts" : [
+						   {
+							   "class" : "TREASURE"
+						   }
+					   ],
+					   "bonuses" : [
+						   {
+							   "description" : 104,
+							   "duration" : "ONE_BATTLE",
+							   "type" : "MORALE",
+							   "val" : -3
+						   }
+					   ],
+					   "message" : 162
+				   },
+				   {
+					   "appearChance" : {
+						   "max" : 80,
+						   "min" : 30
+					   },
+					   "artifacts" : [
+						   {
+							   "class" : "MINOR"
+						   }
+					   ],
+					   "bonuses" : [
+						   {
+							   "description" : 104,
+							   "duration" : "ONE_BATTLE",
+							   "type" : "MORALE",
+							   "val" : -3
+						   }
+					   ],
+					   "message" : 162
+				   },
+				   {
+					   "appearChance" : {
+						   "max" : 95,
+						   "min" : 80
+					   },
+					   "artifacts" : [
+						   {
+							   "class" : "MAJOR"
+						   }
+					   ],
+					   "bonuses" : [
+						   {
+							   "description" : 104,
+							   "duration" : "ONE_BATTLE",
+							   "type" : "MORALE",
+							   "val" : -3
+						   }
+					   ],
+					   "message" : 162
+				   },
+				   {
+					   "appearChance" : {
+						   "min" : 95
+					   },
+					   "artifacts" : [ "@relicArt" ],
+					   "bonuses" : [
+						   {
+							   "description" : 104,
+							   "duration" : "ONE_BATTLE",
+							   "type" : "MORALE",
+							   "val" : -3
+						   }
+					   ],
+					   "message" : 162
+				   }
+			   ],
+
+			   "variables" :
+				{
+					"artifact" :
+					{
+						"relicArt" :
+						{
+							"class" : "RELIC",
+							"noneOf" : [ "tomeOfAirMagic", "tomeOfEarthMagic", "angelWings", "spellbindersHat", "helmOfHeavenlyEnlightenment", "swordOfJudgement"]
+						}
+					}
+				}
+			}
+		}
+	}
+}

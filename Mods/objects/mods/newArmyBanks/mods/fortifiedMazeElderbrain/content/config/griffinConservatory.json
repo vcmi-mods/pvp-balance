@@ -1,0 +1,17 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"griffinConservatory" : {
+				
+				"rmg" : {
+					"zoneLimit" : 0
+				}
+				
+			}		
+		}
+	}
+
+
+}

@@ -1,0 +1,30 @@
+{
+    "name" : "ToW Alternative Creatures - Compatibility",
+
+    "description" : "Rebalanced cost/requirements of alternative creature buildings from Tides of War mod.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+   
+    "depends" : 
+	[
+		"tides-of-war.alternative-creatures"
+	],
+
+	"factions" :
+	[
+		"config/towFactions.json"
+	],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.4",
+	
+    "keepDisabled" : false
+}

@@ -1,0 +1,28 @@
+{
+    "name" : "ToW Artifacts - Compatibility",
+    "description" : "Rebalanced artifacts from Tides of War mod.",
+    "author" : "wnukos",
+    "contact" : "wnukos on Discord",
+    "modType" : "Compatibility",
+   
+    "artifacts": [
+        "config/towArtifacts.json"
+    ],
+
+   "spells": [
+        "config/towWandSpells.json"
+   ],
+
+   "depends" : [
+        "tides-of-war.artifacts",
+        "tides-of-war.spells"
+   ],
+
+    "compatibility" :{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.4",
+    
+    "keepDisabled" : false
+}

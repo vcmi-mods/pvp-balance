@@ -1,0 +1,34 @@
+{
+    "name" : "Reworked Luck and Morale",
+
+    "description" : "The mod expands the range of Luck and Morale to -4 at minimum and +4 at maximum. <br>Chances to trigger positive morale/luck effect are now 4.2, 8.3, 12.5, 16.7% at +1/2/3/4 morale/luck, respectively. Chances to trigger bad morale / luck effect are now 4.2, 8.3, 16.7, 25.0% at -1/2/3/4 morale / luck, respectively.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+
+    "modType" : "Mechanics",
+
+    "settings":
+	{
+        "combat":
+		{
+            "goodMoraleDice" : [ 24, 12, 8, 6 ],
+			"badMoraleDice" : [ 24, 12, 6, 4],
+            "goodLuckDice" : [ 24, 12, 8, 6 ],
+			"badLuckDice" : [24, 12, 6, 4]
+        }
+    },
+	
+    "compatibility" :
+	{
+	 "min" : "1.6"
+	},
+	
+    "version" : "1.4",
+	
+    "keepDisabled" : false
+}

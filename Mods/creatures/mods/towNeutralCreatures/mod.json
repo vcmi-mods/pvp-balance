@@ -1,0 +1,31 @@
+{
+    "name" : "ToW Neutral Creatures - Compatibility",
+
+    "description" : "Rebalanced neutral creatures from Tides of War mod.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+    
+    "depends" : 
+	[
+        "tides-of-war.neutral-creatures"
+
+	],
+
+   "creatures": [
+   "config/towNeutralCreatures.json"
+   ],
+
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.4",
+	
+    "keepDisabled" : false
+}

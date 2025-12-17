@@ -1,0 +1,20 @@
+{ 
+
+	"core:garnitureOfInterference":
+	{
+		"class" : "SPECIAL"
+	},
+
+	"core:surcoatOfCounterpoise":
+	{
+		"class" : "SPECIAL"
+	},
+
+	"core:bootsOfPolarity":
+	{
+		"class" : "SPECIAL"
+
+  	}
+}
+  
+  

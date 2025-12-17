@@ -165,7 +165,6 @@
   "class" : "SPECIAL"
 },
 
-
 "core:endlessPurseOfGold": {
   "class" : "SPECIAL"
 },
@@ -194,11 +193,9 @@
   "class" : "SPECIAL"
 },
 
-
 "core:orbOfDrivingRain": {
   "class" : "SPECIAL"
 },
-
 
 "core:orbOfTheFirmament": {
   "class" : "SPECIAL"
@@ -216,7 +213,6 @@
   "class" : "SPECIAL"
 },
 
-
 "core:diplomatsRing": {
   "class" : "SPECIAL"
 },
@@ -225,7 +221,6 @@
   "class" : "SPECIAL"
 },
 
-  
   "core:birdOfPerception": {
 	  "class" : "SPECIAL"
 	  },
@@ -238,47 +233,45 @@
 	  "class" : "SPECIAL"
 	  },
 
-	"hota.artifacts:sleepkeeper": {
-	  "class" : "SPECIAL"
-  },
-
-	"hota.artifacts:charmOfEclipse": {
-	  "class" : "SPECIAL"
-  },
-
-  "hota.artifacts:sealOfSunset": {
-	  "class" : "SPECIAL"
-  },
-    
   "core:armageddonsBlade": {
 	  "class" : "RELIC"
 	  },
 
-    "core:vialOfDragonBlood": {
+  "core:vialOfDragonBlood": {
 	  "class" : "RELIC"
 	  },
 
-    "hota.artifacts:goldenGoose": {
-      "components#override" : [],
-      "bonuses" : [
-       {
-         "subtype" : "resource.gold",
-         "type" : "GENERATE_RESOURCE",
-         "val" : 7000,
-         "valueType" : "BASE_NUMBER"
-       }
-     ]
-    },
-
-    "core:bowOfTheSharpshooter": {
+  "core:bowOfTheSharpshooter": {
       "components#override" : []
     },
 
-    "hota.artifacts:diplomatsCloak" : {
+  "core:cloakOfTheUndeadKing" : {
+    		"bonuses" : [
+			{
+				"type" : "IMPROVED_NECROMANCY",
+				"subtype" : "creature.skeleton",
+				"addInfo" : 0
+			},
+			{
+				"type" : "IMPROVED_NECROMANCY",
+				"subtype" : "creature.walkingDead",
+				"addInfo" : 1
+			},
+			{
+				"type" : "IMPROVED_NECROMANCY",
+				"subtype" : "creature.wight",
+				"addInfo" : 2
+			},
+			{
+				"type" : "IMPROVED_NECROMANCY",
+				"subtype" : "creature.lich",
+				"addInfo" : 3
+			}
+		],
       "components#override" : []
-      },
+    },
 
-    "core:cornucopia": {
+  "core:cornucopia": {
       "components#override" : [],
       "bonuses" : [
        {
@@ -306,26 +299,6 @@
          "valueType" : "BASE_NUMBER"
        }
      ]
-    },
-
-    "core:cloakOfTheUndeadKing" : {
-      "components#override" : []
-      },
-
-    "hota.artifacts:hornOfTheAbyss": {
-      "class" : "RELIC",
-      "bonuses#override" : [
-       {
-         "addInfo" : 0,
-         "subtype" : "creature.fangarm",
-         "type" : "IMPROVED_NECROMANCY"
-       },
-       {
-        "val" : 50,
-        "type" : "UNDEAD_RAISE_PERCENTAGE"
-      }
-      ]
-
     }
 
   }

@@ -1,0 +1,30 @@
+{
+    "name" : "Map Objects - HotA compatibility.",
+
+    "description" : "Compatibility of map objects with HotA mod.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+	
+	"objects" :
+	[
+		"config/ancientLamp.json"
+	],
+	
+	"depends" : 
+	[
+		"hota.mapObjects"
+	],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.4",
+	
+    "keepDisabled" : false
+}

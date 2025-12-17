@@ -1,0 +1,32 @@
+{
+    "name" : "Treant Thicket",
+
+    "description" : "This mod adds a new creature bank - Treant Thicket. The bank is guarded by Dendroid Soldiers and gives Unicorns as reward.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+
+	"objects" :
+	[
+		"config/treantThicket.json"
+	],
+
+	"depends" :
+	[
+		"pvp-balance.objects",
+		"pvp-balance.pvpTemplates.brawl.smallBanks",
+		"pvp-balance.objects.newArmyBanks.treantThicket"
+	],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.4",
+	
+    "keepDisabled" : false
+}

@@ -1,0 +1,15 @@
+{
+	"core:hillFort" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"hillFortHighlands" : { "animation" : "hillFort",
+						"mask" : [ "VVV", "VVV", "VBA" ], 
+						"visitableFrom" : [ "---", "-++", "+++" ],
+						"allowedTerrains":[ "highlands" ] 
+					}
+				}
+			}
+		}
+	}	
+}

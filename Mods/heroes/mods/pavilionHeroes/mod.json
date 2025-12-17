@@ -1,0 +1,33 @@
+{
+    "name" : "Pavilion Town Heroes - Compatibility",
+
+    "description" : "This mod bans Keila, Zamonth and Varn heroes from Pavilion Town and makes heroes from this town able to learn Air Magic.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+    
+    "depends" : 
+	[
+		"new-pavilion"
+	],
+
+   "heroes": [
+   "config/pavilionHeroes.json"
+   ],
+
+   "heroClasses": [
+    "config/pavilionHeroClasses.json"
+    ],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.4",
+	
+    "keepDisabled" : false
+}

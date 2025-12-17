@@ -15,38 +15,12 @@
 				"mines" : { "wood" : 1, "ore" : 1, "crystal" : 1, "mercury" : 1 },
 				"treasure" :
 				[
-					{ "min" : 1500, "max" : 9500, "density" : 7 },
-					{ "min" : 500, "max" : 2500, "density" : 10 }
+					{ "min" : 1500, "max" : 9500, "density" : 6 },
+					{ "min" : 500, "max" : 2500, "density" : 9 }
 				],
 				"customObjects" :
 					{
-					"bannedObjects" :["core:object.tradingPost", "core:object.tradingPostDUPLICATE", "core:object.obelisk"],
-					"commonObjects":
-					[
-					{
-					"id" : "core:object.creatureBank.griffinConservatory",
-					"rmg" : {
-					         
-					         "value"     : 4500,
-					         "rarity"    : 80
-					        }
-					},
-					{
-					"id" : "hota.mapobjects:object.creatureBank.redTower",
-					"rmg" : {
-					         "value"     : 4000,
-					         "rarity"    : 40
-					        }
-					},
-					{
-						"id" : "hota.mapobjects:object.creatureBank.spit",
-						"rmg" : {
-								 "value"     : 1500,
-								 "rarity"    : 50,
-								 "zoneLimit" : 3
-								}
-					}
-					]
+					"bannedObjects" :["core:object.tradingPost", "core:object.tradingPostDUPLICATE", "core:object.obelisk"]
 					}
 			},
 			"2" :
@@ -68,38 +42,12 @@
 				"mines" : { "wood" : 1, "ore" : 1, "sulfur" : 1, "gems" : 1, "gold" : 1},
 				"treasure" :
 				[
-					{ "min" : 3000, "max" : 9500, "density" : 6 },
+					{ "min" : 3000, "max" : 9500, "density" : 5 },
 					{ "min" : 500, "max" : 5000, "density" : 9 }
 				],
 				"customObjects" :
 					{
-					"bannedObjects" :["core:object.obelisk"],
-					"commonObjects":
-					[
-					{
-					"id" : "core:object.creatureBank.griffinConservatory",
-					"rmg" : {
-					         
-					         "value"     : 4500,
-					         "rarity"    : 80
-					        }
-					},
-					{
-					"id" : "hota.mapobjects:object.creatureBank.redTower",
-					"rmg" : {
-					         "value"     : 4000,
-					         "rarity"    : 40
-					        }
-					},
-					{
-						"id" : "hota.mapobjects:object.creatureBank.spit",
-						"rmg" : {
-								 "value"     : 1500,
-								 "rarity"    : 50,
-								 "zoneLimit" : 3
-								}
-					}
-					]
+					"bannedObjects" :["core:object.obelisk"]
 					}
 			},
 			"4" :
@@ -119,7 +67,7 @@
 				"mines" : { "wood" : 1, "ore" : 1, "gold" : 1 },
 				"treasure" :
 				[
-					{ "min" : 9000, "max" : 12000, "density" : 2 },
+					{ "min" : 9000, "max" : 12000, "density" : 1 },
 					{ "min" : 3000, "max" : 10000, "density" : 4 },
 					{ "min" : 1500, "max" : 5000, "density" : 8 }
 				],
@@ -134,8 +82,8 @@
 				"mines" : {"sulfur" : 1, "gems" : 1, "crystal" : 1, "mercury" : 1},
 				"treasure" :
 				[
-					{ "min" : 9000, "max" : 20000, "density" : 2 },
-					{ "min" : 5000, "max" : 10000, "density" : 7 },
+					{ "min" : 9000, "max" : 20000, "density" : 1 },
+					{ "min" : 5000, "max" : 10000, "density" : 6 },
 					{ "min" : 3000, "max" : 5000, "density" : 10 }
 				],
 				"customObjectsLikeZone" : 3

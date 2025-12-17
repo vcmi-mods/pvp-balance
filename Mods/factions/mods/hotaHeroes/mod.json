@@ -1,0 +1,30 @@
+{
+    "name" : "HotA Heroes - Compatibility",
+
+    "description" : "Corrected starting armies for Kinkeria and Beatrice from Horn of the Abyss mod.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+    
+    "depends" : 
+	[
+        "hota.heroes"
+	],
+
+   	"heroes" :
+	[
+		"config/hotaStartingArmies.json"
+    ],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.4",
+	
+    "keepDisabled" : false
+}

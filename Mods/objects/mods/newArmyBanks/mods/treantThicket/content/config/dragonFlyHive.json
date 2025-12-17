@@ -1,0 +1,17 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"dragonFlyHive" : {
+				
+				"rmg" : {
+					"zoneLimit" : 0
+				}
+				
+			}
+
+		}
+		
+	}
+}

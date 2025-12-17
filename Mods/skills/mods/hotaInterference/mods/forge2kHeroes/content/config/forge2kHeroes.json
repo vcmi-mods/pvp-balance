@@ -1,0 +1,74 @@
+{
+	
+  "forge2k:cyb_deckard2k":
+	{
+		
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			},
+			{
+				"level" : "basic",
+				"skill" : "interference"
+			}
+		]
+		
+		
+	},
+
+"forge2k:tp_cistrict2k":
+	{
+		
+		"texts" :
+		{
+			"name" : "Cistrict",
+			"biography" : "Cistrict's abilities and great ambition brought upon him the wrath of many Nighon Warlocks. When the Heavenly Forge blazed anew, he found himself before its gates, to seek restoration of the body ravaged by magic duels.",
+			"specialty" :
+			{
+				"description" : "{Interference}\r\n\r\nReceives a 5% per level bonus to Interference skill percentage.",
+				"tooltip" : "Secondary Skill Bonus: Interference",
+				"name" : "Interference"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtyLarge" : "interfSpecLarge.png",
+			"specialtySmall" : "interfSpecSmall.png"
+		},
+		
+		"skills" : 
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			
+			{
+				"level" : "basic",
+				"skill" : "interference"
+			}
+		],
+		
+		"specialty#override" : {
+			"bonuses" : {
+				"interference" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.spellpower",
+					"val" : -15,
+					"valueType" : "PERCENT_TO_BASE",
+					"updater" : {
+						"type" : "GROWS_WITH_LEVEL",
+					   "parameters" : [ 10 ]
+					},
+					"propagator": "BATTLE_WIDE",
+					"limiters" : [ "OPPOSITE_SIDE" ]
+				}
+			}
+		}
+	}
+	
+
+	
+}

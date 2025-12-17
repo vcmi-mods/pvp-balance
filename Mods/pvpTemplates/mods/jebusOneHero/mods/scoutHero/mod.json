@@ -1,7 +1,7 @@
 {
     "name" : "Scout Hero",
 
-    "description" : "With this submod a second hero can be bought, but only one hero can be present on the map.",
+    "description" : "With this submod player can buy a second hero, however limit of heroes on the map for each player remains equal to 1.",
 
     "author" : "wnukos",
 
@@ -21,6 +21,6 @@
         }
     },
 	
-    "version" : "1.0.0",
-    "keepDisabled" : true
+    "version" : "1.4",
+    "keepDisabled" : false
 }

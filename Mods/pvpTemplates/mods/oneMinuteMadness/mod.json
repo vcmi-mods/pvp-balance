@@ -1,7 +1,7 @@
 {
     "name" : "One minute madness",
 
-    "description" : "PvP templates.",
+    "description" : "A dynamic template designed specifically for games with one-minute turn timer.<br><br><u>Recommended settings:</u><br><br>Size: L<br>Players: 2<br>Monsters: strong<br>Roads: slow<br>Water: none<br>Difficulty: 160%<br>Simultaneous turns: none<br>Timer: 1-1-2<br>Restarts: 2x111/1x112",
 
     "author" : "wnukos",
 
@@ -18,11 +18,10 @@
 
     "depends" : 
 	[
-		"hota",
         "hota.mapObjects",
-        "hota.gameBalance",
         "hota.highlandsTerrain",
         "hota.mapdecorations",
+        "hota.artifacts",
         "hota.cove",
         "hota.interference",
         "pvp-balance.objects"
@@ -33,26 +32,20 @@
       "pvp-balance.pvpTemplates.6lm10a",
       "pvp-balance.pvpTemplates.brawl",
       "pvp-balance.pvpTemplates.arena",
-      "pvp-balance.pvpTemplates.jebusCrossPlus",
+      "pvp-balance.pvpTemplates.jebusCross",
       "pvp-balance.pvpTemplates.nostalgia",
       "pvp-balance.pvpTemplates.jebusOneHero",
       "pvp-balance.pvpTemplates.papichM200",
       "pvp-balance.pvpTemplates.vietnameseDiplomacy",
-      "pvp-balance.spells.townPortalRework",
-      "pvp-balance.objects.newGenericObjects.controlShrines" 
+      "pvp-balance.spells.townPortalRework"
     ],
 
     "softDepends":
     [
-        "pvp-balance.heroes.basicHeroBalance",
-        "pvp-balance.heroes.extendedHeroBalance",
+        "pvp-balance.heroes",
         "pvp-balance.artifacts",
-        "pvp-balance.artifacts.basicArtifactBalance",
-        "pvp-balance.artifacts.extendedArtifactBalance",
         "pvp-balance.spells",
-        "pvp-balance.spells.controlSpells",
-        "pvp-balance.spells.basicSpellBalance",
-        "pvp-balance.spells.extendedSpellBalance"
+        "pvp-balance.spells.controlSpells"
 	],
 
     "artifacts": [
@@ -67,6 +60,6 @@
         "config/heroes.json"
     ],  
 	
-    "version" : "1.3",
+    "version" : "1.4",
     "keepDisabled" : true
 }

@@ -1,0 +1,44 @@
+{
+
+	"hota.heroes:kinkeria" :
+	{
+		"army" : [
+			{
+				"creature" : "gnoll",
+				"min" : 18,
+				"max" : 24
+			},
+			{
+				"creature" : "lizardman",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "serpentFly",
+				"min" : 4,
+				"max" : 5
+			}
+		]
+	},
+
+	"hota.heroes:beatrice":
+	{
+		"army" : [
+			{
+				"creature" : "pikeman",
+				"min" : 14,
+				"max" : 20
+			},
+			{
+				"creature" : "archer",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "griffin",
+				"min" : 4,
+				"max" : 5
+			}
+		]
+	}
+}

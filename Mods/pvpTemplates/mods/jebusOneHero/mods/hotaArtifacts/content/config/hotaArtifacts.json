@@ -1,0 +1,24 @@
+{
+      "core:endlessBagOfGold": {
+        "class" : "SPECIAL"
+      },
+    
+      "core:endlessSackOfGold": {
+        "class" : "SPECIAL"
+      },
+
+    "hota.artifacts:goldenGoose": {
+      "components#override" : [],
+      "bonuses" : [
+       {
+         "subtype" : "resource.gold",
+         "type" : "GENERATE_RESOURCE",
+         "val" : 7000,
+         "valueType" : "BASE_NUMBER"
+       }
+     ]
+    }
+
+  }
+  
+  

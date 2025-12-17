@@ -1,0 +1,34 @@
+{
+    "name" : "Pavilion Town - Compatibility",
+
+    "description" : "Rebalanced starting army rolls and buildings for Pavilion Town.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+    
+    "depends" : 
+	[
+		"new-pavilion"
+	],
+
+   "heroes": [
+   "config/pavilionStartingArmies.json"
+   ],
+
+   "factions": [
+    "config/pavilionFaction.json"
+    ],
+
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.4",
+	
+    "keepDisabled" : false
+}

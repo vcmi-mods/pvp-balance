@@ -1,0 +1,14 @@
+{
+	"name" : "New Gold Banks",
+	"description" : "This mod adds several new creature banks offering gold, artifacts and other bonuses as reward.",
+	"author" : "wnukos",
+	"contact" : "wnukos on Discord",
+	"modType" : "Compatibility",
+	"compatibility" : { "min" : "1.6.3" },
+	"depends" :
+	[
+		"pvp-balance.objects.newGoldBanks"
+	],
+	"version" : "1.4",
+	"keepDisabled" : false
+}

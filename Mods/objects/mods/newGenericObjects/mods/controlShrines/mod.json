@@ -1,7 +1,7 @@
 {
     "name" : "Control shrines",
 
-    "description" : "The mod introduces three new Shrine objects that allow to obtain Town Portal, Dimension Door or both spells.<br><br>Graphics made by Andruids.",
+    "description" : "The mod introduces three new Shrine objects that allow to obtain Town Portal, Fly or Dimension Door.<p style='font-size:12px; color:#333333;'><u>Shrine of Sylvan Wisdom</u></p>Value: 12000<br>Rarity: 20<br>Zone limit: 1<br>Map limit: 4<br><br>Allows the hero to learn Town Portal spell for 3 turns in exchange for 1000 gold and 2 of each rare resource. Can be visited once per week.<p style='font-size:12px; color:#333333;'><u>Shrine of Aeolian Wisdom</u></p>Value: 12000<br>Rarity: 20<br>Zone limit: 1<br>Map limit: 4<br><br>Allows the hero to learn Fly spell for 3 turns in exchange for 2000 gold and 4 of each rare resource. Can be visited once per week.<p style='font-size:12px; color:#333333;'><u>Divine Shrine</u></p>Value: 16000<br>Rarity: 20<br>Zone limit: 1<br>Map limit: 2<br><br>Allows the hero to learn Dimension Door. Requires at least 15. level or knowledge of two magic schools at expert level. Can be visited only once.",
 
     "author" : "wnukos, Andruids",
 
@@ -11,9 +11,9 @@
 	
 	"objects" :
 	[
-		"config/genericObjects/tpShrine.json",
-		"config/genericObjects/ddShrine.json",
-		"config/genericObjects/flyShrine.json"
+		"config/tpShrine.json",
+		"config/ddShrine.json",
+		"config/flyShrine.json"
 	],
 
 	"compatibility" :
@@ -21,7 +21,7 @@
 		"min" : "1.6"
 	},
 	
-	    "version" : "1.3",
+	    "version" : "1.4",
 	
-    "keepDisabled" : true
+    "keepDisabled" : false
 }

@@ -1,0 +1,30 @@
+{
+    "name" : "Dragon Utopia Rework",
+
+    "description" : "With this mod Tome of Air Magic and Spellbinder’s Hat can be obtained only from size 3 and 4 Dragon Utopia.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Objects",
+
+	"objects" :
+	[
+		"config/reworkedDragonUtopia.json"
+	],
+
+	"softDepends" :
+	[
+		"pvp-balance.objects.increasedBankSize"
+	],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.4",
+	
+    "keepDisabled" : true
+}

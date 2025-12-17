@@ -1,5 +1,5 @@
 {
-    "name" : "Heavenly Forge 2000 Creatures",
+    "name" : "Heavenly Forge 2000 Creatures - Compatibility",
 
     "description" : "Rebalanced creatures from Heavenly Forge 2000 mod.",
 
@@ -15,11 +15,11 @@
 	],
 
    "creatures": [
-   "config/creatures.json"
+   "config/forge2kCreatures.json"
    ],
 
    "spells": [
-    "config/spells.json"
+    "config/forge2kSpells.json"
     ],
 
 	"compatibility" :
@@ -27,7 +27,7 @@
 		"min" : "1.6"
 	},
 	
-    "version" : "1.3",
+    "version" : "1.4",
 	
     "keepDisabled" : false
 }

@@ -1,0 +1,33 @@
+{
+    "name" : "Pavilion Town Creatures - Compatibility",
+
+    "description" : "Rebalanced creatures from Pavilion Town mod.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+    
+    "depends" : 
+	[
+		"new-pavilion"
+	],
+
+   "creatures": [
+   "config/pavilionCreatures.json"
+   ],
+
+    "spells": [
+   "config/pavilionSpells.json"
+   ],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.4",
+	
+    "keepDisabled" : false
+}

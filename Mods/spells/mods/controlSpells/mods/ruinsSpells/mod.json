@@ -1,0 +1,28 @@
+{
+	"name" : "Control Spells - Ruins Town Compatibility",
+	"description" : "Probability of appearing Town Portal in mage guild of Ruins Town is increased.",
+	"author" : "wnukos",
+
+	"contact" : "wnukos on Discord",
+	
+	"modType" : "Compatibility",	
+
+	"spells" :
+	[
+		"config/ruinsSpells.json"
+	],
+
+	"depends": [
+		"ruins-town"
+	],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+	    "version" : "1.4",
+	
+	"keepDisabled" : false
+
+}

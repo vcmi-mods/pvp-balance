@@ -1,0 +1,36 @@
+{
+    "name" : "Buildings limit",
+
+    "description" : "This submod allows to build two buildings per day.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+
+    "modType" : "Mechanics",
+
+    "polish" : {
+        "name" : "Buildings limit",
+        "description" : "Submod pozwala budować dwa budynki dziennie."
+        },
+
+    "settings":
+	{
+        "towns":
+		{
+			"buildingsPerTurnCap" : 2
+        }
+    },
+	
+    "compatibility" :
+	{
+	 "min" : "1.6"
+	},
+	
+    "version" : "1.4",
+	
+    "keepDisabled" : true
+}

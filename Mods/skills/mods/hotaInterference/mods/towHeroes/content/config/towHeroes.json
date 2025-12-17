@@ -1,0 +1,14 @@
+{
+    "tides-of-war.heroes:mdtGaluum":{
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "interference",
+				"level" : "basic"
+			}
+		]
+	}
+}

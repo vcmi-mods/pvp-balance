@@ -1,0 +1,30 @@
+{
+    "name" : "Seminarium",
+
+    "description" : "<p style='font-size:12px; color:#333333;'><u>Seminarium</u></p>The bank is ported from Tides of War mod (by MDT) and rebalanced.<br><br>Value: 3500<br>Rarity: 80<br><br>Size 1: guarded by 5x4 Crusaders, gives 1 Paladin (15%)<br>Size 2: guarded by 5x8 Crusaders, gives 2 Paladins (35%)<br>Size 3: guarded by 5x12 Crusaders, gives 3 Paladins (35%)<br>Size 4: guarded by 5x16 Crusaders, gives 4 Paladins (15%)<br><br>If HotA mod is enabled, Seminarium substitutes Experimental Shop.",
+
+    "author" : "wnukos, Mod Design Team",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Objects",
+
+	"objects" :
+	[
+		"config/seminarium.json"
+	],
+
+	"depends" :
+	[
+		"pvp-balance.objects"
+	],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.4",
+	
+    "keepDisabled" : false
+}

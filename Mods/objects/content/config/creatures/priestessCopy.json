@@ -23,7 +23,7 @@
 		"attack" : 11,
 		"defense" : 13,
 		"hitPoints" : 40,
-		"shots" : 12,
+		"shots" : 24,
 		"speed" : 7,
 		"damage" :
 		{
@@ -41,25 +41,26 @@
 			"shooter": {
 				"type":"SHOOTER"
 			},
-			"magic": {
-				"type": "MAGIC_MIRROR",
-				"val": 50
+			"magicResistance" : {
+				"subtype" : "spellSchool.any",
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"val" : 50
 			},
 			"spellPower" : 
 			{
 				"type" : "CREATURE_ENCHANT_POWER",
-				"val" : 6
+				"val" : 2
 			},
 			"spellPoints" : 
 			{
 				"type" : "CASTS",
-				"val" : 2
+				"val" : 1
 			},
 			"spellcaster":
 			{
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.forceField",
-				"val" : 2,
+				"val" : 1,
 				"valueType" : "INDEPENDENT_MAX"
 			}
 		},

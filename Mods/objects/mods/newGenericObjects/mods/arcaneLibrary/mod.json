@@ -1,9 +1,9 @@
 {
     "name" : "Arcane Library",
 
-    "description" : "The mod introduces a new object - Arcane Library - that allows to buy spells.<br><br>Graphics made by Kurek.",
+    "description" : "<p style='font-size:12px; color:#333333;'><u>Arcane Library</u></p>Value: 9000<br>Rarity: 30<br>Zone Limit: 1<br><br>In Arcane Library each hero can learn one of two offered level 4 spells for 2000 gold. Each week new spells are offered. Town Portal cannot be learned here.",
 
-    "author" : "wnukos, Kurek",
+    "author" : "wnukos, Kurek (graphics)",
 
     "contact" : "wnukos on Discord",
 
@@ -14,18 +14,12 @@
 		"config/arcaneLibrary.json"
 	],
 
-	"depends" : 
-	[
-        "hota.highlandsTerrain",
-        "hota.wastelandTerrain"
-    ],
-
 	"compatibility" :
 	{
 		"min" : "1.6"
 	},
 	
-	    "version" : "1.3",
+	    "version" : "1.4",
 	
     "keepDisabled" : false
 }

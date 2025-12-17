@@ -1,7 +1,7 @@
 {
     "name" : "Objects",
 
-    "description" : "Modified, new and alternative objects for PvP.",
+    "description" : "<p style='font-size:12px; color:#333333;'><u>Banned objects:</u></p>Sanctuary, Hill Fort, Cartograhper, Cover of Darkness.<p style='font-size:12px; color:#333333;'><u>Modified objects:</u></p>1) <b>Warrior's Tomb</b> - Tome of Air Magic, Tome of Earth Magic, Spellbinder's Hat, Angel Wings, Helm of Heavenly Enlightenment and Sword of Judgements cannot be obtained.<br>2) <b>Scholar</b> - only t1 - t3 spells can be obtained.<br>3) <b>Swan Pond</b> - takes only 500 movement points.<br>4) <b>Fountain of Fortune</b> - gives +1, +2 or +3 Luck for the next battle (60, 30 and 10% chance, respectively).<br> 5) <b>Stables</b> - gies 300 movement points bonus until the end of the week. The change applies also to Stables building in Castle.<br>6) <b>Spell Scrolls</b> with t4 and t5 spells - value changed to 8k and 10k, respectively. Scrolls containing Dimension Door and Fly are of 20k value.<br>7) Adjusted value of: Imp Cache, Trading Post, Obelisk Freelancer's Guild and Shrines of Magic.<br>",
 
     "author" : "wnukos",
 
@@ -12,50 +12,69 @@
 
     "modType" : "Objects",
 
-	"polish" : {
-        "name" : "Objects",
-        "description" : "Zmodyfikowane, nowe i alternatywne obiekty dla PvP."
-        },
-
-	
+		"softDepends" : 
+	[
+		"hota.gameBalance"
+	],
 	
 	"objects" :
-	[
-		"config/supplementaryObjects/fivePandora.json",
-		"config/supplementaryObjects/tenPandora.json",
-		"config/supplementaryObjects/flyScrollObject.json",
-		"config/supplementaryObjects/dimensionDoorScrollObject.json",
-		"config/supplementaryObjects/townPortalScrollObject.json",
+	[	
+		"config/supplementaryObjects/gremlinhold.json",
+		"config/supplementaryObjects/bogHermit.json",
 		"config/supplementaryObjects/5kGoldPandora.json",
 		"config/supplementaryObjects/10kGoldPandora.json",
 		"config/supplementaryObjects/15kGoldPandora.json",
 		"config/supplementaryObjects/20kGoldPandora.json",
-		"config/supplementaryObjects/azureDragonPandora.json"
+		"config/supplementaryObjects/5kExpPandora.json",
+		"config/supplementaryObjects/10kExpPandora.json",
+		"config/supplementaryObjects/magicUniversityWithAllMagicSchools.json",
+		"config/supplementaryObjects/azureDragonPandora.json",
+		"config/scrolls/level5ScrollObject.json",
+		"config/scrolls/dimensionDoorScrollObject.json",
+		"config/scrolls/flyScrollObject.json",
+		"config/scrolls/townPortalScrollObject.json",
+		"config/scrolls/controlScrollObject.json",
+		"config/objectBalance/stables.json",
+		"config/objectBalance/nagaBank.json",
+		"config/objectBalance/scholar.json",
+		"config/objectBalance/warriorsTomb.json",
+		"config/objectBalance/swanPond.json",
+		"config/objectBalance/fountainOfFortune.json",
+		"config/objectBalance/bannedObjects.json",
+		"config/objectBalance/objectsRefusable.json",
+		"config/objectBalance/objectsRmgValues.json"
 	],
+
+	"factions":
+    [
+        "config/objectBalance/factions.json"
+    ],
 
 	"artifacts" :
 	[
-		"config/supplementaryObjects/flyScroll.json",
-		"config/supplementaryObjects/dimensionDoorScroll.json",
-		"config/supplementaryObjects/townPortalScroll.json"
-	],
-
-	"spells" :
-	[
-		"config/spells/grappleCopy.json"
+		"config/scrolls/flyScroll.json",
+		"config/scrolls/dimensionDoorScroll.json",
+		"config/scrolls/townPortalScroll.json",
+		"config/scrolls/airElementalScroll.json",
+        "config/scrolls/waterElementalScroll.json",
+        "config/scrolls/earthElementalScroll.json",
+        "config/scrolls/fireElementalScroll.json",
+		"config/scrolls/sacrificeScroll.json",
+		"config/scrolls/magicMirrorScroll.json",
+		"config/scrolls/implosionScroll.json"
 	],
 
 	"creatures": [
-        "config/creatures/alhoonCopy.json",
 		"config/creatures/illithidCopy.json",
+		"config/creatures/alhoonCopy.json",
 		"config/creatures/kelpieCopy.json",
 		"config/creatures/eldrichtKelpieCopy.json",
 		"config/creatures/grandPerytonCopy.json",
-		"config/creatures/priestessCopy.json",
 		"config/creatures/forestWitchCopy.json",
-		"config/creatures/ogreMageCopy.json"
-
-		
+		"config/creatures/priestessCopy.json",
+		"config/creatures/ogreMageCopy.json",
+		"config/creatures/templarCopy.json",
+		"config/creatures/paladinCopy.json"
         ],
 
 	"battlefields": [
@@ -65,15 +84,15 @@
 		"config/battlefields/fortifiedMazeBattlefield.json",
 		"config/battlefields/elderbrainBattlefield.json",
 		"config/battlefields/demonCaveBattlefield.json",
-		"config/battlefields/dangerousCaveBattlefield.json"
-
+		"config/battlefields/dangerousCaveBattlefield.json",
+		"config/battlefields/goldenUtopiaBattlefield.json"
 	],
 
 	"settings" : {
         "combat":{
 
 		    "layouts" :
-		{
+			{
 			
 			"treantThicket" : {
 					"tacticsAllowed" : false,
@@ -93,24 +112,21 @@
 					"defenderUnits": [ 15, 185, 171, 1, 100, 86, 8 ]
 				}
 			
-		}
-        }
-    },
+			}
+        },
 
-	"depends" : 
-	[
-		"hota.mapDecorations",
-		"hota.highlandsTerrain",
-		"hota.wastelandTerrain",
-		"hota.gameBalance"
-	],
+		"markets" : 
+		{
+			"blackMarketRestockPeriod" : 14
+		}
+    },
 
 	"compatibility" :
 	{
 		"min" : "1.6"
 	},
 	
-    "version" : "1.3",
+    "version" : "1.4",
 	
     "keepDisabled" : false
 }

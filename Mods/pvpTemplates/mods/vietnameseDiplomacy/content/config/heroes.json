@@ -59,13 +59,6 @@
 	"core:erdamon": {"special":true},
 	"core:kalt": {"special":true},
 	"core:aenain": {"special":true},
-	"hota.cove:06leena": {"special":true},
-	"hota.cove:12casmetra": {"special":true},
-	"hota.cove:15andal": {"special":true},	
-	"hota.cove:16manfred": {"special":true},
-	"hota.cove:18astra": {"special":true},
-	"hota.cove:19dargem": {"special":true},
-	"hota.heroes:kinkeria": {"special":true},
 	"core:thorgrim": {"special":false},
 	"core:galthran": {"special":false},
 	"core:sirMullich": {"special":false},
@@ -79,8 +72,6 @@
 	"core:roland": {"special":false},
 	"core:mutareDrake": {"special":false},
 	"core:boragus": {"special":false},
-	"core:xeron": {"special":false},
-	"hota.cove:10bidley": {"special":false},
-	"hota.cove:11tark": {"special":false}
+	"core:xeron": {"special":false}
 
 }

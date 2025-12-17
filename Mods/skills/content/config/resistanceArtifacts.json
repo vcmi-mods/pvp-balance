@@ -1,0 +1,45 @@
+{ 
+	"core:garnitureOfInterference":
+	{
+		"bonuses" : [
+			{
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "spellSchool.any",
+				"val" : 5
+			}
+		],
+		"text" : {
+			"description" : "{Garniture of Interference}\n\nWorn around the neck, this item reduces damage from spells inflicted against the hero's troops by 5%."
+		}
+	},
+
+		"core:surcoatOfCounterpoise":
+	{
+		"bonuses" : [
+			{
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "spellSchool.any",
+				"val" : 10
+			}
+		],
+		"text" : {
+			"description" : "{Surcoat of Counterpoise}\n\nWorn about the shoulders, this item reduces damage from spells inflicted against the hero's troops by 10%."
+		}
+	},
+
+		"core:bootsOfPolarity":
+	{
+		"bonuses" : [
+			{
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "spellSchool.any",
+				"val" : 15
+			}
+		],
+		"text" : {
+			"description" : "{Boots of Polarity}\n\nWorn on the feet, these boots reduce damage from spells inflicted against the hero's troops by 15%."
+		}
+	}
+  }
+  
+  

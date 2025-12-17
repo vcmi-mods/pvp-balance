@@ -74,15 +74,20 @@
 			}
 		}
 	},
+
+	"depends":
+	[
+		"pvp-balance"
+	],
+
 	"softDepends":
 	[
 		"pvp-balance.spells",
-        "pvp-balance.spells.basicSpellBalance",
-        "pvp-balance.spells.extendedSpellBalance",
 		"pvp-balance.artifacts",
-        "pvp-balance.artifacts.basicArtifactBalance",
-        "pvp-balance.artifacts.extendedArtifactBalance"
+		"pvp-balance.gameMechanics"
+		
 	],
+
 	"spells" :
 	[
 		"config/spells/townPortal.json",
@@ -94,6 +99,7 @@
 		"config/spells/fly.json",
 		"config/spells/dimensionDoor.json"
 	],
+
 	"artifacts" :
 	[
 		"config/artifacts/titansGladius.json", // enemies hit with power 1 chain lightning after attack
@@ -111,16 +117,18 @@
 		"config/artifacts/tomeOfWaterMagic.json", // summon Water for opp on turn 1
 		"config/artifacts/spellbindersHat.json" // also gives level 5 spells to the opponent
 	],
+	
 	"conflicts" :
 	[
 		"pvp-balance.pvpTemplates.oneMinuteMadness",
 		"pvp-balance.pvpTemplates.vietnameseDiplomacy",
 		"pvp-balance.pvpTemplates.jebusOneHero",
 		"pvp-balance.pvpTemplates.6lm10a",
-		"pvp-balance.pvpTemplates.jebusCrossPlus",
+		"pvp-balance.pvpTemplates.jebusCross",
 		"pvp-balance.pvpTemplates.nostalgia",
 		"pvp-balance.pvpTemplates.papichM200",
 		"pvp-balance.pvpTemplates.brawl",
-		"pvp-balance.spells.controlSpells"
+		"pvp-balance.spells.controlSpells",
+		"pvp-balance.spells.townPortalRework"
 	]
 }

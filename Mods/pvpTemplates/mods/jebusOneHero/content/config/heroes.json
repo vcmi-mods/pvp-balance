@@ -1,7 +1,6 @@
 {
     "core:sylvia": {"special":true},
 	"core:voy": {"special":true},
-	"hota.cove:04elmore": {"special":true},
 	"core:valeska": {"special":true},
 	"core:cuthbert": {"special":true},
 	"core:mephala": {"special":true},
@@ -31,13 +30,6 @@
 	"core:kilgor": {"special":true},
 	"core:undeadHaart": {"special":true},
 	"core:mutare": {"special":true},
-	"hota.cove:08cassiopeia": {"special":true},
-	"hota.cove:03illor": {"special":true},
-	"hota.cove:09miriam": {"special":true},
-	"hota.cove:10bidley": {"special":true},
-	"hota.cove:11tark": {"special":true},
-	"hota.heroes:beatrice": {"special":true},
-
 	"core:adrienne": {"special":false},
 	"core:boragus": {"special":false},
 	"core:roland": {"special":false},

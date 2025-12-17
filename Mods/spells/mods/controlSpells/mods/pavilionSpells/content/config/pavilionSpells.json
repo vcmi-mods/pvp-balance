@@ -1,0 +1,64 @@
+{
+	
+	"core:townPortal" : {
+		"gainChance":
+		{
+			"new-pavilion:pavilion" : 30
+		}
+	},
+	
+	"core:fireShield" : {
+		"gainChance":
+		{
+			"new-pavilion:pavilion" : 0
+		}
+	},
+
+	"core:counterstrike" : {
+		"gainChance":
+		{
+			"new-pavilion:pavilion" : 0
+		}
+	},
+	
+	"core:inferno" : {
+		"gainChance":
+		{
+			"new-pavilion:pavilion" : 0
+		}
+	},
+	
+	"core:clone" : {
+		"gainChance":
+		{
+			"new-pavilion:pavilion" : 0
+		}
+	},
+	
+	"core:slayer" : {
+		"gainChance":
+		{
+			"new-pavilion:pavilion" : 0
+		}
+	},
+
+	"core:sorrow" : {
+		"gainChance":
+		{
+			"new-pavilion:pavilion" : 0
+		}
+	},
+
+	"core:frenzy" : {
+		"gainChance":
+		{
+			"new-pavilion:pavilion" : 0
+		}
+	}
+}
+
+	
+	
+	
+	
+	

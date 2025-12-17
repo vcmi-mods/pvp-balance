@@ -1,0 +1,354 @@
+{
+	"core:conflux" :
+	{	
+		"town" :
+		{
+			"buildings" :
+			{	
+				"dwellingUpLvl1": 
+				{ 
+					"requires#override" : [ "allOf", [ "horde1" ] ]
+				},
+
+				"resourceSilo": { 
+					"produce": { "mercury": 3 },
+					"description": "The Resource Silo provides you with an additional +3 mercury each day."
+			 	},
+
+				"dwellingLvl7" : {
+				   "cost" : {
+					   "gold" : 15000,
+					   "mercury" : 20,
+					   "ore" : 10,
+					   "wood" : 10
+				   }
+			   }
+			}
+		}
+	},
+
+	"core:stronghold" :
+	{	
+		"town" :
+		{
+			"buildings" :
+			{	
+				"resourceSilo": { 
+					"produce": { "ore": 3, "wood": 3 },
+					"description": "The Resource Silo provides you with an additional +3 wood and +3 ore each day."
+			 	},
+				"dwellingLvl4" : {
+				"cost" : {
+					"wood" : 10
+					}
+				},
+
+				"dwellingLvl6" : {
+				"cost" : {
+					"ore" : 10,
+					"crystal": null
+					}
+				},
+				"dwellingUpLvl6": { "cost": { "crystal": 10 } }
+			}
+		}
+	},
+
+	"core:castle" :
+	{	
+		"town" :
+		{
+			"buildings" :
+			{	
+				"resourceSilo": { 
+					"produce": { "ore": 3, "wood": 3 },
+					"description": "The Resource Silo provides you with an additional +3 wood and +3 ore each day."
+			 		},
+
+				"dwellingLvl3" : {
+					"requires#override" : ["dwellingLvl1"]
+				},
+
+				"dwellingLvl5" : {
+					"requires#override" : ["allOf", ["dwellingLvl1"], ["dwellingLvl2"], ["mageGuild1"]]
+				},
+
+				"dwellingLvl7" : {
+					"requires#override" : ["allOf", ["dwellingLvl4"], ["dwellingLvl5"]]
+				},
+
+				"special2" : {
+				   "configuration" : {
+					   "rewards" : [
+						   {
+							   "bonuses" : [
+								   {
+									   "duration" : "ONE_WEEK",
+									   "stacking" : "stables",
+									   "subtype" : "heroMovementLand",
+									   "type" : "MOVEMENT",
+									   "val" : 300,
+									   "valueType" : "ADDITIVE_VALUE"
+								   }
+							   ],
+							   "message" : "@core.genrltxt.580",
+							   "movePoints" : 300
+						   }
+					   ],
+					   "visitMode" : "bonus"
+				   }
+			   }
+			}
+		}
+	},
+
+	"core:fortress" :
+	{	
+		"town" :
+		{
+			"buildings" :
+			{	
+				"resourceSilo": { 
+					"produce": { "ore": 3, "wood": 3 },
+					"description": "The Resource Silo provides you with an additional +3 wood and +3 ore each day."
+			 		},
+
+				"dwellingUpLvl5" : {
+					"cost" : {
+						   "gold" : 3000,
+						   "ore" : 5,
+						   "sulfur" : 0,
+						   "wood" : 5
+					   },
+					   "requires#override" : [
+						   "allOf",
+						   ["marketplace"],
+						   ["dwellingLvl4"]
+					   ],
+					   "upgrades" : "dwellingLvl5"
+				   }
+			}
+		}
+	},
+
+	"core:inferno" :
+	{	
+		"town" :
+		{
+			"buildings" :
+			{	
+				"resourceSilo": { 
+					"produce": { "mercury": 3 },
+					"description": "The Resource Silo provides you with an additional +3 mercury each day."
+			 		},
+
+				"special3" : {
+					"cost" : {
+						"gold" : 5000,
+						"ore" : 5,
+						"wood" : 5
+					    }
+				    },
+
+				"special2": { 
+					"cost" :{
+						"sulfur" : 4
+						}
+					},
+				"dwellingUpLvl2": { 
+					"cost" :{
+						"mercury" : 4
+						}
+					},	
+				"dwellingUpLvl3": { 
+					"cost" :{
+						"sulfur": 4
+						}
+					},	
+				"dwellingUpLvl5": { 
+					"requires" : [ "mageGuild1" ]
+					}
+			}
+		}
+	},
+
+	
+
+	"core:necropolis" :
+	{	
+		"town" :
+		{
+			"buildings" :
+			{	
+				"resourceSilo": { 
+					"produce": { "ore": 3, "wood": 3 },
+					"description": "The Resource Silo provides you with an additional +3 wood and +3 ore each day."
+			 		},
+				"dwellingLvl5": { 
+					"cost" :{
+						"sulfur": 4,
+						"ore" : 5
+						}
+					},
+			
+				"dwellingUpLvl3": { 
+					"cost" :{
+						"mercury" : 4
+						}
+					},	
+
+				"dwellingUpLvl5": { 
+					"cost" :{
+						"sulfur": 4
+						}
+					},
+				
+				"special2": { 
+					"description" : "The Necromancy Amplifier increases the Necromancy skill of all heroes you control (with the Necromancy skill) by 5%.",
+					"bonuses": [ { "type": "UNDEAD_RAISE_PERCENTAGE", "val": 5, "propagator": "PLAYER_PROPAGATOR" } ] 
+					}
+			}
+		}
+	},
+
+	"core:rampart" :
+	{	
+		"town" :
+		{
+			"buildings" :
+			{	
+				"resourceSilo": { 
+					"produce": { "crystal": 3 },
+					"description": "The Resource Silo provides you with an additional +3 crystal each day."
+			 		},
+
+				"special1" : {
+					"cost" : {
+					"gold" : 1500
+					}
+				},
+
+				"special3" : {
+					"cost" : {
+						"gold" : 2000
+						}
+				},
+			
+
+			"dwellingLvl7":   { "requires#override" : [ "allOf", [ "dwellingLvl6" ] ] },
+
+			"dwellingLvl4" : {
+				"cost" : {
+						"crystal" : 5,
+						"gold" : 2000
+						}
+				},
+
+			"dwellingLvl6" : {
+			   "cost" : {
+					   "gems" : 5,
+					   "gold" : 4000,
+					   "ore" : 5,
+					   "wood" : 5
+					   }
+				}
+			}
+
+		}
+	},    
+
+	"core:tower" :
+	{	
+		"town" :
+		{
+			"buildings" :
+			{	
+				"resourceSilo": { 
+					"produce": { "gems": 3 },
+					"description": "The Resource Silo provides you with an additional +3 gems each day."
+			 		},
+
+				"dwellingLvl3": {
+					"cost" : { 
+						"gold":	1500 
+						}
+					},
+
+				"dwellingUpLvl3": {
+					"cost" : {		 
+						"gold":	1500 
+						}
+					},
+
+				"dwellingLvl4": {
+						"cost" : {
+							"gold" : 2000, "wood":5, "ore":5, "crystal":1, "sulfur":1,"gems":1, "mercury":1
+							}
+						},
+
+				"dwellingLvl5":   { "id" : 34, "requires" : [ "allOf", ["fort"], ["dwellingLvl1"], ["dwellingLvl2"], ["dwellingLvl3" ] ], "cost" : { "gold": 2500 }},
+				"dwellingLvl6":   { "id" : 35, "requires" : [ "dwellingLvl5" ] },
+				"dwellingUpLvl5": { "id" : 41, "upgrades" : "dwellingLvl5", "requires" : [ "mageGuild1" ]  },
+
+				"dwellingUpLvl7": { 
+					"cost" :{ 
+						"gold":	20000 
+						}
+					}
+			}
+		}  
+	},
+	
+	"core:dungeon":
+	{	
+		"town" :
+		{
+			"buildings" :
+			{	
+				"resourceSilo": { 
+					"produce": { "sulfur": 3 },
+					"description": "The Resource Silo provides you with an additional +3 sulfur each day."
+			 		},
+				"special2":{
+					"cost" : {
+						"gold" : 3000
+					}
+				},
+
+				"dwellingLvl5" : {
+					"cost" : {
+						"gold" : 3000,
+						"gems" : 5,
+						"ore" : 5
+					}
+				},
+
+				"dwellingLvl6" : {
+					"cost" : {
+						"gold" : 4000,
+						"ore" : 5,
+						"wood" : 5,
+					    "mercury" : 5,
+					    "sulfur" : 0
+					   
+					}
+				},
+
+				"dwellingLvl7" : {
+					"requires#override" : [
+					   "allOf",
+					   [
+						   "dwellingLvl6"
+					   ],
+					   [
+							"dwellingLvl5"
+					   ]
+					]
+				   
+				}
+			}
+		}
+	} 
+}
+
+

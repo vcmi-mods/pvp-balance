@@ -1,0 +1,30 @@
+{
+    "name" : "Pavilion Town Heroes - HotA compatibility",
+
+    "description" : "Heroes from Pavilion starting with Resistance, get Interference skill instead.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+    
+    "depends" : 
+	[
+		"new-pavilion",
+        "hota.interference"
+	],
+
+   "heroes": [
+   "config/pavilionHeroes.json"
+   ],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.4",
+	
+    "keepDisabled" : false
+}

@@ -1,9 +1,9 @@
 {
     "name" : "Dangerous Cave",
 
-    "description" : "This mod adds a new creature bank - Dangerous Cave. The bank is guarded by Behemots and gives gold, crystal and artifacts as reward.<br><br>Object graphics made by Kurek. Ogre Archmage graphics by Exx and Kurek.",
+    "description" : "<p style='font-size:12px; color:#333333;'><u>Dangerous Cave</u></p>Value: 10000<br>Rarity: 100<br>Zone limit: 1<br><br>Dangerous Cave can generate on Dirt, Rough and Subterra. The bank is guarded by Behemots and Cyclops except for maximum size (5% chance) which is guarded by a variety of creatures.<br><br><b>Size 1</b>: guarded by 4x1 Behemots and 2x3 Cyclops, gives 4k Gold, 4 Wood, 4 Ore, 4 Crystal and a Major Artifact (25%)<br><b>Size 2</b>: guarded by 4x2 Behemots and 2x6 Cyclops, gives 8k Gold, 8 Wood, 8 Ore, 8 Crystal and a Major Artifact (35%)<br><b>Size 3</b>: guarded by 4x3 Behemots and 2x9 Cyclops, gives 12k Gold, 12 Wood, 12 Ore, 12 Crystal and a Major Artifact (35%)<br><b>Size 4</b>: guarded by 2x3 Behemots, 2x3 Ancient Behemots, 1x12 Cyclop Kings, 1x20 Ogre Archmages, gives 16k Gold, 16 Wood, 16 Ore, 16 Crystal, a Major Artifact and +3 Attack (5%)<br><br>Ogre Archmages have the same statistics as Ogre Mages and cast Mass Bloodlust in their first turn.",
 
-    "author" : "wnukos, Kurek",
+    "author" : "wnukos, Kurek (graphics), Exx (graphics)",
 
     "contact" : "wnukos on Discord",
 
@@ -24,7 +24,7 @@
 		"min" : "1.6"
 	},
 	
-    "version" : "1.3",
+    "version" : "1.4",
 	
     "keepDisabled" : false
 }

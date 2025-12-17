@@ -1,0 +1,34 @@
+{
+    "name" : "Fortified Maze and Elderbrain",
+
+    "description" : "This mod adds new creature banks - Fortified Maze and Elderbrain.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+
+	"objects" :
+	[
+		"config/fortMazeElder.json"
+	],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+
+	
+    "depends" : 
+	[
+        "pvp-balance.objects",
+        "pvp-balance.objects.newArmyBanks.fortifiedMazeElderbrain",
+        "pvp-balance.pvpTemplates.brawl.smallBanks.pvpBalanceObjects",
+        "pvp-balance.pvpTemplates.brawl.smallBanks"
+    ],
+
+    "version" : "1.4",
+	
+    "keepDisabled" : false
+}

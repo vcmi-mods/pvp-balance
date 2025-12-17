@@ -1,0 +1,80 @@
+{
+
+"new-pavilion:sunShield":{
+
+		"text":
+		{
+			"name": "Sun Shield",
+			"description": "{Sun Shield}\r\n\r\nThis left handed item increases your Defense skill by +5, and decreases opponent's Spell Power by 2.",
+			"event": "During a journey, you encounter Wadjets sleeping nearby, with a source of incredible radiance in their nest. You quietly sneak up and take the object. In safety, you marvel at the glistening beauty of the Sun Shield."
+					
+		},
+
+		"bonuses#override":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "defence",
+				"val": 5,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "spellpower",
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [ "OPPOSITE_SIDE" ],
+				"val":-2
+			}
+		]
+	},
+
+"new-pavilion:scrollOfWisdom":
+	{
+		"class": "MAJOR",
+		"text":
+		{
+			"name": "Frog Of Sagacity",
+			"description": "{Frog Of Sagacity}\r\n\r\nThe Frog of Sagacity allows you to cast spells with effectiveness increased by 1 level of magic school mastery.",
+			"event": "When approaching a turn, you spot a nomad dying from thirst and exhaustion. In exchange for a generous draught from your flask, he gives you a wrapped bundle. You open it and take out a peculiar statue, but you notice the stranger had disappeared in the meantime."
+		},
+		"bonuses#override" : [
+			{
+				"subtype" : "spellSchool.any",
+				"type" : "MAGIC_SCHOOL_SKILL",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"				
+			},
+			{
+				"subtype" : "fire",
+				"type" : "MAGIC_SCHOOL_SKILL",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE"
+			},		
+			{
+				"subtype" : "earth",
+				"type" : "MAGIC_SCHOOL_SKILL",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			{
+				"subtype" : "air",
+				"type" : "MAGIC_SCHOOL_SKILL",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			{
+				"subtype" : "water",
+				"type" : "MAGIC_SCHOOL_SKILL",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE"
+			}								
+		]
+	},
+
+"new-pavilion:maskOfTheDesertKing":{
+	"class" : "SPECIAL"
+	}
+}
+  
+  

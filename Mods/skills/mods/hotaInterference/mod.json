@@ -1,0 +1,39 @@
+{
+    "name" : "Interference - HotA compatibility",
+
+    "description" : "Resistance skill is banned, along with arts boosting resistance.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+
+    "modType" : "Compatibility",
+
+    "skills" : [
+        "config/resistanceSkill.json"
+        ],
+
+    "heroes" : [
+        "config/resistanceHeroes.json"
+        ],
+
+    "artifacts" : [
+        "config/resistanceArtifacts.json"
+        ],
+
+    "depends" : [
+            "hota.interference"
+            ],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.4",
+	
+    "keepDisabled" : false
+}

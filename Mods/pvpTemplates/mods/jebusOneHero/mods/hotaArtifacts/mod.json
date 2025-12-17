@@ -1,0 +1,29 @@
+{
+    "name" : "HotA Artifacts - Compatibility",
+
+    "description" : "This mod adds Golden Goose from Horn of the Abyss mod in place of Endless Bag of Gold and Endless Sack of Gold.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+
+    "compatibility" :
+	{
+		"min" : "1.6"
+	},
+
+    "artifacts": [
+    "config/hotaArtifacts.json"
+    ],  
+
+    "depends" : 
+	[
+        "hota.artifacts"   
+    ],
+	
+    "version" : "1.4",
+    
+    "keepDisabled" : false
+}

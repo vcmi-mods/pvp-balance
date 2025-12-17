@@ -38,11 +38,11 @@
 			"spirit": {
 				"type": "NON_LIVING"
 			},
-			"slow": {
+			"weakness": {
 				"type": "SPELL_AFTER_ATTACK",
-				"subtype": "spell.seaweedGrappleCopy",
+				"subtype": "spell.weakness",
 				"val": 50,
-				"addInfo": 3
+				"addInfo": 2
 			},
 			"reduction": {
 				"type" : "SPELL_DAMAGE_REDUCTION",

@@ -21,10 +21,10 @@
 				"selectMode" : "selectPlayer",
 				"guardsLayout" : "creatureBankWide",
 				"battleground": "demonDomainBattlefield",
-				"onSelectMessage" : "The last of the demonic guards falls before you, dissipating into the shadows. With the battle won, you approach the glowing altar in the center of the domain, where two figures materialize from the darkened air - a devil and an efreet. Choose your prize wisely.",
+				"onSelectMessage" : "The last of the cerberi guards falls before you. With the battle won, you approach the glowing altar in the center of the domain, where two figures materialize from the darkened air - a Devil and an Efreet Sultan. Choose your prize wisely.",
 				"rmg" : {
 					"value"		: 4000,
-					"rarity"	: 50
+					"rarity"	: 40
 				},
 				"rewards":
 				[
@@ -32,13 +32,13 @@
 						"message" : 34,
 						"appearChance" : { "min" : 0, "max" : 40 },
 						"guards": [
-							{ "amount": 4, "type" : "pitFiend" },
-							{ "amount": 6, "type" : "hornedDemon" },
-							{ "amount": 6, "type" : "hornedDemon" },
-							{ "amount": 4, "type" : "pitFiend" },
-							{ "amount": 8, "type" : "hellHound" }
+							{ "amount": 7, "type" : "cerberus" },
+							{ "amount": 7, "type" : "cerberus" },
+							{ "amount": 7, "type" : "cerberus" },
+							{ "amount": 7, "type" : "cerberus" },
+							{ "amount": 7, "type" : "cerberus" }
 						],
-						"creatures": [ { "amount": 3, "type": "efreet" } ]
+						"creatures": [ { "amount": 3, "type": "efreetSultan" } ]
 					},
 					{
 						"message" : 34,
@@ -49,13 +49,13 @@
 						"message" : 34,
 						"appearChance" : { "min" : 40, "max" : 80 },
 						"guards": [
-							{ "amount": 8, "type" : "pitLord" },
-							{ "amount": 12, "type" : "hornedDemon" },
-							{ "amount": 12, "type" : "hornedDemon" },
-							{ "amount": 8, "type" : "pitLord" },
-							{ "amount": 16, "type" : "hellHound" }
+							{ "amount": 14, "type" : "cerberus" },
+							{ "amount": 14, "type" : "cerberus" },
+							{ "amount": 14, "type" : "cerberus" },
+							{ "amount": 14, "type" : "cerberus" },
+							{ "amount": 14, "type" : "cerberus" }
 						],
-						"creatures": [ { "amount": 6, "type": "efreet" } ]
+						"creatures": [ { "amount": 6, "type": "efreetSultan" } ]
 					},
 					{
 						"message" : 34,
@@ -66,13 +66,13 @@
 						"message" : 34,
 						"appearChance" : { "min" : 80, "max" : 100 },
 						"guards": [
-							{ "amount": 12, "type" : "pitLord" },
-							{ "amount": 18, "type" : "hornedDemon" },
-							{ "amount": 18, "type" : "hornedDemon" },
-							{ "amount": 12, "type" : "pitLord" },
-							{ "amount": 24, "type" : "cerberus" }
+							{ "amount": 21, "type" : "cerberus" },
+							{ "amount": 21, "type" : "cerberus" },
+							{ "amount": 21, "type" : "cerberus" },
+							{ "amount": 21, "type" : "cerberus" },
+							{ "amount": 21, "type" : "cerberus" }
 						],
-						"creatures": [ { "amount": 9, "type": "efreet" } ]
+						"creatures": [ { "amount": 9, "type": "efreetSultan" } ]
 					},
 					{
 						"message" : 34,
@@ -82,6 +82,8 @@
 				]
 				
 			}
+
+
 		}
 	}
 }

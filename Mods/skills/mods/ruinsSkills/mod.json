@@ -1,7 +1,7 @@
 {
-    "name" : "Ruins Skills",
+    "name" : "Ruins Skills - Compatibility",
 
-    "description" : "Evasion skill is banned.",
+    "description" : "Evasion skill is banned. Heroes starting with Evasion now start with Armorer instead.",
 
     "author" : "wnukos",
 
@@ -10,8 +10,12 @@
     "modType" : "Compatibility",
 	
     "skills" : [
-    "config/skills.json"
-  ],
+    "config/evasion.json"
+    ],
+
+    "heroes" : [
+    "config/ruinsHeroes.json"
+    ],
 
   "depends" : [
     "ruins-town"
@@ -22,7 +26,7 @@
 		"min" : "1.6"
 	},
 	
-    "version" : "1.3",
+    "version" : "1.4",
 	
     "keepDisabled" : false
 }

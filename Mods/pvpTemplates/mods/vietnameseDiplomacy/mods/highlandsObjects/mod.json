@@ -1,0 +1,28 @@
+{
+    "name" : "HotA Highlands Terrain - Compatibility",
+
+    "description" : "With this mod Hill Fort can generate on Highlands Terrain from Horn of the Abyss mod.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+
+    "compatibility" :
+	{
+		"min" : "1.6"
+	},
+
+    "objects": [
+    "config/hillFortHighlands.json"
+    ],  
+
+    "depends" : 
+	[
+        "hota.highlandsTerrain"
+    ],
+	
+    "version" : "1.4",
+    "keepDisabled" : false
+}

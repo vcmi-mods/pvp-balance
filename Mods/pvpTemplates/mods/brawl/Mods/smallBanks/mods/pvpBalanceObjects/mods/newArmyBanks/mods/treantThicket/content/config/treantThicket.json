@@ -1,0 +1,46 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"dragonFlyHive" : 
+			{
+				"rmg" : {
+					"zoneLimit" : 0
+				}
+			},
+			
+			"treantThicket" :
+			{
+				"rmg" :
+				{
+					"value" : 2000,
+					"rarity" :80,
+					"zoneLimit" : 2
+				},
+				"resetParameters" :
+				{
+					"period" : 4,
+					"visitors" : true,
+					"rewards" : true
+				},
+				"rewards" :
+				[
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 0, "max" : 100 },
+						"guards" :
+						[
+							{ "amount": 2, "type" : "dendroidSoldier", "upgradeChance": 50 },
+							{ "amount": 1, "type" : "dendroidSoldier", "upgradeChance": 50 },
+							{ "amount": 1, "type" : "dendroidSoldier", "upgradeChance": 50 },
+							{ "amount": 2, "type" : "dendroidSoldier", "upgradeChance": 50 },
+							{ "amount": 1, "type" : "dendroidSoldier", "upgradeChance": 50 }
+						],
+						"creatures": [ { "amount": 1, "type": "unicorn", "upgradeChance": 50 } ]
+					}
+				]
+			}
+		}
+	}
+}

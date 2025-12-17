@@ -1,0 +1,65 @@
+{
+	"controlScrollObject" :{	
+		"name": "Spell Scroll",
+		"handler": "configurable",
+		"types" : {
+			"controlScroll" : 
+			{
+				"blockedVisitable" : true,
+				"removable": true,
+				"rmg" : {
+					"value"		: 20000,
+					"rarity"	: 30,
+					"zoneLimit" : 1
+				},
+				
+		
+				
+				"rewards" :
+				[
+					{
+						"appearChance": 
+						{
+							"min" : 0,
+							"max" : 33
+						},
+						"message":"You find a spell scroll inscribed with a powerful spell - Town Portal. You toss it into your backpack.",
+						"artifacts": ["townPortalScroll"],
+						"removeObject": true
+					},
+					{
+						"appearChance": 
+						{
+							"min" : 33,
+							"max" : 66
+						},
+						"message":"You find a spell scroll inscribed with a powerful spell - Fly. You toss it into your backpack.",
+						"artifacts": ["flyScroll"],
+						"removeObject": true
+					},
+					{
+						"appearChance": 
+						{
+							"min" : 66,
+							"max" : 100
+						},
+						"message":"You find a spell scroll inscribed with a powerful spell - Dimension Door. You toss it into your backpack.",
+						"artifacts": ["dimensionDoorScroll"],
+						"removeObject": true
+					}
+				],
+				"canRefuse": false,
+				"visitMode" : "unlimited",
+				"templates" : 
+				{
+					"scrollObject" : 
+					{
+						"animation" : "AVA0001", 
+						"visitableFrom" : [ "+++", "+++", "+++" ],
+						"mask" : ["VV", "VA"]
+					}
+				}
+			}
+		}	
+	}
+}

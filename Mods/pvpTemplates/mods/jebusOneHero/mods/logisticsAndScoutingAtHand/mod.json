@@ -13,16 +13,15 @@
       "config/heroClasses.json"
     ],
 
-  "depends" : 
-  [
-      "hota.cove"
-  ],
+    "skills": [
+      "config/skills.json"
+    ],
   
     "compatibility" :
 	{
 		"min" : "1.6.0"
 	},
 	
-    "version" : "1.0.0",
+    "version" : "1.4",
     "keepDisabled" : true
 }

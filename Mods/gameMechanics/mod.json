@@ -1,0 +1,76 @@
+{
+    "name" : "Game Mechanics",
+
+    "description" : "This mod provides game mechanics changes commonly accepted by PvP community, such as guarantee of t1 and t2 dwellings in the starting towns, accumulation of creatures in flagged dwellings, possibility to teleport with  Dimension Door into fog of war etc.<br><br>Bad Luck and Spell Research mechanics are introduced.<br><br>The mod offers several addiional configuration options available in submods.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+
+    "modType" : "Mechanics",
+
+    "softDepends" : [
+		"hota",
+        "hota.spellResearch",
+		"hota.gameBalance",
+        "hota.lessRandomStart"
+	    ],
+
+    "settings" : {
+
+        "dwellings" : {
+			"accumulateWhenOwned" : true
+		},
+
+		"combat": {
+			"badLuckDice" : [ 12, 6, 4 ],
+			"areaShotCanTargetEmptyHex" : true
+		},
+
+		"pathfinder" : {
+			"originalFlyRules" : false
+		},
+
+        "spells": {
+            "dimensionDoorTournamentRulesLimit" : true,
+            "dimensionDoorFailureSpendsPoints" : false,
+			"dimensionDoorTriggersGuards" : true
+        },
+		
+		"towns": {
+				"startingDwellingChances": [ 100, 100 ],
+                "spellResearch": true,
+				"spellResearchCost": [
+                { "gold": 1000, "wood" : 0, "mercury": 2, "ore": 0, "sulfur": 2, "crystal": 2, "gems": 2 },
+                { "gold": 1000, "wood" : 0, "mercury": 4, "ore": 0, "sulfur": 4, "crystal": 4, "gems": 4 },
+                { "gold": 1000, "wood" : 0, "mercury": 6, "ore": 0, "sulfur": 6, "crystal": 6, "gems": 6 },
+                { "gold": 1000, "wood" : 0, "mercury": 20, "ore": 0, "sulfur": 20, "crystal": 20, "gems": 20 },
+                { "gold": 1000, "wood" : 0, "mercury": 20, "ore": 0, "sulfur": 20, "crystal": 20, "gems": 20 }
+            	],
+				"spellResearchPerDay": [ 2, 2, 2, 2, 1 ],
+                "spellResearchCostExponentPerResearch": [ 0, 0, 0, 0, 0 ]
+		},
+
+        "creatures":{
+            "allowRandomSpecialWeeks" : false,
+			"allowAllForDoubleMonth" : false
+        },
+
+        "heroes" : {
+			"perPlayerTotalCap" : 100,
+            "startingStackChances": [ 100, 100, 100 ]
+		}
+    },
+	
+    "compatibility" :
+	{
+	 "min" : "1.6"
+	},
+	
+    "version" : "1.4",
+	
+    "keepDisabled" : false
+}

@@ -1,0 +1,30 @@
+{
+	"name" : "Water control spells",
+	"description" : "The mod unblocks Summon Boat, Scuttle Boat and Waterwalk spells.",
+	"author" : "wnukos",
+
+	"contact" : "wnukos on Discord",
+
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	
+	"modType" : "Spells",
+	
+	"spells":[
+		"config/waterSpells.json"
+	],
+
+	"softDepends": [
+		"pvp-balance.spells"
+	],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+	"version" : "1.4",
+	
+	"keepDisabled" : true
+
+}

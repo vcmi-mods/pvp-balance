@@ -1,31 +1,41 @@
 {
     "name" : "Factions",
 
-    "description" : "Faction balance for PvP.",
+    "description" : "The mod changes cost and requirements of some buildings and modifies starting army rolls for most of the factions.<br><br>Resource silo is buffed for all towns (including towns added by any mod available in VCMI).",
 
     "author" : "wnukos",
 
     "contact" : "wnukos on Discord",
 
-    "licenseName" : "Creative Commons Attribution-ShareAlike",
-	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-
     "modType" : "Mechanics",
 
-    "polish" : {
-        "name" : "Factions",
-        "description" : "Balans frakcji dla PvP."
-        },
-   
-    "depends" : 
+    "factions" :
 	[
-		"hota.gameBalance",
-        "hota.heroes",
-        "hota.interference"
+		"config/buildings.json"
+	],
+
+	"heroes" :
+	[
+		"config/castleStartingArmies.json",
+		"config/rampartStartingArmies.json",
+		"config/towerStartingArmies.json",
+		"config/infernoStartingArmies.json",
+		"config/necropolisStartingArmies.json",
+		"config/fortressStartingArmies.json",
+		"config/strongholdStartingArmies.json",
+		"config/confluxStartingArmies.json",
+		"config/dungeonStartingArmies.json"
 	],
 
     "conflicts":[
 		"ultimate-balance.towns-balance"
+	],
+
+	"softDepends":
+    [
+	"hota.gameBalance",	
+	"pvp-balance.heroes",
+	"tides-of-war.alternative-creatures"
 	],
 
 	"compatibility" :
@@ -33,7 +43,7 @@
 		"min" : "1.6"
 	},
 	
-    "version" : "1.3",
+    "version" : "1.4",
 	
     "keepDisabled" : false
 }

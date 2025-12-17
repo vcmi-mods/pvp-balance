@@ -1,9 +1,9 @@
 {
     "name" : "Golden Utopia",
 
-    "description" : "Golden Utopia is guarded by t8 dragons and gives 5 relic class artifacts as reward.<br><br>Graphics made by Andruids.",
+    "description" : "<p style='font-size:12px; color:#333333;'><u>Golden Utopia</u></p>Value: 30000<br>Rarity: 150<br>Zone limit: 1<br><br>Golden Utopia is guarded by 1xAzure Dragon, 2xCrystal Dragons, 3xRust Dragons and 4xFaerie Dragons.<br><br>The reward for defeating the dragons is:<br><ol style='list-style-type:circle; margin: 1px;'><li style='margin-left: -20px'>1 Combined Artifact*</li><li style='margin-left: -20px'>3 Relic Artifacts</li><li style='margin-left: -20px'>50k gold</li><li style='margin-left: -20px'>20 of Wood, Ore, Sulfur, Cyrstal, Gem and Mercury</li></ol><br>*except Angelic Aliance and Power of the Dragon Father",
 
-    "author" : "wnukos, Andruids",
+    "author" : "wnukos, Andruids (graphics)",
 
     "contact" : "wnukos on Discord",
 
@@ -14,12 +14,17 @@
 		"config/goldenUtopia.json"
 	],
 
+	"depends":
+	[
+		"pvp-balance.objects"
+	],
+
 	"compatibility" :
 	{
 		"min" : "1.6"
 	},
 	
-    "version" : "1.3",
+    "version" : "1.4",
 	
     "keepDisabled" : false
 }

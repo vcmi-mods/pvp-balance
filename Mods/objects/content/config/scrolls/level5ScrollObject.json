@@ -1,0 +1,108 @@
+{
+	"level5ScrollObject" :{	
+		"name": "Spell Scroll",
+		"handler": "configurable",
+		"types" : {
+			"level5Scroll" : 
+			{
+				"blockedVisitable" : true,
+				"removable": true,
+				"rmg" : {
+					"value"		: 10000,
+					"rarity"	: 30,
+					"zoneLimit" : 4
+				},
+				
+		
+				
+				"rewards" :
+				[
+					{
+						"appearChance": 
+						{
+							"min" : 0,
+							"max" : 14
+						},
+						"message":"You find a spell scroll inscribed with a powerful spell - Air Elemental. You toss it into your backpack.",
+						"artifacts": ["airElementalScroll"],
+						"removeObject": true
+					},
+					{
+						"appearChance": 
+						{
+							"min" : 14,
+							"max" : 28
+						},
+						"message":"You find a spell scroll inscribed with a powerful spell - Earth Elemental. You toss it into your backpack.",
+						"artifacts": ["earthElementalScroll"],
+						"removeObject": true
+					},
+					{
+						"appearChance": 
+						{
+							"min" : 28,
+							"max" : 42
+						},
+						"message":"You find a spell scroll inscribed with a powerful spell - Water Elemental. You toss it into your backpack.",
+						"artifacts": ["waterElementalScroll"],
+						"removeObject": true
+					},
+					{
+						"appearChance": 
+						{
+							"min" : 42,
+							"max" : 56
+						},
+						"message":"You find a spell scroll inscribed with a powerful spell - Fire Elemental. You toss it into your backpack.",
+						"artifacts": ["fireElementalScroll"],
+						"removeObject": true
+					},
+					{
+						"appearChance": 
+						{
+							"min" : 56,
+							"max" : 70
+						},
+						"message":"You find a spell scroll inscribed with a powerful spell - Implosion. You toss it into your backpack.",
+						"artifacts": ["implosionScroll"],
+						"removeObject": true
+					},
+					{
+						"appearChance": 
+						{
+							"min" : 70,
+							"max" : 85
+						},
+						"message":"You find a spell scroll inscribed with a powerful spell - Magic Mirror. You toss it into your backpack.",
+						"artifacts": ["magicMirrorScroll"],
+						"removeObject": true
+					},
+					{
+						"appearChance": 
+						{
+							"min" : 85,
+							"max" : 100
+						},
+						"message":"You find a spell scroll inscribed with a powerful spell - Sacrifice. You toss it into your backpack.",
+						"artifacts": ["sacrificeScroll"],
+						"removeObject": true
+					}
+					
+					
+					
+				],
+				"canRefuse": false,
+				"visitMode" : "unlimited",
+				"templates" : 
+				{
+					"scrollObject" : 
+					{
+						"animation" : "AVA0001", 
+						"visitableFrom" : [ "+++", "+++", "+++" ],
+						"mask" : ["VV", "VA"]
+					}
+				}
+			}
+		}	
+	}
+}

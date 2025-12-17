@@ -1,0 +1,33 @@
+{
+    "name" : "Ruins Town Skills - Compatibility",
+
+    "description" : "This mod bans Evasion skill from Ruins Town mod.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+
+    "compatibility" :
+	{
+		"min" : "1.6"
+	},
+
+    "skills": [
+        "config/ruinsSkills.json"
+        ],   
+
+    "depends" : 
+	[
+        "ruins-town"     
+    ],
+
+    "softDepends" : 
+	[
+        "pvp-balance.skills.ruinsSkills"     
+    ],
+	
+    "version" : "1.4",
+    "keepDisabled" : false
+}

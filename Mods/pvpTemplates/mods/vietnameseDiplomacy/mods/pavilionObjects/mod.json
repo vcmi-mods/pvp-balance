@@ -1,0 +1,29 @@
+{
+    "name" : "Pavilion Town objects - Compatibility",
+
+    "description" : "With this mod Hill Fort can generate on Dunes Terrain.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+
+    "compatibility" :
+	{
+		"min" : "1.6"
+	},
+
+    "objects": [
+    "config/hillFortDunes.json"
+    ],  
+
+    "depends" : 
+	[
+        "new-pavilion",
+        "new-pavilion.dunes-terrain"
+    ],
+	
+    "version" : "1.4",
+    "keepDisabled" : false
+}

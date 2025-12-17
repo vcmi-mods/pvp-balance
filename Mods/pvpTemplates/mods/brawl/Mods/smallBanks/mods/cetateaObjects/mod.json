@@ -1,0 +1,29 @@
+{
+	"name" : "Brawl - Cetatea Objects",
+	"description" : "Modified Cetatea Town objects used by template Brawl, should be better suited for short games on small maps.<br>Ancient Citadel: defended by 5x 1-2 Nosferatu Lords, 7 of them in total, reward: 1500 Gold, 2-4 Crystals and Gems (6 total)<br>All creatures that have upgrades, both guards and rewards have a chance of being upgraded.<br>All banks recharge after 4 full days pass.<br>They are not designed to be taken with your whole army but with parts of your army in multiple places at once.",
+	"author" : "Warzyw647, ported by Wnukos, Chinese translation by Ziyue",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "https://creativecommons.org/licenses/by-sa/4.0/",
+	"contact" : "warzyw647 on heroes-themed Discords",
+	"modType" : "Compatibility",
+	"objects" :
+	[
+		"config/banks/ancientCitadel.json"
+	],
+	"version" : "1.4",
+	"depends" :
+	[
+		"cetatea-town"
+	],
+	"changelog" :
+	{
+		"1.0" : [ "made banks smaller" ]
+	},
+	"compatibility" : { "min" : "1.5.6" },
+	"keepDisabled" : false,
+	"chinese" :
+	{
+		"name" : "Brawl模板血堡城镇小物件",
+		"description" : "专为Brawl模板定制的改良版血堡城镇物件，适用于小型地图。<br>古城堡：由5队1-2只血族亲王守护，总共有7只，奖励为1500金币，2-4颗水晶和宝石（共6颗）。<br>所有可升级的生物，无论是守卫还是奖励生物，都可能出现升级后的生物。<br>所有宝屋每4天刷新一次。<br>这些物件不是设计来让你用全部兵力去攻打的，而是让你分散成多支小股部队同时攻打多处地点。"
+	}
+}

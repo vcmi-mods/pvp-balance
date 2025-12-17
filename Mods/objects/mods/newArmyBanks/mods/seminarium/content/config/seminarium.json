@@ -1,0 +1,85 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"seminarium" :
+			{		
+				"name" : "Seminarium",
+				"templates" :
+				{
+					"base" :
+					{
+						"animation" : "seminarium.def",
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"mask" : [ "VVV", "VBV", "BAB"]
+					}
+				},
+				"sounds" : {
+					"ambient" : ["SEMINARIUMLOOP"]
+				},
+				"rmg" : {
+					"value" : 3500,
+					"rarity" : 80
+				},
+				"guardsLayout" : "creatureBankNarrow",
+				"onGuardedMessage" : 32,
+				"onVisitedMessage" : 33,
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",	
+				"blockedVisitable" : false,
+				"rewards" :
+				[
+					{
+						"message" : "With the Crusaders defeated, Paladins step forward, pledging their strength to your ranks.",
+						"appearChance" : { "min" : 0, "max" : 15 },
+						"guards" : [
+							{ "amount" : 4, "type" : "crusader"},
+							{ "amount" : 4, "type" : "crusader"},
+							{ "amount" : 4, "type" : "crusader"},
+							{ "amount" : 4, "type" : "crusader"},
+							{ "amount" : 4, "type" : "crusader"}
+						    ],
+							"creatures" : [ { "amount" : 1, "type" : "paladinCopy" } ]
+					},					
+					{
+						"message" : "With the Crusaders defeated, Paladins step forward, pledging their strength to your ranks.",
+						"appearChance" : { "min" : 15, "max" : 50 },
+						"guards" : [
+							{ "amount" : 8, "type" : "crusader"},
+							{ "amount" : 8, "type" : "crusader"},
+							{ "amount" : 8, "type" : "crusader"},
+							{ "amount" : 8, "type" : "crusader"},
+							{ "amount" : 8, "type" : "crusader"}
+						    ],
+							"creatures" : [ { "amount" : 2, "type" : "paladinCopy" } ]
+					},
+					{
+						"message" : "With the Crusaders defeated, Paladins step forward, pledging their strength to your ranks.",
+						"appearChance" : { "min" : 50, "max" : 85 },
+						"guards" : [
+							{ "amount" : 12, "type" : "crusader"},
+							{ "amount" : 12, "type" : "crusader"},
+							{ "amount" : 12, "type" : "crusader"},
+							{ "amount" : 12, "type" : "crusader"},
+							{ "amount" : 12, "type" : "crusader"}
+						    ],
+							"creatures" : [ { "amount" : 3, "type" : "paladinCopy" } ]
+					},
+					{
+						"message" : "With the Crusaders defeated, Paladins step forward, pledging their strength to your ranks.",
+						"appearChance" : { "min" : 85, "max" : 100 },
+						"guards" : [
+							{ "amount" : 16, "type" : "crusader"},
+							{ "amount" : 16, "type" : "crusader"},
+							{ "amount" : 16, "type" : "crusader"},
+							{ "amount" : 16, "type" : "crusader"},
+							{ "amount" : 16, "type" : "crusader"}
+						    ],
+							"creatures" : [ { "amount" : 4, "type" : "paladinCopy" } ]
+					}
+				]
+			}
+		}
+	}
+}

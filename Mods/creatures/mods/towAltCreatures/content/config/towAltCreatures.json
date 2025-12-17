@@ -1,0 +1,312 @@
+{
+    "tides-of-war.alternative-creatures:mdtTrollWitch" : {
+		"abilities#override" : {
+			"canShoot" :
+			{ 
+				"type" : "SHOOTER"
+			},
+			"regeneration" :
+			{
+				"type" : "HP_REGENERATION",
+				"val" : 15
+			},
+			"noMeleePenalty" :
+			{
+				"type" : "NO_MELEE_PENALTY"
+			},
+			"spellAfterAttack" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.slow",
+				"val" : 20, 
+				"addInfo" : [1,1]
+			},
+			"slowStrength" :
+			{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.slow",
+				"val" : 3
+			}
+		}
+
+	},
+	
+	"tides-of-war.alternative-creatures:mdtIllithid":
+	{
+	
+	
+		"abilities#override" : {
+			"castsHypnotize" :
+			{
+					"type" : "SPELLCASTER",
+					"subtype" : "spell.hypnotize",
+					"val" : 2,
+					"addInfo" : 100,
+					"turns" : 3
+			},
+			"castsCount" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"spellpower" :
+			{ 
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			}
+		}
+	},
+	
+	"tides-of-war.alternative-creatures:mdtAlhoon":
+	{
+	
+	
+		"abilities#override" : {
+			"castsHypnotize" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.hypnotize",
+				"val" : 2,
+				"addInfo" : 100,
+				"turns" : 3
+			},
+			"castsCount" :
+			{
+				"type" : "CASTS",
+				"val" : 2
+			},
+			"spellpower" : 
+			{ 
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			}
+		}
+	
+	},
+
+		"tides-of-war.alternative-creatures:mdtOakDryad":
+	{
+	
+		"abilities#override" : {
+						"canFly" : 
+			{ 
+				"type" : "FLYING"
+			},
+			"blockAttack" :
+			{
+				"type" : "GENERAL_ATTACK_REDUCTION",
+				"val" : 20
+			},
+			"helpEnt2" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.symbiosis2",
+				"val" : 3
+			},
+			"spellPower" :
+			{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.symbiosis2",
+				"val" : 100
+			},
+			"spellpoints" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			}
+
+		}
+	
+	},
+
+	"tides-of-war.alternative-creatures:mdtTriton":
+	{
+		"cost" :
+		{
+			"gold" : 250
+		},
+		
+		"damage" :
+		{
+			 "min" : 3,
+			 "max" : 6
+		}
+
+		
+	},
+
+	"tides-of-war.alternative-creatures:mdtAbyssalTriton":
+	{
+		"cost" :
+		{
+			"gold" : 350
+		},
+
+		"damage" :
+		{
+			 "min" : 3,
+			 "max" : 7
+		},
+		
+		"abilities#override" : {
+			"castsTrawl" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.mdtTrawl",
+				"val" : 2
+			},
+			"castsCount" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"castLength" :
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 1
+			},
+			"immuneToWater" :
+			{
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "spellSchool.water",
+				"val" : 100
+			}
+		}
+		
+	},
+
+	"tides-of-war.alternative-creatures:mdtDrakeGolem":
+	{
+		"cost" : {
+			"gold" : 2500
+		},
+		
+		"abilities#override" : {
+			"nonliving" :
+			{
+				"type" : "NON_LIVING"
+			},
+
+			"magicResistance" : {
+				"subtype" : "spellSchool.any",
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"val" : 25
+			}
+		}
+		
+	},
+
+    "tides-of-war.alternative-creatures:mdtDragonGolem":
+	{
+		"abilities#override" : {
+			"nonliving" :
+			{
+				"type" : "NON_LIVING"
+			},
+
+			"magicResistance" : {
+				"subtype" : "spellSchool.any",
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"val" : 50
+			},
+			
+			"firstStrike" :
+			{
+				"type" : "FIRST_STRIKE"
+			}
+		},
+
+		"cost" : {
+			"gold" : 5000,
+			"ore" : 2
+		},
+
+		"speed" : 12
+		
+	},	
+	
+    "tides-of-war.alternative-creatures:mdtQuetzalcouatl":
+	{
+				
+		"aiValue" : 2050,
+		"speed" : 12	
+	},
+	
+    "tides-of-war.alternative-creatures:mdtTemplar":
+	{
+		
+		"growth" : 1,	
+		"abilities#override" :
+		{
+			"castsDestroyUndead" :
+			{
+				"type" : "OPENING_BATTLE_SPELL",
+				"subtype" : "spell.destroyUndead",
+				"val" : 1,
+				"propagator" : "BATTLE_WIDE"
+			},
+			
+			"destroyPower" : 
+			{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.destroyUndead",
+				"val" : 10
+			},
+
+			"raisesMorale" : {
+				"propagator" : "HERO",
+				"stacking" : "Angels",
+				"type" : "MORALE",
+				"val" : 1
+			}
+			
+		}
+	},
+	
+    "tides-of-war.alternative-creatures:mdtPaladin":
+	{
+		"growth" : 1,
+		"abilities#override" :
+		{
+			"castsDestroyUndead" :
+			{
+				"type" : "OPENING_BATTLE_SPELL",
+				"subtype" : "spell.destroyUndead",
+				"val" : 1,
+				"propagator" : "BATTLE_WIDE"
+			},
+			
+			"destroyPower" : 
+			{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.destroyUndead",
+				"val" : 10
+			},
+			
+			"castsPrayer" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.prayer",
+				"val" : 1
+			},
+			"casts" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"castLength" :
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 3
+			},
+
+			"raisesMorale" : {
+				"propagator" : "HERO",
+				"stacking" : "Angels",
+				"type" : "MORALE",
+				"val" : 1
+				}
+			
+		}
+	}
+}

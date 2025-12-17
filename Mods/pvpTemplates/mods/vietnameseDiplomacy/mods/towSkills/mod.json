@@ -1,0 +1,33 @@
+{
+    "name" : "ToW Skill - Compatibility",
+
+    "description" : "This mod bans Intimidation and Hexes skills from Tides of War mod.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+
+    "compatibility" :
+	{
+		"min" : "1.6"
+	},
+
+    "skills": [
+        "config/towSkills.json"
+        ],   
+
+    "depends" : 
+	[
+        "tides-of-war.skills"     
+    ],
+
+    "softDepends" : 
+	[
+        "pvp-balance.skills.towSkills"     
+    ],
+	
+    "version" : "1.4",
+    "keepDisabled" : false
+}

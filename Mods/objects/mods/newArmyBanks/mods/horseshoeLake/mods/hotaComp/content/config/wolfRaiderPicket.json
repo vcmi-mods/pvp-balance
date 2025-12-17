@@ -1,0 +1,13 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+				"wolfRaiderPicket" : {
+					"rmg" : {
+							"zoneLimit" : 0
+					}
+			}
+		}
+	}
+}

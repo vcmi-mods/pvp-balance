@@ -1,0 +1,120 @@
+{
+	"tides-of-war.spells:mdtFireballWand" : {
+		"power" : 15
+	},
+	
+	"tides-of-war.spells:mdtAuraOfPower" : {
+		"flags" : {
+			"special" : true
+		}	
+	},
+
+	"tides-of-war.spells:summonGhost" : {
+		"defaultGainChance" : 0,
+		"gainChance" : {
+			"necropolis" : 0,
+			"dungeon" : 0,
+			"inferno" : 0
+		}
+	},
+
+	"tides-of-war.spells:mdtIntervention" : {
+		"defaultGainChance" : 0, 
+		"gainChance" : {
+			"inferno" : 0,
+			"dungeon" : 0,
+			"conflux" : 0,
+			"necropolis" :  0
+		}
+	},
+
+	"tides-of-war.spells:mdtVampirism" : {
+		"defaultGainChance" : 0,
+		"gainChance" : {
+			"necropolis" : 0
+		},
+		"levels" : {
+			"base" : {
+				"range" : "0",
+				"power" : 10,
+				"aiValue" : 20,
+				"targetModifier" : {
+					"smart" : true
+				},
+				"description" : "{Vampirism}\r\n\r\nFriendly unit becomes undead and drains 15% of damage dealt to the enemy.",	 
+				"cost" : 30,
+				"battleEffects" : {
+					"vampirismEffect" : {
+						"type" : "core:timed",
+						"cumulative" : false,
+						"bonus" : {
+							"undead" : {
+								"type" : "UNDEAD",
+								"duration" : "N_TURNS"
+							},
+							"lifeDrain" : {
+								"type" : "LIFE_DRAIN",
+								"val" : 15,
+								"duration" : "N_TURNS"
+							}
+						}
+					}
+				}
+			},
+			"none" : {
+				"cost" : 30
+			},
+			"basic" : {
+				"description" : "{Basic Vampirism}\r\n\r\nFriendly unit becomes undead and drains 20% of damage dealt to the enemy.",
+				"cost" : 25,
+				"battleEffects" : {
+					"vampirismEffect" : {
+						"type" : "core:timed",
+						"cumulative" : false,
+						"bonus" : {
+							"lifeDrain" : {
+								"val" : 20
+							}
+						}
+					}
+				}
+			},
+			"advanced" : {
+				"description" : "{Advanced Vampirism}\r\n\r\nFriendly unit becomes undead and drains 25% of damage dealt to the enemy.",
+				"cost" : 20,
+				"battleEffects" : {
+					"vampirismEffect" : {
+						"type" : "core:timed",
+						"cumulative" : false,
+						"bonus" : {
+							"lifeDrain" : {
+								"val" : 25
+							}
+						}
+					}
+				}
+			},
+			"expert" : {
+				"description" : "{Expert Vampirism}\r\n\r\nFriendly unit becomes undead and drains 30% of damage dealt to the enemy.",
+				"cost" : 18,
+				"battleEffects" : {
+					"vampirismEffect" : {
+						"type" : "core:timed",
+						"cumulative" : false,
+						"bonus" : {
+							"lifeDrain" : {
+								"val" : 30
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+	
+	
+	
+	
+	

@@ -1,7 +1,7 @@
 {
     "name" : "PvP Templates",
 
-    "description" : "PvP templates.",
+    "description" : "The mod introduces new random map templates and modifies several templates available by default. Graphic for Gremlinhold was ported from WoG Graphics Fix (author: Grossmaster). Graphic for Bog Hermit was ported from Tides of War (author: MDT).<p style='font-size:12px; color:#333333;'><u>Template list:</u></p>1) <b>Jebus Cross</b> (default) - modified treasure density, limit of Dragon Utopias on biome set to 3, Gremlinhold and Bog Hermit objects added on Snow and Swamp terrains, respectively.<br>2) <b>6lm10a</b> (default) - optimized zone sizes, several connection variants are introduced marked as A, B etc. in the template list in the game.<br>3) <b>Nostalgia</b> (default) - added towns in transition zones connected with the starting zone.<br>4) <b>M200</b> - a pack of M-sized classic templates. The template variants are marked as A, B etc. in the template list in the game.<br>5) <b>Brawl</b> - a small and very dynamic template played without roads and foreseen for S or M size (M size recommended with water). Submods for this template introduce further changes optimized for small-sized maps.<br>6) <b>One Minute Madness</b> - a dynamic template designed for games with one-minute turn timer.<br>7) <b>Jebus One Hero</b> - a VCMI implementation of Jebus Outcast template with several differences due to RMG shortcomings.<br>8) <b>Vietnamese Diplomacy</b> - a one-hero template based on building enormous armies with Diplomacy skill.<br>9) <b>Nowa Arena</b> - a variation of classic Arena map where the troops are bought in the starting town. Full version of the template, available upon activating template's submod, introduces many mechanical changes, such as possibility to buy multiple buildings in one turn, modified Morale and Luck chances or reworked artifacts.",
 
     "author" : "wnukos",
 
@@ -12,25 +12,11 @@
 
     "modType" : "Templates",
 
-    "polish" : {
-        "name" : "PvP Templates",
-        "description" : "Szablony do gry PvP."
-        },
-
     "compatibility" :
 	{
 		"min" : "1.6"
 	},
 
-    "depends" : 
-	[
-		"hota",
-        "hota.mapObjects",
-        "hota.gameBalance",
-        "hota.highlandsTerrain",
-        "hota.mapdecorations"
-	],
-	
-    "version" : "1.3",
+    "version" : "1.4",
     "keepDisabled" : false
 }

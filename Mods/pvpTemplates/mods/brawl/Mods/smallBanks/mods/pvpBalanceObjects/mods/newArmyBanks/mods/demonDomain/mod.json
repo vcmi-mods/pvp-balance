@@ -1,0 +1,38 @@
+{
+    "name" : "Demon Domain",
+
+    "description" : "This mod adds a new creature bank - Demon Domain. The bank is guarded by Inferno T3 - T5 creatures and gives efreeti as reward.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+
+	"objects" :
+	[
+		"config/demonDomain.json"
+	],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+
+	"depends" : 
+	[
+        "pvp-balance.objects",
+		"pvp-balance.objects.newArmyBanks.demonDomain"
+
+    ],
+
+	"softDepends":
+	[
+		"pvp-balance.pvpTemplates.brawl.smallBanks",
+		"pvp-balance.pvpTemplates.brawl.smallBanks.hotaObjects"
+	],
+	
+    "version" : "1.4",
+	
+    "keepDisabled" : false
+}

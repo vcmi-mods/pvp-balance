@@ -1,0 +1,24 @@
+{
+    "name" : "Pavilion Town Artifacts - Compatibility",
+    "description" : "Rebalanced artifacts from Pavilion Town mod.",
+    "author" : "wnukos",
+    "contact" : "wnukos on Discord",
+    "modType" : "Compatibility",
+    "artifacts": [
+        "config/pavilionArtifacts.json"
+    ],
+
+    "depends" : 
+    [
+       "new-pavilion"
+    ],
+
+    "compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.4",
+    
+    "keepDisabled" : false
+}

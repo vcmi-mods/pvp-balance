@@ -1,0 +1,14 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"mdtOutpostOfSouls" :
+			{		
+				"rmg" : {
+					"zoneLimit" : 0
+				}
+			}
+		}
+	}
+}

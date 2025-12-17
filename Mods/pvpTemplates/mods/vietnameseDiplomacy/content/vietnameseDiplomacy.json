@@ -25,7 +25,7 @@
 			"1" :
 			{
 				"type" : "playerStart",
-				"size" : 17,
+				"size" : 16,
 				"owner" : 1,
 				"monsters" : "normal",
 				"playerTowns" : { "castles" : 1 },
@@ -40,18 +40,9 @@
 				"customObjects" :
 					{
 					"bannedCategories" : [ "pandorasBox", "questArtifact", "seerHut", "creatureBank", "resource"],
-					"bannedObjects" :["hota.mapobjects:object.ancientLamp.ancientLamp", "core:object.randomArtifactMinor", "core:object.randomArtifactTreasure", "core:object.university", "pvp-balance.objects:object.5kGoldPandora.5kGoldPandora", "core:object.creatureBank.dwarvenTreasury", "core:object.creatureBank.griffinConservatory", "core:object.crypt.crypt", "core:object.libraryOfEnlightenment", "core:object.arena", "hota.mapobjects:object.colosseumOfTheMagi.colosseumOfTheMagi", "core:object.mercenaryCamp", "core:object.marlettoTower", "core:object.schoolOfWar", "core:object.altarOfSacrifice", "core:object.witchHut", "hota.highlandsterrain:object.junkman.junkman", "core:object.hillFort", "hota.mapobjects:object.miniHillFort.miniHillFort", "core:object.freelancersGuild", "pvp-balance.objects:object.flyScrollObject.flyScroll", "pvp-balance.objects:object.dimensionDoorScrollObject.ddScroll", "pvp-balance.objects:object.townPortalScrollObject.tpScroll", "core:object.tavern", "core:object.prison.prison", "core:object.shrineOfMagicLevel1", "core:object.shrineOfMagicLevel2", "core:object.learningStone", "core:object.scholar", "core:object.gardenOfRevelation", "core:object.starAxis"],
+					"bannedObjects" :[ "core:object.randomArtifactMinor", "core:object.randomArtifactTreasure", "core:object.university", "pvp-balance.objects:object.5kGoldPandora.5kGoldPandora", "core:object.creatureBank.dwarvenTreasury", "core:object.creatureBank.griffinConservatory", "core:object.crypt.crypt", "core:object.libraryOfEnlightenment", "core:object.arena", "core:object.mercenaryCamp", "core:object.marlettoTower", "core:object.schoolOfWar", "core:object.schoolOfMagic", "core:object.altarOfSacrifice", "core:object.witchHut",  "core:object.hillFort", "core:object.freelancersGuild", "core:object.tavern", "core:object.prison.prison", "core:object.shrineOfMagicLevel1", "core:object.shrineOfMagicLevel2", "core:object.learningStone", "core:object.scholar", "core:object.gardenOfRevelation", "core:object.starAxis"],
 					"commonObjects":
 					[
-					
-					{
-							"id" : "hota.mapobjects:object.ancientLamp.ancientLamp",
-							"rmg" : {
-									"value"     : 2000,
-									"rarity"    : 9999,
-									"zoneLimit" : 4
-									}
-					},
 					{
 						"id" : "core:object.randomArtifactMinor",
 						"rmg" : {
@@ -132,11 +123,11 @@
 								}
 					},
 					{
-						"id" : "hota.mapobjects:object.colosseumOfTheMagi.colosseumOfTheMagi",
+						"id" : "core:object.schoolOfMagic",
 						"rmg" : {
-								 "value"     : 3000,
-								 "rarity"    : 9999,
-								 "zoneLimit" : 3
+								 "value"     : 1000,
+								 "rarity"    : 1000,
+								 "zoneLimit" : 4
 								}
 					},
 					{
@@ -193,14 +184,6 @@
 								 "value"     : 1500,
 								 "rarity"    : 1000,
 								 "zoneLimit" : 2
-								}
-					},
-					{
-						"id" : "hota.highlandsterrain:object.junkman.junkman",
-						"rmg" : {
-								 "value"     : 200,
-								 "rarity"    : 9999,
-								 "zoneLimit" : 1
 								}
 					},
 					{
@@ -309,16 +292,14 @@
 								 "zoneLimit" : 4
 								}
 					}
-					
-
-
+				
 					]
 					}
 			},
 			"2" :
 			{
 				"type" : "playerStart",
-				"size" : 17,
+				"size" : 16,
 				"owner" : 2,
 				"monsters" : "normal",
 				"playerTowns" : { "castles" : 1 },
@@ -344,22 +325,9 @@
 				"customObjects" :
 					{
 					"bannedCategories" : ["questArtifact", "seerHut"],
-					"bannedObjects" :["hota.mapobjects:object.ancientLamp.ancientLamp", "core:object.randomArtifactMinor", "core:object.randomArtifactTreasure", "core:object.university",  "core:object.libraryOfEnlightenment", "core:object.arena", "hota.mapobjects:object.colosseumOfTheMagi.colosseumOfTheMagi", "core:object.mercenaryCamp", "core:object.marlettoTower", "core:object.schoolOfWar", "core:object.altarOfSacrifice", "core:object.witchHut", "hota.highlandsterrain:object.junkman.junkman", "core:object.hillFort", "hota.mapobjects:object.miniHillFort.miniHillFort", "core:object.freelancersGuild", "pvp-balance.objects:object.flyScrollObject.flyScroll", "pvp-balance.objects:object.dimensionDoorScrollObject.ddScroll", "pvp-balance.objects:object.townPortalScrollObject.tpScroll", "core:object.tavern", "core:object.prison.prison" ],
+					"bannedObjects" :["core:object.randomArtifactMinor", "core:object.randomArtifactTreasure", "core:object.university",  "core:object.libraryOfEnlightenment", "core:object.arena", "core:object.mercenaryCamp", "core:object.marlettoTower", "core:object.schoolOfWar", "core:object.schoolOfMagic", "core:object.altarOfSacrifice", "core:object.witchHut", "core:object.hillFort", "core:object.freelancersGuild", "core:object.tavern", "core:object.prison.prison" ],
 					"commonObjects":
 					[
-
-
-
-
-
-				{
-					"id" : "hota.mapobjects:object.ancientLamp.ancientLamp",
-					"rmg" : {
-							"value"     : 2000,
-							"rarity"    : 9999,
-							"zoneLimit" : 5
-							}
-			},
 			{
 				"id" : "core:object.randomArtifactMinor",
 				"rmg" : {
@@ -404,11 +372,11 @@
 						}
 			},
 			{
-				"id" : "hota.mapobjects:object.colosseumOfTheMagi.colosseumOfTheMagi",
+				"id" : "core:object.schoolOfMagic",
 				"rmg" : {
-						 "value"     : 3000,
-						 "rarity"    : 9999,
-						 "zoneLimit" : 3
+						"value"     : 1000,
+						"rarity"    : 1000,
+						"zoneLimit" : 4
 						}
 			},
 			{
@@ -452,14 +420,6 @@
 						}
 			},
 			{
-				"id" : "hota.highlandsterrain:object.junkman.junkman",
-				"rmg" : {
-						 "value"     : 200,
-						 "rarity"    : 9999,
-						 "zoneLimit" : 1
-						}
-			},
-			{
 				"id" : "core:object.hillFort",
 				"rmg" : {
 						 
@@ -473,33 +433,6 @@
 				"rmg" : {
 						 
 						 "value"     : 1000,
-						 "rarity"    : 9999,
-						 "zoneLimit" : 1
-						}
-			},
-			{
-				"id" : "pvp-balance.objects:object.flyScrollObject.flyScroll",
-				"rmg" : {
-						 
-						 "value"     : 20000,
-						 "rarity"    : 9999,
-						 "zoneLimit" : 1
-						}
-			},
-			{
-				"id" : "pvp-balance.objects:object.dimensionDoorScrollObject.ddScroll",
-				"rmg" : {
-						 
-						 "value"     : 20000,
-						 "rarity"    : 9999,
-						 "zoneLimit" : 1
-						}
-			},
-			{
-				"id" : "pvp-balance.objects:object.townPortalScrollObject.tpScroll",
-				"rmg" : {
-						 
-						 "value"     : 20000,
 						 "rarity"    : 9999,
 						 "zoneLimit" : 1
 						}
@@ -579,14 +512,9 @@
 				"customObjects" :
 					{
 					"bannedCategories" : ["questArtifact", "seerHut"],
-					"bannedObjects" :["hota.mapobjects:object.ancientLamp.ancientLamp", "core:object.randomArtifactMinor", "core:object.randomArtifactTreasure", "core:object.university",  "core:object.libraryOfEnlightenment", "core:object.arena", "hota.mapobjects:object.colosseumOfTheMagi.colosseumOfTheMagi", "core:object.mercenaryCamp", "core:object.marlettoTower", "core:object.schoolOfWar", "core:object.altarOfSacrifice", "core:object.witchHut", "hota.highlandsterrain:object.junkman.junkman", "core:object.hillFort", "hota.mapobjects:object.miniHillFort.miniHillFort", "core:object.freelancersGuild", "pvp-balance.objects:object.flyScrollObject.flyScroll", "pvp-balance.objects:object.dimensionDoorScrollObject.ddScroll", "pvp-balance.objects:object.townPortalScrollObject.tpScroll", "core:object.tavern", "core:object.prison.prison"],
+					"bannedObjects" :["core:object.randomArtifactMinor", "core:object.randomArtifactTreasure", "core:object.university",  "core:object.libraryOfEnlightenment", "core:object.arena", "core:object.mercenaryCamp", "core:object.marlettoTower", "core:object.schoolOfWar", "core:object.schoolOfMagic", "core:object.altarOfSacrifice", "core:object.witchHut", "core:object.hillFort", "core:object.freelancersGuild", "core:object.tavern", "core:object.prison.prison"],
 					"commonObjects":
 					[
-
-
-
-
-
 
 			{
 				"id" : "core:object.randomArtifactMinor",
@@ -632,11 +560,11 @@
 						}
 			},
 			{
-				"id" : "hota.mapobjects:object.colosseumOfTheMagi.colosseumOfTheMagi",
+				"id" : "core:object.schoolOfMagic",
 				"rmg" : {
-						 "value"     : 3000,
-						 "rarity"    : 9999,
-						 "zoneLimit" : 3
+						 "value"     : 1000,
+						 "rarity"    : 1000,
+						 "zoneLimit" : 4
 						}
 			},
 			{
@@ -680,14 +608,6 @@
 						}
 			},
 			{
-				"id" : "hota.highlandsterrain:object.junkman.junkman",
-				"rmg" : {
-						 "value"     : 200,
-						 "rarity"    : 9999,
-						 "zoneLimit" : 1
-						}
-			},
-			{
 				"id" : "core:object.hillFort",
 				"rmg" : {
 						 
@@ -701,33 +621,6 @@
 				"rmg" : {
 						 
 						 "value"     : 1000,
-						 "rarity"    : 9999,
-						 "zoneLimit" : 1
-						}
-			},
-			{
-				"id" : "pvp-balance.objects:object.flyScrollObject.flyScroll",
-				"rmg" : {
-						 
-						 "value"     : 20000,
-						 "rarity"    : 9999,
-						 "zoneLimit" : 1
-						}
-			},
-			{
-				"id" : "pvp-balance.objects:object.dimensionDoorScrollObject.ddScroll",
-				"rmg" : {
-						 
-						 "value"     : 20000,
-						 "rarity"    : 9999,
-						 "zoneLimit" : 1
-						}
-			},
-			{
-				"id" : "pvp-balance.objects:object.townPortalScrollObject.tpScroll",
-				"rmg" : {
-						 
-						 "value"     : 20000,
 						 "rarity"    : 9999,
 						 "zoneLimit" : 1
 						}
@@ -812,7 +705,7 @@
 				"monsters" : "strong",
 				"matchTerrainToTown" : false,
 				"mines" : { "mercury" : 1 },
-				"terrainTypes" : [ "dirt", "grass", "lava", "highlands", "subterra" ], 
+				"terrainTypes" : [ "dirt", "grass", "lava", "subterra" ], 
 				"treasure" :
 				[
 					{ "min" : 8000, "max" : 11000, "density" : 15 },
@@ -825,11 +718,9 @@
 					{
 						
 					"bannedCategories" : ["questArtifact", "seerHut", "creatureBank", "dwelling"],
-					"bannedObjects" :["hota.mapobjects:object.ancientLamp.ancientLamp",  "core:object.libraryOfEnlightenment", "core:object.arena", "hota.mapobjects:object.colosseumOfTheMagi.colosseumOfTheMagi", "core:object.mercenaryCamp", "core:object.marlettoTower", "core:object.schoolOfWar", "core:object.altarOfSacrifice", "core:object.witchHut", "hota.highlandsterrain:object.junkman.junkman", "core:object.hillFort", "hota.mapobjects:object.miniHillFort.miniHillFort", "core:object.freelancersGuild", "pvp-balance.objects:object.flyScrollObject.flyScroll", "pvp-balance.objects:object.dimensionDoorScrollObject.ddScroll", "pvp-balance.objects:object.townPortalScrollObject.tpScroll", "core:object.tavern", "core:object.prison.prison", "core:object.creatureBank.dragonFlyHive", "core:object.randomArtifactRelic"  ],
+					"bannedObjects" :["core:object.libraryOfEnlightenment", "core:object.arena", "core:object.mercenaryCamp", "core:object.marlettoTower", "core:object.schoolOfWar", "core:object.schoolOfMagic", "core:object.altarOfSacrifice", "core:object.witchHut", "core:object.hillFort", "core:object.freelancersGuild", "pvp-balance.objects:object.controlScrollObject.controlScroll", "core:object.tavern", "core:object.prison.prison", "core:object.creatureBank.dragonFlyHive", "core:object.randomArtifactRelic"  ],
 					"commonObjects":
 					[
-
-
 			{
 				"id" : "core:object.libraryOfEnlightenment",
 				"rmg" : {
@@ -848,11 +739,11 @@
 						}
 			},
 			{
-				"id" : "hota.mapobjects:object.colosseumOfTheMagi.colosseumOfTheMagi",
+				"id" : "core:object.schoolOfMagic",
 				"rmg" : {
-						 "value"     : 3000,
-						 "rarity"    : 9999,
-						 "zoneLimit" : 3
+						 "value"     : 1000,
+						 "rarity"    : 1000,
+						 "zoneLimit" : 4
 						}
 			},
 			{
@@ -896,14 +787,6 @@
 						}
 			},
 			{
-				"id" : "hota.highlandsterrain:object.junkman.junkman",
-				"rmg" : {
-						 "value"     : 200,
-						 "rarity"    : 9999,
-						 "zoneLimit" : 1
-						}
-			},
-			{
 				"id" : "core:object.hillFort",
 				"rmg" : {
 						 
@@ -921,34 +804,6 @@
 						 "zoneLimit" : 1
 						}
 			},
-			{
-				"id" : "pvp-balance.objects:object.flyScrollObject.flyScroll",
-				"rmg" : {
-						 
-						 "value"     : 20000,
-						 "rarity"    : 9999,
-						 "zoneLimit" : 1
-						}
-			},
-			{
-				"id" : "pvp-balance.objects:object.dimensionDoorScrollObject.ddScroll",
-				"rmg" : {
-						 
-						 "value"     : 20000,
-						 "rarity"    : 9999,
-						 "zoneLimit" : 1
-						}
-			},
-			{
-				"id" : "pvp-balance.objects:object.townPortalScrollObject.tpScroll",
-				"rmg" : {
-						 
-						 "value"     : 20000,
-						 "rarity"    : 9999,
-						 "zoneLimit" : 1
-						}
-			},
-
 			{
 				"id" : "core:object.creatureBank.dragonFlyHive",
 				"rmg" : {
@@ -968,9 +823,7 @@
 				}
 		]
 	}
-
-
-				
+	
 			},
 			"18" :
 			{
@@ -1000,6 +853,7 @@
 				"size" : 30,
 				"monsters" : "strong",
 				"terrainTypes" : [ "dirt", "rough" ], 
+				"allowedTowns" : ["neutral"],
 				"matchTerrainToTown" : false,
 				"mines" : { "gems" : 1 },
 				"treasure" :
@@ -1015,6 +869,7 @@
 				"size" : 30,
 				"monsters" : "strong",
 				"terrainTypes" : [ "lava", "subterra"],
+				"allowedTowns" : ["neutral"],
 				"matchTerrainToTown" : false,
 				"minesLikeZone" : 20,
 				"treasureLikeZone" : 20,
@@ -1080,13 +935,9 @@
 				"customObjects" :
 					{
 					"bannedCategories" : ["questArtifact", "seerHut"],
-					"bannedObjects" :["hota.mapobjects:object.ancientLamp.ancientLamp", "core:object.libraryOfEnlightenment", "core:object.arena", "hota.mapobjects:object.colosseumOfTheMagi.colosseumOfTheMagi", "core:object.mercenaryCamp", "core:object.marlettoTower", "core:object.schoolOfWar", "core:object.altarOfSacrifice", "core:object.witchHut", "hota.highlandsterrain:object.junkman.junkman", "core:object.hillFort", "hota.mapobjects:object.miniHillFort.miniHillFort", "core:object.freelancersGuild", "pvp-balance.objects:object.flyScrollObject.flyScroll", "pvp-balance.objects:object.dimensionDoorScrollObject.ddScroll", "pvp-balance.objects:object.townPortalScrollObject.tpScroll", "core:object.tavern", "core:object.prison.prison"],
+					"bannedObjects" :[ "core:object.libraryOfEnlightenment", "core:object.arena", "core:object.mercenaryCamp", "core:object.marlettoTower", "core:object.schoolOfWar", "core:object.schoolOfMagic", "core:object.altarOfSacrifice", "core:object.witchHut", "core:object.hillFort", "core:object.freelancersGuild", "core:object.tavern", "core:object.prison.prison", "pvp-balance.objects:object.controlScrollObject.controlScroll"],
 					"commonObjects":
 					[
-
-
-
-
 
 			{
 				"id" : "core:object.libraryOfEnlightenment",
@@ -1106,11 +957,11 @@
 						}
 			},
 			{
-				"id" : "hota.mapobjects:object.colosseumOfTheMagi.colosseumOfTheMagi",
+				"id" : "core:object.schoolOfMagic",
 				"rmg" : {
-						 "value"     : 3000,
-						 "rarity"    : 9999,
-						 "zoneLimit" : 3
+						 "value"     : 1000,
+						 "rarity"    : 1000,
+						 "zoneLimit" : 4
 						}
 			},
 			{
@@ -1154,14 +1005,6 @@
 						}
 			},
 			{
-				"id" : "hota.highlandsterrain:object.junkman.junkman",
-				"rmg" : {
-						 "value"     : 200,
-						 "rarity"    : 9999,
-						 "zoneLimit" : 1
-						}
-			},
-			{
 				"id" : "core:object.hillFort",
 				"rmg" : {
 						 
@@ -1175,33 +1018,6 @@
 				"rmg" : {
 						 
 						 "value"     : 1000,
-						 "rarity"    : 9999,
-						 "zoneLimit" : 1
-						}
-			},
-			{
-				"id" : "pvp-balance.objects:object.flyScrollObject.flyScroll",
-				"rmg" : {
-						 
-						 "value"     : 20000,
-						 "rarity"    : 9999,
-						 "zoneLimit" : 1
-						}
-			},
-			{
-				"id" : "pvp-balance.objects:object.dimensionDoorScrollObject.ddScroll",
-				"rmg" : {
-						 
-						 "value"     : 20000,
-						 "rarity"    : 9999,
-						 "zoneLimit" : 1
-						}
-			},
-			{
-				"id" : "pvp-balance.objects:object.townPortalScrollObject.tpScroll",
-				"rmg" : {
-						 
-						 "value"     : 20000,
 						 "rarity"    : 9999,
 						 "zoneLimit" : 1
 						}
@@ -1216,21 +1032,16 @@
 				"size" : 30,
 				"monsters" : "strong",
 				"matchTerrainToTown" : false,
+				"allowedTowns" : ["neutral"],
 				"mines" : { "mercury" : 1 },
 				"treasureLikeZone" : 20,
 				"terrainTypes" : [ "lava", "subterra"],
 				"customObjects" :
 					{
 					"bannedCategories" : ["questArtifact", "seerHut"],
-					"bannedObjects" :["hota.mapobjects:object.ancientLamp.ancientLamp", "core:object.libraryOfEnlightenment", "core:object.arena", "hota.mapobjects:object.colosseumOfTheMagi.colosseumOfTheMagi", "core:object.mercenaryCamp", "core:object.marlettoTower", "core:object.schoolOfWar", "core:object.altarOfSacrifice", "core:object.witchHut", "hota.highlandsterrain:object.junkman.junkman", "core:object.hillFort", "hota.mapobjects:object.miniHillFort.miniHillFort", "core:object.freelancersGuild", "pvp-balance.objects:object.flyScrollObject.flyScroll", "pvp-balance.objects:object.dimensionDoorScrollObject.ddScroll", "pvp-balance.objects:object.townPortalScrollObject.tpScroll", "core:object.tavern", "core:object.prison.prison", "pvp-balance.objects:object.azureDragonPandora.azureDragonPandora"],
+					"bannedObjects" :["core:object.libraryOfEnlightenment", "core:object.arena", "core:object.mercenaryCamp", "core:object.marlettoTower", "core:object.schoolOfWar", "core:object.schoolOfMagic", "core:object.altarOfSacrifice", "core:object.witchHut", "core:object.hillFort", "core:object.freelancersGuild", "core:object.tavern", "core:object.prison.prison", "pvp-balance.objects:object.azureDragonPandora.azureDragonPandora", "pvp-balance.objects:object.controlScrollObject.controlScroll"],
 					"commonObjects":
 					[
-
-
-
-
-
-
 			
 			{
 				"id" : "core:object.arena",
@@ -1241,11 +1052,11 @@
 						}
 			},
 			{
-				"id" : "hota.mapobjects:object.colosseumOfTheMagi.colosseumOfTheMagi",
+				"id" : "core:object.schoolOfMagic",
 				"rmg" : {
-						 "value"     : 3000,
-						 "rarity"    : 9999,
-						 "zoneLimit" : 3
+						 "value"     : 1000,
+						 "rarity"    : 1000,
+						 "zoneLimit" : 4
 						}
 			},
 			{
@@ -1289,14 +1100,6 @@
 						}
 			},
 			{
-				"id" : "hota.highlandsterrain:object.junkman.junkman",
-				"rmg" : {
-						 "value"     : 200,
-						 "rarity"    : 9999,
-						 "zoneLimit" : 1
-						}
-			},
-			{
 				"id" : "core:object.hillFort",
 				"rmg" : {
 						 
@@ -1310,33 +1113,6 @@
 				"rmg" : {
 						 
 						 "value"     : 1000,
-						 "rarity"    : 9999,
-						 "zoneLimit" : 1
-						}
-			},
-			{
-				"id" : "pvp-balance.objects:object.flyScrollObject.flyScroll",
-				"rmg" : {
-						 
-						 "value"     : 20000,
-						 "rarity"    : 9999,
-						 "zoneLimit" : 1
-						}
-			},
-			{
-				"id" : "pvp-balance.objects:object.dimensionDoorScrollObject.ddScroll",
-				"rmg" : {
-						 
-						 "value"     : 20000,
-						 "rarity"    : 9999,
-						 "zoneLimit" : 1
-						}
-			},
-			{
-				"id" : "pvp-balance.objects:object.townPortalScrollObject.tpScroll",
-				"rmg" : {
-						 
-						 "value"     : 20000,
 						 "rarity"    : 9999,
 						 "zoneLimit" : 1
 						}
@@ -1359,6 +1135,7 @@
 				"size" : 20,
 				"monsters" : "strong",
 				"matchTerrainToTown" : false,
+				"allowedTowns" : ["neutral"],
 				"mines" : { "mercury" : 1 },
 				"treasureLikeZone" : 20,
 				"terrainTypes" : [ "sand"],
@@ -1419,6 +1196,7 @@
 				"size" : 30,
 				"monsters" : "strong",
 				"matchTerrainToTown" : false,
+				"allowedTowns" : ["neutral"],
 				"mines" : { "mercury" : 1 },
 				"treasureLikeZone" : 20,
 				"terrainTypes" : [ "lava", "subterra"],
@@ -1430,9 +1208,10 @@
 				"size" : 30,
 				"monsters" : "strong",
 				"matchTerrainToTown" : false,
+				"allowedTowns" : ["neutral"],
 				"mines" : { "mercury" : 1 },
 				"treasureLikeZone" : 20,
-				"terrainTypes" : [ "wasteland"],
+				"terrainTypes" : [ "rough"],
 				"customObjectsLikeZone":28
 
 			},
@@ -1497,7 +1276,8 @@
 				"size" : 30,
 				"monsters" : "strong",
 				"matchTerrainToTown" : false,
-				"terrainTypes" : [ "highlands", "grass"],
+				"allowedTowns" : ["neutral"],
+				"terrainTypes" : [ "grass"],
 				"mines" : { "gems" : 1 },
 				"treasureLikeZone" : 20,
 				"customObjectsLikeZone":28
@@ -1508,6 +1288,7 @@
 				"size" : 30,
 				"monsters" : "strong",
 				"matchTerrainToTown" : false,
+				"allowedTowns" : ["neutral"],
 				"terrainTypes" : [ "lava", "subterra"],
 				"mines" : { "gems" : 1 },
 				"treasureLikeZone" : 20,

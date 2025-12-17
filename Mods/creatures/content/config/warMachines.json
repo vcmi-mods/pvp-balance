@@ -6,10 +6,6 @@
     },
 
   "cost": {"gold": 1500}
-  },
-
-  "hota.cannon:cannon":{
-		"cost": {"gold": 3000}
-	}
+  }
   
 }

@@ -1,0 +1,13 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+				"redTower" : {
+					"rmg" : {
+							"zoneLimit" : 0
+					}
+			}
+		}
+	}
+}

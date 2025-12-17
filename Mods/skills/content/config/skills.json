@@ -1,31 +1,139 @@
 {
 
-	"core:eagleEye": {
-		"special" : true
+	"core:resistance" : {
+		"base" : {
+			"effects" : {
+				"main" : {
+					"type" : "SPELL_DAMAGE_REDUCTION",
+					"subtype" : "spellSchool.any",
+					"val" : 15
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Resistance}\n\nBasic Resistance reduces damage from spells inflicted against the hero's troops by 15%.",
+			"effects" : {
+				"main" : { "val" : 15 }
+			}
+		},
+		"advanced" : {
+			"description" : "{Basic Resistance}\n\nBasic Resistance reduces damage from spells inflicted against the hero's troops by 30%.",
+			"effects" : {
+				"main" : { "val" : 30 }
+			}
+		},
+		"expert" : {
+			"description" : "{Basic Resistance}\n\nBasic Resistance reduces damage from spells inflicted against the hero's troops by 40%.",
+			"effects" : {
+				"main" : { "val" : 40 }
+			}
+		}
 	},
 
-	"core:resistance": {
-		"special" : true
+	"core:logistics" : {
+		"basic" : {
+			"description" : "{Basic Logistics}\n\nBasic Logistics increases your hero's movement points over land by 5%.",
+			"effects" : {
+				"main" : { "val" : 5 }
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Logistics}\n\nAdvanced Logistics increases your hero's movement points over land by 10%.",
+			"effects" : {
+				"main" : { "val" : 10 }
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Logistics}\n\nExpert Logistics increases your hero's movement points over land by 20%.",
+			"effects" : {
+				"main" : { "val" : 20 }
+			}
+		}
 	},
 
+	"core:scouting" : {
+		"basic" : {
+			"description" : "{Basic Scouting}\n\nBasic Scouting allows your hero to see 1 square further into the shroud.",
+			"effects" : {
+				"main" : { "val" : 1 }
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Scouting}\n\nAdvanced Scouting allows your hero to see 3 squares further into the shroud.",
+			"effects" : {
+				"main" : { "val" : 3 }
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Scouting}\n\nExpert Scouting allows your hero to see 5 squares further into the shroud.",
+			"effects" : {
+				"main" : { "val" : 5 }
+			}
+		}
+	},
 
-   "core:leadership": {
-   		"expert" : {
-	   		"description" : "{Expert Leadership}\n\nincreases your hero's troops' morale by 3. Creatures of non-evil alignment can be mixed with no morale penalty.",
-	   		"effects" : {
-		   				"main" : {
-			   					"type" : "MORALE",
-			   					"val" : 3,
-			   					"valueType" : "BASE_NUMBER"
-		   						},
-		   				"noMoralePenalty" : {
-		   								"type" : "NONEVIL_ALIGNMENT_MIX",
-		   								"val" : 0,
-		   								"valueType" : "BASE_NUMBER"
-	   									}
-	   }
-   }
-},
+		"core:necromancy" : {
+		"basic" : {
+			"description" : "{Basic Necromancy}\n\nBasic Necromancy allows 5% of the creatures killed in combat to be brought back from the dead as Skeletons.",
+			"effects" : {
+				"main" : { "val" : 5 }
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Necromancy}\n\nAdvanced Necromancy allows 10% of the creatures killed in combat to be brought back from the dead as Skeletons.",
+			"effects" : {
+				"main" : { "val" : 10 }
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Necromancy}\n\nExpert Necromancy allows 15% of the creatures killed in combat to be brought back from the dead as Skeletons.",
+			"effects" : {
+				"main" : { "val" : 15 }
+			}
+		}
+	},
+
+	"core:estates" : {
+		"basic" : {
+			"description" : "{Basic Estates}\n\nYour hero contributes 250 gold per day to your cause.",
+			"effects" : {
+				"main" : { "val" : 250 }
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Estates}\n\nYour hero contributes 500 gold per day to your cause.",
+			"effects" : {
+				"main" : { "val" : 500 }
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Estates}\n\nYour hero contributes 1000 gold per day to your cause.",
+			"effects" : {
+				"main" : { "val" : 1000 }
+			}
+		}
+	},
+
+	"core:intelligence" : {
+		"basic" : {
+			"description" : "{Basic Intelligence}\n\nBasic Intelligence increases a hero's normal maximum spell points by 20%.",
+			"effects" : {
+				"main" : { "val" : 20 }
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Intelligence}\n\nAdvanced Intelligence increases a hero's normal maximum spell points by 40%.",
+			"effects" : {
+				"main" : { "val" : 40 }
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Intelligence}\n\nExpert Intelligence increases a hero's normal maximum spell points by 60%.",
+			"effects" : {
+				"main" : { "val" : 60 }
+			}
+		}
+	},
 
 	"core:sorcery": {
 		"basic" : {
@@ -80,29 +188,48 @@
 				"knowledgeIncrease": {
 					"type": "PRIMARY_SKILL",
 					"subtype": "primarySkill.knowledge"
+				},
+
+				"spellPowerIncrease": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.spellpower"
+				},
+
+				"attackIncrease": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.attack"
+				},
+
+				"defenceIncrease": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.defence"
 				}
 			}
 		},
 		
 		"basic" : {
-			"description": "{Basic Learning}\n\nIncreases hero's earned experience by 25% and increases knowledge by 1.",
+			"description": "{Basic Learning}\n\nIncreases hero's earned experience by 25% and knowledge by 1.",
 			"effects" : {
-				"main" : { "val" : 10},
+				"main" : { "val" : 25},
 				"knowledgeIncrease": {"val": 1}
 			}
 		},
 		"advanced" : {
-			"description": "{Advanced Learning}\n\nIncreases hero's earned experience by 50% and increases knowledge by 2.",
+			"description": "{Advanced Learning}\n\nIncreases hero's earned experience by 50% and magical primary skills by 1.",
 			"effects" : {
-				"main" : { "val" : 25 },
-				"knowledgeIncrease": {"val": 2}
+				"main" : { "val" : 50 },
+				"knowledgeIncrease": {"val": 1},
+				"spellPowerIncrease": {"val": 1}
 			}
 		},
 		"expert" : {
-			"description": "{Expert Learning}\n\nIncreases hero's earned experience by 70% and increases knowledge by 3.",
+			"description": "{Expert Learning}\n\nIncreases hero's earned experience by 75% and all primary skills by 1.",
 			"effects" : {
-				"main" : { "val" : 50 },
-				"knowledgeIncrease": {"val": 3}
+				"main" : { "val" : 75 },
+				"knowledgeIncrease": {"val": 1},
+				"spellPowerIncrease": {"val": 1},
+				"attackIncrease": {"val": 1},
+				"defenceIncrease": {"val": 1}
 			}
 		}
 	},
@@ -132,28 +259,26 @@
 			}
 		},
 		"basic" : {
-			"description" : "{Basic Ballistics}\n\n Gives the hero control of the Catapult. The Catapult can be aimed and has an increased chance to hit fortifications. Health points of the Catapult are increased by 250.",
+			"description" : "{Basic Ballistics}\n\n Gives the hero control of the Catapult. The Catapult can be aimed, has an increased chance to hit fortifications and 50% chance for double damage. Health points of the Catapult are increased by 250.",
 			"effects" : {
 				"main" : { "val" : 1 },
 				"catapultHealthPointBonus" : 	{ "val" : 250}
 			}
 		},
 		"advanced" : {
-			"description" : "{Advanced Ballistics}\n\n Gives the hero control of the Catapult. The Catapult can be aimed, has an increased chance to hit fortifications, and shoots twice. Health points of the Catapult are increased by 500.",
+			"description" : "{Advanced Ballistics}\n\n Gives the hero control of the Catapult. The Catapult can be aimed, always hits the intended target, shoots twice and has 50% chance for double damage. Health points of the Catapult are increased by 500.",
 			"effects" : {
 				"main" : { "val" : 2 },
 				"catapultHealthPointBonus" : 	{ "val" : 500}
 			}
 		},
 		"expert" : {
-			"description" : "{Expert Ballistics}\n\n Gives the hero control of the Catapult. The Catapult can be aimed, always hits the intended target, and shoots twice.  Health points of the Catapult are increased by 1000.",
+			"description" : "{Expert Ballistics}\n\n Gives the hero control of the Catapult. The Catapult can be aimed, always hits the intended target, shoots twice and always deals double damage.  Health points of the Catapult are increased by 1000.",
 			"effects" : {
 				"main" : { "val" : 3 },
 				"catapultHealthPointBonus" : 	{ "val" : 1000}
 			}
 		}
-		
-		
 		
 	},
 
@@ -180,12 +305,21 @@
 							"duration": "ONE_BATTLE",	
 							"limiters": [ 
 							{"type" : "CREATURE_TYPE_LIMITER", "parameters" : [ "firstAidTent", true]	} ]
+						},
+
+				"tentSpellDamageReduction" : 	{ 
+							"type": "SPELL_DAMAGE_REDUCTION",
+							"subtype" : "spellSchool.any", 
+							"val": 50, 
+							"duration": "ONE_BATTLE",	
+							"limiters": [ 
+							{"type" : "CREATURE_TYPE_LIMITER", "parameters" : [ "firstAidTent", true]	} ]
 						}
 				}
 			},
 
 		"basic" : {
-		   "description" : "{Basic First Aid}\n\n Gives the hero control of the First Aid Tent. The First Aid Tent heals the first unit in a stack for 50 points of damage and removes negative effects. Health points of the First Aid Tent are increased by 25.",
+		   "description" : "{Basic First Aid}\n\n Gives the hero control of the First Aid Tent. The First Aid Tent heals the first unit in a stack for 50 points of damage and removes negative effects. Health points of the First Aid Tent are increased by 25 and damage it obtains from spells is reduced by 50%.",
 		   "effects" : {
 			   "ctrl" : {
 				   "subtype" : "creature.firstAidTent",
@@ -193,6 +327,7 @@
 				   "val" : 100,
 				   "valueType" : "BASE_NUMBER"
 			   		},
+
 			   "main" : {
 				   "subtype" : "spell.firstAid",
 				   "type" : "SPECIFIC_SPELL_POWER",
@@ -202,12 +337,15 @@
 
 				"tentHealthPointBonus" : 	{ 
 					"val": 25
+					},
+				"tentSpellDamageReduction" : 	{ 
+					"val": 50
 					}
 		   		}
 	   		},
 
 			"advanced" : {
-			   "description" : "{Advanced First Aid}\n\n Gives the hero control of the First Aid Tent. The First Aid Tent heals the first unit in a stack for 75 points of damage and removes negative effects. Health points of the First Aid Tent are increased by 50.",
+			   "description" : "{Advanced First Aid}\n\n Gives the hero control of the First Aid Tent. The First Aid Tent heals the first unit in a stack for 75 points of damage and removes negative effects. Health points of the First Aid Tent are increased by 50 and damage it obtains from spells is reduced by 75%.",
 			   "effects" : {
 				   "ctrl" : {
 					   "subtype" : "creature.firstAidTent",
@@ -224,11 +362,14 @@
 					"tentHealthPointBonus" : 	{ 
 							"val": 50
 							}
-			   		}
+			   		},
+				"tentSpellDamageReduction" : 	{ 
+					"val": 75
+					}
 		   		},
 			
 			"expert" : {
-				"description" : "{Expert First Aid}\n\n Gives the hero control of the First Aid Tent. The First Aid Tent heals the first unit in a stack for 100 points of damage and removes negative effects. Health points of the First Aid Tent are increased by 75.",
+				"description" : "{Expert First Aid}\n\n Gives the hero control of the First Aid Tent. The First Aid Tent heals the first unit in a stack for 100 points of damage and removes negative effects. Health points of the First Aid Tent are increased by 75 and damage it obtains from spells is reduced by 100%.",
 				"effects" : {
 					   "ctrl" : {
 						   "subtype" : "creature.firstAidTent",
@@ -244,7 +385,10 @@
 					   		},
 						"tentHealthPointBonus" : 	{ 
 							"val": 75
-							}
+							},
+				"tentSpellDamageReduction" : 	{ 
+					"val": 100
+					}
 
 				   		}
 			   }
@@ -261,62 +405,37 @@
 							"duration": "ONE_BATTLE",	
 							"limiters": [ 
 							{"type" : "CREATURE_TYPE_LIMITER", "parameters" : [ "ballista", true]	} ]
-						},
-
-				"cannonHealthPointBonus" : 	{ 
-							"type": "STACK_HEALTH", 
-							"val": 50, 
-							"duration": "ONE_BATTLE",	
-							"limiters": [ 
-							{"type" : "CREATURE_TYPE_LIMITER", "parameters" : [ "cannon", true]	} ]
 						}
 				}
 			},
 
 		"basic" : {
-		   "description" : "{Basic Artillery}\n\n Gives the hero control of the Ballista, Arrow Towers, and the Cannon. The Ballista has a 50% chance to inflict 200% base Damage. The Cannon has an increased chance to hit fortifications. Health points of the Ballista and Cannon are increased by 50.",
+		   "description" : "{Basic Artillery}\n\n Gives the hero control of the Ballista and Arrow Towers. The Ballista has a 50% chance to inflict 200% base Damage. Health points of the Ballista are increased by 50.",
 			"effects" : {
 			   "ballistaHealthPointBonus" : 	{ 
-							"val": 50
-				},
-
-				"cannonHealthPointBonus" : 	{ 
 							"val": 50
 				}
 		   	}
 	   		},
 
 			"advanced" : {
-			   "description" : "{Advanced Artillery}\n\n Gives the hero control of the Ballista, Arrow Towers, and the Cannon. The Ballista shoots twice and has a 75% chance to inflict 200% base Damage. The Cannon has an increased chance to hit fortifications and inflicts 200% base Damage to creatures. Health points of the Ballista and Cannon are increased by 100.",
+			   "description" : "{Advanced Artillery}\n\n Gives the hero control of the Ballista and Arrow Towers. The Ballista shoots twice and has a 75% chance to inflict 200% base Damage. Health points of the Ballista are increased by 100.",
 			   "effects" : {
 				   "ballistaHealthPointBonus" : 	{ 
-							"val": 100
-					},
-
-					"cannonHealthPointBonus" : 	{ 
 							"val": 100
 					}
 			   	}
 		   		},
 			
 			"expert" : {
-				"description" : "{Expert Artillery}\n\n Gives the hero control of the Ballista, Arrow Towers, and the Cannon. The Ballista shoots twice and inflicts 200% base Damage. The Cannon precisely hits fortifications at maximum Damage and inflicts 300% base Damage to creatures. Health points of the Ballista and Cannon are increased by 150.",
+				"description" : "{Expert Artillery}\n\n Gives the hero control of the Ballista and Arrow Towers. The Ballista shoots twice and inflicts 200% base Damage. Health points of the Ballista are increased by 250.",
 			   "effects" : {
 					"ballistaHealthPointBonus" : 	{ 
-						"val": 150
-					},
-
-					"cannonHealthPointBonus" : 	{ 
-						"val": 150
+						"val": 250
 					}
 				}
 			   }
 		
 	}
-
-
-
-
-
 	
 }

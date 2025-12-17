@@ -1,0 +1,48 @@
+{
+	"new-pavilion:godScaleAttack" : 
+	{
+		
+		"levels" : 
+			{
+			
+			"base":{
+				"description": "Attack scaled down to 40%.",
+				"cost": 0,
+				"power": 1,
+				"aiValue": 0,
+				"range" : "0",
+				"targetModifier":{"smart":true},
+				"effects" : {
+					"scaledAttack" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.attack",
+						"val" : -60,
+						"valueType" : "PERCENT_TO_ALL",
+						"duration" : "N_TURNS"
+					}
+					}
+					},
+					
+			"none":{
+			},
+			"basic":{
+			},
+			"advanced":{
+			},
+			"expert":{
+			}
+			},
+		"absoluteLimit" : {
+
+		},
+		"absoluteImmunity" : {
+
+		},
+		"immunity" : {
+
+		},
+		"flags" : {
+			"negative": true
+		}
+	}
+}

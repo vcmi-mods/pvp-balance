@@ -1,0 +1,30 @@
+{
+    "name" : "Horseshoe Lake - Hota Compatibility",
+
+    "description" : "This mod bans Wolf Raider Picket bank. Horseshoe Lake bank is introduced in its place.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+
+	"objects" :
+	[
+		"config/wolfRaiderPicket.json"
+	],
+
+	"depends":
+	[
+	"hota.mapObjects"
+	],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.4",
+	
+    "keepDisabled" : false
+}

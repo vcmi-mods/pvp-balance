@@ -1,6 +1,6 @@
 {
 	"name" : "Nowa Arena",
-	"description" : "Map Nowa Arena.<br>A bare version with no global game mechanics changes. You can keep it enabled when playing other maps.<br>The full version with all the modifications is in the submod. The submod with the full version should be disabled when playing other maps.<br>Build creature dwellings for a week, buy at start of week 2.<br>A day 8 (day 1 of week 2) event gives you extra 10 level 7 creatures, 20 level 6, 40 level 5 etc. to recruit in the dwellings that you built.<br>Blue attacks Red in the desert on week 2, day 5.",
+	"description" : "Map Nowa Arena<br><br>A bare version with no global game mechanics changes. You can keep it enabled when playing other maps.<br><br>The full version with all the modifications is in the submod. The submod with the full version should be disabled when playing other maps.<br><br><u>Gameplay:</u><br>1) Build creature dwellings for a week, buy at start of week 2.<br>2) A day 8 (day 1 of week 2) event gives you extra 10 level 7 creatures, 20 level 6, 40 level 5 etc. to recruit in the dwellings that you built.<br>3) Blue attacks Red in the desert on week 2, day 5.<br><br><u>Recommended settings:</u><br><br>Players: 2<br>Simultaneous turns: 121<br>Timer: 10-5-0<br><br>For more dynamic games Battle Timer and Unit Timer can be enabled, for example 5 minutes Battle Timer and 30 seconds Unit Timer.",
 	"author" : "Warzyw647",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "https://creativecommons.org/licenses/by-sa/4.0/",
@@ -27,12 +27,11 @@
 	},
 	"conflicts" :
 	[
-		"pvp-balance.pvpTemplates.vietnameseDiplomacy",
-		"pvp-balance.pvpTemplates.jebusOneHero",
-		"pvp-balance.pvpTemplates.oneMinuteMadness",
-		"pvp-balance.spells.controlSpells",
-		"pvp-balance.gameOptions",
 		"warzyw-templates.arena"
+	],
+
+	"softDepends": [
+		"pvp-balance.gameMechanics"
 	]
 
 }

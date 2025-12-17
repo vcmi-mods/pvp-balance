@@ -7,10 +7,10 @@
 			{
 				"blockedVisitable" : true,
 				"removable": true,
-				"name": "Pandora's Box",
 				"rmg" : {
 					"value"		: 999999,
-					"rarity"	: 1
+					"rarity"	: 1,
+					"zoneLimit" : 0
 				},
 				
 				"rewards" :
@@ -30,15 +30,14 @@
 					
 				],
 				"canRefuse": false,
-				"visitMode" : "once",
-				"compatibilityIdentifiers" : [ "object" ],
+				"visitMode" : "unlimited",
 				"templates" : 
 				{
-					"avtglam" : 
+					"pandoraBox" : 
 					{
-						"animation" : "map/pandora", 
+						"animation" : "ava0128", 
 						"visitableFrom" : [ "+++", "+++", "+++" ],
-						"mask" : ["A"]
+						"mask" : ["VV", "VA"]
 					}
 				}
 			}

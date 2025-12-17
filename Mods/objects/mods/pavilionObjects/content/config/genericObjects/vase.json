@@ -1,0 +1,30 @@
+{
+		"new-pavilion.dunes-terrain:vase"	: {
+		"types" : {
+			"vase" : {
+				"rmg" : {
+					"value"		: 800,
+					"rarity"	: 600
+				},
+				
+				"rewards" : [
+					{
+						"message": "{Vase}\r\n\r\nYou have found some resources in broken vase.",
+						"removeObject" : true,
+						"resources" : [
+							{
+								"list" : [ "sulfur", "gems", "crystal" ],
+								"min" : 3,
+								"max" : 5
+							},
+							{
+								"type" : "gold",
+								"amount" : [ 300, 400, 500 ]
+							}
+						]
+					}
+				]
+			}
+		}
+	}
+}

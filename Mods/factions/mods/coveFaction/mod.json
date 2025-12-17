@@ -1,0 +1,29 @@
+{
+    "name" : "HotA Cove - Compatibility",
+
+    "description" : "Rebalanced buildings for Cove town from Horn of the Abyss mod.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+    
+    "depends" : 
+	[
+		"hota.cove"
+	],
+
+   "factions": [
+    "config/coveFaction.json"
+    ],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.4",
+	
+    "keepDisabled" : false
+}

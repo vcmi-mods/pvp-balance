@@ -1,0 +1,66 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"redTower" : {
+				"blockedVisitable" : false,
+				"onGuardedMessage" : 32,
+				"onVisitedMessage" : 33,
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"guardsLayout" : "creatureBankNarrow",
+				"rewards": [
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 0, "max" : 15 },
+						"guards": [
+							{ "amount": 7, "type" : "fireElemental" },
+							{ "amount": 7, "type" : "fireElemental" },
+							{ "amount": 7, "type" : "fireElemental", "upgradeChance": 50 },
+							{ "amount": 7, "type" : "fireElemental" },
+							{ "amount": 7, "type" : "fireElemental" }
+						],
+						"creatures": [ { "amount": 1, "type": "firebird" } ]
+					},
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 15, "max" : 50 },
+						"guards": [
+							{ "amount": 14, "type" : "fireElemental" },
+							{ "amount": 14, "type" : "fireElemental" },
+							{ "amount": 14, "type" : "fireElemental", "upgradeChance": 50 },
+							{ "amount": 14, "type" : "fireElemental" },
+							{ "amount": 14, "type" : "fireElemental" }
+						],
+						"creatures": [ { "amount": 2, "type": "firebird" } ]
+					},
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 50, "max" : 85 },
+						"guards": [
+							{ "amount": 21, "type" : "fireElemental" },
+							{ "amount": 21, "type" : "fireElemental" },
+							{ "amount": 21, "type" : "fireElemental", "upgradeChance": 50 },
+							{ "amount": 21, "type" : "fireElemental" },
+							{ "amount": 21, "type" : "fireElemental" }
+						],
+						"creatures": [ { "amount": 3, "type": "firebird" } ]
+					},
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 85, "max" : 100 },
+						"guards": [
+							{ "amount": 28, "type" : "fireElemental" },
+							{ "amount": 28, "type" : "fireElemental" },
+							{ "amount": 28, "type" : "fireElemental", "upgradeChance": 50 },
+							{ "amount": 28, "type" : "fireElemental" },
+							{ "amount": 28, "type" : "fireElemental" }
+						],
+						"creatures": [ { "amount": 4, "type": "firebird" } ]
+					}
+					]
+			}
+		}
+	}
+}

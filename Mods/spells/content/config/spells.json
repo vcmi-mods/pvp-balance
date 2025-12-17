@@ -1,0 +1,1352 @@
+{
+	"core:summonBoat" : {
+		
+		"flags" : {
+			"special" : true
+		}
+	},
+	"core:scuttleBoat" : {
+		
+		"flags" : {
+			"special" : true
+		}
+	},
+	"core:waterWalk" : {
+		
+		"flags" : {
+			"special" : true
+		},
+		"levels" : {
+			"none": {
+				"description": "{Water Walk}\n\nThe casting hero may follow a movement path across water with 40% penalty, provided the end destination is an unoccupied location on land.\n"
+			},
+			"basic" : {
+				"description": "{Basic Water Walk}\n\nThe casting hero may follow a movement path across water with 40% penalty, provided the end destination is an unoccupied location on land.\n"
+			},
+			"advanced" : {
+				"description": "{Advanced Water Walk}\n\nThe casting hero may follow a movement path across water with 20% penalty, provided the end destination is an unoccupied location on land.\n"
+			},
+			"expert" : {
+				"description": "{Expert Water Walk}\n\nThe casting hero may follow a movement path across water without penalty, provided the end destination is an unoccupied location on land.\n"
+			}
+		}
+	},
+
+	"core:magicArrow" : {
+		"levels" : {
+			"none": {
+				"description": "{Magic Arrow}\n\nCauses a bolt of magical energy to strike the selected enemy unit, dealing (10 + (power x 10)) damage to it.\n"
+			},
+			"basic" : {
+				"description": "{Basic Magic Arrow}\n\nCauses a bolt of magical energy to strike the selected enemy unit, dealing (10 + (power x 10)) damage to it.\n"
+			},
+			"advanced" : {
+				"description": "{Advanced Magic Arrow}\n\nCauses a bolt of magical energy to strike the selected enemy unit, dealing (20 + (power x 10)) damage to it.\n"
+			},
+			"expert" : {
+				"description": "{Expert Magic Arrow}\n\nCauses a bolt of magical energy to strike the selected enemy unit, dealing (30 + (power x 10)) damage to it.\n"
+			}
+		}
+	},
+
+	"core:haste" : {
+		"levels" : {
+			"none": {
+				"description": "{Haste}\n\nIncreases the speed of the selected allied unit by 3.\n"
+			},
+			"basic" : {
+				"description": "{Basic Haste}\n\nIncreases the speed of the selected allied unit by 3.\n"
+			},
+			"advanced" : {
+				"description": "{Advanced Haste}\n\nIncreases the speed of the selected allied unit by 5.\n"
+			},
+			"expert" : {
+				"description": "{Expert Haste}\n\nIncreases the speed of all allied units by 5.\n"
+			}
+		}
+	},
+
+	"core:shield" : {
+		"levels" : {
+			"none": {
+				"description": "{Shield}\n\nShields a selected friendly unit, reducing the amount of damage received from hand-to-hand attacks by 15%.\n"
+			},
+			"basic" : {
+				"description": "{Basic Shield}\n\nShields a selected friendly unit, reducing the amount of damage received from hand-to-hand attacks by 15%.\n"
+			},
+			"advanced" : {
+				"description": "{Advanced Shield}\n\nShields a selected friendly unit, reducing the amount of damage received from hand-to-hand attacks by 30%.\n"
+			},
+			"expert" : {
+				"description": "{Expert Shield}\n\nShields all friendly units, reducing the amount of damage received from hand-to-hand attacks by 30%.\n"
+			}
+		}
+	},
+
+	"core:stoneSkin" : {
+		"levels" : {
+			"none": {
+				"description": "{Stone Skin}\n\nIncreases the selected friendly unit's defense strength by 3.\n"
+			},
+			"basic" : {
+				"description": "{Basic Stone Skin}\n\nIncreases the selected friendly unit's defense strength by 3.\n"
+			},
+			"advanced" : {
+				"description": "{Advanced Stone Skin}\n\nIncreases the selected friendly unit's defense strength by 6.\n"
+			},
+			"expert" : {
+				"description": "{Expert Stone Skin}\n\nIncreases the defense strength of all friendly units by 6.\n"
+			}
+		}
+	},
+
+	"core:bless" : {
+		"levels" : {
+			"none": {
+				"description": "{Bless}\n\nCauses the selected friendly unit to inflict maximum damage when it attacks.\n"
+			},
+			"basic" : {
+				"description": "{Basic Bless}\n\nCauses the selected friendly unit to inflict maximum damage when it attacks.\n"
+			},
+			"advanced" : {
+				"description": "{Advanced Bless}\n\nCauses the selected friendly unit to inflict (maximum damage + 1) when it attacks.\n"
+			},
+			"expert" : {
+				"description": "{Expert Bless}\n\nCauses all friendly units to inflict (maximum damage + 1) when they attack.\n"
+			}
+		}
+	},
+
+	"core:cure" : {
+		"levels" : {
+			"none": {
+				"description": "{Cure}\n\nRemoves all negative spell effects from the selected friendly unit and heals it for (10 + (power x 5)) health points.\n"
+			},
+			"basic" : {
+				"description": "{Basic Cure}\n\nRemoves all negative spell effects from the selected friendly unit and heals it for (10 + (power x 5)) health points.\n"
+			},
+			"advanced" : {
+				"description": "{Advanced Cure}\n\nRemoves all negative spell effects from the selected friendly unit and heals it for (20 + (power x 5)) health points.\n"
+			},
+			"expert" : {
+				"description": "{Expert Cure}\n\nRemoves all negative spell effects from all friendly units and heals them for (30 + (power x 5)) health points.\n"
+			}
+		}
+	},
+	
+	"core:airShield" : {
+		"levels" : {
+			"none": {
+				"description": "{Air Shield}\n\nShields a selected friendly unit, reducing the amount of damage received from ranged attacks by 25%.\n"
+			},
+			"basic" : {
+				"description": "{Basic Air Shield}\n\nShields a selected friendly unit, reducing the amount of damage received from ranged attacks by 25%.\n"
+			},
+			"advanced" : {
+				"description": "{Advanced Air Shield}\n\nShields a selected friendly unit, reducing the amount of damage received from ranged attacks by 50%.\n"
+			},
+			"expert" : {
+				"description": "{Expert Air Shield}\n\nShields all friendly units, reducing the amount of damage received from ranged attacks by 50%.\n"
+			}
+		}
+	},
+
+	"core:disruptingRay" : {
+		"levels" : {
+			"none": {
+				"description": "{Disrupting Ray}\n\nReduces the selected enemy unit's defense strength by 3. A single enemy may be targeted multiple times by this spell.\n"
+			},
+			"basic" : {
+				"description": "{Basic Disrupting Ray}\n\nReduces the selected enemy unit's defense strength by 3. A single enemy may be targeted multiple times by this spell.\n"
+			},
+			"advanced" : {
+				"description": "{Advanced Disrupting Ray}\n\nReduces the selected enemy unit's defense strength by 4. A single enemy may be targeted multiple times by this spell.\n"
+			},
+			"expert" : {
+				"description": "{Expert Disrupting Ray}\n\nReduces the selected enemy unit's defense strength by 5. A single enemy may be targeted multiple times by this spell.\n"
+			}
+		}
+	},
+
+	"core:fortune" : {
+		"levels" : {
+			"none": {
+				"description": "{Fortune}\n\nIncreases the selected unit's luck by 1.\n"
+			},
+			"basic" : {
+				"description": "{Basic Fortune}\n\nIncreases the selected unit's luck by 1.\n"
+			},
+			"advanced" : {
+				"description": "{Advanced Fortune}\n\nIncreases the selected unit's luck by 2.\n"
+			},
+			"expert" : {
+				"description": "{Expert Fortune}\n\nIncreases the luck of all friendly units by 2.\n"
+			}
+		}
+	},
+
+	"core:lightningBolt" : {
+		"levels" : {
+			"none": {
+				"description": "{Lightning Bolt}\n\nCauses a bolt of lightning to strike the selected unit, dealing (10 + (spell power x 25)) damage to it.\n"
+			},
+			"basic" : {
+				"description": "{Basic Lightning Bolt}\n\nCauses a bolt of lightning to strike the selected unit, dealing (10 + (spell power x 25)) damage to it.\n"
+			},
+			"advanced" : {
+				"description": "{Advanced Lightning Bolt}\n\nCauses a bolt of lightning to strike the selected unit, dealing (20 + (spell power x 25)) damage to it.\n"
+			},
+			"expert" : {
+				"description": "{Expert Lightning Bolt}\n\nCauses a bolt of lightning to strike the selected unit, dealing (50 + (spell power x 25)) damage to it.\n"
+			}
+		}
+	},
+
+	"core:precision" : {
+		"levels" : {
+			"none": {
+				"description": "{Precision}\n\nIncreases the ranged attack damage inflicted by the selected friendly unit by 3.\n"
+			},
+			"basic" : {
+				"description": "{Basic Precision}\n\nIncreases the ranged attack damage inflicted by the selected friendly unit by 3.\n"
+			},
+			"advanced" : {
+				"description": "{Advanced Precision}\n\nIncreases the ranged attack damage inflicted by the selected friendly unit by 6.\n"
+			},
+			"expert" : {
+				"description": "{Expert Precision}\n\nIncreases the ranged attack damage inflicted by all friendly units by 6.\n"
+			}
+		}
+	},
+
+	"core:destroyUndead" : {
+		"levels" : {
+			"none": {
+				"description": "{Destroy Undead}\n\nAll undead troops receive (10 + (power x 10)) damage.\n"
+			},
+			"basic" : {
+				"description": "{Basic Destroy Undead}\n\nAll undead troops receive (10 + (power x 10)) damage.\n"
+			},
+			"advanced" : {
+				"description": "{Advanced Destroy Undead}\n\nAll undead troops receive (20 + (power x 10)) damage.\n"
+			},
+			"expert" : {
+				"description": "{Expert Destroy Undead}\n\nAll undead troops receive (50 + (power x 10)) damage.\n"
+			}
+		}
+	},
+
+	"core:hypnotize" : {
+		"levels" : {
+			"none": {
+				"description": "{Hypnotize}\n\nMind Spell. Target, enemy troop of less than (10 + (power x 25)) health is put under your control.\n"
+			},
+			"basic" : {
+				"description": "{Basic Hypnotize}\n\nMind Spell. Target, enemy troop of less than (10 + (power x 25)) health is put under your control.\n"
+			},
+			"advanced" : {
+				"description": "{Advanced Hypnotize}\n\nMind Spell. Target, enemy troop of less than (20 + (power x 25)) health is put under your control.\n"
+			},
+			"expert" : {
+				"description": "{Expert Hypnotize}\n\nMind Spell. Target, enemy troop of less than (50 + (power x 25)) health is put under your control.\n"
+			}
+		}
+	},
+
+	"core:iceBolt" : {
+		"levels" : {
+			"none": {
+				"description": "{Ice Bolt}\n\nDrains the body heat from the selected enemy unit, dealing (10 + (power x 20)) damage to it.\n"
+			},
+			"basic" : {
+				"description": "{Basic Ice Bolt}\n\nDrains the body heat from the selected enemy unit, dealing (10 + (power x 20)) damage to it.\n"
+			},
+			"advanced" : {
+				"description": "{Advanced Ice Bolt}\n\nDrains the body heat from the selected enemy unit, dealing (20 + (power x 20)) damage to it.\n"
+			},
+			"expert" : {
+				"description": "{Expert Ice Bolt}\n\nDrains the body heat from the selected enemy unit, dealing (50 + (power x 20)) damage to it.\n"
+			}
+		}
+	},
+
+	"core:weakness" : {
+		"levels" : {
+			"none": {
+				"description": "{Weakness}\n\nReduces the selected enemy unit's attack strength by 3.\n"
+			},
+			"basic" : {
+				"description": "{Basic Weakness}\n\nReduces the selected enemy unit's attack strength by 3.\n"
+			},
+			"advanced" : {
+				"description": "{Advanced Weakness}\n\nReduces the selected enemy unit's attack strength by 6.\n"
+			},
+			"expert" : {
+				"description": "{Expert Weakness}\n\nReduces the attack strength of all enemy units by 6.\n"
+			}
+		}
+	},
+
+	"core:deathRipple" : {
+		"levels" : {
+			"none": {
+				"description": "{Death Ripple}\n\nSends a wave of death across the battlefield which damages all non-undead units, dealing (10 + (power x 5)) damage to them.\n"
+			},
+			"basic" : {
+				"description": "{Basic Death Ripple}\n\nSends a wave of death across the battlefield which damages all non-undead units, dealing (10 + (power x 5)) damage to them.\n"
+			},
+			"advanced" : {
+				"description": "{Advanced Death Ripple}\n\nSends a wave of death across the battlefield which damages all non-undead units, dealing (20 + (power x 5)) damage to them.\n"
+			},
+			"expert" : {
+				"description": "{Expert Death Ripple}\n\nSends a wave of death across the battlefield which damages all non-undead units, dealing (30 + (power x 5)) damage to them.\n"
+			}
+		}
+	},
+	
+	"core:fireWall" : {
+		"levels" : {
+			"none": {
+				"description": "{Fire Wall}\n\nPlaces a 2-hex wildfire on the battlefield at a point specified by the caster. Any units passing through the wall take (10 + (Spell Power x 10)) damage.\n"
+			},
+			"basic" : {
+				"description": "{Basic Fire Wall}\n\nPlaces a 2-hex wildfire on the battlefield at a point specified by the caster. Any units passing through the wall take (10 + (Spell Power x 10)) damage.\n"
+			},
+			"advanced" : {
+				"description": "{Advanced Fire Wall}\n\nPlaces a 3-hex wildfire on the battlefield at a point specified by the caster. Any units passing through the wall take (20 + (Spell Power x 10)) damage.\n"
+			},
+			"expert" : {
+				"description": "{Expert Fire Wall}\n\nPlaces a 3-hex wildfire on the battlefield at a point specified by the caster. Any units passing through the wall take (50 + (Spell Power x 10)) damage.\n"
+			}
+		}
+	},
+
+	"core:landMine" : {
+		"levels" : {
+			"none": {
+				"description": "{Land Mine}\n\nRandomly places four small areas of landmines on the battlefield which are only visible to the caster and creatures native to the terrain.  It inflicts ((Spell Power x 10) + 25) damage to any unit walking over it.\n"
+			},
+			"basic" : {
+				"description": "{Basic Land Mine}\n\nRandomly places four small areas of landmines on the battlefield which are only visible to the caster and creatures native to the terrain.  It inflicts ((Spell Power x 10) + 25) damage to any unit walking over it.\n"
+			},
+			"advanced" : {
+				"description": "{Advanced Land Mine}\n\nRandomly places six small areas of landmines on the battlefield which are only visible to the caster and creatures native to the terrain.  It inflicts ((Spell Power x 10) + 50) damage to any unit walking over it.\n"
+			},
+			"expert" : {
+				"description": "{Expert Land Mine}\n\nRandomly places eight small areas of landmines on the battlefield which are only visible to the caster and creatures native to the terrain.  It inflicts ((Spell Power x 10) + 100) damage to any unit walking over it.\n"
+			}
+		}
+	},
+
+	"core:misfortune" : {
+		"levels" : {
+			"none": {
+				"description": "{Misfortune}\n\nReduces the luck of the selected enemy unit by 1.\n"
+			},
+			"basic" : {
+				"description": "{Basic Misfortune}\n\nReduces the luck of the selected enemy unit by 1.\n"
+			},
+			"advanced" : {
+				"description": "{Advanced Misfortune}\n\nReduces the luck of the selected enemy unit by 2.\n"
+			},
+			"expert" : {
+				"description": "{Expert Misfortune}\n\nReduces the luck of all enemy units by 2.\n"
+			}
+		}
+	},
+
+
+	"core:antiMagic" : {
+		"levels" : {
+			"none": {
+				"description": "{Anti-magic}\n\nTarget, allied troop becomes immune to spells level 1-3.\n"
+			},
+			"basic" : {
+				"description": "{Basic Anti-magic}\n\nTarget, allied troop becomes immune to spells level 1-3.\n"
+			},
+			"advanced" : {
+				"description": "{Anti-magic}\n\nTarget, allied troop becomes immune to spells level 1-4.\n"
+			},
+			"expert" : {
+				"description": "{Anti-magic}\n\nTarget, allied troop becomes immune to spells level 1-5.\n"
+			}
+		}
+	},
+
+
+	"core:animateDead" : {
+		"levels" : {
+			"none": {
+				"description": "{Animate Dead}\n\nReanimates (30 + (Spell Power x 50)) health points worth of killed undead creatures in target, allied troop.\n"
+			},
+			"basic" : {
+				"description": "{Basic Animate Dead}\n\nReanimates (30 + (Spell Power x 50)) health points worth of killed undead creatures in target, allied troop.\n"
+			},
+			"advanced" : {
+				"description": "{Advanced Animate Dead}\n\nReanimates (60 + (Spell Power x 50)) health points worth of killed undead creatures in target, allied troop.\n"
+			},
+			"expert" : {
+				"description": "{Expert Animate Dead}\n\nReanimates (160 + (Spell Power x 50)) health points worth of killed undead creatures in target, allied troop.\n"
+			}
+		}
+	},
+
+
+	"core:forceField" : {
+		"levels" : {
+			"none": {
+				"description": "{Force Field}\n\nPlaces a 2-hex Force Field on the battlefield at a point specified by the caster for 2 rounds. Movement through these hexes is blocked.\n"
+			},
+			"basic" : {
+				"description": "{Basic Force Field}\n\nPlaces a 2-hex Force Field on the battlefield at a point specified by the caster for 2 rounds. Movement through these hexes is blocked.\n"
+			},
+			"advanced" : {
+				"description": "{Advanced Force Field}\n\nPlaces a 3-hex Force Field on the battlefield at a point specified by the caster for 2 rounds. Movement through these hexes is blocked.\n"
+			},
+			"expert" : {
+				"description": "{Expert Force Field}\n\nPlaces a 3-hex Force Field on the battlefield at a point specified by the caster for 2 rounds. Movement through these hexes is blocked.\n"
+			}
+		}
+	},
+
+
+	"core:forgetfulness" : {
+		"levels" : {
+			"none": {
+				"description": "{Forgetfulness}\n\nMind spell. Half of the selected enemy unit forgets to use its ranged attack.\n"
+			},
+			"basic" : {
+				"description": "{Basic Forgetfulness}\n\nMind spell. Half of the selected enemy unit forgets to use its ranged attack.\n"
+			},
+			"advanced" : {
+				"description": "{Advanced Forgetfulness}\n\nMind spell. Causes the selected enemy unit to forget to use its ranged attack in combat. Half of unit also forget to use hand-to-hand attack.\n"
+			},
+			"expert" : {
+				"description": "{Expert Forgetfulness}\n\nMind spell. Causes all enemy troops to forget to use their ranged attack in combat. Half of each unit also forget to use hand-to-hand attack.\n"
+			}
+		}
+	},
+
+	"core:mirth" : {
+		"levels" : {
+			"none": {
+				"description": "{Mirth}\n\nMind Spell. Increases the selected unit's morale by one.\n"
+			},
+			"basic" : {
+				"description": "{Basic Mirth}\n\nMind Spell. Increases the selected unit's morale by one.\n"
+			},
+			"advanced" : {
+				"description": "{Advanced Mirth}\n\nMind Spell. Increases the selected unit's morale by two.\n"
+			},
+			"expert" : {
+				"description": "{Expert Mirth}\n\nMind Spell. Increases the morale of all friendly units by 2.\n"
+			}
+		}
+	},
+
+
+	"core:blind" : {
+		"levels" : {
+			"none": {
+				"description": "{Blind}\n\nMind Spell. Blinds a creature so that it cannot move and causes it to counterattack at half its normal attack strength. Blindness persists until the unit is attacked or dispelled.\n"
+			},
+			"basic" : {
+				"description": "{Basic Blind}\n\nMind Spell. Blinds a creature so that it cannot move and causes it to counterattack at half its normal attack strength.  Blindness persists until the unit is attacked or dispelled.\n"
+			},
+			"advanced" : {
+				"description": "{Advanced Blind}\n\nMind Spell. Blinds a creature so that it cannot move and causes it to counterattack at one-quarter of its normal attack strength.  Blindness persists until the unit is attacked or dispelled.\n"
+			},
+			"expert" : {
+				"description": "{Expert Blind}\n\nMind Spell. Blinds a creature so that it cannot move or counterattack.  Blindness persists until the unit is attacked or dispelled.\n"
+			}
+		}
+	},
+
+	"core:visions" : {
+		"levels" : {
+			"none": {
+				"description": "{Visions}\n\nProvides you with exact number of wandering monsters and tells you if they would be willing to join your hero, flee or be acquired via Diplomacy skill (exact fee will be revealed). Range is equal to Spell Power or 3, whichever is greater.\n"
+			},
+			"basic" : {
+				"description": "{Basic Visions}\n\nProvides you with exact number of wandering monsters and tells you if they would be willing to join your hero, flee or be acquired via Diplomacy skill (exact fee will be revealed). Range is equal to Spell Power or 3, whichever is greater.\n"
+			},
+			"advanced" : {
+				"description": "{Advanced Visions}\n\nProvides you with exact number of wandering monsters and tells you if they would be willing to join your hero, flee or be acquired via Diplomacy skill (exact fee will be revealed). Allows you to view a nearby enemy hero's general statistics, creature type and quantity, as if the hero was part of your kingdom.  Range is (Spell Power x 2) or 3, whichever is greater.\n"
+			},
+			"expert" : {
+				"description": "{Expert Visions}\n\nProvides you with exact number of wandering monsters and tells you if they would be willing to join your hero, flee or be acquired via Diplomacy skill (exact fee will be revealed). Allows you to view a nearby enemy hero's general statistics, creature type and quantity, as if the hero was part of your kingdom, as well as nearby town's statistics, garrison creatures and quantity. Range is Spell Power x 3.\n"
+			}
+		}
+	},
+
+	"core:protectAir" : {
+		"levels" : {
+			"base" : {
+				"effects" : {
+					"spellDamageReduction" : {
+						"type" : "SPELL_DAMAGE_REDUCTION",
+						"subtype" : "spellSchool.air",
+						"duration" : "N_TURNS",
+						"val" : 50
+					}
+				}
+			},
+			
+			"none" : {
+				"description": "{Protection from Air}\n\nProtects the selected friendly unit, reducing damage it receives from Air spells by 50%.\n",
+				"effects" : {
+					"spellDamageReduction" : {
+						"val" : 50
+					}
+				}
+				
+			},
+
+			"basic" : {
+				"description": "{Basic Protection from Air}\n\nProtects the selected friendly unit, reducing damage it receives from Air spells by 50%.\n",
+				"effects" : {
+					"spellDamageReduction" : {
+						"val" : 50
+					}
+				}
+				
+			},
+
+			"advanced" : {
+				"description": "{Advanced Protection from Air}\n\nProtects the selected friendly unit, reducing damage it receives from Air spells by 75%.\n",
+				"effects" : {
+					"spellDamageReduction" : {
+						"val" : 75
+					}
+				}
+			},
+			"expert" : {
+				"description": "{Expert Protection from Air}\n\nProtects all friendly units, reducing damage they receive from Air spells by 75%.\n",
+				"effects" : {
+					"spellDamageReduction" : {
+						"val" : 75
+					}
+				}
+				
+			}
+		}
+	},
+
+	"core:protectEarth" : {
+		"levels" : {
+			"base" : {
+				"effects" : {
+					"spellDamageReduction" : {
+						"type" : "SPELL_DAMAGE_REDUCTION",
+						"subtype" : "spellSchool.earth",
+						"duration" : "N_TURNS",
+						"val" : 50
+					}
+				}
+			},
+			
+			"none" : {
+				"description": "{Protection from Earth}\n\nProtects the selected friendly unit, reducing damage it receives from Earth spells by 50%.\n"
+			},
+
+			"basic" : {
+				"description": "{Basic Protection from Earth}\n\nProtects the selected friendly unit, reducing damage it receives from Earth spells by 50%.\n"
+			},
+
+			"advanced" : {
+				"description": "{Advanced Protection from Earth}\n\nProtects the selected friendly unit, reducing damage it receives from Earth spells by 75%.\n",
+				"effects" : {
+					"spellDamageReduction" : {
+						"val" : 75
+					}
+				}
+			},
+			"expert" : {
+				"description": "{Expert Protection from Earth}\n\nProtects all friendly units, reducing damage they receive from Earth spells by 75%.\n",
+				"effects" : {
+					"spellDamageReduction" : {
+						"val" : 75
+					}
+				}
+			}
+		}
+	},
+
+	"core:protectFire" : {
+		"levels" : {
+			"base" : {
+				"effects" : {
+					"spellDamageReduction" : {
+						"type" : "SPELL_DAMAGE_REDUCTION",
+						"subtype" : "spellSchool.fire",
+						"duration" : "N_TURNS",
+						"val" : 50
+					}
+				}
+			},
+
+			"none" : {
+				"description": "{Protection from Fire}\n\nProtects the selected friendly unit, reducing damage it receives from Fire spells by 50%.\n"
+			},
+
+			"basic" : {
+				"description": "{Basic Protection from Fire}\n\nProtects the selected friendly unit, reducing damage it receives from Fire spells by 50%.\n"
+			},
+
+			"advanced" : {
+				"description": "{Advanced Protection from Fire}\n\nProtects the selected friendly unit, reducing damage it receives from Fire spells by 75%.\n",
+				"effects" : {
+					"spellDamageReduction" : {
+						"val" : 75
+					}
+				}
+			},
+			"expert" : {
+				"description": "{Expert Protection from Fire}\n\nProtects all friendly units, reducing damage they receive from Fire spells by 75%.\n",
+				"effects" : {
+					"spellDamageReduction" : {
+						"val" : 75
+					}
+				}
+			}
+		}
+	},
+
+	"core:protectWater" : {
+		"levels" : {
+			"base" : {
+				"effects" : {
+					"spellDamageReduction" : {
+						"type" : "SPELL_DAMAGE_REDUCTION",
+						"subtype" : "spellSchool.water",
+						"duration" : "N_TURNS",
+						"val" : 50
+					}
+				}
+			},
+
+			"none" : {
+				"description": "{Protection from Water}\n\nProtects the selected friendly unit, reducing damage it receives from Water spells by 50%.\n"
+			},
+
+			"basic" : {
+				"description": "{Basic Protection from Water}\n\nProtects the selected friendly unit, reducing damage it receives from Water spells by 50%.\n"
+			},
+
+			"advanced" : {
+				"description": "{Advanced Protection from Water}\n\nProtects the selected friendly unit, reducing damage it receives from Water spells by 75%.\n",
+				"effects" : {
+					"spellDamageReduction" : {
+						"val" : 75
+					}
+				}
+			},
+			"expert" : {
+				"description": "{Expert Protection from Water}\n\nProtects all friendly units, reducing damage they receive from Water spells by 75%.\n",
+				"effects" : {
+					"spellDamageReduction" : {
+						"val" : 75
+					}
+				}
+			}
+		}
+	},
+
+	"core:armageddon" : {
+		"power" : 40,
+		"levels" : {
+			"none": {
+				"description": "{Armageddon}\n\nAll troops take (30 + (power x 40)) points of damage.\n"
+			},
+			"basic" : {
+				"description": "{Basic Armageddon}\n\nAll troops take (30 + (power x 40)) points of damage.\n"
+			},
+			"advanced" : {
+				"description": "{Advanced Armageddon}\n\nAll troops take (60 + (power x 40)) points of damage.\n"
+			},
+			"expert" : {
+				"description": "{Expert Armageddon}\n\nAll troops take (120 + (power x 40)) points of damage.\n"
+			}
+		}
+	},
+
+	"core:fireElemental" : {		
+		"levels" : {
+			"base":{
+				"battleEffects":{
+					"summon":{
+						"exclusive":false
+					}
+				}
+			},
+
+			"none" : {
+				"power" : 2,
+				"description": "{Summon Fire Elemental}\n\nSummons Fire Elementals (power x 2) on the random position of your edge of the battlefield. Elementals will serve you until the end of the battle.\n",
+				"battleEffects":{
+					"summon":{
+						"exclusive":false
+					}
+				}
+			},
+			"basic" : {
+				"power" : 2,
+				"description": "{Basic Summon Fire Elemental}\n\nSummons Fire Elementals (power x 2) on the random position of your edge of the battlefield. Elementals will serve you until the end of the battle.\n",
+				"battleEffects":{
+					"summon":{
+						"exclusive":false
+					}
+				}
+			},
+			"advanced" : {
+				"power" : 3,
+				"description": "{Advanced Summon Fire Elemental}\n\nSummons Fire Elementals (power x 3) on the random position of your edge of the battlefield. Elementals will serve you until the end of the battle.\n",
+				"battleEffects":{
+					"summon":{
+						"exclusive":false
+					}
+				}
+			},
+			"expert" : {
+				"power" : 3,
+				"description": "{Expert Summon Fire Elemental}\n\nSummons Fire Elementals (power x 3) on the random position of your edge of the battlefield. Elementals will serve you until the end of the battle.\n",
+				"battleEffects":{
+					"summon":{
+						"exclusive":false
+					}
+				}
+			}		
+		}
+	},
+	
+	"core:earthElemental" : {
+		"levels" : {
+			"base":{
+				"battleEffects":{
+					"summon":{
+						"exclusive":false
+					}
+				}
+			},
+			"none" : {
+				"power" : 1,
+				"description": "{Summon Earth Elemental}\n\nSummons Earth Elementals (power x 1) on the random position of your edge of the battlefield. Elementals will serve you until the end of the battle.\n",
+				"battleEffects":{
+					"summon":{
+						"exclusive":false
+					}
+				}
+			},
+
+			"basic" : {
+				"power" : 1,
+				"description": "{Basic Summon Earth Elemental}\n\nSummons Earth Elementals (power x 1) on the random position of your edge of the battlefield. Elementals will serve you until the end of the battle.\n",
+				"battleEffects":{
+					"summon":{
+						"exclusive":false
+					}
+				}
+			},
+			"advanced" : {
+				"power" : 2,
+				"description": "{Advanced Summon Earth Elemental}\n\nSummons Earth Elementals (power x 2) on the random position of your edge of the battlefield. Elementals will serve you until the end of the battle.\n",
+				"battleEffects":{
+					"summon":{
+						"exclusive":false
+					}
+				}
+			},
+			"expert" : {
+				"power" : 2,
+				"description": "{Expert Summon Earth Elemental}\n\nSummons Earth Elementals (power x 2) on the random position of your edge of the battlefield. Elementals will serve you until the end of the battle.\n",
+				"battleEffects":{
+					"summon":{
+						"exclusive":false
+					}
+				}
+			}
+		}
+	},
+
+	"core:waterElemental" : {
+		"levels" : {
+			"base":{
+				"battleEffects":{
+					"summon":{
+						"exclusive":false
+					}
+				}
+			},
+
+			"none" : {
+				"power" : 2,
+				"description": "{Summon Water Elemental}\n\nSummons Water Elementals (power x 2) on the random position of your edge of the battlefield. Elementals will serve you until the end of the battle.\n",
+				"battleEffects":{
+					"summon":{
+						"exclusive":false
+					}
+				}
+			},
+
+			"basic" : {
+				"power" : 2,
+				"description": "{Basic Summon Water Elemental}\n\nSummons Water Elementals (power x 2) on the random position of your edge of the battlefield. Elementals will serve you until the end of the battle.\n",
+				"battleEffects":{
+					"summon":{
+						"exclusive":false
+					}
+				}
+			},
+			"advanced" : {
+				"power" : 3,
+				"description": "{Advanced Summon Water Elemental}\n\nSummons Water Elementals (power x 3) on the random position of your edge of the battlefield. Elementals will serve you until the end of the battle.\n",
+				"battleEffects":{
+					"summon":{
+						"exclusive":false
+					}
+				}
+			},
+			"expert" : {
+				"power" : 4,
+				"description": "{Expert Summon Water Elemental}\n\nSummons Water Elementals (power x 4) on the random position of your edge of the battlefield. Elementals will serve you until the end of the battle.\n",
+				"battleEffects":{
+					"summon":{
+						"exclusive":false
+					}
+				}
+			}
+		}
+	},
+
+	"core:airElemental" : {
+		"levels" : {
+			"base":{
+				"battleEffects":{
+					"summon":{
+						"exclusive":false
+					}
+				}
+			},
+
+			"none" : {
+				"power" : 2,
+				"description": "{Summon Air Elemental}\n\nSummons Air Elementals (power x 2) on the random position of your edge of the battlefield. Elementals will serve you until the end of the battle.\n",
+				"battleEffects":{
+					"summon":{
+						"exclusive":false
+					}
+				}
+			},
+
+			"basic" : {
+				"power" : 2,
+				"description": "{Basic Summon Air Elemental}\n\nSummons Air Elementals (power x 2) on the random position of your edge of the battlefield. Elementals will serve you until the end of the battle.\n",
+				"battleEffects":{
+					"summon":{
+						"exclusive":false
+					}
+				}
+			},
+			"advanced" : {
+				"power" : 3,
+				"description": "{Advanced Summon Air Elemental}\n\nSummons Air Elementals (power x 3) on the random position of your edge of the battlefield. Elementals will serve you until the end of the battle.\n",
+				"battleEffects":{
+					"summon":{
+						"exclusive":false
+					}
+				}
+			},
+			"expert" : {
+				"power" : 4,
+				"description": "{Expert Summon Air Elemental}\n\nSummons Air Elementals (power x 4) on the random position of your edge of the battlefield. Elementals will serve you until the end of the battle.\n",
+				"battleEffects":{
+					"summon":{
+						"exclusive":false
+					}
+				}
+			}
+		}
+	},
+
+	"core:slow" : {
+		"levels" : {
+			"base#override":{
+				"range" : "0",
+				"targetModifier":{"smart":true},
+				"effects" : {
+					"stacksSpeed" : {
+						"addInfo" : 0,
+						"type" : "STACKS_SPEED",
+						"val" : -25,
+						"valueType" : "PERCENT_TO_ALL",
+						"duration" : "N_TURNS"
+					},
+
+					"hotaNerf" : {
+						"addInfo" : 0,
+						"type" : "STACKS_SPEED",
+						"valueType" : "ADDITIVE_VALUE",
+						"val" : 0,
+						"duration" : "N_TURNS"
+						}
+				}
+			},
+
+			"none": {
+				"description": "{Slow}\n\nReduces the speed of the selected enemy unit by 25%.\n"
+			},
+
+			"basic" : {
+				"description": "{Basic Slow}\n\nReduces the speed of the selected enemy unit by 25%.\n"
+			},
+
+			"advanced":{
+				"description": "{Advanced Slow}\n\nReduces the speed of the selected enemy unit to 50% + 1.\n",
+				"effects" : {
+					"stacksSpeed" : {
+						"val" : -50
+					},
+					"hotaNerf" : {"val":2}
+				}
+			},
+
+			"expert":{
+				"description": "{Expert Slow}\n\nReduces the speed of all enemy units to 50% + 1.\n",
+				"range" : "X",
+				"effects" : {
+					"stacksSpeed" : {
+						"val" : -50
+					},
+					"hotaNerf" : {"val":2}
+				}
+			}
+		}
+	},
+	
+	"core:earthquake" : {
+
+		"levels" : {
+			"base":{
+				"battleEffects":{
+					"catapult":{
+						"type":"core:catapult",
+						"targetsToAttack": 2,
+						"chanceToCrit" : 0,
+						"chanceToNormalHit" : 100
+					}
+				}
+
+			},
+			"none":{
+				"battleEffects":{
+					"catapult":{
+						"targetsToAttack": 3,
+						"chanceToCrit" : 20,
+						"chanceToNormalHit" : 80
+					}
+				},
+				"cost": 20,
+				"description": "{Earthquake}\n\nRandomly damages three sections of castle wall in combat. Each hit has a 20% chance for double damage.\n"
+			},
+			"basic":{
+				"battleEffects":{
+					"catapult":{
+						"targetsToAttack": 3,
+						"chanceToCrit" : 20,
+						"chanceToNormalHit" : 80
+					}
+				},
+				"cost": 15,
+				"description": "{Basic Earthquake}\n\nRandomly damages three sections of castle wall in combat. Each hit has a 20% chance for double damage.\n"
+			},
+
+			"advanced":{
+				"battleEffects":{
+					"catapult":{
+						"targetsToAttack": 4,
+						"chanceToCrit" : 40,
+						"chanceToNormalHit" : 60
+					}
+				},
+				"cost": 15,
+				"description": "{Advanced Earthquake}\n\nRandomly damages four sections of castle wall in combat. Each hit has a 40% chance for double damage.\n"
+			},
+			
+			"expert":{
+				"battleEffects":{
+					"catapult":{
+						"targetsToAttack": 5,
+						"chanceToCrit" : 60,
+						"chanceToNormalHit" : 40
+					}
+				},
+				"cost": 15,
+				"description": "{Expert Earthquake}\n\nRandomly damages five sections of castle wall in combat. Each hit has a 60% chance for double damage.\n"
+			}
+		}
+	},
+	
+	"core:fireball" : {
+		"power" : 15,
+		"levels" : {
+			"none": {
+				"cost": 12,
+				"description": "{Fireball}\n\nTroops within target hex and adjacent hexes take (15 + (power x 15)) damage.\n"
+			},
+			"basic" : {
+				"cost": 9,
+				"description": "{Basic Fireball}\n\nTroops within target hex and adjacent hexes take (15 + (power x 15)) damage.\n"
+			},
+			"advanced" : {
+				"cost": 9,
+				"description": "{Advanced Fireball}\n\nTroops within target hex and adjacent hexes take (30 + (power x 15)) damage.\n"
+			},
+			"expert" : {
+				"cost": 9,
+				"description": "{Expert Fireball}\n\nTroops within target hex and adjacent hexes take (60 + (power x 15)) damage.\n"
+			}
+		}
+	},
+	
+	"core:frostRing" : {
+		"power" : 15,
+		"levels" : {
+			"none": {
+				"description": "{Frost Ring}\n\nTroops in hexes surrounding target hex receive (15 + (power x 15)) in damage. Target hex is unaffected.\n"
+			},
+			"basic" : {
+				"description": "{Basic Frost Ring}\n\nTroops in hexes surrounding target hex receive (15 + (power x 15)) in damage. Target hex is unaffected.\n"
+			},
+			"advanced" : {
+				"description": "{Advanced Frost Ring}\n\nTroops in hexes surrounding target hex receive (30 + (power x 15)) in damage. Target hex is unaffected.\n"
+			},
+			"expert" : {
+				"description": "{Expert Frost Ring}\n\nTroops in hexes surrounding target hex receive (60 + (power x 15)) in damage. Target hex is unaffected.\n"
+			}
+		}
+	},
+
+	"core:inferno" : {
+
+		"power" : 15,
+		"levels" : {
+			"none": {
+				"description": "{Inferno}\n\nStrikes target hex and all hexes within two hexes for (20 + (power x 15)) damage.\n"
+			},
+			"basic" : {
+				"description": "{Basic Inferno}\n\nStrikes target hex and all hexes within two hexes for (20 + (power x 15)) damage.\n"
+			},
+			"advanced" : {
+				"description": "{Advanced Inferno}\n\nStrikes target hex and all hexes within two hexes for (40 + (power x 15)) damage.\n"
+			},
+			"expert" : {
+				"description": "{Expert Inferno}\n\nStrikes target hex and all hexes within two hexes for (80 + (power x 15)) damage.\n"
+			}
+		}
+	},
+	
+	"core:fireShield" : {
+
+		"levels" : {
+			"none": {
+				"power": 15,
+				"description": "{Fire Shield}\n\nCast on a friendly unit. Any enemy making hand-by-hand attack through the fire shield will suffer damage equal to 15% of what it inflicts.\n"
+			},
+			"basic" : {
+				"power": 15,
+				"description": "{Basic Fire Shield}\n\nCast on a friendly unit. Any enemy making hand-by-hand attack through the fire shield will suffer damage equal to 15% of what it inflicts.\n"
+			},
+			"advanced" : {
+				"power": 20,
+				"description": "{Advanced Fire Shield}\n\nCast on a friendly unit. Any enemy making hand-by-hand attack through the fire shield will suffer damage equal to 20% of what it inflicts.\n"
+			},
+			"expert" : {
+				"power": 20,
+				"range" : "X",
+				"description": "{Expert Fire Shield}\n\nCast on all friendly units. Any enemy making hand-by-hand attack through the fire shield will suffer damage equal to 20% of what it inflicts.\n"
+			}
+		}		
+	},
+
+	"core:slayer" : {
+
+		"levels" : {
+			"none":{
+				"description": "{Slayer}\n\nTarget allied troop's attack rating is increased by 8 against behemoths, dragons, hydras and firebirds.\n",
+				"power" : 8
+			},
+			
+			"basic":{
+				"description": "{Basic Slayer}\n\nTarget allied troop's attack rating is increased by 8 against behemoths, dragons, hydras, firebirds, devils and angels.\n",
+				"power" : 8
+			},
+			"advanced":{
+				"description": "{Advanced Slayer}\n\nTarget allied troop's attack rating is increased by 10 against behemoths, dragons, hydras, firebirds, devils, angels, giants and dreadnoughts.\n",
+				"power" : 10
+			},
+			"expert":{
+				"description": "{Expert Slayer}\n\nAllied troops' attack rating is increased by 10 against behemoths, dragons, hydras, firebirds, devils, angels, giants and dreadnoughts.\n",
+				"power" : 10,
+				"range" : "X"
+			}
+		}
+	},
+
+	"core:counterstrike" : {
+
+		"levels" : {
+			"none": {
+				"cost": 24
+				},
+			"basic" : {
+				"cost": 20
+				},
+			"advanced" : {
+				"cost": 16
+			},
+			"expert" : {
+				"cost": 12
+			}
+		}
+	},
+
+	"core:clone" : {
+		"levels" : {
+			"none": {
+				"cost": 24
+			},
+			"basic" : {
+				"cost": 20
+			},
+			"advanced" : {
+				"cost": 16
+			},
+			"expert" : {
+				"cost": 12
+			}
+		}
+	},
+
+	"core:prayer" : {
+		"levels" : {
+			"none": {
+				"description": "{Prayer}\n\nTarget allied troop's attack, defense, and speed ratings are increased by 2.\n"
+			},
+			"basic" : {
+				"description": "{Basic Prayer}\n\nTarget allied troop's attack, defense, and speed ratings are increased by 2.\n"
+			},
+			"advanced" : {
+				"description": "{Advanced Prayer}\n\nTarget allied troop's attack, defense, and speed ratings are increased by 4.\n"
+			},
+			"expert" : {
+				"description": "{Expert Prayer}\n\nAll allied troops' attack, defense, and speed ratings are increased by 4.\n"
+			}
+		}
+	},
+
+	"core:chainLightning" : {
+		"levels" : {
+			"none": {
+				"description": "{Chain Lightning}\n\nFires a bolt of lightning at the selected unit for (Spell Power x 40 + 25) damage which then travels to the nearest adjacent unit, inflicting half damage before traveling to the next adjacent unit, again inflicting half damage, etc. Strikes four units.\n"
+			},
+			"basic" : {
+				"description": "{Basic Chain Lightning}\n\nFires a bolt of lightning at the selected unit for (Spell Power x 40 + 25) damage which then travels to the nearest adjacent unit, inflicting half damage before traveling to the next adjacent unit, again inflicting half damage, etc.  Strikes four units.\n"
+			},
+			"advanced" : {
+				"description": "{Advanced Chain Lightning}\n\nFires a bolt of lightning at the selected unit for (Spell Power x 40 + 50) damage which then travels to the nearest adjacent unit, inflicting half damage before traveling to the next adjacent unit, again inflicting half damage, etc.  Strikes five units.\n"
+			},
+			"expert" : {
+				"description": "{Expert Chain Lightning}\n\nFires a bolt of lightning at the selected unit for (Spell Power x 40 + 100) damage which then travels to the nearest adjacent unit, inflicting half damage before traveling to the next adjacent unit, again inflicting half damage, etc.  Strikes five units.\n"
+			}
+		}
+	},
+
+	"core:sorrow" : {
+		"levels" : {
+			"none": {
+				"description": "{Sorrow}\n\nMind Spell. Target, enemy troop's morale rating is reduced by 1.\n"
+			},
+			"basic" : {
+				"description": "{Basic Sorrow}\n\nMind Spell. Target, enemy troop's morale rating is reduced by 1.\n"
+			},
+			"advanced" : {
+				"description": "{Advanced Sorrow}\n\nMind Spell. Target, enemy troop's morale rating is reduced by 2.\n"
+			},
+			"expert" : {
+				"description": "{Expert Sorrow}\n\nMind Spell. All enemy troops' morale rating are reduced by 2.\n"
+			}
+		}
+	},
+
+	"core:meteorShower" : {
+		"levels" : {
+			"none": {
+				"description": "{Meteor Shower}\n\nTroops in target hex and adjacent hexes take (25 + (power x 25)) damage.\n"
+			},
+			"basic" : {
+				"description": "{Basic Meteor Shower}\n\nTroops in target hex and adjacent hexes take (25 + (power x 25)) damage.\n"
+			},
+			"advanced" : {
+				"description": "{Advanced Meteor Shower}\n\nTroops in target hex and adjacent hexes take (50 + (power x 25)) damage.\n"
+			},
+			"expert" : {
+				"description": "{Expert Meteor Shower}\n\nTroops in target hex and adjacent hexes take (100 + (power x 25)) damage.\n"
+			}
+		}
+	},
+
+		"core:resurrection" : {
+		"levels" : {
+			"none": {
+				"description": "{Resurrection}\n\nResurrects units in the selected friendly group of living creatures until the end of the battle by restoring (Spell Power x 50 + 40) hit points to the target.\n"
+			},
+			"basic" : {
+				"description": "{Basic Resurrection}\n\nResurrects units in the selected friendly group of living creatures until the end of the battle by restoring (Spell Power x 50 + 40) hit points to the target.\n"
+			},
+			"advanced" : {
+				"description": "{Advanced Resurrection}\n\nResurrects units in the selected friendly group of living creatures permanently by restoring (Spell Power x 50 + 80) hit points to the target.\n"
+			},
+			"expert" : {
+				"description": "{Expert Resurrection}\n\nResurrects units in the selected friendly group of living creatures permanently by restoring (Spell Power x 50 + 160) hit points to the target.\n"
+			}
+		}
+	},
+
+		"core:townPortal" : {
+		"levels" : {
+			"none": {
+				"description": "{Town Portal}\n\nTeleports your hero to the nearest friendly town. The town must be unoccupied. Requires 300 movement points.\n"
+			},
+			"basic" : {
+				"description": "{Basic Town Portal}\n\nTeleports your hero to the nearest friendly town. The town must be unoccupied. Requires 300 movement points.\n"
+			},
+			"advanced" : {
+				"description": "{Advanced Town Portal}\n\nTeleports your hero to any chosen friendly town. The town must be unoccupied. Requires 300 movement points.\n"
+			},
+			"expert" : {
+				"description": "{Expert Town Portal}\n\nTeleports your hero to any chosen friendly town. The town must be unoccupied. Requires 200 movement points.\n"
+			}
+		}
+	},
+
+		"core:berserk" : {
+		"levels" : {
+			"none": {
+				"description": "{Berserk}\n\nMind spell. The targeted unit will randomly attack the nearest unit, be it friend or foe. Hypnotize effect is dispelled from target. Spell effect is valid until target makes an attack, otherwise Berserk duration is unlimited.\n"
+			},
+			"basic" : {
+				"description": "{Basic Berserk}\n\nMind spell. The targeted unit will randomly attack the nearest unit, be it friend or foe. Hypnotize effect is dispelled from target. Spell effect is valid until target makes an attack, otherwise Berserk duration is unlimited.\n"
+			},
+			"advanced" : {
+				"description": "{Advanced Berserk}\n\nMind spell. The targeted unit as well as units adjacent to the target location will randomly attack the nearest units, be they friends or foes. Hypnotize effect is dispelled from target. Spell effect is valid until target makes an attack, otherwise Berserk duration is unlimited.\n"
+			},
+			"expert" : {
+				"description": "{Expert Berserk}\n\nMind spell. The targeted unit as well as any units 1 and 2 hexes away from the target location will randomly attack the nearest units, be they friends or foes.\n\nArea of effect is eighteen hexes greater than Basic Berserk. Hypnotize effect is dispelled from target. Spell effect is valid until target makes an attack, otherwise Berserk duration is unlimited.\n"
+			}
+		}
+	},
+
+		"core:frenzy" : {
+		"levels" : {
+			"none": {
+				"description": "{Frenzy}\n\nMind Spell. Target troop's attack rating is increased by 100% of the troop's defense rating, and its defense rating is reduced to zero. The spell takes effect immediately and lasts during the closest turn of the target. After that, the spell effect lasts until the beginning of the target next turn.\n"
+			},
+			"basic" : {
+				"description": "{Basic Frenzy}\n\nMind Spell. Target troop's attack rating is increased by 100% of the troop's defense rating, and its defense rating is reduced to zero. The spell takes effect immediately and lasts during the closest turn of the target. After that, the spell effect lasts until the beginning of the target next turn.\n"
+			},
+			"advanced" : {
+				"description": "{Advanced Frenzy}\n\nMind Spell. Target troop's attack rating is increased by 150% of the troop's defense rating, and its defense rating is reduced to zero. The spell takes effect immediately and lasts during the closest turn of the target. After that, the spell effect lasts until the beginning of the target next turn.\n"
+			},
+			"expert" : {
+				"description": "{Expert Frenzy}\n\nMind Spell. Target troop's attack rating is increased by 200% of the troop's defense rating, and its defense rating is reduced to zero. The spell takes effect immediately and lasts during the closest turn of the target. After that, the spell effect lasts until the beginning of the target next turn.\n"
+			}
+		}
+	},
+
+		"core:dimensionDoor" : {
+		"levels" : {
+			"none": {
+				"description": "{Dimension Door}\n\nOnce per day, you may teleport your hero to a visible, unoccupied location on the adventure map in hero visibility zone. This spends 300 movement points.\n"
+			},
+			"basic" : {
+				"description": "{Basic Dimension Door}\n\nOnce per day, you may teleport your hero to a visible, unoccupied location on the adventure map in hero visibility zone. This spends 300 movement points.\n"
+			},
+			"advanced" : {
+				"description": "{Advanced Dimension Door}\n\nOnce per day, you may teleport your hero to a visible, unoccupied location on the adventure map in hero visibility zone. This spends 200 movement points.\n"
+			},
+			"expert" : {
+				"description": "{Expert Dimension Door}\n\nTwo times per day, you may teleport your hero to a visible, unoccupied location on the adventure map in hero visibility zone. This spends 200 movement points.\n"
+			}
+		}
+	},
+
+		"core:fly" : {
+		"levels" : {
+			"none": {
+				"description": "{Fly}\n\nAllows your army to fly over obstacles and rough terrain with 40% penalty to movement cost. Valid for 1 turn. You must land at the end of the turn.\n"
+			},
+			"basic" : {
+				"description": "{Basic Fly}\n\nAllows your army to fly over obstacles and rough terrain with 40% penalty to movement cost. Valid for 1 turn. You must land at the end of the turn.\n"
+			},
+			"advanced" : {
+				"description": "{Advanced Fly}\n\nAllows your army to fly over obstacles and rough terrain with 20% penalty to movement cost. Valid for 1 turn. You must land at the end of the turn.\n"
+			},
+			"expert" : {
+				"description": "{Expert Fly}\n\nAllows your army to fly over obstacles and rough terrain without any penalty. Valid for 1 turn. You must land at the end of the turn.\n"
+			}
+		}
+	},
+
+	"core:sacrifice" : {
+		"levels" : {
+			"none": {
+				"power": 3,
+				"description": "{Sacrifice}\n\nPermanently destroys a friendly living creature group in order to resurrect another friendly living creature group. Resurrection power is ((Spell Power + sacrificed troop's creature base health + 3) x number of creatures sacrificed) hit points.\n"
+			},
+			"basic" : {
+				"power": 6,
+				"description": "{Basic Sacrifice}\n\nPermanently destroys a friendly living creature group in order to resurrect another friendly living creature group. Resurrection power is ((Spell Power + sacrificed troop's creature base health + 3) x number of creatures sacrificed) hit points.\n"
+			},
+			"advanced" : {
+				"power": 9,
+				"description": "{Advanced Sacrifice}\n\nPermanently destroys a friendly living creature group in order to resurrect another friendly living creature group. Resurrection power is ((Spell Power + sacrificed troop's creature base health + 6) x number of creatures sacrificed) hit points.\n"
+			},
+			"expert" : {
+				"power": 12,
+				"description": "{Expert Sacrifice}\n\nPermanently destroys a friendly living creature group in order to resurrect another friendly living creature group. Resurrection power is ((Spell Power + sacrificed troop's creature base health + 12) x number of creatures sacrificed) hit points.\n"
+			}
+		}		
+	},	
+
+	"core:magicMirror" : {
+		"levels" : {
+			
+			"none" : {
+				"power" : 20,
+				"description": "{Magic Mirror}\n\nReflects hostile spells towards a random enemy creature 20% of the time.\n"
+			},
+			"basic" : {
+				"power" : 35,
+				"description": "{Basic Magic Mirror}\n\nReflects hostile spells towards a random enemy creature 35% of the time.\n"
+			},
+			"advanced" : {
+				"power" : 50,
+				"description": "{Advanced Magic Mirror}\n\nReflects hostile spells towards a random enemy creature 50% of the time.\n"
+			},
+			"expert" : {
+				"power" : 65,
+				"description": "{Expert Magic Mirror}\n\nReflects hostile spells towards a random enemy creature 65% of the time.\n"
+			}
+		}
+	}
+
+}
+
+
+
+
+	
+	
+	
+	
+	

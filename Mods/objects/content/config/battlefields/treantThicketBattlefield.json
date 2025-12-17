@@ -1,6 +1,6 @@
 {
 	"treantThicketBattlefield": {
-		"graphics":  "battlefields/TTbattlefield.png",
+		"graphics":  "battlefields/treantThicketBattlefield.png",
 		"isSpecial" : true
 		}
 }

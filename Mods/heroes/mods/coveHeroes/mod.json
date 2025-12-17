@@ -1,0 +1,29 @@
+{
+    "name" : "HotA Cove Heroes - Compatibility",
+
+    "description" : "Rebalanced heroes from Cove faction.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+    
+    "depends" : 
+	[
+        "hota.cove"
+	],
+
+   "heroes": [
+   "config/coveHeroes.json"
+   ],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.4",
+	
+    "keepDisabled" : false
+}

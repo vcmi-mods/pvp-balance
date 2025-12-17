@@ -1,0 +1,135 @@
+{
+	"pvp-balance.objects:level5ScrollObject" :{	
+		"name": "Spell Scroll",
+		"handler": "configurable",
+		"types" : {
+			"level5Scroll" : 
+			{
+				"blockedVisitable" : true,
+				"removable": true,
+				"rmg" : {
+					"value"		: 10000,
+					"rarity"	: 30
+				},
+				
+				"rewards" :
+				[
+					{
+						"appearChance": 
+						{
+							"min" : 0,
+							"max" : 10
+						},
+						"message" : "You find something.",
+						"artifacts": ["airElementalScroll"],
+						"removeObject": true
+					},
+					{
+						"appearChance": 
+						{
+							"min" : 10,
+							"max" : 20
+						},
+						"message" : "You find something.",
+						"artifacts": ["earthElementalScroll"],
+						"removeObject": true
+					},
+					{
+						"appearChance": 
+						{
+							"min" : 20,
+							"max" : 30
+						},
+						"message" : "You find something.",
+						"artifacts": ["waterElementalScroll"],
+						"removeObject": true
+					},
+					{
+						"appearChance": 
+						{
+							"min" : 30,
+							"max" : 40
+						},
+						"message" : "You find something.",
+						"artifacts": ["fireElementalScroll"],
+						"removeObject": true
+					},
+					{
+						"appearChance": 
+						{
+							"min" : 40,
+							"max" : 50
+						},
+						"message" : "You find something.",
+						"artifacts": ["implosionScroll"],
+						"removeObject": true
+					},
+					{
+						"appearChance": 
+						{
+							"min" : 50,
+							"max" : 60
+						},
+						"message" : "You find something.",
+						"artifacts": ["magicMirrorScroll"],
+						"removeObject": true
+					},
+					{
+						"appearChance": 
+						{
+							"min" : 60,
+							"max" : 70
+						},
+						"message" : "You find something.",
+						"artifacts": ["sacrificeScroll"],
+						"removeObject": true
+					},
+					{
+						"appearChance": 
+						{
+							"min" : 70,
+							"max" : 80
+						},
+						"message" : "You find something.",
+						"artifacts": ["interventionScroll"],
+						"removeObject": true
+					},
+					{
+						"appearChance": 
+						{
+							"min" : 80,
+							"max" : 90
+						},
+						"message" : "You find something.",
+						"artifacts": ["summonGhostScroll"],
+						"removeObject": true
+					},
+					{
+						"appearChance": 
+						{
+							"min" : 90,
+							"max" : 100
+						},
+						"message" : "You find something.",
+						"artifacts": ["vampirismScroll"],
+						"removeObject": true
+					}
+					
+					
+					
+				],
+				"canRefuse": false,
+				"visitMode" : "unlimited",
+				"templates" : 
+				{
+					"scrollObject" : 
+					{
+						"animation" : "AVA0001", 
+						"visitableFrom" : [ "+++", "+++", "+++" ],
+						"mask" : ["VV", "VA"]
+					}
+				}
+			}
+		}	
+	}
+}

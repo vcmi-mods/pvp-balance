@@ -1,0 +1,29 @@
+{
+	"name" : "Heavenly Forge 2k Spells - Compatibility",
+	"description" : "This mod bans Assume Control spell from Heavenly Forge 2k mod.",
+	"author" : "wnukos",
+
+	"contact" : "wnukos on Discord",
+	
+	"modType" : "Compatibility",	
+
+	"spells" :
+	[
+		"config/forge2kSpells.json"
+	],
+
+	"depends" : 
+	[
+		"forge2k"
+	],	
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+	    "version" : "1.4",
+	
+	"keepDisabled" : false
+
+}

@@ -1,0 +1,30 @@
+{
+	"name" : "Brawl - Fairy Objects",
+	"description" : "Modified Fairy Town objects used by template Brawl, should be better suited for short games on small maps.<br>Fairies Bank: defended by 5x 10-25 Fays, reward: -2500 Gold, 5-12 Crystals and Gems<br>All creatures that have upgrades, both guards and rewards have a chance of being upgraded.<br>All banks recharge after 4 full days pass.<br>They are not designed to be taken with your whole army but with parts of your army in multiple places at once.",
+	"author" : "Warzyw647, ported by Wnukos, Chinese translation by Ziyue",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "https://creativecommons.org/licenses/by-sa/4.0/",
+	"contact" : "warzyw647 on heroes-themed Discords",
+	"modType" : "Compatibility",
+	"objects" :
+	[
+		"config/banks/ftFairiesBank.json",
+		"config/banks/evilTreeofKnowledge.json"
+	],
+	"version" : "1.4",
+	"depends" :
+	[
+		"fairy-town"
+	],
+	"changelog" :
+	{
+		"1.0" : [ "made banks smaller" ]
+	},
+	"compatibility" : { "min" : "1.6.3" },
+	"keepDisabled" : false,
+	"chinese" :
+	{
+		"name" : "Brawl模板花仙堡城镇小物件",
+		"description" : "专为Brawl模板定制的改良版花仙堡城镇物件，适用于小型地图。<br>花仙银行：由5队每队10-25只花精守护，奖励为水晶和宝石各5-12颗，但扣除2500金币。<br>（译者注：这并非出错，而是设计者有意为之，该宝屋守卫实力太低等于白给，相当于让你花一笔小钱换取不少稀有资源，甚至你还可以把金币花完再去打）。<br>所有可升级的生物，无论是守卫还是奖励生物，都可能出现升级后的生物。<br>所有宝屋每4天刷新一次。<br>这些物件不是设计来让你用全部兵力去攻打的，而是让你分散成多支小股部队同时攻打多处地点。"
+	}
+}

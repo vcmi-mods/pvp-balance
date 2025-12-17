@@ -37,10 +37,12 @@
 				"variables" : {
 				"spell" : {
 					"gainedSpell" : {
-						"level" : 4
+						"level" : 4,
+						"noneOf" : [ "townPortal"]
 					},
 					"gainedSpell2" : {
-						"level" : 4
+						"level" : 4,
+						"noneOf" : [ "townPortal", "@gainedSpell"]
 					}
 				}
 			},
@@ -109,9 +111,6 @@
 			],
 
 				"canRefuse": true
-				
-					
-					
 			}	
 					
 						

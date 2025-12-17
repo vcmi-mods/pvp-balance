@@ -1,0 +1,13 @@
+{
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+				"experimentalShop" : {
+					"rmg" : {
+							"zoneLimit" : 0
+					}
+			}
+		}
+	}
+}

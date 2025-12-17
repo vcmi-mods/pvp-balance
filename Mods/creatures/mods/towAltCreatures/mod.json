@@ -1,0 +1,34 @@
+{
+    "name" : "ToW Alternative Creatures - Compatibility",
+
+    "description" : "Rebalanced alternative creatures from Tides of War mod.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+    
+    "depends" : 
+	[
+        "tides-of-war.alternative-creatures"
+
+	],
+
+   "creatures": [
+   "config/towAltCreatures.json"
+   ],
+
+   "spells": [
+    "config/towSpells.json"
+    ],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.4",
+	
+    "keepDisabled" : false
+}

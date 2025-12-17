@@ -1,0 +1,38 @@
+{
+
+    "hota.artifacts:diplomatsCloak" : {
+      "components#override" : []
+    },
+
+    "hota.artifacts:goldenGoose": {
+      "components#override" : [],
+      "bonuses" : [
+       {
+         "subtype" : "resource.gold",
+         "type" : "GENERATE_RESOURCE",
+         "val" : 7000,
+         "valueType" : "BASE_NUMBER"
+       }
+     ]
+    },
+
+    "hota.artifacts:hornOfTheAbyss": {
+      "class" : "RELIC",
+      "bonuses#override" : [
+       {
+         "addInfo" : 0,
+         "subtype" : "creature.fangarm",
+         "type" : "IMPROVED_NECROMANCY"
+       },
+       {
+        "val" : 50,
+        "type" : "UNDEAD_RAISE_PERCENTAGE"
+      }
+      ]
+    }
+
+
+
+  }
+  
+  

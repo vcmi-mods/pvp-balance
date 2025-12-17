@@ -1,0 +1,49 @@
+{
+
+	"new-pavilion:1_peth-Shub" :
+	{
+
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "waterMagic"
+			}
+		],
+
+
+	"specialty" : {
+		"base" : null,
+		"bonuses" : {
+			"iceBolt" : {
+				"subtype" : "spell.iceBolt",
+				"type" : "SPECIAL_SPELL_LEV",
+				"updater" : "TIMES_HERO_LEVEL",
+				"val" : 10
+			}
+		}
+	},
+
+		"texts" :
+		{
+			"specialty" :
+			{
+				"tooltip" : "Special spell: Ice Bolt",
+				"name" : "Ice Bolt",
+				"description" : "Casts Ice Bolt with damage increased by 10% for every N hero levels, where N is the level of the target creature."
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "pethShub/smallS.bmp",
+			"specialtyLarge" : "pethShub/bigS.bmp",
+			"large" : "pethShub/bigP.bmp",
+			"small" : "pethShub/smallP.bmp"
+		}
+	}
+
+}

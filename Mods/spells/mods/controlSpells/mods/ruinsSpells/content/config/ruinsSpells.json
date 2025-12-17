@@ -1,0 +1,64 @@
+{
+	
+	"core:townPortal" : {
+		"gainChance":
+		{
+			"ruins-town:ruins" : 30
+		}
+	},
+	
+	"core:fireShield" : {
+		"gainChance":
+		{
+			"ruins-town:ruins" : 0
+		}
+	},
+
+	"core:counterstrike" : {
+		"gainChance":
+		{
+			"ruins-town:ruins" : 0
+		}
+	},
+	
+	"core:inferno" : {
+		"gainChance":
+		{
+			"ruins-town:ruins" : 0
+		}
+	},
+	
+	"core:clone" : {
+		"gainChance":
+		{
+			"ruins-town:ruins" : 0
+		}
+	},
+	
+	"core:slayer" : {
+		"gainChance":
+		{
+			"ruins-town:ruins" : 0
+		}
+	},
+
+	"core:sorrow" : {
+		"gainChance":
+		{
+			"ruins-town:ruins" : 0
+		}
+	},
+
+	"core:frenzy" : {
+		"gainChance":
+		{
+			"ruins-town:ruins" : 0
+		}
+	}
+}
+
+	
+	
+	
+	
+	

@@ -1,0 +1,28 @@
+{
+    "name" : "Reworked heroes with Eagle Eye",
+
+    "description" : "Heroes originally starting with Eagle Eye skill/specialty get new starting skills and specialties.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Heroes",
+
+   "heroes": [
+   "config/eagleEyeHeroes.json"
+   ],
+
+   "skills": [
+    "config/eagleEye.json"
+   ],
+   
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.4",
+	
+    "keepDisabled" : false
+}

@@ -1,13 +1,5 @@
 {
 
-"core:learning": {
-		"special" : true
-	},
-
-"core:resistance": {
-    "special" : true
-},
-
 "core:firstAid": {
     "special" : true
 },
@@ -15,8 +7,6 @@
 "core:mysticism": {
     "special" : true
 },
-
-
 
 "core:luck": {
     "special" : true
@@ -39,10 +29,6 @@
 },
 
 "core:intelligence": {
-    "special" : true
-},
-
-"hota.interference:interference": {
     "special" : true
 },
 

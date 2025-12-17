@@ -1,0 +1,28 @@
+{
+    "name" : "Pavilion Town Heroes - Compatibility",
+
+    "description" : "Increased chance for Logistics and Scouting for heroes from Pavilion Town.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+	
+    "heroClasses": [
+      "config/pavilionHeroes.json"
+    ],
+
+  "depends" : [
+    "new-pavilion"
+  ],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.4",
+	
+    "keepDisabled" : false
+}

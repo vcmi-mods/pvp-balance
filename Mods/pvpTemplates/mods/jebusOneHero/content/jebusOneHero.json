@@ -22,17 +22,12 @@
 					{"min" : 7000, "max": 15000, "density" : 1},
 					{"min" : 4000, "max": 7000, "density" : 1}
 				],
-				"customObjects" :
-							{
-								"bannedCategories" : ["creatureBank", "spellScroll", "questArtifact", "seerHut", "resource", "resourceGenerator", "randomArtifact"],
-								"bannedObjects" :["hota.mapobjects:object.townGate.townGate", "core:object.scholar", "core:object.obelisk.object", "core:object.pyramid.pyramid", "core:object.blackMarket.object", "hota.mapobjects:object.colosseumOfTheMagi.colosseumOfTheMagi", 
-							"core:object.arena", "core:object.libraryOfEnlightenment.libraryOfEnlightenment", "core:object.dragonUtopia.dragonUtopia", "core:object.refugeeCamp", "core:object.shrineOfMagicLevel1", "core:object.shrineOfMagicLevel2", "core:object.shrineOfMagicLevel3",
-							"hota.mapobjects:object.shrineOfMagicLevel1.shrineOfMagicMystery", "core:object.warMachineFactory.object", "core:object.learningStone", "core:object.witchHut.witchHut"],
-
-								
-								"commonObjects":
-								[
-					
+				"customObjects" :{
+					"bannedCategories" : ["creatureBank", "spellScroll", "questArtifact", "seerHut", "resource", "resourceGenerator", "randomArtifact"],
+					"bannedObjects" :["core:object.scholar", "core:object.obelisk.object", "core:object.pyramid.pyramid", "core:object.blackMarket.object",  
+					"core:object.arena", "core:object.libraryOfEnlightenment.libraryOfEnlightenment", "core:object.dragonUtopia.dragonUtopia", "core:object.refugeeCamp", "core:object.shrineOfMagicLevel1", "core:object.shrineOfMagicLevel2", "core:object.shrineOfMagicLevel3",
+				    "core:object.warMachineFactory.object", "core:object.learningStone", "core:object.witchHut.witchHut", "pvp-balance.objects:object.controlScrollObject.controlScroll"],
+					"commonObjects":[
 						{
 							"id" : "core:object.eyeOfTheMagi",
 							"rmg" : {
@@ -42,7 +37,7 @@
 									}
 						},
 						{
-							"id" : "pvp-balance.objects:object.dimensionDoorScrollObject.ddScroll",
+							"id" : "pvp-balance.objects:object.townPortalScrollObject.townPortalScroll",
 							"rmg" : {
 									 "value"     : 10000,
 									 "rarity"    : 9999,
@@ -56,9 +51,9 @@
 									 "rarity"    : 9999,
 									 "zoneLimit" : 9
 									}
-					    },
+					    },						
 						{
-							"id" : "pvp-balance.objects:object.townPortalScrollObject.tpScroll",
+							"id" : "pvp-balance.objects:object.dimensionDoorScrollObject.dimensionDoorScroll",
 							"rmg" : {
 									 "value"     : 10000,
 									 "rarity"    : 9999,
@@ -124,22 +119,6 @@
 									}
 						},
 						{
-							"id" : "hota.mapobjects:object.colosseumOfTheMagi.colosseumOfTheMagi",
-							"rmg" : {
-									 "value"     : 3000,
-									 "rarity"    : 9999,
-									 "zoneLimit" : 6
-									}
-						},
-						{
-							"id" : "hota.mapobjects:object.creatureBank.mansion",
-							"rmg" : {
-									 "value"     : 3000,
-									 "rarity"    : 9999,
-									 "zoneLimit" : 9
-									}
-						},
-						{
 							"id" : "core:object.blackMarket.object",
 							"rmg" : {
 									 "value"     : 8000,
@@ -169,14 +148,6 @@
 									 "value"     : 1500,
 									 "rarity"    : 1000,
 									 "zoneLimit" : 6
-									}
-						},
-						{
-							"id" : "hota.mapobjects:object.townGate.townGate",
-							"rmg" : {
-									 "value"     : 5000,
-									 "rarity"    : 9999,
-									 "zoneLimit" : 4
 									}
 						},
 						{
@@ -213,11 +184,11 @@
 	{
 		"bannedCategories" : ["creatureBank", "spellScroll", "questArtifact", "seerHut", "resource", "resourceGenerator", "randomArtifact"],
 		"bannedObjects" :["core:object.warriorTomb", "core:object.refugeeCamp", "core:object.blackMarket", "core:object.tavern", "core:object.obelisk",
-		"hota.mapobjects:object.townGate.townGate", "core:object.campfire", "core:object.libraryOfEnlightenment.libraryOfEnlightenment", "core:object.arena", 
-		"hota.mapobjects:object.colosseumOfTheMagi.colosseumOfTheMagi", "hota.mapobjects:object.skeletonTransformer.skeletonTransformer", "hota.mapobjects:object.wateringPlace.wateringPlace","core:object.scholar", "core:object.witchHut.witchHut", "core:object.denOfThieves.object",
-		"core:object.learningStone", "core:object.shrineOfMagicLevel1", "core:object.shrineOfMagicLevel2", "core:object.shrineOfMagicLevel3", "hota.mapobjects:object.shrineOfMagicLevel1.shrineOfMagicMystery",
-		"core:object.tradingPost", "core:object.tradingPostDUPLICATE", "core:object.dragonUtopia.dragonUtopia", "hota.mapobjects:object.ancientLamp.ancientLamp",
-		"core:object.schoolOfMagic", "core:object.schoolOfWar", "core:object.marlettoTower", "core:object.mercenaryCamp", "core:object.gardenOfRevelation", "core:object.starAxis", "pvp-balance:object.magicUniversityFull.magicUniversityFull", "core:object.stables"  ],
+		"core:object.campfire", "core:object.libraryOfEnlightenment.libraryOfEnlightenment", "core:object.arena", 
+		"core:object.scholar", "core:object.witchHut.witchHut", "core:object.denOfThieves.object",
+		"core:object.learningStone", "core:object.shrineOfMagicLevel1", "core:object.shrineOfMagicLevel2", "core:object.shrineOfMagicLevel3", 
+		"core:object.tradingPost", "core:object.tradingPostDUPLICATE", "core:object.dragonUtopia.dragonUtopia", 
+		"core:object.schoolOfMagic", "core:object.schoolOfWar", "core:object.marlettoTower", "core:object.mercenaryCamp", "core:object.gardenOfRevelation", "core:object.starAxis",  "core:object.stables", "pvp-balance.objects:object.controlScrollObject.controlScroll"],
 		"commonObjects":
 					[
 					
@@ -238,15 +209,7 @@
 								}
 					},
 					{
-						"id" : "hota.mapobjects:object.townGate.townGate",
-						"rmg" : {
-								 "value"     : 5000,
-								 "rarity"    : 9999,
-								 "zoneLimit" : 3
-								}
-					},
-					{
-						"id" : "pvp-balance:object.magicUniversityFull.magicUniversityFull",
+						"id" : "pvp-balance.objects:object.magicUniversityFull.magicUniversityFull",
 						"rmg" : {
 								 "value"     : 5000,
 								 "rarity"    : 9999,
@@ -418,30 +381,6 @@
 								 "zoneLimit" : 2
 								}
 					},
-					{
-						"id" : "hota.mapobjects:object.colosseumOfTheMagi.colosseumOfTheMagi",
-						"rmg" : {
-								 "value"     : 3000,
-								 "rarity"    : 200,
-								 "zoneLimit" : 1
-								}
-					},
-					{
-						"id" : "hota.mapobjects:object.creatureBank.mansion",
-						"rmg" : {
-								 "value"     : 3000,
-								 "rarity"    : 1000,
-								 "zoneLimit" : 2
-								}
-						},
-						{
-						"id" : "hota.highlandsterrain:object.creatureBank.churchyard",
-						"rmg" : {
-								 "value"     : 1500,
-								 "rarity"    : 1000,
-								 "zoneLimit" : 2
-								}
-						},
 						{
 							"id" : "core:object.scholar",
 							"rmg" : {
@@ -499,27 +438,11 @@
 									}
 						},
 						{
-							"id" : "hota.mapobjects:object.shrineOfMagicLevel1.shrineOfMagicMystery",
-							"rmg" : {
-									 "value"     : 3000,
-									 "rarity"    : 1000,
-									 "zoneLimit" : 3
-									}
-						},
-						{
 							"id" : "core:object.dragonUtopia.dragonUtopia",
 							"rmg" : {
 									 "value"     : 5000,
 									 "rarity"    : 9999,
 									 "zoneLimit" : 2
-									}
-						},
-						{
-							"id" : "hota.mapobjects:object.ancientLamp.ancientLamp",
-							"rmg" : {
-									"value"     : 5000,
-									"rarity"    : 1000,
-									"zoneLimit" : 7
 									}
 						},
 						{
@@ -570,15 +493,6 @@
 									 "zoneLimit" : 2
 									}
 						}
-						
-
-
-					
-					
-
-
-
-
 					
 				]
 	}
@@ -598,7 +512,8 @@
 			"4":
 			{
 				"type" : "playerStart", "size" : 15, "owner" : 3,
-				"neutralTowns" : { "castles" : 4},
+				"playerTowns" : { "castles" : 2 },
+				"neutralTowns" : { "castles" : 2 },
 				"monsters" : "weak",
 				"matchTerrainToTown" : true,
 				"townsAreSameType" : true,
@@ -609,7 +524,8 @@
 			"5":
 			{
 				"type" : "playerStart", "size" : 15, "owner" : 4,
-				"neutralTowns" : { "castles" : 4 },
+				"playerTowns" : { "castles" : 2 },
+				"neutralTowns" : { "castles" : 2 },
 				"monsters" : "weak",
 				"matchTerrainToTown" : true,
 				"townsAreSameType" : true,
@@ -621,6 +537,7 @@
 			{
 				"type" : "treasure", "size" : 3,
 				"neutralTowns" : { "castles" : 1 },
+				"allowedTowns" : ["confluxCopy"],
 				"monsters" : "strong",
 				"terrainTypes" : [ "sand" ], "matchTerrainToTown" : false,
 				"mines" : {"gold" : 3},
@@ -629,7 +546,6 @@
 								{"min" : 2500, "max": 12000, "density": 4},
 								{"min" : 500, "max": 4000, "density": 4}
 							],
-				"allowedTowns" : ["confluxCopy"], 
 				"customObjects" :
 				{
 					"bannedCategories" : ["all"],
@@ -642,14 +558,6 @@
 												 "value"     : 3000,
 												 "rarity"    : 9999,
 												 "zoneLimit" : 2
-												}
-									},
-									{
-										"id" : "hota.mapobjects:object.creatureBank.mansion",
-										"rmg" : {
-												 "value"     : 3000,
-												 "rarity"    : 9999,
-												 "zoneLimit" : 1
 												}
 									},
 									{
@@ -765,22 +673,6 @@
 												 "rarity"    : 9999,
 												 "zoneLimit" : 1
 												}
-									},
-									{
-										"id" : "hota.mapobjects:object.shrineOfMagicLevel1.shrineOfMagicMystery",
-										"rmg" : {
-												 "value"     : 7000,
-												 "rarity"    : 9999,
-												 "zoneLimit" : 2
-												}
-									},
-									{
-										"id" : "hota.mapobjects:object.colosseumOfTheMagi.colosseumOfTheMagi",
-										"rmg" : {
-												 "value"     : 3000,
-												 "rarity"    : 9999,
-												 "zoneLimit" : 1
-												}
 									}
 
 								]					
@@ -790,33 +682,33 @@
 			{
 				"type" : "treasure", "size" : 3,
 				"neutralTowns" : { "castles" : 1 },
+				"allowedTowns" : ["confluxCopy"],
 				"monsters" : "strong",
 				"terrainTypes" : [ "sand" ], "matchTerrainToTown" : false,
 				"treasureLikeZone" : 6,
 				"minesLikeZone" : 6,
-				"allowedTowns" : ["confluxCopy"], 
 				"customObjectsLikeZone" : 6
 			},
 			"8":
 			{
 				"type" : "treasure", "size" : 3,
 				"neutralTowns" : { "castles" : 1 },
+				"allowedTowns" : ["confluxCopy"],
 				"monsters" : "strong",
 				"terrainTypes" : [ "sand" ], "matchTerrainToTown" : false,
 				"treasureLikeZone" : 6,
 				"minesLikeZone" : 6,
-				"allowedTowns" : ["confluxCopy"], 
 				"customObjectsLikeZone" : 6
 			},
 			"9":
 			{
 				"type" : "treasure", "size" : 3,
 				"neutralTowns" : { "castles" : 1 },
+				"allowedTowns" : ["confluxCopy"],
 				"monsters" : "strong",
 				"terrainTypes" : [ "sand" ], "matchTerrainToTown" : false,
 				"treasureLikeZone" : 6,
 				"minesLikeZone" : 6,
-				"allowedTowns" : ["confluxCopy"], 
 				"customObjectsLikeZone" : 6
 			}
 

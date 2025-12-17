@@ -4,16 +4,6 @@
 		"types" :
 		{
 			"griffinConservatory" : {
-				"blockedVisitable" : false,
-				"onGuardedMessage" : 32,
-				"onVisitedMessage" : 33,
-				"visitMode" : "once",
-				"selectMode" : "selectFirst",
-				"guardsLayout" : "creatureBankWide",
-				"rmg" : {
-					"value"		: 2000,
-					"rarity"	: 100
-				},
 				"rewards": [
 					{
 						"message" : 34,

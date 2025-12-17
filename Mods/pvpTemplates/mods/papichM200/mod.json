@@ -1,7 +1,7 @@
 {
     "name" : "Papich M200 Pack",
 
-    "description" : "PvP templates.",
+    "description" : "A pack of M-sized classic templates. The template variants are marked as A, B etc. on the template list in the game.<br><br><u>Recommended settings:</u><br><br>Size: M<br>Players: 2<br>Monsters: strong<br>Roads: all types<br>Water: none<br>Difficulty: 200%<br>Simultaneous turns: 113<br>Timer: 4-3-1:30<br>Restarts: 2x111/1x112",
 
     "author" : "wnukos",
 
@@ -9,23 +9,21 @@
 
     "modType" : "Templates",
 	
-    "templates" : [ "2M-5Z-1T.json", "2M-5Z-2T.json", "2M-5Z-3T.json", "2M-6Z-1T.json", "2M-6Z-2T.json", "2M-6Z-3T.json", "2L-7Z-3T.json"],
-
-    "compatibility" :
-	{
-		"min" : "1.6"
-	},
-
-    "depends" : 
-	[
-		"hota",
-        "hota.mapObjects",
-        "hota.gameBalance",
-        "hota.highlandsTerrain",
-        "hota.mapdecorations"
+    "templates" : [ 
+        "2M-5Z-1T.json",
+        "2M-5Z-2T.json",
+        "2M-5Z-3T.json",
+        "2M-6Z-1T.json",
+        "2M-6Z-2T.json",
+        "2M-6Z-3T.json",
+        "2L-7Z-3T.json"
     ],
 
+    "compatibility" : {
+		"min" : "1.6"
+	},
 	
-    "version" : "1.3",
+    "version" : "1.4",
+
     "keepDisabled" : false
 }

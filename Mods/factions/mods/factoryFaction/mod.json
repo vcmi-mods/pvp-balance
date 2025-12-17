@@ -1,0 +1,32 @@
+{
+    "name" : "HotA Factory - Compatibility",
+
+    "description" : "Rebalanced buildings for Factory town from Horn of the Abyss mod.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+    
+    "depends" : 
+	[
+		"hota.factory"
+	],
+
+
+
+   "factions": [
+    "config/factoryFaction.json"
+    ],
+
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.4",
+	
+    "keepDisabled" : false
+}

@@ -1,0 +1,36 @@
+{
+    "name" : "Small map adjustments",
+
+    "description" : "This mod introduces changes of some hero properties adjusted to small templates: lower sight radius, lower base movement, higher amount of gained experience.",
+
+    "author" : "Warzyw647",
+
+    "licenseName" : "Creative Commons Attribution-ShareAlike",
+
+    "licenseURL" : "https://creativecommons.org/licenses/by-sa/4.0/",
+
+    "contact" : "warzyw647 on heroes-themed Discords",
+
+    "modType" : "Templates",
+
+    "templates" : [ "brawl.json", "brawl-ffa.json" ],
+	
+	"version" : "1.06",
+ 
+    "changelog" :
+    {
+        "1.0"   : [ "Initial" ]
+        
+    },
+
+	"compatibility" :
+	{
+		"min" : "1.4.0"
+	},
+	
+    "keepDisabled" : true,
+    "chinese" : {
+		"name" : "Brawl模板H3原版平衡修改小物件",
+    	"description" : "专为Brawl模板定制的物件，主要是平衡修改H3原版宝屋守卫和奖励，以及一些野外设施，适用于小型地图（译者注：个人极度不推荐在L以上的地图开启此模组）。<br>禁用避难所、野外的酒馆和马厩，<br>禁止随机地图生成红木了望塔，启用黑暗天幕替换。<br>狮鹫宝屋：5队总数15-30狮鹫守卫，奖励2-5僧侣，<br>龙蝇宝屋：5队总数15-30蜥蜴人守卫，奖励4-7毒蝇，<br>独眼宝屋：4队3-6半兽人及1只独眼巨人守卫，奖励1-4份全资源及2-3食人魔，<br>矮人宝屋：4队3-9矮人及1队1-2飞马守卫，奖励1000-2500金币、2-5水晶、1飞马/枯木卫士/金人/钻石人，<br>怪物宝屋：5队各10-20小怪物守卫，奖励2-4水银、500-1000金币、4哥革/3地狱犬/2恶鬼/1邪神，<br>美杜莎宝屋：5队总数9-14美杜莎守卫，奖励3-4硫磺、1000-1600金币、2-3邪眼/美杜莎，<br>蛇妖宝屋：4队每队3-6石像鬼及1队1蛇女守卫，奖励2-4宝石、600-1200金币、5矮人/5石像鬼/2美杜莎/1蛇女，<br>墓地：30%概率3队每队8个骷髅兵和2队每队5个行尸守卫，奖励799黄金。<br>30%概率2队每队10个骷髅兵、2队每队5个行尸、1队3个幽灵守卫，奖励999黄金。<br>30%概率10个骷髅兵、5个行尸、3个幽灵和1个吸血鬼守卫，奖励999黄金、1个幽灵和1个低级宝物。<br>10%概率10个骷髅兵、5个行尸、3个幽灵和2个吸血鬼守卫，奖励999黄金、2个幽灵和1个低级宝物。<br>所有可升级的生物，无论是守卫还是奖励生物，都可能出现升级后的生物。<br>所有宝屋每4天刷新一次。"
+    }
+}

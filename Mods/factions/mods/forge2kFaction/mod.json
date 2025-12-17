@@ -1,0 +1,33 @@
+{
+    "name" : "Heavenly Forge 2000 - Compatibility",
+
+    "description" : "Rebalanced starting army rolls and buildings for Heavenly Forge 2000.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+    
+    "depends" : 
+	[
+		"forge2k"
+	],
+
+   "heroes": [
+   "config/forge2kStartingArmies.json"
+   ],
+
+   "factions": [
+    "config/forge2kFaction.json"
+    ],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.4",
+	
+    "keepDisabled" : false
+}

@@ -1,0 +1,68 @@
+{
+
+	"core:artillery" : {
+		"base": {
+			"effects": {
+
+				"cannonHealthPointBonus" : 	{ 
+							"type": "STACK_HEALTH", 
+							"val": 50, 
+							"duration": "ONE_BATTLE",	
+							"limiters": [ 
+							{"type" : "CREATURE_TYPE_LIMITER", "parameters" : [ "cannon", true]	} ]
+				},
+
+				"cannonExtra" : {
+					"subtype" : "creature.cannon",
+					"type" : "BONUS_DAMAGE_CHANCE",
+					"valueType" : "BASE_NUMBER"
+				},
+
+				"damagePower" : {
+					"subtype" : "creature.cannon",
+					"type" : "BONUS_DAMAGE_PERCENTAGE",
+					"valueType" : "BASE_NUMBER"
+				}
+
+				}
+			},
+
+		"basic" : {
+		   "description" : "{Basic Artillery}\n\n Gives the hero control of the Ballista, Arrow Towers, and the Cannon. The Ballista has a 50% chance to inflict 200% base Damage. The Cannon has an increased chance to hit fortifications. Health points of the Ballista and Cannon are increased by 50.",
+			"effects" : {
+
+				"cannonHealthPointBonus" : 	{ 
+							"val": 50
+				},
+				"cannonExtra" : { "val" : 0 },
+				"damagePower" : { "val" : 0 }
+		   	}
+	   		},
+
+			"advanced" : {
+			   "description" : "{Advanced Artillery}\n\n Gives the hero control of the Ballista, Arrow Towers, and the Cannon. The Ballista shoots twice and has a 75% chance to inflict 200% base Damage. The Cannon has an increased chance to hit fortifications and inflicts 200% base Damage to creatures. Health points of the Ballista and Cannon are increased by 100.",
+			   "effects" : {
+
+					"cannonHealthPointBonus" : 	{ 
+							"val": 100
+					},
+					"cannonExtra" : { "val" : 75 },
+					"damagePower" : { "val" : 100 }
+			   	}
+		   		},
+			
+			"expert" : {
+				"description" : "{Expert Artillery}\n\n Gives the hero control of the Ballista, Arrow Towers, and the Cannon. The Ballista shoots twice and inflicts 200% base Damage. The Cannon precisely hits fortifications at maximum Damage and inflicts 300% base Damage to creatures. Health points of the Ballista and Cannon are increased by 150.",
+			   "effects" : {
+
+					"cannonHealthPointBonus" : 	{ 
+						"val": 150
+					},
+					"cannonExtra" : { "val" : 100 },
+					"damagePower" : { "val" : 200 }
+				}
+			   }
+
+	}
+	
+}

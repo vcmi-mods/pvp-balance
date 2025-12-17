@@ -1,0 +1,155 @@
+{
+	
+	"core:townPortal" : {
+		"gainChance":
+		{
+			"castle" : 30,
+			"rampart" : 30,
+			"tower" : 30,
+			"inferno" : 30,
+			"necropolis" : 30,
+			"dungeon" : 30,
+			"conflux" : 30
+		}
+	},
+	"core:dimensionDoor" : {
+		"gainChance":
+		{
+			"rampart" : 35,
+			"tower" : 35,
+			"inferno" : 35,
+			"necropolis" : 35,
+			"dungeon" : 35,
+			"conflux" : 35
+		}
+	},
+	"core:fly" : {
+		"gainChance":
+		{
+			"rampart" : 25,
+			"tower" : 25,
+			"inferno" : 25,
+			"necropolis" : 25,
+			"dungeon" : 25,
+			"conflux" : 25
+		}
+	},
+
+	"core:magicMirror" : {
+
+		"defaultGainChance": 0,
+		"gainChance":
+		{
+			"rampart" : 0,
+			"tower" : 0,
+			"inferno" : 0,
+			"necropolis" : 0,
+			"dungeon" : 0,
+			"conflux" : 0
+		}
+	},
+	
+	"core:fireShield" : {
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+			"castle" : 0,
+			"rampart" : 0,
+			"tower" : 0,
+			"inferno" : 0,
+			"necropolis" : 0,
+			"dungeon" : 0,
+			"conflux" : 0
+		}
+	},
+
+	"core:counterstrike" : {
+		"defaultGainChance": 0,
+		"gainChance":
+		{
+			"castle" : 0,
+			"rampart" : 0,
+			"tower" : 0,
+			"inferno" : 0,
+			"necropolis" : 0,
+			"dungeon" : 0,
+			"conflux" : 0
+		}
+	},
+	
+	"core:inferno" : {
+		"defaultGainChance": 0,
+		"gainChance":
+		{
+			"castle" : 0,
+			"rampart" : 0,
+			"tower" : 0,
+			"inferno" : 0,
+			"necropolis" : 0,
+			"dungeon" : 0,
+			"conflux" : 0
+		}
+	},
+	
+	"core:clone" : {
+		"defaultGainChance": 0,
+		"gainChance":
+		{
+			"castle" : 0,
+			"rampart" : 0,
+			"tower" : 0,
+			"inferno" : 0,
+			"necropolis" : 0,
+			"dungeon" : 0,
+			"conflux" : 0
+		}
+	},
+	
+	"core:slayer" : {
+		"defaultGainChance": 0,
+		"gainChance":
+		{
+			"castle" : 0,
+			"rampart" : 0,
+			"tower" : 0,
+			"inferno" : 0,
+			"necropolis" : 0,
+			"dungeon" : 0,
+			"conflux" : 0
+		}
+	},
+
+	"core:sorrow" : {
+		"defaultGainChance": 0,
+		"gainChance":
+		{
+			"castle" : 0,
+			"rampart" : 0,
+			"tower" : 0,
+			"inferno" : 0,
+			"necropolis" : 0,
+			"dungeon" : 0,
+			"conflux" : 0
+		}
+	},
+
+	"core:frenzy" : {
+		"defaultGainChance": 0,
+		"gainChance":
+		{
+			"castle" : 0,
+			"rampart" : 0,
+			"tower" : 0,
+			"inferno" : 0,
+			"necropolis" : 0,
+			"dungeon" : 0,
+			"conflux" : 0
+		}
+	}
+}
+
+	
+	
+	
+	
+	

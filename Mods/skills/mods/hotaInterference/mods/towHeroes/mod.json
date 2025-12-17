@@ -1,0 +1,30 @@
+{
+    "name" : "ToW Heroes - HotA compatibility",
+
+    "description" : "Heroes from Tides of War starting with Resistance get Interference skill instead.",
+
+    "author" : "wnukos",
+
+    "contact" : "wnukos on Discord",
+
+    "modType" : "Compatibility",
+    
+    "depends" : 
+	[
+		"tides-of-war.heroes",
+        "hota.interference"
+	],
+
+   "heroes": [
+   "config/towHeroes.json"
+   ],
+
+	"compatibility" :
+	{
+		"min" : "1.6"
+	},
+	
+    "version" : "1.4",
+	
+    "keepDisabled" : false
+}
